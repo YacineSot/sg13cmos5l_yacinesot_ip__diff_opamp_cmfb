@@ -1,0 +1,13 @@
+v {xschem version=3.4.8RC file_version=1.3}
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname schname=@schname"
+template="name=x1 schname=tcleval([file rootname [file tail [xschem get schname]]])"
+}
+V {}
+S {}
+F {}
+E {}
+P 4 5 130 -10 -130 -10 -130 10 130 10 130 -10 {}
+T {@symname} -90 -6 0 0 0.3 0.3 {}
+T {@name} 135 -22 0 0 0.2 0.2 {}
