@@ -7,10 +7,9 @@ F {}
 E {}
 N -100 -90 -100 -50 {lab=IN}
 N -100 10 -100 40 {lab=#net1}
-N -100 -90 -50 -90 {lab=IN}
+N -100 -90 50 -90 {lab=IN}
 N -100 100 -100 120 {lab=0}
 N -330 -90 -100 -90 {lab=IN}
-N 10 -90 50 -90 {lab=#net2}
 N 110 -90 180 -90 {lab=OUT}
 C {capa.sym} -100 -20 2 1 {name=C1
 m=1
@@ -26,8 +25,3 @@ m=1
 value=1G
 footprint=1206
 device=inductor}
-C {res.sym} -20 -90 1 0 {name=R1
-value=1m
-footprint=1206
-device=resistor
-m=1}

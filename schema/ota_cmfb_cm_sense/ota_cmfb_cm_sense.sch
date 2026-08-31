@@ -14,9 +14,9 @@ C {ipin.sym} -160 -200 0 0 {name=p5 sig_type=std_logic lab=Voutp}
 C {ipin.sym} -20 -200 0 1 {name=p7 sig_type=std_logic lab=Voutn}
 C {sg13cmos5l_pr/rhigh.sym} -20 -80 0 0 {name=R1
 w=0.5e-6
-l="1e-6*20"
+l="1e-6*10"
 model=rhigh
-body=VSS
+body=0
 spiceprefix=X
 serial_res=10
 b=0
@@ -26,9 +26,9 @@ value="expr_eng( ( 1.6e-4 / @w + 1360.0 * ( (@b + 1)* @l + ( 1.081*( @w - 0.04e-
 }
 C {sg13cmos5l_pr/rhigh.sym} -160 -80 0 0 {name=R2
 w=0.5e-6
-l="1e-6*20"
+l="1e-6*10"
 model=rhigh
-body=VSS
+body=0
 spiceprefix=X
 serial_res=10
 b=0
@@ -37,7 +37,3 @@ mm_ok=1
 value="expr_eng( ( 1.6e-4 / @w + 1360.0 * ( (@b + 1)* @l + ( 1.081*( @w - 0.04e-6 ) + 0.18e-6 )*@b ) / ( @w - 0.04e-6 ) ) / @m  )"
 }
 C {opin.sym} -20 0 0 0 {name=p1 sig_type=std_logic lab=VCM}
-C {iopin.sym} 390 -40 0 1 {name=p2 sig_type=std_logic lab=VDD}
-C {iopin.sym} 560 -380 0 1 {name=p3 sig_type=std_logic lab=VSS}
-C {ipin.sym} 310 -390 0 0 {name=p8 sig_type=std_logic lab=VREF}
-C {opin.sym} 270 -270 0 0 {name=p11 sig_type=std_logic lab=VREF_OUT}
