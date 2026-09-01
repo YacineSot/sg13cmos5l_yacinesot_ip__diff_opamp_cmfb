@@ -5,7 +5,6 @@ V {}
 S {}
 F {}
 E {}
-N -130 -140 -130 -110 {lab=#net1}
 N -40 -140 50 -140 {lab=#net1}
 N 50 -140 50 -110 {lab=#net1}
 N 50 -10 50 10 {lab=Voutp_st1}
@@ -43,17 +42,18 @@ N -540 60 -500 60 {lab=EN}
 N 530 -190 530 -170 {lab=VDD}
 N 530 -50 530 -20 {lab=VSS}
 N 550 -60 550 -30 {lab=Ibias}
-N 630 -110 690 -110 {lab=Voutp}
 N 420 -110 450 -110 {lab=#net2}
 N -730 -180 -730 -160 {lab=VDD}
 N -730 -40 -730 -10 {lab=VSS}
 N -750 -50 -750 -20 {lab=Ibias}
-N -890 -100 -830 -100 {lab=Voutn}
 N -650 -100 -620 -100 {lab=#net3}
 N 420 -150 420 -110 {lab=#net2}
-N 420 -240 420 -210 {lab=Voutn_st1}
-N -620 -210 -620 -180 {lab=Voutp_st1}
 N -620 -120 -620 -100 {lab=#net3}
+N -620 -270 -620 -180 {lab=Voutp_st1}
+N -890 -100 -830 -100 {lab=Voutn}
+N 420 -280 420 -210 {lab=Voutn_st1}
+N 630 -110 690 -110 {lab=Voutp}
+N -130 -140 -130 -110 {lab=#net1}
 C {sg13cmos5l_pr/sg13_lv_nmos.sym} 30 40 0 0 {name=M1
 l=10u
 w=0.5u
@@ -147,3 +147,15 @@ C {/foss/designs/Chipalooza2/schema/ota_cmfb_core/ota_cmfb_core_push_pull_output
 C {/foss/designs/Chipalooza2/schema/ota_cmfb_core/ota_cmfb_core_push_pull_output_stage.sym} -730 -100 0 1 {name=xsf2}
 C {ammeter.sym} 420 -180 0 0 {name=Vmeas savecurrent=true spice_ignore=0}
 C {ammeter.sym} -620 -150 0 0 {name=Vmeas1 savecurrent=true spice_ignore=0}
+C {res.sym} 0 -430 1 1 {name=R1
+value=10k
+footprint=1206
+device=resistor
+m=1
+spice_ignore=true}
+C {res.sym} -190 -430 1 1 {name=R2
+value=10k
+footprint=1206
+device=resistor
+m=1
+spice_ignore=true}

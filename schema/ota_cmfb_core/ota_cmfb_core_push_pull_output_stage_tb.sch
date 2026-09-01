@@ -32,18 +32,6 @@ write @schname\\\\.raw
 .endc
 "
 }
-C {simulator_commands_shown.sym} -920 -460 0 0 {
-name=Libs_Ngspice
-simulator=ngspice
-only_toplevel=false
-value="
-.lib cornerMOSlv.lib mos_tt
-.lib cornerMOShv.lib mos_tt
-.lib cornerRES.lib res_typ
-.lib cornerDIO.lib dio_tt
-.include /foss/designs/Chipalooza2/schema/tian_probe/tian_subckt.lib
-"
-      }
 C {devices/launcher.sym} 440 120 0 0 {name=h2
 descr="OP annotate" 
 tclcommand="xschem annotate_op"
@@ -91,7 +79,7 @@ C {code_shown.sym} -1200 -430 0 0 {name=PARAMS only_toplevel=false value="
 C {code_shown.sym} -610 -240 0 0 {name=LOAD only_toplevel=false value="
 RL1 Vout 0 10k
 "
-}
+spice_ignore=true}
 C {devices/code_shown.sym} -1220 -600 0 0 {name=SAVE only_toplevel=true
 format="tcleval( @value )"
 value="
@@ -121,3 +109,16 @@ C {lab_pin.sym} 310 -280 0 1 {name=p6 lab=Ibias}
 C {lab_pin.sym} -30 70 0 1 {name=p4 lab=Ibias}
 C {ammeter.sym} -180 -10 1 0 {name=Vmeas savecurrent=true spice_ignore=0}
 C {/foss/designs/Chipalooza2/schema/ota_cmfb_core/ota_cmfb_core_push_pull_output_stage.sym} -50 -10 0 0 {name=xsf1}
+C {simulator_commands_shown.sym} -890 -480 0 0 {
+name=Libs_Ngspice
+simulator=ngspice
+only_toplevel=false
+value="
+.lib cornerMOSlv.lib mos_tt
+.lib cornerMOShv.lib mos_tt
+.lib cornerMOSCAP.lib moscap_tt
+.lib cornerCAP.lib cap_typ
+.lib cornerRES.lib res_typ
+.lib cornerDIO.lib dio_tt
+"
+      }

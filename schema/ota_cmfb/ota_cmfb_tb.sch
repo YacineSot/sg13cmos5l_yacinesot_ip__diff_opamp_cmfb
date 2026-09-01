@@ -10,12 +10,14 @@ B 4 -530 -690 -70 -250 {fill=0}
 B 4 -40 -690 650 -250 {fill=0}
 B 4 -530 -230 -10 40 {fill=0}
 B 4 10 -230 530 40 {fill=0}
+B 4 -530 50 530 460 {fill=0}
 T {SPICE SIMULATION} -1350 -680 0 0 0.4 0.4 {}
 T {IMPEDENCE AMPLIFIER BEHAVIOUR} -510 -670 0 0 0.4 0.4 {}
 T {FEEDBACK LOOP} 260 -660 0 0 0.4 0.4 {}
 T {AC ANALYSIS PROBE} -520 -210 0 0 0.4 0.4 {}
 T {CORE OPAMP} 300 -220 0 0 0.4 0.4 {}
 T {DISABLED} -510 -640 0 0 0.4 0.4 {}
+T {MONTE CARLO PYTHON} -520 80 0 0 0.4 0.4 {}
 N 210 -200 210 -160 {lab=VDD}
 N 230 -180 230 -150 {lab=EN}
 N 230 -50 230 10 {lab=Ibias}
@@ -45,7 +47,6 @@ N 150 -670 150 -640 {lab=Voutp}
 N 150 -320 150 -280 {lab=Voutn}
 N 190 -480 270 -480 {lab=Vcm_calc}
 N 270 -430 340 -430 {lab=Vcm_calc}
-N 270 -490 270 -480 {lab=Vcm_calc}
 N 420 -560 420 -520 {lab=VDD}
 N 440 -540 440 -510 {lab=EN}
 N 440 -410 440 -350 {lab=Ibias}
@@ -58,8 +59,7 @@ N 430 -90 470 -90 {lab=Voutp}
 N 340 -510 340 -490 {lab=Vcm}
 N 330 -510 340 -510 {lab=Vcm}
 N 270 -480 270 -430 {lab=Vcm_calc}
-N 260 -430 270 -430 {lab=Vcm_calc}
-C {/foss/designs/Chipalooza2/schema/ota_cmfb_core/ota_cmfb_core.sym} 210 -100 0 0 {name=x1}
+C {/foss/designs/Chipalooza2/schema/ota_cmfb_core/ota_cmfb_core.sym} 210 -100 0 0 {name=xopamp1}
 C {lab_pin.sym} 210 -200 0 1 {name=p1 lab=VDD}
 C {lab_pin.sym} 100 -100 0 0 {name=p2 lab=Vcm_reg}
 C {lab_pin.sym} 90 -70 0 0 {name=p3 lab=Vinn}
@@ -77,7 +77,7 @@ VEN EN VSS 0
 Vcm Vcm VSS \{vcm\}
 Ibias VDD Ibias 2.5u
 "}
-C {code_shown.sym} -1350 -180 0 0 {name=OP_SIM only_toplevel=false
+C {code_shown.sym} -1340 -180 0 0 {name=OP_SIM only_toplevel=false
 format="tcleval( @value )" value="
 .control
 op
@@ -87,7 +87,7 @@ print ro_n ro_p
 write @schname\\\\.raw
 .endc
 "
-}
+spice_ignore=true}
 C {simulator_commands_shown.sym} -1350 -500 0 0 {
 name=Libs_Ngspice
 simulator=ngspice
@@ -95,38 +95,49 @@ only_toplevel=false
 value="
 .lib cornerMOSlv.lib mos_tt
 .lib cornerMOShv.lib mos_tt
+.lib cornerMOSCAP.lib moscap_tt
+.lib cornerCAP.lib cap_typ
 .lib cornerRES.lib res_typ
 .lib cornerDIO.lib dio_tt
-.include /foss/designs/Chipalooza2/schema/tian_probe/tian_subckt.lib
 "
-      }
+      spice_ignore=true}
 C {lab_pin.sym} 220 -480 1 0 {name=p17 lab=Vcm_calc}
 C {devices/launcher.sym} -770 420 0 0 {name=h2
 descr="OP annotate" 
 tclcommand="xschem annotate_op"
 }
-C {code_shown.sym} -920 -250 0 0 {name=AC_SIM only_toplevel=false value="
+C {code_shown.sym} -1080 -380 0 0 {name=AC_SIM only_toplevel=false value="
 .control
 ac dec 50 100 100G
 let vout_diff = voutp-voutn
 let vin_diff = vinp-vinn
 let diff_gain=vout_diff/vin_diff
 let op_mag=db(diff_gain)
-let op_ph = 180*cph(-diff_gain)/pi
-plot op_mag op_ph
+let op_ph = 180*cph(diff_gain)/pi + 180
+let vcm_1 = (voutp+voutn)/2
+let vcm_err = mag((vcm_1 - \{vcm\}))[0]
+echo results_save_begin
+meas ac dc_gain find op_mag when frequency=1000
+meas ac gain_margin find op_mag when op_ph=0
+meas ac phase_margin find op_ph when op_mag=0
+meas ac bw_3db find frequency when op_mag=dc_gain-3
+meas ac Gain_BW find frequency when op_mag=0
+print vcm_err
+echo results_save_end
+//plot op_mag op_ph
 .endc
 "
 }
 C {code_shown.sym} -930 -580 0 0 {name=PARAMS only_toplevel=false value="
 .option rshunt=1e9
-.param vcm=0.6 vcm_in=0.75 cl=0.5p
+.param vcm=0.75 vcm_in=0.75 cl=0.01p
 .save all
 "}
 C {lab_pin.sym} -130 -80 2 0 {name=p21 lab=Voutn}
 C {lab_pin.sym} -450 -80 2 1 {name=p22 lab=Vinp}
 C {lab_pin.sym} -130 -60 0 1 {name=p23 lab=Voutp}
 C {lab_pin.sym} -450 -60 0 0 {name=p24 lab=Vinn}
-C {code_shown.sym} -920 -340 0 0 {name=LOAD only_toplevel=false value="
+C {code_shown.sym} -940 -470 0 0 {name=LOAD only_toplevel=false value="
 CL1 Voutp 0 \{cl\}
 CL2 Voutn 0 \{cl\}
 "
@@ -163,7 +174,7 @@ C {ammeter.sym} 400 -110 3 0 {name=Vmeas2 savecurrent=true spice_ignore=0}
 C {ammeter.sym} 400 -90 3 1 {name=Vmeas3 savecurrent=true spice_ignore=0}
 C {ammeter.sym} -230 -60 1 0 {name=Vmeas4 savecurrent=true spice_ignore=0}
 C {ammeter.sym} -230 -80 1 1 {name=Vmeas5 savecurrent=true spice_ignore=0}
-C {code_shown.sym} -930 110 0 0 {name=TRAN_SIM only_toplevel=false value="
+C {code_shown.sym} -930 40 0 0 {name=TRAN_SIM only_toplevel=false value="
 Vinp Vinp 0 sin(\{vcm_in\} 100u 1k)
 Vinn Vinn 0 sin(\{vcm_in\} -100u 1k)
 .control
@@ -227,3 +238,76 @@ plot $ph_pcmd
 .endc
 "
 spice_ignore=true}
+C {code_shown.sym} -520 150 0 0 {name=MC_SETTINGS
+only_toplevel=false
+value="
+**nr_workers=1
+**nr_mc_sims=100
+
+**results_plot_begin
+**dc_gain
+**gain_margin
+**phase_margin
+**bw_3db
+**Gain_BW
+**vcm_err
+**results_plot_end
+"
+}
+C {launcher.sym} -450 425 0 0 {name=h1
+descr=SimulatePARALLEL
+tclcommand="
+# Setup the default simulation commands if not already set up
+# for example by already launched simulations.
+set_sim_defaults
+puts $sim(spice,1,cmd) 
+
+# Change the Xyce command. In the spice category there are currently
+# 5 commands (0, 1, 2, 3, 4). Command 3 is the Xyce batch
+# you can get the number by querying $sim(spice,n)
+set sim(spice,1,cmd) \{ngspice  \\"$N\\" -a\}
+
+# change the simulator to be used (Xyce)
+set sim(spice,default) 0
+
+# Create FET and BIP .save file
+exec mkdir -p $netlist_dir
+write_data [save_params] $netlist_dir/[file rootname [file tail [xschem get current_name]]].save
+
+# run netlist and simulation
+xschem netlist
+exec python3 $\{PDK_ROOT\}/$\{PDK\}/libs.tech/xschem/sg13g2_tests/ngspice_parallel_mc.py [file tail [xschem get current_name]]
+"
+spice_ignore=true}
+C {simulator_commands_shown.sym} -245 105 0 0 {name=MC_SIM
+simulator=ngspice
+only_toplevel=false 
+value="
+Vinp Vinp 0 \{vcm_in + 100u\}
+Vinn Vinn 0 \{vcm_in - 100u\} 
+.control
+set num_threads 8
+op
+run
+let vcm_err = vcm-vcm_calc
+let gain = (voutp-voutn)/(vinp-vinn)
+echo results_save_begin
+print vcm_calc vcm_err gain
+echo results_save_end
+
+.endc
+"
+spice_ignore=true}
+C {simulator_commands_shown.sym} 80 110 0 0 {
+name=Libs_Ngspice1
+simulator=ngspice
+only_toplevel=false
+value="
+.lib cornerMOSlv.lib mos_tt_mismatch
+.lib cornerMOShv.lib mos_tt_mismatch
+.lib cornerMOSCAP.lib moscap_tt
+.lib cornerCAP.lib cap_typ
+.lib cornerRES.lib res_typ
+.lib cornerDIO.lib dio_tt
+"
+      }
