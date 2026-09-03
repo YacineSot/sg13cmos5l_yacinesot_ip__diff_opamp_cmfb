@@ -87,20 +87,20 @@ print ro_n ro_p
 write @schname\\\\.raw
 .endc
 "
-spice_ignore=true}
+}
 C {simulator_commands_shown.sym} -1350 -500 0 0 {
 name=Libs_Ngspice
 simulator=ngspice
 only_toplevel=false
 value="
-.lib cornerMOSlv.lib mos_tt
+.lib cornerMOSlv.lib mos_ff
 .lib cornerMOShv.lib mos_tt
 .lib cornerMOSCAP.lib moscap_tt
 .lib cornerCAP.lib cap_typ
 .lib cornerRES.lib res_typ
 .lib cornerDIO.lib dio_tt
 "
-      spice_ignore=true}
+      }
 C {lab_pin.sym} 220 -480 1 0 {name=p17 lab=Vcm_calc}
 C {devices/launcher.sym} -770 420 0 0 {name=h2
 descr="OP annotate" 
@@ -124,13 +124,13 @@ meas ac bw_3db find frequency when op_mag=dc_gain-3
 meas ac Gain_BW find frequency when op_mag=0
 print vcm_err
 echo results_save_end
-//plot op_mag op_ph
+plot op_mag op_ph
 .endc
 "
 }
 C {code_shown.sym} -930 -580 0 0 {name=PARAMS only_toplevel=false value="
 .option rshunt=1e9
-.param vcm=0.75 vcm_in=0.75 cl=0.01p
+.param vcm=0.75 vcm_in=0.75 cl=0.1p
 .save all
 "}
 C {lab_pin.sym} -130 -80 2 0 {name=p21 lab=Voutn}
@@ -217,6 +217,7 @@ C {code_shown.sym} -1350 20 0 0 {name=AC_LOOP only_toplevel=false value="
 .control
 set gain_pcmd = \\"\\"
 set ph_pcmd = \\"\\"
+set ph_mrg = \\"\\"
 let run_num = 1
 compose vcm_vec start=0 stop=1.5 step=0.1
 foreach vcm_val $&vcm_vec
@@ -230,11 +231,14 @@ foreach vcm_val $&vcm_vec
 	let op_ph = 180*cph(-diff_gain)/pi
         set gain_pcmd = \\" $gain_pcmd ac\{$&run_num\}.op_mag \\"
 	set ph_pcmd = \\" $ph_pcmd ac\{$&run_num\}.op_ph \\"
+	meas ac phase_margin find op_ph when op_mag=0
+	set ph_mrg = \\" $ph_mrg ac\{$&run_num\}.phase_margin \\"
 	let run_num = run_num + 1
 end
 //set nolegend
 plot $gain_pcmd
 plot $ph_pcmd
+print $ph_mrg
 .endc
 "
 spice_ignore=true}
@@ -310,4 +314,4 @@ value="
 .lib cornerRES.lib res_typ
 .lib cornerDIO.lib dio_tt
 "
-      }
+      spice_ignore=true}

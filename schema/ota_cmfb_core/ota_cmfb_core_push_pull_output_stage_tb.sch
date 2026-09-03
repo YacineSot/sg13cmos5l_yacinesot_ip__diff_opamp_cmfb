@@ -36,7 +36,7 @@ C {devices/launcher.sym} 440 120 0 0 {name=h2
 descr="OP annotate" 
 tclcommand="xschem annotate_op"
 }
-C {launcher.sym} 430 30 0 0 {name=h4
+C {launcher.sym} 440 30 0 0 {name=h4
 descr=SimulateNGSPICE
 tclcommand="
 # Setup the default simulation commands if not already set up
@@ -61,9 +61,9 @@ write_data [save_params] $netlist_dir/[file rootname [file tail [xschem get curr
 xschem netlist
 simulate
 "}
-C {code_shown.sym} -1210 -30 0 0 {name=AC_SIM only_toplevel=false value="
+C {code_shown.sym} -1210 -20 0 0 {name=AC_SIM only_toplevel=false value="
 .control
-ac dec 50 100 100G
+ac dec 50 1 100G
 let gain=v(vout)/v(vin)
 let op_mag=db(gain)
 let op_ph = 180*cph(gain)/pi
@@ -76,10 +76,11 @@ C {code_shown.sym} -1200 -430 0 0 {name=PARAMS only_toplevel=false value="
 .param vcm=0.75 cl=0.1p
 .save all
 "}
-C {code_shown.sym} -610 -240 0 0 {name=LOAD only_toplevel=false value="
+C {code_shown.sym} -600 -240 0 0 {name=LOAD only_toplevel=false value="
 RL1 Vout 0 10k
+CL1 Vout 0 0.01p
 "
-spice_ignore=true}
+}
 C {devices/code_shown.sym} -1220 -600 0 0 {name=SAVE only_toplevel=true
 format="tcleval( @value )"
 value="
@@ -122,3 +123,12 @@ value="
 .lib cornerDIO.lib dio_tt
 "
       }
+C {code_shown.sym} -880 0 0 0 {name=DC_SIM only_toplevel=false value="
+.control
+dc vin 600m 900m 1m
+let gain=deriv(vout)
+plot gain
+plot vin vout
+.endc
+"
+spice_ignore=true}

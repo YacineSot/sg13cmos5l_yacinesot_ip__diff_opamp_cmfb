@@ -137,11 +137,11 @@ C {lab_pin.sym} 530 -190 2 0 {name=p9 sig_type=std_logic lab=VDD}
 C {lab_pin.sym} 530 -20 2 1 {name=p16 sig_type=std_logic lab=VSS}
 C {lab_pin.sym} 550 -30 2 0 {name=p17 sig_type=std_logic lab=Ibias}
 C {lab_pin.sym} 130 -10 2 0 {name=p18 sig_type=std_logic lab=Voutp_st1}
-C {lab_pin.sym} -620 -210 2 0 {name=p19 sig_type=std_logic lab=Voutp_st1}
+C {lab_pin.sym} -620 -270 2 0 {name=p19 sig_type=std_logic lab=Voutp_st1}
 C {lab_pin.sym} -730 -180 2 1 {name=p21 sig_type=std_logic lab=VDD}
 C {lab_pin.sym} -730 -10 2 0 {name=p22 sig_type=std_logic lab=VSS}
 C {lab_pin.sym} -750 -20 2 1 {name=p23 sig_type=std_logic lab=Ibias}
-C {lab_pin.sym} 420 -240 2 1 {name=p24 sig_type=std_logic lab=Voutn_st1}
+C {lab_pin.sym} 420 -280 2 1 {name=p24 sig_type=std_logic lab=Voutn_st1}
 C {lab_pin.sym} -280 -10 2 1 {name=p20 sig_type=std_logic lab=Voutn_st1}
 C {/foss/designs/Chipalooza2/schema/ota_cmfb_core/ota_cmfb_core_push_pull_output_stage.sym} 530 -110 0 0 {name=xsf1}
 C {/foss/designs/Chipalooza2/schema/ota_cmfb_core/ota_cmfb_core_push_pull_output_stage.sym} -730 -100 0 1 {name=xsf2}
