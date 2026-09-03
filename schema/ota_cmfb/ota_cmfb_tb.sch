@@ -106,7 +106,7 @@ C {devices/launcher.sym} -770 420 0 0 {name=h2
 descr="OP annotate" 
 tclcommand="xschem annotate_op"
 }
-C {code_shown.sym} -1080 -380 0 0 {name=AC_SIM only_toplevel=false value="
+C {code_shown.sym} -1080 -370 0 0 {name=AC_SIM only_toplevel=false value="
 .control
 ac dec 50 100 100G
 let vout_diff = voutp-voutn
