@@ -47,7 +47,7 @@ Running the Simulations
 
 To simulate the amplifier, open the main schematic using the **Xschem** software and locate the dedicated simulation section.
 
--   **Toggling Blocks:** Use the **`Ctrl+T`** shortcut to enable or disable specific simulation code blocks and subcircuits.
+-   **Toggling Blocks:** Use the **`Shift+T`** shortcut to enable or disable specific simulation code blocks and subcircuits.
 
 -   **Running Standard Simulations:** Execute the `simulateNGSPICE` command by holding **`Ctrl` + clicking the green arrow**.
 
