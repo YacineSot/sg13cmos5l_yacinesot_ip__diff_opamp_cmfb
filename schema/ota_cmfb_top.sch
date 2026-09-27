@@ -35,6 +35,14 @@ N 820 -290 820 -260 {lab=VSS}
 N 820 -290 860 -260 {lab=VSS}
 N 790 -260 820 -260 {lab=VSS}
 N -310 -160 -50 -160 {lab=Vcm_calc}
+N 820 -180 820 -150 {lab=VSS}
+N 820 -180 860 -150 {lab=VSS}
+N 790 -150 820 -150 {lab=VSS}
+N 820 -120 860 -150 {lab=VSS}
+N 440 -160 480 -130 {lab=VDD}
+N 440 -160 480 -190 {lab=VDD}
+N 480 -190 480 -160 {lab=VDD}
+N 480 -160 510 -160 {lab=VDD}
 C {ota_cmfb_core/ota_cmfb_core.sym} -110 210 0 0 {name=xopamp1}
 C {iopin.sym} -110 110 0 1 {name=p1 lab=VDD}
 C {lab_pin.sym} -220 210 0 0 {name=p2 lab=Vcm_reg}
@@ -47,8 +55,6 @@ C {iopin.sym} -110 300 0 1 {name=p8 lab=VSS}
 C {ipin.sym} -90 130 0 1 {name=p9 lab=EN}
 C {ipin.sym} 10 -190 0 0 {name=p13 lab=Vcm}
 C {lab_pin.sym} -100 -160 1 0 {name=p17 lab=Vcm_calc}
-C {ota_cmfb_cm_sense/ota_cmfb_cm_sense.sym} 720 -90 3 1 {name=xvcm1 lvs_ignore=0
-spice_ignore=true}
 C {ota_cmfb_fbota/ota_cmfb_fbota.sym} 100 -140 0 0 {name=xota1}
 C {lab_pin.sym} 100 -240 0 1 {name=p12 lab=VDD}
 C {lab_pin.sym} 120 -220 0 1 {name=p14 lab=EN}
@@ -95,3 +101,25 @@ m=1
 mm_ok=1
 value="expr_eng( ( 1.6e-4 / @w + 1360.0 * ( (@b + 1)* @l + ( 1.081*( @w - 0.04e-6 ) + 0.18e-6 )*@b ) / ( @w - 0.04e-6 ) ) / @m  )"
 }
+C {sg13cmos5l_pr/sg13_lv_nmos.sym} 840 -150 0 1 {name=M1
+l=0.5u
+w=3.2u
+ng=1
+m=10
+mm_ok=1
+model=sg13_lv_nmos
+annot_side=2
+spiceprefix=X
+}
+C {lab_pin.sym} 790 -150 0 0 {name=p11 lab=VSS}
+C {sg13cmos5l_pr/sg13_lv_pmos.sym} 460 -160 0 0 {name=M2
+l=0.5u
+w=1.985u
+ng=1
+m=100
+mm_ok=1
+model=sg13_lv_pmos
+annot_side=2
+spiceprefix=X
+}
+C {lab_pin.sym} 510 -160 0 1 {name=p15 lab=VDD}
