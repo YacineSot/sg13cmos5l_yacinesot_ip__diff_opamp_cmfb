@@ -1,0 +1,724 @@
+Title: ** sch_path: /run/media/yacinesot/my_files/xschemdesigns/designs/chipalooza2/schema/ota_cmfb/ota_cmfb_tb.sch
+Date: Fri Sep 18 02:12:02  2026
+Command: ngspice-47, Build Tue Aug 11 00:00:00 UTC 2026
+Plotname: Operating Point
+Flags: real
+No. Variables: 700
+No. Points: 1
+Variables:
+	0	v(xopamp1.voutp_st1)	voltage
+	1	@n.xopamp1.xm1.nsg13_lv_nmos[cgd]	capacitance
+	2	@n.xopamp1.xm1.nsg13_lv_nmos[cgdol]	capacitance
+	3	@n.xopamp1.xm1.nsg13_lv_nmos[cgg]	capacitance
+	4	@n.xopamp1.xm1.nsg13_lv_nmos[cgs]	capacitance
+	5	@n.xopamp1.xm1.nsg13_lv_nmos[cgsol]	capacitance
+	6	@n.xopamp1.xm1.nsg13_lv_nmos[gds]	admittance
+	7	@n.xopamp1.xm1.nsg13_lv_nmos[gm]	admittance
+	8	i(@n.xopamp1.xm1.nsg13_lv_nmos[ids])	current
+	9	v(@n.xopamp1.xm1.nsg13_lv_nmos[vds])	voltage
+	10	v(@n.xopamp1.xm1.nsg13_lv_nmos[vdss])	voltage
+	11	v(@n.xopamp1.xm1.nsg13_lv_nmos[vgs])	voltage
+	12	v(@n.xopamp1.xm1.nsg13_lv_nmos[vth])	voltage
+	13	@n.xopamp1.xm2.nsg13_lv_pmos[cgd]	capacitance
+	14	@n.xopamp1.xm2.nsg13_lv_pmos[cgdol]	capacitance
+	15	@n.xopamp1.xm2.nsg13_lv_pmos[cgg]	capacitance
+	16	@n.xopamp1.xm2.nsg13_lv_pmos[cgs]	capacitance
+	17	@n.xopamp1.xm2.nsg13_lv_pmos[cgsol]	capacitance
+	18	@n.xopamp1.xm2.nsg13_lv_pmos[gds]	admittance
+	19	@n.xopamp1.xm2.nsg13_lv_pmos[gm]	admittance
+	20	i(@n.xopamp1.xm2.nsg13_lv_pmos[ids])	current
+	21	v(@n.xopamp1.xm2.nsg13_lv_pmos[vds])	voltage
+	22	v(@n.xopamp1.xm2.nsg13_lv_pmos[vdss])	voltage
+	23	v(@n.xopamp1.xm2.nsg13_lv_pmos[vgs])	voltage
+	24	v(@n.xopamp1.xm2.nsg13_lv_pmos[vth])	voltage
+	25	@n.xopamp1.xm3.nsg13_lv_nmos[cgd]	capacitance
+	26	@n.xopamp1.xm3.nsg13_lv_nmos[cgdol]	capacitance
+	27	@n.xopamp1.xm3.nsg13_lv_nmos[cgg]	capacitance
+	28	@n.xopamp1.xm3.nsg13_lv_nmos[cgs]	capacitance
+	29	@n.xopamp1.xm3.nsg13_lv_nmos[cgsol]	capacitance
+	30	@n.xopamp1.xm3.nsg13_lv_nmos[gds]	admittance
+	31	@n.xopamp1.xm3.nsg13_lv_nmos[gm]	admittance
+	32	i(@n.xopamp1.xm3.nsg13_lv_nmos[ids])	current
+	33	v(@n.xopamp1.xm3.nsg13_lv_nmos[vds])	voltage
+	34	v(@n.xopamp1.xm3.nsg13_lv_nmos[vdss])	voltage
+	35	v(@n.xopamp1.xm3.nsg13_lv_nmos[vgs])	voltage
+	36	v(@n.xopamp1.xm3.nsg13_lv_nmos[vth])	voltage
+	37	@n.xopamp1.xm4.nsg13_lv_pmos[cgd]	capacitance
+	38	@n.xopamp1.xm4.nsg13_lv_pmos[cgdol]	capacitance
+	39	@n.xopamp1.xm4.nsg13_lv_pmos[cgg]	capacitance
+	40	@n.xopamp1.xm4.nsg13_lv_pmos[cgs]	capacitance
+	41	@n.xopamp1.xm4.nsg13_lv_pmos[cgsol]	capacitance
+	42	@n.xopamp1.xm4.nsg13_lv_pmos[gds]	admittance
+	43	@n.xopamp1.xm4.nsg13_lv_pmos[gm]	admittance
+	44	i(@n.xopamp1.xm4.nsg13_lv_pmos[ids])	current
+	45	v(@n.xopamp1.xm4.nsg13_lv_pmos[vds])	voltage
+	46	v(@n.xopamp1.xm4.nsg13_lv_pmos[vdss])	voltage
+	47	v(@n.xopamp1.xm4.nsg13_lv_pmos[vgs])	voltage
+	48	v(@n.xopamp1.xm4.nsg13_lv_pmos[vth])	voltage
+	49	@n.xopamp1.xm5.nsg13_lv_pmos[cgd]	capacitance
+	50	@n.xopamp1.xm5.nsg13_lv_pmos[cgdol]	capacitance
+	51	@n.xopamp1.xm5.nsg13_lv_pmos[cgg]	capacitance
+	52	@n.xopamp1.xm5.nsg13_lv_pmos[cgs]	capacitance
+	53	@n.xopamp1.xm5.nsg13_lv_pmos[cgsol]	capacitance
+	54	@n.xopamp1.xm5.nsg13_lv_pmos[gds]	admittance
+	55	@n.xopamp1.xm5.nsg13_lv_pmos[gm]	admittance
+	56	i(@n.xopamp1.xm5.nsg13_lv_pmos[ids])	current
+	57	v(@n.xopamp1.xm5.nsg13_lv_pmos[vds])	voltage
+	58	v(@n.xopamp1.xm5.nsg13_lv_pmos[vdss])	voltage
+	59	v(@n.xopamp1.xm5.nsg13_lv_pmos[vgs])	voltage
+	60	v(@n.xopamp1.xm5.nsg13_lv_pmos[vth])	voltage
+	61	@n.xopamp1.xm6.nsg13_lv_nmos[cgd]	capacitance
+	62	@n.xopamp1.xm6.nsg13_lv_nmos[cgdol]	capacitance
+	63	@n.xopamp1.xm6.nsg13_lv_nmos[cgg]	capacitance
+	64	@n.xopamp1.xm6.nsg13_lv_nmos[cgs]	capacitance
+	65	@n.xopamp1.xm6.nsg13_lv_nmos[cgsol]	capacitance
+	66	@n.xopamp1.xm6.nsg13_lv_nmos[gds]	admittance
+	67	@n.xopamp1.xm6.nsg13_lv_nmos[gm]	admittance
+	68	i(@n.xopamp1.xm6.nsg13_lv_nmos[ids])	current
+	69	v(@n.xopamp1.xm6.nsg13_lv_nmos[vds])	voltage
+	70	v(@n.xopamp1.xm6.nsg13_lv_nmos[vdss])	voltage
+	71	v(@n.xopamp1.xm6.nsg13_lv_nmos[vgs])	voltage
+	72	v(@n.xopamp1.xm6.nsg13_lv_nmos[vth])	voltage
+	73	@n.xopamp1.xm7.nsg13_lv_nmos[cgd]	capacitance
+	74	@n.xopamp1.xm7.nsg13_lv_nmos[cgdol]	capacitance
+	75	@n.xopamp1.xm7.nsg13_lv_nmos[cgg]	capacitance
+	76	@n.xopamp1.xm7.nsg13_lv_nmos[cgs]	capacitance
+	77	@n.xopamp1.xm7.nsg13_lv_nmos[cgsol]	capacitance
+	78	@n.xopamp1.xm7.nsg13_lv_nmos[gds]	admittance
+	79	@n.xopamp1.xm7.nsg13_lv_nmos[gm]	admittance
+	80	i(@n.xopamp1.xm7.nsg13_lv_nmos[ids])	current
+	81	v(@n.xopamp1.xm7.nsg13_lv_nmos[vds])	voltage
+	82	v(@n.xopamp1.xm7.nsg13_lv_nmos[vdss])	voltage
+	83	v(@n.xopamp1.xm7.nsg13_lv_nmos[vgs])	voltage
+	84	v(@n.xopamp1.xm7.nsg13_lv_nmos[vth])	voltage
+	85	@n.xopamp1.xsf1.xc1.nsg13_moscap_p[cgg]	capacitance
+	86	@n.xopamp1.xsf1.xm1.nsg13_lv_nmos[cgd]	capacitance
+	87	@n.xopamp1.xsf1.xm1.nsg13_lv_nmos[cgdol]	capacitance
+	88	@n.xopamp1.xsf1.xm1.nsg13_lv_nmos[cgg]	capacitance
+	89	@n.xopamp1.xsf1.xm1.nsg13_lv_nmos[cgs]	capacitance
+	90	@n.xopamp1.xsf1.xm1.nsg13_lv_nmos[cgsol]	capacitance
+	91	@n.xopamp1.xsf1.xm1.nsg13_lv_nmos[gds]	admittance
+	92	@n.xopamp1.xsf1.xm1.nsg13_lv_nmos[gm]	admittance
+	93	i(@n.xopamp1.xsf1.xm1.nsg13_lv_nmos[ids])	current
+	94	v(@n.xopamp1.xsf1.xm1.nsg13_lv_nmos[vds])	voltage
+	95	v(@n.xopamp1.xsf1.xm1.nsg13_lv_nmos[vdss])	voltage
+	96	v(@n.xopamp1.xsf1.xm1.nsg13_lv_nmos[vgs])	voltage
+	97	v(@n.xopamp1.xsf1.xm1.nsg13_lv_nmos[vth])	voltage
+	98	@n.xopamp1.xsf1.xm2.nsg13_lv_pmos[cgd]	capacitance
+	99	@n.xopamp1.xsf1.xm2.nsg13_lv_pmos[cgdol]	capacitance
+	100	@n.xopamp1.xsf1.xm2.nsg13_lv_pmos[cgg]	capacitance
+	101	@n.xopamp1.xsf1.xm2.nsg13_lv_pmos[cgs]	capacitance
+	102	@n.xopamp1.xsf1.xm2.nsg13_lv_pmos[cgsol]	capacitance
+	103	@n.xopamp1.xsf1.xm2.nsg13_lv_pmos[gds]	admittance
+	104	@n.xopamp1.xsf1.xm2.nsg13_lv_pmos[gm]	admittance
+	105	i(@n.xopamp1.xsf1.xm2.nsg13_lv_pmos[ids])	current
+	106	v(@n.xopamp1.xsf1.xm2.nsg13_lv_pmos[vds])	voltage
+	107	v(@n.xopamp1.xsf1.xm2.nsg13_lv_pmos[vdss])	voltage
+	108	v(@n.xopamp1.xsf1.xm2.nsg13_lv_pmos[vgs])	voltage
+	109	v(@n.xopamp1.xsf1.xm2.nsg13_lv_pmos[vth])	voltage
+	110	@n.xopamp1.xsf1.xm3.nsg13_lv_nmos[cgd]	capacitance
+	111	@n.xopamp1.xsf1.xm3.nsg13_lv_nmos[cgdol]	capacitance
+	112	@n.xopamp1.xsf1.xm3.nsg13_lv_nmos[cgg]	capacitance
+	113	@n.xopamp1.xsf1.xm3.nsg13_lv_nmos[cgs]	capacitance
+	114	@n.xopamp1.xsf1.xm3.nsg13_lv_nmos[cgsol]	capacitance
+	115	@n.xopamp1.xsf1.xm3.nsg13_lv_nmos[gds]	admittance
+	116	@n.xopamp1.xsf1.xm3.nsg13_lv_nmos[gm]	admittance
+	117	i(@n.xopamp1.xsf1.xm3.nsg13_lv_nmos[ids])	current
+	118	v(@n.xopamp1.xsf1.xm3.nsg13_lv_nmos[vds])	voltage
+	119	v(@n.xopamp1.xsf1.xm3.nsg13_lv_nmos[vdss])	voltage
+	120	v(@n.xopamp1.xsf1.xm3.nsg13_lv_nmos[vgs])	voltage
+	121	v(@n.xopamp1.xsf1.xm3.nsg13_lv_nmos[vth])	voltage
+	122	@n.xopamp1.xsf1.xm4.nsg13_lv_pmos[cgd]	capacitance
+	123	@n.xopamp1.xsf1.xm4.nsg13_lv_pmos[cgdol]	capacitance
+	124	@n.xopamp1.xsf1.xm4.nsg13_lv_pmos[cgg]	capacitance
+	125	@n.xopamp1.xsf1.xm4.nsg13_lv_pmos[cgs]	capacitance
+	126	@n.xopamp1.xsf1.xm4.nsg13_lv_pmos[cgsol]	capacitance
+	127	@n.xopamp1.xsf1.xm4.nsg13_lv_pmos[gds]	admittance
+	128	@n.xopamp1.xsf1.xm4.nsg13_lv_pmos[gm]	admittance
+	129	i(@n.xopamp1.xsf1.xm4.nsg13_lv_pmos[ids])	current
+	130	v(@n.xopamp1.xsf1.xm4.nsg13_lv_pmos[vds])	voltage
+	131	v(@n.xopamp1.xsf1.xm4.nsg13_lv_pmos[vdss])	voltage
+	132	v(@n.xopamp1.xsf1.xm4.nsg13_lv_pmos[vgs])	voltage
+	133	v(@n.xopamp1.xsf1.xm4.nsg13_lv_pmos[vth])	voltage
+	134	@n.xopamp1.xsf1.xm5.nsg13_lv_pmos[cgd]	capacitance
+	135	@n.xopamp1.xsf1.xm5.nsg13_lv_pmos[cgdol]	capacitance
+	136	@n.xopamp1.xsf1.xm5.nsg13_lv_pmos[cgg]	capacitance
+	137	@n.xopamp1.xsf1.xm5.nsg13_lv_pmos[cgs]	capacitance
+	138	@n.xopamp1.xsf1.xm5.nsg13_lv_pmos[cgsol]	capacitance
+	139	@n.xopamp1.xsf1.xm5.nsg13_lv_pmos[gds]	admittance
+	140	@n.xopamp1.xsf1.xm5.nsg13_lv_pmos[gm]	admittance
+	141	i(@n.xopamp1.xsf1.xm5.nsg13_lv_pmos[ids])	current
+	142	v(@n.xopamp1.xsf1.xm5.nsg13_lv_pmos[vds])	voltage
+	143	v(@n.xopamp1.xsf1.xm5.nsg13_lv_pmos[vdss])	voltage
+	144	v(@n.xopamp1.xsf1.xm5.nsg13_lv_pmos[vgs])	voltage
+	145	v(@n.xopamp1.xsf1.xm5.nsg13_lv_pmos[vth])	voltage
+	146	@n.xopamp1.xsf1.xm6.nsg13_lv_nmos[cgd]	capacitance
+	147	@n.xopamp1.xsf1.xm6.nsg13_lv_nmos[cgdol]	capacitance
+	148	@n.xopamp1.xsf1.xm6.nsg13_lv_nmos[cgg]	capacitance
+	149	@n.xopamp1.xsf1.xm6.nsg13_lv_nmos[cgs]	capacitance
+	150	@n.xopamp1.xsf1.xm6.nsg13_lv_nmos[cgsol]	capacitance
+	151	@n.xopamp1.xsf1.xm6.nsg13_lv_nmos[gds]	admittance
+	152	@n.xopamp1.xsf1.xm6.nsg13_lv_nmos[gm]	admittance
+	153	i(@n.xopamp1.xsf1.xm6.nsg13_lv_nmos[ids])	current
+	154	v(@n.xopamp1.xsf1.xm6.nsg13_lv_nmos[vds])	voltage
+	155	v(@n.xopamp1.xsf1.xm6.nsg13_lv_nmos[vdss])	voltage
+	156	v(@n.xopamp1.xsf1.xm6.nsg13_lv_nmos[vgs])	voltage
+	157	v(@n.xopamp1.xsf1.xm6.nsg13_lv_nmos[vth])	voltage
+	158	@n.xopamp1.xsf1.xm7.nsg13_lv_nmos[cgd]	capacitance
+	159	@n.xopamp1.xsf1.xm7.nsg13_lv_nmos[cgdol]	capacitance
+	160	@n.xopamp1.xsf1.xm7.nsg13_lv_nmos[cgg]	capacitance
+	161	@n.xopamp1.xsf1.xm7.nsg13_lv_nmos[cgs]	capacitance
+	162	@n.xopamp1.xsf1.xm7.nsg13_lv_nmos[cgsol]	capacitance
+	163	@n.xopamp1.xsf1.xm7.nsg13_lv_nmos[gds]	admittance
+	164	@n.xopamp1.xsf1.xm7.nsg13_lv_nmos[gm]	admittance
+	165	i(@n.xopamp1.xsf1.xm7.nsg13_lv_nmos[ids])	current
+	166	v(@n.xopamp1.xsf1.xm7.nsg13_lv_nmos[vds])	voltage
+	167	v(@n.xopamp1.xsf1.xm7.nsg13_lv_nmos[vdss])	voltage
+	168	v(@n.xopamp1.xsf1.xm7.nsg13_lv_nmos[vgs])	voltage
+	169	v(@n.xopamp1.xsf1.xm7.nsg13_lv_nmos[vth])	voltage
+	170	@n.xopamp1.xsf1.xm8.nsg13_lv_pmos[cgd]	capacitance
+	171	@n.xopamp1.xsf1.xm8.nsg13_lv_pmos[cgdol]	capacitance
+	172	@n.xopamp1.xsf1.xm8.nsg13_lv_pmos[cgg]	capacitance
+	173	@n.xopamp1.xsf1.xm8.nsg13_lv_pmos[cgs]	capacitance
+	174	@n.xopamp1.xsf1.xm8.nsg13_lv_pmos[cgsol]	capacitance
+	175	@n.xopamp1.xsf1.xm8.nsg13_lv_pmos[gds]	admittance
+	176	@n.xopamp1.xsf1.xm8.nsg13_lv_pmos[gm]	admittance
+	177	i(@n.xopamp1.xsf1.xm8.nsg13_lv_pmos[ids])	current
+	178	v(@n.xopamp1.xsf1.xm8.nsg13_lv_pmos[vds])	voltage
+	179	v(@n.xopamp1.xsf1.xm8.nsg13_lv_pmos[vdss])	voltage
+	180	v(@n.xopamp1.xsf1.xm8.nsg13_lv_pmos[vgs])	voltage
+	181	v(@n.xopamp1.xsf1.xm8.nsg13_lv_pmos[vth])	voltage
+	182	@n.xopamp1.xsf1.xm9.nsg13_lv_pmos[cgd]	capacitance
+	183	@n.xopamp1.xsf1.xm9.nsg13_lv_pmos[cgdol]	capacitance
+	184	@n.xopamp1.xsf1.xm9.nsg13_lv_pmos[cgg]	capacitance
+	185	@n.xopamp1.xsf1.xm9.nsg13_lv_pmos[cgs]	capacitance
+	186	@n.xopamp1.xsf1.xm9.nsg13_lv_pmos[cgsol]	capacitance
+	187	@n.xopamp1.xsf1.xm9.nsg13_lv_pmos[gds]	admittance
+	188	@n.xopamp1.xsf1.xm9.nsg13_lv_pmos[gm]	admittance
+	189	i(@n.xopamp1.xsf1.xm9.nsg13_lv_pmos[ids])	current
+	190	v(@n.xopamp1.xsf1.xm9.nsg13_lv_pmos[vds])	voltage
+	191	v(@n.xopamp1.xsf1.xm9.nsg13_lv_pmos[vdss])	voltage
+	192	v(@n.xopamp1.xsf1.xm9.nsg13_lv_pmos[vgs])	voltage
+	193	v(@n.xopamp1.xsf1.xm9.nsg13_lv_pmos[vth])	voltage
+	194	@n.xopamp1.xsf1.xm10.nsg13_lv_pmos[cgd]	capacitance
+	195	@n.xopamp1.xsf1.xm10.nsg13_lv_pmos[cgdol]	capacitance
+	196	@n.xopamp1.xsf1.xm10.nsg13_lv_pmos[cgg]	capacitance
+	197	@n.xopamp1.xsf1.xm10.nsg13_lv_pmos[cgs]	capacitance
+	198	@n.xopamp1.xsf1.xm10.nsg13_lv_pmos[cgsol]	capacitance
+	199	@n.xopamp1.xsf1.xm10.nsg13_lv_pmos[gds]	admittance
+	200	@n.xopamp1.xsf1.xm10.nsg13_lv_pmos[gm]	admittance
+	201	i(@n.xopamp1.xsf1.xm10.nsg13_lv_pmos[ids])	current
+	202	v(@n.xopamp1.xsf1.xm10.nsg13_lv_pmos[vds])	voltage
+	203	v(@n.xopamp1.xsf1.xm10.nsg13_lv_pmos[vdss])	voltage
+	204	v(@n.xopamp1.xsf1.xm10.nsg13_lv_pmos[vgs])	voltage
+	205	v(@n.xopamp1.xsf1.xm10.nsg13_lv_pmos[vth])	voltage
+	206	@n.xopamp1.xsf1.xm11.nsg13_lv_nmos[cgd]	capacitance
+	207	@n.xopamp1.xsf1.xm11.nsg13_lv_nmos[cgdol]	capacitance
+	208	@n.xopamp1.xsf1.xm11.nsg13_lv_nmos[cgg]	capacitance
+	209	@n.xopamp1.xsf1.xm11.nsg13_lv_nmos[cgs]	capacitance
+	210	@n.xopamp1.xsf1.xm11.nsg13_lv_nmos[cgsol]	capacitance
+	211	@n.xopamp1.xsf1.xm11.nsg13_lv_nmos[gds]	admittance
+	212	@n.xopamp1.xsf1.xm11.nsg13_lv_nmos[gm]	admittance
+	213	i(@n.xopamp1.xsf1.xm11.nsg13_lv_nmos[ids])	current
+	214	v(@n.xopamp1.xsf1.xm11.nsg13_lv_nmos[vds])	voltage
+	215	v(@n.xopamp1.xsf1.xm11.nsg13_lv_nmos[vdss])	voltage
+	216	v(@n.xopamp1.xsf1.xm11.nsg13_lv_nmos[vgs])	voltage
+	217	v(@n.xopamp1.xsf1.xm11.nsg13_lv_nmos[vth])	voltage
+	218	@n.xopamp1.xsf1.xm12.nsg13_lv_nmos[cgd]	capacitance
+	219	@n.xopamp1.xsf1.xm12.nsg13_lv_nmos[cgdol]	capacitance
+	220	@n.xopamp1.xsf1.xm12.nsg13_lv_nmos[cgg]	capacitance
+	221	@n.xopamp1.xsf1.xm12.nsg13_lv_nmos[cgs]	capacitance
+	222	@n.xopamp1.xsf1.xm12.nsg13_lv_nmos[cgsol]	capacitance
+	223	@n.xopamp1.xsf1.xm12.nsg13_lv_nmos[gds]	admittance
+	224	@n.xopamp1.xsf1.xm12.nsg13_lv_nmos[gm]	admittance
+	225	i(@n.xopamp1.xsf1.xm12.nsg13_lv_nmos[ids])	current
+	226	v(@n.xopamp1.xsf1.xm12.nsg13_lv_nmos[vds])	voltage
+	227	v(@n.xopamp1.xsf1.xm12.nsg13_lv_nmos[vdss])	voltage
+	228	v(@n.xopamp1.xsf1.xm12.nsg13_lv_nmos[vgs])	voltage
+	229	v(@n.xopamp1.xsf1.xm12.nsg13_lv_nmos[vth])	voltage
+	230	@n.xopamp1.xsf1.xm13.nsg13_lv_pmos[cgd]	capacitance
+	231	@n.xopamp1.xsf1.xm13.nsg13_lv_pmos[cgdol]	capacitance
+	232	@n.xopamp1.xsf1.xm13.nsg13_lv_pmos[cgg]	capacitance
+	233	@n.xopamp1.xsf1.xm13.nsg13_lv_pmos[cgs]	capacitance
+	234	@n.xopamp1.xsf1.xm13.nsg13_lv_pmos[cgsol]	capacitance
+	235	@n.xopamp1.xsf1.xm13.nsg13_lv_pmos[gds]	admittance
+	236	@n.xopamp1.xsf1.xm13.nsg13_lv_pmos[gm]	admittance
+	237	i(@n.xopamp1.xsf1.xm13.nsg13_lv_pmos[ids])	current
+	238	v(@n.xopamp1.xsf1.xm13.nsg13_lv_pmos[vds])	voltage
+	239	v(@n.xopamp1.xsf1.xm13.nsg13_lv_pmos[vdss])	voltage
+	240	v(@n.xopamp1.xsf1.xm13.nsg13_lv_pmos[vgs])	voltage
+	241	v(@n.xopamp1.xsf1.xm13.nsg13_lv_pmos[vth])	voltage
+	242	@n.xopamp1.xsf1.xm14.nsg13_lv_nmos[cgd]	capacitance
+	243	@n.xopamp1.xsf1.xm14.nsg13_lv_nmos[cgdol]	capacitance
+	244	@n.xopamp1.xsf1.xm14.nsg13_lv_nmos[cgg]	capacitance
+	245	@n.xopamp1.xsf1.xm14.nsg13_lv_nmos[cgs]	capacitance
+	246	@n.xopamp1.xsf1.xm14.nsg13_lv_nmos[cgsol]	capacitance
+	247	@n.xopamp1.xsf1.xm14.nsg13_lv_nmos[gds]	admittance
+	248	@n.xopamp1.xsf1.xm14.nsg13_lv_nmos[gm]	admittance
+	249	i(@n.xopamp1.xsf1.xm14.nsg13_lv_nmos[ids])	current
+	250	v(@n.xopamp1.xsf1.xm14.nsg13_lv_nmos[vds])	voltage
+	251	v(@n.xopamp1.xsf1.xm14.nsg13_lv_nmos[vdss])	voltage
+	252	v(@n.xopamp1.xsf1.xm14.nsg13_lv_nmos[vgs])	voltage
+	253	v(@n.xopamp1.xsf1.xm14.nsg13_lv_nmos[vth])	voltage
+	254	@n.xopamp1.xsf1.xm15.nsg13_lv_nmos[cgd]	capacitance
+	255	@n.xopamp1.xsf1.xm15.nsg13_lv_nmos[cgdol]	capacitance
+	256	@n.xopamp1.xsf1.xm15.nsg13_lv_nmos[cgg]	capacitance
+	257	@n.xopamp1.xsf1.xm15.nsg13_lv_nmos[cgs]	capacitance
+	258	@n.xopamp1.xsf1.xm15.nsg13_lv_nmos[cgsol]	capacitance
+	259	@n.xopamp1.xsf1.xm15.nsg13_lv_nmos[gds]	admittance
+	260	@n.xopamp1.xsf1.xm15.nsg13_lv_nmos[gm]	admittance
+	261	i(@n.xopamp1.xsf1.xm15.nsg13_lv_nmos[ids])	current
+	262	v(@n.xopamp1.xsf1.xm15.nsg13_lv_nmos[vds])	voltage
+	263	v(@n.xopamp1.xsf1.xm15.nsg13_lv_nmos[vdss])	voltage
+	264	v(@n.xopamp1.xsf1.xm15.nsg13_lv_nmos[vgs])	voltage
+	265	v(@n.xopamp1.xsf1.xm15.nsg13_lv_nmos[vth])	voltage
+	266	@n.xopamp1.xsf1.xm16.nsg13_lv_pmos[cgd]	capacitance
+	267	@n.xopamp1.xsf1.xm16.nsg13_lv_pmos[cgdol]	capacitance
+	268	@n.xopamp1.xsf1.xm16.nsg13_lv_pmos[cgg]	capacitance
+	269	@n.xopamp1.xsf1.xm16.nsg13_lv_pmos[cgs]	capacitance
+	270	@n.xopamp1.xsf1.xm16.nsg13_lv_pmos[cgsol]	capacitance
+	271	@n.xopamp1.xsf1.xm16.nsg13_lv_pmos[gds]	admittance
+	272	@n.xopamp1.xsf1.xm16.nsg13_lv_pmos[gm]	admittance
+	273	i(@n.xopamp1.xsf1.xm16.nsg13_lv_pmos[ids])	current
+	274	v(@n.xopamp1.xsf1.xm16.nsg13_lv_pmos[vds])	voltage
+	275	v(@n.xopamp1.xsf1.xm16.nsg13_lv_pmos[vdss])	voltage
+	276	v(@n.xopamp1.xsf1.xm16.nsg13_lv_pmos[vgs])	voltage
+	277	v(@n.xopamp1.xsf1.xm16.nsg13_lv_pmos[vth])	voltage
+	278	@n.xopamp1.xsf2.xc1.nsg13_moscap_p[cgg]	capacitance
+	279	@n.xopamp1.xsf2.xm1.nsg13_lv_nmos[cgd]	capacitance
+	280	@n.xopamp1.xsf2.xm1.nsg13_lv_nmos[cgdol]	capacitance
+	281	@n.xopamp1.xsf2.xm1.nsg13_lv_nmos[cgg]	capacitance
+	282	@n.xopamp1.xsf2.xm1.nsg13_lv_nmos[cgs]	capacitance
+	283	@n.xopamp1.xsf2.xm1.nsg13_lv_nmos[cgsol]	capacitance
+	284	@n.xopamp1.xsf2.xm1.nsg13_lv_nmos[gds]	admittance
+	285	@n.xopamp1.xsf2.xm1.nsg13_lv_nmos[gm]	admittance
+	286	i(@n.xopamp1.xsf2.xm1.nsg13_lv_nmos[ids])	current
+	287	v(@n.xopamp1.xsf2.xm1.nsg13_lv_nmos[vds])	voltage
+	288	v(@n.xopamp1.xsf2.xm1.nsg13_lv_nmos[vdss])	voltage
+	289	v(@n.xopamp1.xsf2.xm1.nsg13_lv_nmos[vgs])	voltage
+	290	v(@n.xopamp1.xsf2.xm1.nsg13_lv_nmos[vth])	voltage
+	291	@n.xopamp1.xsf2.xm2.nsg13_lv_pmos[cgd]	capacitance
+	292	@n.xopamp1.xsf2.xm2.nsg13_lv_pmos[cgdol]	capacitance
+	293	@n.xopamp1.xsf2.xm2.nsg13_lv_pmos[cgg]	capacitance
+	294	@n.xopamp1.xsf2.xm2.nsg13_lv_pmos[cgs]	capacitance
+	295	@n.xopamp1.xsf2.xm2.nsg13_lv_pmos[cgsol]	capacitance
+	296	@n.xopamp1.xsf2.xm2.nsg13_lv_pmos[gds]	admittance
+	297	@n.xopamp1.xsf2.xm2.nsg13_lv_pmos[gm]	admittance
+	298	i(@n.xopamp1.xsf2.xm2.nsg13_lv_pmos[ids])	current
+	299	v(@n.xopamp1.xsf2.xm2.nsg13_lv_pmos[vds])	voltage
+	300	v(@n.xopamp1.xsf2.xm2.nsg13_lv_pmos[vdss])	voltage
+	301	v(@n.xopamp1.xsf2.xm2.nsg13_lv_pmos[vgs])	voltage
+	302	v(@n.xopamp1.xsf2.xm2.nsg13_lv_pmos[vth])	voltage
+	303	@n.xopamp1.xsf2.xm3.nsg13_lv_nmos[cgd]	capacitance
+	304	@n.xopamp1.xsf2.xm3.nsg13_lv_nmos[cgdol]	capacitance
+	305	@n.xopamp1.xsf2.xm3.nsg13_lv_nmos[cgg]	capacitance
+	306	@n.xopamp1.xsf2.xm3.nsg13_lv_nmos[cgs]	capacitance
+	307	@n.xopamp1.xsf2.xm3.nsg13_lv_nmos[cgsol]	capacitance
+	308	@n.xopamp1.xsf2.xm3.nsg13_lv_nmos[gds]	admittance
+	309	@n.xopamp1.xsf2.xm3.nsg13_lv_nmos[gm]	admittance
+	310	i(@n.xopamp1.xsf2.xm3.nsg13_lv_nmos[ids])	current
+	311	v(@n.xopamp1.xsf2.xm3.nsg13_lv_nmos[vds])	voltage
+	312	v(@n.xopamp1.xsf2.xm3.nsg13_lv_nmos[vdss])	voltage
+	313	v(@n.xopamp1.xsf2.xm3.nsg13_lv_nmos[vgs])	voltage
+	314	v(@n.xopamp1.xsf2.xm3.nsg13_lv_nmos[vth])	voltage
+	315	@n.xopamp1.xsf2.xm4.nsg13_lv_pmos[cgd]	capacitance
+	316	@n.xopamp1.xsf2.xm4.nsg13_lv_pmos[cgdol]	capacitance
+	317	@n.xopamp1.xsf2.xm4.nsg13_lv_pmos[cgg]	capacitance
+	318	@n.xopamp1.xsf2.xm4.nsg13_lv_pmos[cgs]	capacitance
+	319	@n.xopamp1.xsf2.xm4.nsg13_lv_pmos[cgsol]	capacitance
+	320	@n.xopamp1.xsf2.xm4.nsg13_lv_pmos[gds]	admittance
+	321	@n.xopamp1.xsf2.xm4.nsg13_lv_pmos[gm]	admittance
+	322	i(@n.xopamp1.xsf2.xm4.nsg13_lv_pmos[ids])	current
+	323	v(@n.xopamp1.xsf2.xm4.nsg13_lv_pmos[vds])	voltage
+	324	v(@n.xopamp1.xsf2.xm4.nsg13_lv_pmos[vdss])	voltage
+	325	v(@n.xopamp1.xsf2.xm4.nsg13_lv_pmos[vgs])	voltage
+	326	v(@n.xopamp1.xsf2.xm4.nsg13_lv_pmos[vth])	voltage
+	327	@n.xopamp1.xsf2.xm5.nsg13_lv_pmos[cgd]	capacitance
+	328	@n.xopamp1.xsf2.xm5.nsg13_lv_pmos[cgdol]	capacitance
+	329	@n.xopamp1.xsf2.xm5.nsg13_lv_pmos[cgg]	capacitance
+	330	@n.xopamp1.xsf2.xm5.nsg13_lv_pmos[cgs]	capacitance
+	331	@n.xopamp1.xsf2.xm5.nsg13_lv_pmos[cgsol]	capacitance
+	332	@n.xopamp1.xsf2.xm5.nsg13_lv_pmos[gds]	admittance
+	333	@n.xopamp1.xsf2.xm5.nsg13_lv_pmos[gm]	admittance
+	334	i(@n.xopamp1.xsf2.xm5.nsg13_lv_pmos[ids])	current
+	335	v(@n.xopamp1.xsf2.xm5.nsg13_lv_pmos[vds])	voltage
+	336	v(@n.xopamp1.xsf2.xm5.nsg13_lv_pmos[vdss])	voltage
+	337	v(@n.xopamp1.xsf2.xm5.nsg13_lv_pmos[vgs])	voltage
+	338	v(@n.xopamp1.xsf2.xm5.nsg13_lv_pmos[vth])	voltage
+	339	@n.xopamp1.xsf2.xm6.nsg13_lv_nmos[cgd]	capacitance
+	340	@n.xopamp1.xsf2.xm6.nsg13_lv_nmos[cgdol]	capacitance
+	341	@n.xopamp1.xsf2.xm6.nsg13_lv_nmos[cgg]	capacitance
+	342	@n.xopamp1.xsf2.xm6.nsg13_lv_nmos[cgs]	capacitance
+	343	@n.xopamp1.xsf2.xm6.nsg13_lv_nmos[cgsol]	capacitance
+	344	@n.xopamp1.xsf2.xm6.nsg13_lv_nmos[gds]	admittance
+	345	@n.xopamp1.xsf2.xm6.nsg13_lv_nmos[gm]	admittance
+	346	i(@n.xopamp1.xsf2.xm6.nsg13_lv_nmos[ids])	current
+	347	v(@n.xopamp1.xsf2.xm6.nsg13_lv_nmos[vds])	voltage
+	348	v(@n.xopamp1.xsf2.xm6.nsg13_lv_nmos[vdss])	voltage
+	349	v(@n.xopamp1.xsf2.xm6.nsg13_lv_nmos[vgs])	voltage
+	350	v(@n.xopamp1.xsf2.xm6.nsg13_lv_nmos[vth])	voltage
+	351	@n.xopamp1.xsf2.xm7.nsg13_lv_nmos[cgd]	capacitance
+	352	@n.xopamp1.xsf2.xm7.nsg13_lv_nmos[cgdol]	capacitance
+	353	@n.xopamp1.xsf2.xm7.nsg13_lv_nmos[cgg]	capacitance
+	354	@n.xopamp1.xsf2.xm7.nsg13_lv_nmos[cgs]	capacitance
+	355	@n.xopamp1.xsf2.xm7.nsg13_lv_nmos[cgsol]	capacitance
+	356	@n.xopamp1.xsf2.xm7.nsg13_lv_nmos[gds]	admittance
+	357	@n.xopamp1.xsf2.xm7.nsg13_lv_nmos[gm]	admittance
+	358	i(@n.xopamp1.xsf2.xm7.nsg13_lv_nmos[ids])	current
+	359	v(@n.xopamp1.xsf2.xm7.nsg13_lv_nmos[vds])	voltage
+	360	v(@n.xopamp1.xsf2.xm7.nsg13_lv_nmos[vdss])	voltage
+	361	v(@n.xopamp1.xsf2.xm7.nsg13_lv_nmos[vgs])	voltage
+	362	v(@n.xopamp1.xsf2.xm7.nsg13_lv_nmos[vth])	voltage
+	363	@n.xopamp1.xsf2.xm8.nsg13_lv_pmos[cgd]	capacitance
+	364	@n.xopamp1.xsf2.xm8.nsg13_lv_pmos[cgdol]	capacitance
+	365	@n.xopamp1.xsf2.xm8.nsg13_lv_pmos[cgg]	capacitance
+	366	@n.xopamp1.xsf2.xm8.nsg13_lv_pmos[cgs]	capacitance
+	367	@n.xopamp1.xsf2.xm8.nsg13_lv_pmos[cgsol]	capacitance
+	368	@n.xopamp1.xsf2.xm8.nsg13_lv_pmos[gds]	admittance
+	369	@n.xopamp1.xsf2.xm8.nsg13_lv_pmos[gm]	admittance
+	370	i(@n.xopamp1.xsf2.xm8.nsg13_lv_pmos[ids])	current
+	371	v(@n.xopamp1.xsf2.xm8.nsg13_lv_pmos[vds])	voltage
+	372	v(@n.xopamp1.xsf2.xm8.nsg13_lv_pmos[vdss])	voltage
+	373	v(@n.xopamp1.xsf2.xm8.nsg13_lv_pmos[vgs])	voltage
+	374	v(@n.xopamp1.xsf2.xm8.nsg13_lv_pmos[vth])	voltage
+	375	@n.xopamp1.xsf2.xm9.nsg13_lv_pmos[cgd]	capacitance
+	376	@n.xopamp1.xsf2.xm9.nsg13_lv_pmos[cgdol]	capacitance
+	377	@n.xopamp1.xsf2.xm9.nsg13_lv_pmos[cgg]	capacitance
+	378	@n.xopamp1.xsf2.xm9.nsg13_lv_pmos[cgs]	capacitance
+	379	@n.xopamp1.xsf2.xm9.nsg13_lv_pmos[cgsol]	capacitance
+	380	@n.xopamp1.xsf2.xm9.nsg13_lv_pmos[gds]	admittance
+	381	@n.xopamp1.xsf2.xm9.nsg13_lv_pmos[gm]	admittance
+	382	i(@n.xopamp1.xsf2.xm9.nsg13_lv_pmos[ids])	current
+	383	v(@n.xopamp1.xsf2.xm9.nsg13_lv_pmos[vds])	voltage
+	384	v(@n.xopamp1.xsf2.xm9.nsg13_lv_pmos[vdss])	voltage
+	385	v(@n.xopamp1.xsf2.xm9.nsg13_lv_pmos[vgs])	voltage
+	386	v(@n.xopamp1.xsf2.xm9.nsg13_lv_pmos[vth])	voltage
+	387	@n.xopamp1.xsf2.xm10.nsg13_lv_pmos[cgd]	capacitance
+	388	@n.xopamp1.xsf2.xm10.nsg13_lv_pmos[cgdol]	capacitance
+	389	@n.xopamp1.xsf2.xm10.nsg13_lv_pmos[cgg]	capacitance
+	390	@n.xopamp1.xsf2.xm10.nsg13_lv_pmos[cgs]	capacitance
+	391	@n.xopamp1.xsf2.xm10.nsg13_lv_pmos[cgsol]	capacitance
+	392	@n.xopamp1.xsf2.xm10.nsg13_lv_pmos[gds]	admittance
+	393	@n.xopamp1.xsf2.xm10.nsg13_lv_pmos[gm]	admittance
+	394	i(@n.xopamp1.xsf2.xm10.nsg13_lv_pmos[ids])	current
+	395	v(@n.xopamp1.xsf2.xm10.nsg13_lv_pmos[vds])	voltage
+	396	v(@n.xopamp1.xsf2.xm10.nsg13_lv_pmos[vdss])	voltage
+	397	v(@n.xopamp1.xsf2.xm10.nsg13_lv_pmos[vgs])	voltage
+	398	v(@n.xopamp1.xsf2.xm10.nsg13_lv_pmos[vth])	voltage
+	399	@n.xopamp1.xsf2.xm11.nsg13_lv_nmos[cgd]	capacitance
+	400	@n.xopamp1.xsf2.xm11.nsg13_lv_nmos[cgdol]	capacitance
+	401	@n.xopamp1.xsf2.xm11.nsg13_lv_nmos[cgg]	capacitance
+	402	@n.xopamp1.xsf2.xm11.nsg13_lv_nmos[cgs]	capacitance
+	403	@n.xopamp1.xsf2.xm11.nsg13_lv_nmos[cgsol]	capacitance
+	404	@n.xopamp1.xsf2.xm11.nsg13_lv_nmos[gds]	admittance
+	405	@n.xopamp1.xsf2.xm11.nsg13_lv_nmos[gm]	admittance
+	406	i(@n.xopamp1.xsf2.xm11.nsg13_lv_nmos[ids])	current
+	407	v(@n.xopamp1.xsf2.xm11.nsg13_lv_nmos[vds])	voltage
+	408	v(@n.xopamp1.xsf2.xm11.nsg13_lv_nmos[vdss])	voltage
+	409	v(@n.xopamp1.xsf2.xm11.nsg13_lv_nmos[vgs])	voltage
+	410	v(@n.xopamp1.xsf2.xm11.nsg13_lv_nmos[vth])	voltage
+	411	@n.xopamp1.xsf2.xm12.nsg13_lv_nmos[cgd]	capacitance
+	412	@n.xopamp1.xsf2.xm12.nsg13_lv_nmos[cgdol]	capacitance
+	413	@n.xopamp1.xsf2.xm12.nsg13_lv_nmos[cgg]	capacitance
+	414	@n.xopamp1.xsf2.xm12.nsg13_lv_nmos[cgs]	capacitance
+	415	@n.xopamp1.xsf2.xm12.nsg13_lv_nmos[cgsol]	capacitance
+	416	@n.xopamp1.xsf2.xm12.nsg13_lv_nmos[gds]	admittance
+	417	@n.xopamp1.xsf2.xm12.nsg13_lv_nmos[gm]	admittance
+	418	i(@n.xopamp1.xsf2.xm12.nsg13_lv_nmos[ids])	current
+	419	v(@n.xopamp1.xsf2.xm12.nsg13_lv_nmos[vds])	voltage
+	420	v(@n.xopamp1.xsf2.xm12.nsg13_lv_nmos[vdss])	voltage
+	421	v(@n.xopamp1.xsf2.xm12.nsg13_lv_nmos[vgs])	voltage
+	422	v(@n.xopamp1.xsf2.xm12.nsg13_lv_nmos[vth])	voltage
+	423	@n.xopamp1.xsf2.xm13.nsg13_lv_pmos[cgd]	capacitance
+	424	@n.xopamp1.xsf2.xm13.nsg13_lv_pmos[cgdol]	capacitance
+	425	@n.xopamp1.xsf2.xm13.nsg13_lv_pmos[cgg]	capacitance
+	426	@n.xopamp1.xsf2.xm13.nsg13_lv_pmos[cgs]	capacitance
+	427	@n.xopamp1.xsf2.xm13.nsg13_lv_pmos[cgsol]	capacitance
+	428	@n.xopamp1.xsf2.xm13.nsg13_lv_pmos[gds]	admittance
+	429	@n.xopamp1.xsf2.xm13.nsg13_lv_pmos[gm]	admittance
+	430	i(@n.xopamp1.xsf2.xm13.nsg13_lv_pmos[ids])	current
+	431	v(@n.xopamp1.xsf2.xm13.nsg13_lv_pmos[vds])	voltage
+	432	v(@n.xopamp1.xsf2.xm13.nsg13_lv_pmos[vdss])	voltage
+	433	v(@n.xopamp1.xsf2.xm13.nsg13_lv_pmos[vgs])	voltage
+	434	v(@n.xopamp1.xsf2.xm13.nsg13_lv_pmos[vth])	voltage
+	435	@n.xopamp1.xsf2.xm14.nsg13_lv_nmos[cgd]	capacitance
+	436	@n.xopamp1.xsf2.xm14.nsg13_lv_nmos[cgdol]	capacitance
+	437	@n.xopamp1.xsf2.xm14.nsg13_lv_nmos[cgg]	capacitance
+	438	@n.xopamp1.xsf2.xm14.nsg13_lv_nmos[cgs]	capacitance
+	439	@n.xopamp1.xsf2.xm14.nsg13_lv_nmos[cgsol]	capacitance
+	440	@n.xopamp1.xsf2.xm14.nsg13_lv_nmos[gds]	admittance
+	441	@n.xopamp1.xsf2.xm14.nsg13_lv_nmos[gm]	admittance
+	442	i(@n.xopamp1.xsf2.xm14.nsg13_lv_nmos[ids])	current
+	443	v(@n.xopamp1.xsf2.xm14.nsg13_lv_nmos[vds])	voltage
+	444	v(@n.xopamp1.xsf2.xm14.nsg13_lv_nmos[vdss])	voltage
+	445	v(@n.xopamp1.xsf2.xm14.nsg13_lv_nmos[vgs])	voltage
+	446	v(@n.xopamp1.xsf2.xm14.nsg13_lv_nmos[vth])	voltage
+	447	@n.xopamp1.xsf2.xm15.nsg13_lv_nmos[cgd]	capacitance
+	448	@n.xopamp1.xsf2.xm15.nsg13_lv_nmos[cgdol]	capacitance
+	449	@n.xopamp1.xsf2.xm15.nsg13_lv_nmos[cgg]	capacitance
+	450	@n.xopamp1.xsf2.xm15.nsg13_lv_nmos[cgs]	capacitance
+	451	@n.xopamp1.xsf2.xm15.nsg13_lv_nmos[cgsol]	capacitance
+	452	@n.xopamp1.xsf2.xm15.nsg13_lv_nmos[gds]	admittance
+	453	@n.xopamp1.xsf2.xm15.nsg13_lv_nmos[gm]	admittance
+	454	i(@n.xopamp1.xsf2.xm15.nsg13_lv_nmos[ids])	current
+	455	v(@n.xopamp1.xsf2.xm15.nsg13_lv_nmos[vds])	voltage
+	456	v(@n.xopamp1.xsf2.xm15.nsg13_lv_nmos[vdss])	voltage
+	457	v(@n.xopamp1.xsf2.xm15.nsg13_lv_nmos[vgs])	voltage
+	458	v(@n.xopamp1.xsf2.xm15.nsg13_lv_nmos[vth])	voltage
+	459	@n.xopamp1.xsf2.xm16.nsg13_lv_pmos[cgd]	capacitance
+	460	@n.xopamp1.xsf2.xm16.nsg13_lv_pmos[cgdol]	capacitance
+	461	@n.xopamp1.xsf2.xm16.nsg13_lv_pmos[cgg]	capacitance
+	462	@n.xopamp1.xsf2.xm16.nsg13_lv_pmos[cgs]	capacitance
+	463	@n.xopamp1.xsf2.xm16.nsg13_lv_pmos[cgsol]	capacitance
+	464	@n.xopamp1.xsf2.xm16.nsg13_lv_pmos[gds]	admittance
+	465	@n.xopamp1.xsf2.xm16.nsg13_lv_pmos[gm]	admittance
+	466	i(@n.xopamp1.xsf2.xm16.nsg13_lv_pmos[ids])	current
+	467	v(@n.xopamp1.xsf2.xm16.nsg13_lv_pmos[vds])	voltage
+	468	v(@n.xopamp1.xsf2.xm16.nsg13_lv_pmos[vdss])	voltage
+	469	v(@n.xopamp1.xsf2.xm16.nsg13_lv_pmos[vgs])	voltage
+	470	v(@n.xopamp1.xsf2.xm16.nsg13_lv_pmos[vth])	voltage
+	471	@n.xota1.xm1.nsg13_lv_nmos[cgd]	capacitance
+	472	@n.xota1.xm1.nsg13_lv_nmos[cgdol]	capacitance
+	473	@n.xota1.xm1.nsg13_lv_nmos[cgg]	capacitance
+	474	@n.xota1.xm1.nsg13_lv_nmos[cgs]	capacitance
+	475	@n.xota1.xm1.nsg13_lv_nmos[cgsol]	capacitance
+	476	@n.xota1.xm1.nsg13_lv_nmos[gds]	admittance
+	477	@n.xota1.xm1.nsg13_lv_nmos[gm]	admittance
+	478	i(@n.xota1.xm1.nsg13_lv_nmos[ids])	current
+	479	v(@n.xota1.xm1.nsg13_lv_nmos[vds])	voltage
+	480	v(@n.xota1.xm1.nsg13_lv_nmos[vdss])	voltage
+	481	v(@n.xota1.xm1.nsg13_lv_nmos[vgs])	voltage
+	482	v(@n.xota1.xm1.nsg13_lv_nmos[vth])	voltage
+	483	@n.xota1.xm2.nsg13_lv_pmos[cgd]	capacitance
+	484	@n.xota1.xm2.nsg13_lv_pmos[cgdol]	capacitance
+	485	@n.xota1.xm2.nsg13_lv_pmos[cgg]	capacitance
+	486	@n.xota1.xm2.nsg13_lv_pmos[cgs]	capacitance
+	487	@n.xota1.xm2.nsg13_lv_pmos[cgsol]	capacitance
+	488	@n.xota1.xm2.nsg13_lv_pmos[gds]	admittance
+	489	@n.xota1.xm2.nsg13_lv_pmos[gm]	admittance
+	490	i(@n.xota1.xm2.nsg13_lv_pmos[ids])	current
+	491	v(@n.xota1.xm2.nsg13_lv_pmos[vds])	voltage
+	492	v(@n.xota1.xm2.nsg13_lv_pmos[vdss])	voltage
+	493	v(@n.xota1.xm2.nsg13_lv_pmos[vgs])	voltage
+	494	v(@n.xota1.xm2.nsg13_lv_pmos[vth])	voltage
+	495	@n.xota1.xm3.nsg13_lv_nmos[cgd]	capacitance
+	496	@n.xota1.xm3.nsg13_lv_nmos[cgdol]	capacitance
+	497	@n.xota1.xm3.nsg13_lv_nmos[cgg]	capacitance
+	498	@n.xota1.xm3.nsg13_lv_nmos[cgs]	capacitance
+	499	@n.xota1.xm3.nsg13_lv_nmos[cgsol]	capacitance
+	500	@n.xota1.xm3.nsg13_lv_nmos[gds]	admittance
+	501	@n.xota1.xm3.nsg13_lv_nmos[gm]	admittance
+	502	i(@n.xota1.xm3.nsg13_lv_nmos[ids])	current
+	503	v(@n.xota1.xm3.nsg13_lv_nmos[vds])	voltage
+	504	v(@n.xota1.xm3.nsg13_lv_nmos[vdss])	voltage
+	505	v(@n.xota1.xm3.nsg13_lv_nmos[vgs])	voltage
+	506	v(@n.xota1.xm3.nsg13_lv_nmos[vth])	voltage
+	507	@n.xota1.xm4.nsg13_lv_pmos[cgd]	capacitance
+	508	@n.xota1.xm4.nsg13_lv_pmos[cgdol]	capacitance
+	509	@n.xota1.xm4.nsg13_lv_pmos[cgg]	capacitance
+	510	@n.xota1.xm4.nsg13_lv_pmos[cgs]	capacitance
+	511	@n.xota1.xm4.nsg13_lv_pmos[cgsol]	capacitance
+	512	@n.xota1.xm4.nsg13_lv_pmos[gds]	admittance
+	513	@n.xota1.xm4.nsg13_lv_pmos[gm]	admittance
+	514	i(@n.xota1.xm4.nsg13_lv_pmos[ids])	current
+	515	v(@n.xota1.xm4.nsg13_lv_pmos[vds])	voltage
+	516	v(@n.xota1.xm4.nsg13_lv_pmos[vdss])	voltage
+	517	v(@n.xota1.xm4.nsg13_lv_pmos[vgs])	voltage
+	518	v(@n.xota1.xm4.nsg13_lv_pmos[vth])	voltage
+	519	@n.xota1.xm5.nsg13_lv_pmos[cgd]	capacitance
+	520	@n.xota1.xm5.nsg13_lv_pmos[cgdol]	capacitance
+	521	@n.xota1.xm5.nsg13_lv_pmos[cgg]	capacitance
+	522	@n.xota1.xm5.nsg13_lv_pmos[cgs]	capacitance
+	523	@n.xota1.xm5.nsg13_lv_pmos[cgsol]	capacitance
+	524	@n.xota1.xm5.nsg13_lv_pmos[gds]	admittance
+	525	@n.xota1.xm5.nsg13_lv_pmos[gm]	admittance
+	526	i(@n.xota1.xm5.nsg13_lv_pmos[ids])	current
+	527	v(@n.xota1.xm5.nsg13_lv_pmos[vds])	voltage
+	528	v(@n.xota1.xm5.nsg13_lv_pmos[vdss])	voltage
+	529	v(@n.xota1.xm5.nsg13_lv_pmos[vgs])	voltage
+	530	v(@n.xota1.xm5.nsg13_lv_pmos[vth])	voltage
+	531	@n.xota1.xm7.nsg13_lv_nmos[cgd]	capacitance
+	532	@n.xota1.xm7.nsg13_lv_nmos[cgdol]	capacitance
+	533	@n.xota1.xm7.nsg13_lv_nmos[cgg]	capacitance
+	534	@n.xota1.xm7.nsg13_lv_nmos[cgs]	capacitance
+	535	@n.xota1.xm7.nsg13_lv_nmos[cgsol]	capacitance
+	536	@n.xota1.xm7.nsg13_lv_nmos[gds]	admittance
+	537	@n.xota1.xm7.nsg13_lv_nmos[gm]	admittance
+	538	i(@n.xota1.xm7.nsg13_lv_nmos[ids])	current
+	539	v(@n.xota1.xm7.nsg13_lv_nmos[vds])	voltage
+	540	v(@n.xota1.xm7.nsg13_lv_nmos[vdss])	voltage
+	541	v(@n.xota1.xm7.nsg13_lv_nmos[vgs])	voltage
+	542	v(@n.xota1.xm7.nsg13_lv_nmos[vth])	voltage
+	543	@n.xota1.xm8.nsg13_lv_pmos[cgd]	capacitance
+	544	@n.xota1.xm8.nsg13_lv_pmos[cgdol]	capacitance
+	545	@n.xota1.xm8.nsg13_lv_pmos[cgg]	capacitance
+	546	@n.xota1.xm8.nsg13_lv_pmos[cgs]	capacitance
+	547	@n.xota1.xm8.nsg13_lv_pmos[cgsol]	capacitance
+	548	@n.xota1.xm8.nsg13_lv_pmos[gds]	admittance
+	549	@n.xota1.xm8.nsg13_lv_pmos[gm]	admittance
+	550	i(@n.xota1.xm8.nsg13_lv_pmos[ids])	current
+	551	v(@n.xota1.xm8.nsg13_lv_pmos[vds])	voltage
+	552	v(@n.xota1.xm8.nsg13_lv_pmos[vdss])	voltage
+	553	v(@n.xota1.xm8.nsg13_lv_pmos[vgs])	voltage
+	554	v(@n.xota1.xm8.nsg13_lv_pmos[vth])	voltage
+	555	@n.xota1.xm9.nsg13_lv_nmos[cgd]	capacitance
+	556	@n.xota1.xm9.nsg13_lv_nmos[cgdol]	capacitance
+	557	@n.xota1.xm9.nsg13_lv_nmos[cgg]	capacitance
+	558	@n.xota1.xm9.nsg13_lv_nmos[cgs]	capacitance
+	559	@n.xota1.xm9.nsg13_lv_nmos[cgsol]	capacitance
+	560	@n.xota1.xm9.nsg13_lv_nmos[gds]	admittance
+	561	@n.xota1.xm9.nsg13_lv_nmos[gm]	admittance
+	562	i(@n.xota1.xm9.nsg13_lv_nmos[ids])	current
+	563	v(@n.xota1.xm9.nsg13_lv_nmos[vds])	voltage
+	564	v(@n.xota1.xm9.nsg13_lv_nmos[vdss])	voltage
+	565	v(@n.xota1.xm9.nsg13_lv_nmos[vgs])	voltage
+	566	v(@n.xota1.xm9.nsg13_lv_nmos[vth])	voltage
+	567	v(en)	voltage
+	568	v(ibias)	voltage
+	569	v(n.xopamp1.xm1.nsg13_lv_nmos#gp)	voltage
+	570	v(n.xopamp1.xm2.nsg13_lv_pmos#gp)	voltage
+	571	v(n.xopamp1.xm3.nsg13_lv_nmos#gp)	voltage
+	572	v(n.xopamp1.xm4.nsg13_lv_pmos#gp)	voltage
+	573	v(n.xopamp1.xm5.nsg13_lv_pmos#gp)	voltage
+	574	v(n.xopamp1.xm6.nsg13_lv_nmos#gp)	voltage
+	575	v(n.xopamp1.xm7.nsg13_lv_nmos#gp)	voltage
+	576	v(n.xopamp1.xsf1.xc1.nsg13_moscap_p#gp)	voltage
+	577	v(n.xopamp1.xsf1.xm1.nsg13_lv_nmos#gp)	voltage
+	578	v(n.xopamp1.xsf1.xm2.nsg13_lv_pmos#gp)	voltage
+	579	v(n.xopamp1.xsf1.xm3.nsg13_lv_nmos#gp)	voltage
+	580	v(n.xopamp1.xsf1.xm4.nsg13_lv_pmos#gp)	voltage
+	581	v(n.xopamp1.xsf1.xm5.nsg13_lv_pmos#gp)	voltage
+	582	v(n.xopamp1.xsf1.xm6.nsg13_lv_nmos#gp)	voltage
+	583	v(n.xopamp1.xsf1.xm7.nsg13_lv_nmos#gp)	voltage
+	584	v(n.xopamp1.xsf1.xm8.nsg13_lv_pmos#gp)	voltage
+	585	v(n.xopamp1.xsf1.xm9.nsg13_lv_pmos#gp)	voltage
+	586	v(n.xopamp1.xsf1.xm10.nsg13_lv_pmos#gp)	voltage
+	587	v(n.xopamp1.xsf1.xm11.nsg13_lv_nmos#gp)	voltage
+	588	v(n.xopamp1.xsf1.xm12.nsg13_lv_nmos#gp)	voltage
+	589	v(n.xopamp1.xsf1.xm13.nsg13_lv_pmos#gp)	voltage
+	590	v(n.xopamp1.xsf1.xm14.nsg13_lv_nmos#gp)	voltage
+	591	v(n.xopamp1.xsf1.xm15.nsg13_lv_nmos#gp)	voltage
+	592	v(n.xopamp1.xsf1.xm16.nsg13_lv_pmos#gp)	voltage
+	593	v(n.xopamp1.xsf1.xr1.nr1#flow(b_re1))	voltage
+	594	v(n.xopamp1.xsf1.xr1.nr1#flow(b_re2))	voltage
+	595	v(n.xopamp1.xsf1.xr1.nr1#i1)	voltage
+	596	v(n.xopamp1.xsf1.xr1.nr1#i2)	voltage
+	597	v(n.xopamp1.xsf2.xc1.nsg13_moscap_p#gp)	voltage
+	598	v(n.xopamp1.xsf2.xm1.nsg13_lv_nmos#gp)	voltage
+	599	v(n.xopamp1.xsf2.xm2.nsg13_lv_pmos#gp)	voltage
+	600	v(n.xopamp1.xsf2.xm3.nsg13_lv_nmos#gp)	voltage
+	601	v(n.xopamp1.xsf2.xm4.nsg13_lv_pmos#gp)	voltage
+	602	v(n.xopamp1.xsf2.xm5.nsg13_lv_pmos#gp)	voltage
+	603	v(n.xopamp1.xsf2.xm6.nsg13_lv_nmos#gp)	voltage
+	604	v(n.xopamp1.xsf2.xm7.nsg13_lv_nmos#gp)	voltage
+	605	v(n.xopamp1.xsf2.xm8.nsg13_lv_pmos#gp)	voltage
+	606	v(n.xopamp1.xsf2.xm9.nsg13_lv_pmos#gp)	voltage
+	607	v(n.xopamp1.xsf2.xm10.nsg13_lv_pmos#gp)	voltage
+	608	v(n.xopamp1.xsf2.xm11.nsg13_lv_nmos#gp)	voltage
+	609	v(n.xopamp1.xsf2.xm12.nsg13_lv_nmos#gp)	voltage
+	610	v(n.xopamp1.xsf2.xm13.nsg13_lv_pmos#gp)	voltage
+	611	v(n.xopamp1.xsf2.xm14.nsg13_lv_nmos#gp)	voltage
+	612	v(n.xopamp1.xsf2.xm15.nsg13_lv_nmos#gp)	voltage
+	613	v(n.xopamp1.xsf2.xm16.nsg13_lv_pmos#gp)	voltage
+	614	v(n.xopamp1.xsf2.xr1.nr1#flow(b_re1))	voltage
+	615	v(n.xopamp1.xsf2.xr1.nr1#flow(b_re2))	voltage
+	616	v(n.xopamp1.xsf2.xr1.nr1#i1)	voltage
+	617	v(n.xopamp1.xsf2.xr1.nr1#i2)	voltage
+	618	v(n.xota1.xm1.nsg13_lv_nmos#gp)	voltage
+	619	v(n.xota1.xm2.nsg13_lv_pmos#gp)	voltage
+	620	v(n.xota1.xm3.nsg13_lv_nmos#gp)	voltage
+	621	v(n.xota1.xm4.nsg13_lv_pmos#gp)	voltage
+	622	v(n.xota1.xm5.nsg13_lv_pmos#gp)	voltage
+	623	v(n.xota1.xm7.nsg13_lv_nmos#gp)	voltage
+	624	v(n.xota1.xm8.nsg13_lv_pmos#gp)	voltage
+	625	v(n.xota1.xm9.nsg13_lv_nmos#gp)	voltage
+	626	v(n.xvcm1.xr1.nr1#flow(b_re1))	voltage
+	627	v(n.xvcm1.xr1.nr1#flow(b_re2))	voltage
+	628	v(n.xvcm1.xr1.nr1#i1)	voltage
+	629	v(n.xvcm1.xr1.nr1#i2)	voltage
+	630	v(n.xvcm1.xr2.nr1#flow(b_re1))	voltage
+	631	v(n.xvcm1.xr2.nr1#flow(b_re2))	voltage
+	632	v(n.xvcm1.xr2.nr1#i1)	voltage
+	633	v(n.xvcm1.xr2.nr1#i2)	voltage
+	634	v(net1)	voltage
+	635	v(net2)	voltage
+	636	v(net3)	voltage
+	637	v(net4)	voltage
+	638	v(net5)	voltage
+	639	v(net6)	voltage
+	640	v(net7)	voltage
+	641	v(net8)	voltage
+	642	ro_n	impedance
+	643	ro_p	impedance
+	644	i(v.xopamp1.vmeas)	current
+	645	i(v.xopamp1.vmeas1)	current
+	646	i(v.xprobe1.xprobe1.v1)	current
+	647	i(v.xprobe1.xprobe2.v1)	current
+	648	v(vcm)	voltage
+	649	i(vcm)	current
+	650	v(vcm_calc)	voltage
+	651	v(vcm_reg)	voltage
+	652	v(vdd)	voltage
+	653	i(vdd)	current
+	654	i(ven)	current
+	655	v(vinn)	voltage
+	656	v(vinp)	voltage
+	657	i(vmeas)	current
+	658	i(vmeas1)	current
+	659	i(vmeas2)	current
+	660	i(vmeas3)	current
+	661	i(vmeas4)	current
+	662	i(vmeas5)	current
+	663	v(voutn)	voltage
+	664	v(voutp)	voltage
+	665	v(vss)	voltage
+	666	i(vss)	current
+	667	v(vt_n)	voltage
+	668	v(vt_p)	voltage
+	669	v(xopamp1.net1)	voltage
+	670	v(xopamp1.net2)	voltage
+	671	v(xopamp1.net3)	voltage
+	672	v(xopamp1.voutn_st1)	voltage
+	673	v(xopamp1.xsf1.net1)	voltage
+	674	v(xopamp1.xsf1.net2)	voltage
+	675	v(xopamp1.xsf1.net3)	voltage
+	676	v(xopamp1.xsf1.vbiasn)	voltage
+	677	v(xopamp1.xsf1.vbiasp)	voltage
+	678	v(xopamp1.xsf1.vcasn)	voltage
+	679	v(xopamp1.xsf1.vcasn2)	voltage
+	680	v(xopamp1.xsf1.vcasp)	voltage
+	681	v(xopamp1.xsf1.vcasp2)	voltage
+	682	v(xopamp1.xsf1.vin_shifted)	voltage
+	683	v(xopamp1.xsf1.xr1.dt)	voltage
+	684	v(xopamp1.xsf2.net1)	voltage
+	685	v(xopamp1.xsf2.net2)	voltage
+	686	v(xopamp1.xsf2.net3)	voltage
+	687	v(xopamp1.xsf2.vbiasn)	voltage
+	688	v(xopamp1.xsf2.vbiasp)	voltage
+	689	v(xopamp1.xsf2.vcasn)	voltage
+	690	v(xopamp1.xsf2.vcasn2)	voltage
+	691	v(xopamp1.xsf2.vcasp)	voltage
+	692	v(xopamp1.xsf2.vcasp2)	voltage
+	693	v(xopamp1.xsf2.vin_shifted)	voltage
+	694	v(xopamp1.xsf2.xr1.dt)	voltage
+	695	v(xota1.mirror)	voltage
+	696	v(xota1.net1)	voltage
+	697	v(xota1.tail_bias)	voltage
+	698	v(xvcm1.xr1.dt)	voltage
+	699	v(xvcm1.xr2.dt)	voltage
+Binary:
+Ä∆ËÎ¶ÊÔ?V$k¿Û∏<Ÿ(¸íÈW’<¢ÇsF±oH=∑mXÉﬂG=ú–M-“◊<JÓz5~ßû>\Ç °?}öÈ’2Â>Ä∆ËÎ¶ÊÔ?ÅÏ1+¸‹?ÆZ›œƒÁ?ùA¡¸ÆØ»?¿öè0’∂Õ<“Uﬂ∫â=}-ß>!¬T=Ó\¿∂v/R=,∂S;0,=Ä{”Dçå∂>yUE9Ï?íXﬁ—KMÂ>†úˇë“?ˆ»÷z Û≈?–‡zÎÔÈ‡?‹-Î:Ïfÿ?Ø"™m¿Û∏<¡ª7ìÈW’<Æ…vF±oH=ù≈ZÉﬂG=ú–M-“◊<&≠B8~ßû>=‚‡ °?ï¶ÇÈ’2Â>Ä5‹Ë¶ÊÔ?–Ï1+¸‹?ÆZ›œƒÁ?¶A¡¸ÆØ»?@Häˇ‘∂Õ<VTù∫â=µ–à>!¬T=ÊÌµ∂v/R=,∂S;0,=Ä‘a6çå∂>7æ9Ï?|#“KMÂ>†æ8í“?Kœ÷z Û≈?–‡zÎÔÈ‡?'(Î:Ïfÿ?äå5¯(p=’ÌòTé=|¥Çå•Ñ=©±1a]x=ãb®ü =õR^ª‡¿?‚øÊg?≠RRL+Nı>¿¨R@XÃ?Ü, zùﬂ?Ë’áIÈÔ?“∞v‚÷?G^/≥6º°<l≤VÈˆÌµ<›÷µy9{(=i1÷ÚM!'=™H-“∑<}ÅÁ©¥_Ñ>ﬂ/—˘¸‰‚>êFk§VÎƒ>în;œƒÁ?"ì∂)˝‹?ùÊœƒÁ?“gÉØØ»?1wõŒw&;@ å7qò<„aöbÃt< Pÿy‘Õ;
+	Ã-l∫ö<ßãx¨Å_~=•¢(÷U”=9ßÅ+ÓÜ=în;œƒÁ?°ïPÕQæ?åòF´Ç‚µ=ô2ÈëP‹?ƒÀ«;K=mÖ]∂’Ø∏<êŒ/!_∂<ÿ •”nÖ=˝7iG
+=\~Tn<∑<@ÚPΩû´>j∫'V¯>·Y÷π‰>t<|˝„Ë?Ÿz4„?0N~GâKÔ?´T|Dk[ ? bnÛ”êZ<¨>we¿Á‰<rÖÚïØ}=ﬁå¡&‘=y πé˝*Á< DìEêØ>¯Vm”¨?Â’±Ìº#‰>å√ÉÎÁ?z3Œ
+ê¬≈?ﬁRY‡?AbZirK◊?ºgDÓNÿ<Ò|HÕU-Œ<$T~Õøı<  p:0#<øõ3€¬<Œ<h‚c€Ëz=´VÙÙ`v=•µ‡å&= 2∆≥cì?ÿÊyûeª?‡ram·®ªøh!£Ç‘?*eµßp-8=´2–˘Ô Á<JÃL≠¬I="66ﬂ8=Rãø	œÁ<‘ﬁñed>?‰ Ü†Îz√>Q°êˇ∏˛∏> 2∆≥cì?@nà›?{ù¬¸©÷Ô?Ω—π˘S'€? éäÖdë< ôF 4ﬁı<ü·L=≤Æ^¶YG=s¯Oa	˜< †˛]G_u>uÁøZf˜>÷∏:T¥A∏>l.ù∞±⁄?∫%%P∏π¡?Lª]n‹Z€?â¶J' ÷?#Çƒ
+T<ºT≤ 4Î<¸5∞≈ﬁi˘<ÒºˇO«Î<n–j¯,“Î<ËGÚ‚¡>Ô7ìÆ†?s÷â@qÛ∏>?íin–? ¬ô9¶6Ω?;©%•ÀŒ?”–1∫éb—?Tæ˜5¬=|R“=’ÏÊ<(«¨Ãó)=¶ÿπ ÿ=‰â©ﬁHÌÊ<B¢æ'_$H?6W*ﬂ∏»>oÒ6¶0.∏>ﬁí*ÿ˘_?rì^HŸ?’r∞œƒÁ?XU° h–? ÄÖmi◊ê<É@Ä¢’ı<ËÊôL=˙¿  XG=v¯Oa	˜< h∫uÑ t> XÃ≠‚i˜>SQ«ƒ/E∏>§UTn‹Z€?D∏Ex∏π¡?dª]n‹Z€?,∫È' ÷? ¨q$◊ç<ÛÄ¢’ı<Rª	Ë#5L=„∂∞µáH=4µ/˜< ÇiÖπÎq>∫ú,s©˜>‡#*
+›2∏>l	»(é‡?|ááÄj¬?uz (é‡?ﬂK%ÀQ⁄? 8V%?Ö<¸ù¶À€ı<eùrâL=•Œ∞œTG=É¯Oa	˜< ‚)c:k>ΩÓqπøü˜>Ga¨&K{∏>ﬂ¡é·í)‰?∆˝Äªπ¡? Ω]n‹Z€?ÁÍu©# ÷?ö∆Vî|É<QΩO$ñëﬁ<Íì'{Ó*=çà¯r/π'=·5o|ﬂ<ø˘∆øÕˇß>ﬁ·⁄j›K¯>ˆ7Àˇp∏>»–„e/◊?îù:lÇ÷¡?¸Öod/◊?Ô—D¢Ωº—?Tıÿ?[≠Q<-	¶8 ?Î<uå‹˝—˜<R‡?À˜È<JëGm·Î<Ïü’…kg¬>HÈ@TLu?¨d;W~i∏>Q—Bÿ5—?JœÌRY(Ω?•j˜?ÿ5—?Á“»…V”? ⁄˙çä<≠ˇ?˙%–ı<«ä”Vû,L=(cn9cH=Öo˚J˜< pÁRwo>ûhÄÂˆ>tÔæú+∏>˘¬¯≥@‚?Œ7¬…!M¬?Âü¯≥@‚?J∫{˚Ñﬁ?Z∞JqÑV<F›µ8 ?Î<ÌŸg*l˘<©˙Ò»Î<l–j¯,“Î<£⁄º¨V¡>˝	†‰$7?N∆
+df∏>Œ¥Z(•ÀŒ?ºœs&¶6Ω?é:©%•ÀŒ?∆JOÍéb—?y£õOï3<ŒS)˝…›È<åmGGƒÛ<dN◊tÌ‡<¶/Ü,…ÿÎ<§sÚ≈¸î¥>°Ññ"Ñ?â£˚˘ãÙ∏>íãÅTÁ?+y ˚Àº?±ÊAA-–?<K[˙3”?‚Ê∆$£Ï-=*#«b€˜<å)•çÎQ=‚ﬁ∞ù∂VG=w©»Ù4˜<|S*Î∆›>◊8É	Û>wÚ‚ ı<∏>Pö›D∂?É«≈…¬?’Çl$W‡?Á¬;⁄?Käö‘«;K=Iˆ÷Ø∏<Æ]ˇ!_∂<¶ds’nÖ=9KØiG
+=jdéTn<∑<PK™ÖΩû´>=®º∫'V¯>¶&Ü⁄π‰>O>ÒÒ„Ë?']º6„?én•JâKÔ?ÁT|Dk[ ? ∏LÑ”êZ<ß#Øc¿Á‰<øƒåìØ}=πÏ‰ª&‘=]rãé˝*Á< /”ÊDêØ>P•º[”¨?,Låÿº#‰>±¡ÎÁ?º8]ê¬≈?ﬁ|EY‡?ŸRMirK◊?)∂êÏNÿ<Ç¸ÃU-Œ<Ôg~Õøı< @#:0#<r\Â⁄¬<Œ<_ÿ´€Ëz=Å∆åûÙ`v=ÙÜ°ïå&=`0‡¬≥cì?´◊Êyûeª? ›Ü·®ªøá¶ò£Ç‘?çD˚ßp-8=‚Â˘Ô Á<
+;n≠¬I=»è96ﬂ8=@ûüø	œÁ<È_êid>?^±êõÎz√>ôAˇˇ∏˛∏>`0‡¬≥cì?fËsà›?7œˇ©÷Ô?ßªÎ¯S'€? z Ödë<$] 4ﬁı<=%·L=Pßq¶YG=1jPa	˜< ö∂_G_u>ø⁄¿Zf˜>z=ÄT¥A∏>,◊yõ∞±⁄?#—0P∏π¡?îkn‹Z€?á%¶J' ÷?Ñweƒ
+T<ß∞ 4Î<élŒ≈ﬁi˘<ª∂EP«Î<Qk¯,“Î<∑%&„¡>Ã"[ìÆ†?∫‚ˆ@qÛ∏>òÜoíin–?€¸ú9¶6Ω?x]π%•ÀŒ? –1∫éb—?E¨˜5¬=“Q“=’ÏÊ<≈¨Ãó)=d#ÿπ ÿ=‰â©ﬁHÌÊ<xæ'_$H?Y9*ﬂ∏»>êZ¶0.∏>ﬂ@*ÿ˘_?zì^HŸ?’r∞œƒÁ?VU° h–? Fßmi◊ê<É@Ä¢’ı<¸}ıôL=•› XG=2jPa	˜< /ıuÑ t>æß˝≠‚i˜>2¢≈/E∏>Ï™an‹Z€?4dQx∏π¡?¨kn‹Z€?∂ÃÈ' ÷? Nq$◊ç<ÛÄ¢’ı<√ÛÒÁ#5L=ÆáïµáH=aµ/˜< ﬁÖπÎq>¯∑‚r©˜>–±±	›2∏>y¨æ(é‡?ûvtÄj¬?Å¡(é‡?•'ÀQ⁄? åù%?Ö<¿d©À€ı<~ü¨râL=åŸ‡∞œTG=@jPa	˜< pöc:k>/Ë¢πøü˜>±˙&K{∏>≈n~·í)‰?å©Äªπ¡?Dkn‹Z€?Å˝u©# ÷?LıVî|É<QΩO$ñëﬁ<ó#©'{Ó*=ñIs/π'=bd6o|ﬂ<'R¯øÕˇß>Å>k›K¯>h¥! p∏>gÛe/◊?V_FlÇ÷¡?Bd/◊?éÉF¢Ωº—?œ–@[≠Q<-	¶8 ?Î<ƒ€™‹˝—˜<ô‡ÖÀ˜È<⁄QëGm·Î<yï kg¬>¥ëÄTLu?ãìW~i∏>ÃO⁄Bÿ5—?˚ÍRY(Ω?^i @ÿ5—?¿´……V”? ™çä<≠ˇ?˙%–ı<cA⁄Vû,L=—±jn9cH=•®o˚J˜< XDÁRwo>?Æ%hÄÂˆ>^%øú+∏>^˚≥@‚? ÿ«…!M¬?:˚≥@‚?"{˚Ñﬁ?æ*ÊJqÑV<F›µ8 ?Î<Ωï˜g*l˘<πï8»Î<Nk¯,“Î<Òï¨V¡>qÌ›‰$7?Îú`df∏>4◊j(•ÀŒ?´
+w&¶6Ω?Ú\π%•ÀŒ?√JOÍéb—?È&íLï3<Ú-€¸…›È<‚«GGƒÛ<ÛÛˆ÷tÌ‡<‰&Ö,…ÿÎ<YÒ√¸î¥>†Î˘ñ"Ñ?Ñ≥h˙ãÙ∏>±öÑTÁ?—,˜˙Àº?¥∆AA-–?/X`˙3”?ïä˝Z£Ï-=®0˚b€˜<±(ÙíÎQ=T|Fú∂VG=™q‘Ù4˜<‡ nÎ∆›>Pïu˙Ç	Û>/Q(Àı<∏>Po“2∂?Jíÿ»≈…¬?&¸4$W‡?qå;⁄?D õ]–<r‰∫P∆<E%_ ;ñ8=3Å˛[7=7íË«<˛åπˇÕˇû>e√HÈÏÒ>Ò∞
+”>Uöu∂‰‡?SÆ∫À€?ñ;Fë»Á?•h+OØØ»? {‡¢&
+r<Á+,Ú‰<Û7∞¢#=Íµ@#L!=ªª®ï_)Á< ˘ÃÒ˜ﬂë>#èµ8‚B?'XhÖ”>´ì•ÈÁ?ÍOµdS-≈?˙”ˆÜ∞∏‡?:!lç‘ÿ?≠O0f±<x`ÈˆÌ≈<ÀÆIL≤`8=œ†◊Ç7=\7íË«<‚~µ¬ú®ì>©,y¡):Ú>‚¡∂ä\”>SÕﬂë»Á?(F}f €?GFë»Á?∏, ØØ»? “êf.}<˙B~Ëo≠Â<ÿ,j'é∫#=.«w2µ0!=m·∏å*Á< )˘ Vô>ß¿;»/i?Ùz∏_”>≠`±…m±·?êE†ˇX≈?Gﬁ£[6Õ‡?∂≈l“*’ÿ?x?”Ï==|$-fG
+˜<◊äsxàa=•u™ˆ£Y=¯ßS}l˜<0å—®@åÌ>Ô~W]˙?|^ΩT8„> Hªë&ÀÃ?>~*ì∑“?\„)ÌÁÂ?3ü‡	˝’?éêöÖÿ†';BûÅ„Åò<iu¸*bÃt< XtE’Õ;∫Ã-l∫ö<Õ·ü”o~=˛H…”=…8åª£Ü=SÕﬂë»Á?E†ïPÕQæ?pÔ!Ü¢Ë≥=j#]ÍëP‹?Äh?¯âë<Ír¡©H∆’<DE˙èÇé==ÔEäqÅ¬:=cÛS}l◊< †£Ï$¨h>TddÉÌ>ü2Àü≈>”B(ÌÁÂ?ú¯Ziî∑“?ê0ÌÁÂ?D[‘¢˝’?Á∆ô°›3ü<$¢C‚$≈µ<◊Òõúw(=¿¶òŸ'=¨H-“∑<âÓˇ≈ìÇ>‰e»Úºı‚>M+PÒ≈>-Ω◊ÒÍ?Z˚â–¸‹?÷ÊœƒÁ?π:jØØ»?        în;œƒÁ?ÆZ›œƒÁ? ¥˝ˇˇˇÁ?ÆZ›œƒÁ? ¥˝ˇˇˇÁ?*x∂‰‡?ùÊœƒÁ?åòF´Ç‚µ=âi⁄Ë¶ÊÔ?0N~GâKÔ?"Ú≠Ë¶ÊÔ?Cv˛m÷Î?
+03ÿ˘_?-ëh‰H)Ò?;©%•ÀŒ?’r∞œƒÁ?'ëh‰H)Ò?πZ†P‚?¿êh‰H)Ò?ª∑m÷Î?Übj’M‡?⁄∫W*ÿ˘_?é:©%•ÀŒ?eïj’M‡?ıe†P‚?  Äg•≈	æ  Ä_#>(™∏≥òË?¯i≈;„Ë?à˙ÊÎ¶ÊÔ?én•JâKÔ?"É∫Î¶ÊÔ?]…m÷Î?ˆí^3ÿ˘_?€;e‰H)Ò?x]π%•ÀŒ?’r∞œƒÁ?’;e‰H)Ò?	†P‚?o;e‰H)Ò?‘k«m÷Î?|Íj’M‡?€BÜ*ÿ˘_?Ú\π%•ÀŒ?[j’M‡?D†P‚?  Ä[•≈	æ   _#>–-®òË?0l:0„Ë?ñ;Fë»Á?Zö‘ÖË?GFë»Á?πOÌˇˇˇÁ?§÷ÒÍ?pÔ!Ü¢Ë≥=ıoœÒÍ?÷ÊœƒÁ?  ”Ã]#>  ≥sàΩ	æNÊN0„Ë?ÅÚÜË?  “–ù^#>  Äw‹√	æJ ;„Ë?äƒÜË?O>ÒÒ„Ë?t<|˝„Ë?O>ÒÒ„Ë?t<|˝„Ë?t<|˝„Ë?O>ÒÒ„Ë?í_ˆÌ¸Á?í_ˆÌ¸Á?b){Gﬂ£A x˘wﬁ£A @ò$˘i> @lµ#˘i>ÅÙÙìP)æxG€ÒìP)æ      Ë?    £®æ_≠‘ÖË?Uöu∂‰‡?      ¯?")8eŒ[ø˛◊.ñ0=      Ë?      Ë?à∏ˆﬁ}’)>˙ûﬁ◊Ë”)> @˘@¢c3> @…ld3>¿;lîÓÒ	>4à!|ÓÒ	>O>ÒÒ„Ë?t<|˝„Ë?        ‹∞#¢L9ræí_ˆÌ¸Á?í_ˆÌ¸Á?hJºı˜tÙ?Ä5‹Ë¶ÊÔ?Ä∆ËÎ¶ÊÔ?Ä5‹Ë¶ÊÔ??íin–?eÙªÿìSÒ?¶åJsòË?Œ¥Z(•ÀŒ?óÍj‰H)Ò?ΩUk’M‡?!>qm÷Î?¬À†P‚?ﬁí*ÿ˘_?ü§™JâKÔ?        òÜoíin–?5ä!ŸìSÒ?ù≤øgòË?4◊j(•ÀŒ?Eïg‰H)Ò?≥›ák’M‡?;ëÅm÷Î?~†P‚?ﬂ@*ÿ˘_?˝ƒ—MâKÔ?        SÕﬂë»Á? ó»-õfÙ?-Ω◊ÒÍ?                

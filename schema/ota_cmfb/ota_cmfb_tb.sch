@@ -69,7 +69,7 @@ N -90 160 -50 160 {lab=Voutn}
 N -210 160 -150 160 {lab=#net8}
 N -340 160 -270 160 {lab=Vinp}
 N -450 160 -400 160 {lab=Vt_p}
-C {/foss/designs/Chipalooza2/schema/ota_cmfb_core/ota_cmfb_core.sym} 210 -110 0 0 {name=xopamp1}
+C {ota_cmfb_core/ota_cmfb_core.sym} 210 -110 0 0 {name=xopamp1}
 C {lab_pin.sym} 210 -210 0 1 {name=p1 lab=VDD}
 C {lab_pin.sym} 100 -110 0 0 {name=p2 lab=Vcm_reg}
 C {lab_pin.sym} 90 -80 0 0 {name=p3 lab=Vinn}
@@ -83,7 +83,7 @@ C {lab_pin.sym} 330 -510 0 0 {name=p13 lab=Vcm}
 C {code_shown.sym} -1330 -330 0 0 {name=NETLIST only_toplevel=false value="
 VSS VSS 0 0
 VDD VDD VSS 1.5
-VEN EN VSS 0
+VEN EN VSS 1.2
 Vcm Vcm VSS \{vcm\}
 Ibias VDD Ibias 2.5u
 "}
@@ -97,13 +97,13 @@ print ro_n ro_p
 write @schname\\\\.raw
 .endc
 "
-spice_ignore=true}
+}
 C {simulator_commands_shown.sym} -1330 -500 0 0 {
 name=Libs_Ngspice
 simulator=ngspice
 only_toplevel=false
 value="
-.lib cornerMOSlv.lib mos_ff
+.lib cornerMOSlv.lib mos_tt
 .lib cornerMOShv.lib mos_tt
 .lib cornerMOSCAP.lib moscap_tt
 .lib cornerCAP.lib cap_typ
@@ -140,6 +140,7 @@ plot op_mag op_ph
 }
 C {code_shown.sym} -970 -610 0 0 {name=PARAMS only_toplevel=false value="
 .option rshunt=1e9
+.options method=gear
 .param vcm=0.75 vcm_in=0.75 cl=0.1p
 .save all
 "}
@@ -152,9 +153,9 @@ CL1 Voutp 0 \{cl\}
 CL2 Voutn 0 \{cl\}
 "
 }
-C {/foss/designs/Chipalooza2/schema/ac_diff_probe/ac_diff_probe.sym} -370 -80 0 0 {name=xprobe1 vcm=\{vcm_in\} vac=1
+C {ac_diff_probe/ac_diff_probe.sym} -370 -80 0 0 {name=xprobe1 vcm=\{vcm_in\} vac=1
 }
-C {/foss/designs/Chipalooza2/schema/ota_cmfb_cm_sense/ota_cmfb_cm_sense.sym} 150 -480 3 1 {name=xvcm1}
+C {ota_cmfb_cm_sense/ota_cmfb_cm_sense.sym} 150 -480 3 1 {name=xvcm1}
 C {devices/code_shown.sym} -1320 -600 0 0 {name=SAVE only_toplevel=true
 format="tcleval( @value )"
 value="
@@ -170,7 +171,7 @@ spice_ignore=true}
 C {lab_pin.sym} -290 -610 2 0 {name=p16 lab=VSS}
 C {ammeter.sym} 150 -610 0 0 {name=Vmeas savecurrent=true spice_ignore=0}
 C {ammeter.sym} 150 -350 2 1 {name=Vmeas1 savecurrent=true spice_ignore=0}
-C {/foss/designs/Chipalooza2/schema/ota_cmfb_fbota/ota_cmfb_fbota.sym} 420 -460 0 0 {name=xota1}
+C {ota_cmfb_fbota/ota_cmfb_fbota.sym} 420 -460 0 0 {name=xota1}
 C {lab_pin.sym} 420 -560 0 1 {name=p12 lab=VDD}
 C {lab_pin.sym} 440 -540 0 1 {name=p14 lab=EN}
 C {lab_pin.sym} 440 -350 0 0 {name=p28 lab=Ibias}
@@ -185,10 +186,10 @@ C {ammeter.sym} 400 -100 3 1 {name=Vmeas3 savecurrent=true spice_ignore=0}
 C {ammeter.sym} -230 -70 1 0 {name=Vmeas4 savecurrent=true spice_ignore=0}
 C {ammeter.sym} -230 -90 1 1 {name=Vmeas5 savecurrent=true spice_ignore=0}
 C {code_shown.sym} -910 130 0 0 {name=TRAN_SIM only_toplevel=false value="
-Vinp Vinp 0 sin(\{vcm_in\} 100u 1k)
-Vinn Vinn 0 sin(\{vcm_in\} -100u 1k)
+Vinp Vinp 0 sin(\{vcm_in\} 100u 1000k)
+Vinn Vinn 0 sin(\{vcm_in\} -100u 1000k)
 .control
-tran 100u 100m
+tran 100n 1m
 plot Vinp Vinn Voutp Voutn
 plot Vinp-Vinn Voutp-Voutn
 .endc
@@ -223,7 +224,7 @@ write_data [save_params] $netlist_dir/[file rootname [file tail [xschem get curr
 xschem netlist
 simulate
 "}
-C {code_shown.sym} -1580 50 0 0 {name=AC_LOOP only_toplevel=false value="
+C {code_shown.sym} -1580 50 0 0 {name=AC_LOOP_SIM only_toplevel=false value="
 .control
 set gain_pcmd = \\"\\"
 set ph_pcmd = \\"\\"
@@ -317,7 +318,7 @@ echo results_save_end
 "
 spice_ignore=true}
 C {simulator_commands_shown.sym} 80 280 0 0 {
-name=Libs_Ngspice1
+name=Libs_MISMATCH
 simulator=ngspice
 only_toplevel=false
 value="

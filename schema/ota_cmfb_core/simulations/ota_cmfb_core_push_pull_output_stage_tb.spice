@@ -1,0 +1,100 @@
+** sch_path: /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/schema/ota_cmfb_core/ota_cmfb_core_push_pull_output_stage_tb.sch
+**.subckt ota_cmfb_core_push_pull_output_stage_tb
+XM6 Ibias Ibias VSS VSS sg13_lv_nmos w=10u l=1u ng=1 m=1 mm_ok=1
+Vmeas net1 Vin 0
+.save i(vmeas)
+xsf1 VDD net1 Vout Ibias VSS ota_cmfb_core_push_pull_output_stage
+**** begin user architecture code
+
+
+VSS VSS 0 0
+VDD VDD VSS 1.5
+VEN EN VSS 0
+Vcm Vcm VSS {vcm}
+Ibias VDD Ibias 2.5u
+
+
+
+.control
+op
+write ota_cmfb_core_push_pull_output_stage_tb.raw
+.endc
+
+
+
+.control
+ac dec 50 1 100G
+let gain=v(vout)/v(vin)
+let op_mag=db(gain)
+let op_ph = 180*cph(gain)/pi
+plot op_mag op_ph
+.endc
+
+
+
+
+.option rshunt=1e9
+.param vcm=0.75 cl=0.1p
+.save all
+
+
+
+
+RL1 Vout 0 10k
+CL1 Vout 0 0.01p
+
+
+
+.include ota_cmfb_core_push_pull_output_stage_tb.save
+
+
+
+Vin Vin 0 {vcm} ac 1
+
+
+
+
+
+.lib cornerMOSlv.lib mos_tt
+.lib cornerMOShv.lib mos_tt
+.lib cornerMOSCAP.lib moscap_tt
+.lib cornerCAP.lib cap_typ
+.lib cornerRES.lib res_typ
+.lib cornerDIO.lib dio_tt
+
+
+**** end user architecture code
+**.ends
+
+* expanding   symbol:  ota_cmfb_core/ota_cmfb_core_push_pull_output_stage.sym # of pins=5
+** sym_path: /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/schema/ota_cmfb_core/ota_cmfb_core_push_pull_output_stage.sym
+** sch_path: /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/schema/ota_cmfb_core/ota_cmfb_core_push_pull_output_stage.sch
+.subckt ota_cmfb_core_push_pull_output_stage VDD Vin Vout Vbias VSS
+*.iopin VSS
+*.iopin VDD
+*.ipin Vbias
+*.ipin Vin
+*.opin Vout
+XM1 Vout Vin_shifted VSS VSS sg13_lv_nmos w=0.5u l=10u ng=1 m=1 mm_ok=1
+XM2 VDD Vin Vout VDD sg13_lv_pmos w=5u l=0.5u ng=1 m=1 mm_ok=1
+XMC VDD Vbiasp net3 VDD sg13_lv_pmos w=5u l=3u ng=1 m=2 mm_ok=1
+XME Vin_shifted Vcasp2 Vin VDD sg13_lv_pmos w=5u l=3u ng=1 m=1 mm_ok=1
+XMD net3 Vcasp Vin VDD sg13_lv_pmos w=5u l=3u ng=1 m=2 mm_ok=1
+XMN Vin Vcasn2 Vin_shifted VSS sg13_lv_nmos w=1.4u l=3u ng=1 m=1 mm_ok=1
+XMH VDD Vbiasp net1 VDD sg13_lv_pmos w=5u l=3u ng=1 m=2 mm_ok=1
+XMI net1 Vcasp Vcasp VDD sg13_lv_pmos w=5u l=3u ng=1 m=2 mm_ok=1
+XMJ Vcasp Vcasp2 Vcasp2 VDD sg13_lv_pmos w=5u l=3u ng=1 m=2 mm_ok=1
+XMB VDD Vbiasp Vcasn2 VDD sg13_lv_pmos w=5u l=3u ng=1 m=2 mm_ok=1
+XMO Vcasn2 Vcasn2 Vcasn VSS sg13_lv_nmos w=1.4u l=3u ng=1 m=2 mm_ok=1
+XR1 net4 Vout VSS rhigh w=0.5e-6 l=1e-6*8 m=1 b=0 mm_ok=1
+XC1 Vin net4 sg13_moscap_p w=5.0u l=5.0u m=3 mm_ok=1
+XMFG Vbiasp Vbias VSS VSS sg13_lv_nmos w=0.25u l=10u ng=1 m=2 mm_ok=1
+XMA VDD Vbiasp Vbiasp VDD sg13_lv_pmos w=5u l=3u ng=1 m=5 mm_ok=1
+XMO1 Vcasn Vcasn Vbiasn VSS sg13_lv_nmos w=1.4u l=3u ng=1 m=2 mm_ok=1
+XMO2 Vbiasn Vbiasn VSS VSS sg13_lv_nmos w=1.4u l=3u ng=1 m=2 mm_ok=1
+XMO3 Vin_shifted Vcasn net2 VSS sg13_lv_nmos w=1.4u l=3u ng=1 m=2 mm_ok=1
+XMO4 net2 Vbiasn VSS VSS sg13_lv_nmos w=1.4u l=3u ng=1 m=2 mm_ok=1
+XMO5 Vcasp2 Vbiasn VSS VSS sg13_lv_nmos w=1.4u l=3u ng=1 m=2 mm_ok=1
+.ends
+
+.end

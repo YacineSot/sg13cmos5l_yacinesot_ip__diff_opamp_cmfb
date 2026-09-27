@@ -40,7 +40,7 @@ N 220 10 260 10 {lab=Voutp}
 N 420 -700 500 -700 {lab=Vcm_sense}
 N 420 -770 420 -720 {lab=Vcm_sense}
 N 420 -720 420 -700 {lab=Vcm_sense}
-C {/foss/designs/Chipalooza2/schema/ota_cmfb_core/ota_cmfb_core.sym} 0 0 0 0 {name=x1}
+C {ota_cmfb_core/ota_cmfb_core.sym} 0 0 0 0 {name=x1}
 C {vcvs_limit.sym} 540 -720 0 0 {name=alimit1 gain=1000 lower_limit=0 upper_limit=1.5}
 C {lab_pin.sym} 0 -100 0 1 {name=p1 lab=VDD}
 C {lab_pin.sym} -110 0 0 0 {name=p2 lab=Vcm_reg}
@@ -78,7 +78,7 @@ value="
 .lib cornerMOShv.lib mos_tt
 .lib cornerRES.lib res_typ
 .lib cornerDIO.lib dio_tt
-.include /foss/designs/Chipalooza2/schema/tian_probe/tian_subckt.lib
+.include tian_probe/tian_subckt.lib
 "
       }
 C {devices/launcher.sym} 550 -100 0 0 {name=h2
@@ -111,7 +111,7 @@ CL1 Voutp 0 \{cl\}
 CL2 Voutn 0 \{cl\}
 "
 }
-C {/foss/designs/Chipalooza2/schema/ac_diff_probe/ac_diff_probe.sym} -240 -150 0 0 {name=xprobe1 vcm=\{vcm\} vac=1
+C {ac_diff_probe/ac_diff_probe.sym} -240 -150 0 0 {name=xprobe1 vcm=\{vcm\} vac=1
 }
 C {devices/code_shown.sym} -1110 -820 0 0 {name=SAVE only_toplevel=true
 format="tcleval( @value )"

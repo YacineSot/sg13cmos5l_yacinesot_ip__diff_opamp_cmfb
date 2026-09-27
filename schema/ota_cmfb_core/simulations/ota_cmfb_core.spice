@@ -1,0 +1,44 @@
+** sch_path: /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/schema/ota_cmfb_core/ota_cmfb_core.sch
+.subckt ota_cmfb_core VDD Vcm_reg Vinn Vinp Ibias Voutn Voutp VSS EN
+*.PININFO Voutn:O Voutp:O VDD:B VSS:B Vinp:I Ibias:I Vinn:I Vcm_reg:I EN:I
+MMD Voutp_st1 Ibias VSS VSS sg13_lv_nmos w=0.25u l=10u ng=1 m=8
+MMB net1 Vinn Voutp_st1 VDD sg13_lv_pmos w=2.5u l=2u ng=1 m=8
+MMC Voutn_st1 Ibias VSS VSS sg13_lv_nmos w=0.25u l=10u ng=1 m=8
+MMA net1 Vinp Voutn_st1 VDD sg13_lv_pmos w=2.5u l=2u ng=1 m=8
+MMM VDD Vcm_reg net1 VDD sg13_lv_pmos w=2.5u l=10u ng=1 m=8
+MME Ibias Ibias VSS VSS sg13_lv_nmos w=0.25u l=10u ng=1 m=2
+xsf1 VDD Voutn_st1 Voutp Ibias VSS ota_cmfb_core_push_pull_output_stage
+xsf2 VDD Voutp_st1 Voutn Ibias VSS ota_cmfb_core_push_pull_output_stage
+MMN0 EN_N EN VSS VSS sg13_lv_nmos w=740.00n l=130.00n ng=1
+MMP0 EN_N EN VDD VDD sg13_lv_pmos w=1.12u l=130.00n ng=1
+MMN1 Ibias EN_N VSS VSS sg13_lv_nmos w=740.00n l=130.00n ng=1
+MMP1 Vcm_reg EN VDD VDD sg13_lv_pmos w=1.12u l=130.00n ng=1
+.ends
+
+* expanding   symbol:  ota_cmfb_core/ota_cmfb_core_push_pull_output_stage.sym # of pins=5
+** sym_path: /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/schema/ota_cmfb_core/ota_cmfb_core_push_pull_output_stage.sym
+** sch_path: /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/schema/ota_cmfb_core/ota_cmfb_core_push_pull_output_stage.sch
+.subckt ota_cmfb_core_push_pull_output_stage VDD Vin Vout Vbias VSS
+*.PININFO VSS:B VDD:B Vbias:I Vin:I Vout:O
+MM1 Vout Vin_shifted VSS VSS sg13_lv_nmos w=0.5u l=5u ng=1
+MM2 VDD Vin Vout VDD sg13_lv_pmos w=5u l=0.5u ng=1
+MM5 VDD Vbiasp net3 VDD sg13_lv_pmos w=5u l=3u ng=1 m=2
+MM6 net2 Vbiasn VSS VSS sg13_lv_nmos w=5u l=0.5u ng=1
+MM4 Vin_shifted Vcasp2 Vin VDD sg13_lv_pmos w=5u l=3u ng=1
+MM15 Vin_shifted Vcasn net2 VSS sg13_lv_nmos w=5u l=0.5u ng=1
+MM16 net3 Vcasp Vin VDD sg13_lv_pmos w=5u l=3u ng=1 m=2
+MM3 Vin Vcasn2 Vin_shifted VSS sg13_lv_nmos w=1.4u l=3u ng=1
+MM8 VDD Vbiasp net1 VDD sg13_lv_pmos w=5u l=3u ng=1 m=2
+MM9 net1 Vcasp Vcasp VDD sg13_lv_pmos w=5u l=3u ng=1 m=2
+MM13 Vcasp Vcasp2 Vcasp2 VDD sg13_lv_pmos w=5u l=3u ng=1 m=2
+MM10 VDD Vbiasp Vcasn2 VDD sg13_lv_pmos w=5u l=3u ng=1 m=2
+MM11 Vcasn2 Vcasn2 Vcasn VSS sg13_lv_nmos w=1.4u l=3u ng=1 m=2
+MM12 Vcasn Vcasn Vbiasn VSS sg13_lv_nmos w=5u l=0.5u ng=1
+MM14 Vbiasn Vbiasn VSS VSS sg13_lv_nmos w=5u l=0.5u ng=1
+RR1 net4 Vout 23.97k $SUB=VSS $[rhigh] w=0.5e-6 l=1e-6*8 b=0
+CC1 Vin net4 sg13_moscap_p w=5.0u l=5.0u
+MM17 Vcasp2 Vbiasn VSS VSS sg13_lv_nmos w=5u l=0.5u ng=1
+MMFG Vbiasp Vbias VSS VSS sg13_lv_nmos w=0.25u l=10u ng=1 m=2
+MM18 VDD Vbiasp Vbiasp VDD sg13_lv_pmos w=5u l=3u ng=1 m=5
+.ends
+

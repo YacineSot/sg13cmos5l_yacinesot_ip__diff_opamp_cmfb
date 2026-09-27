@@ -1,0 +1,30 @@
+** sch_path: /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/schema/ota_cmfb_core/ota_cmfb_core_push_pull_output_stage.sch
+.subckt ota_cmfb_core_push_pull_output_stage VDD Vin Vout Vbias VSS
+*.PININFO VSS:B VDD:B Vbias:I Vin:I Vout:O
+MM1 Vout Vin_shifted VSS VSS sg13_lv_nmos w=0.5u l=10u ng=1
+MM2 VDD Vin Vout VDD sg13_lv_pmos w=5u l=0.5u ng=1
+MMC VDD Vbiasp CD_DRN VDD sg13_lv_pmos w=2.5u l=3u ng=1 m=4
+MME Vin_shifted Vcasp2 Vin VDD sg13_lv_pmos w=2.5u l=3u ng=1 m=2
+MMD CD_DRN Vcasp Vin VDD sg13_lv_pmos w=2.5u l=3u ng=1 m=4
+MMN Vin Vcasn2 Vin_shifted VSS sg13_lv_nmos w=0.7u l=3u ng=1 m=2
+MMH VDD Vbiasp net1 VDD sg13_lv_pmos w=2.5u l=3u ng=1 m=4
+MMI net1 Vcasp Vcasp VDD sg13_lv_pmos w=2.5u l=3u ng=1 m=4
+MMJ Vcasp Vcasp2 Vcasp2 VDD sg13_lv_pmos w=2.5u l=3u ng=1 m=4
+MMB VDD Vbiasp Vcasn2 VDD sg13_lv_pmos w=2.5u l=3u ng=1 m=4
+MMO Vcasn2 Vcasn2 Vcasn VSS sg13_lv_nmos w=0.7u l=3u ng=1 m=4
+MMA VDD Vbiasp Vbiasp VDD sg13_lv_pmos w=2.5u l=3u ng=1 m=10
+MMP Vcasn Vcasn Vbiasn VSS sg13_lv_nmos w=0.7u l=3u ng=1 m=4
+MMQ Vbiasn Vbiasn VSS VSS sg13_lv_nmos w=0.7u l=3u ng=1 m=4
+MMM Vin_shifted Vcasn src_ml VSS sg13_lv_nmos w=0.7u l=3u ng=1 m=4
+MML src_ml Vbiasn VSS VSS sg13_lv_nmos w=0.7u l=3u ng=1 m=4
+MMK Vcasp2 Vbiasn VSS VSS sg13_lv_nmos w=0.7u l=3u ng=1 m=4
+MM3 CD_DRN VDD VDD VDD sg13_lv_pmos w=2.5u l=0.5u ng=1 m=2
+MM4 Vin_shifted VDD VDD VDD sg13_lv_pmos w=2.5u l=0.5u ng=1
+MM5 Vbiasp VDD VDD VDD sg13_lv_pmos w=2.5u l=0.5u ng=1
+MM6 Vin VDD VDD VDD sg13_lv_pmos w=2.5u l=0.5u ng=1
+MM7 VSS VSS Vin_shifted VSS sg13_lv_nmos w=0.7u l=0.5u ng=1 m=2
+MM8 VSS VSS Vcasn VSS sg13_lv_nmos w=0.7u l=0.5u ng=1 m=4
+MMX VSS VSS Vin_shifted VSS sg13_lv_nmos w=0.7u l=3u ng=1 m=4
+MM9 VSS VSS src_ml VSS sg13_lv_nmos w=0.7u l=0.5u ng=1 m=4
+MM10 Vcasp VDD VDD VDD sg13_lv_pmos w=2.5u l=0.5u ng=1 m=2
+.ends

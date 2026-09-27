@@ -18,7 +18,7 @@ N 310 -280 310 -250 {lab=Ibias}
 N 310 -190 310 -130 {lab=VSS}
 N 370 -190 390 -190 {lab=Ibias}
 N -320 -10 -210 -10 {lab=Vin}
-C {/foss/designs/Chipalooza2/schema/ota_cmfb_core/ota_cmfb_core_output_stage.sym} -50 -10 0 0 {name=xsf1}
+C {ota_cmfb_core/ota_cmfb_core_output_stage.sym} -50 -10 0 0 {name=xsf1}
 C {code_shown.sym} -1200 -220 0 0 {name=NETLIST only_toplevel=false value="
 VSS VSS 0 0
 VDD VDD VSS 1.5
@@ -43,7 +43,7 @@ value="
 .lib cornerMOShv.lib mos_tt
 .lib cornerRES.lib res_typ
 .lib cornerDIO.lib dio_tt
-.include /foss/designs/Chipalooza2/schema/tian_probe/tian_subckt.lib
+.include tian_probe/tian_subckt.lib
 "
       }
 C {devices/launcher.sym} 440 120 0 0 {name=h2

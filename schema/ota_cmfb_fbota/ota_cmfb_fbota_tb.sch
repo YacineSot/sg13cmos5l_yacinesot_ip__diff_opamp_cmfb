@@ -55,7 +55,7 @@ value="
 .lib cornerMOShv.lib mos_tt
 .lib cornerRES.lib res_typ
 .lib cornerDIO.lib dio_tt
-.include /foss/designs/Chipalooza2/schema/tian_probe/tian_subckt.lib
+.include tian_probe/tian_subckt.lib
 "
       }
 C {devices/launcher.sym} 180 -120 0 0 {name=h2
@@ -115,9 +115,9 @@ Vinp Vinp 0 0.51
 Vinn Vinn 0 0.52
 "
 spice_ignore=true}
-C {/foss/designs/Chipalooza2/schema/ac_probe/ac_probe.sym} -190 10 0 0 {name=xprobe2 vcm=\{vcm\} vac=\{vac\}
+C {ac_probe/ac_probe.sym} -190 10 0 0 {name=xprobe2 vcm=\{vcm\} vac=\{vac\}
 }
-C {/foss/designs/Chipalooza2/schema/ota_cmfb_fbota/ota_cmfb_fbota.sym} 30 170 0 0 {name=xota1}
+C {ota_cmfb_fbota/ota_cmfb_fbota.sym} 30 170 0 0 {name=xota1}
 C {lab_pin.sym} -130 50 0 1 {name=p2 lab=Vout}
 C {lab_pin.sym} -250 50 0 0 {name=p6 lab=Vinn}
 C {sg13cmos5l_pr/sg13_lv_nmos.sym} 750 150 0 1 {name=M6

@@ -37,7 +37,7 @@ value="
 .lib cornerMOShv.lib mos_tt
 .lib cornerRES.lib res_typ
 .lib cornerDIO.lib dio_tt
-.include /foss/designs/Chipalooza2/schema/tian_probe/tian_subckt.lib
+.include tian_probe/tian_subckt.lib
 "
       }
 C {devices/launcher.sym} 20 -20 0 0 {name=h2
@@ -90,7 +90,7 @@ CL1 Voutp 0 \{cl\}
 CL2 Voutn 0 \{cl\}
 "
 spice_ignore=true}
-C {/foss/designs/Chipalooza2/schema/ota_cmfb_cm_sense/ota_cmfb_cm_sense.sym} -320 110 0 0 {name=xvcm1}
+C {ota_cmfb_cm_sense/ota_cmfb_cm_sense.sym} -320 110 0 0 {name=xvcm1}
 C {lab_pin.sym} -410 110 0 0 {name=p25 lab=Voutn}
 C {lab_pin.sym} -230 110 2 0 {name=p26 lab=Voutp}
 C {lab_pin.sym} -320 180 1 1 {name=p29 lab=VCM_ORG}

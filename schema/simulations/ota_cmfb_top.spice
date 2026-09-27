@@ -1,0 +1,100 @@
+** sch_path: /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/schema/ota_cmfb_top.sch
+.subckt ota_cmfb_top Vcm VDD EN Vinp Voutn Voutp Vinn VSS Ibias
+*.PININFO VDD:B Vinn:I Vinp:I Ibias:I Voutn:O Voutp:O VSS:B EN:I Vcm:I
+xopamp1 VDD Vcm_reg Vinn Vinp Ibias Voutn Voutp VSS EN ota_cmfb_core
+xota1 VDD EN Ibias Vcm_calc Vcm Vcm_reg VSS ota_cmfb_fbota
+MM7 VSS VSS Ibias VSS sg13_lv_nmos w=0.25u l=0.5u ng=1 m=2
+RR1 Voutn Vcm_calc 29.89k $SUB=VSS $[rhigh] w=0.5e-6 l=1e-6*10 b=0
+RR2 Voutp Vcm_calc 29.89k $SUB=VSS $[rhigh] w=0.5e-6 l=1e-6*10 b=0
+.ends
+
+* expanding   symbol:  ota_cmfb_core/ota_cmfb_core.sym # of pins=9
+** sym_path: /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/schema/ota_cmfb_core/ota_cmfb_core.sym
+** sch_path: /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/schema/ota_cmfb_core/ota_cmfb_core.sch
+.subckt ota_cmfb_core VDD Vcm_reg Vinn Vinp Ibias Voutn Voutp VSS EN
+*.PININFO Voutn:O Voutp:O VDD:B VSS:B Vinp:I Ibias:I Vinn:I Vcm_reg:I EN:I
+MMD Voutp_st1 Ibias VSS VSS sg13_lv_nmos w=0.25u l=10u ng=1 m=8
+MMB src_ab Vinn Voutp_st1 VDD sg13_lv_pmos w=2.5u l=2u ng=1 m=8
+MMC Voutn_st1 Ibias VSS VSS sg13_lv_nmos w=0.25u l=10u ng=1 m=8
+MMA src_ab Vinp Voutn_st1 VDD sg13_lv_pmos w=2.5u l=2u ng=1 m=8
+MMM VDD Vcm_reg src_ab VDD sg13_lv_pmos w=2.5u l=10u ng=1 m=8
+MME Ibias Ibias VSS VSS sg13_lv_nmos w=0.25u l=10u ng=1 m=2
+xsf1 VDD Voutn_st1 Voutp Ibias VSS ota_cmfb_core_push_pull_output_stage
+xsf2 VDD Voutp_st1 Voutn Ibias VSS ota_cmfb_core_push_pull_output_stage
+MMN0 EN_N EN VSS VSS sg13_lv_nmos w=2.96u l=130.00n ng=1
+MMP0 EN_N EN VDD VDD sg13_lv_pmos w=4.48u l=130.00n ng=1
+MMN1 Ibias EN_N VSS VSS sg13_lv_nmos w=740.00n l=130.00n ng=1
+MMB1 VDD VDD src_ab VDD sg13_lv_pmos w=2.5u l=0.5u ng=1 m=4
+.ends
+
+
+* expanding   symbol:  ota_cmfb_cm_sense/ota_cmfb_cm_sense.sym # of pins=3
+** sym_path: /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/schema/ota_cmfb_cm_sense/ota_cmfb_cm_sense.sym
+** sch_path: /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/schema/ota_cmfb_cm_sense/ota_cmfb_cm_sense.sch
+.subckt ota_cmfb_cm_sense Voutp Voutn VCM
+*.PININFO Voutp:I Voutn:I VCM:O
+RR1 Voutn VCM 29.89k $SUB=0 $[rhigh] w=0.5e-6 l=1e-6*10 b=0
+RR2 Voutp VCM 29.89k $SUB=0 $[rhigh] w=0.5e-6 l=1e-6*10 b=0
+.ends
+
+
+* expanding   symbol:  ota_cmfb_fbota/ota_cmfb_fbota.sym # of pins=7
+** sym_path: /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/schema/ota_cmfb_fbota/ota_cmfb_fbota.sym
+** sch_path: /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/schema/ota_cmfb_fbota/ota_cmfb_fbota.sch
+.subckt ota_cmfb_fbota VDD EN Ibias Vinn Vinp Vout VSS
+*.PININFO Vout:O VDD:B VSS:B Vinp:I Ibias:I Vinn:I EN:I
+MMJ Vout mirror VSS VSS sg13_lv_nmos w=0.25u l=10u ng=1 m=4
+MML Vout Vinn src_kl VDD sg13_lv_pmos w=2.5u l=2u ng=1 m=2
+MMI mirror mirror VSS VSS sg13_lv_nmos w=0.25u l=10u ng=1 m=4
+MMK mirror Vinp src_kl VDD sg13_lv_pmos w=2.5u l=2u ng=1 m=2
+MMO src_kl tail_bias VDD VDD sg13_lv_pmos w=1.25u l=5u ng=1 m=8
+MMN VDD tail_bias tail_bias VDD sg13_lv_pmos w=1.25u l=5u ng=1 m=2
+MMH tail_bias Ibias VSS VSS sg13_lv_nmos w=0.25u l=10u ng=1 m=2
+MMN1 mirror EN_N VSS VSS sg13_lv_nmos w=740.00n l=130.00n ng=1
+MM2 VSS VSS tail_bias VSS sg13_lv_nmos w=0.25u l=0.5u ng=1 m=2
+MMK1 mirror VDD VDD VDD sg13_lv_pmos w=2.5u l=0.5u ng=1
+MMK2 Vout VDD VDD VDD sg13_lv_pmos w=2.5u l=0.5u ng=1
+MMK3 src_kl VDD VDD VDD sg13_lv_pmos w=2.5u l=0.5u ng=1 m=2
+MMK4 tail_bias VDD VDD VDD sg13_lv_pmos w=1.25u l=0.5u ng=1 m=2
+MMN0 EN_N EN VSS VSS sg13_lv_nmos w=2.96u l=130.00n ng=1
+MMP0 EN_N EN VDD VDD sg13_lv_pmos w=4.48u l=130.00n ng=1
+.ends
+
+
+* expanding   symbol:  ota_cmfb_core/ota_cmfb_core_push_pull_output_stage.sym # of pins=5
+** sym_path: /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/schema/ota_cmfb_core/ota_cmfb_core_push_pull_output_stage.sym
+** sch_path: /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/schema/ota_cmfb_core/ota_cmfb_core_push_pull_output_stage.sch
+.subckt ota_cmfb_core_push_pull_output_stage VDD Vin Vout Vbias VSS
+*.PININFO VSS:B VDD:B Vbias:I Vin:I Vout:O
+MM1 Vout Vin_shifted VSS VSS sg13_lv_nmos w=0.5u l=10u ng=1
+MM2 VDD Vin Vout VDD sg13_lv_pmos w=5u l=0.5u ng=1
+MMC VDD Vbiasp CD_DRN VDD sg13_lv_pmos w=2.5u l=3u ng=1 m=4
+MME Vin_shifted Vcasp2 Vin VDD sg13_lv_pmos w=2.5u l=3u ng=1 m=2
+MMD CD_DRN Vcasp Vin VDD sg13_lv_pmos w=2.5u l=3u ng=1 m=4
+MMN Vin Vcasn2 Vin_shifted VSS sg13_lv_nmos w=0.7u l=3u ng=1 m=2
+MMH VDD Vbiasp net1 VDD sg13_lv_pmos w=2.5u l=3u ng=1 m=4
+MMI net1 Vcasp Vcasp VDD sg13_lv_pmos w=2.5u l=3u ng=1 m=4
+MMJ Vcasp Vcasp2 Vcasp2 VDD sg13_lv_pmos w=2.5u l=3u ng=1 m=4
+MMB VDD Vbiasp Vcasn2 VDD sg13_lv_pmos w=2.5u l=3u ng=1 m=4
+MMO Vcasn2 Vcasn2 Vcasn VSS sg13_lv_nmos w=0.7u l=3u ng=1 m=4
+RR1 net2 Vout 23.97k $SUB=VSS $[rhigh] w=0.5e-6 l=1e-6*8 b=0
+CC1 Vin net2 sg13_moscap_p w=3.5u l=21.5u
+MMFG Vbiasp Vbias VSS VSS sg13_lv_nmos w=0.25u l=10u ng=1 m=2
+MMA VDD Vbiasp Vbiasp VDD sg13_lv_pmos w=2.5u l=3u ng=1 m=10
+MMP Vcasn Vcasn Vbiasn VSS sg13_lv_nmos w=0.7u l=3u ng=1 m=4
+MMQ Vbiasn Vbiasn VSS VSS sg13_lv_nmos w=0.7u l=3u ng=1 m=4
+MMM Vin_shifted Vcasn src_ml VSS sg13_lv_nmos w=0.7u l=3u ng=1 m=4
+MML src_ml Vbiasn VSS VSS sg13_lv_nmos w=0.7u l=3u ng=1 m=4
+MMK Vcasp2 Vbiasn VSS VSS sg13_lv_nmos w=0.7u l=3u ng=1 m=4
+MM3 CD_DRN VDD VDD VDD sg13_lv_pmos w=2.5u l=0.5u ng=1 m=2
+MM4 Vin_shifted VDD VDD VDD sg13_lv_pmos w=2.5u l=0.5u ng=1
+MM5 Vbiasp VDD VDD VDD sg13_lv_pmos w=2.5u l=0.5u ng=1
+MM6 Vin VDD VDD VDD sg13_lv_pmos w=2.5u l=0.5u ng=1
+MM7 VSS VSS Vin_shifted VSS sg13_lv_nmos w=0.7u l=0.5u ng=1 m=2
+MM8 VSS VSS Vcasn VSS sg13_lv_nmos w=0.7u l=0.5u ng=1 m=4
+MMX VSS VSS Vin_shifted VSS sg13_lv_nmos w=0.7u l=3u ng=1 m=4
+MM9 VSS VSS src_ml VSS sg13_lv_nmos w=0.7u l=0.5u ng=1 m=4
+MM10 Vcasp VDD VDD VDD sg13_lv_pmos w=2.5u l=0.5u ng=1 m=2
+MM12 VSS VSS Vbiasp VSS sg13_lv_nmos w=0.25u l=0.5u ng=1 m=2
+.ends
+

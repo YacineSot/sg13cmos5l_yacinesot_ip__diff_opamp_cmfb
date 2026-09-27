@@ -1,4 +1,5 @@
 # Set default PDK_ROOT
+puts "sourcing yacinesot rc file"
 if {![info exists env(PDK_ROOT)]} {
     puts stderr "Warning: PDK_ROOT env. var. not found or empty, trying to find an open_pdks install"
     if {[file exists /usr/share/pdk/ihp-sg13cmos5l]} {
@@ -26,16 +27,43 @@ if {![info exists PDK]} {
     source $env(PDK_ROOT)/$env(PDK)/libs.tech/xschem/xschemrc
 }
 
-# Add current directory to xschem library path
-append XSCHEM_LIBRARY_PATH :[file dirname [info script]]
+# Append a library path only if not already present.
+if {![llength [info commands append_xschem_library_path_unique]]} {
+  proc append_xschem_library_path_unique {path} {
+    set normalized [file normalize $path]
+    if {![info exists ::XSCHEM_LIBRARY_PATH]} {
+      set ::XSCHEM_LIBRARY_PATH $normalized
+      return
+    }
+    set entries [split $::XSCHEM_LIBRARY_PATH :]
+    if {[lsearch -exact $entries $normalized] < 0} {
+      if {$::XSCHEM_LIBRARY_PATH eq ""} {
+        set ::XSCHEM_LIBRARY_PATH $normalized
+      } else {
+        append ::XSCHEM_LIBRARY_PATH :$normalized
+      }
+    }
+  }
+}
 
-# Add subdirectories to the xschem library path
-append XSCHEM_LIBRARY_PATH :ac_diff_probe
-append XSCHEM_LIBRARY_PATH :ota_cmfb
-append XSCHEM_LIBRARY_PATH :ota_cmfb_core
-append XSCHEM_LIBRARY_PATH :tian_probe
-append XSCHEM_LIBRARY_PATH :ac_probe
-append XSCHEM_LIBRARY_PATH :ota_cmfb_cm_sense
-append XSCHEM_LIBRARY_PATH :ota_cmfb_fbota
-append XSCHEM_LIBRARY_PATH :xschemrc
+# Resolve project libraries relative to this file, independent of the caller's cwd.
+set ::SG13CMOS5L_YACINESOT_IP_ROOT [file dirname [file normalize [info script]]]
+append_xschem_library_path_unique $::SG13CMOS5L_YACINESOT_IP_ROOT
 
+# Add the base schema directory so subfolders can be referenced like "ac_probe/ac_probe.sym"
+append_xschem_library_path_unique [file join $::SG13CMOS5L_YACINESOT_IP_ROOT schema]
+
+# Pin netlists and simulation output to the loaded cell's simulations folder.
+if {![llength [info commands pin_netlist_dir]]} {
+  proc pin_netlist_dir {dir} {
+    set dir [file normalize $dir]
+    set schema_root [file normalize [file join $::SG13CMOS5L_YACINESOT_IP_ROOT schema]]
+    if {$dir ne $schema_root && [file dirname $dir] ne $schema_root} {
+      return
+    }
+    set ::netlist_dir [file normalize [file join $dir simulations]]
+  }
+}
+pin_netlist_dir [file dirname [info script]]
+set load_file_postprocess {pin_netlist_dir [xschem get current_dirname]}
+puts "the new library path var: ${XSCHEM_LIBRARY_PATH}"

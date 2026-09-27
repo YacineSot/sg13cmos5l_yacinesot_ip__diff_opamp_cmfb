@@ -36,7 +36,7 @@ C {devices/launcher.sym} 440 120 0 0 {name=h2
 descr="OP annotate" 
 tclcommand="xschem annotate_op"
 }
-C {launcher.sym} 440 30 0 0 {name=h4
+C {launcher.sym} 430 30 0 0 {name=h4
 descr=SimulateNGSPICE
 tclcommand="
 # Setup the default simulation commands if not already set up
@@ -109,7 +109,7 @@ C {lab_pin.sym} 310 -130 0 1 {name=p7 lab=VSS}
 C {lab_pin.sym} 310 -280 0 1 {name=p6 lab=Ibias}
 C {lab_pin.sym} -30 70 0 1 {name=p4 lab=Ibias}
 C {ammeter.sym} -180 -10 1 0 {name=Vmeas savecurrent=true spice_ignore=0}
-C {/foss/designs/Chipalooza2/schema/ota_cmfb_core/ota_cmfb_core_push_pull_output_stage.sym} -50 -10 0 0 {name=xsf1}
+C {ota_cmfb_core/ota_cmfb_core_push_pull_output_stage.sym} -50 -10 0 0 {name=xsf1}
 C {simulator_commands_shown.sym} -890 -480 0 0 {
 name=Libs_Ngspice
 simulator=ngspice

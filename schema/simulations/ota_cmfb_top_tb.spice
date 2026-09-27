@@ -1,0 +1,262 @@
+** sch_path: /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/schema/ota_cmfb_top_tb.sch
+**.subckt ota_cmfb_top_tb
+xprobe1 Vinp net3 Vinn net4 ac_diff_probe vcm={vcm_in} vac=1
+Vmeas2 net1 Voutn 0
+.save i(vmeas2)
+Vmeas3 net2 Voutp 0
+.save i(vmeas3)
+Vmeas4 Voutp net4 0
+.save i(vmeas4)
+Vmeas5 Voutn net3 0
+.save i(vmeas5)
+R1 net5 Vinn 500k
+R2 Vinn Vt_n 500k
+R3 net6 Vinp 500k
+R4 Vinp Vt_p 500k
+XDIFF_AMP1 Vcm VDD EN Vinp net1 net2 Vinn VSS Ibias ota_cmfb_top
+**** begin user architecture code
+
+
+VSS VSS 0 0
+VDD VDD VSS 1.5
+VEN EN VSS 1.2
+Vcm Vcm VSS {vcm}
+Ibias VDD Ibias 2.5u
+
+
+
+.control
+op
+let ro_n = voutn/i(vmeas2)
+let ro_p = voutp/i(vmeas3)
+print ro_n ro_p
+write ota_cmfb_top_tb.raw
+.endc
+
+
+
+
+.lib cornerMOSlv.lib mos_tt
+.lib cornerMOShv.lib mos_tt
+.lib cornerMOSCAP.lib moscap_tt
+.lib cornerCAP.lib cap_typ
+.lib cornerRES.lib res_typ
+.lib cornerDIO.lib dio_tt
+
+
+
+
+.control
+ac dec 50 100 100G
+let vout_diff = voutp-voutn
+let vin_diff = vinp-vinn
+let diff_gain=vout_diff/vin_diff
+let op_mag=db(diff_gain)
+let op_ph = 180*cph(diff_gain)/pi + 180
+let vcm_1 = (voutp+voutn)/2
+let vcm_err = mag((vcm_1 - {vcm}))[0]
+echo results_save_begin
+meas ac dc_gain find op_mag when frequency=1000
+meas ac gain_margin find op_mag when op_ph=0
+meas ac phase_margin find op_ph when op_mag=0
+meas ac bw_3db find frequency when op_mag=dc_gain-3
+meas ac Gain_BW find frequency when op_mag=0
+print vcm_err
+echo results_save_end
+plot op_mag op_ph
+.endc
+
+
+
+
+.option rshunt=1e9
+.options method=gear
+.param vcm=0.75 vcm_in=0.75 cl=0.1p
+.save all
+
+
+
+
+CL1 Voutp 0 {cl}
+CL2 Voutn 0 {cl}
+
+
+
+.include ota_cmfb_top_tb.save
+
+
+
+**nr_workers=1
+**nr_mc_sims=100
+
+**results_plot_begin
+**dc_gain
+**gain_margin
+**phase_margin
+**bw_3db
+**Gain_BW
+**vcm_err
+**results_plot_end
+
+
+**** end user architecture code
+**.ends
+
+* expanding   symbol:  ac_diff_probe/ac_diff_probe.sym # of pins=4
+** sym_path: /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/schema/ac_diff_probe/ac_diff_probe.sym
+** sch_path: /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/schema/ac_diff_probe/ac_diff_probe.sch
+.subckt ac_diff_probe INP OUTN INN OUTP  vcm=0.75 vac=0.1
+*.iopin OUTN
+*.iopin INP
+*.iopin OUTP
+*.iopin INN
+xprobe1 OUTN INP ac_probe vcm={vcm} vac={vac}
+xprobe2 OUTP INN ac_probe vcm={vcm} vac=-{vac}
+.ends
+
+
+* expanding   symbol:  schema/ota_cmfb_top.sym # of pins=9
+** sym_path: /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/schema/ota_cmfb_top.sym
+** sch_path: /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/schema/ota_cmfb_top.sch
+.subckt ota_cmfb_top Vcm VDD EN Vinp Voutn Voutp Vinn VSS Ibias
+*.iopin VDD
+*.ipin Vinn
+*.ipin Vinp
+*.ipin Ibias
+*.opin Voutn
+*.opin Voutp
+*.iopin VSS
+*.ipin EN
+*.ipin Vcm
+xopamp1 VDD Vcm_reg Vinn Vinp Ibias Voutn Voutp VSS EN ota_cmfb_core
+xota1 VDD EN Ibias Vcm_calc Vcm Vcm_reg VSS ota_cmfb_fbota
+XM7 VSS VSS Ibias VSS sg13_lv_nmos w=0.25u l=0.5u ng=1 m=2 mm_ok=1
+XR1 Voutn Vcm_calc VSS rhigh w=0.5e-6 l=1e-6*10 m=1 b=0 mm_ok=1
+XR2 Voutp Vcm_calc VSS rhigh w=0.5e-6 l=1e-6*10 m=1 b=0 mm_ok=1
+.ends
+
+
+* expanding   symbol:  ac_probe/ac_probe.sym # of pins=2
+** sym_path: /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/schema/ac_probe/ac_probe.sym
+** sch_path: /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/schema/ac_probe/ac_probe.sch
+.subckt ac_probe OUT IN  vcm=0.75 vac=0.01
+
+*.iopin IN
+*.iopin OUT
+C1 0 IN 1
+V1 IN 0 {vcm} ac {vac}
+R1 OUT IN 1G
+.ends
+
+
+* expanding   symbol:  ota_cmfb_core/ota_cmfb_core.sym # of pins=9
+** sym_path: /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/schema/ota_cmfb_core/ota_cmfb_core.sym
+** sch_path: /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/schema/ota_cmfb_core/ota_cmfb_core.sch
+.subckt ota_cmfb_core VDD Vcm_reg Vinn Vinp Ibias Voutn Voutp VSS EN
+*.opin Voutn
+*.opin Voutp
+*.iopin VDD
+*.iopin VSS
+*.ipin Vinp
+*.ipin Ibias
+*.ipin Vinn
+*.ipin Vcm_reg
+*.ipin EN
+XMD Voutp_st1 Ibias VSS VSS sg13_lv_nmos w=0.25u l=10u ng=1 m=8 mm_ok=1
+XMB src_ab Vinn Voutp_st1 VDD sg13_lv_pmos w=2.5u l=2u ng=1 m=8 mm_ok=1
+XMC Voutn_st1 Ibias VSS VSS sg13_lv_nmos w=0.25u l=10u ng=1 m=8 mm_ok=1
+XMA src_ab Vinp Voutn_st1 VDD sg13_lv_pmos w=2.5u l=2u ng=1 m=8 mm_ok=1
+XMM VDD Vcm_reg src_ab VDD sg13_lv_pmos w=2.5u l=10u ng=1 m=8 mm_ok=1
+XME Ibias Ibias VSS VSS sg13_lv_nmos w=0.25u l=10u ng=1 m=2 mm_ok=1
+xsf1 VDD Voutn_st1 Voutp Ibias VSS ota_cmfb_core_push_pull_output_stage
+xsf2 VDD Voutp_st1 Voutn Ibias VSS ota_cmfb_core_push_pull_output_stage
+XMN0 EN_N EN VSS VSS sg13_lv_nmos w=2.96u l=130.00n ng=1 m=1 mm_ok=1
+XMP0 EN_N EN VDD VDD sg13_lv_pmos w=4.48u l=130.00n ng=1 m=1 mm_ok=1
+XMN1 Ibias EN_N VSS VSS sg13_lv_nmos w=740.00n l=130.00n ng=1 m=1 mm_ok=1
+XMB1 VDD VDD src_ab VDD sg13_lv_pmos w=2.5u l=0.5u ng=1 m=4 mm_ok=1
+.ends
+
+
+* expanding   symbol:  ota_cmfb_cm_sense/ota_cmfb_cm_sense.sym # of pins=3
+** sym_path: /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/schema/ota_cmfb_cm_sense/ota_cmfb_cm_sense.sym
+** sch_path: /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/schema/ota_cmfb_cm_sense/ota_cmfb_cm_sense.sch
+.subckt ota_cmfb_cm_sense Voutp Voutn VCM
+*.ipin Voutp
+*.ipin Voutn
+*.opin VCM
+XR1 Voutn VCM 0 rhigh w=0.5e-6 l=1e-6*10 m=1 b=0 mm_ok=1
+XR2 Voutp VCM 0 rhigh w=0.5e-6 l=1e-6*10 m=1 b=0 mm_ok=1
+.ends
+
+
+* expanding   symbol:  ota_cmfb_fbota/ota_cmfb_fbota.sym # of pins=7
+** sym_path: /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/schema/ota_cmfb_fbota/ota_cmfb_fbota.sym
+** sch_path: /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/schema/ota_cmfb_fbota/ota_cmfb_fbota.sch
+.subckt ota_cmfb_fbota VDD EN Ibias Vinn Vinp Vout VSS
+*.opin Vout
+*.iopin VDD
+*.iopin VSS
+*.ipin Vinp
+*.ipin Ibias
+*.ipin Vinn
+*.ipin EN
+XMJ Vout mirror VSS VSS sg13_lv_nmos w=0.25u l=10u ng=1 m=4 mm_ok=1
+XML Vout Vinn src_kl VDD sg13_lv_pmos w=2.5u l=2u ng=1 m=2 mm_ok=1
+XMI mirror mirror VSS VSS sg13_lv_nmos w=0.25u l=10u ng=1 m=4 mm_ok=1
+XMK mirror Vinp src_kl VDD sg13_lv_pmos w=2.5u l=2u ng=1 m=2 mm_ok=1
+XMO src_kl tail_bias VDD VDD sg13_lv_pmos w=1.25u l=5u ng=1 m=8 mm_ok=1
+XMN VDD tail_bias tail_bias VDD sg13_lv_pmos w=1.25u l=5u ng=1 m=2 mm_ok=1
+XMH tail_bias Ibias VSS VSS sg13_lv_nmos w=0.25u l=10u ng=1 m=2 mm_ok=1
+XMN1 mirror EN_N VSS VSS sg13_lv_nmos w=740.00n l=130.00n ng=1 m=1 mm_ok=1
+XM2 VSS VSS tail_bias VSS sg13_lv_nmos w=0.25u l=0.5u ng=1 m=2 mm_ok=1
+XMK1 mirror VDD VDD VDD sg13_lv_pmos w=2.5u l=0.5u ng=1 m=1 mm_ok=1
+XMK2 Vout VDD VDD VDD sg13_lv_pmos w=2.5u l=0.5u ng=1 m=1 mm_ok=1
+XMK3 src_kl VDD VDD VDD sg13_lv_pmos w=2.5u l=0.5u ng=1 m=2 mm_ok=1
+XMK4 tail_bias VDD VDD VDD sg13_lv_pmos w=1.25u l=0.5u ng=1 m=2 mm_ok=1
+XMN0 EN_N EN VSS VSS sg13_lv_nmos w=2.96u l=130.00n ng=1 m=1 mm_ok=1
+XMP0 EN_N EN VDD VDD sg13_lv_pmos w=4.48u l=130.00n ng=1 m=1 mm_ok=1
+.ends
+
+
+* expanding   symbol:  ota_cmfb_core/ota_cmfb_core_push_pull_output_stage.sym # of pins=5
+** sym_path: /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/schema/ota_cmfb_core/ota_cmfb_core_push_pull_output_stage.sym
+** sch_path: /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/schema/ota_cmfb_core/ota_cmfb_core_push_pull_output_stage.sch
+.subckt ota_cmfb_core_push_pull_output_stage VDD Vin Vout Vbias VSS
+*.iopin VSS
+*.iopin VDD
+*.ipin Vbias
+*.ipin Vin
+*.opin Vout
+XM1 Vout Vin_shifted VSS VSS sg13_lv_nmos w=0.5u l=10u ng=1 m=1 mm_ok=1
+XM2 VDD Vin Vout VDD sg13_lv_pmos w=5u l=0.5u ng=1 m=1 mm_ok=1
+XMC VDD Vbiasp CD_DRN VDD sg13_lv_pmos w=2.5u l=3u ng=1 m=4 mm_ok=1
+XME Vin_shifted Vcasp2 Vin VDD sg13_lv_pmos w=2.5u l=3u ng=1 m=2 mm_ok=1
+XMD CD_DRN Vcasp Vin VDD sg13_lv_pmos w=2.5u l=3u ng=1 m=4 mm_ok=1
+XMN Vin Vcasn2 Vin_shifted VSS sg13_lv_nmos w=0.7u l=3u ng=1 m=2 mm_ok=1
+XMH VDD Vbiasp net1 VDD sg13_lv_pmos w=2.5u l=3u ng=1 m=4 mm_ok=1
+XMI net1 Vcasp Vcasp VDD sg13_lv_pmos w=2.5u l=3u ng=1 m=4 mm_ok=1
+XMJ Vcasp Vcasp2 Vcasp2 VDD sg13_lv_pmos w=2.5u l=3u ng=1 m=4 mm_ok=1
+XMB VDD Vbiasp Vcasn2 VDD sg13_lv_pmos w=2.5u l=3u ng=1 m=4 mm_ok=1
+XMO Vcasn2 Vcasn2 Vcasn VSS sg13_lv_nmos w=0.7u l=3u ng=1 m=4 mm_ok=1
+XR1 net2 Vout VSS rhigh w=0.5e-6 l=1e-6*8 m=1 b=0 mm_ok=1
+XC1 Vin net2 sg13_moscap_p w=3.5u l=21.5u m=1 mm_ok=1
+XMFG Vbiasp Vbias VSS VSS sg13_lv_nmos w=0.25u l=10u ng=1 m=2 mm_ok=1
+XMA VDD Vbiasp Vbiasp VDD sg13_lv_pmos w=2.5u l=3u ng=1 m=10 mm_ok=1
+XMP Vcasn Vcasn Vbiasn VSS sg13_lv_nmos w=0.7u l=3u ng=1 m=4 mm_ok=1
+XMQ Vbiasn Vbiasn VSS VSS sg13_lv_nmos w=0.7u l=3u ng=1 m=4 mm_ok=1
+XMM Vin_shifted Vcasn src_ml VSS sg13_lv_nmos w=0.7u l=3u ng=1 m=4 mm_ok=1
+XML src_ml Vbiasn VSS VSS sg13_lv_nmos w=0.7u l=3u ng=1 m=4 mm_ok=1
+XMK Vcasp2 Vbiasn VSS VSS sg13_lv_nmos w=0.7u l=3u ng=1 m=4 mm_ok=1
+XM3 CD_DRN VDD VDD VDD sg13_lv_pmos w=2.5u l=0.5u ng=1 m=2 mm_ok=1
+XM4 Vin_shifted VDD VDD VDD sg13_lv_pmos w=2.5u l=0.5u ng=1 m=1 mm_ok=1
+XM5 Vbiasp VDD VDD VDD sg13_lv_pmos w=2.5u l=0.5u ng=1 m=1 mm_ok=1
+XM6 Vin VDD VDD VDD sg13_lv_pmos w=2.5u l=0.5u ng=1 m=1 mm_ok=1
+XM7 VSS VSS Vin_shifted VSS sg13_lv_nmos w=0.7u l=0.5u ng=1 m=2 mm_ok=1
+XM8 VSS VSS Vcasn VSS sg13_lv_nmos w=0.7u l=0.5u ng=1 m=4 mm_ok=1
+XMX VSS VSS Vin_shifted VSS sg13_lv_nmos w=0.7u l=3u ng=1 m=4 mm_ok=1
+XM9 VSS VSS src_ml VSS sg13_lv_nmos w=0.7u l=0.5u ng=1 m=4 mm_ok=1
+XM10 Vcasp VDD VDD VDD sg13_lv_pmos w=2.5u l=0.5u ng=1 m=2 mm_ok=1
+XM12 VSS VSS Vbiasp VSS sg13_lv_nmos w=0.25u l=0.5u ng=1 m=2 mm_ok=1
+.ends
+
+.end
