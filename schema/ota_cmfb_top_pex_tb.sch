@@ -15,40 +15,40 @@ T {AC ANALYSIS PROBE} 30 -230 0 0 0.4 0.4 {}
 T {CORE OPAMP} 310 -540 0 0 0.4 0.4 {}
 T {MONTE CARLO PYTHON} 30 240 0 0 0.4 0.4 {}
 T {DC ANALYSIS SINGLE TO DIFF} 20 40 0 0 0.4 0.4 {}
-N 220 -520 220 -480 {lab=VDD}
-N 240 -500 240 -470 {lab=EN}
-N 240 -370 240 -310 {lab=Ibias}
-N 220 -360 220 -330 {lab=VSS}
-N 320 -430 380 -430 {lab=#net1}
-N 320 -410 380 -410 {lab=#net2}
-N 110 -420 150 -420 {lab=Vcm}
-N 100 -390 140 -390 {lab=Vinn}
-N 100 -450 140 -450 {lab=Vinp}
-N 240 -100 290 -100 {lab=#net3}
-N 240 -80 290 -80 {lab=#net4}
+N 220 -520 220 -480 {lab=#net1}
+N 240 -500 240 -470 {lab=#net2}
+N 240 -370 240 -310 {lab=#net3}
+N 220 -360 220 -330 {lab=#net4}
+N 320 -430 380 -430 {lab=#net5}
+N 320 -410 380 -410 {lab=#net6}
+N 110 -420 150 -420 {lab=#net7}
+N 100 -390 140 -390 {lab=#net8}
+N 100 -450 140 -450 {lab=#net9}
+N 240 -100 290 -100 {lab=#net10}
+N 240 -80 290 -80 {lab=#net11}
 N 100 -100 120 -100 {lab=Vinp}
 N 100 -80 120 -80 {lab=Vinn}
 N 350 -100 420 -100 {lab=Voutn}
 N 350 -80 420 -80 {lab=Voutp}
-N 440 -430 480 -430 {lab=Voutp}
-N 440 -410 480 -410 {lab=Voutn}
+N 440 -430 480 -430 {lab=#net12}
+N 440 -410 480 -410 {lab=#net13}
 N 460 100 500 100 {lab=Voutp}
-N 340 100 400 100 {lab=#net5}
+N 340 100 400 100 {lab=#net14}
 N 210 100 280 100 {lab=Vinn}
 N 100 100 150 100 {lab=Vt_n}
 N 460 150 500 150 {lab=Voutn}
-N 340 150 400 150 {lab=#net6}
+N 340 150 400 150 {lab=#net15}
 N 210 150 280 150 {lab=Vinp}
 N 100 150 150 150 {lab=Vt_p}
-C {lab_pin.sym} 220 -520 0 1 {name=p1 lab=VDD}
-C {lab_pin.sym} 110 -420 0 0 {name=p2 lab=Vcm}
-C {lab_pin.sym} 100 -390 0 0 {name=p3 lab=Vinn}
-C {lab_pin.sym} 100 -450 0 0 {name=p4 lab=Vinp}
-C {lab_pin.sym} 240 -310 0 0 {name=p5 lab=Ibias}
-C {lab_pin.sym} 480 -410 0 1 {name=p6 lab=Voutn}
-C {lab_pin.sym} 480 -430 0 1 {name=p7 lab=Voutp}
-C {lab_pin.sym} 220 -330 0 0 {name=p8 lab=VSS}
-C {lab_pin.sym} 240 -500 0 1 {name=p9 lab=EN}
+C {lab_pin.sym} 660 -350 0 0 {name=p1 lab=VDD}
+C {lab_pin.sym} 660 -370 0 0 {name=p2 lab=Vcm}
+C {lab_pin.sym} 660 -470 0 0 {name=p3 lab=Vinn}
+C {lab_pin.sym} 660 -450 0 0 {name=p4 lab=Vinp}
+C {lab_pin.sym} 660 -430 0 0 {name=p5 lab=Ibias}
+C {lab_pin.sym} 660 -490 0 0 {name=p6 lab=Voutn}
+C {lab_pin.sym} 660 -390 0 0 {name=p7 lab=Voutp}
+C {lab_pin.sym} 660 -330 0 0 {name=p8 lab=VSS}
+C {lab_pin.sym} 660 -410 0 0 {name=p9 lab=EN}
 C {code_shown.sym} -780 -340 0 0 {name=NETLIST only_toplevel=false value="
 VSS VSS 0 0
 VDD VDD VSS 1.5
@@ -119,6 +119,8 @@ C {lab_pin.sym} 100 -80 0 0 {name=p24 lab=Vinn}
 C {code_shown.sym} -350 -420 0 0 {name=LOAD only_toplevel=false value="
 CL1 Voutp 0 \{cl\}
 CL2 Voutn 0 \{cl\}
+RL1 Voutp 0 100k
+RL2 Voutn 0 100k
 "
 }
 C {ac_diff_probe/ac_diff_probe.sym} 180 -90 0 0 {name=xprobe1 vcm=\{vcm_in\} vac=1
@@ -341,4 +343,4 @@ device=resistor
 m=1}
 C {lab_pin.sym} 100 100 1 1 {name=p33 lab=Vt_n}
 C {lab_pin.sym} 100 150 3 0 {name=p34 lab=Vt_p}
-C {pex/sg13cmos5l_yacinesot_ip__diff_opamp_cmfb.sym} 220 -420 0 0 {name=X2}
+C {pex/sg13cmos5l_yacinesot_ip__diff_opamp_cmfb.sym} 680 -500 0 0 {name=X2}
