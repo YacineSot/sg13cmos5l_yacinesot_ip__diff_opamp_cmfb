@@ -1,0 +1,1175 @@
+* NGSPICE file created from sg13cmos5l_yacinesot_ip__diff_opamp_cmfb.ext - technology: ihp-sg13cmos5l
+
+.subckt sg13cmos5l_yacinesot_ip__diff_opamp_cmfb analog_bus0 analog_bus1 ibias0 enable
++ s5_an[2] s5_an[1] s5_an[0] vss_1v2 vdd_1v2
+X0 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=1.07436n ps=2.4245m w=0.7u l=0.5u
+X1 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X2 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_HI ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.85p ps=5.68u w=2.5u l=3u
+X3 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_HI vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X4 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.238p pd=2.08u as=0 ps=0 w=0.7u l=0.5u
+X5 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.85p pd=5.68u as=1.87833n ps=3.16758m w=2.5u l=0.5u
+X6 vdd_1v2 enable ota_cmfb_top_0.EN_INV_0/sg13cmos5l_inv_4_0.Y vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X7 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.B_DRN ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.B_DRN ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X8 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_MENX ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.B_DRN ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X9 vss_1v2 ibias0 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=62.5f ps=0.74u w=0.25u l=10u
+X10 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.238p pd=2.08u as=0 ps=0 w=0.7u l=0.5u
+X11 a_50660_27418# a_50924_27132# vss_1v2 rhigh l=1u w=0.5u
+X12 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_CD vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.85p ps=5.68u w=2.5u l=3u
+X13 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.425p pd=3.18u as=0 ps=0 w=1.25u l=0.5u
+X14 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_CD vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.85p ps=5.68u w=2.5u l=3u
+X15 vss_1v2 ibias0 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=62.5f ps=0.74u w=0.25u l=10u
+X16 a_50924_27979# s5_an[1] vss_1v2 rhigh l=1u w=0.5u
+X17 a_58402_34440# a_58402_33917# vss_1v2 rhigh l=1u w=0.5u
+X18 vss_1v2 vss_1v2 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_MENX vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X19 vdd_1v2 vdd_1v2 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_CD vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=0.5u
+X20 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X21 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_HI ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X22 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.H_DRN ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_KL vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2375p pd=1.63u as=0.2375p ps=1.63u w=1.25u l=5u
+X23 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_HI ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X24 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X25 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2375p pd=1.63u as=0 ps=0 w=1.25u l=0.5u
+X26 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X27 vss_1v2 vss_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=62.5f ps=0.74u w=0.25u l=0.5u
+X28 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD s5_an[1] vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=95f ps=0.88u w=0.5u l=0.5u
+X29 ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X30 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X31 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X32 ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X33 a_49868_27979# a_50132_27693# vss_1v2 rhigh l=1u w=0.5u
+X34 vss_1v2 vss_1v2 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_MENX vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X35 vss_1v2 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X36 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.B_DRN ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X37 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_IK_GATE_IJ ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_IK_GATE_IJ vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=62.5f ps=0.74u w=0.25u l=10u
+X38 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X39 vdd_1v2 enable ota_cmfb_top_0.EN_INV_1/sg13cmos5l_inv_4_0.Y vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.3808p pd=2.92u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X40 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.238p pd=2.08u as=0 ps=0 w=0.7u l=0.5u
+X41 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_MENX ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_ML vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X42 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0 ps=0 w=2.5u l=0.5u
+X43 vss_1v2 ibias0 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=62.5f ps=0.74u w=0.25u l=10u
+X44 vdd_1v2 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=0.5u
+X45 s5_an[2] a_50924_27132# vss_1v2 rhigh l=1u w=0.5u
+X46 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_HI ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.85p ps=5.68u w=2.5u l=3u
+X47 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X48 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=0.5u
+X49 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_HI ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.85p ps=5.68u w=2.5u l=3u
+X50 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=0 ps=0 w=0.25u l=0.5u
+X51 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X52 vdd_1v2 vdd_1v2 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=0.5u
+X53 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.B_DRN vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X54 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA analog_bus0 ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_AB vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=2u
+X55 ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=62.5f ps=0.74u w=0.25u l=0.5u
+X56 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_MENX vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.85p pd=5.68u as=0.475p ps=2.88u w=2.5u l=3u
+X57 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0 ps=0 w=2.5u l=0.5u
+X58 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.85p ps=5.68u w=2.5u l=3u
+X59 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_MENX ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.B_DRN ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X60 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0 ps=0 w=2.5u l=0.5u
+X61 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X62 enable vdd_1v2 dpantenna l=1.34u w=1.05u
+X63 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.17p pd=1.68u as=0 ps=0 w=0.5u l=0.5u
+X64 a_50132_27418# a_49868_27132# vss_1v2 rhigh l=1u w=0.5u
+X65 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X66 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD s5_an[1] vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=95f ps=0.88u w=0.5u l=0.5u
+X67 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.85p pd=5.68u as=0.475p ps=2.88u w=2.5u l=3u
+X68 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=0 ps=0 w=0.25u l=0.5u
+X69 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_HI ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X70 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2375p pd=1.63u as=0 ps=0 w=1.25u l=0.5u
+X71 vdd_1v2 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_JL vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=0.5u
+X72 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.85p pd=5.68u as=0 ps=0 w=2.5u l=0.5u
+X73 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X74 vss_1v2 ibias0 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=62.5f ps=0.74u w=0.25u l=10u
+X75 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_ML ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X76 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X77 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_MENX vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=0.5u
+X78 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0 ps=0 w=2.5u l=0.5u
+X79 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.85p pd=5.68u as=0 ps=0 w=2.5u l=0.5u
+X80 vss_1v2 vss_1v2 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=0.5u
+X81 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA s5_an[2] vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=95f ps=0.88u w=0.5u l=0.5u
+X82 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0 ps=0 w=0.7u l=0.5u
+X83 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X84 ibias0 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=62.5f ps=0.74u w=0.25u l=0.5u
+X85 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X86 vss_1v2 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X87 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.17p pd=1.68u as=0 ps=0 w=0.5u l=0.5u
+X88 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X89 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=0 ps=0 w=0.25u l=0.5u
+X90 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X91 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X92 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=0 ps=0 w=0.25u l=0.5u
+X93 vss_1v2 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X94 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.B_DRN ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_MENX vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X95 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.17p pd=1.68u as=0 ps=0 w=0.5u l=0.5u
+X96 vss_1v2 ibias0 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=62.5f ps=0.74u w=0.25u l=10u
+X97 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X98 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.B_DRN ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_MENX vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X99 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=0.5u
+X100 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.17p pd=1.68u as=0 ps=0 w=0.5u l=0.5u
+X101 vss_1v2 a_45783_27500# dantenna l=0.78u w=0.78u
+X102 ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_KL ota_cmfb_top_0.dynamic_pcell_5_0.H_DRN vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2375p pd=1.63u as=0.2375p ps=1.63u w=1.25u l=5u
+X103 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X104 vss_1v2 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_ML vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X105 vss_1v2 vss_1v2 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_MENX vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=0.5u
+X106 vdd_1v2 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.H_DRN vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2375p pd=1.63u as=0.2375p ps=1.63u w=1.25u l=0.5u
+X107 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.H_DRN ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_KL vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2375p pd=1.63u as=0.2375p ps=1.63u w=1.25u l=5u
+X108 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_CD ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X109 ota_cmfb_top_0.dynamic_pcell_5_0.H_DRN vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=62.5f ps=0.74u w=0.25u l=0.5u
+X110 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2375p pd=1.63u as=0 ps=0 w=1.25u l=0.5u
+X111 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA s5_an[2] vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=95f ps=0.88u w=0.5u l=0.5u
+X112 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_ML vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=0.5u
+X113 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA s5_an[2] vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=95f ps=0.88u w=0.5u l=0.5u
+X114 a_58402_34440# a_58666_34154# vss_1v2 rhigh l=1u w=0.5u
+X115 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD s5_an[1] vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=95f ps=0.88u w=0.5u l=0.5u
+X116 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0 ps=0 w=2.5u l=0.5u
+X117 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.425p pd=3.18u as=0 ps=0 w=1.25u l=0.5u
+X118 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_MENX vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X119 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X120 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA analog_bus0 ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_AB vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.85p ps=5.68u w=2.5u l=2u
+X121 vss_1v2 ibias0 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=62.5f ps=0.74u w=0.25u l=10u
+X122 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X123 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2375p pd=1.63u as=0 ps=0 w=1.25u l=0.5u
+X124 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X125 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_MENX vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.85p ps=5.68u w=2.5u l=3u
+X126 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X127 ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_KL ota_cmfb_top_0.dynamic_pcell_5_0.H_DRN vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2375p pd=1.63u as=0.2375p ps=1.63u w=1.25u l=5u
+X128 a_50396_27979# a_50132_27693# vss_1v2 rhigh l=1u w=0.5u
+X129 vss_1v2 vss_1v2 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=0.5u
+X130 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X131 ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_AB analog_bus0 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=2u
+X132 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0 ps=0 w=2.5u l=0.5u
+X133 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2375p pd=1.63u as=0 ps=0 w=1.25u l=0.5u
+X134 ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=62.5f ps=0.74u w=0.25u l=0.5u
+X135 a_58666_33917# a_58930_33631# vss_1v2 rhigh l=1u w=0.5u
+X136 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0 ps=0 w=2.5u l=0.5u
+X137 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X138 ota_cmfb_top_0.EN_INV_1/sg13cmos5l_inv_4_0.Y enable vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X139 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X140 a_51669_33917# a_51669_33631# vss_1v2 rhigh l=1u w=0.5u
+X141 ota_cmfb_top_0.dynamic_pcell_5_0.H_DRN vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2375p pd=1.63u as=0.2375p ps=1.63u w=1.25u l=0.5u
+X142 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X143 vss_1v2 enable ota_cmfb_top_0.EN_INV_0/sg13cmos5l_inv_4_0.Y vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X144 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0 ps=0 w=2.5u l=0.5u
+X145 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.B_DRN ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.B_DRN vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X146 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X147 ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_AB analog_bus0 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=2u
+X148 a_50132_27418# a_50396_27132# vss_1v2 rhigh l=1u w=0.5u
+X149 vss_1v2 vss_1v2 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_MENX vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X150 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_JL ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_IK_GATE_IJ vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=62.5f ps=0.74u w=0.25u l=10u
+X151 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA s5_an[2] vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=95f ps=0.88u w=0.5u l=0.5u
+X152 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_HI vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X153 ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_KL vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=0.5u
+X154 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.B_DRN ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.B_DRN vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X155 s5_an[1] a_58930_33631# vss_1v2 rhigh l=1u w=0.5u
+X156 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0 ps=0 w=2.5u l=0.5u
+X157 ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_AB vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=0.5u
+X158 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=0 ps=0 w=0.25u l=0.5u
+X159 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0 ps=0 w=0.7u l=0.5u
+X160 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X161 vss_1v2 enable ota_cmfb_top_0.EN_INV_1/sg13cmos5l_inv_4_0.Y vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X162 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X163 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2375p pd=1.63u as=0 ps=0 w=1.25u l=0.5u
+X164 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_MENX ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_ML vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X165 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X166 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0 ps=0 w=2.5u l=0.5u
+X167 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.85p pd=5.68u as=0 ps=0 w=2.5u l=0.5u
+X168 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_IK_GATE_IJ s5_an[0] ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_KL vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.85p pd=5.68u as=0.475p ps=2.88u w=2.5u l=2u
+X169 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X170 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA ibias0 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=62.5f ps=0.74u w=0.25u l=10u
+X171 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.85p pd=5.68u as=0 ps=0 w=2.5u l=0.5u
+X172 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_ML vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=0.5u
+X173 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.B_DRN ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.B_DRN ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X174 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD ibias0 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=62.5f ps=0.74u w=0.25u l=10u
+X175 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.85p pd=5.68u as=0 ps=0 w=2.5u l=0.5u
+X176 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_MENX vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X177 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA s5_an[2] vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.17p pd=1.68u as=95f ps=0.88u w=0.5u l=0.5u
+X178 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=0 ps=0 w=0.25u l=0.5u
+X179 a_49340_27979# a_49604_27693# vss_1v2 rhigh l=1u w=0.5u
+X180 ota_cmfb_top_0.EN_INV_0/sg13cmos5l_inv_4_0.Y enable vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X181 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_JL ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_AB vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=10u
+X182 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0 ps=0 w=2.5u l=0.5u
+X183 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X184 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=0 ps=0 w=0.25u l=0.5u
+X185 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0 ps=0 w=0.7u l=0.5u
+X186 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0 ps=0 w=0.7u l=0.5u
+X187 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2375p pd=1.63u as=0 ps=0 w=1.25u l=0.5u
+X188 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.85p pd=5.68u as=0 ps=0 w=2.5u l=0.5u
+X189 vss_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_IK_GATE_IJ ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_JL vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=62.5f ps=0.74u w=0.25u l=10u
+X190 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD s5_an[1] vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.17p pd=1.68u as=95f ps=0.88u w=0.5u l=0.5u
+X191 ota_cmfb_top_0.dynamic_pcell_5_0.H_DRN ota_cmfb_top_0.dynamic_pcell_5_0.H_DRN vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2375p pd=1.63u as=0.2375p ps=1.63u w=1.25u l=5u
+X192 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_JL ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_AB vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=10u
+X193 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2375p pd=1.63u as=0 ps=0 w=1.25u l=0.5u
+X194 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA ibias0 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=62.5f ps=0.74u w=0.25u l=10u
+X195 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X196 a_49604_27418# a_49340_27132# vss_1v2 rhigh l=1u w=0.5u
+X197 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0 ps=0 w=2.5u l=0.5u
+X198 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD analog_bus1 ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_AB vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=2u
+X199 ota_cmfb_top_0.EN_INV_1/sg13cmos5l_inv_4_0.Y enable vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2128p pd=1.5u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X200 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0 ps=0 w=0.7u l=0.5u
+X201 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD s5_an[1] vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=95f ps=0.88u w=0.5u l=0.5u
+X202 vdd_1v2 enable ota_cmfb_top_0.EN_INV_0/sg13cmos5l_inv_4_0.Y vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X203 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2375p pd=1.63u as=0 ps=0 w=1.25u l=0.5u
+X204 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X205 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0 ps=0 w=2.5u l=0.5u
+X206 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0 ps=0 w=2.5u l=0.5u
+X207 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.85p pd=5.68u as=0 ps=0 w=2.5u l=0.5u
+X208 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD ibias0 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=62.5f ps=0.74u w=0.25u l=10u
+X209 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2375p pd=1.63u as=0 ps=0 w=1.25u l=0.5u
+X210 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.1075p pd=1.34u as=0 ps=0 w=0.25u l=0.5u
+X211 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X212 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0 ps=0 w=2.5u l=0.5u
+X213 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.1075p pd=1.34u as=0 ps=0 w=0.25u l=0.5u
+X214 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X215 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0 ps=0 w=2.5u l=0.5u
+X216 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2375p pd=1.63u as=0 ps=0 w=1.25u l=0.5u
+X217 ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_AB analog_bus0 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=2u
+X218 a_58930_34440# a_58666_34154# vss_1v2 rhigh l=1u w=0.5u
+X219 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.85p pd=5.68u as=0 ps=0 w=2.5u l=0.5u
+X220 ibias0 ota_cmfb_top_0.EN_INV_1/sg13cmos5l_inv_4_0.Y vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.2516p pd=2.16u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X221 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=0 ps=0 w=0.25u l=0.5u
+X222 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.85p pd=5.68u as=0 ps=0 w=2.5u l=0.5u
+X223 a_51669_34440# a_51669_33917# vss_1v2 rhigh l=1u w=0.5u
+X224 ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_AB analog_bus1 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=2u
+X225 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_CD vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X226 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=0 ps=0 w=0.25u l=0.5u
+X227 vdd_1v2 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_AB vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=0.5u
+X228 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD ibias0 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=62.5f ps=0.74u w=0.25u l=10u
+X229 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.85p pd=5.68u as=0 ps=0 w=2.5u l=0.5u
+X230 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_CD vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=0.5u
+X231 ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_AB ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_JL vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=10u
+X232 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X233 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0 ps=0 w=0.7u l=0.5u
+X234 ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_AB vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=0.5u
+X235 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X236 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=0.5u
+X237 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.1075p pd=1.34u as=0 ps=0 w=0.25u l=0.5u
+X238 a_50396_27979# a_50660_27693# vss_1v2 rhigh l=1u w=0.5u
+X239 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2375p pd=1.63u as=0 ps=0 w=1.25u l=0.5u
+X240 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X241 a_51933_33917# a_51669_33631# vss_1v2 rhigh l=1u w=0.5u
+X242 a_49868_27979# a_49604_27693# vss_1v2 rhigh l=1u w=0.5u
+X243 a_58930_34440# w_59515_33612# vss_1v2 rhigh l=1u w=0.5u
+X244 ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_AB ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_JL vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=10u
+X245 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_CD ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X246 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.85p pd=5.68u as=0 ps=0 w=2.5u l=0.5u
+X247 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=0 ps=0 w=0.25u l=0.5u
+X248 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_IK_GATE_IJ ota_cmfb_top_0.EN_INV_0/sg13cmos5l_inv_4_0.Y vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.2516p pd=2.16u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X249 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA ibias0 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=62.5f ps=0.74u w=0.25u l=10u
+X250 vss_1v2 vss_1v2 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_MENX vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X251 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.17p pd=1.68u as=0 ps=0 w=0.5u l=0.5u
+X252 a_50660_27418# a_50396_27132# vss_1v2 rhigh l=1u w=0.5u
+X253 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_MENX vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=0.5u
+X254 ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_AB analog_bus1 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.85p pd=5.68u as=0.475p ps=2.88u w=2.5u l=2u
+X255 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.1075p pd=1.34u as=0 ps=0 w=0.25u l=0.5u
+X256 a_48812_27979# ota_cmfb_top_0.dynamic_pcell_5_0.L_GATE vss_1v2 rhigh l=1u w=0.5u
+X257 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0 ps=0 w=2.5u l=0.5u
+X258 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2375p pd=1.63u as=0 ps=0 w=1.25u l=0.5u
+X259 a_49604_27418# a_49868_27132# vss_1v2 rhigh l=1u w=0.5u
+X260 vss_1v2 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_MENX s5_an[1] vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.17p pd=1.68u as=0.17p ps=1.68u w=0.5u l=10u
+X261 a_51933_33917# a_52197_33631# vss_1v2 rhigh l=1u w=0.5u
+X262 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X263 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.B_DRN ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X264 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=0 ps=0 w=0.25u l=0.5u
+X265 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD analog_bus1 ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_AB vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=2u
+X266 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.B_DRN ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.B_DRN ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X267 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X268 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0 ps=0 w=2.5u l=0.5u
+X269 ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_KL ota_cmfb_top_0.dynamic_pcell_5_0.H_DRN vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2375p pd=1.63u as=0.2375p ps=1.63u w=1.25u l=5u
+X270 ota_cmfb_top_0.EN_INV_0/sg13cmos5l_inv_4_0.Y enable vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X271 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0 ps=0 w=2.5u l=0.5u
+X272 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0 ps=0 w=2.5u l=0.5u
+X273 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X274 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA analog_bus0 ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_AB vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=2u
+X275 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=0.5u
+X276 vss_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_IK_GATE_IJ ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_IK_GATE_IJ vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=62.5f ps=0.74u w=0.25u l=10u
+X277 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0 ps=0 w=2.5u l=0.5u
+X278 ota_cmfb_top_0.dynamic_pcell_5_0.L_GATE a_48812_27132# vss_1v2 rhigh l=1u w=0.5u
+X279 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0 ps=0 w=2.5u l=0.5u
+X280 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.1075p pd=1.34u as=0 ps=0 w=0.25u l=0.5u
+X281 a_48812_27979# a_49076_27693# vss_1v2 rhigh l=1u w=0.5u
+X282 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0 ps=0 w=2.5u l=0.5u
+X283 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_MENX vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.85p pd=5.68u as=0.475p ps=2.88u w=2.5u l=3u
+X284 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X285 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X286 vss_1v2 vss_1v2 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_ML vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=0.5u
+X287 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_MENX vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=0.5u
+X288 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.B_DRN vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.85p pd=5.68u as=0.475p ps=2.88u w=2.5u l=3u
+X289 ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=0.5u
+X290 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=0 ps=0 w=0.25u l=0.5u
+X291 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_ML ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_MENX vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X292 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_HI ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X293 vss_1v2 ibias0 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=62.5f ps=0.74u w=0.25u l=10u
+X294 s5_an[1] ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=95f ps=0.88u w=0.5u l=0.5u
+X295 ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_KL ota_cmfb_top_0.dynamic_pcell_5_0.H_DRN vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2375p pd=1.63u as=0.2375p ps=1.63u w=1.25u l=5u
+X296 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0 ps=0 w=2.5u l=0.5u
+X297 vss_1v2 ibias0 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=62.5f ps=0.74u w=0.25u l=10u
+X298 ota_cmfb_top_0.EN_INV_1/sg13cmos5l_inv_4_0.Y enable vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X299 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2375p pd=1.63u as=0 ps=0 w=1.25u l=0.5u
+X300 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0 ps=0 w=2.5u l=0.5u
+X301 a_49076_27418# a_48812_27132# vss_1v2 rhigh l=1u w=0.5u
+X302 vss_1v2 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_MENX s5_an[2] vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.17p pd=1.68u as=0.17p ps=1.68u w=0.5u l=10u
+X303 vss_1v2 enable ota_cmfb_top_0.EN_INV_0/sg13cmos5l_inv_4_0.Y vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X304 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0 ps=0 w=0.7u l=0.5u
+X305 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.238p pd=2.08u as=0 ps=0 w=0.7u l=0.5u
+X306 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.1075p pd=1.34u as=0 ps=0 w=0.25u l=0.5u
+X307 ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X308 s5_an[2] ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=95f ps=0.88u w=0.5u l=0.5u
+X309 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X310 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X311 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X312 s5_an[1] ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=0.17p ps=1.68u w=0.5u l=0.5u
+X313 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X314 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X315 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X316 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.85p pd=5.68u as=0 ps=0 w=2.5u l=0.5u
+X317 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_HI vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.85p pd=5.68u as=0.475p ps=2.88u w=2.5u l=3u
+X318 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=0.5u
+X319 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X320 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=0 ps=0 w=0.25u l=0.5u
+X321 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_ML ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_MENX vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X322 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X323 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.1075p pd=1.34u as=0 ps=0 w=0.25u l=0.5u
+X324 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_CD ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X325 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0 ps=0 w=0.7u l=0.5u
+X326 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.1075p pd=1.34u as=0 ps=0 w=0.25u l=0.5u
+X327 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0 ps=0 w=2.5u l=0.5u
+X328 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_ML ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X329 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2375p pd=1.63u as=0 ps=0 w=1.25u l=0.5u
+X330 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X331 s5_an[2] ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=95f ps=0.88u w=0.5u l=0.5u
+X332 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.238p pd=2.08u as=0 ps=0 w=0.7u l=0.5u
+X333 vdd_1v2 enable ota_cmfb_top_0.EN_INV_1/sg13cmos5l_inv_4_0.Y vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X334 ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_AB analog_bus1 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=2u
+X335 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_MENX ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_ML vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X336 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=0 ps=0 w=0.25u l=0.5u
+X337 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.85p ps=5.68u w=2.5u l=3u
+X338 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X339 ota_cmfb_top_0.EN_INV_0/sg13cmos5l_inv_4_0.Y enable vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X340 a_51669_34440# a_51933_34154# vss_1v2 rhigh l=1u w=0.5u
+X341 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_IK_GATE_IJ s5_an[0] ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_KL vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.85p ps=5.68u w=2.5u l=2u
+X342 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_CD ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.85p pd=5.68u as=0.475p ps=2.88u w=2.5u l=3u
+X343 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=0 ps=0 w=0.25u l=0.5u
+X344 ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_AB analog_bus0 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.85p pd=5.68u as=0.475p ps=2.88u w=2.5u l=2u
+X345 vss_1v2 vss_1v2 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_ML vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=0.5u
+X346 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2375p pd=1.63u as=0 ps=0 w=1.25u l=0.5u
+X347 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0 ps=0 w=0.7u l=0.5u
+X348 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X349 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X350 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X351 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_MENX ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_ML vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X352 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X353 w_59515_33612# ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD w_59515_33612# w_59515_33612# sg13_lv_pmos mm_ok=1 ad=7.31p pd=43.68u as=50.04169p ps=0.10913m w=21.5u l=3.5u
+X354 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.85p pd=5.68u as=0 ps=0 w=2.5u l=0.5u
+X355 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2375p pd=1.63u as=0 ps=0 w=1.25u l=0.5u
+X356 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_JL ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_IK_GATE_IJ vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=62.5f ps=0.74u w=0.25u l=10u
+X357 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.H_DRN ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_KL vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2375p pd=1.63u as=0.2375p ps=1.63u w=1.25u l=5u
+X358 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X359 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD analog_bus1 ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_AB vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.85p ps=5.68u w=2.5u l=2u
+X360 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.17p pd=1.68u as=0 ps=0 w=0.5u l=0.5u
+X361 vss_1v2 ibias0 ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=62.5f ps=0.74u w=0.25u l=10u
+X362 a_52197_34440# a_51933_34154# vss_1v2 rhigh l=1u w=0.5u
+X363 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.B_DRN vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X364 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0 ps=0 w=2.5u l=0.5u
+X365 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.238p pd=2.08u as=0 ps=0 w=0.7u l=0.5u
+X366 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X367 vss_1v2 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X368 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.85p pd=5.68u as=0 ps=0 w=2.5u l=0.5u
+X369 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_ML ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X370 vss_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_IK_GATE_IJ ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_IK_GATE_IJ vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=62.5f ps=0.74u w=0.25u l=10u
+X371 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.B_DRN vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.85p pd=5.68u as=0.475p ps=2.88u w=2.5u l=3u
+X372 s5_an[2] ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=95f ps=0.88u w=0.5u l=0.5u
+X373 ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN ibias0 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=62.5f ps=0.74u w=0.25u l=10u
+X374 vdd_1v2 vdd_1v2 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_CD vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=0.5u
+X375 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_JL ota_cmfb_top_0.dynamic_pcell_5_0.L_GATE ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_KL vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.85p pd=5.68u as=0.475p ps=2.88u w=2.5u l=2u
+X376 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2375p pd=1.63u as=0 ps=0 w=1.25u l=0.5u
+X377 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_ML ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X378 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_CD ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.85p pd=5.68u as=0.475p ps=2.88u w=2.5u l=3u
+X379 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA analog_bus0 ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_AB vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=2u
+X380 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_ML vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=0.5u
+X381 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.B_DRN ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.85p ps=5.68u w=2.5u l=3u
+X382 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.H_DRN ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_KL vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2375p pd=1.63u as=0.2375p ps=1.63u w=1.25u l=5u
+X383 w_52782_33612# ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA w_52782_33612# w_52782_33612# sg13_lv_pmos mm_ok=1 ad=7.31p pd=43.68u as=50.04169p ps=0.10913m w=21.5u l=3.5u
+X384 s5_an[2] a_52197_33631# vss_1v2 rhigh l=1u w=0.5u
+X385 vss_1v2 ibias0 ibias0 vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=62.5f ps=0.74u w=0.25u l=10u
+X386 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X387 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2375p pd=1.63u as=0 ps=0 w=1.25u l=0.5u
+X388 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2375p pd=1.63u as=0 ps=0 w=1.25u l=0.5u
+X389 s5_an[1] ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=95f ps=0.88u w=0.5u l=0.5u
+X390 ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X391 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_MENX vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X392 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X393 ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_KL vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=0.5u
+X394 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0 ps=0 w=2.5u l=0.5u
+X395 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0 ps=0 w=2.5u l=0.5u
+X396 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_CD vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=0.5u
+X397 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.238p pd=2.08u as=0 ps=0 w=0.7u l=0.5u
+X398 vdd_1v2 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=0.5u
+X399 a_58402_33917# a_58402_33631# vss_1v2 rhigh l=1u w=0.5u
+X400 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.B_DRN ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.85p ps=5.68u w=2.5u l=3u
+X401 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_HI vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.85p pd=5.68u as=0.475p ps=2.88u w=2.5u l=3u
+X402 ota_cmfb_top_0.dynamic_pcell_5_0.H_DRN ibias0 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=62.5f ps=0.74u w=0.25u l=10u
+X403 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.85p pd=5.68u as=0 ps=0 w=2.5u l=0.5u
+X404 vss_1v2 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X405 a_49340_27979# a_49076_27693# vss_1v2 rhigh l=1u w=0.5u
+X406 vss_1v2 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X407 vdd_1v2 vdd_1v2 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=0.5u
+X408 vss_1v2 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X409 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0 ps=0 w=2.5u l=0.5u
+X410 ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X411 vss_1v2 ibias0 ota_cmfb_top_0.dynamic_pcell_5_0.H_DRN vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=62.5f ps=0.74u w=0.25u l=10u
+X412 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.17p pd=1.68u as=0 ps=0 w=0.5u l=0.5u
+X413 vss_1v2 vss_1v2 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_ML vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=0.5u
+X414 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_CD ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X415 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.B_DRN ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.B_DRN vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X416 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_CD vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X417 vss_1v2 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X418 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X419 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_CD vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X420 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2375p pd=1.63u as=0 ps=0 w=1.25u l=0.5u
+X421 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0 ps=0 w=2.5u l=0.5u
+X422 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_CD ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X423 ibias0 ibias0 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=62.5f ps=0.74u w=0.25u l=10u
+X424 a_49076_27418# a_49340_27132# vss_1v2 rhigh l=1u w=0.5u
+X425 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X426 ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_AB ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_JL vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=10u
+X427 vss_1v2 vss_1v2 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=0.5u
+X428 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X429 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_MENX vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.85p ps=5.68u w=2.5u l=3u
+X430 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.85p pd=5.68u as=0.475p ps=2.88u w=2.5u l=3u
+X431 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_CD vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X432 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_JL ota_cmfb_top_0.dynamic_pcell_5_0.L_GATE ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_KL vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.85p ps=5.68u w=2.5u l=2u
+X433 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X434 vss_1v2 ibias0 ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=62.5f ps=0.74u w=0.25u l=10u
+X435 s5_an[1] ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=95f ps=0.88u w=0.5u l=0.5u
+X436 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_HI vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.85p pd=5.68u as=0.475p ps=2.88u w=2.5u l=3u
+X437 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2375p pd=1.63u as=0 ps=0 w=1.25u l=0.5u
+X438 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0 ps=0 w=2.5u l=0.5u
+X439 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=0 ps=0 w=0.25u l=0.5u
+X440 ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_AB ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_JL vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=10u
+X441 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X442 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X443 vss_1v2 vss_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=62.5f ps=0.74u w=0.25u l=0.5u
+X444 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0 ps=0 w=2.5u l=0.5u
+X445 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.238p pd=2.08u as=0 ps=0 w=0.7u l=0.5u
+X446 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_CD vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X447 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2375p pd=1.63u as=0 ps=0 w=1.25u l=0.5u
+X448 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_ML vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=0.5u
+X449 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X450 ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN ibias0 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=62.5f ps=0.74u w=0.25u l=10u
+X451 ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X452 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.85p pd=5.68u as=0 ps=0 w=2.5u l=0.5u
+X453 vss_1v2 vss_1v2 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_MENX vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=0.5u
+X454 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_HI vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X455 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X456 ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X457 vdd_1v2 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_AB vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=0.5u
+X458 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_JL ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_AB vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=10u
+X459 vss_1v2 enable ota_cmfb_top_0.EN_INV_1/sg13cmos5l_inv_4_0.Y vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X460 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0 ps=0 w=2.5u l=0.5u
+X461 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.17p pd=1.68u as=0 ps=0 w=0.5u l=0.5u
+X462 vdd_1v2 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_IK_GATE_IJ vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=0.5u
+X463 ota_cmfb_top_0.EN_INV_0/sg13cmos5l_inv_4_0.Y enable vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.1406p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X464 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0 ps=0 w=2.5u l=0.5u
+X465 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2375p pd=1.63u as=0 ps=0 w=1.25u l=0.5u
+X466 vss_1v2 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_ML vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X467 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_HI vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X468 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X469 s5_an[2] ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=95f ps=0.88u w=0.5u l=0.5u
+X470 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_MENX vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=0.5u
+X471 s5_an[1] ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=95f ps=0.88u w=0.5u l=0.5u
+X472 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.B_DRN ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.B_DRN vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X473 ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=0.5u
+X474 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_IK_GATE_IJ ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_IK_GATE_IJ vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=62.5f ps=0.74u w=0.25u l=10u
+X475 ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X476 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_JL ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_AB vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=10u
+X477 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.85p pd=5.68u as=0 ps=0 w=2.5u l=0.5u
+X478 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_CD ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X479 vss_1v2 vss_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.H_DRN vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=62.5f ps=0.74u w=0.25u l=0.5u
+X480 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.85p pd=5.68u as=0 ps=0 w=2.5u l=0.5u
+X481 vss_1v2 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_ML vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X482 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.238p pd=2.08u as=0 ps=0 w=0.7u l=0.5u
+X483 vss_1v2 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_ML vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X484 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0 ps=0 w=2.5u l=0.5u
+X485 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_CD vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X486 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2375p pd=1.63u as=0 ps=0 w=1.25u l=0.5u
+X487 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0 ps=0 w=2.5u l=0.5u
+X488 vss_1v2 vss_1v2 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=0.5u
+X489 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X490 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X491 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD analog_bus1 ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_AB vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=2u
+X492 ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_AB analog_bus1 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=2u
+X493 s5_an[2] ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=0.17p ps=1.68u w=0.5u l=0.5u
+X494 vss_1v2 vss_1v2 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_ML vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=0.5u
+X495 vss_1v2 vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.238p pd=2.08u as=0 ps=0 w=0.7u l=0.5u
+X496 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.85p pd=5.68u as=0 ps=0 w=2.5u l=0.5u
+X497 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_HI vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.85p pd=5.68u as=0.475p ps=2.88u w=2.5u l=3u
+X498 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_HI ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.85p ps=5.68u w=2.5u l=3u
+X499 vss_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_IK_GATE_IJ ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_JL vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=62.5f ps=0.74u w=0.25u l=10u
+X500 a_50924_27979# a_50660_27693# vss_1v2 rhigh l=1u w=0.5u
+X501 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2375p pd=1.63u as=0 ps=0 w=1.25u l=0.5u
+X502 a_58666_33917# a_58402_33631# vss_1v2 rhigh l=1u w=0.5u
+X503 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2375p pd=1.63u as=0 ps=0 w=1.25u l=0.5u
+X504 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.B_DRN ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.B_DRN ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X505 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X506 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X507 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD ibias0 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=62.5f ps=0.74u w=0.25u l=10u
+X508 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X509 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.H_DRN ota_cmfb_top_0.dynamic_pcell_5_0.H_DRN vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2375p pd=1.63u as=0.2375p ps=1.63u w=1.25u l=5u
+X510 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0 ps=0 w=2.5u l=0.5u
+X511 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=95f pd=0.88u as=0 ps=0 w=0.5u l=0.5u
+X512 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_MENX vss_1v2 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X513 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_ML ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_MENX vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X514 vdd_1v2 ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=3u
+X515 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA ibias0 vss_1v2 vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=62.5f ps=0.74u w=0.25u l=10u
+X516 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_ML ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_MENX vss_1v2 sg13_lv_nmos mm_ok=1 ad=0.133p pd=1.08u as=0.133p ps=1.08u w=0.7u l=3u
+X517 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.475p pd=2.88u as=0.475p ps=2.88u w=2.5u l=0.5u
+X518 vdd_1v2 vdd_1v2 vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2375p pd=1.63u as=0 ps=0 w=1.25u l=0.5u
+X519 a_52197_34440# w_52782_33612# vss_1v2 rhigh l=1u w=0.5u
+X520 vss_1v2 vss_1v2 ibias0 vss_1v2 sg13_lv_nmos mm_ok=1 ad=62.5f pd=0.74u as=62.5f ps=0.74u w=0.25u l=0.5u
+X521 ota_cmfb_top_0.EN_INV_1/sg13cmos5l_inv_4_0.Y enable vdd_1v2 vdd_1v2 sg13_lv_pmos mm_ok=1 ad=0.2128p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+C0 w_52782_33612# a_52197_33631# 0.01194f
+C1 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_HI ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_MENX 0.09335f
+C2 a_58402_34440# a_58402_34240# 0.01257f
+C3 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.B_DRN s5_an[2] 0.10479f
+C4 a_58402_33631# vdd_1v2 0.05193f
+C5 slot5_wrapper_0.dig_in[19] slot5_wrapper_0.dig_in[20] 0.23029f
+C6 ibias0 vdd_1v2 11.8007f
+C7 a_51669_33917# a_51669_33717# 0.01242f
+C8 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_JL ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_IK_GATE_IJ 5.76497f
+C9 ota_cmfb_top_0.dynamic_pcell_5_0.H_DRN ota_cmfb_top_0.dynamic_pcell_5_0.L_GATE 0.10515f
+C10 a_50132_27693# a_49604_27693# 0.01672f
+C11 m3_0_21075# slot5_wrapper_0.analog_bus3 0.15943f
+C12 a_58666_34154# a_58930_34240# 0.01257f
+C13 a_58666_34154# w_59515_33612# 0.01701f
+C14 a_51933_34240# a_51669_34440# 0.01257f
+C15 m3_0_21663# analog_bus1 0.15943f
+C16 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_HI 0.27505f
+C17 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD ota_cmfb_top_0.dynamic_pcell_5_0.H_DRN 2.74139f
+C18 s5_an[0] ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_AB 1.9876f
+C19 ota_cmfb_top_0.dynamic_pcell_5_0.L_GATE a_48812_27218# 0.01681f
+C20 slot5_wrapper_0.dig_in[19] slot5_wrapper_0.dig_in[18] 0.23029f
+C21 a_50924_27779# a_50660_27779# 0.02325f
+C22 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_JL analog_bus0 0.09711f
+C23 ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI 2.34711f
+C24 a_48812_27979# vdd_1v2 0.05592f
+C25 a_49868_27779# a_49868_27979# 0.01257f
+C26 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.B_DRN 3.54939f
+C27 ota_cmfb_top_0.dynamic_pcell_5_0.H_DRN ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA 0.04573f
+C28 a_51933_34154# a_52197_34240# 0.01257f
+C29 a_50924_27132# a_51188_27218# 0.01257f
+C30 ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN vdd_1v2 51.897f
+C31 ota_cmfb_top_0.dynamic_pcell_5_0.L_GATE ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_KL 0.5844f
+C32 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.B_DRN ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ 0.76289f
+C33 a_50660_27418# a_50132_27418# 0.01672f
+C34 a_58666_34154# a_58666_34240# 0.01257f
+C35 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_CD 6.10437f
+C36 a_51669_33917# vdd_1v2 0.04344f
+C37 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_HI ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI 3.70827f
+C38 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_KL 0.03997f
+C39 a_49868_27979# a_49340_27979# 0.01672f
+C40 slot5_wrapper_0.dig_out[7] slot5_wrapper_0.dig_out[8] 0.23029f
+C41 vdd_1v2 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_CD 5.38771f
+C42 slot5_wrapper_0.dig_in[2] slot5_wrapper_0.dig_in[1] 0.23029f
+C43 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_MENX 0.13717f
+C44 a_52197_34240# s5_an[2] 0.01822f
+C45 ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN vdd_1v2 51.9737f
+C46 slot5_wrapper_0.dig_in[7] slot5_wrapper_0.dig_in[8] 0.23029f
+C47 a_51933_34240# a_51933_34154# 0.01257f
+C48 ota_cmfb_top_0.dynamic_pcell_5_0.L_GATE enable 0.11635f
+C49 a_51188_27779# a_50924_27979# 0.01257f
+C50 vdd_1v2 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_MENX 3.20109f
+C51 a_58402_33631# a_58930_33631# 0.01672f
+C52 ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_KL ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA 0.05257f
+C53 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD w_59515_33612# 9.5159f
+C54 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD enable 3.02675f
+C55 a_58930_34240# s5_an[1] 0.01822f
+C56 ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP 0.12064f
+C57 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_HI ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.B_DRN 0.03502f
+C58 w_59515_33612# s5_an[1] 1.31604f
+C59 a_49604_27693# a_49604_27779# 0.01257f
+C60 ota_cmfb_top_0.dynamic_pcell_5_0.H_DRN ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_AB 0.1765f
+C61 slot5_wrapper_0.dig_in[1] slot5_wrapper_0.dig_in[0] 0.23029f
+C62 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_CD vdd_1v2 5.40596f
+C63 a_50396_27132# a_49868_27132# 0.01672f
+C64 slot5_wrapper_0.dig_in[7] slot5_wrapper_0.dig_in[6] 0.23029f
+C65 a_51933_34240# s5_an[2] 0.01404f
+C66 ota_cmfb_top_0.dynamic_pcell_5_0.H_DRN s5_an[2] 0.011f
+C67 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA enable 0.01702f
+C68 a_48812_27218# a_48812_27132# 0.01257f
+C69 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_IK_GATE_IJ s5_an[0] 4.18002f
+C70 ota_cmfb_top_0.dynamic_pcell_5_0.L_GATE vdd_1v2 4.40184f
+C71 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI 3.99589f
+C72 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.B_DRN ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ 1.48907f
+C73 a_51669_34440# vdd_1v2 0.0373f
+C74 a_58402_33717# a_58402_33917# 0.01242f
+C75 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_MENX 5.62824f
+C76 s5_an[1] ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI 0.18208f
+C77 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD vdd_1v2 11.5895f
+C78 s5_an[2] a_51669_33631# 0.04349f
+C79 a_50396_27218# a_50396_27132# 0.01257f
+C80 slot5_wrapper_0.dig_out[6] slot5_wrapper_0.dig_out[5] 0.23029f
+C81 a_58666_34240# s5_an[1] 0.01471f
+C82 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_JL ota_cmfb_top_0.EN_INV_0/sg13cmos5l_inv_4_0.Y 0.0296f
+C83 s5_an[1] vdd_1v2 18.2572f
+C84 a_52197_34440# a_52197_34240# 0.01257f
+C85 analog_bus0 s5_an[0] 0.21521f
+C86 ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_AB ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_KL 1.33403f
+C87 a_58402_33631# a_58666_33717# 0.01257f
+C88 ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN ibias0 2.58831f
+C89 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA vdd_1v2 11.1157f
+C90 a_49076_27218# a_48812_27132# 0.01257f
+C91 slot5_wrapper_0.dig_in[3] slot5_wrapper_0.dig_in[4] 0.23029f
+C92 a_49604_27418# a_49868_27218# 0.01257f
+C93 ota_cmfb_top_0.dynamic_pcell_5_0.L_GATE analog_bus1 0.1169f
+C94 a_49340_27779# a_49340_27979# 0.01257f
+C95 a_50660_27779# a_50396_27979# 0.01257f
+C96 slot5_wrapper_0.dig_out[7] slot5_wrapper_0.dig_out[6] 0.23029f
+C97 analog_bus0 m3_0_22839# 0.15943f
+C98 a_58402_33917# a_58666_33917# 0.01702f
+C99 a_50396_27779# a_50660_27779# 0.02325f
+C100 w_59515_33612# s5_an[2] 0.13259f
+C101 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD analog_bus1 8.88286f
+C102 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_ML ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN 0.60054f
+C103 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP 0.04023f
+C104 ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN ibias0 9.15027f
+C105 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_ML vdd_1v2 0.01058f
+C106 slot5_wrapper_0.dig_out[2] slot5_wrapper_0.dig_out[1] 0.23029f
+C107 m3_0_22251# analog_bus1 0.16363f
+C108 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_JL a_49340_27979# 0.0104f
+C109 m3_0_22839# slot5_wrapper_0.vss_3v3 0.05f
+C110 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP s5_an[1] 0.46756f
+C111 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_MENX ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ 0.50655f
+C112 a_52461_33717# s5_an[2] 0.02891f
+C113 slot5_wrapper_0.dig_out[11] slot5_wrapper_0.dig_in[0] 0.05407f
+C114 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ vdd_1v2 14.6277f
+C115 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_IK_GATE_IJ ota_cmfb_top_0.dynamic_pcell_5_0.H_DRN 0.18226f
+C116 s5_an[1] a_50660_27693# 0.024f
+C117 slot5_wrapper_0.dig_in[11] slot5_wrapper_0.dig_in[10] 0.23029f
+C118 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA analog_bus1 2.12718f
+C119 a_49604_27693# a_49076_27693# 0.01672f
+C120 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_JL ota_cmfb_top_0.EN_INV_1/sg13cmos5l_inv_4_0.Y 0.02777f
+C121 a_49076_27779# a_48812_27979# 0.01257f
+C122 a_58930_34240# a_59194_34240# 0.02325f
+C123 slot5_wrapper_0.clk enable 0.23029f
+C124 w_59515_33612# a_59194_34240# 0.02344f
+C125 a_58402_34240# a_58402_33917# 0.01218f
+C126 a_58402_34440# a_58666_34240# 0.01257f
+C127 a_49868_27218# a_49868_27132# 0.01257f
+C128 slot5_wrapper_0.dig_out[5] slot5_wrapper_0.dig_out[4] 0.23029f
+C129 ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_AB vdd_1v2 5.96391f
+C130 a_50924_27779# a_50660_27693# 0.01257f
+C131 a_58402_34440# vdd_1v2 0.02834f
+C132 s5_an[2] vdd_1v2 29.1236f
+C133 ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_CD 3.46181f
+C134 analog_bus0 ota_cmfb_top_0.dynamic_pcell_5_0.H_DRN 0.11409f
+C135 slot5_wrapper_0.dig_in[23] slot5_wrapper_0.dig_in[22] 0.23029f
+C136 ota_cmfb_top_0.dynamic_pcell_5_0.L_GATE ibias0 0.16054f
+C137 s5_an[1] a_58930_33631# 0.14737f
+C138 ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN 2.30424f
+C139 a_49604_27418# a_49076_27418# 0.01672f
+C140 a_49604_27418# a_50132_27418# 0.01672f
+C141 a_52197_34240# a_52461_34240# 0.02325f
+C142 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_ML ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP 2.78684f
+C143 ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_MENX 0.14511f
+C144 m3_0_21075# slot5_wrapper_0.analog_bus2 0.15943f
+C145 a_45783_27500# enable 0.03634f
+C146 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_IK_GATE_IJ ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_KL 1.68329f
+C147 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD ibias0 12.3067f
+C148 a_58402_33631# s5_an[1] 0.04349f
+C149 a_49076_27779# a_49076_27693# 0.01257f
+C150 m3_0_20487# slot5_wrapper_0.analog_bus3 0.15943f
+C151 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_MENX ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI 0.13705f
+C152 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_HI 2.936f
+C153 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_CD ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_MENX 0.04216f
+C154 slot5_wrapper_0.dig_in[15] slot5_wrapper_0.dig_in[14] 0.23029f
+C155 ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_AB analog_bus1 2.73939f
+C156 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ 0.02434f
+C157 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA ibias0 11.487f
+C158 ota_cmfb_top_0.dynamic_pcell_5_0.L_GATE a_48812_27979# 0.01114f
+C159 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP vdd_1v2 0.01971f
+C160 a_58666_33917# a_58930_33717# 0.01257f
+C161 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_IK_GATE_IJ enable 0.1398f
+C162 analog_bus0 ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_KL 1.69102f
+C163 m3_0_19899# slot5_wrapper_0.ibias1 0.15943f
+C164 slot5_wrapper_0.dig_in[17] slot5_wrapper_0.dig_in[18] 0.23029f
+C165 a_49604_27218# a_49340_27218# 0.02325f
+C166 a_49868_27218# a_50132_27218# 0.02325f
+C167 m3_0_19311# ibias0 0.15943f
+C168 slot5_wrapper_0.vbias m3_0_19311# 0.15943f
+C169 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN 10.1241f
+C170 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_ML ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA 0.02128f
+C171 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_CD ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN 3.46317f
+C172 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ 0.02434f
+C173 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_MENX ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.B_DRN 0.78705f
+C174 a_50396_27132# a_50660_27218# 0.01257f
+C175 a_52197_33717# a_51933_33917# 0.01257f
+C176 s5_an[1] a_58666_33717# 0.01404f
+C177 ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN s5_an[1] 0.25662f
+C178 a_52197_33717# s5_an[2] 0.01822f
+C179 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.B_DRN 0.76289f
+C180 a_50396_27979# vdd_1v2 0.06157f
+C181 a_50924_27218# a_50924_27132# 0.01257f
+C182 vdd_1v2 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ 0.04022f
+C183 slot5_wrapper_0.dig_in[23] slot5_wrapper_0.reset 0.23029f
+C184 a_50396_27779# a_50132_27693# 0.01257f
+C185 slot5_wrapper_0.dig_in[6] slot5_wrapper_0.dig_in[5] 0.23029f
+C186 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN 2.64126f
+C187 a_50396_27218# a_50132_27418# 0.01257f
+C188 a_58666_34154# s5_an[1] 0.11161f
+C189 ota_cmfb_top_0.dynamic_pcell_5_0.L_GATE a_49076_27693# 0.01688f
+C190 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_IK_GATE_IJ vdd_1v2 2.48558f
+C191 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_CD 4.72903f
+C192 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN 0.82835f
+C193 s5_an[1] ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_CD 0.13443f
+C194 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_HI vdd_1v2 2.76149f
+C195 a_52197_33631# a_51669_33631# 0.01672f
+C196 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_MENX 4.81779f
+C197 a_49868_27132# a_49340_27132# 0.01672f
+C198 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_ML ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ 0.07184f
+C199 ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN s5_an[1] 0.35275f
+C200 s5_an[2] ibias0 0.01363f
+C201 a_50396_27779# a_50132_27779# 0.02325f
+C202 s5_an[1] ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_MENX 0.19927f
+C203 ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_ML 0.53557f
+C204 analog_bus0 vdd_1v2 20.8497f
+C205 ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA 12.4973f
+C206 a_49076_27418# a_49076_27218# 0.01257f
+C207 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_CD 0.02878f
+C208 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN 0.04562f
+C209 a_50132_27418# a_50132_27218# 0.01257f
+C210 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ 6.16765f
+C211 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_IK_GATE_IJ analog_bus1 1.74332f
+C212 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_JL s5_an[0] 0.04861f
+C213 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_CD s5_an[1] 0.01639f
+C214 a_59194_33717# a_58930_33717# 0.02325f
+C215 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_ML s5_an[2] 0.0758f
+C216 a_51669_33917# a_51933_34154# 0.0169f
+C217 vdd_1v2 a_50924_27979# 0.06808f
+C218 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ 5.83794f
+C219 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD ota_cmfb_top_0.dynamic_pcell_5_0.L_GATE 0.09133f
+C220 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.B_DRN 1.71592f
+C221 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_CD ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA 4.90958f
+C222 vdd_1v2 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ 13.6843f
+C223 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_ML ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_MENX 2.93945f
+C224 ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN s5_an[2] 0.06269f
+C225 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN 1.35323f
+C226 a_52197_33631# a_52461_33717# 0.01257f
+C227 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD s5_an[1] 2.12521f
+C228 ota_cmfb_top_0.dynamic_pcell_5_0.L_GATE ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA 3.24676f
+C229 analog_bus0 analog_bus1 8.36971f
+C230 a_51669_33917# a_51933_33917# 0.01702f
+C231 a_51669_34240# a_51933_34240# 0.02325f
+C232 a_51669_33917# s5_an[2] 0.01687f
+C233 a_50132_27693# a_50132_27418# 0.0607f
+C234 slot5_wrapper_0.dig_out[11] slot5_wrapper_0.dig_out[10] 0.23029f
+C235 slot5_wrapper_0.vss_3v3 analog_bus1 0.01551f
+C236 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA 5.97276f
+C237 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_ML 2.78684f
+C238 w_52782_33612# a_52461_33717# 0.01719f
+C239 ota_cmfb_top_0.EN_INV_0/sg13cmos5l_inv_4_0.Y enable 0.40609f
+C240 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_CD ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ 0.07255f
+C241 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA s5_an[1] 0.12003f
+C242 ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN s5_an[2] 0.26774f
+C243 a_52197_33631# vdd_1v2 0.03244f
+C244 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN 0.10016f
+C245 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_IK_GATE_IJ ibias0 4.87541f
+C246 a_58930_34440# a_58930_34240# 0.01257f
+C247 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ 0.30098f
+C248 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_ML 0.02362f
+C249 a_58930_34440# w_59515_33612# 0.01802f
+C250 vdd_1v2 a_49868_27979# 0.05377f
+C251 a_51933_33717# a_51669_33631# 0.01257f
+C252 w_52782_33612# vdd_1v2 2.27395f
+C253 a_58402_33917# vdd_1v2 0.02879f
+C254 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_JL ota_cmfb_top_0.dynamic_pcell_5_0.H_DRN 0.37101f
+C255 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ 0.33729f
+C256 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_CD s5_an[2] 0.13443f
+C257 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_ML s5_an[1] 0.0758f
+C258 ota_cmfb_top_0.dynamic_pcell_5_0.L_GATE a_48812_27132# 0.01108f
+C259 slot5_wrapper_0.dig_in[9] slot5_wrapper_0.dig_in[10] 0.23029f
+C260 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ s5_an[1] 4.27287f
+C261 ota_cmfb_top_0.dynamic_pcell_5_0.L_GATE ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_AB 0.17789f
+C262 ota_cmfb_top_0.EN_INV_0/sg13cmos5l_inv_4_0.Y vdd_1v2 0.4623f
+C263 a_50132_27779# a_49868_27979# 0.01257f
+C264 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN 0.02905f
+C265 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA 0.67943f
+C266 ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ 0.20917f
+C267 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_AB 2.50866f
+C268 a_51933_33717# a_51669_33717# 0.02325f
+C269 a_51669_34440# s5_an[2] 0.04569f
+C270 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_IK_GATE_IJ ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN 0.04168f
+C271 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD s5_an[2] 0.12567f
+C272 m3_0_21663# slot5_wrapper_0.analog_bus2 0.15943f
+C273 a_58402_34440# s5_an[1] 0.04627f
+C274 ota_cmfb_top_0.EN_INV_1/sg13cmos5l_inv_4_0.Y enable 0.38798f
+C275 slot5_wrapper_0.dig_in[21] slot5_wrapper_0.dig_in[22] 0.23029f
+C276 s5_an[2] s5_an[1] 1.57936f
+C277 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_JL ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_KL 1.66968f
+C278 ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_AB ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA 0.73788f
+C279 a_49868_27779# a_50132_27779# 0.02325f
+C280 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA s5_an[2] 0.81168f
+C281 a_52197_33631# a_52197_33717# 0.01257f
+C282 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.B_DRN ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_HI 0.03502f
+C283 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_MENX 0.50655f
+C284 vdd_1v2 a_49340_27979# 0.05377f
+C285 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_IK_GATE_IJ ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN 0.05316f
+C286 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD a_59194_34240# 0.01075f
+C287 m3_0_20487# slot5_wrapper_0.ibias1 0.15943f
+C288 a_51669_34240# vdd_1v2 0.01418f
+C289 slot5_wrapper_0.dig_out[10] slot5_wrapper_0.dig_out[9] 0.23029f
+C290 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_JL enable 0.04327f
+C291 a_59194_34240# s5_an[1] 0.01812f
+C292 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_HI ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN 4.57567f
+C293 a_50924_27218# a_50660_27418# 0.01257f
+C294 ota_cmfb_top_0.EN_INV_1/sg13cmos5l_inv_4_0.Y vdd_1v2 0.45533f
+C295 a_51933_34154# a_51933_33917# 0.07379f
+C296 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_MENX vdd_1v2 3.22677f
+C297 slot5_wrapper_0.dig_in[13] slot5_wrapper_0.dig_in[14] 0.23029f
+C298 a_51933_34154# s5_an[2] 0.11335f
+C299 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ s5_an[2] 0.03022f
+C300 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ vdd_1v2 0.04027f
+C301 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA 0.04023f
+C302 a_51669_34440# a_52197_34440# 0.01672f
+C303 ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ 1.60884f
+C304 a_49076_27418# a_49340_27218# 0.01257f
+C305 slot5_wrapper_0.vbias m3_0_18723# 0.15943f
+C306 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_CD ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_HI 0.04326f
+C307 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_IK_GATE_IJ ota_cmfb_top_0.dynamic_pcell_5_0.L_GATE 0.61696f
+C308 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ 0.04935f
+C309 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_JL vdd_1v2 48.1771f
+C310 s5_an[2] a_51933_33917# 0.129f
+C311 a_49868_27779# a_49604_27779# 0.02325f
+C312 ota_cmfb_top_0.dynamic_pcell_5_0.H_DRN s5_an[0] 0.35977f
+C313 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_CD ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ 0.11586f
+C314 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_IK_GATE_IJ ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD 1.09377f
+C315 slot5_wrapper_0.dig_out[1] slot5_wrapper_0.dig_out[0] 0.23029f
+C316 s5_an[1] ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ 0.02992f
+C317 slot5_wrapper_0.dig_in[13] slot5_wrapper_0.dig_in[12] 0.23029f
+C318 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_HI 0.23522f
+C319 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_MENX 7.51402f
+C320 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ 0.30098f
+C321 slot5_wrapper_0.dig_out[3] slot5_wrapper_0.dig_out[2] 0.23029f
+C322 a_50660_27418# a_50660_27693# 0.0607f
+C323 analog_bus0 ota_cmfb_top_0.dynamic_pcell_5_0.L_GATE 0.17143f
+C324 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_IK_GATE_IJ ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA 1.11652f
+C325 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_HI s5_an[1] 0.01984f
+C326 a_51188_27779# vdd_1v2 0.01125f
+C327 a_49340_27218# a_49340_27132# 0.01257f
+C328 a_49604_27218# a_49868_27218# 0.02325f
+C329 analog_bus0 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD 4.17934f
+C330 a_49604_27779# a_49340_27979# 0.01257f
+C331 a_49076_27418# a_49076_27693# 0.0607f
+C332 a_49868_27779# a_49604_27693# 0.01257f
+C333 a_50660_27418# a_50660_27218# 0.01257f
+C334 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_HI ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA 0.15912f
+C335 analog_bus0 m3_0_22251# 0.15943f
+C336 a_51933_33717# a_52197_33717# 0.02325f
+C337 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI vdd_1v2 17.5356f
+C338 s5_an[0] ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_KL 0.53308f
+C339 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_JL analog_bus1 0.08085f
+C340 a_51933_34240# a_52197_34240# 0.02325f
+C341 a_50924_27218# a_51188_27218# 0.02325f
+C342 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.B_DRN 1.72011f
+C343 a_51188_27218# vdd_1v2 0.01255f
+C344 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP s5_an[2] 0.46756f
+C345 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_ML ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ 1.78674f
+C346 a_58666_34154# a_58402_33917# 0.0169f
+C347 analog_bus0 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA 8.78099f
+C348 vdd_1v2 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.B_DRN 6.41108f
+C349 s5_an[1] a_50924_27979# 0.01389f
+C350 a_58930_33717# a_58930_33631# 0.01257f
+C351 a_49340_27779# a_49604_27779# 0.02325f
+C352 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ 0.88051f
+C353 ota_cmfb_top_0.EN_INV_1/sg13cmos5l_inv_4_0.Y ibias0 0.01652f
+C354 slot5_wrapper_0.dig_in[5] slot5_wrapper_0.dig_in[4] 0.23029f
+C355 s5_an[0] enable 0.94653f
+C356 slot5_wrapper_0.reset enable 0.22207f
+C357 ota_cmfb_top_0.dynamic_pcell_5_0.L_GATE a_49076_27418# 0.01688f
+C358 a_52197_34440# s5_an[2] 0.14722f
+C359 slot5_wrapper_0.dig_in[17] slot5_wrapper_0.dig_in[16] 0.23029f
+C360 s5_an[1] ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ 0.02831f
+C361 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_HI 2.92898f
+C362 a_58402_34240# a_58666_34240# 0.02325f
+C363 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.B_DRN vdd_1v2 6.42285f
+C364 a_50924_27779# a_50924_27979# 0.01257f
+C365 a_50924_27132# a_50396_27132# 0.01672f
+C366 a_50924_27132# s5_an[2] 0.01503f
+C367 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_IK_GATE_IJ ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_AB 0.59718f
+C368 a_48812_27979# a_49340_27979# 0.01672f
+C369 a_59194_33717# w_59515_33612# 0.01719f
+C370 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA a_52461_34240# 0.01075f
+C371 a_58402_33717# a_58402_33631# 0.01257f
+C372 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.B_DRN 3.54939f
+C373 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_JL ibias0 0.25247f
+C374 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_ML ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_MENX 2.93711f
+C375 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_ML ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ 1.78674f
+C376 s5_an[0] vdd_1v2 2.96227f
+C377 analog_bus0 ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_AB 2.35414f
+C378 a_51669_34240# a_51669_33917# 0.01218f
+C379 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_ML ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ 0.07184f
+C380 ota_cmfb_top_0.dynamic_pcell_5_0.H_DRN ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_KL 8.30578f
+C381 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_MENX ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN 0.04f
+C382 ota_cmfb_top_0.dynamic_pcell_5_0.L_GATE ota_cmfb_top_0.EN_INV_0/sg13cmos5l_inv_4_0.Y 0.14067f
+C383 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN 0.19113f
+C384 a_58666_33717# a_58930_33717# 0.02325f
+C385 a_58402_33917# s5_an[1] 0.01862f
+C386 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_JL a_48812_27979# 0.0104f
+C387 a_49604_27218# a_49340_27132# 0.01257f
+C388 a_49868_27132# a_50132_27218# 0.01257f
+C389 w_52782_33612# ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA 9.5166f
+C390 a_49076_27779# a_49340_27779# 0.02325f
+C391 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA a_58402_33917# 0.01179f
+C392 ota_cmfb_top_0.dynamic_pcell_5_0.H_DRN enable 0.03252f
+C393 a_58402_33717# a_58666_33717# 0.02325f
+C394 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_JL ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN 0.05479f
+C395 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_MENX ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN 0.13609f
+C396 s5_an[0] analog_bus1 0.24007f
+C397 a_51669_33717# a_51669_33631# 0.01257f
+C398 a_49076_27218# a_48812_27218# 0.02325f
+C399 ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ 0.02764f
+C400 a_52461_34240# s5_an[2] 0.01599f
+C401 slot5_wrapper_0.dig_out[9] slot5_wrapper_0.dig_out[8] 0.23029f
+C402 a_49340_27779# a_49076_27693# 0.01257f
+C403 a_50396_27779# a_50396_27979# 0.01257f
+C404 slot5_wrapper_0.dig_in[21] slot5_wrapper_0.dig_in[20] 0.23029f
+C405 a_58930_34440# s5_an[1] 0.13555f
+C406 a_50396_27218# a_50132_27218# 0.02325f
+C407 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_HI 3.72801f
+C408 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_CD ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_MENX 0.04205f
+C409 w_52782_33612# a_51933_34154# 0.01701f
+C410 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_JL ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN 0.05679f
+C411 a_51669_34240# a_51669_34440# 0.01257f
+C412 vdd_1v2 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_HI 2.74927f
+C413 ota_cmfb_top_0.dynamic_pcell_5_0.L_GATE ota_cmfb_top_0.EN_INV_1/sg13cmos5l_inv_4_0.Y 0.14674f
+C414 a_52197_33631# s5_an[2] 0.14737f
+C415 ota_cmfb_top_0.dynamic_pcell_5_0.H_DRN vdd_1v2 31.5983f
+C416 a_58666_33917# a_58666_33717# 0.01257f
+C417 a_48812_27779# a_48812_27979# 0.01257f
+C418 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_IK_GATE_IJ analog_bus0 0.06849f
+C419 ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.B_DRN 6.0859f
+C420 a_49340_27132# a_48812_27132# 0.01672f
+C421 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_MENX 0.05014f
+C422 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_ML ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.B_DRN 0.42237f
+C423 a_58666_34154# a_58666_33917# 0.07379f
+C424 w_52782_33612# s5_an[2] 0.53439f
+C425 vdd_1v2 a_51669_33631# 0.05819f
+C426 a_50396_27979# a_50924_27979# 0.01672f
+C427 s5_an[0] ibias0 1.16295f
+C428 a_59194_33717# a_58930_33631# 0.01257f
+C429 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_MENX s5_an[1] 0.08199f
+C430 slot5_wrapper_0.clk m3_0_18723# 0.01706f
+C431 ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI 2.28411f
+C432 a_50660_27779# a_50660_27693# 0.01257f
+C433 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_JL ota_cmfb_top_0.dynamic_pcell_5_0.L_GATE 5.58516f
+C434 s5_an[1] a_58930_33717# 0.01822f
+C435 a_48812_27779# a_49076_27779# 0.02325f
+C436 ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.B_DRN 0.02913f
+C437 slot5_wrapper_0.dig_in[3] slot5_wrapper_0.dig_in[2] 0.23029f
+C438 a_52197_34440# a_52461_34240# 0.01257f
+C439 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.B_DRN ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_CD 0.03703f
+C440 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_MENX ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA 4.81779f
+C441 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ 6.34946f
+C442 ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_KL vdd_1v2 6.57908f
+C443 ota_cmfb_top_0.dynamic_pcell_5_0.H_DRN analog_bus1 0.0303f
+C444 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_JL ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD 0.19504f
+C445 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ 0.04935f
+C446 a_51669_33717# vdd_1v2 0.01529f
+C447 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.B_DRN ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_MENX 0.78705f
+C448 slot5_wrapper_0.dig_in[9] slot5_wrapper_0.dig_in[8] 0.23029f
+C449 a_58930_34240# a_58666_34240# 0.02325f
+C450 analog_bus0 slot5_wrapper_0.vss_3v3 0.06022f
+C451 a_58930_34440# a_58402_34440# 0.01672f
+C452 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_CD ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI 6.08314f
+C453 slot5_wrapper_0.dig_in[11] slot5_wrapper_0.dig_in[12] 0.23029f
+C454 w_59515_33612# vdd_1v2 1.64092f
+C455 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_JL ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA 1.56281f
+C456 ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.B_DRN 5.95148f
+C457 enable vdd_1v2 5.84378f
+C458 a_49604_27418# a_49604_27693# 0.0607f
+C459 s5_an[0] ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN 0.03255f
+C460 slot5_wrapper_0.dig_out[3] slot5_wrapper_0.dig_out[4] 0.23029f
+C461 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_MENX 7.45951f
+C462 a_51188_27779# s5_an[1] 0.02043f
+C463 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ 6.34946f
+C464 m3_0_19899# ibias0 0.15943f
+C465 ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_KL analog_bus1 1.55605f
+C466 w_52782_33612# a_52197_34440# 0.01802f
+C467 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI 0.53521f
+C468 a_58930_34440# a_59194_34240# 0.01257f
+C469 a_50396_27979# a_49868_27979# 0.01672f
+C470 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_CD ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.B_DRN 0.03703f
+C471 a_48812_27779# ota_cmfb_top_0.dynamic_pcell_5_0.L_GATE 0.0169f
+C472 a_50396_27218# a_50660_27218# 0.02325f
+C473 a_51933_33717# a_51933_33917# 0.01257f
+C474 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI s5_an[1] 0.14627f
+C475 a_50660_27418# s5_an[2] 0.02304f
+C476 vdd_1v2 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI 17.5603f
+C477 a_50924_27779# a_51188_27779# 0.02325f
+C478 s5_an[1] a_58666_33917# 0.129f
+C479 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.B_DRN 2.5878f
+C480 a_51933_33717# s5_an[2] 0.01404f
+C481 ota_cmfb_top_0.dynamic_pcell_5_0.H_DRN ibias0 2.79123f
+C482 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_MENX s5_an[2] 0.19927f
+C483 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA 4.88321f
+C484 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ s5_an[2] 0.02992f
+C485 s5_an[1] ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.B_DRN 0.10479f
+C486 enable analog_bus1 0.40791f
+C487 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_IK_GATE_IJ ota_cmfb_top_0.EN_INV_0/sg13cmos5l_inv_4_0.Y 0.01859f
+C488 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.B_DRN 0.02593f
+C489 a_50132_27693# a_50132_27779# 0.01257f
+C490 slot5_wrapper_0.dig_in[15] slot5_wrapper_0.dig_in[16] 0.23029f
+C491 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_JL ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_AB 3.03473f
+C492 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.B_DRN s5_an[1] 0.24647f
+C493 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.B_DRN 2.63306f
+C494 s5_an[0] ota_cmfb_top_0.dynamic_pcell_5_0.L_GATE 0.12532f
+C495 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI 5.83093f
+C496 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_MENX 5.62824f
+C497 ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_HI 4.57567f
+C498 ota_cmfb_top_0.dynamic_pcell_5_0.H_DRN ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN 0.88459f
+C499 w_59515_33612# a_58930_33631# 0.01194f
+C500 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ 6.16765f
+C501 a_52461_33717# a_52197_33717# 0.02325f
+C502 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_ML ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.B_DRN 0.42237f
+C503 vdd_1v2 analog_bus1 20.8861f
+C504 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP vdd_1v2 0.0202f
+C505 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD s5_an[0] 0.03837f
+C506 a_50132_27693# a_50660_27693# 0.01672f
+C507 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_CD ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_HI 0.04429f
+C508 slot5_wrapper_0.vdd_3v3 slot5_wrapper_0.vss_3v3 0.01435f
+C509 ibias0 enable 4.87117f
+C510 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI s5_an[2] 0.18257f
+C511 w_52782_33612# a_52461_34240# 0.02344f
+C512 a_50924_27218# a_50660_27218# 0.02325f
+C513 s5_an[0] ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA 0.03423f
+C514 a_51188_27218# s5_an[2] 0.02144f
+C515 ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN ota_cmfb_top_0.dynamic_pcell_5_0.H_DRN 0.10057f
+C516 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.B_DRN 1.48218f
+C517 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_HI ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_MENX 0.09346f
+C518 a_59194_33717# s5_an[1] 0.02891f
+C519 vdd_1v2 a_58930_33631# 0.03236f
+C520 a_49604_27418# a_49604_27218# 0.01257f
+C521 a_49076_27218# a_49340_27218# 0.02325f
+C522 ibias0 vss_1v2 95.336f
+C523 enable vss_1v2 21.2784f
+C524 s5_an[0] vss_1v2 0.15901p
+C525 analog_bus0 vss_1v2 15.5492f
+C526 analog_bus1 vss_1v2 15.0558f
+C527 s5_an[1] vss_1v2 86.1282f
+C528 s5_an[2] vss_1v2 0.12417p
+C529 vdd_1v2 vss_1v2 0.36101p
+C530 slot5_wrapper_0.vss_3v3 vss_1v2 2.53718f
+C531 slot5_wrapper_0.vdd_3v3 vss_1v2 8.76404f
+C532 slot5_wrapper_0.s5_an_0_esd vss_1v2 0.15069f ; **FLOATING
+C533 slot5_wrapper_0.dig_out[0] vss_1v2 0.13023f
+C534 slot5_wrapper_0.dig_out[1] vss_1v2 0.04024f
+C535 slot5_wrapper_0.dig_out[2] vss_1v2 0.04024f
+C536 slot5_wrapper_0.dig_out[3] vss_1v2 0.04024f
+C537 slot5_wrapper_0.dig_out[4] vss_1v2 0.04024f
+C538 slot5_wrapper_0.dig_out[5] vss_1v2 0.04024f
+C539 slot5_wrapper_0.dig_out[6] vss_1v2 0.04024f
+C540 slot5_wrapper_0.dig_out[7] vss_1v2 0.04024f
+C541 slot5_wrapper_0.dig_out[8] vss_1v2 0.04024f
+C542 slot5_wrapper_0.dig_out[9] vss_1v2 0.04024f
+C543 slot5_wrapper_0.dig_out[10] vss_1v2 0.04024f
+C544 slot5_wrapper_0.dig_out[11] vss_1v2 0.05738f
+C545 slot5_wrapper_0.dig_in[0] vss_1v2 0.05738f
+C546 slot5_wrapper_0.dig_in[1] vss_1v2 0.04024f
+C547 slot5_wrapper_0.dig_in[2] vss_1v2 0.04024f
+C548 slot5_wrapper_0.dig_in[3] vss_1v2 0.04024f
+C549 slot5_wrapper_0.dig_in[4] vss_1v2 0.04024f
+C550 slot5_wrapper_0.dig_in[5] vss_1v2 0.04024f
+C551 slot5_wrapper_0.dig_in[6] vss_1v2 0.04024f
+C552 slot5_wrapper_0.dig_in[7] vss_1v2 0.04024f
+C553 slot5_wrapper_0.dig_in[8] vss_1v2 0.04024f
+C554 slot5_wrapper_0.dig_in[9] vss_1v2 0.04024f
+C555 slot5_wrapper_0.dig_in[10] vss_1v2 0.04024f
+C556 slot5_wrapper_0.dig_in[11] vss_1v2 0.04024f
+C557 slot5_wrapper_0.dig_in[12] vss_1v2 0.04024f
+C558 slot5_wrapper_0.dig_in[13] vss_1v2 0.04024f
+C559 slot5_wrapper_0.dig_in[14] vss_1v2 0.04024f
+C560 slot5_wrapper_0.dig_in[15] vss_1v2 0.04024f
+C561 slot5_wrapper_0.dig_in[16] vss_1v2 0.04024f
+C562 slot5_wrapper_0.dig_in[17] vss_1v2 0.04024f
+C563 slot5_wrapper_0.dig_in[18] vss_1v2 0.04024f
+C564 slot5_wrapper_0.dig_in[19] vss_1v2 0.04024f
+C565 slot5_wrapper_0.dig_in[20] vss_1v2 0.04024f
+C566 slot5_wrapper_0.dig_in[21] vss_1v2 0.04024f
+C567 slot5_wrapper_0.dig_in[22] vss_1v2 0.04024f
+C568 slot5_wrapper_0.dig_in[23] vss_1v2 0.04024f
+C569 slot5_wrapper_0.reset vss_1v2 0.04044f
+C570 slot5_wrapper_0.clk vss_1v2 0.09077f
+C571 m3_0_18723# vss_1v2 0.09889f
+C572 slot5_wrapper_0.vbias vss_1v2 0.29582f
+C573 m3_0_19311# vss_1v2 0.03587f
+C574 m3_0_19899# vss_1v2 0.03077f
+C575 slot5_wrapper_0.ibias1 vss_1v2 0.18745f
+C576 m3_0_20487# vss_1v2 0.02939f
+C577 slot5_wrapper_0.analog_bus3 vss_1v2 0.18025f
+C578 m3_0_21075# vss_1v2 0.02853f
+C579 slot5_wrapper_0.analog_bus2 vss_1v2 0.17696f
+C580 m3_0_21663# vss_1v2 0.02853f
+C581 m3_0_22251# vss_1v2 0.02844f
+C582 m3_0_22839# vss_1v2 0.08667f
+C583 slot5_wrapper_0.s5_an_1_esd vss_1v2 0.15069f ; **FLOATING
+C584 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_ML vss_1v2 3.56291f ; **FLOATING
+C585 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP vss_1v2 15.6399f ; **FLOATING
+C586 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ vss_1v2 25.5777f ; **FLOATING
+C587 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_ML vss_1v2 4.06847f ; **FLOATING
+C588 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_OP_GATE_MP vss_1v2 16.2921f ; **FLOATING
+C589 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_QP_GATE_KLQ vss_1v2 26.1896f ; **FLOATING
+C590 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_MENX vss_1v2 8.9615f ; **FLOATING
+C591 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_HI vss_1v2 0.02914f ; **FLOATING
+C592 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ vss_1v2 2.86257f ; **FLOATING
+C593 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.DRN_NET_CD vss_1v2 0.04252f ; **FLOATING
+C594 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.B_DRN vss_1v2 10.6175f ; **FLOATING
+C595 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI vss_1v2 0.18384f ; **FLOATING
+C596 ota_cmfb_top_0.dynamic_pcell_5_0.F_DRN vss_1v2 4.78042f ; **FLOATING
+C597 a_50924_27132# vss_1v2 0.35249f ; **FLOATING
+C598 a_50660_27418# vss_1v2 0.28221f ; **FLOATING
+C599 a_50396_27132# vss_1v2 0.33612f ; **FLOATING
+C600 a_50132_27418# vss_1v2 0.28198f ; **FLOATING
+C601 a_49868_27132# vss_1v2 0.33602f ; **FLOATING
+C602 a_49604_27418# vss_1v2 0.28211f ; **FLOATING
+C603 a_49340_27132# vss_1v2 0.33611f ; **FLOATING
+C604 a_49076_27418# vss_1v2 0.28255f ; **FLOATING
+C605 a_48812_27132# vss_1v2 0.3601f ; **FLOATING
+C606 a_50924_27979# vss_1v2 0.28587f ; **FLOATING
+C607 a_50660_27693# vss_1v2 0.27427f ; **FLOATING
+C608 a_50396_27979# vss_1v2 0.27566f ; **FLOATING
+C609 a_50132_27693# vss_1v2 0.27424f ; **FLOATING
+C610 a_49868_27979# vss_1v2 0.27488f ; **FLOATING
+C611 a_49604_27693# vss_1v2 0.27448f ; **FLOATING
+C612 a_49340_27979# vss_1v2 0.2751f ; **FLOATING
+C613 a_49076_27693# vss_1v2 0.27513f ; **FLOATING
+C614 ota_cmfb_top_0.EN_INV_1/sg13cmos5l_inv_4_0.Y vss_1v2 0.65798f ; **FLOATING
+C615 ota_cmfb_top_0.EN_INV_0/sg13cmos5l_inv_4_0.Y vss_1v2 0.64141f ; **FLOATING
+C616 a_48812_27979# vss_1v2 0.29386f ; **FLOATING
+C617 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_MENX vss_1v2 10.2527f ; **FLOATING
+C618 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_HI vss_1v2 0.0122f ; **FLOATING
+C619 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_J_GATE_EJ vss_1v2 2.24579f ; **FLOATING
+C620 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.DRN_NET_CD vss_1v2 0.0398f ; **FLOATING
+C621 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.B_DRN vss_1v2 11.3801f ; **FLOATING
+C622 ota_cmfb_top_0.ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell_4_0.SRC_NET_IJ_GATE_DI vss_1v2 0.07674f ; **FLOATING
+C623 ota_cmfb_top_0.dynamic_pcell_5_0.G_DRN vss_1v2 3.59113f ; **FLOATING
+C624 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_IK_GATE_IJ vss_1v2 32.9008f ; **FLOATING
+C625 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_JL vss_1v2 5.62884f ; **FLOATING
+C626 ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_AB vss_1v2 0.44035f ; **FLOATING
+C627 ota_cmfb_top_0.dynamic_pcell_5_0.L_GATE vss_1v2 0.90939f ; **FLOATING
+C628 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_BD vss_1v2 5.97067f ; **FLOATING
+C629 a_58930_33631# vss_1v2 0.30752f ; **FLOATING
+C630 a_58666_33917# vss_1v2 0.27002f ; **FLOATING
+C631 a_58402_33631# vss_1v2 0.32348f ; **FLOATING
+C632 a_58930_34440# vss_1v2 0.34073f ; **FLOATING
+C633 a_58666_34154# vss_1v2 0.2784f ; **FLOATING
+C634 a_58402_33917# vss_1v2 0.32237f ; **FLOATING
+C635 a_58402_34440# vss_1v2 0.35434f ; **FLOATING
+C636 ota_cmfb_top_0.dynamic_pcell_5_0.DRN_NET_CA vss_1v2 7.66241f ; **FLOATING
+C637 a_52197_33631# vss_1v2 0.30752f ; **FLOATING
+C638 a_51933_33917# vss_1v2 0.27002f ; **FLOATING
+C639 a_51669_33631# vss_1v2 0.32189f ; **FLOATING
+C640 a_52197_34440# vss_1v2 0.34073f ; **FLOATING
+C641 a_51933_34154# vss_1v2 0.2784f ; **FLOATING
+C642 a_51669_33917# vss_1v2 0.32047f ; **FLOATING
+C643 a_51669_34440# vss_1v2 0.3541f ; **FLOATING
+C644 ota_cmfb_top_0.dynamic_pcell_5_0.SRC_NET_KL vss_1v2 0.5859f ; **FLOATING
+C645 ota_cmfb_top_0.dynamic_pcell_5_0.H_DRN vss_1v2 4.87015f ; **FLOATING
+C646 w_59515_33612# vss_1v2 1.01197f ; **FLOATING
+C647 w_52782_33612# vss_1v2 1.00977f ; **FLOATING
+.ends

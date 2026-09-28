@@ -43,6 +43,11 @@ N 440 -160 480 -130 {lab=VDD}
 N 440 -160 480 -190 {lab=VDD}
 N 480 -190 480 -160 {lab=VDD}
 N 480 -160 510 -160 {lab=VDD}
+N 430 90 430 100 {lab=EN}
+N 430 90 450 90 {lab=EN}
+N 430 80 430 90 {lab=EN}
+N 430 -10 430 20 {lab=VDD}
+N 430 160 430 190 {lab=VSS}
 C {ota_cmfb_core/ota_cmfb_core.sym} -110 210 0 0 {name=xopamp1}
 C {iopin.sym} -110 110 0 1 {name=p1 lab=VDD}
 C {lab_pin.sym} -220 210 0 0 {name=p2 lab=Vcm_reg}
@@ -123,3 +128,18 @@ annot_side=2
 spiceprefix=X
 }
 C {lab_pin.sym} 510 -160 0 1 {name=p15 lab=VDD}
+C {sg13cmos5l_pr/dantenna.sym} 430 130 0 0 {name=D1
+model=dantenna
+l=0.78u
+w=0.78u
+spiceprefix=X
+}
+C {sg13cmos5l_pr/dpantenna.sym} 430 50 0 0 {name=D2
+model=dpantenna
+l=1.34u
+w=1.05u
+spiceprefix=X
+}
+C {lab_pin.sym} 430 -10 0 1 {name=p16 lab=VDD}
+C {lab_pin.sym} 430 190 0 0 {name=p18 lab=VSS}
+C {lab_pin.sym} 450 90 0 1 {name=p19 lab=EN}

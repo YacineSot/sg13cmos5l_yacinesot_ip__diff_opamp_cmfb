@@ -13,7 +13,7 @@ R1 net5 Vinn 500k
 R2 Vinn Vt_n 500k
 R3 net6 Vinp 500k
 R4 Vinp Vt_p 500k
-X1 VDD VSS EN Vinp Vinn Vcm Ibias net2 net1 ota_cmfb_top
+X2 Vinp Vinn Ibias EN net1 net2 Vcm VSS VDD sg13cmos5l_yacinesot_ip__diff_opamp_cmfb
 **** begin user architecture code
 
 
@@ -83,8 +83,7 @@ CL2 Voutn 0 {cl}
 
 
 .include ota_cmfb_top_pex_tb.save
-.include /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/pex/ota_cmfb_top_pex.spice/final.gds.spice
-
+.include /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/pex/slot_5.gds.spice
 
 
 **nr_workers=1

@@ -8,6 +8,8 @@ RR1 Voutn Vcm_calc 29.89k $SUB=VSS $[rhigh] w=0.5e-6 l=1e-6*10 b=0
 RR2 Voutp Vcm_calc 29.89k $SUB=VSS $[rhigh] w=0.5e-6 l=1e-6*10 b=0
 MM1 VSS VSS VSS VSS sg13_lv_nmos w=3.2u l=0.5u ng=1 m=10
 MM2 VDD VDD VDD VDD sg13_lv_pmos w=1.985u l=0.5u ng=1 m=100
+DD1 VSS EN dantenna l=0.78u w=0.78u
+DD2 EN VDD dpantenna l=1.34u w=1.05u
 .ends
 
 * expanding   symbol:  ota_cmfb_core/ota_cmfb_core.sym # of pins=9

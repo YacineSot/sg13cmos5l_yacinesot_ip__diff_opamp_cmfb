@@ -67,7 +67,7 @@ write @schname\\\\.raw
 .endc
 "
 }
-C {simulator_commands_shown.sym} -780 -510 0 0 {
+C {simulator_commands_shown.sym} -840 -540 0 0 {
 name=Libs_Ngspice
 simulator=ngspice
 only_toplevel=false
@@ -106,7 +106,7 @@ plot op_mag op_ph
 .endc
 "
 }
-C {code_shown.sym} -420 -620 0 0 {name=PARAMS only_toplevel=false value="
+C {code_shown.sym} -470 -560 0 0 {name=PARAMS only_toplevel=false value="
 .option rshunt=1e9
 .options method=gear
 .param vcm=0.75 vcm_in=0.75 cl=0.1p
@@ -116,19 +116,18 @@ C {lab_pin.sym} 420 -100 2 0 {name=p21 lab=Voutn}
 C {lab_pin.sym} 100 -100 2 1 {name=p22 lab=Vinp}
 C {lab_pin.sym} 420 -80 0 1 {name=p23 lab=Voutp}
 C {lab_pin.sym} 100 -80 0 0 {name=p24 lab=Vinn}
-C {code_shown.sym} -420 -490 0 0 {name=LOAD only_toplevel=false value="
+C {code_shown.sym} -350 -420 0 0 {name=LOAD only_toplevel=false value="
 CL1 Voutp 0 \{cl\}
 CL2 Voutn 0 \{cl\}
 "
 }
 C {ac_diff_probe/ac_diff_probe.sym} 180 -90 0 0 {name=xprobe1 vcm=\{vcm_in\} vac=1
 }
-C {devices/code_shown.sym} -870 -660 0 0 {name=SAVE only_toplevel=true
+C {devices/code_shown.sym} -990 -670 0 0 {name=SAVE only_toplevel=true
 format="tcleval( @value )"
 value="
 .include @schname\\\\.save
-.include /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/pex/ota_cmfb_top_pex.spice/final.gds.spice
-"}
+.include /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/pex/slot_5.gds.spice"}
 C {ammeter.sym} 410 -430 3 0 {name=Vmeas2 savecurrent=true spice_ignore=0}
 C {ammeter.sym} 410 -410 3 1 {name=Vmeas3 savecurrent=true spice_ignore=0}
 C {ammeter.sym} 320 -80 1 0 {name=Vmeas4 savecurrent=true spice_ignore=0}
@@ -261,7 +260,7 @@ echo results_save_end
 .endc
 "
 spice_ignore=true}
-C {simulator_commands_shown.sym} 630 270 0 0 {
+C {simulator_commands_shown.sym} 640 290 0 0 {
 name=Libs_MISMATCH
 simulator=ngspice
 only_toplevel=false
@@ -342,4 +341,4 @@ device=resistor
 m=1}
 C {lab_pin.sym} 100 100 1 1 {name=p33 lab=Vt_n}
 C {lab_pin.sym} 100 150 3 0 {name=p34 lab=Vt_p}
-C {pex/ota_cmfb_top_pex.spice/ota_cmfb_top.sym} 220 -420 0 0 {name=X1}
+C {pex/sg13cmos5l_yacinesot_ip__diff_opamp_cmfb.sym} 220 -420 0 0 {name=X2}

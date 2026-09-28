@@ -100,3 +100,20 @@ To run process mismatch analysis, you must swap out the standard libraries and u
 
 ![](docs/simmontecarlo.png)
 
+# Simulation Results
+
+## Prelayout simulation
+![AC Simultion](/results/schem_tb.svg) 
+
+---
+
+![MC Simulation](/results/schem_mc_res.png)
+
+## Postlayout simulation
+
+![AC Simulation](/results/pex_tb.svg)
+
+---
+
+![MC Simulation](/results/mc_pex_res.png)
+

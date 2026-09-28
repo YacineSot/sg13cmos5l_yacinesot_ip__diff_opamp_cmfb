@@ -35,17 +35,6 @@ write ota_cmfb_top_tb.raw
 
 
 
-
-.lib cornerMOSlv.lib mos_tt
-.lib cornerMOShv.lib mos_tt
-.lib cornerMOSCAP.lib moscap_tt
-.lib cornerCAP.lib cap_typ
-.lib cornerRES.lib res_typ
-.lib cornerDIO.lib dio_tt
-
-
-
-
 .control
 ac dec 50 100 100G
 let vout_diff = voutp-voutn
@@ -99,6 +88,17 @@ CL2 Voutn 0 {cl}
 **results_plot_end
 
 
+
+
+
+.lib cornerMOSlv.lib mos_tt_mismatch
+.lib cornerMOShv.lib mos_tt_mismatch
+.lib cornerMOSCAP.lib moscap_tt
+.lib cornerCAP.lib cap_typ
+.lib cornerRES.lib res_typ
+.lib cornerDIO.lib dio_tt
+
+
 **** end user architecture code
 **.ends
 
@@ -135,6 +135,8 @@ XR1 Voutn Vcm_calc VSS rhigh w=0.5e-6 l=1e-6*10 m=1 b=0 mm_ok=1
 XR2 Voutp Vcm_calc VSS rhigh w=0.5e-6 l=1e-6*10 m=1 b=0 mm_ok=1
 XM1 VSS VSS VSS VSS sg13_lv_nmos w=3.2u l=0.5u ng=1 m=10 mm_ok=1
 XM2 VDD VDD VDD VDD sg13_lv_pmos w=1.985u l=0.5u ng=1 m=100 mm_ok=1
+XD1 VSS EN dantenna l=0.78u w=0.78u
+XD2 EN VDD dpantenna l=1.34u w=1.05u
 .ends
 
 

@@ -3,7 +3,7 @@
  <description>Main DRC Run Report at</description>
  <original-file>/run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/klayout/slot_5.gds</original-file>
  <generator>drc: script='/run/media/yacinesot/My_Files/XschemDesigns/designs/ignore/PDK/ihp-sg13cmos5l/libs.tech/klayout/tech/drc/ihp-sg13cmos5l.drc'</generator>
- <top-cell>slot_5</top-cell>
+ <top-cell>sg13cmos5l_yacinesot_ip__diff_opamp_cmfb</top-cell>
  <tags>
   <tag>
    <name>waived</name>
@@ -2026,7 +2026,7 @@
  </categories>
  <cells>
   <cell>
-   <name>slot_5</name>
+   <name>sg13cmos5l_yacinesot_ip__diff_opamp_cmfb</name>
    <variant/>
    <layout-name/>
    <references>

@@ -26,8 +26,8 @@ B 5 -82.5 -32 -77.5 -28 {name=analog_bus0 dir=inout}
 B 5 -82.5 28 -77.5 32 {name=analog_bus1 dir=inout}
 B 5 17.5 48 22.5 52 {name=ibias0 dir=inout}
 B 5 17.5 -52 22.5 -48 {name=enable dir=inout}
-B 5 97.5 8 102.5 12 {name=s5_an[2] dir=inout}
-B 5 97.5 -12 102.5 -8 {name=s5_an[1] dir=inout}
+B 5 97.5 -12 102.5 -8 {name=s5_an[2] dir=inout}
+B 5 97.5 8 102.5 12 {name=s5_an[1] dir=inout}
 B 5 -72.5 -2 -67.5 2 {name=s5_an[0] dir=inout}
 B 5 -2.5 58 2.5 62 {name=vss_1v2 dir=inout}
 B 5 -2.5 -62 2.5 -58 {name=vdd_1v2 dir=inout}
