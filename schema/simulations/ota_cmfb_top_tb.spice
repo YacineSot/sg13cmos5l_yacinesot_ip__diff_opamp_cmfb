@@ -133,6 +133,8 @@ xota1 VDD EN Ibias Vcm_calc Vcm Vcm_reg VSS ota_cmfb_fbota
 XM7 VSS VSS Ibias VSS sg13_lv_nmos w=0.25u l=0.5u ng=1 m=2 mm_ok=1
 XR1 Voutn Vcm_calc VSS rhigh w=0.5e-6 l=1e-6*10 m=1 b=0 mm_ok=1
 XR2 Voutp Vcm_calc VSS rhigh w=0.5e-6 l=1e-6*10 m=1 b=0 mm_ok=1
+XM1 VSS VSS VSS VSS sg13_lv_nmos w=3.2u l=0.5u ng=1 m=10 mm_ok=1
+XM2 VDD VDD VDD VDD sg13_lv_pmos w=1.985u l=0.5u ng=1 m=100 mm_ok=1
 .ends
 
 
@@ -174,18 +176,6 @@ XMN0 EN_N EN VSS VSS sg13_lv_nmos w=2.96u l=130.00n ng=1 m=1 mm_ok=1
 XMP0 EN_N EN VDD VDD sg13_lv_pmos w=4.48u l=130.00n ng=1 m=1 mm_ok=1
 XMN1 Ibias EN_N VSS VSS sg13_lv_nmos w=740.00n l=130.00n ng=1 m=1 mm_ok=1
 XMB1 VDD VDD src_ab VDD sg13_lv_pmos w=2.5u l=0.5u ng=1 m=4 mm_ok=1
-.ends
-
-
-* expanding   symbol:  ota_cmfb_cm_sense/ota_cmfb_cm_sense.sym # of pins=3
-** sym_path: /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/schema/ota_cmfb_cm_sense/ota_cmfb_cm_sense.sym
-** sch_path: /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/schema/ota_cmfb_cm_sense/ota_cmfb_cm_sense.sch
-.subckt ota_cmfb_cm_sense Voutp Voutn VCM
-*.ipin Voutp
-*.ipin Voutn
-*.opin VCM
-XR1 Voutn VCM 0 rhigh w=0.5e-6 l=1e-6*10 m=1 b=0 mm_ok=1
-XR2 Voutp VCM 0 rhigh w=0.5e-6 l=1e-6*10 m=1 b=0 mm_ok=1
 .ends
 
 

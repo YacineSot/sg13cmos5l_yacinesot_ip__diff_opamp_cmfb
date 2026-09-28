@@ -1,5 +1,5 @@
 ** sch_path: /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/schema/ota_cmfb_top.sch
-.subckt ota_cmfb_top Vcm VDD EN Vinp Voutn Voutp Vinn VSS Ibias
+.subckt sg13cmos5l_yacinesot_ip__diff_opamp_cmfb Vcm VDD EN Vinp Voutn Voutp Vinn VSS Ibias
 *.PININFO VDD:B Vinn:I Vinp:I Ibias:I Voutn:O Voutp:O VSS:B EN:I Vcm:I
 xopamp1 VDD Vcm_reg Vinn Vinp Ibias Voutn Voutp VSS EN ota_cmfb_core
 xota1 VDD EN Ibias Vcm_calc Vcm Vcm_reg VSS ota_cmfb_fbota

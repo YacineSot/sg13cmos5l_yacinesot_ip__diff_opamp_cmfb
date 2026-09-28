@@ -79,7 +79,7 @@ value="
 .lib cornerRES.lib res_typ
 .lib cornerDIO.lib dio_tt
 "
-      spice_ignore=true}
+      }
 C {devices/launcher.sym} -1150 370 0 0 {name=h2
 descr="OP annotate" 
 tclcommand="xschem annotate_op"
@@ -273,7 +273,7 @@ value="
 .lib cornerRES.lib res_typ
 .lib cornerDIO.lib dio_tt
 "
-      }
+      spice_ignore=true}
 C {ammeter.sym} 430 100 1 1 {name=Vmeas6 savecurrent=true spice_ignore=true}
 C {lab_pin.sym} 500 100 0 1 {name=p18 lab=Voutp}
 C {lab_pin.sym} 240 100 1 0 {name=p19 lab=Vinn}

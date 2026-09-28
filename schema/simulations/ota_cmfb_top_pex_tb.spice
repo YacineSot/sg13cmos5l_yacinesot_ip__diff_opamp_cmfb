@@ -35,6 +35,17 @@ write ota_cmfb_top_pex_tb.raw
 
 
 
+
+.lib cornerMOSlv.lib mos_tt
+.lib cornerMOShv.lib mos_tt
+.lib cornerMOSCAP.lib moscap_tt
+.lib cornerCAP.lib cap_typ
+.lib cornerRES.lib res_typ
+.lib cornerDIO.lib dio_tt
+
+
+
+
 .control
 ac dec 50 100 100G
 let vout_diff = voutp-voutn
@@ -87,17 +98,6 @@ CL2 Voutn 0 {cl}
 **Gain_BW
 **vcm_err
 **results_plot_end
-
-
-
-
-
-.lib cornerMOSlv.lib mos_tt_mismatch
-.lib cornerMOShv.lib mos_tt_mismatch
-.lib cornerMOSCAP.lib moscap_tt
-.lib cornerCAP.lib cap_typ
-.lib cornerRES.lib res_typ
-.lib cornerDIO.lib dio_tt
 
 
 **** end user architecture code
