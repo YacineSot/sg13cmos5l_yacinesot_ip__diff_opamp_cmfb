@@ -23,7 +23,7 @@ N -310 -290 -310 -220 {lab=Voutp}
 N -50 -110 20 -110 {lab=Vcm_calc}
 N 100 -240 100 -200 {lab=VDD}
 N 120 -220 120 -190 {lab=EN}
-N 120 -90 120 -30 {lab=Ibias}
+N 120 -90 120 -30 {lab=Vbias}
 N 100 -80 100 -50 {lab=VSS}
 N 200 -140 210 -140 {lab=Vcm_reg}
 N 20 -190 20 -170 {lab=Vcm}
@@ -48,6 +48,7 @@ N 430 90 450 90 {lab=EN}
 N 430 80 430 90 {lab=EN}
 N 430 -10 430 20 {lab=VDD}
 N 430 160 430 190 {lab=VSS}
+N -70 150 -70 170 {lab=Vbias}
 C {ota_cmfb_core/ota_cmfb_core.sym} -110 210 0 0 {name=xopamp1}
 C {iopin.sym} -110 110 0 1 {name=p1 lab=VDD}
 C {lab_pin.sym} -220 210 0 0 {name=p2 lab=Vcm_reg}
@@ -63,7 +64,7 @@ C {lab_pin.sym} -100 -160 1 0 {name=p17 lab=Vcm_calc}
 C {ota_cmfb_fbota/ota_cmfb_fbota.sym} 100 -140 0 0 {name=xota1}
 C {lab_pin.sym} 100 -240 0 1 {name=p12 lab=VDD}
 C {lab_pin.sym} 120 -220 0 1 {name=p14 lab=EN}
-C {lab_pin.sym} 120 -30 0 0 {name=p28 lab=Ibias}
+C {lab_pin.sym} 120 -30 0 0 {name=p28 lab=Vbias}
 C {lab_pin.sym} 100 -50 0 0 {name=p29 lab=VSS}
 C {lab_pin.sym} 210 -140 0 1 {name=p30 lab=Vcm_reg}
 C {lab_pin.sym} -310 -290 2 1 {name=p31 lab=Voutp
@@ -81,7 +82,6 @@ annot_side=2
 spiceprefix=X
 }
 C {lab_pin.sym} 790 -260 0 0 {name=p49 lab=VSS}
-C {lab_pin.sym} 820 -230 0 0 {name=p10 lab=Ibias}
 C {sg13cmos5l_pr/rhigh.sym} -170 -190 0 0 {name=R1
 w=0.5e-6
 l="1e-6*10"
@@ -143,3 +143,5 @@ spiceprefix=X
 C {lab_pin.sym} 430 -10 0 1 {name=p16 lab=VDD}
 C {lab_pin.sym} 430 190 0 0 {name=p18 lab=VSS}
 C {lab_pin.sym} 450 90 0 1 {name=p19 lab=EN}
+C {lab_pin.sym} -70 150 0 1 {name=p20 lab=Vbias}
+C {lab_pin.sym} 820 -230 0 0 {name=p10 lab=Vbias}

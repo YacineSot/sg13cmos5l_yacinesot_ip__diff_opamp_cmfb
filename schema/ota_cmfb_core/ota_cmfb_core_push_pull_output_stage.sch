@@ -79,7 +79,7 @@ N -110 150 -110 280 {lab=VSS}
 N -270 160 -270 240 {lab=Vin_shifted}
 N -210 120 -150 120 {lab=Vin_shifted}
 N -600 -110 -600 -80 {lab=#net2}
-N -540 -80 -440 -80 {lab=Vin}
+N -500 -80 -440 -80 {lab=Vin}
 N -440 -30 -270 -30 {lab=Vin}
 N -440 120 -320 120 {lab=Vin_shifted}
 N -440 -80 -440 -30 {lab=Vin}
@@ -90,7 +90,6 @@ N -1320 -80 -1320 10 {lab=Vbiasp}
 N -1320 -210 -1320 -140 {lab=VDD}
 N -1380 -140 -1360 -140 {lab=Vbiasp}
 N -1380 -140 -1380 -80 {lab=Vbiasp}
-N -1390 -140 -1380 -140 {lab=Vbiasp}
 N -1380 -80 -1320 -80 {lab=Vbiasp}
 N -1320 -110 -1320 -80 {lab=Vbiasp}
 N 850 -500 890 -530 {lab=VDD}
@@ -127,6 +126,31 @@ N 1280 -30 1320 -60 {lab=VSS}
 N 1090 -550 1090 -520 {lab=VSS}
 N 1090 -550 1130 -520 {lab=VSS}
 N 1060 -520 1090 -520 {lab=VSS}
+N -1430 -290 -1430 -220 {lab=VDD}
+N -1430 -190 -1430 -140 {lab=Vbiasp}
+N -1430 -140 -1380 -140 {lab=Vbiasp}
+N -1500 -220 -1470 -220 {lab=EN}
+N -420 550 -420 590 {lab=Vbiasn}
+N -420 620 -420 670 {lab=VSS}
+N -500 620 -460 620 {lab=EN_N}
+N -680 620 -680 640 {lab=EN_N}
+N -680 620 -640 620 {lab=EN_N}
+N -680 600 -680 620 {lab=EN_N}
+N -760 620 -720 620 {lab=EN}
+N -720 620 -720 670 {lab=EN}
+N -680 520 -680 540 {lab=VDD}
+N -670 520 -670 570 {lab=VDD}
+N -670 670 -670 720 {lab=VSS}
+N -680 700 -680 720 {lab=VSS}
+N -680 520 -670 520 {lab=VDD}
+N -680 570 -670 570 {lab=VDD}
+N -720 570 -720 620 {lab=EN}
+N -680 670 -670 670 {lab=VSS}
+N -680 720 -670 720 {lab=VSS}
+N -500 -230 -500 -160 {lab=VDD}
+N -500 -130 -500 -80 {lab=Vin}
+N -540 -80 -500 -80 {lab=Vin}
+N -560 -160 -540 -160 {lab=EN}
 C {sg13cmos5l_pr/sg13_lv_nmos.sym} -130 120 0 0 {name=M1
 l=10u
 w=0.5u
@@ -495,3 +519,58 @@ spiceprefix=X
 }
 C {lab_pin.sym} 1060 -520 0 0 {name=p62 lab=VSS}
 C {lab_pin.sym} 1090 -490 0 0 {name=p64 lab=Vbiasp}
+C {sg13cmos5l_pr/sg13_lv_pmos.sym} -1450 -220 0 0 {name=M13
+l=0.13u
+w=0.15u
+ng=1
+m=1
+mm_ok=1
+annot_side=0
+model=sg13_lv_pmos
+spiceprefix=X
+}
+C {lab_pin.sym} -1430 -290 0 1 {name=p63 lab=VDD}
+C {ipin.sym} -1500 -220 0 0 {name=p65 lab=EN}
+C {lab_pin.sym} -420 670 2 0 {name=p67 sig_type=std_logic lab=VSS}
+C {lab_pin.sym} -760 620 0 0 {name=p68 sig_type=std_logic lab=EN}
+C {sg13cmos5l_pr/sg13_lv_nmos.sym} -700 670 0 0 {name=MN0
+l=130.00n
+w=2.96u
+ng=1
+m=1
+model=sg13_lv_nmos
+spiceprefix=X
+lvs_ignore=0}
+C {sg13cmos5l_pr/sg13_lv_pmos.sym} -700 570 0 0 {name=MP0
+l=130.00n
+w=4.48u
+ng=1
+m=1
+model=sg13_lv_pmos
+spiceprefix=X
+lvs_ignore=0}
+C {lab_pin.sym} -670 720 2 0 {name=p69 sig_type=std_logic lab=VSS}
+C {lab_pin.sym} -680 520 2 1 {name=p70 sig_type=std_logic lab=VDD}
+C {lab_pin.sym} -500 620 2 1 {name=p71 sig_type=std_logic lab=EN_N}
+C {lab_pin.sym} -640 620 2 0 {name=p72 sig_type=std_logic lab=EN_N}
+C {sg13cmos5l_pr/sg13_lv_nmos.sym} -440 620 0 0 {name=MN1
+l=130.00n
+w=740.00n
+ng=1
+m=1
+model=sg13_lv_nmos
+spiceprefix=X
+lvs_ignore=0}
+C {lab_pin.sym} -420 550 0 0 {name=p66 lab=Vbiasn}
+C {sg13cmos5l_pr/sg13_lv_pmos.sym} -520 -160 0 0 {name=M14
+l=0.13u
+w=0.15u
+ng=1
+m=1
+mm_ok=1
+annot_side=0
+model=sg13_lv_pmos
+spiceprefix=X
+}
+C {lab_pin.sym} -500 -230 0 1 {name=p73 lab=VDD}
+C {lab_pin.sym} -560 -160 0 0 {name=p74 sig_type=std_logic lab=EN}

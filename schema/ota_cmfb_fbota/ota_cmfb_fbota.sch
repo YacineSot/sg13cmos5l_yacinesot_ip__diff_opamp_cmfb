@@ -73,6 +73,9 @@ N 750 -120 780 -120 {lab=VDD}
 N 710 -20 750 -50 {lab=VDD}
 N 750 -50 750 -20 {lab=VDD}
 N 750 -20 780 -20 {lab=VDD}
+N -30 -420 -30 -360 {lab=VDD}
+N -30 -330 -30 -300 {lab=tail_bias}
+N -90 -360 -70 -360 {lab=EN}
 C {sg13cmos5l_pr/sg13_lv_nmos.sym} 80 60 0 0 {name=MJ
 l=10u
 w=0.25u
@@ -242,3 +245,15 @@ m=1
 model=sg13_lv_pmos
 spiceprefix=X
 lvs_ignore=0}
+C {sg13cmos5l_pr/sg13_lv_pmos.sym} -50 -360 0 0 {name=MP1
+l=130.00n
+w=150.00n
+ng=1
+m=1
+model=sg13_lv_pmos
+spiceprefix=X
+lvs_ignore=0
+}
+C {lab_pin.sym} -30 -420 2 1 {name=p31 sig_type=std_logic lab=VDD}
+C {lab_pin.sym} -90 -360 2 1 {name=p33 sig_type=std_logic lab=EN}
+C {lab_pin.sym} -30 -300 0 1 {name=p32 sig_type=std_logic lab=tail_bias}

@@ -52,7 +52,7 @@ C {lab_pin.sym} 240 -500 0 1 {name=p9 lab=EN}
 C {code_shown.sym} -780 -340 0 0 {name=NETLIST only_toplevel=false value="
 VSS VSS 0 0
 VDD VDD VSS 1.5
-VEN EN VSS 1.2
+VEN EN VSS 0
 Vcm Vcm VSS \{vcm\}
 Ibias VDD Ibias 2.5u
 "}
@@ -79,12 +79,12 @@ value="
 .lib cornerRES.lib res_typ
 .lib cornerDIO.lib dio_tt
 "
-      spice_ignore=true}
+      }
 C {devices/launcher.sym} -1150 370 0 0 {name=h2
 descr="OP annotate" 
 tclcommand="xschem annotate_op"
 }
-C {code_shown.sym} -520 -360 0 0 {name=AC_SIM only_toplevel=false value="
+C {code_shown.sym} -510 -360 0 0 {name=AC_SIM only_toplevel=false value="
 .control
 ac dec 50 100 100G
 let vout_diff = voutp-voutn
@@ -105,7 +105,7 @@ echo results_save_end
 plot op_mag op_ph
 .endc
 "
-}
+spice_ignore=true}
 C {code_shown.sym} -420 -620 0 0 {name=PARAMS only_toplevel=false value="
 .option rshunt=1e9
 .options method=gear
@@ -119,10 +119,12 @@ C {lab_pin.sym} 100 -80 0 0 {name=p24 lab=Vinn}
 C {code_shown.sym} -390 -480 0 0 {name=LOAD only_toplevel=false value="
 CL1 Voutp 0 \{cl\}
 CL2 Voutn 0 \{cl\}
+RL1 Voutp 0 100k
+RL2 Voutn 0 100k
 "
 }
 C {ac_diff_probe/ac_diff_probe.sym} 180 -90 0 0 {name=xprobe1 vcm=\{vcm_in\} vac=1
-}
+spice_ignore=true}
 C {devices/code_shown.sym} -770 -610 0 0 {name=SAVE only_toplevel=true
 format="tcleval( @value )"
 value="
@@ -133,15 +135,15 @@ C {ammeter.sym} 410 -410 3 1 {name=Vmeas3 savecurrent=true spice_ignore=0}
 C {ammeter.sym} 320 -80 1 0 {name=Vmeas4 savecurrent=true spice_ignore=0}
 C {ammeter.sym} 320 -100 1 1 {name=Vmeas5 savecurrent=true spice_ignore=0}
 C {code_shown.sym} -360 120 0 0 {name=TRAN_SIM only_toplevel=false value="
-Vinp Vinp 0 sin(\{vcm_in\} 100u 1000k)
-Vinn Vinn 0 sin(\{vcm_in\} -100u 1000k)
+Vinp Vinp 0 sin(\{vcm_in\} 100u 10k)
+Vinn Vinn 0 sin(\{vcm_in\} -100u 10k)
 .control
 tran 100n 1m
 plot Vinp Vinn Voutp Voutn
 plot Vinp-Vinn Voutp-Voutn
 .endc
 "
-spice_ignore=true}
+}
 C {launcher.sym} -1150 290 0 0 {name=h4
 descr=SimulateNGSPICE
 tclcommand="
@@ -272,7 +274,7 @@ value="
 .lib cornerRES.lib res_typ
 .lib cornerDIO.lib dio_tt
 "
-      }
+      spice_ignore=true}
 C {ammeter.sym} 430 100 1 1 {name=Vmeas6 savecurrent=true spice_ignore=true}
 C {lab_pin.sym} 500 100 0 1 {name=p18 lab=Voutp}
 C {lab_pin.sym} 240 100 1 0 {name=p19 lab=Vinn}

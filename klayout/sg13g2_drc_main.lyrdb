@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <report-database>
  <description>Main DRC Run Report at</description>
- <original-file>/run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/klayout/final.gds</original-file>
+ <original-file>/run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/klayout/slot_5.gds</original-file>
  <generator>drc: script='/run/media/yacinesot/My_Files/XschemDesigns/designs/ignore/PDK/original/IHP-Open-PDK/ihp-sg13g2/libs.tech/klayout/tech/drc/ihp-sg13g2.drc'</generator>
- <top-cell>ota_cmfb_top</top-cell>
+ <top-cell>sg13cmos5l_yacinesot_ip__diff_opamp_cmfb</top-cell>
  <tags>
   <tag>
    <name>waived</name>
@@ -3395,13 +3395,276 @@
  </categories>
  <cells>
   <cell>
-   <name>ota_cmfb_top</name>
+   <name>sg13cmos5l_yacinesot_ip__diff_opamp_cmfb</name>
    <variant/>
    <layout-name/>
    <references>
    </references>
   </cell>
+  <cell>
+   <name>chipText</name>
+   <variant/>
+   <layout-name>chipText</layout-name>
+   <references>
+    <ref>
+     <parent>sg13cmos5l_yacinesot_ip__diff_opamp_cmfb</parent>
+     <trans>r0 *1 342.76,65.955</trans>
+    </ref>
+   </references>
+  </cell>
  </cells>
  <items>
+  <item>
+   <tags/>
+   <category>'TM1.b'</category>
+   <cell>chipText</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (20.25,17.337;20.25,18.663)|(18.75,18;18.61,17.86)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'TM1.b'</category>
+   <cell>chipText</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (20.25,17.337;20.25,25.5)|(18.75,26.163;18.75,18)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'TM1.b'</category>
+   <cell>chipText</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (20.25,25.5;20.39,25.64)|(18.75,26.163;18.75,24.837)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'TM1.b'</category>
+   <cell>chipText</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (40.5,4.5;40.5,25.5)|(39,25.5;39,3.837)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'TM1.b'</category>
+   <cell>chipText</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (40.5,4.5;40.5,20.25)|(39,20.913;39,3.837)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'TM1.b'</category>
+   <cell>chipText</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (40.5,20.25;40.5,25.5)|(39,25.5;39,19.587)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'TM1.b'</category>
+   <cell>chipText</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (88.5,21;88.5,21.663)|(86.86,21.14;87,21)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'TM1.b'</category>
+   <cell>chipText</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (134.25,21.087;134.25,25.5)|(132.75,25.5;132.75,21.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'TM1.b'</category>
+   <cell>chipText</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (132.75,25.5;132.75,24.837)|(134.25,25.5;134.384,25.634)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'TM1.b'</category>
+   <cell>chipText</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (134.25,13.587;134.25,14.913)|(132.61,14.39;132.75,14.25)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'TM1.b'</category>
+   <cell>chipText</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (134.25,24.837;134.25,25.5)|(132.616,25.634;132.75,25.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'TM1.b'</category>
+   <cell>chipText</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (73.5,25.587;73.5,30)|(72,30;72,26.25)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'TM1.b'</category>
+   <cell>chipText</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (134.25,4.5;134.25,14.913)|(132.75,14.25;132.75,4.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'TM1.b'</category>
+   <cell>chipText</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (132.75,4.5;132.616,4.366)|(134.25,4.5;134.25,5.163)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'TM1.b'</category>
+   <cell>chipText</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (93.75,0;93.75,30)|(92.25,30;92.25,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'TM1.b'</category>
+   <cell>chipText</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (134.384,4.366;134.25,4.5)|(132.75,5.163;132.75,4.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'TM1.b'</category>
+   <cell>chipText</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (40.64,4.36;40.5,4.5)|(39,5.163;39,3.837)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'TM1.b'</category>
+   <cell>chipText</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (78.89,23.11;78.75,23.25)|(77.25,23.25;77.25,22.587)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'TM1.b'</category>
+   <cell>chipText</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (73.5,0;73.5,4.413)|(72,3.75;72,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'TM1.b'</category>
+   <cell>chipText</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (40.5,24.837;40.5,25.5)|(38.866,25.634;39,25.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'TM1.b'</category>
+   <cell>chipText</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (39,25.5;39,24.837)|(40.5,25.5;40.634,25.634)</value>
+   </values>
+  </item>
  </items>
 </report-database>

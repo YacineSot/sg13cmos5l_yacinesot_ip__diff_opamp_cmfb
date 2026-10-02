@@ -22,6 +22,7 @@ L 4 -50 -60 90 0 {}
 L 4 70 10 100 10 {}
 L 4 66.875 -10 70 -10 {}
 L 4 66.875 10 70 10 {}
+L 4 40 -41.25 40 -21.25 {}
 B 5 -2.5 -62.5 2.5 -57.5 {name=VDD sig_type=std_logic dir=inout}
 B 5 -72.5 -2.5 -67.5 2.5 {name=Vcm_reg sig_type=std_logic dir=in}
 B 5 -82.5 27.5 -77.5 32.5 {name=Vinn sig_type=std_logic dir=in}
@@ -31,9 +32,10 @@ B 5 97.5 -12.5 102.5 -7.5 {name=Voutn sig_type=std_logic dir=out}
 B 5 97.5 7.5 102.5 12.5 {name=Voutp sig_type=std_logic dir=out}
 B 5 -2.5 57.5 2.5 62.5 {name=VSS sig_type=std_logic dir=inout}
 B 5 17.5 -52.5 22.5 -47.5 {name=EN sig_type=std_logic dir=in}
+B 5 37.5 -42.5 42.5 -37.5 {name=Vbias sig_type=std_logic dir=out}
 T {Vcm} -45 -4 0 0 0.2 0.2 {}
-T {Vo+} 59.375 4.125 0 1 0.2 0.2 {}
-T {Vo-} 54.375 -14.625 0 1 0.2 0.2 {}
+T {Vo+} 68.125 0.375 0 1 0.2 0.2 {}
+T {Vo-} 68.125 -12.125 0 1 0.2 0.2 {}
 T {@name} -55 -82 0 0 0.2 0.2 {}
 T {VDD} -15 -34 0 0 0.2 0.2 {}
 T {V+} -45 -34 0 0 0.2 0.2 {}
@@ -41,4 +43,5 @@ T {V-} -45 26 0 0 0.2 0.2 {}
 T {Ib} 10 13.5 0 0 0.2 0.2 {}
 T {EN} 15 -24 0 0 0.2 0.2 {}
 T {VSS} 5 26 0 1 0.2 0.2 {}
-T {@symname} 35 -46 0 0 0.2 0.2 {}
+T {@symname} 45 -36 0 0 0.2 0.2 {}
+T {Vb} 33.75 -19 0 0 0.2 0.2 {}
