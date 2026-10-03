@@ -18,7 +18,7 @@ XDIFF_AMP1 Vcm VDD EN Vinp net1 net2 Vinn VSS Ibias ota_cmfb_top
 
 VSS VSS 0 0
 VDD VDD VSS 1.5
-VEN EN VSS 0
+VEN EN VSS 1.5
 Vcm Vcm VSS {vcm}
 Ibias VDD Ibias 2.5u
 
@@ -119,7 +119,7 @@ xprobe2 OUTP INN ac_probe vcm={vcm} vac=-{vac}
 *.ipin Vcm
 xopamp1 VDD Vcm_reg Vinn Vinp Ibias Voutn Voutp VSS EN Vbias ota_cmfb_core
 xota1 VDD EN Vbias Vcm_calc Vcm Vcm_reg VSS ota_cmfb_fbota
-XM7 VSS VSS Ibias VSS sg13_lv_nmos w=0.25u l=0.5u ng=1 m=2 mm_ok=1
+XM7 VSS VSS Vbias VSS sg13_lv_nmos w=0.25u l=0.5u ng=1 m=2 mm_ok=1
 XR1 Voutn Vcm_calc VSS rhigh w=0.5e-6 l=1e-6*10 m=1 b=0 mm_ok=1
 XR2 Voutp Vcm_calc VSS rhigh w=0.5e-6 l=1e-6*10 m=1 b=0 mm_ok=1
 XM1 VSS VSS VSS VSS sg13_lv_nmos w=3.2u l=0.5u ng=1 m=10 mm_ok=1

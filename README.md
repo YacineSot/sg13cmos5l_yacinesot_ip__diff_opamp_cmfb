@@ -3,11 +3,15 @@ A high-performance, fully differential operational transconductance amplifier (O
 
 Schema
 ------
-![](docs/schema.png)
+![](results/ota_cmfb_top_tb.svg)
 
 Layout
 ------
 ![Layout IMG](results/top.png)
+
+Layout inside the wrapper
+------
+![Layout wrapper IMG](results/wrapper.png)
 
 Key Specifications
 ------------------

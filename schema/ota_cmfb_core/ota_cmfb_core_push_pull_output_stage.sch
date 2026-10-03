@@ -36,7 +36,6 @@ N -870 -240 -870 -170 {lab=VDD}
 N -830 -170 -800 -170 {lab=Vbiasp}
 N -870 -110 -870 -80 {lab=Vcasn2}
 N -930 -50 -910 -50 {lab=Vcasn2}
-N -930 -110 -930 -50 {lab=Vcasn2}
 N -930 -110 -870 -110 {lab=Vcasn2}
 N -870 -140 -870 -110 {lab=Vcasn2}
 N -870 -50 -840 -50 {lab=VSS}
@@ -151,6 +150,15 @@ N -500 -230 -500 -160 {lab=VDD}
 N -500 -130 -500 -80 {lab=Vin}
 N -540 -80 -500 -80 {lab=Vin}
 N -560 -160 -540 -160 {lab=EN}
+N -1030 -40 -1030 10 {lab=VSS}
+N -1110 -40 -1070 -40 {lab=EN_N}
+N -1030 -110 -930 -110 {lab=Vcasn2}
+N -1030 -110 -1030 -70 {lab=Vcasn2}
+N -930 -110 -930 -50 {lab=Vcasn2}
+N 540 -10 540 60 {lab=VDD}
+N 540 90 540 150 {lab=Vcasp2}
+N 430 150 540 150 {lab=Vcasp2}
+N 580 60 610 60 {lab=EN}
 C {sg13cmos5l_pr/sg13_lv_nmos.sym} -130 120 0 0 {name=M1
 l=10u
 w=0.5u
@@ -574,3 +582,26 @@ spiceprefix=X
 }
 C {lab_pin.sym} -500 -230 0 1 {name=p73 lab=VDD}
 C {lab_pin.sym} -560 -160 0 0 {name=p74 sig_type=std_logic lab=EN}
+C {lab_pin.sym} -1030 10 2 0 {name=p75 sig_type=std_logic lab=VSS}
+C {lab_pin.sym} -1110 -40 2 1 {name=p76 sig_type=std_logic lab=EN_N}
+C {sg13cmos5l_pr/sg13_lv_nmos.sym} -1050 -40 0 0 {name=MN2
+l=130.00n
+w=740.00n
+ng=1
+m=1
+model=sg13_lv_nmos
+spiceprefix=X
+lvs_ignore=0
+spice_ignore=true}
+C {sg13cmos5l_pr/sg13_lv_pmos.sym} 560 60 0 1 {name=M15
+l=0.13u
+w=0.15u
+ng=1
+m=1
+mm_ok=1
+annot_side=0
+model=sg13_lv_pmos
+spiceprefix=X
+spice_ignore=true}
+C {lab_pin.sym} 540 -10 0 0 {name=p77 lab=VDD}
+C {lab_pin.sym} 610 60 0 1 {name=p78 sig_type=std_logic lab=EN}

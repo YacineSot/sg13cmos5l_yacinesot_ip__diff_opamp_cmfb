@@ -49,10 +49,10 @@ C {lab_pin.sym} 480 -430 0 1 {name=p6 lab=Voutn}
 C {lab_pin.sym} 480 -410 0 1 {name=p7 lab=Voutp}
 C {lab_pin.sym} 220 -330 0 0 {name=p8 lab=VSS}
 C {lab_pin.sym} 240 -500 0 1 {name=p9 lab=EN}
-C {code_shown.sym} -780 -340 0 0 {name=NETLIST only_toplevel=false value="
+C {code_shown.sym} -790 -340 0 0 {name=NETLIST only_toplevel=false value="
 VSS VSS 0 0
 VDD VDD VSS 1.5
-VEN EN VSS 0
+VEN EN VSS 1.5
 Vcm Vcm VSS \{vcm\}
 Ibias VDD Ibias 2.5u
 "}

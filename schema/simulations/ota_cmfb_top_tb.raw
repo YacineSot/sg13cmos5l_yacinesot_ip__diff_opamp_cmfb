@@ -1,9 +1,9 @@
 Title: ** sch_path: /run/media/yacinesot/my_files/xschemdesigns/designs/chipalooza2/schema/ota_cmfb_top_tb.sch
-Date: Fri Oct  2 03:26:42  2026
+Date: Sat Oct  3 16:56:33  2026
 Command: ngspice-47, Build Tue Aug 11 00:00:00 UTC 2026
 Plotname: Operating Point
 Flags: real
-No. Variables: 1373
+No. Variables: 1421
 No. Points: 1
 Variables:
 	0	v(net1)	voltage
@@ -356,1068 +356,1116 @@ Variables:
 	347	v(@n.xdiff_amp1.xopamp1.xsf1.xm14.nsg13_lv_pmos[vdss])	voltage
 	348	v(@n.xdiff_amp1.xopamp1.xsf1.xm14.nsg13_lv_pmos[vgs])	voltage
 	349	v(@n.xdiff_amp1.xopamp1.xsf1.xm14.nsg13_lv_pmos[vth])	voltage
-	350	@n.xdiff_amp1.xopamp1.xsf1.xma.nsg13_lv_pmos[cgd]	capacitance
-	351	@n.xdiff_amp1.xopamp1.xsf1.xma.nsg13_lv_pmos[cgdol]	capacitance
-	352	@n.xdiff_amp1.xopamp1.xsf1.xma.nsg13_lv_pmos[cgg]	capacitance
-	353	@n.xdiff_amp1.xopamp1.xsf1.xma.nsg13_lv_pmos[cgs]	capacitance
-	354	@n.xdiff_amp1.xopamp1.xsf1.xma.nsg13_lv_pmos[cgsol]	capacitance
-	355	@n.xdiff_amp1.xopamp1.xsf1.xma.nsg13_lv_pmos[gds]	admittance
-	356	@n.xdiff_amp1.xopamp1.xsf1.xma.nsg13_lv_pmos[gm]	admittance
-	357	i(@n.xdiff_amp1.xopamp1.xsf1.xma.nsg13_lv_pmos[ids])	current
-	358	v(@n.xdiff_amp1.xopamp1.xsf1.xma.nsg13_lv_pmos[vds])	voltage
-	359	v(@n.xdiff_amp1.xopamp1.xsf1.xma.nsg13_lv_pmos[vdss])	voltage
-	360	v(@n.xdiff_amp1.xopamp1.xsf1.xma.nsg13_lv_pmos[vgs])	voltage
-	361	v(@n.xdiff_amp1.xopamp1.xsf1.xma.nsg13_lv_pmos[vth])	voltage
-	362	@n.xdiff_amp1.xopamp1.xsf1.xmb.nsg13_lv_pmos[cgd]	capacitance
-	363	@n.xdiff_amp1.xopamp1.xsf1.xmb.nsg13_lv_pmos[cgdol]	capacitance
-	364	@n.xdiff_amp1.xopamp1.xsf1.xmb.nsg13_lv_pmos[cgg]	capacitance
-	365	@n.xdiff_amp1.xopamp1.xsf1.xmb.nsg13_lv_pmos[cgs]	capacitance
-	366	@n.xdiff_amp1.xopamp1.xsf1.xmb.nsg13_lv_pmos[cgsol]	capacitance
-	367	@n.xdiff_amp1.xopamp1.xsf1.xmb.nsg13_lv_pmos[gds]	admittance
-	368	@n.xdiff_amp1.xopamp1.xsf1.xmb.nsg13_lv_pmos[gm]	admittance
-	369	i(@n.xdiff_amp1.xopamp1.xsf1.xmb.nsg13_lv_pmos[ids])	current
-	370	v(@n.xdiff_amp1.xopamp1.xsf1.xmb.nsg13_lv_pmos[vds])	voltage
-	371	v(@n.xdiff_amp1.xopamp1.xsf1.xmb.nsg13_lv_pmos[vdss])	voltage
-	372	v(@n.xdiff_amp1.xopamp1.xsf1.xmb.nsg13_lv_pmos[vgs])	voltage
-	373	v(@n.xdiff_amp1.xopamp1.xsf1.xmb.nsg13_lv_pmos[vth])	voltage
-	374	@n.xdiff_amp1.xopamp1.xsf1.xmc.nsg13_lv_pmos[cgd]	capacitance
-	375	@n.xdiff_amp1.xopamp1.xsf1.xmc.nsg13_lv_pmos[cgdol]	capacitance
-	376	@n.xdiff_amp1.xopamp1.xsf1.xmc.nsg13_lv_pmos[cgg]	capacitance
-	377	@n.xdiff_amp1.xopamp1.xsf1.xmc.nsg13_lv_pmos[cgs]	capacitance
-	378	@n.xdiff_amp1.xopamp1.xsf1.xmc.nsg13_lv_pmos[cgsol]	capacitance
-	379	@n.xdiff_amp1.xopamp1.xsf1.xmc.nsg13_lv_pmos[gds]	admittance
-	380	@n.xdiff_amp1.xopamp1.xsf1.xmc.nsg13_lv_pmos[gm]	admittance
-	381	i(@n.xdiff_amp1.xopamp1.xsf1.xmc.nsg13_lv_pmos[ids])	current
-	382	v(@n.xdiff_amp1.xopamp1.xsf1.xmc.nsg13_lv_pmos[vds])	voltage
-	383	v(@n.xdiff_amp1.xopamp1.xsf1.xmc.nsg13_lv_pmos[vdss])	voltage
-	384	v(@n.xdiff_amp1.xopamp1.xsf1.xmc.nsg13_lv_pmos[vgs])	voltage
-	385	v(@n.xdiff_amp1.xopamp1.xsf1.xmc.nsg13_lv_pmos[vth])	voltage
-	386	@n.xdiff_amp1.xopamp1.xsf1.xmd.nsg13_lv_pmos[cgd]	capacitance
-	387	@n.xdiff_amp1.xopamp1.xsf1.xmd.nsg13_lv_pmos[cgdol]	capacitance
-	388	@n.xdiff_amp1.xopamp1.xsf1.xmd.nsg13_lv_pmos[cgg]	capacitance
-	389	@n.xdiff_amp1.xopamp1.xsf1.xmd.nsg13_lv_pmos[cgs]	capacitance
-	390	@n.xdiff_amp1.xopamp1.xsf1.xmd.nsg13_lv_pmos[cgsol]	capacitance
-	391	@n.xdiff_amp1.xopamp1.xsf1.xmd.nsg13_lv_pmos[gds]	admittance
-	392	@n.xdiff_amp1.xopamp1.xsf1.xmd.nsg13_lv_pmos[gm]	admittance
-	393	i(@n.xdiff_amp1.xopamp1.xsf1.xmd.nsg13_lv_pmos[ids])	current
-	394	v(@n.xdiff_amp1.xopamp1.xsf1.xmd.nsg13_lv_pmos[vds])	voltage
-	395	v(@n.xdiff_amp1.xopamp1.xsf1.xmd.nsg13_lv_pmos[vdss])	voltage
-	396	v(@n.xdiff_amp1.xopamp1.xsf1.xmd.nsg13_lv_pmos[vgs])	voltage
-	397	v(@n.xdiff_amp1.xopamp1.xsf1.xmd.nsg13_lv_pmos[vth])	voltage
-	398	@n.xdiff_amp1.xopamp1.xsf1.xme.nsg13_lv_pmos[cgd]	capacitance
-	399	@n.xdiff_amp1.xopamp1.xsf1.xme.nsg13_lv_pmos[cgdol]	capacitance
-	400	@n.xdiff_amp1.xopamp1.xsf1.xme.nsg13_lv_pmos[cgg]	capacitance
-	401	@n.xdiff_amp1.xopamp1.xsf1.xme.nsg13_lv_pmos[cgs]	capacitance
-	402	@n.xdiff_amp1.xopamp1.xsf1.xme.nsg13_lv_pmos[cgsol]	capacitance
-	403	@n.xdiff_amp1.xopamp1.xsf1.xme.nsg13_lv_pmos[gds]	admittance
-	404	@n.xdiff_amp1.xopamp1.xsf1.xme.nsg13_lv_pmos[gm]	admittance
-	405	i(@n.xdiff_amp1.xopamp1.xsf1.xme.nsg13_lv_pmos[ids])	current
-	406	v(@n.xdiff_amp1.xopamp1.xsf1.xme.nsg13_lv_pmos[vds])	voltage
-	407	v(@n.xdiff_amp1.xopamp1.xsf1.xme.nsg13_lv_pmos[vdss])	voltage
-	408	v(@n.xdiff_amp1.xopamp1.xsf1.xme.nsg13_lv_pmos[vgs])	voltage
-	409	v(@n.xdiff_amp1.xopamp1.xsf1.xme.nsg13_lv_pmos[vth])	voltage
-	410	@n.xdiff_amp1.xopamp1.xsf1.xmfg.nsg13_lv_nmos[cgd]	capacitance
-	411	@n.xdiff_amp1.xopamp1.xsf1.xmfg.nsg13_lv_nmos[cgdol]	capacitance
-	412	@n.xdiff_amp1.xopamp1.xsf1.xmfg.nsg13_lv_nmos[cgg]	capacitance
-	413	@n.xdiff_amp1.xopamp1.xsf1.xmfg.nsg13_lv_nmos[cgs]	capacitance
-	414	@n.xdiff_amp1.xopamp1.xsf1.xmfg.nsg13_lv_nmos[cgsol]	capacitance
-	415	@n.xdiff_amp1.xopamp1.xsf1.xmfg.nsg13_lv_nmos[gds]	admittance
-	416	@n.xdiff_amp1.xopamp1.xsf1.xmfg.nsg13_lv_nmos[gm]	admittance
-	417	i(@n.xdiff_amp1.xopamp1.xsf1.xmfg.nsg13_lv_nmos[ids])	current
-	418	v(@n.xdiff_amp1.xopamp1.xsf1.xmfg.nsg13_lv_nmos[vds])	voltage
-	419	v(@n.xdiff_amp1.xopamp1.xsf1.xmfg.nsg13_lv_nmos[vdss])	voltage
-	420	v(@n.xdiff_amp1.xopamp1.xsf1.xmfg.nsg13_lv_nmos[vgs])	voltage
-	421	v(@n.xdiff_amp1.xopamp1.xsf1.xmfg.nsg13_lv_nmos[vth])	voltage
-	422	@n.xdiff_amp1.xopamp1.xsf1.xmh.nsg13_lv_pmos[cgd]	capacitance
-	423	@n.xdiff_amp1.xopamp1.xsf1.xmh.nsg13_lv_pmos[cgdol]	capacitance
-	424	@n.xdiff_amp1.xopamp1.xsf1.xmh.nsg13_lv_pmos[cgg]	capacitance
-	425	@n.xdiff_amp1.xopamp1.xsf1.xmh.nsg13_lv_pmos[cgs]	capacitance
-	426	@n.xdiff_amp1.xopamp1.xsf1.xmh.nsg13_lv_pmos[cgsol]	capacitance
-	427	@n.xdiff_amp1.xopamp1.xsf1.xmh.nsg13_lv_pmos[gds]	admittance
-	428	@n.xdiff_amp1.xopamp1.xsf1.xmh.nsg13_lv_pmos[gm]	admittance
-	429	i(@n.xdiff_amp1.xopamp1.xsf1.xmh.nsg13_lv_pmos[ids])	current
-	430	v(@n.xdiff_amp1.xopamp1.xsf1.xmh.nsg13_lv_pmos[vds])	voltage
-	431	v(@n.xdiff_amp1.xopamp1.xsf1.xmh.nsg13_lv_pmos[vdss])	voltage
-	432	v(@n.xdiff_amp1.xopamp1.xsf1.xmh.nsg13_lv_pmos[vgs])	voltage
-	433	v(@n.xdiff_amp1.xopamp1.xsf1.xmh.nsg13_lv_pmos[vth])	voltage
-	434	@n.xdiff_amp1.xopamp1.xsf1.xmi.nsg13_lv_pmos[cgd]	capacitance
-	435	@n.xdiff_amp1.xopamp1.xsf1.xmi.nsg13_lv_pmos[cgdol]	capacitance
-	436	@n.xdiff_amp1.xopamp1.xsf1.xmi.nsg13_lv_pmos[cgg]	capacitance
-	437	@n.xdiff_amp1.xopamp1.xsf1.xmi.nsg13_lv_pmos[cgs]	capacitance
-	438	@n.xdiff_amp1.xopamp1.xsf1.xmi.nsg13_lv_pmos[cgsol]	capacitance
-	439	@n.xdiff_amp1.xopamp1.xsf1.xmi.nsg13_lv_pmos[gds]	admittance
-	440	@n.xdiff_amp1.xopamp1.xsf1.xmi.nsg13_lv_pmos[gm]	admittance
-	441	i(@n.xdiff_amp1.xopamp1.xsf1.xmi.nsg13_lv_pmos[ids])	current
-	442	v(@n.xdiff_amp1.xopamp1.xsf1.xmi.nsg13_lv_pmos[vds])	voltage
-	443	v(@n.xdiff_amp1.xopamp1.xsf1.xmi.nsg13_lv_pmos[vdss])	voltage
-	444	v(@n.xdiff_amp1.xopamp1.xsf1.xmi.nsg13_lv_pmos[vgs])	voltage
-	445	v(@n.xdiff_amp1.xopamp1.xsf1.xmi.nsg13_lv_pmos[vth])	voltage
-	446	@n.xdiff_amp1.xopamp1.xsf1.xmj.nsg13_lv_pmos[cgd]	capacitance
-	447	@n.xdiff_amp1.xopamp1.xsf1.xmj.nsg13_lv_pmos[cgdol]	capacitance
-	448	@n.xdiff_amp1.xopamp1.xsf1.xmj.nsg13_lv_pmos[cgg]	capacitance
-	449	@n.xdiff_amp1.xopamp1.xsf1.xmj.nsg13_lv_pmos[cgs]	capacitance
-	450	@n.xdiff_amp1.xopamp1.xsf1.xmj.nsg13_lv_pmos[cgsol]	capacitance
-	451	@n.xdiff_amp1.xopamp1.xsf1.xmj.nsg13_lv_pmos[gds]	admittance
-	452	@n.xdiff_amp1.xopamp1.xsf1.xmj.nsg13_lv_pmos[gm]	admittance
-	453	i(@n.xdiff_amp1.xopamp1.xsf1.xmj.nsg13_lv_pmos[ids])	current
-	454	v(@n.xdiff_amp1.xopamp1.xsf1.xmj.nsg13_lv_pmos[vds])	voltage
-	455	v(@n.xdiff_amp1.xopamp1.xsf1.xmj.nsg13_lv_pmos[vdss])	voltage
-	456	v(@n.xdiff_amp1.xopamp1.xsf1.xmj.nsg13_lv_pmos[vgs])	voltage
-	457	v(@n.xdiff_amp1.xopamp1.xsf1.xmj.nsg13_lv_pmos[vth])	voltage
-	458	@n.xdiff_amp1.xopamp1.xsf1.xmk.nsg13_lv_nmos[cgd]	capacitance
-	459	@n.xdiff_amp1.xopamp1.xsf1.xmk.nsg13_lv_nmos[cgdol]	capacitance
-	460	@n.xdiff_amp1.xopamp1.xsf1.xmk.nsg13_lv_nmos[cgg]	capacitance
-	461	@n.xdiff_amp1.xopamp1.xsf1.xmk.nsg13_lv_nmos[cgs]	capacitance
-	462	@n.xdiff_amp1.xopamp1.xsf1.xmk.nsg13_lv_nmos[cgsol]	capacitance
-	463	@n.xdiff_amp1.xopamp1.xsf1.xmk.nsg13_lv_nmos[gds]	admittance
-	464	@n.xdiff_amp1.xopamp1.xsf1.xmk.nsg13_lv_nmos[gm]	admittance
-	465	i(@n.xdiff_amp1.xopamp1.xsf1.xmk.nsg13_lv_nmos[ids])	current
-	466	v(@n.xdiff_amp1.xopamp1.xsf1.xmk.nsg13_lv_nmos[vds])	voltage
-	467	v(@n.xdiff_amp1.xopamp1.xsf1.xmk.nsg13_lv_nmos[vdss])	voltage
-	468	v(@n.xdiff_amp1.xopamp1.xsf1.xmk.nsg13_lv_nmos[vgs])	voltage
-	469	v(@n.xdiff_amp1.xopamp1.xsf1.xmk.nsg13_lv_nmos[vth])	voltage
-	470	@n.xdiff_amp1.xopamp1.xsf1.xml.nsg13_lv_nmos[cgd]	capacitance
-	471	@n.xdiff_amp1.xopamp1.xsf1.xml.nsg13_lv_nmos[cgdol]	capacitance
-	472	@n.xdiff_amp1.xopamp1.xsf1.xml.nsg13_lv_nmos[cgg]	capacitance
-	473	@n.xdiff_amp1.xopamp1.xsf1.xml.nsg13_lv_nmos[cgs]	capacitance
-	474	@n.xdiff_amp1.xopamp1.xsf1.xml.nsg13_lv_nmos[cgsol]	capacitance
-	475	@n.xdiff_amp1.xopamp1.xsf1.xml.nsg13_lv_nmos[gds]	admittance
-	476	@n.xdiff_amp1.xopamp1.xsf1.xml.nsg13_lv_nmos[gm]	admittance
-	477	i(@n.xdiff_amp1.xopamp1.xsf1.xml.nsg13_lv_nmos[ids])	current
-	478	v(@n.xdiff_amp1.xopamp1.xsf1.xml.nsg13_lv_nmos[vds])	voltage
-	479	v(@n.xdiff_amp1.xopamp1.xsf1.xml.nsg13_lv_nmos[vdss])	voltage
-	480	v(@n.xdiff_amp1.xopamp1.xsf1.xml.nsg13_lv_nmos[vgs])	voltage
-	481	v(@n.xdiff_amp1.xopamp1.xsf1.xml.nsg13_lv_nmos[vth])	voltage
-	482	@n.xdiff_amp1.xopamp1.xsf1.xmm.nsg13_lv_nmos[cgd]	capacitance
-	483	@n.xdiff_amp1.xopamp1.xsf1.xmm.nsg13_lv_nmos[cgdol]	capacitance
-	484	@n.xdiff_amp1.xopamp1.xsf1.xmm.nsg13_lv_nmos[cgg]	capacitance
-	485	@n.xdiff_amp1.xopamp1.xsf1.xmm.nsg13_lv_nmos[cgs]	capacitance
-	486	@n.xdiff_amp1.xopamp1.xsf1.xmm.nsg13_lv_nmos[cgsol]	capacitance
-	487	@n.xdiff_amp1.xopamp1.xsf1.xmm.nsg13_lv_nmos[gds]	admittance
-	488	@n.xdiff_amp1.xopamp1.xsf1.xmm.nsg13_lv_nmos[gm]	admittance
-	489	i(@n.xdiff_amp1.xopamp1.xsf1.xmm.nsg13_lv_nmos[ids])	current
-	490	v(@n.xdiff_amp1.xopamp1.xsf1.xmm.nsg13_lv_nmos[vds])	voltage
-	491	v(@n.xdiff_amp1.xopamp1.xsf1.xmm.nsg13_lv_nmos[vdss])	voltage
-	492	v(@n.xdiff_amp1.xopamp1.xsf1.xmm.nsg13_lv_nmos[vgs])	voltage
-	493	v(@n.xdiff_amp1.xopamp1.xsf1.xmm.nsg13_lv_nmos[vth])	voltage
-	494	@n.xdiff_amp1.xopamp1.xsf1.xmn.nsg13_lv_nmos[cgd]	capacitance
-	495	@n.xdiff_amp1.xopamp1.xsf1.xmn.nsg13_lv_nmos[cgdol]	capacitance
-	496	@n.xdiff_amp1.xopamp1.xsf1.xmn.nsg13_lv_nmos[cgg]	capacitance
-	497	@n.xdiff_amp1.xopamp1.xsf1.xmn.nsg13_lv_nmos[cgs]	capacitance
-	498	@n.xdiff_amp1.xopamp1.xsf1.xmn.nsg13_lv_nmos[cgsol]	capacitance
-	499	@n.xdiff_amp1.xopamp1.xsf1.xmn.nsg13_lv_nmos[gds]	admittance
-	500	@n.xdiff_amp1.xopamp1.xsf1.xmn.nsg13_lv_nmos[gm]	admittance
-	501	i(@n.xdiff_amp1.xopamp1.xsf1.xmn.nsg13_lv_nmos[ids])	current
-	502	v(@n.xdiff_amp1.xopamp1.xsf1.xmn.nsg13_lv_nmos[vds])	voltage
-	503	v(@n.xdiff_amp1.xopamp1.xsf1.xmn.nsg13_lv_nmos[vdss])	voltage
-	504	v(@n.xdiff_amp1.xopamp1.xsf1.xmn.nsg13_lv_nmos[vgs])	voltage
-	505	v(@n.xdiff_amp1.xopamp1.xsf1.xmn.nsg13_lv_nmos[vth])	voltage
-	506	@n.xdiff_amp1.xopamp1.xsf1.xmn0.nsg13_lv_nmos[cgd]	capacitance
-	507	@n.xdiff_amp1.xopamp1.xsf1.xmn0.nsg13_lv_nmos[cgdol]	capacitance
-	508	@n.xdiff_amp1.xopamp1.xsf1.xmn0.nsg13_lv_nmos[cgg]	capacitance
-	509	@n.xdiff_amp1.xopamp1.xsf1.xmn0.nsg13_lv_nmos[cgs]	capacitance
-	510	@n.xdiff_amp1.xopamp1.xsf1.xmn0.nsg13_lv_nmos[cgsol]	capacitance
-	511	@n.xdiff_amp1.xopamp1.xsf1.xmn0.nsg13_lv_nmos[gds]	admittance
-	512	@n.xdiff_amp1.xopamp1.xsf1.xmn0.nsg13_lv_nmos[gm]	admittance
-	513	i(@n.xdiff_amp1.xopamp1.xsf1.xmn0.nsg13_lv_nmos[ids])	current
-	514	v(@n.xdiff_amp1.xopamp1.xsf1.xmn0.nsg13_lv_nmos[vds])	voltage
-	515	v(@n.xdiff_amp1.xopamp1.xsf1.xmn0.nsg13_lv_nmos[vdss])	voltage
-	516	v(@n.xdiff_amp1.xopamp1.xsf1.xmn0.nsg13_lv_nmos[vgs])	voltage
-	517	v(@n.xdiff_amp1.xopamp1.xsf1.xmn0.nsg13_lv_nmos[vth])	voltage
-	518	@n.xdiff_amp1.xopamp1.xsf1.xmn1.nsg13_lv_nmos[cgd]	capacitance
-	519	@n.xdiff_amp1.xopamp1.xsf1.xmn1.nsg13_lv_nmos[cgdol]	capacitance
-	520	@n.xdiff_amp1.xopamp1.xsf1.xmn1.nsg13_lv_nmos[cgg]	capacitance
-	521	@n.xdiff_amp1.xopamp1.xsf1.xmn1.nsg13_lv_nmos[cgs]	capacitance
-	522	@n.xdiff_amp1.xopamp1.xsf1.xmn1.nsg13_lv_nmos[cgsol]	capacitance
-	523	@n.xdiff_amp1.xopamp1.xsf1.xmn1.nsg13_lv_nmos[gds]	admittance
-	524	@n.xdiff_amp1.xopamp1.xsf1.xmn1.nsg13_lv_nmos[gm]	admittance
-	525	i(@n.xdiff_amp1.xopamp1.xsf1.xmn1.nsg13_lv_nmos[ids])	current
-	526	v(@n.xdiff_amp1.xopamp1.xsf1.xmn1.nsg13_lv_nmos[vds])	voltage
-	527	v(@n.xdiff_amp1.xopamp1.xsf1.xmn1.nsg13_lv_nmos[vdss])	voltage
-	528	v(@n.xdiff_amp1.xopamp1.xsf1.xmn1.nsg13_lv_nmos[vgs])	voltage
-	529	v(@n.xdiff_amp1.xopamp1.xsf1.xmn1.nsg13_lv_nmos[vth])	voltage
-	530	@n.xdiff_amp1.xopamp1.xsf1.xmo.nsg13_lv_nmos[cgd]	capacitance
-	531	@n.xdiff_amp1.xopamp1.xsf1.xmo.nsg13_lv_nmos[cgdol]	capacitance
-	532	@n.xdiff_amp1.xopamp1.xsf1.xmo.nsg13_lv_nmos[cgg]	capacitance
-	533	@n.xdiff_amp1.xopamp1.xsf1.xmo.nsg13_lv_nmos[cgs]	capacitance
-	534	@n.xdiff_amp1.xopamp1.xsf1.xmo.nsg13_lv_nmos[cgsol]	capacitance
-	535	@n.xdiff_amp1.xopamp1.xsf1.xmo.nsg13_lv_nmos[gds]	admittance
-	536	@n.xdiff_amp1.xopamp1.xsf1.xmo.nsg13_lv_nmos[gm]	admittance
-	537	i(@n.xdiff_amp1.xopamp1.xsf1.xmo.nsg13_lv_nmos[ids])	current
-	538	v(@n.xdiff_amp1.xopamp1.xsf1.xmo.nsg13_lv_nmos[vds])	voltage
-	539	v(@n.xdiff_amp1.xopamp1.xsf1.xmo.nsg13_lv_nmos[vdss])	voltage
-	540	v(@n.xdiff_amp1.xopamp1.xsf1.xmo.nsg13_lv_nmos[vgs])	voltage
-	541	v(@n.xdiff_amp1.xopamp1.xsf1.xmo.nsg13_lv_nmos[vth])	voltage
-	542	@n.xdiff_amp1.xopamp1.xsf1.xmp.nsg13_lv_nmos[cgd]	capacitance
-	543	@n.xdiff_amp1.xopamp1.xsf1.xmp.nsg13_lv_nmos[cgdol]	capacitance
-	544	@n.xdiff_amp1.xopamp1.xsf1.xmp.nsg13_lv_nmos[cgg]	capacitance
-	545	@n.xdiff_amp1.xopamp1.xsf1.xmp.nsg13_lv_nmos[cgs]	capacitance
-	546	@n.xdiff_amp1.xopamp1.xsf1.xmp.nsg13_lv_nmos[cgsol]	capacitance
-	547	@n.xdiff_amp1.xopamp1.xsf1.xmp.nsg13_lv_nmos[gds]	admittance
-	548	@n.xdiff_amp1.xopamp1.xsf1.xmp.nsg13_lv_nmos[gm]	admittance
-	549	i(@n.xdiff_amp1.xopamp1.xsf1.xmp.nsg13_lv_nmos[ids])	current
-	550	v(@n.xdiff_amp1.xopamp1.xsf1.xmp.nsg13_lv_nmos[vds])	voltage
-	551	v(@n.xdiff_amp1.xopamp1.xsf1.xmp.nsg13_lv_nmos[vdss])	voltage
-	552	v(@n.xdiff_amp1.xopamp1.xsf1.xmp.nsg13_lv_nmos[vgs])	voltage
-	553	v(@n.xdiff_amp1.xopamp1.xsf1.xmp.nsg13_lv_nmos[vth])	voltage
-	554	@n.xdiff_amp1.xopamp1.xsf1.xmp0.nsg13_lv_pmos[cgd]	capacitance
-	555	@n.xdiff_amp1.xopamp1.xsf1.xmp0.nsg13_lv_pmos[cgdol]	capacitance
-	556	@n.xdiff_amp1.xopamp1.xsf1.xmp0.nsg13_lv_pmos[cgg]	capacitance
-	557	@n.xdiff_amp1.xopamp1.xsf1.xmp0.nsg13_lv_pmos[cgs]	capacitance
-	558	@n.xdiff_amp1.xopamp1.xsf1.xmp0.nsg13_lv_pmos[cgsol]	capacitance
-	559	@n.xdiff_amp1.xopamp1.xsf1.xmp0.nsg13_lv_pmos[gds]	admittance
-	560	@n.xdiff_amp1.xopamp1.xsf1.xmp0.nsg13_lv_pmos[gm]	admittance
-	561	i(@n.xdiff_amp1.xopamp1.xsf1.xmp0.nsg13_lv_pmos[ids])	current
-	562	v(@n.xdiff_amp1.xopamp1.xsf1.xmp0.nsg13_lv_pmos[vds])	voltage
-	563	v(@n.xdiff_amp1.xopamp1.xsf1.xmp0.nsg13_lv_pmos[vdss])	voltage
-	564	v(@n.xdiff_amp1.xopamp1.xsf1.xmp0.nsg13_lv_pmos[vgs])	voltage
-	565	v(@n.xdiff_amp1.xopamp1.xsf1.xmp0.nsg13_lv_pmos[vth])	voltage
-	566	@n.xdiff_amp1.xopamp1.xsf1.xmq.nsg13_lv_nmos[cgd]	capacitance
-	567	@n.xdiff_amp1.xopamp1.xsf1.xmq.nsg13_lv_nmos[cgdol]	capacitance
-	568	@n.xdiff_amp1.xopamp1.xsf1.xmq.nsg13_lv_nmos[cgg]	capacitance
-	569	@n.xdiff_amp1.xopamp1.xsf1.xmq.nsg13_lv_nmos[cgs]	capacitance
-	570	@n.xdiff_amp1.xopamp1.xsf1.xmq.nsg13_lv_nmos[cgsol]	capacitance
-	571	@n.xdiff_amp1.xopamp1.xsf1.xmq.nsg13_lv_nmos[gds]	admittance
-	572	@n.xdiff_amp1.xopamp1.xsf1.xmq.nsg13_lv_nmos[gm]	admittance
-	573	i(@n.xdiff_amp1.xopamp1.xsf1.xmq.nsg13_lv_nmos[ids])	current
-	574	v(@n.xdiff_amp1.xopamp1.xsf1.xmq.nsg13_lv_nmos[vds])	voltage
-	575	v(@n.xdiff_amp1.xopamp1.xsf1.xmq.nsg13_lv_nmos[vdss])	voltage
-	576	v(@n.xdiff_amp1.xopamp1.xsf1.xmq.nsg13_lv_nmos[vgs])	voltage
-	577	v(@n.xdiff_amp1.xopamp1.xsf1.xmq.nsg13_lv_nmos[vth])	voltage
-	578	@n.xdiff_amp1.xopamp1.xsf1.xmx.nsg13_lv_nmos[cgd]	capacitance
-	579	@n.xdiff_amp1.xopamp1.xsf1.xmx.nsg13_lv_nmos[cgdol]	capacitance
-	580	@n.xdiff_amp1.xopamp1.xsf1.xmx.nsg13_lv_nmos[cgg]	capacitance
-	581	@n.xdiff_amp1.xopamp1.xsf1.xmx.nsg13_lv_nmos[cgs]	capacitance
-	582	@n.xdiff_amp1.xopamp1.xsf1.xmx.nsg13_lv_nmos[cgsol]	capacitance
-	583	@n.xdiff_amp1.xopamp1.xsf1.xmx.nsg13_lv_nmos[gds]	admittance
-	584	@n.xdiff_amp1.xopamp1.xsf1.xmx.nsg13_lv_nmos[gm]	admittance
-	585	i(@n.xdiff_amp1.xopamp1.xsf1.xmx.nsg13_lv_nmos[ids])	current
-	586	v(@n.xdiff_amp1.xopamp1.xsf1.xmx.nsg13_lv_nmos[vds])	voltage
-	587	v(@n.xdiff_amp1.xopamp1.xsf1.xmx.nsg13_lv_nmos[vdss])	voltage
-	588	v(@n.xdiff_amp1.xopamp1.xsf1.xmx.nsg13_lv_nmos[vgs])	voltage
-	589	v(@n.xdiff_amp1.xopamp1.xsf1.xmx.nsg13_lv_nmos[vth])	voltage
-	590	@n.xdiff_amp1.xopamp1.xsf2.xc1.nsg13_moscap_p[cgg]	capacitance
-	591	@n.xdiff_amp1.xopamp1.xsf2.xm1.nsg13_lv_nmos[cgd]	capacitance
-	592	@n.xdiff_amp1.xopamp1.xsf2.xm1.nsg13_lv_nmos[cgdol]	capacitance
-	593	@n.xdiff_amp1.xopamp1.xsf2.xm1.nsg13_lv_nmos[cgg]	capacitance
-	594	@n.xdiff_amp1.xopamp1.xsf2.xm1.nsg13_lv_nmos[cgs]	capacitance
-	595	@n.xdiff_amp1.xopamp1.xsf2.xm1.nsg13_lv_nmos[cgsol]	capacitance
-	596	@n.xdiff_amp1.xopamp1.xsf2.xm1.nsg13_lv_nmos[gds]	admittance
-	597	@n.xdiff_amp1.xopamp1.xsf2.xm1.nsg13_lv_nmos[gm]	admittance
-	598	i(@n.xdiff_amp1.xopamp1.xsf2.xm1.nsg13_lv_nmos[ids])	current
-	599	v(@n.xdiff_amp1.xopamp1.xsf2.xm1.nsg13_lv_nmos[vds])	voltage
-	600	v(@n.xdiff_amp1.xopamp1.xsf2.xm1.nsg13_lv_nmos[vdss])	voltage
-	601	v(@n.xdiff_amp1.xopamp1.xsf2.xm1.nsg13_lv_nmos[vgs])	voltage
-	602	v(@n.xdiff_amp1.xopamp1.xsf2.xm1.nsg13_lv_nmos[vth])	voltage
-	603	@n.xdiff_amp1.xopamp1.xsf2.xm2.nsg13_lv_pmos[cgd]	capacitance
-	604	@n.xdiff_amp1.xopamp1.xsf2.xm2.nsg13_lv_pmos[cgdol]	capacitance
-	605	@n.xdiff_amp1.xopamp1.xsf2.xm2.nsg13_lv_pmos[cgg]	capacitance
-	606	@n.xdiff_amp1.xopamp1.xsf2.xm2.nsg13_lv_pmos[cgs]	capacitance
-	607	@n.xdiff_amp1.xopamp1.xsf2.xm2.nsg13_lv_pmos[cgsol]	capacitance
-	608	@n.xdiff_amp1.xopamp1.xsf2.xm2.nsg13_lv_pmos[gds]	admittance
-	609	@n.xdiff_amp1.xopamp1.xsf2.xm2.nsg13_lv_pmos[gm]	admittance
-	610	i(@n.xdiff_amp1.xopamp1.xsf2.xm2.nsg13_lv_pmos[ids])	current
-	611	v(@n.xdiff_amp1.xopamp1.xsf2.xm2.nsg13_lv_pmos[vds])	voltage
-	612	v(@n.xdiff_amp1.xopamp1.xsf2.xm2.nsg13_lv_pmos[vdss])	voltage
-	613	v(@n.xdiff_amp1.xopamp1.xsf2.xm2.nsg13_lv_pmos[vgs])	voltage
-	614	v(@n.xdiff_amp1.xopamp1.xsf2.xm2.nsg13_lv_pmos[vth])	voltage
-	615	@n.xdiff_amp1.xopamp1.xsf2.xm3.nsg13_lv_pmos[cgd]	capacitance
-	616	@n.xdiff_amp1.xopamp1.xsf2.xm3.nsg13_lv_pmos[cgdol]	capacitance
-	617	@n.xdiff_amp1.xopamp1.xsf2.xm3.nsg13_lv_pmos[cgg]	capacitance
-	618	@n.xdiff_amp1.xopamp1.xsf2.xm3.nsg13_lv_pmos[cgs]	capacitance
-	619	@n.xdiff_amp1.xopamp1.xsf2.xm3.nsg13_lv_pmos[cgsol]	capacitance
-	620	@n.xdiff_amp1.xopamp1.xsf2.xm3.nsg13_lv_pmos[gds]	admittance
-	621	@n.xdiff_amp1.xopamp1.xsf2.xm3.nsg13_lv_pmos[gm]	admittance
-	622	i(@n.xdiff_amp1.xopamp1.xsf2.xm3.nsg13_lv_pmos[ids])	current
-	623	v(@n.xdiff_amp1.xopamp1.xsf2.xm3.nsg13_lv_pmos[vds])	voltage
-	624	v(@n.xdiff_amp1.xopamp1.xsf2.xm3.nsg13_lv_pmos[vdss])	voltage
-	625	v(@n.xdiff_amp1.xopamp1.xsf2.xm3.nsg13_lv_pmos[vgs])	voltage
-	626	v(@n.xdiff_amp1.xopamp1.xsf2.xm3.nsg13_lv_pmos[vth])	voltage
-	627	@n.xdiff_amp1.xopamp1.xsf2.xm4.nsg13_lv_pmos[cgd]	capacitance
-	628	@n.xdiff_amp1.xopamp1.xsf2.xm4.nsg13_lv_pmos[cgdol]	capacitance
-	629	@n.xdiff_amp1.xopamp1.xsf2.xm4.nsg13_lv_pmos[cgg]	capacitance
-	630	@n.xdiff_amp1.xopamp1.xsf2.xm4.nsg13_lv_pmos[cgs]	capacitance
-	631	@n.xdiff_amp1.xopamp1.xsf2.xm4.nsg13_lv_pmos[cgsol]	capacitance
-	632	@n.xdiff_amp1.xopamp1.xsf2.xm4.nsg13_lv_pmos[gds]	admittance
-	633	@n.xdiff_amp1.xopamp1.xsf2.xm4.nsg13_lv_pmos[gm]	admittance
-	634	i(@n.xdiff_amp1.xopamp1.xsf2.xm4.nsg13_lv_pmos[ids])	current
-	635	v(@n.xdiff_amp1.xopamp1.xsf2.xm4.nsg13_lv_pmos[vds])	voltage
-	636	v(@n.xdiff_amp1.xopamp1.xsf2.xm4.nsg13_lv_pmos[vdss])	voltage
-	637	v(@n.xdiff_amp1.xopamp1.xsf2.xm4.nsg13_lv_pmos[vgs])	voltage
-	638	v(@n.xdiff_amp1.xopamp1.xsf2.xm4.nsg13_lv_pmos[vth])	voltage
-	639	@n.xdiff_amp1.xopamp1.xsf2.xm5.nsg13_lv_pmos[cgd]	capacitance
-	640	@n.xdiff_amp1.xopamp1.xsf2.xm5.nsg13_lv_pmos[cgdol]	capacitance
-	641	@n.xdiff_amp1.xopamp1.xsf2.xm5.nsg13_lv_pmos[cgg]	capacitance
-	642	@n.xdiff_amp1.xopamp1.xsf2.xm5.nsg13_lv_pmos[cgs]	capacitance
-	643	@n.xdiff_amp1.xopamp1.xsf2.xm5.nsg13_lv_pmos[cgsol]	capacitance
-	644	@n.xdiff_amp1.xopamp1.xsf2.xm5.nsg13_lv_pmos[gds]	admittance
-	645	@n.xdiff_amp1.xopamp1.xsf2.xm5.nsg13_lv_pmos[gm]	admittance
-	646	i(@n.xdiff_amp1.xopamp1.xsf2.xm5.nsg13_lv_pmos[ids])	current
-	647	v(@n.xdiff_amp1.xopamp1.xsf2.xm5.nsg13_lv_pmos[vds])	voltage
-	648	v(@n.xdiff_amp1.xopamp1.xsf2.xm5.nsg13_lv_pmos[vdss])	voltage
-	649	v(@n.xdiff_amp1.xopamp1.xsf2.xm5.nsg13_lv_pmos[vgs])	voltage
-	650	v(@n.xdiff_amp1.xopamp1.xsf2.xm5.nsg13_lv_pmos[vth])	voltage
-	651	@n.xdiff_amp1.xopamp1.xsf2.xm6.nsg13_lv_pmos[cgd]	capacitance
-	652	@n.xdiff_amp1.xopamp1.xsf2.xm6.nsg13_lv_pmos[cgdol]	capacitance
-	653	@n.xdiff_amp1.xopamp1.xsf2.xm6.nsg13_lv_pmos[cgg]	capacitance
-	654	@n.xdiff_amp1.xopamp1.xsf2.xm6.nsg13_lv_pmos[cgs]	capacitance
-	655	@n.xdiff_amp1.xopamp1.xsf2.xm6.nsg13_lv_pmos[cgsol]	capacitance
-	656	@n.xdiff_amp1.xopamp1.xsf2.xm6.nsg13_lv_pmos[gds]	admittance
-	657	@n.xdiff_amp1.xopamp1.xsf2.xm6.nsg13_lv_pmos[gm]	admittance
-	658	i(@n.xdiff_amp1.xopamp1.xsf2.xm6.nsg13_lv_pmos[ids])	current
-	659	v(@n.xdiff_amp1.xopamp1.xsf2.xm6.nsg13_lv_pmos[vds])	voltage
-	660	v(@n.xdiff_amp1.xopamp1.xsf2.xm6.nsg13_lv_pmos[vdss])	voltage
-	661	v(@n.xdiff_amp1.xopamp1.xsf2.xm6.nsg13_lv_pmos[vgs])	voltage
-	662	v(@n.xdiff_amp1.xopamp1.xsf2.xm6.nsg13_lv_pmos[vth])	voltage
-	663	@n.xdiff_amp1.xopamp1.xsf2.xm7.nsg13_lv_nmos[cgd]	capacitance
-	664	@n.xdiff_amp1.xopamp1.xsf2.xm7.nsg13_lv_nmos[cgdol]	capacitance
-	665	@n.xdiff_amp1.xopamp1.xsf2.xm7.nsg13_lv_nmos[cgg]	capacitance
-	666	@n.xdiff_amp1.xopamp1.xsf2.xm7.nsg13_lv_nmos[cgs]	capacitance
-	667	@n.xdiff_amp1.xopamp1.xsf2.xm7.nsg13_lv_nmos[cgsol]	capacitance
-	668	@n.xdiff_amp1.xopamp1.xsf2.xm7.nsg13_lv_nmos[gds]	admittance
-	669	@n.xdiff_amp1.xopamp1.xsf2.xm7.nsg13_lv_nmos[gm]	admittance
-	670	i(@n.xdiff_amp1.xopamp1.xsf2.xm7.nsg13_lv_nmos[ids])	current
-	671	v(@n.xdiff_amp1.xopamp1.xsf2.xm7.nsg13_lv_nmos[vds])	voltage
-	672	v(@n.xdiff_amp1.xopamp1.xsf2.xm7.nsg13_lv_nmos[vdss])	voltage
-	673	v(@n.xdiff_amp1.xopamp1.xsf2.xm7.nsg13_lv_nmos[vgs])	voltage
-	674	v(@n.xdiff_amp1.xopamp1.xsf2.xm7.nsg13_lv_nmos[vth])	voltage
-	675	@n.xdiff_amp1.xopamp1.xsf2.xm8.nsg13_lv_nmos[cgd]	capacitance
-	676	@n.xdiff_amp1.xopamp1.xsf2.xm8.nsg13_lv_nmos[cgdol]	capacitance
-	677	@n.xdiff_amp1.xopamp1.xsf2.xm8.nsg13_lv_nmos[cgg]	capacitance
-	678	@n.xdiff_amp1.xopamp1.xsf2.xm8.nsg13_lv_nmos[cgs]	capacitance
-	679	@n.xdiff_amp1.xopamp1.xsf2.xm8.nsg13_lv_nmos[cgsol]	capacitance
-	680	@n.xdiff_amp1.xopamp1.xsf2.xm8.nsg13_lv_nmos[gds]	admittance
-	681	@n.xdiff_amp1.xopamp1.xsf2.xm8.nsg13_lv_nmos[gm]	admittance
-	682	i(@n.xdiff_amp1.xopamp1.xsf2.xm8.nsg13_lv_nmos[ids])	current
-	683	v(@n.xdiff_amp1.xopamp1.xsf2.xm8.nsg13_lv_nmos[vds])	voltage
-	684	v(@n.xdiff_amp1.xopamp1.xsf2.xm8.nsg13_lv_nmos[vdss])	voltage
-	685	v(@n.xdiff_amp1.xopamp1.xsf2.xm8.nsg13_lv_nmos[vgs])	voltage
-	686	v(@n.xdiff_amp1.xopamp1.xsf2.xm8.nsg13_lv_nmos[vth])	voltage
-	687	@n.xdiff_amp1.xopamp1.xsf2.xm9.nsg13_lv_nmos[cgd]	capacitance
-	688	@n.xdiff_amp1.xopamp1.xsf2.xm9.nsg13_lv_nmos[cgdol]	capacitance
-	689	@n.xdiff_amp1.xopamp1.xsf2.xm9.nsg13_lv_nmos[cgg]	capacitance
-	690	@n.xdiff_amp1.xopamp1.xsf2.xm9.nsg13_lv_nmos[cgs]	capacitance
-	691	@n.xdiff_amp1.xopamp1.xsf2.xm9.nsg13_lv_nmos[cgsol]	capacitance
-	692	@n.xdiff_amp1.xopamp1.xsf2.xm9.nsg13_lv_nmos[gds]	admittance
-	693	@n.xdiff_amp1.xopamp1.xsf2.xm9.nsg13_lv_nmos[gm]	admittance
-	694	i(@n.xdiff_amp1.xopamp1.xsf2.xm9.nsg13_lv_nmos[ids])	current
-	695	v(@n.xdiff_amp1.xopamp1.xsf2.xm9.nsg13_lv_nmos[vds])	voltage
-	696	v(@n.xdiff_amp1.xopamp1.xsf2.xm9.nsg13_lv_nmos[vdss])	voltage
-	697	v(@n.xdiff_amp1.xopamp1.xsf2.xm9.nsg13_lv_nmos[vgs])	voltage
-	698	v(@n.xdiff_amp1.xopamp1.xsf2.xm9.nsg13_lv_nmos[vth])	voltage
-	699	@n.xdiff_amp1.xopamp1.xsf2.xm10.nsg13_lv_pmos[cgd]	capacitance
-	700	@n.xdiff_amp1.xopamp1.xsf2.xm10.nsg13_lv_pmos[cgdol]	capacitance
-	701	@n.xdiff_amp1.xopamp1.xsf2.xm10.nsg13_lv_pmos[cgg]	capacitance
-	702	@n.xdiff_amp1.xopamp1.xsf2.xm10.nsg13_lv_pmos[cgs]	capacitance
-	703	@n.xdiff_amp1.xopamp1.xsf2.xm10.nsg13_lv_pmos[cgsol]	capacitance
-	704	@n.xdiff_amp1.xopamp1.xsf2.xm10.nsg13_lv_pmos[gds]	admittance
-	705	@n.xdiff_amp1.xopamp1.xsf2.xm10.nsg13_lv_pmos[gm]	admittance
-	706	i(@n.xdiff_amp1.xopamp1.xsf2.xm10.nsg13_lv_pmos[ids])	current
-	707	v(@n.xdiff_amp1.xopamp1.xsf2.xm10.nsg13_lv_pmos[vds])	voltage
-	708	v(@n.xdiff_amp1.xopamp1.xsf2.xm10.nsg13_lv_pmos[vdss])	voltage
-	709	v(@n.xdiff_amp1.xopamp1.xsf2.xm10.nsg13_lv_pmos[vgs])	voltage
-	710	v(@n.xdiff_amp1.xopamp1.xsf2.xm10.nsg13_lv_pmos[vth])	voltage
-	711	@n.xdiff_amp1.xopamp1.xsf2.xm11.nsg13_lv_nmos[cgd]	capacitance dims=0
-	712	@n.xdiff_amp1.xopamp1.xsf2.xm11.nsg13_lv_nmos[cgdol]	capacitance dims=0
-	713	@n.xdiff_amp1.xopamp1.xsf2.xm11.nsg13_lv_nmos[cgg]	capacitance dims=0
-	714	@n.xdiff_amp1.xopamp1.xsf2.xm11.nsg13_lv_nmos[cgs]	capacitance dims=0
-	715	@n.xdiff_amp1.xopamp1.xsf2.xm11.nsg13_lv_nmos[cgsol]	capacitance dims=0
-	716	@n.xdiff_amp1.xopamp1.xsf2.xm11.nsg13_lv_nmos[gds]	admittance dims=0
-	717	@n.xdiff_amp1.xopamp1.xsf2.xm11.nsg13_lv_nmos[gm]	admittance dims=0
-	718	i(@n.xdiff_amp1.xopamp1.xsf2.xm11.nsg13_lv_nmos[ids])	current dims=0
-	719	v(@n.xdiff_amp1.xopamp1.xsf2.xm11.nsg13_lv_nmos[vds])	voltage dims=0
-	720	v(@n.xdiff_amp1.xopamp1.xsf2.xm11.nsg13_lv_nmos[vdss])	voltage dims=0
-	721	v(@n.xdiff_amp1.xopamp1.xsf2.xm11.nsg13_lv_nmos[vgs])	voltage dims=0
-	722	v(@n.xdiff_amp1.xopamp1.xsf2.xm11.nsg13_lv_nmos[vth])	voltage dims=0
-	723	@n.xdiff_amp1.xopamp1.xsf2.xm12.nsg13_lv_nmos[cgd]	capacitance
-	724	@n.xdiff_amp1.xopamp1.xsf2.xm12.nsg13_lv_nmos[cgdol]	capacitance
-	725	@n.xdiff_amp1.xopamp1.xsf2.xm12.nsg13_lv_nmos[cgg]	capacitance
-	726	@n.xdiff_amp1.xopamp1.xsf2.xm12.nsg13_lv_nmos[cgs]	capacitance
-	727	@n.xdiff_amp1.xopamp1.xsf2.xm12.nsg13_lv_nmos[cgsol]	capacitance
-	728	@n.xdiff_amp1.xopamp1.xsf2.xm12.nsg13_lv_nmos[gds]	admittance
-	729	@n.xdiff_amp1.xopamp1.xsf2.xm12.nsg13_lv_nmos[gm]	admittance
-	730	i(@n.xdiff_amp1.xopamp1.xsf2.xm12.nsg13_lv_nmos[ids])	current
-	731	v(@n.xdiff_amp1.xopamp1.xsf2.xm12.nsg13_lv_nmos[vds])	voltage
-	732	v(@n.xdiff_amp1.xopamp1.xsf2.xm12.nsg13_lv_nmos[vdss])	voltage
-	733	v(@n.xdiff_amp1.xopamp1.xsf2.xm12.nsg13_lv_nmos[vgs])	voltage
-	734	v(@n.xdiff_amp1.xopamp1.xsf2.xm12.nsg13_lv_nmos[vth])	voltage
-	735	@n.xdiff_amp1.xopamp1.xsf2.xm13.nsg13_lv_pmos[cgd]	capacitance
-	736	@n.xdiff_amp1.xopamp1.xsf2.xm13.nsg13_lv_pmos[cgdol]	capacitance
-	737	@n.xdiff_amp1.xopamp1.xsf2.xm13.nsg13_lv_pmos[cgg]	capacitance
-	738	@n.xdiff_amp1.xopamp1.xsf2.xm13.nsg13_lv_pmos[cgs]	capacitance
-	739	@n.xdiff_amp1.xopamp1.xsf2.xm13.nsg13_lv_pmos[cgsol]	capacitance
-	740	@n.xdiff_amp1.xopamp1.xsf2.xm13.nsg13_lv_pmos[gds]	admittance
-	741	@n.xdiff_amp1.xopamp1.xsf2.xm13.nsg13_lv_pmos[gm]	admittance
-	742	i(@n.xdiff_amp1.xopamp1.xsf2.xm13.nsg13_lv_pmos[ids])	current
-	743	v(@n.xdiff_amp1.xopamp1.xsf2.xm13.nsg13_lv_pmos[vds])	voltage
-	744	v(@n.xdiff_amp1.xopamp1.xsf2.xm13.nsg13_lv_pmos[vdss])	voltage
-	745	v(@n.xdiff_amp1.xopamp1.xsf2.xm13.nsg13_lv_pmos[vgs])	voltage
-	746	v(@n.xdiff_amp1.xopamp1.xsf2.xm13.nsg13_lv_pmos[vth])	voltage
-	747	@n.xdiff_amp1.xopamp1.xsf2.xm14.nsg13_lv_pmos[cgd]	capacitance
-	748	@n.xdiff_amp1.xopamp1.xsf2.xm14.nsg13_lv_pmos[cgdol]	capacitance
-	749	@n.xdiff_amp1.xopamp1.xsf2.xm14.nsg13_lv_pmos[cgg]	capacitance
-	750	@n.xdiff_amp1.xopamp1.xsf2.xm14.nsg13_lv_pmos[cgs]	capacitance
-	751	@n.xdiff_amp1.xopamp1.xsf2.xm14.nsg13_lv_pmos[cgsol]	capacitance
-	752	@n.xdiff_amp1.xopamp1.xsf2.xm14.nsg13_lv_pmos[gds]	admittance
-	753	@n.xdiff_amp1.xopamp1.xsf2.xm14.nsg13_lv_pmos[gm]	admittance
-	754	i(@n.xdiff_amp1.xopamp1.xsf2.xm14.nsg13_lv_pmos[ids])	current
-	755	v(@n.xdiff_amp1.xopamp1.xsf2.xm14.nsg13_lv_pmos[vds])	voltage
-	756	v(@n.xdiff_amp1.xopamp1.xsf2.xm14.nsg13_lv_pmos[vdss])	voltage
-	757	v(@n.xdiff_amp1.xopamp1.xsf2.xm14.nsg13_lv_pmos[vgs])	voltage
-	758	v(@n.xdiff_amp1.xopamp1.xsf2.xm14.nsg13_lv_pmos[vth])	voltage
-	759	@n.xdiff_amp1.xopamp1.xsf2.xma.nsg13_lv_pmos[cgd]	capacitance
-	760	@n.xdiff_amp1.xopamp1.xsf2.xma.nsg13_lv_pmos[cgdol]	capacitance
-	761	@n.xdiff_amp1.xopamp1.xsf2.xma.nsg13_lv_pmos[cgg]	capacitance
-	762	@n.xdiff_amp1.xopamp1.xsf2.xma.nsg13_lv_pmos[cgs]	capacitance
-	763	@n.xdiff_amp1.xopamp1.xsf2.xma.nsg13_lv_pmos[cgsol]	capacitance
-	764	@n.xdiff_amp1.xopamp1.xsf2.xma.nsg13_lv_pmos[gds]	admittance
-	765	@n.xdiff_amp1.xopamp1.xsf2.xma.nsg13_lv_pmos[gm]	admittance
-	766	i(@n.xdiff_amp1.xopamp1.xsf2.xma.nsg13_lv_pmos[ids])	current
-	767	v(@n.xdiff_amp1.xopamp1.xsf2.xma.nsg13_lv_pmos[vds])	voltage
-	768	v(@n.xdiff_amp1.xopamp1.xsf2.xma.nsg13_lv_pmos[vdss])	voltage
-	769	v(@n.xdiff_amp1.xopamp1.xsf2.xma.nsg13_lv_pmos[vgs])	voltage
-	770	v(@n.xdiff_amp1.xopamp1.xsf2.xma.nsg13_lv_pmos[vth])	voltage
-	771	@n.xdiff_amp1.xopamp1.xsf2.xmb.nsg13_lv_pmos[cgd]	capacitance
-	772	@n.xdiff_amp1.xopamp1.xsf2.xmb.nsg13_lv_pmos[cgdol]	capacitance
-	773	@n.xdiff_amp1.xopamp1.xsf2.xmb.nsg13_lv_pmos[cgg]	capacitance
-	774	@n.xdiff_amp1.xopamp1.xsf2.xmb.nsg13_lv_pmos[cgs]	capacitance
-	775	@n.xdiff_amp1.xopamp1.xsf2.xmb.nsg13_lv_pmos[cgsol]	capacitance
-	776	@n.xdiff_amp1.xopamp1.xsf2.xmb.nsg13_lv_pmos[gds]	admittance
-	777	@n.xdiff_amp1.xopamp1.xsf2.xmb.nsg13_lv_pmos[gm]	admittance
-	778	i(@n.xdiff_amp1.xopamp1.xsf2.xmb.nsg13_lv_pmos[ids])	current
-	779	v(@n.xdiff_amp1.xopamp1.xsf2.xmb.nsg13_lv_pmos[vds])	voltage
-	780	v(@n.xdiff_amp1.xopamp1.xsf2.xmb.nsg13_lv_pmos[vdss])	voltage
-	781	v(@n.xdiff_amp1.xopamp1.xsf2.xmb.nsg13_lv_pmos[vgs])	voltage
-	782	v(@n.xdiff_amp1.xopamp1.xsf2.xmb.nsg13_lv_pmos[vth])	voltage
-	783	@n.xdiff_amp1.xopamp1.xsf2.xmc.nsg13_lv_pmos[cgd]	capacitance
-	784	@n.xdiff_amp1.xopamp1.xsf2.xmc.nsg13_lv_pmos[cgdol]	capacitance
-	785	@n.xdiff_amp1.xopamp1.xsf2.xmc.nsg13_lv_pmos[cgg]	capacitance
-	786	@n.xdiff_amp1.xopamp1.xsf2.xmc.nsg13_lv_pmos[cgs]	capacitance
-	787	@n.xdiff_amp1.xopamp1.xsf2.xmc.nsg13_lv_pmos[cgsol]	capacitance
-	788	@n.xdiff_amp1.xopamp1.xsf2.xmc.nsg13_lv_pmos[gds]	admittance
-	789	@n.xdiff_amp1.xopamp1.xsf2.xmc.nsg13_lv_pmos[gm]	admittance
-	790	i(@n.xdiff_amp1.xopamp1.xsf2.xmc.nsg13_lv_pmos[ids])	current
-	791	v(@n.xdiff_amp1.xopamp1.xsf2.xmc.nsg13_lv_pmos[vds])	voltage
-	792	v(@n.xdiff_amp1.xopamp1.xsf2.xmc.nsg13_lv_pmos[vdss])	voltage
-	793	v(@n.xdiff_amp1.xopamp1.xsf2.xmc.nsg13_lv_pmos[vgs])	voltage
-	794	v(@n.xdiff_amp1.xopamp1.xsf2.xmc.nsg13_lv_pmos[vth])	voltage
-	795	@n.xdiff_amp1.xopamp1.xsf2.xmd.nsg13_lv_pmos[cgd]	capacitance
-	796	@n.xdiff_amp1.xopamp1.xsf2.xmd.nsg13_lv_pmos[cgdol]	capacitance
-	797	@n.xdiff_amp1.xopamp1.xsf2.xmd.nsg13_lv_pmos[cgg]	capacitance
-	798	@n.xdiff_amp1.xopamp1.xsf2.xmd.nsg13_lv_pmos[cgs]	capacitance
-	799	@n.xdiff_amp1.xopamp1.xsf2.xmd.nsg13_lv_pmos[cgsol]	capacitance
-	800	@n.xdiff_amp1.xopamp1.xsf2.xmd.nsg13_lv_pmos[gds]	admittance
-	801	@n.xdiff_amp1.xopamp1.xsf2.xmd.nsg13_lv_pmos[gm]	admittance
-	802	i(@n.xdiff_amp1.xopamp1.xsf2.xmd.nsg13_lv_pmos[ids])	current
-	803	v(@n.xdiff_amp1.xopamp1.xsf2.xmd.nsg13_lv_pmos[vds])	voltage
-	804	v(@n.xdiff_amp1.xopamp1.xsf2.xmd.nsg13_lv_pmos[vdss])	voltage
-	805	v(@n.xdiff_amp1.xopamp1.xsf2.xmd.nsg13_lv_pmos[vgs])	voltage
-	806	v(@n.xdiff_amp1.xopamp1.xsf2.xmd.nsg13_lv_pmos[vth])	voltage
-	807	@n.xdiff_amp1.xopamp1.xsf2.xme.nsg13_lv_pmos[cgd]	capacitance
-	808	@n.xdiff_amp1.xopamp1.xsf2.xme.nsg13_lv_pmos[cgdol]	capacitance
-	809	@n.xdiff_amp1.xopamp1.xsf2.xme.nsg13_lv_pmos[cgg]	capacitance
-	810	@n.xdiff_amp1.xopamp1.xsf2.xme.nsg13_lv_pmos[cgs]	capacitance
-	811	@n.xdiff_amp1.xopamp1.xsf2.xme.nsg13_lv_pmos[cgsol]	capacitance
-	812	@n.xdiff_amp1.xopamp1.xsf2.xme.nsg13_lv_pmos[gds]	admittance
-	813	@n.xdiff_amp1.xopamp1.xsf2.xme.nsg13_lv_pmos[gm]	admittance
-	814	i(@n.xdiff_amp1.xopamp1.xsf2.xme.nsg13_lv_pmos[ids])	current
-	815	v(@n.xdiff_amp1.xopamp1.xsf2.xme.nsg13_lv_pmos[vds])	voltage
-	816	v(@n.xdiff_amp1.xopamp1.xsf2.xme.nsg13_lv_pmos[vdss])	voltage
-	817	v(@n.xdiff_amp1.xopamp1.xsf2.xme.nsg13_lv_pmos[vgs])	voltage
-	818	v(@n.xdiff_amp1.xopamp1.xsf2.xme.nsg13_lv_pmos[vth])	voltage
-	819	@n.xdiff_amp1.xopamp1.xsf2.xmfg.nsg13_lv_nmos[cgd]	capacitance
-	820	@n.xdiff_amp1.xopamp1.xsf2.xmfg.nsg13_lv_nmos[cgdol]	capacitance
-	821	@n.xdiff_amp1.xopamp1.xsf2.xmfg.nsg13_lv_nmos[cgg]	capacitance
-	822	@n.xdiff_amp1.xopamp1.xsf2.xmfg.nsg13_lv_nmos[cgs]	capacitance
-	823	@n.xdiff_amp1.xopamp1.xsf2.xmfg.nsg13_lv_nmos[cgsol]	capacitance
-	824	@n.xdiff_amp1.xopamp1.xsf2.xmfg.nsg13_lv_nmos[gds]	admittance
-	825	@n.xdiff_amp1.xopamp1.xsf2.xmfg.nsg13_lv_nmos[gm]	admittance
-	826	i(@n.xdiff_amp1.xopamp1.xsf2.xmfg.nsg13_lv_nmos[ids])	current
-	827	v(@n.xdiff_amp1.xopamp1.xsf2.xmfg.nsg13_lv_nmos[vds])	voltage
-	828	v(@n.xdiff_amp1.xopamp1.xsf2.xmfg.nsg13_lv_nmos[vdss])	voltage
-	829	v(@n.xdiff_amp1.xopamp1.xsf2.xmfg.nsg13_lv_nmos[vgs])	voltage
-	830	v(@n.xdiff_amp1.xopamp1.xsf2.xmfg.nsg13_lv_nmos[vth])	voltage
-	831	@n.xdiff_amp1.xopamp1.xsf2.xmh.nsg13_lv_pmos[cgd]	capacitance
-	832	@n.xdiff_amp1.xopamp1.xsf2.xmh.nsg13_lv_pmos[cgdol]	capacitance
-	833	@n.xdiff_amp1.xopamp1.xsf2.xmh.nsg13_lv_pmos[cgg]	capacitance
-	834	@n.xdiff_amp1.xopamp1.xsf2.xmh.nsg13_lv_pmos[cgs]	capacitance
-	835	@n.xdiff_amp1.xopamp1.xsf2.xmh.nsg13_lv_pmos[cgsol]	capacitance
-	836	@n.xdiff_amp1.xopamp1.xsf2.xmh.nsg13_lv_pmos[gds]	admittance
-	837	@n.xdiff_amp1.xopamp1.xsf2.xmh.nsg13_lv_pmos[gm]	admittance
-	838	i(@n.xdiff_amp1.xopamp1.xsf2.xmh.nsg13_lv_pmos[ids])	current
-	839	v(@n.xdiff_amp1.xopamp1.xsf2.xmh.nsg13_lv_pmos[vds])	voltage
-	840	v(@n.xdiff_amp1.xopamp1.xsf2.xmh.nsg13_lv_pmos[vdss])	voltage
-	841	v(@n.xdiff_amp1.xopamp1.xsf2.xmh.nsg13_lv_pmos[vgs])	voltage
-	842	v(@n.xdiff_amp1.xopamp1.xsf2.xmh.nsg13_lv_pmos[vth])	voltage
-	843	@n.xdiff_amp1.xopamp1.xsf2.xmi.nsg13_lv_pmos[cgd]	capacitance
-	844	@n.xdiff_amp1.xopamp1.xsf2.xmi.nsg13_lv_pmos[cgdol]	capacitance
-	845	@n.xdiff_amp1.xopamp1.xsf2.xmi.nsg13_lv_pmos[cgg]	capacitance
-	846	@n.xdiff_amp1.xopamp1.xsf2.xmi.nsg13_lv_pmos[cgs]	capacitance
-	847	@n.xdiff_amp1.xopamp1.xsf2.xmi.nsg13_lv_pmos[cgsol]	capacitance
-	848	@n.xdiff_amp1.xopamp1.xsf2.xmi.nsg13_lv_pmos[gds]	admittance
-	849	@n.xdiff_amp1.xopamp1.xsf2.xmi.nsg13_lv_pmos[gm]	admittance
-	850	i(@n.xdiff_amp1.xopamp1.xsf2.xmi.nsg13_lv_pmos[ids])	current
-	851	v(@n.xdiff_amp1.xopamp1.xsf2.xmi.nsg13_lv_pmos[vds])	voltage
-	852	v(@n.xdiff_amp1.xopamp1.xsf2.xmi.nsg13_lv_pmos[vdss])	voltage
-	853	v(@n.xdiff_amp1.xopamp1.xsf2.xmi.nsg13_lv_pmos[vgs])	voltage
-	854	v(@n.xdiff_amp1.xopamp1.xsf2.xmi.nsg13_lv_pmos[vth])	voltage
-	855	@n.xdiff_amp1.xopamp1.xsf2.xmj.nsg13_lv_pmos[cgd]	capacitance
-	856	@n.xdiff_amp1.xopamp1.xsf2.xmj.nsg13_lv_pmos[cgdol]	capacitance
-	857	@n.xdiff_amp1.xopamp1.xsf2.xmj.nsg13_lv_pmos[cgg]	capacitance
-	858	@n.xdiff_amp1.xopamp1.xsf2.xmj.nsg13_lv_pmos[cgs]	capacitance
-	859	@n.xdiff_amp1.xopamp1.xsf2.xmj.nsg13_lv_pmos[cgsol]	capacitance
-	860	@n.xdiff_amp1.xopamp1.xsf2.xmj.nsg13_lv_pmos[gds]	admittance
-	861	@n.xdiff_amp1.xopamp1.xsf2.xmj.nsg13_lv_pmos[gm]	admittance
-	862	i(@n.xdiff_amp1.xopamp1.xsf2.xmj.nsg13_lv_pmos[ids])	current
-	863	v(@n.xdiff_amp1.xopamp1.xsf2.xmj.nsg13_lv_pmos[vds])	voltage
-	864	v(@n.xdiff_amp1.xopamp1.xsf2.xmj.nsg13_lv_pmos[vdss])	voltage
-	865	v(@n.xdiff_amp1.xopamp1.xsf2.xmj.nsg13_lv_pmos[vgs])	voltage
-	866	v(@n.xdiff_amp1.xopamp1.xsf2.xmj.nsg13_lv_pmos[vth])	voltage
-	867	@n.xdiff_amp1.xopamp1.xsf2.xmk.nsg13_lv_nmos[cgd]	capacitance
-	868	@n.xdiff_amp1.xopamp1.xsf2.xmk.nsg13_lv_nmos[cgdol]	capacitance
-	869	@n.xdiff_amp1.xopamp1.xsf2.xmk.nsg13_lv_nmos[cgg]	capacitance
-	870	@n.xdiff_amp1.xopamp1.xsf2.xmk.nsg13_lv_nmos[cgs]	capacitance
-	871	@n.xdiff_amp1.xopamp1.xsf2.xmk.nsg13_lv_nmos[cgsol]	capacitance
-	872	@n.xdiff_amp1.xopamp1.xsf2.xmk.nsg13_lv_nmos[gds]	admittance
-	873	@n.xdiff_amp1.xopamp1.xsf2.xmk.nsg13_lv_nmos[gm]	admittance
-	874	i(@n.xdiff_amp1.xopamp1.xsf2.xmk.nsg13_lv_nmos[ids])	current
-	875	v(@n.xdiff_amp1.xopamp1.xsf2.xmk.nsg13_lv_nmos[vds])	voltage
-	876	v(@n.xdiff_amp1.xopamp1.xsf2.xmk.nsg13_lv_nmos[vdss])	voltage
-	877	v(@n.xdiff_amp1.xopamp1.xsf2.xmk.nsg13_lv_nmos[vgs])	voltage
-	878	v(@n.xdiff_amp1.xopamp1.xsf2.xmk.nsg13_lv_nmos[vth])	voltage
-	879	@n.xdiff_amp1.xopamp1.xsf2.xml.nsg13_lv_nmos[cgd]	capacitance
-	880	@n.xdiff_amp1.xopamp1.xsf2.xml.nsg13_lv_nmos[cgdol]	capacitance
-	881	@n.xdiff_amp1.xopamp1.xsf2.xml.nsg13_lv_nmos[cgg]	capacitance
-	882	@n.xdiff_amp1.xopamp1.xsf2.xml.nsg13_lv_nmos[cgs]	capacitance
-	883	@n.xdiff_amp1.xopamp1.xsf2.xml.nsg13_lv_nmos[cgsol]	capacitance
-	884	@n.xdiff_amp1.xopamp1.xsf2.xml.nsg13_lv_nmos[gds]	admittance
-	885	@n.xdiff_amp1.xopamp1.xsf2.xml.nsg13_lv_nmos[gm]	admittance
-	886	i(@n.xdiff_amp1.xopamp1.xsf2.xml.nsg13_lv_nmos[ids])	current
-	887	v(@n.xdiff_amp1.xopamp1.xsf2.xml.nsg13_lv_nmos[vds])	voltage
-	888	v(@n.xdiff_amp1.xopamp1.xsf2.xml.nsg13_lv_nmos[vdss])	voltage
-	889	v(@n.xdiff_amp1.xopamp1.xsf2.xml.nsg13_lv_nmos[vgs])	voltage
-	890	v(@n.xdiff_amp1.xopamp1.xsf2.xml.nsg13_lv_nmos[vth])	voltage
-	891	@n.xdiff_amp1.xopamp1.xsf2.xmm.nsg13_lv_nmos[cgd]	capacitance
-	892	@n.xdiff_amp1.xopamp1.xsf2.xmm.nsg13_lv_nmos[cgdol]	capacitance
-	893	@n.xdiff_amp1.xopamp1.xsf2.xmm.nsg13_lv_nmos[cgg]	capacitance
-	894	@n.xdiff_amp1.xopamp1.xsf2.xmm.nsg13_lv_nmos[cgs]	capacitance
-	895	@n.xdiff_amp1.xopamp1.xsf2.xmm.nsg13_lv_nmos[cgsol]	capacitance
-	896	@n.xdiff_amp1.xopamp1.xsf2.xmm.nsg13_lv_nmos[gds]	admittance
-	897	@n.xdiff_amp1.xopamp1.xsf2.xmm.nsg13_lv_nmos[gm]	admittance
-	898	i(@n.xdiff_amp1.xopamp1.xsf2.xmm.nsg13_lv_nmos[ids])	current
-	899	v(@n.xdiff_amp1.xopamp1.xsf2.xmm.nsg13_lv_nmos[vds])	voltage
-	900	v(@n.xdiff_amp1.xopamp1.xsf2.xmm.nsg13_lv_nmos[vdss])	voltage
-	901	v(@n.xdiff_amp1.xopamp1.xsf2.xmm.nsg13_lv_nmos[vgs])	voltage
-	902	v(@n.xdiff_amp1.xopamp1.xsf2.xmm.nsg13_lv_nmos[vth])	voltage
-	903	@n.xdiff_amp1.xopamp1.xsf2.xmn.nsg13_lv_nmos[cgd]	capacitance
-	904	@n.xdiff_amp1.xopamp1.xsf2.xmn.nsg13_lv_nmos[cgdol]	capacitance
-	905	@n.xdiff_amp1.xopamp1.xsf2.xmn.nsg13_lv_nmos[cgg]	capacitance
-	906	@n.xdiff_amp1.xopamp1.xsf2.xmn.nsg13_lv_nmos[cgs]	capacitance
-	907	@n.xdiff_amp1.xopamp1.xsf2.xmn.nsg13_lv_nmos[cgsol]	capacitance
-	908	@n.xdiff_amp1.xopamp1.xsf2.xmn.nsg13_lv_nmos[gds]	admittance
-	909	@n.xdiff_amp1.xopamp1.xsf2.xmn.nsg13_lv_nmos[gm]	admittance
-	910	i(@n.xdiff_amp1.xopamp1.xsf2.xmn.nsg13_lv_nmos[ids])	current
-	911	v(@n.xdiff_amp1.xopamp1.xsf2.xmn.nsg13_lv_nmos[vds])	voltage
-	912	v(@n.xdiff_amp1.xopamp1.xsf2.xmn.nsg13_lv_nmos[vdss])	voltage
-	913	v(@n.xdiff_amp1.xopamp1.xsf2.xmn.nsg13_lv_nmos[vgs])	voltage
-	914	v(@n.xdiff_amp1.xopamp1.xsf2.xmn.nsg13_lv_nmos[vth])	voltage
-	915	@n.xdiff_amp1.xopamp1.xsf2.xmn0.nsg13_lv_nmos[cgd]	capacitance
-	916	@n.xdiff_amp1.xopamp1.xsf2.xmn0.nsg13_lv_nmos[cgdol]	capacitance
-	917	@n.xdiff_amp1.xopamp1.xsf2.xmn0.nsg13_lv_nmos[cgg]	capacitance
-	918	@n.xdiff_amp1.xopamp1.xsf2.xmn0.nsg13_lv_nmos[cgs]	capacitance
-	919	@n.xdiff_amp1.xopamp1.xsf2.xmn0.nsg13_lv_nmos[cgsol]	capacitance
-	920	@n.xdiff_amp1.xopamp1.xsf2.xmn0.nsg13_lv_nmos[gds]	admittance
-	921	@n.xdiff_amp1.xopamp1.xsf2.xmn0.nsg13_lv_nmos[gm]	admittance
-	922	i(@n.xdiff_amp1.xopamp1.xsf2.xmn0.nsg13_lv_nmos[ids])	current
-	923	v(@n.xdiff_amp1.xopamp1.xsf2.xmn0.nsg13_lv_nmos[vds])	voltage
-	924	v(@n.xdiff_amp1.xopamp1.xsf2.xmn0.nsg13_lv_nmos[vdss])	voltage
-	925	v(@n.xdiff_amp1.xopamp1.xsf2.xmn0.nsg13_lv_nmos[vgs])	voltage
-	926	v(@n.xdiff_amp1.xopamp1.xsf2.xmn0.nsg13_lv_nmos[vth])	voltage
-	927	@n.xdiff_amp1.xopamp1.xsf2.xmn1.nsg13_lv_nmos[cgd]	capacitance
-	928	@n.xdiff_amp1.xopamp1.xsf2.xmn1.nsg13_lv_nmos[cgdol]	capacitance
-	929	@n.xdiff_amp1.xopamp1.xsf2.xmn1.nsg13_lv_nmos[cgg]	capacitance
-	930	@n.xdiff_amp1.xopamp1.xsf2.xmn1.nsg13_lv_nmos[cgs]	capacitance
-	931	@n.xdiff_amp1.xopamp1.xsf2.xmn1.nsg13_lv_nmos[cgsol]	capacitance
-	932	@n.xdiff_amp1.xopamp1.xsf2.xmn1.nsg13_lv_nmos[gds]	admittance
-	933	@n.xdiff_amp1.xopamp1.xsf2.xmn1.nsg13_lv_nmos[gm]	admittance
-	934	i(@n.xdiff_amp1.xopamp1.xsf2.xmn1.nsg13_lv_nmos[ids])	current
-	935	v(@n.xdiff_amp1.xopamp1.xsf2.xmn1.nsg13_lv_nmos[vds])	voltage
-	936	v(@n.xdiff_amp1.xopamp1.xsf2.xmn1.nsg13_lv_nmos[vdss])	voltage
-	937	v(@n.xdiff_amp1.xopamp1.xsf2.xmn1.nsg13_lv_nmos[vgs])	voltage
-	938	v(@n.xdiff_amp1.xopamp1.xsf2.xmn1.nsg13_lv_nmos[vth])	voltage
-	939	@n.xdiff_amp1.xopamp1.xsf2.xmo.nsg13_lv_nmos[cgd]	capacitance
-	940	@n.xdiff_amp1.xopamp1.xsf2.xmo.nsg13_lv_nmos[cgdol]	capacitance
-	941	@n.xdiff_amp1.xopamp1.xsf2.xmo.nsg13_lv_nmos[cgg]	capacitance
-	942	@n.xdiff_amp1.xopamp1.xsf2.xmo.nsg13_lv_nmos[cgs]	capacitance
-	943	@n.xdiff_amp1.xopamp1.xsf2.xmo.nsg13_lv_nmos[cgsol]	capacitance
-	944	@n.xdiff_amp1.xopamp1.xsf2.xmo.nsg13_lv_nmos[gds]	admittance
-	945	@n.xdiff_amp1.xopamp1.xsf2.xmo.nsg13_lv_nmos[gm]	admittance
-	946	i(@n.xdiff_amp1.xopamp1.xsf2.xmo.nsg13_lv_nmos[ids])	current
-	947	v(@n.xdiff_amp1.xopamp1.xsf2.xmo.nsg13_lv_nmos[vds])	voltage
-	948	v(@n.xdiff_amp1.xopamp1.xsf2.xmo.nsg13_lv_nmos[vdss])	voltage
-	949	v(@n.xdiff_amp1.xopamp1.xsf2.xmo.nsg13_lv_nmos[vgs])	voltage
-	950	v(@n.xdiff_amp1.xopamp1.xsf2.xmo.nsg13_lv_nmos[vth])	voltage
-	951	@n.xdiff_amp1.xopamp1.xsf2.xmp.nsg13_lv_nmos[cgd]	capacitance
-	952	@n.xdiff_amp1.xopamp1.xsf2.xmp.nsg13_lv_nmos[cgdol]	capacitance
-	953	@n.xdiff_amp1.xopamp1.xsf2.xmp.nsg13_lv_nmos[cgg]	capacitance
-	954	@n.xdiff_amp1.xopamp1.xsf2.xmp.nsg13_lv_nmos[cgs]	capacitance
-	955	@n.xdiff_amp1.xopamp1.xsf2.xmp.nsg13_lv_nmos[cgsol]	capacitance
-	956	@n.xdiff_amp1.xopamp1.xsf2.xmp.nsg13_lv_nmos[gds]	admittance
-	957	@n.xdiff_amp1.xopamp1.xsf2.xmp.nsg13_lv_nmos[gm]	admittance
-	958	i(@n.xdiff_amp1.xopamp1.xsf2.xmp.nsg13_lv_nmos[ids])	current
-	959	v(@n.xdiff_amp1.xopamp1.xsf2.xmp.nsg13_lv_nmos[vds])	voltage
-	960	v(@n.xdiff_amp1.xopamp1.xsf2.xmp.nsg13_lv_nmos[vdss])	voltage
-	961	v(@n.xdiff_amp1.xopamp1.xsf2.xmp.nsg13_lv_nmos[vgs])	voltage
-	962	v(@n.xdiff_amp1.xopamp1.xsf2.xmp.nsg13_lv_nmos[vth])	voltage
-	963	@n.xdiff_amp1.xopamp1.xsf2.xmp0.nsg13_lv_pmos[cgd]	capacitance
-	964	@n.xdiff_amp1.xopamp1.xsf2.xmp0.nsg13_lv_pmos[cgdol]	capacitance
-	965	@n.xdiff_amp1.xopamp1.xsf2.xmp0.nsg13_lv_pmos[cgg]	capacitance
-	966	@n.xdiff_amp1.xopamp1.xsf2.xmp0.nsg13_lv_pmos[cgs]	capacitance
-	967	@n.xdiff_amp1.xopamp1.xsf2.xmp0.nsg13_lv_pmos[cgsol]	capacitance
-	968	@n.xdiff_amp1.xopamp1.xsf2.xmp0.nsg13_lv_pmos[gds]	admittance
-	969	@n.xdiff_amp1.xopamp1.xsf2.xmp0.nsg13_lv_pmos[gm]	admittance
-	970	i(@n.xdiff_amp1.xopamp1.xsf2.xmp0.nsg13_lv_pmos[ids])	current
-	971	v(@n.xdiff_amp1.xopamp1.xsf2.xmp0.nsg13_lv_pmos[vds])	voltage
-	972	v(@n.xdiff_amp1.xopamp1.xsf2.xmp0.nsg13_lv_pmos[vdss])	voltage
-	973	v(@n.xdiff_amp1.xopamp1.xsf2.xmp0.nsg13_lv_pmos[vgs])	voltage
-	974	v(@n.xdiff_amp1.xopamp1.xsf2.xmp0.nsg13_lv_pmos[vth])	voltage
-	975	@n.xdiff_amp1.xopamp1.xsf2.xmq.nsg13_lv_nmos[cgd]	capacitance
-	976	@n.xdiff_amp1.xopamp1.xsf2.xmq.nsg13_lv_nmos[cgdol]	capacitance
-	977	@n.xdiff_amp1.xopamp1.xsf2.xmq.nsg13_lv_nmos[cgg]	capacitance
-	978	@n.xdiff_amp1.xopamp1.xsf2.xmq.nsg13_lv_nmos[cgs]	capacitance
-	979	@n.xdiff_amp1.xopamp1.xsf2.xmq.nsg13_lv_nmos[cgsol]	capacitance
-	980	@n.xdiff_amp1.xopamp1.xsf2.xmq.nsg13_lv_nmos[gds]	admittance
-	981	@n.xdiff_amp1.xopamp1.xsf2.xmq.nsg13_lv_nmos[gm]	admittance
-	982	i(@n.xdiff_amp1.xopamp1.xsf2.xmq.nsg13_lv_nmos[ids])	current
-	983	v(@n.xdiff_amp1.xopamp1.xsf2.xmq.nsg13_lv_nmos[vds])	voltage
-	984	v(@n.xdiff_amp1.xopamp1.xsf2.xmq.nsg13_lv_nmos[vdss])	voltage
-	985	v(@n.xdiff_amp1.xopamp1.xsf2.xmq.nsg13_lv_nmos[vgs])	voltage
-	986	v(@n.xdiff_amp1.xopamp1.xsf2.xmq.nsg13_lv_nmos[vth])	voltage
-	987	@n.xdiff_amp1.xopamp1.xsf2.xmx.nsg13_lv_nmos[cgd]	capacitance
-	988	@n.xdiff_amp1.xopamp1.xsf2.xmx.nsg13_lv_nmos[cgdol]	capacitance
-	989	@n.xdiff_amp1.xopamp1.xsf2.xmx.nsg13_lv_nmos[cgg]	capacitance
-	990	@n.xdiff_amp1.xopamp1.xsf2.xmx.nsg13_lv_nmos[cgs]	capacitance
-	991	@n.xdiff_amp1.xopamp1.xsf2.xmx.nsg13_lv_nmos[cgsol]	capacitance
-	992	@n.xdiff_amp1.xopamp1.xsf2.xmx.nsg13_lv_nmos[gds]	admittance
-	993	@n.xdiff_amp1.xopamp1.xsf2.xmx.nsg13_lv_nmos[gm]	admittance
-	994	i(@n.xdiff_amp1.xopamp1.xsf2.xmx.nsg13_lv_nmos[ids])	current
-	995	v(@n.xdiff_amp1.xopamp1.xsf2.xmx.nsg13_lv_nmos[vds])	voltage
-	996	v(@n.xdiff_amp1.xopamp1.xsf2.xmx.nsg13_lv_nmos[vdss])	voltage
-	997	v(@n.xdiff_amp1.xopamp1.xsf2.xmx.nsg13_lv_nmos[vgs])	voltage
-	998	v(@n.xdiff_amp1.xopamp1.xsf2.xmx.nsg13_lv_nmos[vth])	voltage
-	999	@n.xdiff_amp1.xota1.xm2.nsg13_lv_nmos[cgd]	capacitance
-	1000	@n.xdiff_amp1.xota1.xm2.nsg13_lv_nmos[cgdol]	capacitance
-	1001	@n.xdiff_amp1.xota1.xm2.nsg13_lv_nmos[cgg]	capacitance
-	1002	@n.xdiff_amp1.xota1.xm2.nsg13_lv_nmos[cgs]	capacitance
-	1003	@n.xdiff_amp1.xota1.xm2.nsg13_lv_nmos[cgsol]	capacitance
-	1004	@n.xdiff_amp1.xota1.xm2.nsg13_lv_nmos[gds]	admittance
-	1005	@n.xdiff_amp1.xota1.xm2.nsg13_lv_nmos[gm]	admittance
-	1006	i(@n.xdiff_amp1.xota1.xm2.nsg13_lv_nmos[ids])	current
-	1007	v(@n.xdiff_amp1.xota1.xm2.nsg13_lv_nmos[vds])	voltage
-	1008	v(@n.xdiff_amp1.xota1.xm2.nsg13_lv_nmos[vdss])	voltage
-	1009	v(@n.xdiff_amp1.xota1.xm2.nsg13_lv_nmos[vgs])	voltage
-	1010	v(@n.xdiff_amp1.xota1.xm2.nsg13_lv_nmos[vth])	voltage
-	1011	@n.xdiff_amp1.xota1.xmh.nsg13_lv_nmos[cgd]	capacitance
-	1012	@n.xdiff_amp1.xota1.xmh.nsg13_lv_nmos[cgdol]	capacitance
-	1013	@n.xdiff_amp1.xota1.xmh.nsg13_lv_nmos[cgg]	capacitance
-	1014	@n.xdiff_amp1.xota1.xmh.nsg13_lv_nmos[cgs]	capacitance
-	1015	@n.xdiff_amp1.xota1.xmh.nsg13_lv_nmos[cgsol]	capacitance
-	1016	@n.xdiff_amp1.xota1.xmh.nsg13_lv_nmos[gds]	admittance
-	1017	@n.xdiff_amp1.xota1.xmh.nsg13_lv_nmos[gm]	admittance
-	1018	i(@n.xdiff_amp1.xota1.xmh.nsg13_lv_nmos[ids])	current
-	1019	v(@n.xdiff_amp1.xota1.xmh.nsg13_lv_nmos[vds])	voltage
-	1020	v(@n.xdiff_amp1.xota1.xmh.nsg13_lv_nmos[vdss])	voltage
-	1021	v(@n.xdiff_amp1.xota1.xmh.nsg13_lv_nmos[vgs])	voltage
-	1022	v(@n.xdiff_amp1.xota1.xmh.nsg13_lv_nmos[vth])	voltage
-	1023	@n.xdiff_amp1.xota1.xmi.nsg13_lv_nmos[cgd]	capacitance
-	1024	@n.xdiff_amp1.xota1.xmi.nsg13_lv_nmos[cgdol]	capacitance
-	1025	@n.xdiff_amp1.xota1.xmi.nsg13_lv_nmos[cgg]	capacitance
-	1026	@n.xdiff_amp1.xota1.xmi.nsg13_lv_nmos[cgs]	capacitance
-	1027	@n.xdiff_amp1.xota1.xmi.nsg13_lv_nmos[cgsol]	capacitance
-	1028	@n.xdiff_amp1.xota1.xmi.nsg13_lv_nmos[gds]	admittance
-	1029	@n.xdiff_amp1.xota1.xmi.nsg13_lv_nmos[gm]	admittance
-	1030	i(@n.xdiff_amp1.xota1.xmi.nsg13_lv_nmos[ids])	current
-	1031	v(@n.xdiff_amp1.xota1.xmi.nsg13_lv_nmos[vds])	voltage
-	1032	v(@n.xdiff_amp1.xota1.xmi.nsg13_lv_nmos[vdss])	voltage
-	1033	v(@n.xdiff_amp1.xota1.xmi.nsg13_lv_nmos[vgs])	voltage
-	1034	v(@n.xdiff_amp1.xota1.xmi.nsg13_lv_nmos[vth])	voltage
-	1035	@n.xdiff_amp1.xota1.xmj.nsg13_lv_nmos[cgd]	capacitance
-	1036	@n.xdiff_amp1.xota1.xmj.nsg13_lv_nmos[cgdol]	capacitance
-	1037	@n.xdiff_amp1.xota1.xmj.nsg13_lv_nmos[cgg]	capacitance
-	1038	@n.xdiff_amp1.xota1.xmj.nsg13_lv_nmos[cgs]	capacitance
-	1039	@n.xdiff_amp1.xota1.xmj.nsg13_lv_nmos[cgsol]	capacitance
-	1040	@n.xdiff_amp1.xota1.xmj.nsg13_lv_nmos[gds]	admittance
-	1041	@n.xdiff_amp1.xota1.xmj.nsg13_lv_nmos[gm]	admittance
-	1042	i(@n.xdiff_amp1.xota1.xmj.nsg13_lv_nmos[ids])	current
-	1043	v(@n.xdiff_amp1.xota1.xmj.nsg13_lv_nmos[vds])	voltage
-	1044	v(@n.xdiff_amp1.xota1.xmj.nsg13_lv_nmos[vdss])	voltage
-	1045	v(@n.xdiff_amp1.xota1.xmj.nsg13_lv_nmos[vgs])	voltage
-	1046	v(@n.xdiff_amp1.xota1.xmj.nsg13_lv_nmos[vth])	voltage
-	1047	@n.xdiff_amp1.xota1.xmk.nsg13_lv_pmos[cgd]	capacitance
-	1048	@n.xdiff_amp1.xota1.xmk.nsg13_lv_pmos[cgdol]	capacitance
-	1049	@n.xdiff_amp1.xota1.xmk.nsg13_lv_pmos[cgg]	capacitance
-	1050	@n.xdiff_amp1.xota1.xmk.nsg13_lv_pmos[cgs]	capacitance
-	1051	@n.xdiff_amp1.xota1.xmk.nsg13_lv_pmos[cgsol]	capacitance
-	1052	@n.xdiff_amp1.xota1.xmk.nsg13_lv_pmos[gds]	admittance
-	1053	@n.xdiff_amp1.xota1.xmk.nsg13_lv_pmos[gm]	admittance
-	1054	i(@n.xdiff_amp1.xota1.xmk.nsg13_lv_pmos[ids])	current
-	1055	v(@n.xdiff_amp1.xota1.xmk.nsg13_lv_pmos[vds])	voltage
-	1056	v(@n.xdiff_amp1.xota1.xmk.nsg13_lv_pmos[vdss])	voltage
-	1057	v(@n.xdiff_amp1.xota1.xmk.nsg13_lv_pmos[vgs])	voltage
-	1058	v(@n.xdiff_amp1.xota1.xmk.nsg13_lv_pmos[vth])	voltage
-	1059	@n.xdiff_amp1.xota1.xmk1.nsg13_lv_pmos[cgd]	capacitance
-	1060	@n.xdiff_amp1.xota1.xmk1.nsg13_lv_pmos[cgdol]	capacitance
-	1061	@n.xdiff_amp1.xota1.xmk1.nsg13_lv_pmos[cgg]	capacitance
-	1062	@n.xdiff_amp1.xota1.xmk1.nsg13_lv_pmos[cgs]	capacitance
-	1063	@n.xdiff_amp1.xota1.xmk1.nsg13_lv_pmos[cgsol]	capacitance
-	1064	@n.xdiff_amp1.xota1.xmk1.nsg13_lv_pmos[gds]	admittance
-	1065	@n.xdiff_amp1.xota1.xmk1.nsg13_lv_pmos[gm]	admittance
-	1066	i(@n.xdiff_amp1.xota1.xmk1.nsg13_lv_pmos[ids])	current
-	1067	v(@n.xdiff_amp1.xota1.xmk1.nsg13_lv_pmos[vds])	voltage
-	1068	v(@n.xdiff_amp1.xota1.xmk1.nsg13_lv_pmos[vdss])	voltage
-	1069	v(@n.xdiff_amp1.xota1.xmk1.nsg13_lv_pmos[vgs])	voltage
-	1070	v(@n.xdiff_amp1.xota1.xmk1.nsg13_lv_pmos[vth])	voltage
-	1071	@n.xdiff_amp1.xota1.xmk2.nsg13_lv_pmos[cgd]	capacitance
-	1072	@n.xdiff_amp1.xota1.xmk2.nsg13_lv_pmos[cgdol]	capacitance
-	1073	@n.xdiff_amp1.xota1.xmk2.nsg13_lv_pmos[cgg]	capacitance
-	1074	@n.xdiff_amp1.xota1.xmk2.nsg13_lv_pmos[cgs]	capacitance
-	1075	@n.xdiff_amp1.xota1.xmk2.nsg13_lv_pmos[cgsol]	capacitance
-	1076	@n.xdiff_amp1.xota1.xmk2.nsg13_lv_pmos[gds]	admittance
-	1077	@n.xdiff_amp1.xota1.xmk2.nsg13_lv_pmos[gm]	admittance
-	1078	i(@n.xdiff_amp1.xota1.xmk2.nsg13_lv_pmos[ids])	current
-	1079	v(@n.xdiff_amp1.xota1.xmk2.nsg13_lv_pmos[vds])	voltage
-	1080	v(@n.xdiff_amp1.xota1.xmk2.nsg13_lv_pmos[vdss])	voltage
-	1081	v(@n.xdiff_amp1.xota1.xmk2.nsg13_lv_pmos[vgs])	voltage
-	1082	v(@n.xdiff_amp1.xota1.xmk2.nsg13_lv_pmos[vth])	voltage
-	1083	@n.xdiff_amp1.xota1.xmk3.nsg13_lv_pmos[cgd]	capacitance
-	1084	@n.xdiff_amp1.xota1.xmk3.nsg13_lv_pmos[cgdol]	capacitance
-	1085	@n.xdiff_amp1.xota1.xmk3.nsg13_lv_pmos[cgg]	capacitance
-	1086	@n.xdiff_amp1.xota1.xmk3.nsg13_lv_pmos[cgs]	capacitance
-	1087	@n.xdiff_amp1.xota1.xmk3.nsg13_lv_pmos[cgsol]	capacitance
-	1088	@n.xdiff_amp1.xota1.xmk3.nsg13_lv_pmos[gds]	admittance
-	1089	@n.xdiff_amp1.xota1.xmk3.nsg13_lv_pmos[gm]	admittance
-	1090	i(@n.xdiff_amp1.xota1.xmk3.nsg13_lv_pmos[ids])	current
-	1091	v(@n.xdiff_amp1.xota1.xmk3.nsg13_lv_pmos[vds])	voltage
-	1092	v(@n.xdiff_amp1.xota1.xmk3.nsg13_lv_pmos[vdss])	voltage
-	1093	v(@n.xdiff_amp1.xota1.xmk3.nsg13_lv_pmos[vgs])	voltage
-	1094	v(@n.xdiff_amp1.xota1.xmk3.nsg13_lv_pmos[vth])	voltage
-	1095	@n.xdiff_amp1.xota1.xmk4.nsg13_lv_pmos[cgd]	capacitance
-	1096	@n.xdiff_amp1.xota1.xmk4.nsg13_lv_pmos[cgdol]	capacitance
-	1097	@n.xdiff_amp1.xota1.xmk4.nsg13_lv_pmos[cgg]	capacitance
-	1098	@n.xdiff_amp1.xota1.xmk4.nsg13_lv_pmos[cgs]	capacitance
-	1099	@n.xdiff_amp1.xota1.xmk4.nsg13_lv_pmos[cgsol]	capacitance
-	1100	@n.xdiff_amp1.xota1.xmk4.nsg13_lv_pmos[gds]	admittance
-	1101	@n.xdiff_amp1.xota1.xmk4.nsg13_lv_pmos[gm]	admittance
-	1102	i(@n.xdiff_amp1.xota1.xmk4.nsg13_lv_pmos[ids])	current
-	1103	v(@n.xdiff_amp1.xota1.xmk4.nsg13_lv_pmos[vds])	voltage
-	1104	v(@n.xdiff_amp1.xota1.xmk4.nsg13_lv_pmos[vdss])	voltage
-	1105	v(@n.xdiff_amp1.xota1.xmk4.nsg13_lv_pmos[vgs])	voltage
-	1106	v(@n.xdiff_amp1.xota1.xmk4.nsg13_lv_pmos[vth])	voltage
-	1107	@n.xdiff_amp1.xota1.xml.nsg13_lv_pmos[cgd]	capacitance
-	1108	@n.xdiff_amp1.xota1.xml.nsg13_lv_pmos[cgdol]	capacitance
-	1109	@n.xdiff_amp1.xota1.xml.nsg13_lv_pmos[cgg]	capacitance
-	1110	@n.xdiff_amp1.xota1.xml.nsg13_lv_pmos[cgs]	capacitance
-	1111	@n.xdiff_amp1.xota1.xml.nsg13_lv_pmos[cgsol]	capacitance
-	1112	@n.xdiff_amp1.xota1.xml.nsg13_lv_pmos[gds]	admittance
-	1113	@n.xdiff_amp1.xota1.xml.nsg13_lv_pmos[gm]	admittance
-	1114	i(@n.xdiff_amp1.xota1.xml.nsg13_lv_pmos[ids])	current
-	1115	v(@n.xdiff_amp1.xota1.xml.nsg13_lv_pmos[vds])	voltage
-	1116	v(@n.xdiff_amp1.xota1.xml.nsg13_lv_pmos[vdss])	voltage
-	1117	v(@n.xdiff_amp1.xota1.xml.nsg13_lv_pmos[vgs])	voltage
-	1118	v(@n.xdiff_amp1.xota1.xml.nsg13_lv_pmos[vth])	voltage
-	1119	@n.xdiff_amp1.xota1.xmn.nsg13_lv_pmos[cgd]	capacitance
-	1120	@n.xdiff_amp1.xota1.xmn.nsg13_lv_pmos[cgdol]	capacitance
-	1121	@n.xdiff_amp1.xota1.xmn.nsg13_lv_pmos[cgg]	capacitance
-	1122	@n.xdiff_amp1.xota1.xmn.nsg13_lv_pmos[cgs]	capacitance
-	1123	@n.xdiff_amp1.xota1.xmn.nsg13_lv_pmos[cgsol]	capacitance
-	1124	@n.xdiff_amp1.xota1.xmn.nsg13_lv_pmos[gds]	admittance
-	1125	@n.xdiff_amp1.xota1.xmn.nsg13_lv_pmos[gm]	admittance
-	1126	i(@n.xdiff_amp1.xota1.xmn.nsg13_lv_pmos[ids])	current
-	1127	v(@n.xdiff_amp1.xota1.xmn.nsg13_lv_pmos[vds])	voltage
-	1128	v(@n.xdiff_amp1.xota1.xmn.nsg13_lv_pmos[vdss])	voltage
-	1129	v(@n.xdiff_amp1.xota1.xmn.nsg13_lv_pmos[vgs])	voltage
-	1130	v(@n.xdiff_amp1.xota1.xmn.nsg13_lv_pmos[vth])	voltage
-	1131	@n.xdiff_amp1.xota1.xmn0.nsg13_lv_nmos[cgd]	capacitance
-	1132	@n.xdiff_amp1.xota1.xmn0.nsg13_lv_nmos[cgdol]	capacitance
-	1133	@n.xdiff_amp1.xota1.xmn0.nsg13_lv_nmos[cgg]	capacitance
-	1134	@n.xdiff_amp1.xota1.xmn0.nsg13_lv_nmos[cgs]	capacitance
-	1135	@n.xdiff_amp1.xota1.xmn0.nsg13_lv_nmos[cgsol]	capacitance
-	1136	@n.xdiff_amp1.xota1.xmn0.nsg13_lv_nmos[gds]	admittance
-	1137	@n.xdiff_amp1.xota1.xmn0.nsg13_lv_nmos[gm]	admittance
-	1138	i(@n.xdiff_amp1.xota1.xmn0.nsg13_lv_nmos[ids])	current
-	1139	v(@n.xdiff_amp1.xota1.xmn0.nsg13_lv_nmos[vds])	voltage
-	1140	v(@n.xdiff_amp1.xota1.xmn0.nsg13_lv_nmos[vdss])	voltage
-	1141	v(@n.xdiff_amp1.xota1.xmn0.nsg13_lv_nmos[vgs])	voltage
-	1142	v(@n.xdiff_amp1.xota1.xmn0.nsg13_lv_nmos[vth])	voltage
-	1143	@n.xdiff_amp1.xota1.xmn1.nsg13_lv_nmos[cgd]	capacitance
-	1144	@n.xdiff_amp1.xota1.xmn1.nsg13_lv_nmos[cgdol]	capacitance
-	1145	@n.xdiff_amp1.xota1.xmn1.nsg13_lv_nmos[cgg]	capacitance
-	1146	@n.xdiff_amp1.xota1.xmn1.nsg13_lv_nmos[cgs]	capacitance
-	1147	@n.xdiff_amp1.xota1.xmn1.nsg13_lv_nmos[cgsol]	capacitance
-	1148	@n.xdiff_amp1.xota1.xmn1.nsg13_lv_nmos[gds]	admittance
-	1149	@n.xdiff_amp1.xota1.xmn1.nsg13_lv_nmos[gm]	admittance
-	1150	i(@n.xdiff_amp1.xota1.xmn1.nsg13_lv_nmos[ids])	current
-	1151	v(@n.xdiff_amp1.xota1.xmn1.nsg13_lv_nmos[vds])	voltage
-	1152	v(@n.xdiff_amp1.xota1.xmn1.nsg13_lv_nmos[vdss])	voltage
-	1153	v(@n.xdiff_amp1.xota1.xmn1.nsg13_lv_nmos[vgs])	voltage
-	1154	v(@n.xdiff_amp1.xota1.xmn1.nsg13_lv_nmos[vth])	voltage
-	1155	@n.xdiff_amp1.xota1.xmo.nsg13_lv_pmos[cgd]	capacitance
-	1156	@n.xdiff_amp1.xota1.xmo.nsg13_lv_pmos[cgdol]	capacitance
-	1157	@n.xdiff_amp1.xota1.xmo.nsg13_lv_pmos[cgg]	capacitance
-	1158	@n.xdiff_amp1.xota1.xmo.nsg13_lv_pmos[cgs]	capacitance
-	1159	@n.xdiff_amp1.xota1.xmo.nsg13_lv_pmos[cgsol]	capacitance
-	1160	@n.xdiff_amp1.xota1.xmo.nsg13_lv_pmos[gds]	admittance
-	1161	@n.xdiff_amp1.xota1.xmo.nsg13_lv_pmos[gm]	admittance
-	1162	i(@n.xdiff_amp1.xota1.xmo.nsg13_lv_pmos[ids])	current
-	1163	v(@n.xdiff_amp1.xota1.xmo.nsg13_lv_pmos[vds])	voltage
-	1164	v(@n.xdiff_amp1.xota1.xmo.nsg13_lv_pmos[vdss])	voltage
-	1165	v(@n.xdiff_amp1.xota1.xmo.nsg13_lv_pmos[vgs])	voltage
-	1166	v(@n.xdiff_amp1.xota1.xmo.nsg13_lv_pmos[vth])	voltage
-	1167	@n.xdiff_amp1.xota1.xmp0.nsg13_lv_pmos[cgd]	capacitance
-	1168	@n.xdiff_amp1.xota1.xmp0.nsg13_lv_pmos[cgdol]	capacitance
-	1169	@n.xdiff_amp1.xota1.xmp0.nsg13_lv_pmos[cgg]	capacitance
-	1170	@n.xdiff_amp1.xota1.xmp0.nsg13_lv_pmos[cgs]	capacitance
-	1171	@n.xdiff_amp1.xota1.xmp0.nsg13_lv_pmos[cgsol]	capacitance
-	1172	@n.xdiff_amp1.xota1.xmp0.nsg13_lv_pmos[gds]	admittance
-	1173	@n.xdiff_amp1.xota1.xmp0.nsg13_lv_pmos[gm]	admittance
-	1174	i(@n.xdiff_amp1.xota1.xmp0.nsg13_lv_pmos[ids])	current
-	1175	v(@n.xdiff_amp1.xota1.xmp0.nsg13_lv_pmos[vds])	voltage
-	1176	v(@n.xdiff_amp1.xota1.xmp0.nsg13_lv_pmos[vdss])	voltage
-	1177	v(@n.xdiff_amp1.xota1.xmp0.nsg13_lv_pmos[vgs])	voltage
-	1178	v(@n.xdiff_amp1.xota1.xmp0.nsg13_lv_pmos[vth])	voltage
-	1179	@n.xdiff_amp1.xota1.xmp1.nsg13_lv_pmos[cgd]	capacitance
-	1180	@n.xdiff_amp1.xota1.xmp1.nsg13_lv_pmos[cgdol]	capacitance
-	1181	@n.xdiff_amp1.xota1.xmp1.nsg13_lv_pmos[cgg]	capacitance
-	1182	@n.xdiff_amp1.xota1.xmp1.nsg13_lv_pmos[cgs]	capacitance
-	1183	@n.xdiff_amp1.xota1.xmp1.nsg13_lv_pmos[cgsol]	capacitance
-	1184	@n.xdiff_amp1.xota1.xmp1.nsg13_lv_pmos[gds]	admittance
-	1185	@n.xdiff_amp1.xota1.xmp1.nsg13_lv_pmos[gm]	admittance
-	1186	i(@n.xdiff_amp1.xota1.xmp1.nsg13_lv_pmos[ids])	current
-	1187	v(@n.xdiff_amp1.xota1.xmp1.nsg13_lv_pmos[vds])	voltage
-	1188	v(@n.xdiff_amp1.xota1.xmp1.nsg13_lv_pmos[vdss])	voltage
-	1189	v(@n.xdiff_amp1.xota1.xmp1.nsg13_lv_pmos[vgs])	voltage
-	1190	v(@n.xdiff_amp1.xota1.xmp1.nsg13_lv_pmos[vth])	voltage
-	1191	v(en)	voltage
-	1192	v(ibias)	voltage
-	1193	v(n.xdiff_amp1.xm1.nsg13_lv_nmos#gp)	voltage
-	1194	v(n.xdiff_amp1.xm2.nsg13_lv_pmos#gp)	voltage
-	1195	v(n.xdiff_amp1.xm7.nsg13_lv_nmos#gp)	voltage
-	1196	v(n.xdiff_amp1.xopamp1.xma.nsg13_lv_pmos#gp)	voltage
-	1197	v(n.xdiff_amp1.xopamp1.xmb.nsg13_lv_pmos#gp)	voltage
-	1198	v(n.xdiff_amp1.xopamp1.xmb1.nsg13_lv_pmos#gp)	voltage
-	1199	v(n.xdiff_amp1.xopamp1.xmc.nsg13_lv_nmos#gp)	voltage
-	1200	v(n.xdiff_amp1.xopamp1.xmd.nsg13_lv_nmos#gp)	voltage
-	1201	v(n.xdiff_amp1.xopamp1.xme.nsg13_lv_nmos#gp)	voltage
-	1202	v(n.xdiff_amp1.xopamp1.xmm.nsg13_lv_pmos#gp)	voltage
-	1203	v(n.xdiff_amp1.xopamp1.xmn0.nsg13_lv_nmos#gp)	voltage
-	1204	v(n.xdiff_amp1.xopamp1.xmn1.nsg13_lv_nmos#gp)	voltage
-	1205	v(n.xdiff_amp1.xopamp1.xmn2.nsg13_lv_nmos#gp)	voltage
-	1206	v(n.xdiff_amp1.xopamp1.xmp0.nsg13_lv_pmos#gp)	voltage
-	1207	v(n.xdiff_amp1.xopamp1.xmp1.nsg13_lv_pmos#gp)	voltage
-	1208	v(n.xdiff_amp1.xopamp1.xsf1.xc1.nsg13_moscap_p#gp)	voltage
-	1209	v(n.xdiff_amp1.xopamp1.xsf1.xm1.nsg13_lv_nmos#gp)	voltage
-	1210	v(n.xdiff_amp1.xopamp1.xsf1.xm2.nsg13_lv_pmos#gp)	voltage
-	1211	v(n.xdiff_amp1.xopamp1.xsf1.xm3.nsg13_lv_pmos#gp)	voltage
-	1212	v(n.xdiff_amp1.xopamp1.xsf1.xm4.nsg13_lv_pmos#gp)	voltage
-	1213	v(n.xdiff_amp1.xopamp1.xsf1.xm5.nsg13_lv_pmos#gp)	voltage
-	1214	v(n.xdiff_amp1.xopamp1.xsf1.xm6.nsg13_lv_pmos#gp)	voltage
-	1215	v(n.xdiff_amp1.xopamp1.xsf1.xm7.nsg13_lv_nmos#gp)	voltage
-	1216	v(n.xdiff_amp1.xopamp1.xsf1.xm8.nsg13_lv_nmos#gp)	voltage
-	1217	v(n.xdiff_amp1.xopamp1.xsf1.xm9.nsg13_lv_nmos#gp)	voltage
-	1218	v(n.xdiff_amp1.xopamp1.xsf1.xm10.nsg13_lv_pmos#gp)	voltage
-	1219	v(n.xdiff_amp1.xopamp1.xsf1.xm12.nsg13_lv_nmos#gp)	voltage
-	1220	v(n.xdiff_amp1.xopamp1.xsf1.xm13.nsg13_lv_pmos#gp)	voltage
-	1221	v(n.xdiff_amp1.xopamp1.xsf1.xm14.nsg13_lv_pmos#gp)	voltage
-	1222	v(n.xdiff_amp1.xopamp1.xsf1.xma.nsg13_lv_pmos#gp)	voltage
-	1223	v(n.xdiff_amp1.xopamp1.xsf1.xmb.nsg13_lv_pmos#gp)	voltage
-	1224	v(n.xdiff_amp1.xopamp1.xsf1.xmc.nsg13_lv_pmos#gp)	voltage
-	1225	v(n.xdiff_amp1.xopamp1.xsf1.xmd.nsg13_lv_pmos#gp)	voltage
-	1226	v(n.xdiff_amp1.xopamp1.xsf1.xme.nsg13_lv_pmos#gp)	voltage
-	1227	v(n.xdiff_amp1.xopamp1.xsf1.xmfg.nsg13_lv_nmos#gp)	voltage
-	1228	v(n.xdiff_amp1.xopamp1.xsf1.xmh.nsg13_lv_pmos#gp)	voltage
-	1229	v(n.xdiff_amp1.xopamp1.xsf1.xmi.nsg13_lv_pmos#gp)	voltage
-	1230	v(n.xdiff_amp1.xopamp1.xsf1.xmj.nsg13_lv_pmos#gp)	voltage
-	1231	v(n.xdiff_amp1.xopamp1.xsf1.xmk.nsg13_lv_nmos#gp)	voltage
-	1232	v(n.xdiff_amp1.xopamp1.xsf1.xml.nsg13_lv_nmos#gp)	voltage
-	1233	v(n.xdiff_amp1.xopamp1.xsf1.xmm.nsg13_lv_nmos#gp)	voltage
-	1234	v(n.xdiff_amp1.xopamp1.xsf1.xmn.nsg13_lv_nmos#gp)	voltage
-	1235	v(n.xdiff_amp1.xopamp1.xsf1.xmn0.nsg13_lv_nmos#gp)	voltage
-	1236	v(n.xdiff_amp1.xopamp1.xsf1.xmn1.nsg13_lv_nmos#gp)	voltage
-	1237	v(n.xdiff_amp1.xopamp1.xsf1.xmo.nsg13_lv_nmos#gp)	voltage
-	1238	v(n.xdiff_amp1.xopamp1.xsf1.xmp.nsg13_lv_nmos#gp)	voltage
-	1239	v(n.xdiff_amp1.xopamp1.xsf1.xmp0.nsg13_lv_pmos#gp)	voltage
-	1240	v(n.xdiff_amp1.xopamp1.xsf1.xmq.nsg13_lv_nmos#gp)	voltage
-	1241	v(n.xdiff_amp1.xopamp1.xsf1.xmx.nsg13_lv_nmos#gp)	voltage
-	1242	v(n.xdiff_amp1.xopamp1.xsf1.xr1.nr1#flow(b_re1))	voltage
-	1243	v(n.xdiff_amp1.xopamp1.xsf1.xr1.nr1#flow(b_re2))	voltage
-	1244	v(n.xdiff_amp1.xopamp1.xsf1.xr1.nr1#i1)	voltage
-	1245	v(n.xdiff_amp1.xopamp1.xsf1.xr1.nr1#i2)	voltage
-	1246	v(n.xdiff_amp1.xopamp1.xsf2.xc1.nsg13_moscap_p#gp)	voltage
-	1247	v(n.xdiff_amp1.xopamp1.xsf2.xm1.nsg13_lv_nmos#gp)	voltage
-	1248	v(n.xdiff_amp1.xopamp1.xsf2.xm2.nsg13_lv_pmos#gp)	voltage
-	1249	v(n.xdiff_amp1.xopamp1.xsf2.xm3.nsg13_lv_pmos#gp)	voltage
-	1250	v(n.xdiff_amp1.xopamp1.xsf2.xm4.nsg13_lv_pmos#gp)	voltage
-	1251	v(n.xdiff_amp1.xopamp1.xsf2.xm5.nsg13_lv_pmos#gp)	voltage
-	1252	v(n.xdiff_amp1.xopamp1.xsf2.xm6.nsg13_lv_pmos#gp)	voltage
-	1253	v(n.xdiff_amp1.xopamp1.xsf2.xm7.nsg13_lv_nmos#gp)	voltage
-	1254	v(n.xdiff_amp1.xopamp1.xsf2.xm8.nsg13_lv_nmos#gp)	voltage
-	1255	v(n.xdiff_amp1.xopamp1.xsf2.xm9.nsg13_lv_nmos#gp)	voltage
-	1256	v(n.xdiff_amp1.xopamp1.xsf2.xm10.nsg13_lv_pmos#gp)	voltage
-	1257	v(n.xdiff_amp1.xopamp1.xsf2.xm12.nsg13_lv_nmos#gp)	voltage
-	1258	v(n.xdiff_amp1.xopamp1.xsf2.xm13.nsg13_lv_pmos#gp)	voltage
-	1259	v(n.xdiff_amp1.xopamp1.xsf2.xm14.nsg13_lv_pmos#gp)	voltage
-	1260	v(n.xdiff_amp1.xopamp1.xsf2.xma.nsg13_lv_pmos#gp)	voltage
-	1261	v(n.xdiff_amp1.xopamp1.xsf2.xmb.nsg13_lv_pmos#gp)	voltage
-	1262	v(n.xdiff_amp1.xopamp1.xsf2.xmc.nsg13_lv_pmos#gp)	voltage
-	1263	v(n.xdiff_amp1.xopamp1.xsf2.xmd.nsg13_lv_pmos#gp)	voltage
-	1264	v(n.xdiff_amp1.xopamp1.xsf2.xme.nsg13_lv_pmos#gp)	voltage
-	1265	v(n.xdiff_amp1.xopamp1.xsf2.xmfg.nsg13_lv_nmos#gp)	voltage
-	1266	v(n.xdiff_amp1.xopamp1.xsf2.xmh.nsg13_lv_pmos#gp)	voltage
-	1267	v(n.xdiff_amp1.xopamp1.xsf2.xmi.nsg13_lv_pmos#gp)	voltage
-	1268	v(n.xdiff_amp1.xopamp1.xsf2.xmj.nsg13_lv_pmos#gp)	voltage
-	1269	v(n.xdiff_amp1.xopamp1.xsf2.xmk.nsg13_lv_nmos#gp)	voltage
-	1270	v(n.xdiff_amp1.xopamp1.xsf2.xml.nsg13_lv_nmos#gp)	voltage
-	1271	v(n.xdiff_amp1.xopamp1.xsf2.xmm.nsg13_lv_nmos#gp)	voltage
-	1272	v(n.xdiff_amp1.xopamp1.xsf2.xmn.nsg13_lv_nmos#gp)	voltage
-	1273	v(n.xdiff_amp1.xopamp1.xsf2.xmn0.nsg13_lv_nmos#gp)	voltage
-	1274	v(n.xdiff_amp1.xopamp1.xsf2.xmn1.nsg13_lv_nmos#gp)	voltage
-	1275	v(n.xdiff_amp1.xopamp1.xsf2.xmo.nsg13_lv_nmos#gp)	voltage
-	1276	v(n.xdiff_amp1.xopamp1.xsf2.xmp.nsg13_lv_nmos#gp)	voltage
-	1277	v(n.xdiff_amp1.xopamp1.xsf2.xmp0.nsg13_lv_pmos#gp)	voltage
-	1278	v(n.xdiff_amp1.xopamp1.xsf2.xmq.nsg13_lv_nmos#gp)	voltage
-	1279	v(n.xdiff_amp1.xopamp1.xsf2.xmx.nsg13_lv_nmos#gp)	voltage
-	1280	v(n.xdiff_amp1.xopamp1.xsf2.xr1.nr1#flow(b_re1))	voltage
-	1281	v(n.xdiff_amp1.xopamp1.xsf2.xr1.nr1#flow(b_re2))	voltage
-	1282	v(n.xdiff_amp1.xopamp1.xsf2.xr1.nr1#i1)	voltage
-	1283	v(n.xdiff_amp1.xopamp1.xsf2.xr1.nr1#i2)	voltage
-	1284	v(n.xdiff_amp1.xota1.xm2.nsg13_lv_nmos#gp)	voltage
-	1285	v(n.xdiff_amp1.xota1.xmh.nsg13_lv_nmos#gp)	voltage
-	1286	v(n.xdiff_amp1.xota1.xmi.nsg13_lv_nmos#gp)	voltage
-	1287	v(n.xdiff_amp1.xota1.xmj.nsg13_lv_nmos#gp)	voltage
-	1288	v(n.xdiff_amp1.xota1.xmk.nsg13_lv_pmos#gp)	voltage
-	1289	v(n.xdiff_amp1.xota1.xmk1.nsg13_lv_pmos#gp)	voltage
-	1290	v(n.xdiff_amp1.xota1.xmk2.nsg13_lv_pmos#gp)	voltage
-	1291	v(n.xdiff_amp1.xota1.xmk3.nsg13_lv_pmos#gp)	voltage
-	1292	v(n.xdiff_amp1.xota1.xmk4.nsg13_lv_pmos#gp)	voltage
-	1293	v(n.xdiff_amp1.xota1.xml.nsg13_lv_pmos#gp)	voltage
-	1294	v(n.xdiff_amp1.xota1.xmn.nsg13_lv_pmos#gp)	voltage
-	1295	v(n.xdiff_amp1.xota1.xmn0.nsg13_lv_nmos#gp)	voltage
-	1296	v(n.xdiff_amp1.xota1.xmn1.nsg13_lv_nmos#gp)	voltage
-	1297	v(n.xdiff_amp1.xota1.xmo.nsg13_lv_pmos#gp)	voltage
-	1298	v(n.xdiff_amp1.xota1.xmp0.nsg13_lv_pmos#gp)	voltage
-	1299	v(n.xdiff_amp1.xota1.xmp1.nsg13_lv_pmos#gp)	voltage
-	1300	v(n.xdiff_amp1.xr1.nr1#flow(b_re1))	voltage
-	1301	v(n.xdiff_amp1.xr1.nr1#flow(b_re2))	voltage
-	1302	v(n.xdiff_amp1.xr1.nr1#i1)	voltage
-	1303	v(n.xdiff_amp1.xr1.nr1#i2)	voltage
-	1304	v(n.xdiff_amp1.xr2.nr1#flow(b_re1))	voltage
-	1305	v(n.xdiff_amp1.xr2.nr1#flow(b_re2))	voltage
-	1306	v(n.xdiff_amp1.xr2.nr1#i1)	voltage
-	1307	v(n.xdiff_amp1.xr2.nr1#i2)	voltage
-	1308	v(net2)	voltage
-	1309	v(net3)	voltage
-	1310	v(net4)	voltage
-	1311	v(net5)	voltage
-	1312	v(net6)	voltage
-	1313	ro_n	impedance
-	1314	ro_p	impedance
-	1315	v(vcm)	voltage
-	1316	i(vcm)	current
-	1317	v(vdd)	voltage
-	1318	i(vdd)	current
-	1319	i(ven)	current
-	1320	v(vinn)	voltage
-	1321	i(vinn)	current
-	1322	v(vinp)	voltage
-	1323	i(vinp)	current
-	1324	i(vmeas2)	current
-	1325	i(vmeas3)	current
-	1326	i(vmeas4)	current
-	1327	i(vmeas5)	current
-	1328	v(voutn)	voltage
-	1329	v(voutp)	voltage
-	1330	v(vss)	voltage
-	1331	i(vss)	current
-	1332	v(vt_n)	voltage
-	1333	v(vt_p)	voltage
-	1334	v(xdiff_amp1.vbias)	voltage
-	1335	v(xdiff_amp1.vcm_calc)	voltage
-	1336	v(xdiff_amp1.vcm_reg)	voltage
-	1337	v(xdiff_amp1.xopamp1.en_n)	voltage
-	1338	v(xdiff_amp1.xopamp1.src_ab)	voltage
-	1339	v(xdiff_amp1.xopamp1.voutn_st1)	voltage
-	1340	v(xdiff_amp1.xopamp1.voutp_st1)	voltage
-	1341	v(xdiff_amp1.xopamp1.xsf1.cd_drn)	voltage
-	1342	v(xdiff_amp1.xopamp1.xsf1.en_n)	voltage
-	1343	v(xdiff_amp1.xopamp1.xsf1.net1)	voltage
-	1344	v(xdiff_amp1.xopamp1.xsf1.net2)	voltage
-	1345	v(xdiff_amp1.xopamp1.xsf1.src_ml)	voltage
-	1346	v(xdiff_amp1.xopamp1.xsf1.vbiasn)	voltage
-	1347	v(xdiff_amp1.xopamp1.xsf1.vbiasp)	voltage
-	1348	v(xdiff_amp1.xopamp1.xsf1.vcasn)	voltage
-	1349	v(xdiff_amp1.xopamp1.xsf1.vcasn2)	voltage
-	1350	v(xdiff_amp1.xopamp1.xsf1.vcasp)	voltage
-	1351	v(xdiff_amp1.xopamp1.xsf1.vcasp2)	voltage
-	1352	v(xdiff_amp1.xopamp1.xsf1.vin_shifted)	voltage
-	1353	v(xdiff_amp1.xopamp1.xsf1.xr1.dt)	voltage
-	1354	v(xdiff_amp1.xopamp1.xsf2.cd_drn)	voltage
-	1355	v(xdiff_amp1.xopamp1.xsf2.en_n)	voltage
-	1356	v(xdiff_amp1.xopamp1.xsf2.net1)	voltage
-	1357	v(xdiff_amp1.xopamp1.xsf2.net2)	voltage
-	1358	v(xdiff_amp1.xopamp1.xsf2.src_ml)	voltage
-	1359	v(xdiff_amp1.xopamp1.xsf2.vbiasn)	voltage
-	1360	v(xdiff_amp1.xopamp1.xsf2.vbiasp)	voltage
-	1361	v(xdiff_amp1.xopamp1.xsf2.vcasn)	voltage
-	1362	v(xdiff_amp1.xopamp1.xsf2.vcasn2)	voltage
-	1363	v(xdiff_amp1.xopamp1.xsf2.vcasp)	voltage
-	1364	v(xdiff_amp1.xopamp1.xsf2.vcasp2)	voltage
-	1365	v(xdiff_amp1.xopamp1.xsf2.vin_shifted)	voltage
-	1366	v(xdiff_amp1.xopamp1.xsf2.xr1.dt)	voltage
-	1367	v(xdiff_amp1.xota1.en_n)	voltage
-	1368	v(xdiff_amp1.xota1.mirror)	voltage
-	1369	v(xdiff_amp1.xota1.src_kl)	voltage
-	1370	v(xdiff_amp1.xota1.tail_bias)	voltage
-	1371	v(xdiff_amp1.xr1.dt)	voltage
-	1372	v(xdiff_amp1.xr2.dt)	voltage
+	350	@n.xdiff_amp1.xopamp1.xsf1.xm15.nsg13_lv_pmos[cgd]	capacitance dims=0
+	351	@n.xdiff_amp1.xopamp1.xsf1.xm15.nsg13_lv_pmos[cgdol]	capacitance dims=0
+	352	@n.xdiff_amp1.xopamp1.xsf1.xm15.nsg13_lv_pmos[cgg]	capacitance dims=0
+	353	@n.xdiff_amp1.xopamp1.xsf1.xm15.nsg13_lv_pmos[cgs]	capacitance dims=0
+	354	@n.xdiff_amp1.xopamp1.xsf1.xm15.nsg13_lv_pmos[cgsol]	capacitance dims=0
+	355	@n.xdiff_amp1.xopamp1.xsf1.xm15.nsg13_lv_pmos[gds]	admittance dims=0
+	356	@n.xdiff_amp1.xopamp1.xsf1.xm15.nsg13_lv_pmos[gm]	admittance dims=0
+	357	i(@n.xdiff_amp1.xopamp1.xsf1.xm15.nsg13_lv_pmos[ids])	current dims=0
+	358	v(@n.xdiff_amp1.xopamp1.xsf1.xm15.nsg13_lv_pmos[vds])	voltage dims=0
+	359	v(@n.xdiff_amp1.xopamp1.xsf1.xm15.nsg13_lv_pmos[vdss])	voltage dims=0
+	360	v(@n.xdiff_amp1.xopamp1.xsf1.xm15.nsg13_lv_pmos[vgs])	voltage dims=0
+	361	v(@n.xdiff_amp1.xopamp1.xsf1.xm15.nsg13_lv_pmos[vth])	voltage dims=0
+	362	@n.xdiff_amp1.xopamp1.xsf1.xma.nsg13_lv_pmos[cgd]	capacitance
+	363	@n.xdiff_amp1.xopamp1.xsf1.xma.nsg13_lv_pmos[cgdol]	capacitance
+	364	@n.xdiff_amp1.xopamp1.xsf1.xma.nsg13_lv_pmos[cgg]	capacitance
+	365	@n.xdiff_amp1.xopamp1.xsf1.xma.nsg13_lv_pmos[cgs]	capacitance
+	366	@n.xdiff_amp1.xopamp1.xsf1.xma.nsg13_lv_pmos[cgsol]	capacitance
+	367	@n.xdiff_amp1.xopamp1.xsf1.xma.nsg13_lv_pmos[gds]	admittance
+	368	@n.xdiff_amp1.xopamp1.xsf1.xma.nsg13_lv_pmos[gm]	admittance
+	369	i(@n.xdiff_amp1.xopamp1.xsf1.xma.nsg13_lv_pmos[ids])	current
+	370	v(@n.xdiff_amp1.xopamp1.xsf1.xma.nsg13_lv_pmos[vds])	voltage
+	371	v(@n.xdiff_amp1.xopamp1.xsf1.xma.nsg13_lv_pmos[vdss])	voltage
+	372	v(@n.xdiff_amp1.xopamp1.xsf1.xma.nsg13_lv_pmos[vgs])	voltage
+	373	v(@n.xdiff_amp1.xopamp1.xsf1.xma.nsg13_lv_pmos[vth])	voltage
+	374	@n.xdiff_amp1.xopamp1.xsf1.xmb.nsg13_lv_pmos[cgd]	capacitance
+	375	@n.xdiff_amp1.xopamp1.xsf1.xmb.nsg13_lv_pmos[cgdol]	capacitance
+	376	@n.xdiff_amp1.xopamp1.xsf1.xmb.nsg13_lv_pmos[cgg]	capacitance
+	377	@n.xdiff_amp1.xopamp1.xsf1.xmb.nsg13_lv_pmos[cgs]	capacitance
+	378	@n.xdiff_amp1.xopamp1.xsf1.xmb.nsg13_lv_pmos[cgsol]	capacitance
+	379	@n.xdiff_amp1.xopamp1.xsf1.xmb.nsg13_lv_pmos[gds]	admittance
+	380	@n.xdiff_amp1.xopamp1.xsf1.xmb.nsg13_lv_pmos[gm]	admittance
+	381	i(@n.xdiff_amp1.xopamp1.xsf1.xmb.nsg13_lv_pmos[ids])	current
+	382	v(@n.xdiff_amp1.xopamp1.xsf1.xmb.nsg13_lv_pmos[vds])	voltage
+	383	v(@n.xdiff_amp1.xopamp1.xsf1.xmb.nsg13_lv_pmos[vdss])	voltage
+	384	v(@n.xdiff_amp1.xopamp1.xsf1.xmb.nsg13_lv_pmos[vgs])	voltage
+	385	v(@n.xdiff_amp1.xopamp1.xsf1.xmb.nsg13_lv_pmos[vth])	voltage
+	386	@n.xdiff_amp1.xopamp1.xsf1.xmc.nsg13_lv_pmos[cgd]	capacitance
+	387	@n.xdiff_amp1.xopamp1.xsf1.xmc.nsg13_lv_pmos[cgdol]	capacitance
+	388	@n.xdiff_amp1.xopamp1.xsf1.xmc.nsg13_lv_pmos[cgg]	capacitance
+	389	@n.xdiff_amp1.xopamp1.xsf1.xmc.nsg13_lv_pmos[cgs]	capacitance
+	390	@n.xdiff_amp1.xopamp1.xsf1.xmc.nsg13_lv_pmos[cgsol]	capacitance
+	391	@n.xdiff_amp1.xopamp1.xsf1.xmc.nsg13_lv_pmos[gds]	admittance
+	392	@n.xdiff_amp1.xopamp1.xsf1.xmc.nsg13_lv_pmos[gm]	admittance
+	393	i(@n.xdiff_amp1.xopamp1.xsf1.xmc.nsg13_lv_pmos[ids])	current
+	394	v(@n.xdiff_amp1.xopamp1.xsf1.xmc.nsg13_lv_pmos[vds])	voltage
+	395	v(@n.xdiff_amp1.xopamp1.xsf1.xmc.nsg13_lv_pmos[vdss])	voltage
+	396	v(@n.xdiff_amp1.xopamp1.xsf1.xmc.nsg13_lv_pmos[vgs])	voltage
+	397	v(@n.xdiff_amp1.xopamp1.xsf1.xmc.nsg13_lv_pmos[vth])	voltage
+	398	@n.xdiff_amp1.xopamp1.xsf1.xmd.nsg13_lv_pmos[cgd]	capacitance
+	399	@n.xdiff_amp1.xopamp1.xsf1.xmd.nsg13_lv_pmos[cgdol]	capacitance
+	400	@n.xdiff_amp1.xopamp1.xsf1.xmd.nsg13_lv_pmos[cgg]	capacitance
+	401	@n.xdiff_amp1.xopamp1.xsf1.xmd.nsg13_lv_pmos[cgs]	capacitance
+	402	@n.xdiff_amp1.xopamp1.xsf1.xmd.nsg13_lv_pmos[cgsol]	capacitance
+	403	@n.xdiff_amp1.xopamp1.xsf1.xmd.nsg13_lv_pmos[gds]	admittance
+	404	@n.xdiff_amp1.xopamp1.xsf1.xmd.nsg13_lv_pmos[gm]	admittance
+	405	i(@n.xdiff_amp1.xopamp1.xsf1.xmd.nsg13_lv_pmos[ids])	current
+	406	v(@n.xdiff_amp1.xopamp1.xsf1.xmd.nsg13_lv_pmos[vds])	voltage
+	407	v(@n.xdiff_amp1.xopamp1.xsf1.xmd.nsg13_lv_pmos[vdss])	voltage
+	408	v(@n.xdiff_amp1.xopamp1.xsf1.xmd.nsg13_lv_pmos[vgs])	voltage
+	409	v(@n.xdiff_amp1.xopamp1.xsf1.xmd.nsg13_lv_pmos[vth])	voltage
+	410	@n.xdiff_amp1.xopamp1.xsf1.xme.nsg13_lv_pmos[cgd]	capacitance
+	411	@n.xdiff_amp1.xopamp1.xsf1.xme.nsg13_lv_pmos[cgdol]	capacitance
+	412	@n.xdiff_amp1.xopamp1.xsf1.xme.nsg13_lv_pmos[cgg]	capacitance
+	413	@n.xdiff_amp1.xopamp1.xsf1.xme.nsg13_lv_pmos[cgs]	capacitance
+	414	@n.xdiff_amp1.xopamp1.xsf1.xme.nsg13_lv_pmos[cgsol]	capacitance
+	415	@n.xdiff_amp1.xopamp1.xsf1.xme.nsg13_lv_pmos[gds]	admittance
+	416	@n.xdiff_amp1.xopamp1.xsf1.xme.nsg13_lv_pmos[gm]	admittance
+	417	i(@n.xdiff_amp1.xopamp1.xsf1.xme.nsg13_lv_pmos[ids])	current
+	418	v(@n.xdiff_amp1.xopamp1.xsf1.xme.nsg13_lv_pmos[vds])	voltage
+	419	v(@n.xdiff_amp1.xopamp1.xsf1.xme.nsg13_lv_pmos[vdss])	voltage
+	420	v(@n.xdiff_amp1.xopamp1.xsf1.xme.nsg13_lv_pmos[vgs])	voltage
+	421	v(@n.xdiff_amp1.xopamp1.xsf1.xme.nsg13_lv_pmos[vth])	voltage
+	422	@n.xdiff_amp1.xopamp1.xsf1.xmfg.nsg13_lv_nmos[cgd]	capacitance
+	423	@n.xdiff_amp1.xopamp1.xsf1.xmfg.nsg13_lv_nmos[cgdol]	capacitance
+	424	@n.xdiff_amp1.xopamp1.xsf1.xmfg.nsg13_lv_nmos[cgg]	capacitance
+	425	@n.xdiff_amp1.xopamp1.xsf1.xmfg.nsg13_lv_nmos[cgs]	capacitance
+	426	@n.xdiff_amp1.xopamp1.xsf1.xmfg.nsg13_lv_nmos[cgsol]	capacitance
+	427	@n.xdiff_amp1.xopamp1.xsf1.xmfg.nsg13_lv_nmos[gds]	admittance
+	428	@n.xdiff_amp1.xopamp1.xsf1.xmfg.nsg13_lv_nmos[gm]	admittance
+	429	i(@n.xdiff_amp1.xopamp1.xsf1.xmfg.nsg13_lv_nmos[ids])	current
+	430	v(@n.xdiff_amp1.xopamp1.xsf1.xmfg.nsg13_lv_nmos[vds])	voltage
+	431	v(@n.xdiff_amp1.xopamp1.xsf1.xmfg.nsg13_lv_nmos[vdss])	voltage
+	432	v(@n.xdiff_amp1.xopamp1.xsf1.xmfg.nsg13_lv_nmos[vgs])	voltage
+	433	v(@n.xdiff_amp1.xopamp1.xsf1.xmfg.nsg13_lv_nmos[vth])	voltage
+	434	@n.xdiff_amp1.xopamp1.xsf1.xmh.nsg13_lv_pmos[cgd]	capacitance
+	435	@n.xdiff_amp1.xopamp1.xsf1.xmh.nsg13_lv_pmos[cgdol]	capacitance
+	436	@n.xdiff_amp1.xopamp1.xsf1.xmh.nsg13_lv_pmos[cgg]	capacitance
+	437	@n.xdiff_amp1.xopamp1.xsf1.xmh.nsg13_lv_pmos[cgs]	capacitance
+	438	@n.xdiff_amp1.xopamp1.xsf1.xmh.nsg13_lv_pmos[cgsol]	capacitance
+	439	@n.xdiff_amp1.xopamp1.xsf1.xmh.nsg13_lv_pmos[gds]	admittance
+	440	@n.xdiff_amp1.xopamp1.xsf1.xmh.nsg13_lv_pmos[gm]	admittance
+	441	i(@n.xdiff_amp1.xopamp1.xsf1.xmh.nsg13_lv_pmos[ids])	current
+	442	v(@n.xdiff_amp1.xopamp1.xsf1.xmh.nsg13_lv_pmos[vds])	voltage
+	443	v(@n.xdiff_amp1.xopamp1.xsf1.xmh.nsg13_lv_pmos[vdss])	voltage
+	444	v(@n.xdiff_amp1.xopamp1.xsf1.xmh.nsg13_lv_pmos[vgs])	voltage
+	445	v(@n.xdiff_amp1.xopamp1.xsf1.xmh.nsg13_lv_pmos[vth])	voltage
+	446	@n.xdiff_amp1.xopamp1.xsf1.xmi.nsg13_lv_pmos[cgd]	capacitance
+	447	@n.xdiff_amp1.xopamp1.xsf1.xmi.nsg13_lv_pmos[cgdol]	capacitance
+	448	@n.xdiff_amp1.xopamp1.xsf1.xmi.nsg13_lv_pmos[cgg]	capacitance
+	449	@n.xdiff_amp1.xopamp1.xsf1.xmi.nsg13_lv_pmos[cgs]	capacitance
+	450	@n.xdiff_amp1.xopamp1.xsf1.xmi.nsg13_lv_pmos[cgsol]	capacitance
+	451	@n.xdiff_amp1.xopamp1.xsf1.xmi.nsg13_lv_pmos[gds]	admittance
+	452	@n.xdiff_amp1.xopamp1.xsf1.xmi.nsg13_lv_pmos[gm]	admittance
+	453	i(@n.xdiff_amp1.xopamp1.xsf1.xmi.nsg13_lv_pmos[ids])	current
+	454	v(@n.xdiff_amp1.xopamp1.xsf1.xmi.nsg13_lv_pmos[vds])	voltage
+	455	v(@n.xdiff_amp1.xopamp1.xsf1.xmi.nsg13_lv_pmos[vdss])	voltage
+	456	v(@n.xdiff_amp1.xopamp1.xsf1.xmi.nsg13_lv_pmos[vgs])	voltage
+	457	v(@n.xdiff_amp1.xopamp1.xsf1.xmi.nsg13_lv_pmos[vth])	voltage
+	458	@n.xdiff_amp1.xopamp1.xsf1.xmj.nsg13_lv_pmos[cgd]	capacitance
+	459	@n.xdiff_amp1.xopamp1.xsf1.xmj.nsg13_lv_pmos[cgdol]	capacitance
+	460	@n.xdiff_amp1.xopamp1.xsf1.xmj.nsg13_lv_pmos[cgg]	capacitance
+	461	@n.xdiff_amp1.xopamp1.xsf1.xmj.nsg13_lv_pmos[cgs]	capacitance
+	462	@n.xdiff_amp1.xopamp1.xsf1.xmj.nsg13_lv_pmos[cgsol]	capacitance
+	463	@n.xdiff_amp1.xopamp1.xsf1.xmj.nsg13_lv_pmos[gds]	admittance
+	464	@n.xdiff_amp1.xopamp1.xsf1.xmj.nsg13_lv_pmos[gm]	admittance
+	465	i(@n.xdiff_amp1.xopamp1.xsf1.xmj.nsg13_lv_pmos[ids])	current
+	466	v(@n.xdiff_amp1.xopamp1.xsf1.xmj.nsg13_lv_pmos[vds])	voltage
+	467	v(@n.xdiff_amp1.xopamp1.xsf1.xmj.nsg13_lv_pmos[vdss])	voltage
+	468	v(@n.xdiff_amp1.xopamp1.xsf1.xmj.nsg13_lv_pmos[vgs])	voltage
+	469	v(@n.xdiff_amp1.xopamp1.xsf1.xmj.nsg13_lv_pmos[vth])	voltage
+	470	@n.xdiff_amp1.xopamp1.xsf1.xmk.nsg13_lv_nmos[cgd]	capacitance
+	471	@n.xdiff_amp1.xopamp1.xsf1.xmk.nsg13_lv_nmos[cgdol]	capacitance
+	472	@n.xdiff_amp1.xopamp1.xsf1.xmk.nsg13_lv_nmos[cgg]	capacitance
+	473	@n.xdiff_amp1.xopamp1.xsf1.xmk.nsg13_lv_nmos[cgs]	capacitance
+	474	@n.xdiff_amp1.xopamp1.xsf1.xmk.nsg13_lv_nmos[cgsol]	capacitance
+	475	@n.xdiff_amp1.xopamp1.xsf1.xmk.nsg13_lv_nmos[gds]	admittance
+	476	@n.xdiff_amp1.xopamp1.xsf1.xmk.nsg13_lv_nmos[gm]	admittance
+	477	i(@n.xdiff_amp1.xopamp1.xsf1.xmk.nsg13_lv_nmos[ids])	current
+	478	v(@n.xdiff_amp1.xopamp1.xsf1.xmk.nsg13_lv_nmos[vds])	voltage
+	479	v(@n.xdiff_amp1.xopamp1.xsf1.xmk.nsg13_lv_nmos[vdss])	voltage
+	480	v(@n.xdiff_amp1.xopamp1.xsf1.xmk.nsg13_lv_nmos[vgs])	voltage
+	481	v(@n.xdiff_amp1.xopamp1.xsf1.xmk.nsg13_lv_nmos[vth])	voltage
+	482	@n.xdiff_amp1.xopamp1.xsf1.xml.nsg13_lv_nmos[cgd]	capacitance
+	483	@n.xdiff_amp1.xopamp1.xsf1.xml.nsg13_lv_nmos[cgdol]	capacitance
+	484	@n.xdiff_amp1.xopamp1.xsf1.xml.nsg13_lv_nmos[cgg]	capacitance
+	485	@n.xdiff_amp1.xopamp1.xsf1.xml.nsg13_lv_nmos[cgs]	capacitance
+	486	@n.xdiff_amp1.xopamp1.xsf1.xml.nsg13_lv_nmos[cgsol]	capacitance
+	487	@n.xdiff_amp1.xopamp1.xsf1.xml.nsg13_lv_nmos[gds]	admittance
+	488	@n.xdiff_amp1.xopamp1.xsf1.xml.nsg13_lv_nmos[gm]	admittance
+	489	i(@n.xdiff_amp1.xopamp1.xsf1.xml.nsg13_lv_nmos[ids])	current
+	490	v(@n.xdiff_amp1.xopamp1.xsf1.xml.nsg13_lv_nmos[vds])	voltage
+	491	v(@n.xdiff_amp1.xopamp1.xsf1.xml.nsg13_lv_nmos[vdss])	voltage
+	492	v(@n.xdiff_amp1.xopamp1.xsf1.xml.nsg13_lv_nmos[vgs])	voltage
+	493	v(@n.xdiff_amp1.xopamp1.xsf1.xml.nsg13_lv_nmos[vth])	voltage
+	494	@n.xdiff_amp1.xopamp1.xsf1.xmm.nsg13_lv_nmos[cgd]	capacitance
+	495	@n.xdiff_amp1.xopamp1.xsf1.xmm.nsg13_lv_nmos[cgdol]	capacitance
+	496	@n.xdiff_amp1.xopamp1.xsf1.xmm.nsg13_lv_nmos[cgg]	capacitance
+	497	@n.xdiff_amp1.xopamp1.xsf1.xmm.nsg13_lv_nmos[cgs]	capacitance
+	498	@n.xdiff_amp1.xopamp1.xsf1.xmm.nsg13_lv_nmos[cgsol]	capacitance
+	499	@n.xdiff_amp1.xopamp1.xsf1.xmm.nsg13_lv_nmos[gds]	admittance
+	500	@n.xdiff_amp1.xopamp1.xsf1.xmm.nsg13_lv_nmos[gm]	admittance
+	501	i(@n.xdiff_amp1.xopamp1.xsf1.xmm.nsg13_lv_nmos[ids])	current
+	502	v(@n.xdiff_amp1.xopamp1.xsf1.xmm.nsg13_lv_nmos[vds])	voltage
+	503	v(@n.xdiff_amp1.xopamp1.xsf1.xmm.nsg13_lv_nmos[vdss])	voltage
+	504	v(@n.xdiff_amp1.xopamp1.xsf1.xmm.nsg13_lv_nmos[vgs])	voltage
+	505	v(@n.xdiff_amp1.xopamp1.xsf1.xmm.nsg13_lv_nmos[vth])	voltage
+	506	@n.xdiff_amp1.xopamp1.xsf1.xmn.nsg13_lv_nmos[cgd]	capacitance
+	507	@n.xdiff_amp1.xopamp1.xsf1.xmn.nsg13_lv_nmos[cgdol]	capacitance
+	508	@n.xdiff_amp1.xopamp1.xsf1.xmn.nsg13_lv_nmos[cgg]	capacitance
+	509	@n.xdiff_amp1.xopamp1.xsf1.xmn.nsg13_lv_nmos[cgs]	capacitance
+	510	@n.xdiff_amp1.xopamp1.xsf1.xmn.nsg13_lv_nmos[cgsol]	capacitance
+	511	@n.xdiff_amp1.xopamp1.xsf1.xmn.nsg13_lv_nmos[gds]	admittance
+	512	@n.xdiff_amp1.xopamp1.xsf1.xmn.nsg13_lv_nmos[gm]	admittance
+	513	i(@n.xdiff_amp1.xopamp1.xsf1.xmn.nsg13_lv_nmos[ids])	current
+	514	v(@n.xdiff_amp1.xopamp1.xsf1.xmn.nsg13_lv_nmos[vds])	voltage
+	515	v(@n.xdiff_amp1.xopamp1.xsf1.xmn.nsg13_lv_nmos[vdss])	voltage
+	516	v(@n.xdiff_amp1.xopamp1.xsf1.xmn.nsg13_lv_nmos[vgs])	voltage
+	517	v(@n.xdiff_amp1.xopamp1.xsf1.xmn.nsg13_lv_nmos[vth])	voltage
+	518	@n.xdiff_amp1.xopamp1.xsf1.xmn0.nsg13_lv_nmos[cgd]	capacitance
+	519	@n.xdiff_amp1.xopamp1.xsf1.xmn0.nsg13_lv_nmos[cgdol]	capacitance
+	520	@n.xdiff_amp1.xopamp1.xsf1.xmn0.nsg13_lv_nmos[cgg]	capacitance
+	521	@n.xdiff_amp1.xopamp1.xsf1.xmn0.nsg13_lv_nmos[cgs]	capacitance
+	522	@n.xdiff_amp1.xopamp1.xsf1.xmn0.nsg13_lv_nmos[cgsol]	capacitance
+	523	@n.xdiff_amp1.xopamp1.xsf1.xmn0.nsg13_lv_nmos[gds]	admittance
+	524	@n.xdiff_amp1.xopamp1.xsf1.xmn0.nsg13_lv_nmos[gm]	admittance
+	525	i(@n.xdiff_amp1.xopamp1.xsf1.xmn0.nsg13_lv_nmos[ids])	current
+	526	v(@n.xdiff_amp1.xopamp1.xsf1.xmn0.nsg13_lv_nmos[vds])	voltage
+	527	v(@n.xdiff_amp1.xopamp1.xsf1.xmn0.nsg13_lv_nmos[vdss])	voltage
+	528	v(@n.xdiff_amp1.xopamp1.xsf1.xmn0.nsg13_lv_nmos[vgs])	voltage
+	529	v(@n.xdiff_amp1.xopamp1.xsf1.xmn0.nsg13_lv_nmos[vth])	voltage
+	530	@n.xdiff_amp1.xopamp1.xsf1.xmn1.nsg13_lv_nmos[cgd]	capacitance
+	531	@n.xdiff_amp1.xopamp1.xsf1.xmn1.nsg13_lv_nmos[cgdol]	capacitance
+	532	@n.xdiff_amp1.xopamp1.xsf1.xmn1.nsg13_lv_nmos[cgg]	capacitance
+	533	@n.xdiff_amp1.xopamp1.xsf1.xmn1.nsg13_lv_nmos[cgs]	capacitance
+	534	@n.xdiff_amp1.xopamp1.xsf1.xmn1.nsg13_lv_nmos[cgsol]	capacitance
+	535	@n.xdiff_amp1.xopamp1.xsf1.xmn1.nsg13_lv_nmos[gds]	admittance
+	536	@n.xdiff_amp1.xopamp1.xsf1.xmn1.nsg13_lv_nmos[gm]	admittance
+	537	i(@n.xdiff_amp1.xopamp1.xsf1.xmn1.nsg13_lv_nmos[ids])	current
+	538	v(@n.xdiff_amp1.xopamp1.xsf1.xmn1.nsg13_lv_nmos[vds])	voltage
+	539	v(@n.xdiff_amp1.xopamp1.xsf1.xmn1.nsg13_lv_nmos[vdss])	voltage
+	540	v(@n.xdiff_amp1.xopamp1.xsf1.xmn1.nsg13_lv_nmos[vgs])	voltage
+	541	v(@n.xdiff_amp1.xopamp1.xsf1.xmn1.nsg13_lv_nmos[vth])	voltage
+	542	@n.xdiff_amp1.xopamp1.xsf1.xmn2.nsg13_lv_nmos[cgd]	capacitance dims=0
+	543	@n.xdiff_amp1.xopamp1.xsf1.xmn2.nsg13_lv_nmos[cgdol]	capacitance dims=0
+	544	@n.xdiff_amp1.xopamp1.xsf1.xmn2.nsg13_lv_nmos[cgg]	capacitance dims=0
+	545	@n.xdiff_amp1.xopamp1.xsf1.xmn2.nsg13_lv_nmos[cgs]	capacitance dims=0
+	546	@n.xdiff_amp1.xopamp1.xsf1.xmn2.nsg13_lv_nmos[cgsol]	capacitance dims=0
+	547	@n.xdiff_amp1.xopamp1.xsf1.xmn2.nsg13_lv_nmos[gds]	admittance dims=0
+	548	@n.xdiff_amp1.xopamp1.xsf1.xmn2.nsg13_lv_nmos[gm]	admittance dims=0
+	549	i(@n.xdiff_amp1.xopamp1.xsf1.xmn2.nsg13_lv_nmos[ids])	current dims=0
+	550	v(@n.xdiff_amp1.xopamp1.xsf1.xmn2.nsg13_lv_nmos[vds])	voltage dims=0
+	551	v(@n.xdiff_amp1.xopamp1.xsf1.xmn2.nsg13_lv_nmos[vdss])	voltage dims=0
+	552	v(@n.xdiff_amp1.xopamp1.xsf1.xmn2.nsg13_lv_nmos[vgs])	voltage dims=0
+	553	v(@n.xdiff_amp1.xopamp1.xsf1.xmn2.nsg13_lv_nmos[vth])	voltage dims=0
+	554	@n.xdiff_amp1.xopamp1.xsf1.xmo.nsg13_lv_nmos[cgd]	capacitance
+	555	@n.xdiff_amp1.xopamp1.xsf1.xmo.nsg13_lv_nmos[cgdol]	capacitance
+	556	@n.xdiff_amp1.xopamp1.xsf1.xmo.nsg13_lv_nmos[cgg]	capacitance
+	557	@n.xdiff_amp1.xopamp1.xsf1.xmo.nsg13_lv_nmos[cgs]	capacitance
+	558	@n.xdiff_amp1.xopamp1.xsf1.xmo.nsg13_lv_nmos[cgsol]	capacitance
+	559	@n.xdiff_amp1.xopamp1.xsf1.xmo.nsg13_lv_nmos[gds]	admittance
+	560	@n.xdiff_amp1.xopamp1.xsf1.xmo.nsg13_lv_nmos[gm]	admittance
+	561	i(@n.xdiff_amp1.xopamp1.xsf1.xmo.nsg13_lv_nmos[ids])	current
+	562	v(@n.xdiff_amp1.xopamp1.xsf1.xmo.nsg13_lv_nmos[vds])	voltage
+	563	v(@n.xdiff_amp1.xopamp1.xsf1.xmo.nsg13_lv_nmos[vdss])	voltage
+	564	v(@n.xdiff_amp1.xopamp1.xsf1.xmo.nsg13_lv_nmos[vgs])	voltage
+	565	v(@n.xdiff_amp1.xopamp1.xsf1.xmo.nsg13_lv_nmos[vth])	voltage
+	566	@n.xdiff_amp1.xopamp1.xsf1.xmp.nsg13_lv_nmos[cgd]	capacitance
+	567	@n.xdiff_amp1.xopamp1.xsf1.xmp.nsg13_lv_nmos[cgdol]	capacitance
+	568	@n.xdiff_amp1.xopamp1.xsf1.xmp.nsg13_lv_nmos[cgg]	capacitance
+	569	@n.xdiff_amp1.xopamp1.xsf1.xmp.nsg13_lv_nmos[cgs]	capacitance
+	570	@n.xdiff_amp1.xopamp1.xsf1.xmp.nsg13_lv_nmos[cgsol]	capacitance
+	571	@n.xdiff_amp1.xopamp1.xsf1.xmp.nsg13_lv_nmos[gds]	admittance
+	572	@n.xdiff_amp1.xopamp1.xsf1.xmp.nsg13_lv_nmos[gm]	admittance
+	573	i(@n.xdiff_amp1.xopamp1.xsf1.xmp.nsg13_lv_nmos[ids])	current
+	574	v(@n.xdiff_amp1.xopamp1.xsf1.xmp.nsg13_lv_nmos[vds])	voltage
+	575	v(@n.xdiff_amp1.xopamp1.xsf1.xmp.nsg13_lv_nmos[vdss])	voltage
+	576	v(@n.xdiff_amp1.xopamp1.xsf1.xmp.nsg13_lv_nmos[vgs])	voltage
+	577	v(@n.xdiff_amp1.xopamp1.xsf1.xmp.nsg13_lv_nmos[vth])	voltage
+	578	@n.xdiff_amp1.xopamp1.xsf1.xmp0.nsg13_lv_pmos[cgd]	capacitance
+	579	@n.xdiff_amp1.xopamp1.xsf1.xmp0.nsg13_lv_pmos[cgdol]	capacitance
+	580	@n.xdiff_amp1.xopamp1.xsf1.xmp0.nsg13_lv_pmos[cgg]	capacitance
+	581	@n.xdiff_amp1.xopamp1.xsf1.xmp0.nsg13_lv_pmos[cgs]	capacitance
+	582	@n.xdiff_amp1.xopamp1.xsf1.xmp0.nsg13_lv_pmos[cgsol]	capacitance
+	583	@n.xdiff_amp1.xopamp1.xsf1.xmp0.nsg13_lv_pmos[gds]	admittance
+	584	@n.xdiff_amp1.xopamp1.xsf1.xmp0.nsg13_lv_pmos[gm]	admittance
+	585	i(@n.xdiff_amp1.xopamp1.xsf1.xmp0.nsg13_lv_pmos[ids])	current
+	586	v(@n.xdiff_amp1.xopamp1.xsf1.xmp0.nsg13_lv_pmos[vds])	voltage
+	587	v(@n.xdiff_amp1.xopamp1.xsf1.xmp0.nsg13_lv_pmos[vdss])	voltage
+	588	v(@n.xdiff_amp1.xopamp1.xsf1.xmp0.nsg13_lv_pmos[vgs])	voltage
+	589	v(@n.xdiff_amp1.xopamp1.xsf1.xmp0.nsg13_lv_pmos[vth])	voltage
+	590	@n.xdiff_amp1.xopamp1.xsf1.xmq.nsg13_lv_nmos[cgd]	capacitance
+	591	@n.xdiff_amp1.xopamp1.xsf1.xmq.nsg13_lv_nmos[cgdol]	capacitance
+	592	@n.xdiff_amp1.xopamp1.xsf1.xmq.nsg13_lv_nmos[cgg]	capacitance
+	593	@n.xdiff_amp1.xopamp1.xsf1.xmq.nsg13_lv_nmos[cgs]	capacitance
+	594	@n.xdiff_amp1.xopamp1.xsf1.xmq.nsg13_lv_nmos[cgsol]	capacitance
+	595	@n.xdiff_amp1.xopamp1.xsf1.xmq.nsg13_lv_nmos[gds]	admittance
+	596	@n.xdiff_amp1.xopamp1.xsf1.xmq.nsg13_lv_nmos[gm]	admittance
+	597	i(@n.xdiff_amp1.xopamp1.xsf1.xmq.nsg13_lv_nmos[ids])	current
+	598	v(@n.xdiff_amp1.xopamp1.xsf1.xmq.nsg13_lv_nmos[vds])	voltage
+	599	v(@n.xdiff_amp1.xopamp1.xsf1.xmq.nsg13_lv_nmos[vdss])	voltage
+	600	v(@n.xdiff_amp1.xopamp1.xsf1.xmq.nsg13_lv_nmos[vgs])	voltage
+	601	v(@n.xdiff_amp1.xopamp1.xsf1.xmq.nsg13_lv_nmos[vth])	voltage
+	602	@n.xdiff_amp1.xopamp1.xsf1.xmx.nsg13_lv_nmos[cgd]	capacitance
+	603	@n.xdiff_amp1.xopamp1.xsf1.xmx.nsg13_lv_nmos[cgdol]	capacitance
+	604	@n.xdiff_amp1.xopamp1.xsf1.xmx.nsg13_lv_nmos[cgg]	capacitance
+	605	@n.xdiff_amp1.xopamp1.xsf1.xmx.nsg13_lv_nmos[cgs]	capacitance
+	606	@n.xdiff_amp1.xopamp1.xsf1.xmx.nsg13_lv_nmos[cgsol]	capacitance
+	607	@n.xdiff_amp1.xopamp1.xsf1.xmx.nsg13_lv_nmos[gds]	admittance
+	608	@n.xdiff_amp1.xopamp1.xsf1.xmx.nsg13_lv_nmos[gm]	admittance
+	609	i(@n.xdiff_amp1.xopamp1.xsf1.xmx.nsg13_lv_nmos[ids])	current
+	610	v(@n.xdiff_amp1.xopamp1.xsf1.xmx.nsg13_lv_nmos[vds])	voltage
+	611	v(@n.xdiff_amp1.xopamp1.xsf1.xmx.nsg13_lv_nmos[vdss])	voltage
+	612	v(@n.xdiff_amp1.xopamp1.xsf1.xmx.nsg13_lv_nmos[vgs])	voltage
+	613	v(@n.xdiff_amp1.xopamp1.xsf1.xmx.nsg13_lv_nmos[vth])	voltage
+	614	@n.xdiff_amp1.xopamp1.xsf2.xc1.nsg13_moscap_p[cgg]	capacitance
+	615	@n.xdiff_amp1.xopamp1.xsf2.xm1.nsg13_lv_nmos[cgd]	capacitance
+	616	@n.xdiff_amp1.xopamp1.xsf2.xm1.nsg13_lv_nmos[cgdol]	capacitance
+	617	@n.xdiff_amp1.xopamp1.xsf2.xm1.nsg13_lv_nmos[cgg]	capacitance
+	618	@n.xdiff_amp1.xopamp1.xsf2.xm1.nsg13_lv_nmos[cgs]	capacitance
+	619	@n.xdiff_amp1.xopamp1.xsf2.xm1.nsg13_lv_nmos[cgsol]	capacitance
+	620	@n.xdiff_amp1.xopamp1.xsf2.xm1.nsg13_lv_nmos[gds]	admittance
+	621	@n.xdiff_amp1.xopamp1.xsf2.xm1.nsg13_lv_nmos[gm]	admittance
+	622	i(@n.xdiff_amp1.xopamp1.xsf2.xm1.nsg13_lv_nmos[ids])	current
+	623	v(@n.xdiff_amp1.xopamp1.xsf2.xm1.nsg13_lv_nmos[vds])	voltage
+	624	v(@n.xdiff_amp1.xopamp1.xsf2.xm1.nsg13_lv_nmos[vdss])	voltage
+	625	v(@n.xdiff_amp1.xopamp1.xsf2.xm1.nsg13_lv_nmos[vgs])	voltage
+	626	v(@n.xdiff_amp1.xopamp1.xsf2.xm1.nsg13_lv_nmos[vth])	voltage
+	627	@n.xdiff_amp1.xopamp1.xsf2.xm2.nsg13_lv_pmos[cgd]	capacitance
+	628	@n.xdiff_amp1.xopamp1.xsf2.xm2.nsg13_lv_pmos[cgdol]	capacitance
+	629	@n.xdiff_amp1.xopamp1.xsf2.xm2.nsg13_lv_pmos[cgg]	capacitance
+	630	@n.xdiff_amp1.xopamp1.xsf2.xm2.nsg13_lv_pmos[cgs]	capacitance
+	631	@n.xdiff_amp1.xopamp1.xsf2.xm2.nsg13_lv_pmos[cgsol]	capacitance
+	632	@n.xdiff_amp1.xopamp1.xsf2.xm2.nsg13_lv_pmos[gds]	admittance
+	633	@n.xdiff_amp1.xopamp1.xsf2.xm2.nsg13_lv_pmos[gm]	admittance
+	634	i(@n.xdiff_amp1.xopamp1.xsf2.xm2.nsg13_lv_pmos[ids])	current
+	635	v(@n.xdiff_amp1.xopamp1.xsf2.xm2.nsg13_lv_pmos[vds])	voltage
+	636	v(@n.xdiff_amp1.xopamp1.xsf2.xm2.nsg13_lv_pmos[vdss])	voltage
+	637	v(@n.xdiff_amp1.xopamp1.xsf2.xm2.nsg13_lv_pmos[vgs])	voltage
+	638	v(@n.xdiff_amp1.xopamp1.xsf2.xm2.nsg13_lv_pmos[vth])	voltage
+	639	@n.xdiff_amp1.xopamp1.xsf2.xm3.nsg13_lv_pmos[cgd]	capacitance
+	640	@n.xdiff_amp1.xopamp1.xsf2.xm3.nsg13_lv_pmos[cgdol]	capacitance
+	641	@n.xdiff_amp1.xopamp1.xsf2.xm3.nsg13_lv_pmos[cgg]	capacitance
+	642	@n.xdiff_amp1.xopamp1.xsf2.xm3.nsg13_lv_pmos[cgs]	capacitance
+	643	@n.xdiff_amp1.xopamp1.xsf2.xm3.nsg13_lv_pmos[cgsol]	capacitance
+	644	@n.xdiff_amp1.xopamp1.xsf2.xm3.nsg13_lv_pmos[gds]	admittance
+	645	@n.xdiff_amp1.xopamp1.xsf2.xm3.nsg13_lv_pmos[gm]	admittance
+	646	i(@n.xdiff_amp1.xopamp1.xsf2.xm3.nsg13_lv_pmos[ids])	current
+	647	v(@n.xdiff_amp1.xopamp1.xsf2.xm3.nsg13_lv_pmos[vds])	voltage
+	648	v(@n.xdiff_amp1.xopamp1.xsf2.xm3.nsg13_lv_pmos[vdss])	voltage
+	649	v(@n.xdiff_amp1.xopamp1.xsf2.xm3.nsg13_lv_pmos[vgs])	voltage
+	650	v(@n.xdiff_amp1.xopamp1.xsf2.xm3.nsg13_lv_pmos[vth])	voltage
+	651	@n.xdiff_amp1.xopamp1.xsf2.xm4.nsg13_lv_pmos[cgd]	capacitance
+	652	@n.xdiff_amp1.xopamp1.xsf2.xm4.nsg13_lv_pmos[cgdol]	capacitance
+	653	@n.xdiff_amp1.xopamp1.xsf2.xm4.nsg13_lv_pmos[cgg]	capacitance
+	654	@n.xdiff_amp1.xopamp1.xsf2.xm4.nsg13_lv_pmos[cgs]	capacitance
+	655	@n.xdiff_amp1.xopamp1.xsf2.xm4.nsg13_lv_pmos[cgsol]	capacitance
+	656	@n.xdiff_amp1.xopamp1.xsf2.xm4.nsg13_lv_pmos[gds]	admittance
+	657	@n.xdiff_amp1.xopamp1.xsf2.xm4.nsg13_lv_pmos[gm]	admittance
+	658	i(@n.xdiff_amp1.xopamp1.xsf2.xm4.nsg13_lv_pmos[ids])	current
+	659	v(@n.xdiff_amp1.xopamp1.xsf2.xm4.nsg13_lv_pmos[vds])	voltage
+	660	v(@n.xdiff_amp1.xopamp1.xsf2.xm4.nsg13_lv_pmos[vdss])	voltage
+	661	v(@n.xdiff_amp1.xopamp1.xsf2.xm4.nsg13_lv_pmos[vgs])	voltage
+	662	v(@n.xdiff_amp1.xopamp1.xsf2.xm4.nsg13_lv_pmos[vth])	voltage
+	663	@n.xdiff_amp1.xopamp1.xsf2.xm5.nsg13_lv_pmos[cgd]	capacitance
+	664	@n.xdiff_amp1.xopamp1.xsf2.xm5.nsg13_lv_pmos[cgdol]	capacitance
+	665	@n.xdiff_amp1.xopamp1.xsf2.xm5.nsg13_lv_pmos[cgg]	capacitance
+	666	@n.xdiff_amp1.xopamp1.xsf2.xm5.nsg13_lv_pmos[cgs]	capacitance
+	667	@n.xdiff_amp1.xopamp1.xsf2.xm5.nsg13_lv_pmos[cgsol]	capacitance
+	668	@n.xdiff_amp1.xopamp1.xsf2.xm5.nsg13_lv_pmos[gds]	admittance
+	669	@n.xdiff_amp1.xopamp1.xsf2.xm5.nsg13_lv_pmos[gm]	admittance
+	670	i(@n.xdiff_amp1.xopamp1.xsf2.xm5.nsg13_lv_pmos[ids])	current
+	671	v(@n.xdiff_amp1.xopamp1.xsf2.xm5.nsg13_lv_pmos[vds])	voltage
+	672	v(@n.xdiff_amp1.xopamp1.xsf2.xm5.nsg13_lv_pmos[vdss])	voltage
+	673	v(@n.xdiff_amp1.xopamp1.xsf2.xm5.nsg13_lv_pmos[vgs])	voltage
+	674	v(@n.xdiff_amp1.xopamp1.xsf2.xm5.nsg13_lv_pmos[vth])	voltage
+	675	@n.xdiff_amp1.xopamp1.xsf2.xm6.nsg13_lv_pmos[cgd]	capacitance
+	676	@n.xdiff_amp1.xopamp1.xsf2.xm6.nsg13_lv_pmos[cgdol]	capacitance
+	677	@n.xdiff_amp1.xopamp1.xsf2.xm6.nsg13_lv_pmos[cgg]	capacitance
+	678	@n.xdiff_amp1.xopamp1.xsf2.xm6.nsg13_lv_pmos[cgs]	capacitance
+	679	@n.xdiff_amp1.xopamp1.xsf2.xm6.nsg13_lv_pmos[cgsol]	capacitance
+	680	@n.xdiff_amp1.xopamp1.xsf2.xm6.nsg13_lv_pmos[gds]	admittance
+	681	@n.xdiff_amp1.xopamp1.xsf2.xm6.nsg13_lv_pmos[gm]	admittance
+	682	i(@n.xdiff_amp1.xopamp1.xsf2.xm6.nsg13_lv_pmos[ids])	current
+	683	v(@n.xdiff_amp1.xopamp1.xsf2.xm6.nsg13_lv_pmos[vds])	voltage
+	684	v(@n.xdiff_amp1.xopamp1.xsf2.xm6.nsg13_lv_pmos[vdss])	voltage
+	685	v(@n.xdiff_amp1.xopamp1.xsf2.xm6.nsg13_lv_pmos[vgs])	voltage
+	686	v(@n.xdiff_amp1.xopamp1.xsf2.xm6.nsg13_lv_pmos[vth])	voltage
+	687	@n.xdiff_amp1.xopamp1.xsf2.xm7.nsg13_lv_nmos[cgd]	capacitance
+	688	@n.xdiff_amp1.xopamp1.xsf2.xm7.nsg13_lv_nmos[cgdol]	capacitance
+	689	@n.xdiff_amp1.xopamp1.xsf2.xm7.nsg13_lv_nmos[cgg]	capacitance
+	690	@n.xdiff_amp1.xopamp1.xsf2.xm7.nsg13_lv_nmos[cgs]	capacitance
+	691	@n.xdiff_amp1.xopamp1.xsf2.xm7.nsg13_lv_nmos[cgsol]	capacitance
+	692	@n.xdiff_amp1.xopamp1.xsf2.xm7.nsg13_lv_nmos[gds]	admittance
+	693	@n.xdiff_amp1.xopamp1.xsf2.xm7.nsg13_lv_nmos[gm]	admittance
+	694	i(@n.xdiff_amp1.xopamp1.xsf2.xm7.nsg13_lv_nmos[ids])	current
+	695	v(@n.xdiff_amp1.xopamp1.xsf2.xm7.nsg13_lv_nmos[vds])	voltage
+	696	v(@n.xdiff_amp1.xopamp1.xsf2.xm7.nsg13_lv_nmos[vdss])	voltage
+	697	v(@n.xdiff_amp1.xopamp1.xsf2.xm7.nsg13_lv_nmos[vgs])	voltage
+	698	v(@n.xdiff_amp1.xopamp1.xsf2.xm7.nsg13_lv_nmos[vth])	voltage
+	699	@n.xdiff_amp1.xopamp1.xsf2.xm8.nsg13_lv_nmos[cgd]	capacitance
+	700	@n.xdiff_amp1.xopamp1.xsf2.xm8.nsg13_lv_nmos[cgdol]	capacitance
+	701	@n.xdiff_amp1.xopamp1.xsf2.xm8.nsg13_lv_nmos[cgg]	capacitance
+	702	@n.xdiff_amp1.xopamp1.xsf2.xm8.nsg13_lv_nmos[cgs]	capacitance
+	703	@n.xdiff_amp1.xopamp1.xsf2.xm8.nsg13_lv_nmos[cgsol]	capacitance
+	704	@n.xdiff_amp1.xopamp1.xsf2.xm8.nsg13_lv_nmos[gds]	admittance
+	705	@n.xdiff_amp1.xopamp1.xsf2.xm8.nsg13_lv_nmos[gm]	admittance
+	706	i(@n.xdiff_amp1.xopamp1.xsf2.xm8.nsg13_lv_nmos[ids])	current
+	707	v(@n.xdiff_amp1.xopamp1.xsf2.xm8.nsg13_lv_nmos[vds])	voltage
+	708	v(@n.xdiff_amp1.xopamp1.xsf2.xm8.nsg13_lv_nmos[vdss])	voltage
+	709	v(@n.xdiff_amp1.xopamp1.xsf2.xm8.nsg13_lv_nmos[vgs])	voltage
+	710	v(@n.xdiff_amp1.xopamp1.xsf2.xm8.nsg13_lv_nmos[vth])	voltage
+	711	@n.xdiff_amp1.xopamp1.xsf2.xm9.nsg13_lv_nmos[cgd]	capacitance
+	712	@n.xdiff_amp1.xopamp1.xsf2.xm9.nsg13_lv_nmos[cgdol]	capacitance
+	713	@n.xdiff_amp1.xopamp1.xsf2.xm9.nsg13_lv_nmos[cgg]	capacitance
+	714	@n.xdiff_amp1.xopamp1.xsf2.xm9.nsg13_lv_nmos[cgs]	capacitance
+	715	@n.xdiff_amp1.xopamp1.xsf2.xm9.nsg13_lv_nmos[cgsol]	capacitance
+	716	@n.xdiff_amp1.xopamp1.xsf2.xm9.nsg13_lv_nmos[gds]	admittance
+	717	@n.xdiff_amp1.xopamp1.xsf2.xm9.nsg13_lv_nmos[gm]	admittance
+	718	i(@n.xdiff_amp1.xopamp1.xsf2.xm9.nsg13_lv_nmos[ids])	current
+	719	v(@n.xdiff_amp1.xopamp1.xsf2.xm9.nsg13_lv_nmos[vds])	voltage
+	720	v(@n.xdiff_amp1.xopamp1.xsf2.xm9.nsg13_lv_nmos[vdss])	voltage
+	721	v(@n.xdiff_amp1.xopamp1.xsf2.xm9.nsg13_lv_nmos[vgs])	voltage
+	722	v(@n.xdiff_amp1.xopamp1.xsf2.xm9.nsg13_lv_nmos[vth])	voltage
+	723	@n.xdiff_amp1.xopamp1.xsf2.xm10.nsg13_lv_pmos[cgd]	capacitance
+	724	@n.xdiff_amp1.xopamp1.xsf2.xm10.nsg13_lv_pmos[cgdol]	capacitance
+	725	@n.xdiff_amp1.xopamp1.xsf2.xm10.nsg13_lv_pmos[cgg]	capacitance
+	726	@n.xdiff_amp1.xopamp1.xsf2.xm10.nsg13_lv_pmos[cgs]	capacitance
+	727	@n.xdiff_amp1.xopamp1.xsf2.xm10.nsg13_lv_pmos[cgsol]	capacitance
+	728	@n.xdiff_amp1.xopamp1.xsf2.xm10.nsg13_lv_pmos[gds]	admittance
+	729	@n.xdiff_amp1.xopamp1.xsf2.xm10.nsg13_lv_pmos[gm]	admittance
+	730	i(@n.xdiff_amp1.xopamp1.xsf2.xm10.nsg13_lv_pmos[ids])	current
+	731	v(@n.xdiff_amp1.xopamp1.xsf2.xm10.nsg13_lv_pmos[vds])	voltage
+	732	v(@n.xdiff_amp1.xopamp1.xsf2.xm10.nsg13_lv_pmos[vdss])	voltage
+	733	v(@n.xdiff_amp1.xopamp1.xsf2.xm10.nsg13_lv_pmos[vgs])	voltage
+	734	v(@n.xdiff_amp1.xopamp1.xsf2.xm10.nsg13_lv_pmos[vth])	voltage
+	735	@n.xdiff_amp1.xopamp1.xsf2.xm11.nsg13_lv_nmos[cgd]	capacitance dims=0
+	736	@n.xdiff_amp1.xopamp1.xsf2.xm11.nsg13_lv_nmos[cgdol]	capacitance dims=0
+	737	@n.xdiff_amp1.xopamp1.xsf2.xm11.nsg13_lv_nmos[cgg]	capacitance dims=0
+	738	@n.xdiff_amp1.xopamp1.xsf2.xm11.nsg13_lv_nmos[cgs]	capacitance dims=0
+	739	@n.xdiff_amp1.xopamp1.xsf2.xm11.nsg13_lv_nmos[cgsol]	capacitance dims=0
+	740	@n.xdiff_amp1.xopamp1.xsf2.xm11.nsg13_lv_nmos[gds]	admittance dims=0
+	741	@n.xdiff_amp1.xopamp1.xsf2.xm11.nsg13_lv_nmos[gm]	admittance dims=0
+	742	i(@n.xdiff_amp1.xopamp1.xsf2.xm11.nsg13_lv_nmos[ids])	current dims=0
+	743	v(@n.xdiff_amp1.xopamp1.xsf2.xm11.nsg13_lv_nmos[vds])	voltage dims=0
+	744	v(@n.xdiff_amp1.xopamp1.xsf2.xm11.nsg13_lv_nmos[vdss])	voltage dims=0
+	745	v(@n.xdiff_amp1.xopamp1.xsf2.xm11.nsg13_lv_nmos[vgs])	voltage dims=0
+	746	v(@n.xdiff_amp1.xopamp1.xsf2.xm11.nsg13_lv_nmos[vth])	voltage dims=0
+	747	@n.xdiff_amp1.xopamp1.xsf2.xm12.nsg13_lv_nmos[cgd]	capacitance
+	748	@n.xdiff_amp1.xopamp1.xsf2.xm12.nsg13_lv_nmos[cgdol]	capacitance
+	749	@n.xdiff_amp1.xopamp1.xsf2.xm12.nsg13_lv_nmos[cgg]	capacitance
+	750	@n.xdiff_amp1.xopamp1.xsf2.xm12.nsg13_lv_nmos[cgs]	capacitance
+	751	@n.xdiff_amp1.xopamp1.xsf2.xm12.nsg13_lv_nmos[cgsol]	capacitance
+	752	@n.xdiff_amp1.xopamp1.xsf2.xm12.nsg13_lv_nmos[gds]	admittance
+	753	@n.xdiff_amp1.xopamp1.xsf2.xm12.nsg13_lv_nmos[gm]	admittance
+	754	i(@n.xdiff_amp1.xopamp1.xsf2.xm12.nsg13_lv_nmos[ids])	current
+	755	v(@n.xdiff_amp1.xopamp1.xsf2.xm12.nsg13_lv_nmos[vds])	voltage
+	756	v(@n.xdiff_amp1.xopamp1.xsf2.xm12.nsg13_lv_nmos[vdss])	voltage
+	757	v(@n.xdiff_amp1.xopamp1.xsf2.xm12.nsg13_lv_nmos[vgs])	voltage
+	758	v(@n.xdiff_amp1.xopamp1.xsf2.xm12.nsg13_lv_nmos[vth])	voltage
+	759	@n.xdiff_amp1.xopamp1.xsf2.xm13.nsg13_lv_pmos[cgd]	capacitance
+	760	@n.xdiff_amp1.xopamp1.xsf2.xm13.nsg13_lv_pmos[cgdol]	capacitance
+	761	@n.xdiff_amp1.xopamp1.xsf2.xm13.nsg13_lv_pmos[cgg]	capacitance
+	762	@n.xdiff_amp1.xopamp1.xsf2.xm13.nsg13_lv_pmos[cgs]	capacitance
+	763	@n.xdiff_amp1.xopamp1.xsf2.xm13.nsg13_lv_pmos[cgsol]	capacitance
+	764	@n.xdiff_amp1.xopamp1.xsf2.xm13.nsg13_lv_pmos[gds]	admittance
+	765	@n.xdiff_amp1.xopamp1.xsf2.xm13.nsg13_lv_pmos[gm]	admittance
+	766	i(@n.xdiff_amp1.xopamp1.xsf2.xm13.nsg13_lv_pmos[ids])	current
+	767	v(@n.xdiff_amp1.xopamp1.xsf2.xm13.nsg13_lv_pmos[vds])	voltage
+	768	v(@n.xdiff_amp1.xopamp1.xsf2.xm13.nsg13_lv_pmos[vdss])	voltage
+	769	v(@n.xdiff_amp1.xopamp1.xsf2.xm13.nsg13_lv_pmos[vgs])	voltage
+	770	v(@n.xdiff_amp1.xopamp1.xsf2.xm13.nsg13_lv_pmos[vth])	voltage
+	771	@n.xdiff_amp1.xopamp1.xsf2.xm14.nsg13_lv_pmos[cgd]	capacitance
+	772	@n.xdiff_amp1.xopamp1.xsf2.xm14.nsg13_lv_pmos[cgdol]	capacitance
+	773	@n.xdiff_amp1.xopamp1.xsf2.xm14.nsg13_lv_pmos[cgg]	capacitance
+	774	@n.xdiff_amp1.xopamp1.xsf2.xm14.nsg13_lv_pmos[cgs]	capacitance
+	775	@n.xdiff_amp1.xopamp1.xsf2.xm14.nsg13_lv_pmos[cgsol]	capacitance
+	776	@n.xdiff_amp1.xopamp1.xsf2.xm14.nsg13_lv_pmos[gds]	admittance
+	777	@n.xdiff_amp1.xopamp1.xsf2.xm14.nsg13_lv_pmos[gm]	admittance
+	778	i(@n.xdiff_amp1.xopamp1.xsf2.xm14.nsg13_lv_pmos[ids])	current
+	779	v(@n.xdiff_amp1.xopamp1.xsf2.xm14.nsg13_lv_pmos[vds])	voltage
+	780	v(@n.xdiff_amp1.xopamp1.xsf2.xm14.nsg13_lv_pmos[vdss])	voltage
+	781	v(@n.xdiff_amp1.xopamp1.xsf2.xm14.nsg13_lv_pmos[vgs])	voltage
+	782	v(@n.xdiff_amp1.xopamp1.xsf2.xm14.nsg13_lv_pmos[vth])	voltage
+	783	@n.xdiff_amp1.xopamp1.xsf2.xm15.nsg13_lv_pmos[cgd]	capacitance dims=0
+	784	@n.xdiff_amp1.xopamp1.xsf2.xm15.nsg13_lv_pmos[cgdol]	capacitance dims=0
+	785	@n.xdiff_amp1.xopamp1.xsf2.xm15.nsg13_lv_pmos[cgg]	capacitance dims=0
+	786	@n.xdiff_amp1.xopamp1.xsf2.xm15.nsg13_lv_pmos[cgs]	capacitance dims=0
+	787	@n.xdiff_amp1.xopamp1.xsf2.xm15.nsg13_lv_pmos[cgsol]	capacitance dims=0
+	788	@n.xdiff_amp1.xopamp1.xsf2.xm15.nsg13_lv_pmos[gds]	admittance dims=0
+	789	@n.xdiff_amp1.xopamp1.xsf2.xm15.nsg13_lv_pmos[gm]	admittance dims=0
+	790	i(@n.xdiff_amp1.xopamp1.xsf2.xm15.nsg13_lv_pmos[ids])	current dims=0
+	791	v(@n.xdiff_amp1.xopamp1.xsf2.xm15.nsg13_lv_pmos[vds])	voltage dims=0
+	792	v(@n.xdiff_amp1.xopamp1.xsf2.xm15.nsg13_lv_pmos[vdss])	voltage dims=0
+	793	v(@n.xdiff_amp1.xopamp1.xsf2.xm15.nsg13_lv_pmos[vgs])	voltage dims=0
+	794	v(@n.xdiff_amp1.xopamp1.xsf2.xm15.nsg13_lv_pmos[vth])	voltage dims=0
+	795	@n.xdiff_amp1.xopamp1.xsf2.xma.nsg13_lv_pmos[cgd]	capacitance
+	796	@n.xdiff_amp1.xopamp1.xsf2.xma.nsg13_lv_pmos[cgdol]	capacitance
+	797	@n.xdiff_amp1.xopamp1.xsf2.xma.nsg13_lv_pmos[cgg]	capacitance
+	798	@n.xdiff_amp1.xopamp1.xsf2.xma.nsg13_lv_pmos[cgs]	capacitance
+	799	@n.xdiff_amp1.xopamp1.xsf2.xma.nsg13_lv_pmos[cgsol]	capacitance
+	800	@n.xdiff_amp1.xopamp1.xsf2.xma.nsg13_lv_pmos[gds]	admittance
+	801	@n.xdiff_amp1.xopamp1.xsf2.xma.nsg13_lv_pmos[gm]	admittance
+	802	i(@n.xdiff_amp1.xopamp1.xsf2.xma.nsg13_lv_pmos[ids])	current
+	803	v(@n.xdiff_amp1.xopamp1.xsf2.xma.nsg13_lv_pmos[vds])	voltage
+	804	v(@n.xdiff_amp1.xopamp1.xsf2.xma.nsg13_lv_pmos[vdss])	voltage
+	805	v(@n.xdiff_amp1.xopamp1.xsf2.xma.nsg13_lv_pmos[vgs])	voltage
+	806	v(@n.xdiff_amp1.xopamp1.xsf2.xma.nsg13_lv_pmos[vth])	voltage
+	807	@n.xdiff_amp1.xopamp1.xsf2.xmb.nsg13_lv_pmos[cgd]	capacitance
+	808	@n.xdiff_amp1.xopamp1.xsf2.xmb.nsg13_lv_pmos[cgdol]	capacitance
+	809	@n.xdiff_amp1.xopamp1.xsf2.xmb.nsg13_lv_pmos[cgg]	capacitance
+	810	@n.xdiff_amp1.xopamp1.xsf2.xmb.nsg13_lv_pmos[cgs]	capacitance
+	811	@n.xdiff_amp1.xopamp1.xsf2.xmb.nsg13_lv_pmos[cgsol]	capacitance
+	812	@n.xdiff_amp1.xopamp1.xsf2.xmb.nsg13_lv_pmos[gds]	admittance
+	813	@n.xdiff_amp1.xopamp1.xsf2.xmb.nsg13_lv_pmos[gm]	admittance
+	814	i(@n.xdiff_amp1.xopamp1.xsf2.xmb.nsg13_lv_pmos[ids])	current
+	815	v(@n.xdiff_amp1.xopamp1.xsf2.xmb.nsg13_lv_pmos[vds])	voltage
+	816	v(@n.xdiff_amp1.xopamp1.xsf2.xmb.nsg13_lv_pmos[vdss])	voltage
+	817	v(@n.xdiff_amp1.xopamp1.xsf2.xmb.nsg13_lv_pmos[vgs])	voltage
+	818	v(@n.xdiff_amp1.xopamp1.xsf2.xmb.nsg13_lv_pmos[vth])	voltage
+	819	@n.xdiff_amp1.xopamp1.xsf2.xmc.nsg13_lv_pmos[cgd]	capacitance
+	820	@n.xdiff_amp1.xopamp1.xsf2.xmc.nsg13_lv_pmos[cgdol]	capacitance
+	821	@n.xdiff_amp1.xopamp1.xsf2.xmc.nsg13_lv_pmos[cgg]	capacitance
+	822	@n.xdiff_amp1.xopamp1.xsf2.xmc.nsg13_lv_pmos[cgs]	capacitance
+	823	@n.xdiff_amp1.xopamp1.xsf2.xmc.nsg13_lv_pmos[cgsol]	capacitance
+	824	@n.xdiff_amp1.xopamp1.xsf2.xmc.nsg13_lv_pmos[gds]	admittance
+	825	@n.xdiff_amp1.xopamp1.xsf2.xmc.nsg13_lv_pmos[gm]	admittance
+	826	i(@n.xdiff_amp1.xopamp1.xsf2.xmc.nsg13_lv_pmos[ids])	current
+	827	v(@n.xdiff_amp1.xopamp1.xsf2.xmc.nsg13_lv_pmos[vds])	voltage
+	828	v(@n.xdiff_amp1.xopamp1.xsf2.xmc.nsg13_lv_pmos[vdss])	voltage
+	829	v(@n.xdiff_amp1.xopamp1.xsf2.xmc.nsg13_lv_pmos[vgs])	voltage
+	830	v(@n.xdiff_amp1.xopamp1.xsf2.xmc.nsg13_lv_pmos[vth])	voltage
+	831	@n.xdiff_amp1.xopamp1.xsf2.xmd.nsg13_lv_pmos[cgd]	capacitance
+	832	@n.xdiff_amp1.xopamp1.xsf2.xmd.nsg13_lv_pmos[cgdol]	capacitance
+	833	@n.xdiff_amp1.xopamp1.xsf2.xmd.nsg13_lv_pmos[cgg]	capacitance
+	834	@n.xdiff_amp1.xopamp1.xsf2.xmd.nsg13_lv_pmos[cgs]	capacitance
+	835	@n.xdiff_amp1.xopamp1.xsf2.xmd.nsg13_lv_pmos[cgsol]	capacitance
+	836	@n.xdiff_amp1.xopamp1.xsf2.xmd.nsg13_lv_pmos[gds]	admittance
+	837	@n.xdiff_amp1.xopamp1.xsf2.xmd.nsg13_lv_pmos[gm]	admittance
+	838	i(@n.xdiff_amp1.xopamp1.xsf2.xmd.nsg13_lv_pmos[ids])	current
+	839	v(@n.xdiff_amp1.xopamp1.xsf2.xmd.nsg13_lv_pmos[vds])	voltage
+	840	v(@n.xdiff_amp1.xopamp1.xsf2.xmd.nsg13_lv_pmos[vdss])	voltage
+	841	v(@n.xdiff_amp1.xopamp1.xsf2.xmd.nsg13_lv_pmos[vgs])	voltage
+	842	v(@n.xdiff_amp1.xopamp1.xsf2.xmd.nsg13_lv_pmos[vth])	voltage
+	843	@n.xdiff_amp1.xopamp1.xsf2.xme.nsg13_lv_pmos[cgd]	capacitance
+	844	@n.xdiff_amp1.xopamp1.xsf2.xme.nsg13_lv_pmos[cgdol]	capacitance
+	845	@n.xdiff_amp1.xopamp1.xsf2.xme.nsg13_lv_pmos[cgg]	capacitance
+	846	@n.xdiff_amp1.xopamp1.xsf2.xme.nsg13_lv_pmos[cgs]	capacitance
+	847	@n.xdiff_amp1.xopamp1.xsf2.xme.nsg13_lv_pmos[cgsol]	capacitance
+	848	@n.xdiff_amp1.xopamp1.xsf2.xme.nsg13_lv_pmos[gds]	admittance
+	849	@n.xdiff_amp1.xopamp1.xsf2.xme.nsg13_lv_pmos[gm]	admittance
+	850	i(@n.xdiff_amp1.xopamp1.xsf2.xme.nsg13_lv_pmos[ids])	current
+	851	v(@n.xdiff_amp1.xopamp1.xsf2.xme.nsg13_lv_pmos[vds])	voltage
+	852	v(@n.xdiff_amp1.xopamp1.xsf2.xme.nsg13_lv_pmos[vdss])	voltage
+	853	v(@n.xdiff_amp1.xopamp1.xsf2.xme.nsg13_lv_pmos[vgs])	voltage
+	854	v(@n.xdiff_amp1.xopamp1.xsf2.xme.nsg13_lv_pmos[vth])	voltage
+	855	@n.xdiff_amp1.xopamp1.xsf2.xmfg.nsg13_lv_nmos[cgd]	capacitance
+	856	@n.xdiff_amp1.xopamp1.xsf2.xmfg.nsg13_lv_nmos[cgdol]	capacitance
+	857	@n.xdiff_amp1.xopamp1.xsf2.xmfg.nsg13_lv_nmos[cgg]	capacitance
+	858	@n.xdiff_amp1.xopamp1.xsf2.xmfg.nsg13_lv_nmos[cgs]	capacitance
+	859	@n.xdiff_amp1.xopamp1.xsf2.xmfg.nsg13_lv_nmos[cgsol]	capacitance
+	860	@n.xdiff_amp1.xopamp1.xsf2.xmfg.nsg13_lv_nmos[gds]	admittance
+	861	@n.xdiff_amp1.xopamp1.xsf2.xmfg.nsg13_lv_nmos[gm]	admittance
+	862	i(@n.xdiff_amp1.xopamp1.xsf2.xmfg.nsg13_lv_nmos[ids])	current
+	863	v(@n.xdiff_amp1.xopamp1.xsf2.xmfg.nsg13_lv_nmos[vds])	voltage
+	864	v(@n.xdiff_amp1.xopamp1.xsf2.xmfg.nsg13_lv_nmos[vdss])	voltage
+	865	v(@n.xdiff_amp1.xopamp1.xsf2.xmfg.nsg13_lv_nmos[vgs])	voltage
+	866	v(@n.xdiff_amp1.xopamp1.xsf2.xmfg.nsg13_lv_nmos[vth])	voltage
+	867	@n.xdiff_amp1.xopamp1.xsf2.xmh.nsg13_lv_pmos[cgd]	capacitance
+	868	@n.xdiff_amp1.xopamp1.xsf2.xmh.nsg13_lv_pmos[cgdol]	capacitance
+	869	@n.xdiff_amp1.xopamp1.xsf2.xmh.nsg13_lv_pmos[cgg]	capacitance
+	870	@n.xdiff_amp1.xopamp1.xsf2.xmh.nsg13_lv_pmos[cgs]	capacitance
+	871	@n.xdiff_amp1.xopamp1.xsf2.xmh.nsg13_lv_pmos[cgsol]	capacitance
+	872	@n.xdiff_amp1.xopamp1.xsf2.xmh.nsg13_lv_pmos[gds]	admittance
+	873	@n.xdiff_amp1.xopamp1.xsf2.xmh.nsg13_lv_pmos[gm]	admittance
+	874	i(@n.xdiff_amp1.xopamp1.xsf2.xmh.nsg13_lv_pmos[ids])	current
+	875	v(@n.xdiff_amp1.xopamp1.xsf2.xmh.nsg13_lv_pmos[vds])	voltage
+	876	v(@n.xdiff_amp1.xopamp1.xsf2.xmh.nsg13_lv_pmos[vdss])	voltage
+	877	v(@n.xdiff_amp1.xopamp1.xsf2.xmh.nsg13_lv_pmos[vgs])	voltage
+	878	v(@n.xdiff_amp1.xopamp1.xsf2.xmh.nsg13_lv_pmos[vth])	voltage
+	879	@n.xdiff_amp1.xopamp1.xsf2.xmi.nsg13_lv_pmos[cgd]	capacitance
+	880	@n.xdiff_amp1.xopamp1.xsf2.xmi.nsg13_lv_pmos[cgdol]	capacitance
+	881	@n.xdiff_amp1.xopamp1.xsf2.xmi.nsg13_lv_pmos[cgg]	capacitance
+	882	@n.xdiff_amp1.xopamp1.xsf2.xmi.nsg13_lv_pmos[cgs]	capacitance
+	883	@n.xdiff_amp1.xopamp1.xsf2.xmi.nsg13_lv_pmos[cgsol]	capacitance
+	884	@n.xdiff_amp1.xopamp1.xsf2.xmi.nsg13_lv_pmos[gds]	admittance
+	885	@n.xdiff_amp1.xopamp1.xsf2.xmi.nsg13_lv_pmos[gm]	admittance
+	886	i(@n.xdiff_amp1.xopamp1.xsf2.xmi.nsg13_lv_pmos[ids])	current
+	887	v(@n.xdiff_amp1.xopamp1.xsf2.xmi.nsg13_lv_pmos[vds])	voltage
+	888	v(@n.xdiff_amp1.xopamp1.xsf2.xmi.nsg13_lv_pmos[vdss])	voltage
+	889	v(@n.xdiff_amp1.xopamp1.xsf2.xmi.nsg13_lv_pmos[vgs])	voltage
+	890	v(@n.xdiff_amp1.xopamp1.xsf2.xmi.nsg13_lv_pmos[vth])	voltage
+	891	@n.xdiff_amp1.xopamp1.xsf2.xmj.nsg13_lv_pmos[cgd]	capacitance
+	892	@n.xdiff_amp1.xopamp1.xsf2.xmj.nsg13_lv_pmos[cgdol]	capacitance
+	893	@n.xdiff_amp1.xopamp1.xsf2.xmj.nsg13_lv_pmos[cgg]	capacitance
+	894	@n.xdiff_amp1.xopamp1.xsf2.xmj.nsg13_lv_pmos[cgs]	capacitance
+	895	@n.xdiff_amp1.xopamp1.xsf2.xmj.nsg13_lv_pmos[cgsol]	capacitance
+	896	@n.xdiff_amp1.xopamp1.xsf2.xmj.nsg13_lv_pmos[gds]	admittance
+	897	@n.xdiff_amp1.xopamp1.xsf2.xmj.nsg13_lv_pmos[gm]	admittance
+	898	i(@n.xdiff_amp1.xopamp1.xsf2.xmj.nsg13_lv_pmos[ids])	current
+	899	v(@n.xdiff_amp1.xopamp1.xsf2.xmj.nsg13_lv_pmos[vds])	voltage
+	900	v(@n.xdiff_amp1.xopamp1.xsf2.xmj.nsg13_lv_pmos[vdss])	voltage
+	901	v(@n.xdiff_amp1.xopamp1.xsf2.xmj.nsg13_lv_pmos[vgs])	voltage
+	902	v(@n.xdiff_amp1.xopamp1.xsf2.xmj.nsg13_lv_pmos[vth])	voltage
+	903	@n.xdiff_amp1.xopamp1.xsf2.xmk.nsg13_lv_nmos[cgd]	capacitance
+	904	@n.xdiff_amp1.xopamp1.xsf2.xmk.nsg13_lv_nmos[cgdol]	capacitance
+	905	@n.xdiff_amp1.xopamp1.xsf2.xmk.nsg13_lv_nmos[cgg]	capacitance
+	906	@n.xdiff_amp1.xopamp1.xsf2.xmk.nsg13_lv_nmos[cgs]	capacitance
+	907	@n.xdiff_amp1.xopamp1.xsf2.xmk.nsg13_lv_nmos[cgsol]	capacitance
+	908	@n.xdiff_amp1.xopamp1.xsf2.xmk.nsg13_lv_nmos[gds]	admittance
+	909	@n.xdiff_amp1.xopamp1.xsf2.xmk.nsg13_lv_nmos[gm]	admittance
+	910	i(@n.xdiff_amp1.xopamp1.xsf2.xmk.nsg13_lv_nmos[ids])	current
+	911	v(@n.xdiff_amp1.xopamp1.xsf2.xmk.nsg13_lv_nmos[vds])	voltage
+	912	v(@n.xdiff_amp1.xopamp1.xsf2.xmk.nsg13_lv_nmos[vdss])	voltage
+	913	v(@n.xdiff_amp1.xopamp1.xsf2.xmk.nsg13_lv_nmos[vgs])	voltage
+	914	v(@n.xdiff_amp1.xopamp1.xsf2.xmk.nsg13_lv_nmos[vth])	voltage
+	915	@n.xdiff_amp1.xopamp1.xsf2.xml.nsg13_lv_nmos[cgd]	capacitance
+	916	@n.xdiff_amp1.xopamp1.xsf2.xml.nsg13_lv_nmos[cgdol]	capacitance
+	917	@n.xdiff_amp1.xopamp1.xsf2.xml.nsg13_lv_nmos[cgg]	capacitance
+	918	@n.xdiff_amp1.xopamp1.xsf2.xml.nsg13_lv_nmos[cgs]	capacitance
+	919	@n.xdiff_amp1.xopamp1.xsf2.xml.nsg13_lv_nmos[cgsol]	capacitance
+	920	@n.xdiff_amp1.xopamp1.xsf2.xml.nsg13_lv_nmos[gds]	admittance
+	921	@n.xdiff_amp1.xopamp1.xsf2.xml.nsg13_lv_nmos[gm]	admittance
+	922	i(@n.xdiff_amp1.xopamp1.xsf2.xml.nsg13_lv_nmos[ids])	current
+	923	v(@n.xdiff_amp1.xopamp1.xsf2.xml.nsg13_lv_nmos[vds])	voltage
+	924	v(@n.xdiff_amp1.xopamp1.xsf2.xml.nsg13_lv_nmos[vdss])	voltage
+	925	v(@n.xdiff_amp1.xopamp1.xsf2.xml.nsg13_lv_nmos[vgs])	voltage
+	926	v(@n.xdiff_amp1.xopamp1.xsf2.xml.nsg13_lv_nmos[vth])	voltage
+	927	@n.xdiff_amp1.xopamp1.xsf2.xmm.nsg13_lv_nmos[cgd]	capacitance
+	928	@n.xdiff_amp1.xopamp1.xsf2.xmm.nsg13_lv_nmos[cgdol]	capacitance
+	929	@n.xdiff_amp1.xopamp1.xsf2.xmm.nsg13_lv_nmos[cgg]	capacitance
+	930	@n.xdiff_amp1.xopamp1.xsf2.xmm.nsg13_lv_nmos[cgs]	capacitance
+	931	@n.xdiff_amp1.xopamp1.xsf2.xmm.nsg13_lv_nmos[cgsol]	capacitance
+	932	@n.xdiff_amp1.xopamp1.xsf2.xmm.nsg13_lv_nmos[gds]	admittance
+	933	@n.xdiff_amp1.xopamp1.xsf2.xmm.nsg13_lv_nmos[gm]	admittance
+	934	i(@n.xdiff_amp1.xopamp1.xsf2.xmm.nsg13_lv_nmos[ids])	current
+	935	v(@n.xdiff_amp1.xopamp1.xsf2.xmm.nsg13_lv_nmos[vds])	voltage
+	936	v(@n.xdiff_amp1.xopamp1.xsf2.xmm.nsg13_lv_nmos[vdss])	voltage
+	937	v(@n.xdiff_amp1.xopamp1.xsf2.xmm.nsg13_lv_nmos[vgs])	voltage
+	938	v(@n.xdiff_amp1.xopamp1.xsf2.xmm.nsg13_lv_nmos[vth])	voltage
+	939	@n.xdiff_amp1.xopamp1.xsf2.xmn.nsg13_lv_nmos[cgd]	capacitance
+	940	@n.xdiff_amp1.xopamp1.xsf2.xmn.nsg13_lv_nmos[cgdol]	capacitance
+	941	@n.xdiff_amp1.xopamp1.xsf2.xmn.nsg13_lv_nmos[cgg]	capacitance
+	942	@n.xdiff_amp1.xopamp1.xsf2.xmn.nsg13_lv_nmos[cgs]	capacitance
+	943	@n.xdiff_amp1.xopamp1.xsf2.xmn.nsg13_lv_nmos[cgsol]	capacitance
+	944	@n.xdiff_amp1.xopamp1.xsf2.xmn.nsg13_lv_nmos[gds]	admittance
+	945	@n.xdiff_amp1.xopamp1.xsf2.xmn.nsg13_lv_nmos[gm]	admittance
+	946	i(@n.xdiff_amp1.xopamp1.xsf2.xmn.nsg13_lv_nmos[ids])	current
+	947	v(@n.xdiff_amp1.xopamp1.xsf2.xmn.nsg13_lv_nmos[vds])	voltage
+	948	v(@n.xdiff_amp1.xopamp1.xsf2.xmn.nsg13_lv_nmos[vdss])	voltage
+	949	v(@n.xdiff_amp1.xopamp1.xsf2.xmn.nsg13_lv_nmos[vgs])	voltage
+	950	v(@n.xdiff_amp1.xopamp1.xsf2.xmn.nsg13_lv_nmos[vth])	voltage
+	951	@n.xdiff_amp1.xopamp1.xsf2.xmn0.nsg13_lv_nmos[cgd]	capacitance
+	952	@n.xdiff_amp1.xopamp1.xsf2.xmn0.nsg13_lv_nmos[cgdol]	capacitance
+	953	@n.xdiff_amp1.xopamp1.xsf2.xmn0.nsg13_lv_nmos[cgg]	capacitance
+	954	@n.xdiff_amp1.xopamp1.xsf2.xmn0.nsg13_lv_nmos[cgs]	capacitance
+	955	@n.xdiff_amp1.xopamp1.xsf2.xmn0.nsg13_lv_nmos[cgsol]	capacitance
+	956	@n.xdiff_amp1.xopamp1.xsf2.xmn0.nsg13_lv_nmos[gds]	admittance
+	957	@n.xdiff_amp1.xopamp1.xsf2.xmn0.nsg13_lv_nmos[gm]	admittance
+	958	i(@n.xdiff_amp1.xopamp1.xsf2.xmn0.nsg13_lv_nmos[ids])	current
+	959	v(@n.xdiff_amp1.xopamp1.xsf2.xmn0.nsg13_lv_nmos[vds])	voltage
+	960	v(@n.xdiff_amp1.xopamp1.xsf2.xmn0.nsg13_lv_nmos[vdss])	voltage
+	961	v(@n.xdiff_amp1.xopamp1.xsf2.xmn0.nsg13_lv_nmos[vgs])	voltage
+	962	v(@n.xdiff_amp1.xopamp1.xsf2.xmn0.nsg13_lv_nmos[vth])	voltage
+	963	@n.xdiff_amp1.xopamp1.xsf2.xmn1.nsg13_lv_nmos[cgd]	capacitance
+	964	@n.xdiff_amp1.xopamp1.xsf2.xmn1.nsg13_lv_nmos[cgdol]	capacitance
+	965	@n.xdiff_amp1.xopamp1.xsf2.xmn1.nsg13_lv_nmos[cgg]	capacitance
+	966	@n.xdiff_amp1.xopamp1.xsf2.xmn1.nsg13_lv_nmos[cgs]	capacitance
+	967	@n.xdiff_amp1.xopamp1.xsf2.xmn1.nsg13_lv_nmos[cgsol]	capacitance
+	968	@n.xdiff_amp1.xopamp1.xsf2.xmn1.nsg13_lv_nmos[gds]	admittance
+	969	@n.xdiff_amp1.xopamp1.xsf2.xmn1.nsg13_lv_nmos[gm]	admittance
+	970	i(@n.xdiff_amp1.xopamp1.xsf2.xmn1.nsg13_lv_nmos[ids])	current
+	971	v(@n.xdiff_amp1.xopamp1.xsf2.xmn1.nsg13_lv_nmos[vds])	voltage
+	972	v(@n.xdiff_amp1.xopamp1.xsf2.xmn1.nsg13_lv_nmos[vdss])	voltage
+	973	v(@n.xdiff_amp1.xopamp1.xsf2.xmn1.nsg13_lv_nmos[vgs])	voltage
+	974	v(@n.xdiff_amp1.xopamp1.xsf2.xmn1.nsg13_lv_nmos[vth])	voltage
+	975	@n.xdiff_amp1.xopamp1.xsf2.xmn2.nsg13_lv_nmos[cgd]	capacitance dims=0
+	976	@n.xdiff_amp1.xopamp1.xsf2.xmn2.nsg13_lv_nmos[cgdol]	capacitance dims=0
+	977	@n.xdiff_amp1.xopamp1.xsf2.xmn2.nsg13_lv_nmos[cgg]	capacitance dims=0
+	978	@n.xdiff_amp1.xopamp1.xsf2.xmn2.nsg13_lv_nmos[cgs]	capacitance dims=0
+	979	@n.xdiff_amp1.xopamp1.xsf2.xmn2.nsg13_lv_nmos[cgsol]	capacitance dims=0
+	980	@n.xdiff_amp1.xopamp1.xsf2.xmn2.nsg13_lv_nmos[gds]	admittance dims=0
+	981	@n.xdiff_amp1.xopamp1.xsf2.xmn2.nsg13_lv_nmos[gm]	admittance dims=0
+	982	i(@n.xdiff_amp1.xopamp1.xsf2.xmn2.nsg13_lv_nmos[ids])	current dims=0
+	983	v(@n.xdiff_amp1.xopamp1.xsf2.xmn2.nsg13_lv_nmos[vds])	voltage dims=0
+	984	v(@n.xdiff_amp1.xopamp1.xsf2.xmn2.nsg13_lv_nmos[vdss])	voltage dims=0
+	985	v(@n.xdiff_amp1.xopamp1.xsf2.xmn2.nsg13_lv_nmos[vgs])	voltage dims=0
+	986	v(@n.xdiff_amp1.xopamp1.xsf2.xmn2.nsg13_lv_nmos[vth])	voltage dims=0
+	987	@n.xdiff_amp1.xopamp1.xsf2.xmo.nsg13_lv_nmos[cgd]	capacitance
+	988	@n.xdiff_amp1.xopamp1.xsf2.xmo.nsg13_lv_nmos[cgdol]	capacitance
+	989	@n.xdiff_amp1.xopamp1.xsf2.xmo.nsg13_lv_nmos[cgg]	capacitance
+	990	@n.xdiff_amp1.xopamp1.xsf2.xmo.nsg13_lv_nmos[cgs]	capacitance
+	991	@n.xdiff_amp1.xopamp1.xsf2.xmo.nsg13_lv_nmos[cgsol]	capacitance
+	992	@n.xdiff_amp1.xopamp1.xsf2.xmo.nsg13_lv_nmos[gds]	admittance
+	993	@n.xdiff_amp1.xopamp1.xsf2.xmo.nsg13_lv_nmos[gm]	admittance
+	994	i(@n.xdiff_amp1.xopamp1.xsf2.xmo.nsg13_lv_nmos[ids])	current
+	995	v(@n.xdiff_amp1.xopamp1.xsf2.xmo.nsg13_lv_nmos[vds])	voltage
+	996	v(@n.xdiff_amp1.xopamp1.xsf2.xmo.nsg13_lv_nmos[vdss])	voltage
+	997	v(@n.xdiff_amp1.xopamp1.xsf2.xmo.nsg13_lv_nmos[vgs])	voltage
+	998	v(@n.xdiff_amp1.xopamp1.xsf2.xmo.nsg13_lv_nmos[vth])	voltage
+	999	@n.xdiff_amp1.xopamp1.xsf2.xmp.nsg13_lv_nmos[cgd]	capacitance
+	1000	@n.xdiff_amp1.xopamp1.xsf2.xmp.nsg13_lv_nmos[cgdol]	capacitance
+	1001	@n.xdiff_amp1.xopamp1.xsf2.xmp.nsg13_lv_nmos[cgg]	capacitance
+	1002	@n.xdiff_amp1.xopamp1.xsf2.xmp.nsg13_lv_nmos[cgs]	capacitance
+	1003	@n.xdiff_amp1.xopamp1.xsf2.xmp.nsg13_lv_nmos[cgsol]	capacitance
+	1004	@n.xdiff_amp1.xopamp1.xsf2.xmp.nsg13_lv_nmos[gds]	admittance
+	1005	@n.xdiff_amp1.xopamp1.xsf2.xmp.nsg13_lv_nmos[gm]	admittance
+	1006	i(@n.xdiff_amp1.xopamp1.xsf2.xmp.nsg13_lv_nmos[ids])	current
+	1007	v(@n.xdiff_amp1.xopamp1.xsf2.xmp.nsg13_lv_nmos[vds])	voltage
+	1008	v(@n.xdiff_amp1.xopamp1.xsf2.xmp.nsg13_lv_nmos[vdss])	voltage
+	1009	v(@n.xdiff_amp1.xopamp1.xsf2.xmp.nsg13_lv_nmos[vgs])	voltage
+	1010	v(@n.xdiff_amp1.xopamp1.xsf2.xmp.nsg13_lv_nmos[vth])	voltage
+	1011	@n.xdiff_amp1.xopamp1.xsf2.xmp0.nsg13_lv_pmos[cgd]	capacitance
+	1012	@n.xdiff_amp1.xopamp1.xsf2.xmp0.nsg13_lv_pmos[cgdol]	capacitance
+	1013	@n.xdiff_amp1.xopamp1.xsf2.xmp0.nsg13_lv_pmos[cgg]	capacitance
+	1014	@n.xdiff_amp1.xopamp1.xsf2.xmp0.nsg13_lv_pmos[cgs]	capacitance
+	1015	@n.xdiff_amp1.xopamp1.xsf2.xmp0.nsg13_lv_pmos[cgsol]	capacitance
+	1016	@n.xdiff_amp1.xopamp1.xsf2.xmp0.nsg13_lv_pmos[gds]	admittance
+	1017	@n.xdiff_amp1.xopamp1.xsf2.xmp0.nsg13_lv_pmos[gm]	admittance
+	1018	i(@n.xdiff_amp1.xopamp1.xsf2.xmp0.nsg13_lv_pmos[ids])	current
+	1019	v(@n.xdiff_amp1.xopamp1.xsf2.xmp0.nsg13_lv_pmos[vds])	voltage
+	1020	v(@n.xdiff_amp1.xopamp1.xsf2.xmp0.nsg13_lv_pmos[vdss])	voltage
+	1021	v(@n.xdiff_amp1.xopamp1.xsf2.xmp0.nsg13_lv_pmos[vgs])	voltage
+	1022	v(@n.xdiff_amp1.xopamp1.xsf2.xmp0.nsg13_lv_pmos[vth])	voltage
+	1023	@n.xdiff_amp1.xopamp1.xsf2.xmq.nsg13_lv_nmos[cgd]	capacitance
+	1024	@n.xdiff_amp1.xopamp1.xsf2.xmq.nsg13_lv_nmos[cgdol]	capacitance
+	1025	@n.xdiff_amp1.xopamp1.xsf2.xmq.nsg13_lv_nmos[cgg]	capacitance
+	1026	@n.xdiff_amp1.xopamp1.xsf2.xmq.nsg13_lv_nmos[cgs]	capacitance
+	1027	@n.xdiff_amp1.xopamp1.xsf2.xmq.nsg13_lv_nmos[cgsol]	capacitance
+	1028	@n.xdiff_amp1.xopamp1.xsf2.xmq.nsg13_lv_nmos[gds]	admittance
+	1029	@n.xdiff_amp1.xopamp1.xsf2.xmq.nsg13_lv_nmos[gm]	admittance
+	1030	i(@n.xdiff_amp1.xopamp1.xsf2.xmq.nsg13_lv_nmos[ids])	current
+	1031	v(@n.xdiff_amp1.xopamp1.xsf2.xmq.nsg13_lv_nmos[vds])	voltage
+	1032	v(@n.xdiff_amp1.xopamp1.xsf2.xmq.nsg13_lv_nmos[vdss])	voltage
+	1033	v(@n.xdiff_amp1.xopamp1.xsf2.xmq.nsg13_lv_nmos[vgs])	voltage
+	1034	v(@n.xdiff_amp1.xopamp1.xsf2.xmq.nsg13_lv_nmos[vth])	voltage
+	1035	@n.xdiff_amp1.xopamp1.xsf2.xmx.nsg13_lv_nmos[cgd]	capacitance
+	1036	@n.xdiff_amp1.xopamp1.xsf2.xmx.nsg13_lv_nmos[cgdol]	capacitance
+	1037	@n.xdiff_amp1.xopamp1.xsf2.xmx.nsg13_lv_nmos[cgg]	capacitance
+	1038	@n.xdiff_amp1.xopamp1.xsf2.xmx.nsg13_lv_nmos[cgs]	capacitance
+	1039	@n.xdiff_amp1.xopamp1.xsf2.xmx.nsg13_lv_nmos[cgsol]	capacitance
+	1040	@n.xdiff_amp1.xopamp1.xsf2.xmx.nsg13_lv_nmos[gds]	admittance
+	1041	@n.xdiff_amp1.xopamp1.xsf2.xmx.nsg13_lv_nmos[gm]	admittance
+	1042	i(@n.xdiff_amp1.xopamp1.xsf2.xmx.nsg13_lv_nmos[ids])	current
+	1043	v(@n.xdiff_amp1.xopamp1.xsf2.xmx.nsg13_lv_nmos[vds])	voltage
+	1044	v(@n.xdiff_amp1.xopamp1.xsf2.xmx.nsg13_lv_nmos[vdss])	voltage
+	1045	v(@n.xdiff_amp1.xopamp1.xsf2.xmx.nsg13_lv_nmos[vgs])	voltage
+	1046	v(@n.xdiff_amp1.xopamp1.xsf2.xmx.nsg13_lv_nmos[vth])	voltage
+	1047	@n.xdiff_amp1.xota1.xm2.nsg13_lv_nmos[cgd]	capacitance
+	1048	@n.xdiff_amp1.xota1.xm2.nsg13_lv_nmos[cgdol]	capacitance
+	1049	@n.xdiff_amp1.xota1.xm2.nsg13_lv_nmos[cgg]	capacitance
+	1050	@n.xdiff_amp1.xota1.xm2.nsg13_lv_nmos[cgs]	capacitance
+	1051	@n.xdiff_amp1.xota1.xm2.nsg13_lv_nmos[cgsol]	capacitance
+	1052	@n.xdiff_amp1.xota1.xm2.nsg13_lv_nmos[gds]	admittance
+	1053	@n.xdiff_amp1.xota1.xm2.nsg13_lv_nmos[gm]	admittance
+	1054	i(@n.xdiff_amp1.xota1.xm2.nsg13_lv_nmos[ids])	current
+	1055	v(@n.xdiff_amp1.xota1.xm2.nsg13_lv_nmos[vds])	voltage
+	1056	v(@n.xdiff_amp1.xota1.xm2.nsg13_lv_nmos[vdss])	voltage
+	1057	v(@n.xdiff_amp1.xota1.xm2.nsg13_lv_nmos[vgs])	voltage
+	1058	v(@n.xdiff_amp1.xota1.xm2.nsg13_lv_nmos[vth])	voltage
+	1059	@n.xdiff_amp1.xota1.xmh.nsg13_lv_nmos[cgd]	capacitance
+	1060	@n.xdiff_amp1.xota1.xmh.nsg13_lv_nmos[cgdol]	capacitance
+	1061	@n.xdiff_amp1.xota1.xmh.nsg13_lv_nmos[cgg]	capacitance
+	1062	@n.xdiff_amp1.xota1.xmh.nsg13_lv_nmos[cgs]	capacitance
+	1063	@n.xdiff_amp1.xota1.xmh.nsg13_lv_nmos[cgsol]	capacitance
+	1064	@n.xdiff_amp1.xota1.xmh.nsg13_lv_nmos[gds]	admittance
+	1065	@n.xdiff_amp1.xota1.xmh.nsg13_lv_nmos[gm]	admittance
+	1066	i(@n.xdiff_amp1.xota1.xmh.nsg13_lv_nmos[ids])	current
+	1067	v(@n.xdiff_amp1.xota1.xmh.nsg13_lv_nmos[vds])	voltage
+	1068	v(@n.xdiff_amp1.xota1.xmh.nsg13_lv_nmos[vdss])	voltage
+	1069	v(@n.xdiff_amp1.xota1.xmh.nsg13_lv_nmos[vgs])	voltage
+	1070	v(@n.xdiff_amp1.xota1.xmh.nsg13_lv_nmos[vth])	voltage
+	1071	@n.xdiff_amp1.xota1.xmi.nsg13_lv_nmos[cgd]	capacitance
+	1072	@n.xdiff_amp1.xota1.xmi.nsg13_lv_nmos[cgdol]	capacitance
+	1073	@n.xdiff_amp1.xota1.xmi.nsg13_lv_nmos[cgg]	capacitance
+	1074	@n.xdiff_amp1.xota1.xmi.nsg13_lv_nmos[cgs]	capacitance
+	1075	@n.xdiff_amp1.xota1.xmi.nsg13_lv_nmos[cgsol]	capacitance
+	1076	@n.xdiff_amp1.xota1.xmi.nsg13_lv_nmos[gds]	admittance
+	1077	@n.xdiff_amp1.xota1.xmi.nsg13_lv_nmos[gm]	admittance
+	1078	i(@n.xdiff_amp1.xota1.xmi.nsg13_lv_nmos[ids])	current
+	1079	v(@n.xdiff_amp1.xota1.xmi.nsg13_lv_nmos[vds])	voltage
+	1080	v(@n.xdiff_amp1.xota1.xmi.nsg13_lv_nmos[vdss])	voltage
+	1081	v(@n.xdiff_amp1.xota1.xmi.nsg13_lv_nmos[vgs])	voltage
+	1082	v(@n.xdiff_amp1.xota1.xmi.nsg13_lv_nmos[vth])	voltage
+	1083	@n.xdiff_amp1.xota1.xmj.nsg13_lv_nmos[cgd]	capacitance
+	1084	@n.xdiff_amp1.xota1.xmj.nsg13_lv_nmos[cgdol]	capacitance
+	1085	@n.xdiff_amp1.xota1.xmj.nsg13_lv_nmos[cgg]	capacitance
+	1086	@n.xdiff_amp1.xota1.xmj.nsg13_lv_nmos[cgs]	capacitance
+	1087	@n.xdiff_amp1.xota1.xmj.nsg13_lv_nmos[cgsol]	capacitance
+	1088	@n.xdiff_amp1.xota1.xmj.nsg13_lv_nmos[gds]	admittance
+	1089	@n.xdiff_amp1.xota1.xmj.nsg13_lv_nmos[gm]	admittance
+	1090	i(@n.xdiff_amp1.xota1.xmj.nsg13_lv_nmos[ids])	current
+	1091	v(@n.xdiff_amp1.xota1.xmj.nsg13_lv_nmos[vds])	voltage
+	1092	v(@n.xdiff_amp1.xota1.xmj.nsg13_lv_nmos[vdss])	voltage
+	1093	v(@n.xdiff_amp1.xota1.xmj.nsg13_lv_nmos[vgs])	voltage
+	1094	v(@n.xdiff_amp1.xota1.xmj.nsg13_lv_nmos[vth])	voltage
+	1095	@n.xdiff_amp1.xota1.xmk.nsg13_lv_pmos[cgd]	capacitance
+	1096	@n.xdiff_amp1.xota1.xmk.nsg13_lv_pmos[cgdol]	capacitance
+	1097	@n.xdiff_amp1.xota1.xmk.nsg13_lv_pmos[cgg]	capacitance
+	1098	@n.xdiff_amp1.xota1.xmk.nsg13_lv_pmos[cgs]	capacitance
+	1099	@n.xdiff_amp1.xota1.xmk.nsg13_lv_pmos[cgsol]	capacitance
+	1100	@n.xdiff_amp1.xota1.xmk.nsg13_lv_pmos[gds]	admittance
+	1101	@n.xdiff_amp1.xota1.xmk.nsg13_lv_pmos[gm]	admittance
+	1102	i(@n.xdiff_amp1.xota1.xmk.nsg13_lv_pmos[ids])	current
+	1103	v(@n.xdiff_amp1.xota1.xmk.nsg13_lv_pmos[vds])	voltage
+	1104	v(@n.xdiff_amp1.xota1.xmk.nsg13_lv_pmos[vdss])	voltage
+	1105	v(@n.xdiff_amp1.xota1.xmk.nsg13_lv_pmos[vgs])	voltage
+	1106	v(@n.xdiff_amp1.xota1.xmk.nsg13_lv_pmos[vth])	voltage
+	1107	@n.xdiff_amp1.xota1.xmk1.nsg13_lv_pmos[cgd]	capacitance
+	1108	@n.xdiff_amp1.xota1.xmk1.nsg13_lv_pmos[cgdol]	capacitance
+	1109	@n.xdiff_amp1.xota1.xmk1.nsg13_lv_pmos[cgg]	capacitance
+	1110	@n.xdiff_amp1.xota1.xmk1.nsg13_lv_pmos[cgs]	capacitance
+	1111	@n.xdiff_amp1.xota1.xmk1.nsg13_lv_pmos[cgsol]	capacitance
+	1112	@n.xdiff_amp1.xota1.xmk1.nsg13_lv_pmos[gds]	admittance
+	1113	@n.xdiff_amp1.xota1.xmk1.nsg13_lv_pmos[gm]	admittance
+	1114	i(@n.xdiff_amp1.xota1.xmk1.nsg13_lv_pmos[ids])	current
+	1115	v(@n.xdiff_amp1.xota1.xmk1.nsg13_lv_pmos[vds])	voltage
+	1116	v(@n.xdiff_amp1.xota1.xmk1.nsg13_lv_pmos[vdss])	voltage
+	1117	v(@n.xdiff_amp1.xota1.xmk1.nsg13_lv_pmos[vgs])	voltage
+	1118	v(@n.xdiff_amp1.xota1.xmk1.nsg13_lv_pmos[vth])	voltage
+	1119	@n.xdiff_amp1.xota1.xmk2.nsg13_lv_pmos[cgd]	capacitance
+	1120	@n.xdiff_amp1.xota1.xmk2.nsg13_lv_pmos[cgdol]	capacitance
+	1121	@n.xdiff_amp1.xota1.xmk2.nsg13_lv_pmos[cgg]	capacitance
+	1122	@n.xdiff_amp1.xota1.xmk2.nsg13_lv_pmos[cgs]	capacitance
+	1123	@n.xdiff_amp1.xota1.xmk2.nsg13_lv_pmos[cgsol]	capacitance
+	1124	@n.xdiff_amp1.xota1.xmk2.nsg13_lv_pmos[gds]	admittance
+	1125	@n.xdiff_amp1.xota1.xmk2.nsg13_lv_pmos[gm]	admittance
+	1126	i(@n.xdiff_amp1.xota1.xmk2.nsg13_lv_pmos[ids])	current
+	1127	v(@n.xdiff_amp1.xota1.xmk2.nsg13_lv_pmos[vds])	voltage
+	1128	v(@n.xdiff_amp1.xota1.xmk2.nsg13_lv_pmos[vdss])	voltage
+	1129	v(@n.xdiff_amp1.xota1.xmk2.nsg13_lv_pmos[vgs])	voltage
+	1130	v(@n.xdiff_amp1.xota1.xmk2.nsg13_lv_pmos[vth])	voltage
+	1131	@n.xdiff_amp1.xota1.xmk3.nsg13_lv_pmos[cgd]	capacitance
+	1132	@n.xdiff_amp1.xota1.xmk3.nsg13_lv_pmos[cgdol]	capacitance
+	1133	@n.xdiff_amp1.xota1.xmk3.nsg13_lv_pmos[cgg]	capacitance
+	1134	@n.xdiff_amp1.xota1.xmk3.nsg13_lv_pmos[cgs]	capacitance
+	1135	@n.xdiff_amp1.xota1.xmk3.nsg13_lv_pmos[cgsol]	capacitance
+	1136	@n.xdiff_amp1.xota1.xmk3.nsg13_lv_pmos[gds]	admittance
+	1137	@n.xdiff_amp1.xota1.xmk3.nsg13_lv_pmos[gm]	admittance
+	1138	i(@n.xdiff_amp1.xota1.xmk3.nsg13_lv_pmos[ids])	current
+	1139	v(@n.xdiff_amp1.xota1.xmk3.nsg13_lv_pmos[vds])	voltage
+	1140	v(@n.xdiff_amp1.xota1.xmk3.nsg13_lv_pmos[vdss])	voltage
+	1141	v(@n.xdiff_amp1.xota1.xmk3.nsg13_lv_pmos[vgs])	voltage
+	1142	v(@n.xdiff_amp1.xota1.xmk3.nsg13_lv_pmos[vth])	voltage
+	1143	@n.xdiff_amp1.xota1.xmk4.nsg13_lv_pmos[cgd]	capacitance
+	1144	@n.xdiff_amp1.xota1.xmk4.nsg13_lv_pmos[cgdol]	capacitance
+	1145	@n.xdiff_amp1.xota1.xmk4.nsg13_lv_pmos[cgg]	capacitance
+	1146	@n.xdiff_amp1.xota1.xmk4.nsg13_lv_pmos[cgs]	capacitance
+	1147	@n.xdiff_amp1.xota1.xmk4.nsg13_lv_pmos[cgsol]	capacitance
+	1148	@n.xdiff_amp1.xota1.xmk4.nsg13_lv_pmos[gds]	admittance
+	1149	@n.xdiff_amp1.xota1.xmk4.nsg13_lv_pmos[gm]	admittance
+	1150	i(@n.xdiff_amp1.xota1.xmk4.nsg13_lv_pmos[ids])	current
+	1151	v(@n.xdiff_amp1.xota1.xmk4.nsg13_lv_pmos[vds])	voltage
+	1152	v(@n.xdiff_amp1.xota1.xmk4.nsg13_lv_pmos[vdss])	voltage
+	1153	v(@n.xdiff_amp1.xota1.xmk4.nsg13_lv_pmos[vgs])	voltage
+	1154	v(@n.xdiff_amp1.xota1.xmk4.nsg13_lv_pmos[vth])	voltage
+	1155	@n.xdiff_amp1.xota1.xml.nsg13_lv_pmos[cgd]	capacitance
+	1156	@n.xdiff_amp1.xota1.xml.nsg13_lv_pmos[cgdol]	capacitance
+	1157	@n.xdiff_amp1.xota1.xml.nsg13_lv_pmos[cgg]	capacitance
+	1158	@n.xdiff_amp1.xota1.xml.nsg13_lv_pmos[cgs]	capacitance
+	1159	@n.xdiff_amp1.xota1.xml.nsg13_lv_pmos[cgsol]	capacitance
+	1160	@n.xdiff_amp1.xota1.xml.nsg13_lv_pmos[gds]	admittance
+	1161	@n.xdiff_amp1.xota1.xml.nsg13_lv_pmos[gm]	admittance
+	1162	i(@n.xdiff_amp1.xota1.xml.nsg13_lv_pmos[ids])	current
+	1163	v(@n.xdiff_amp1.xota1.xml.nsg13_lv_pmos[vds])	voltage
+	1164	v(@n.xdiff_amp1.xota1.xml.nsg13_lv_pmos[vdss])	voltage
+	1165	v(@n.xdiff_amp1.xota1.xml.nsg13_lv_pmos[vgs])	voltage
+	1166	v(@n.xdiff_amp1.xota1.xml.nsg13_lv_pmos[vth])	voltage
+	1167	@n.xdiff_amp1.xota1.xmn.nsg13_lv_pmos[cgd]	capacitance
+	1168	@n.xdiff_amp1.xota1.xmn.nsg13_lv_pmos[cgdol]	capacitance
+	1169	@n.xdiff_amp1.xota1.xmn.nsg13_lv_pmos[cgg]	capacitance
+	1170	@n.xdiff_amp1.xota1.xmn.nsg13_lv_pmos[cgs]	capacitance
+	1171	@n.xdiff_amp1.xota1.xmn.nsg13_lv_pmos[cgsol]	capacitance
+	1172	@n.xdiff_amp1.xota1.xmn.nsg13_lv_pmos[gds]	admittance
+	1173	@n.xdiff_amp1.xota1.xmn.nsg13_lv_pmos[gm]	admittance
+	1174	i(@n.xdiff_amp1.xota1.xmn.nsg13_lv_pmos[ids])	current
+	1175	v(@n.xdiff_amp1.xota1.xmn.nsg13_lv_pmos[vds])	voltage
+	1176	v(@n.xdiff_amp1.xota1.xmn.nsg13_lv_pmos[vdss])	voltage
+	1177	v(@n.xdiff_amp1.xota1.xmn.nsg13_lv_pmos[vgs])	voltage
+	1178	v(@n.xdiff_amp1.xota1.xmn.nsg13_lv_pmos[vth])	voltage
+	1179	@n.xdiff_amp1.xota1.xmn0.nsg13_lv_nmos[cgd]	capacitance
+	1180	@n.xdiff_amp1.xota1.xmn0.nsg13_lv_nmos[cgdol]	capacitance
+	1181	@n.xdiff_amp1.xota1.xmn0.nsg13_lv_nmos[cgg]	capacitance
+	1182	@n.xdiff_amp1.xota1.xmn0.nsg13_lv_nmos[cgs]	capacitance
+	1183	@n.xdiff_amp1.xota1.xmn0.nsg13_lv_nmos[cgsol]	capacitance
+	1184	@n.xdiff_amp1.xota1.xmn0.nsg13_lv_nmos[gds]	admittance
+	1185	@n.xdiff_amp1.xota1.xmn0.nsg13_lv_nmos[gm]	admittance
+	1186	i(@n.xdiff_amp1.xota1.xmn0.nsg13_lv_nmos[ids])	current
+	1187	v(@n.xdiff_amp1.xota1.xmn0.nsg13_lv_nmos[vds])	voltage
+	1188	v(@n.xdiff_amp1.xota1.xmn0.nsg13_lv_nmos[vdss])	voltage
+	1189	v(@n.xdiff_amp1.xota1.xmn0.nsg13_lv_nmos[vgs])	voltage
+	1190	v(@n.xdiff_amp1.xota1.xmn0.nsg13_lv_nmos[vth])	voltage
+	1191	@n.xdiff_amp1.xota1.xmn1.nsg13_lv_nmos[cgd]	capacitance
+	1192	@n.xdiff_amp1.xota1.xmn1.nsg13_lv_nmos[cgdol]	capacitance
+	1193	@n.xdiff_amp1.xota1.xmn1.nsg13_lv_nmos[cgg]	capacitance
+	1194	@n.xdiff_amp1.xota1.xmn1.nsg13_lv_nmos[cgs]	capacitance
+	1195	@n.xdiff_amp1.xota1.xmn1.nsg13_lv_nmos[cgsol]	capacitance
+	1196	@n.xdiff_amp1.xota1.xmn1.nsg13_lv_nmos[gds]	admittance
+	1197	@n.xdiff_amp1.xota1.xmn1.nsg13_lv_nmos[gm]	admittance
+	1198	i(@n.xdiff_amp1.xota1.xmn1.nsg13_lv_nmos[ids])	current
+	1199	v(@n.xdiff_amp1.xota1.xmn1.nsg13_lv_nmos[vds])	voltage
+	1200	v(@n.xdiff_amp1.xota1.xmn1.nsg13_lv_nmos[vdss])	voltage
+	1201	v(@n.xdiff_amp1.xota1.xmn1.nsg13_lv_nmos[vgs])	voltage
+	1202	v(@n.xdiff_amp1.xota1.xmn1.nsg13_lv_nmos[vth])	voltage
+	1203	@n.xdiff_amp1.xota1.xmo.nsg13_lv_pmos[cgd]	capacitance
+	1204	@n.xdiff_amp1.xota1.xmo.nsg13_lv_pmos[cgdol]	capacitance
+	1205	@n.xdiff_amp1.xota1.xmo.nsg13_lv_pmos[cgg]	capacitance
+	1206	@n.xdiff_amp1.xota1.xmo.nsg13_lv_pmos[cgs]	capacitance
+	1207	@n.xdiff_amp1.xota1.xmo.nsg13_lv_pmos[cgsol]	capacitance
+	1208	@n.xdiff_amp1.xota1.xmo.nsg13_lv_pmos[gds]	admittance
+	1209	@n.xdiff_amp1.xota1.xmo.nsg13_lv_pmos[gm]	admittance
+	1210	i(@n.xdiff_amp1.xota1.xmo.nsg13_lv_pmos[ids])	current
+	1211	v(@n.xdiff_amp1.xota1.xmo.nsg13_lv_pmos[vds])	voltage
+	1212	v(@n.xdiff_amp1.xota1.xmo.nsg13_lv_pmos[vdss])	voltage
+	1213	v(@n.xdiff_amp1.xota1.xmo.nsg13_lv_pmos[vgs])	voltage
+	1214	v(@n.xdiff_amp1.xota1.xmo.nsg13_lv_pmos[vth])	voltage
+	1215	@n.xdiff_amp1.xota1.xmp0.nsg13_lv_pmos[cgd]	capacitance
+	1216	@n.xdiff_amp1.xota1.xmp0.nsg13_lv_pmos[cgdol]	capacitance
+	1217	@n.xdiff_amp1.xota1.xmp0.nsg13_lv_pmos[cgg]	capacitance
+	1218	@n.xdiff_amp1.xota1.xmp0.nsg13_lv_pmos[cgs]	capacitance
+	1219	@n.xdiff_amp1.xota1.xmp0.nsg13_lv_pmos[cgsol]	capacitance
+	1220	@n.xdiff_amp1.xota1.xmp0.nsg13_lv_pmos[gds]	admittance
+	1221	@n.xdiff_amp1.xota1.xmp0.nsg13_lv_pmos[gm]	admittance
+	1222	i(@n.xdiff_amp1.xota1.xmp0.nsg13_lv_pmos[ids])	current
+	1223	v(@n.xdiff_amp1.xota1.xmp0.nsg13_lv_pmos[vds])	voltage
+	1224	v(@n.xdiff_amp1.xota1.xmp0.nsg13_lv_pmos[vdss])	voltage
+	1225	v(@n.xdiff_amp1.xota1.xmp0.nsg13_lv_pmos[vgs])	voltage
+	1226	v(@n.xdiff_amp1.xota1.xmp0.nsg13_lv_pmos[vth])	voltage
+	1227	@n.xdiff_amp1.xota1.xmp1.nsg13_lv_pmos[cgd]	capacitance
+	1228	@n.xdiff_amp1.xota1.xmp1.nsg13_lv_pmos[cgdol]	capacitance
+	1229	@n.xdiff_amp1.xota1.xmp1.nsg13_lv_pmos[cgg]	capacitance
+	1230	@n.xdiff_amp1.xota1.xmp1.nsg13_lv_pmos[cgs]	capacitance
+	1231	@n.xdiff_amp1.xota1.xmp1.nsg13_lv_pmos[cgsol]	capacitance
+	1232	@n.xdiff_amp1.xota1.xmp1.nsg13_lv_pmos[gds]	admittance
+	1233	@n.xdiff_amp1.xota1.xmp1.nsg13_lv_pmos[gm]	admittance
+	1234	i(@n.xdiff_amp1.xota1.xmp1.nsg13_lv_pmos[ids])	current
+	1235	v(@n.xdiff_amp1.xota1.xmp1.nsg13_lv_pmos[vds])	voltage
+	1236	v(@n.xdiff_amp1.xota1.xmp1.nsg13_lv_pmos[vdss])	voltage
+	1237	v(@n.xdiff_amp1.xota1.xmp1.nsg13_lv_pmos[vgs])	voltage
+	1238	v(@n.xdiff_amp1.xota1.xmp1.nsg13_lv_pmos[vth])	voltage
+	1239	v(en)	voltage
+	1240	v(ibias)	voltage
+	1241	v(n.xdiff_amp1.xm1.nsg13_lv_nmos#gp)	voltage
+	1242	v(n.xdiff_amp1.xm2.nsg13_lv_pmos#gp)	voltage
+	1243	v(n.xdiff_amp1.xm7.nsg13_lv_nmos#gp)	voltage
+	1244	v(n.xdiff_amp1.xopamp1.xma.nsg13_lv_pmos#gp)	voltage
+	1245	v(n.xdiff_amp1.xopamp1.xmb.nsg13_lv_pmos#gp)	voltage
+	1246	v(n.xdiff_amp1.xopamp1.xmb1.nsg13_lv_pmos#gp)	voltage
+	1247	v(n.xdiff_amp1.xopamp1.xmc.nsg13_lv_nmos#gp)	voltage
+	1248	v(n.xdiff_amp1.xopamp1.xmd.nsg13_lv_nmos#gp)	voltage
+	1249	v(n.xdiff_amp1.xopamp1.xme.nsg13_lv_nmos#gp)	voltage
+	1250	v(n.xdiff_amp1.xopamp1.xmm.nsg13_lv_pmos#gp)	voltage
+	1251	v(n.xdiff_amp1.xopamp1.xmn0.nsg13_lv_nmos#gp)	voltage
+	1252	v(n.xdiff_amp1.xopamp1.xmn1.nsg13_lv_nmos#gp)	voltage
+	1253	v(n.xdiff_amp1.xopamp1.xmn2.nsg13_lv_nmos#gp)	voltage
+	1254	v(n.xdiff_amp1.xopamp1.xmp0.nsg13_lv_pmos#gp)	voltage
+	1255	v(n.xdiff_amp1.xopamp1.xmp1.nsg13_lv_pmos#gp)	voltage
+	1256	v(n.xdiff_amp1.xopamp1.xsf1.xc1.nsg13_moscap_p#gp)	voltage
+	1257	v(n.xdiff_amp1.xopamp1.xsf1.xm1.nsg13_lv_nmos#gp)	voltage
+	1258	v(n.xdiff_amp1.xopamp1.xsf1.xm2.nsg13_lv_pmos#gp)	voltage
+	1259	v(n.xdiff_amp1.xopamp1.xsf1.xm3.nsg13_lv_pmos#gp)	voltage
+	1260	v(n.xdiff_amp1.xopamp1.xsf1.xm4.nsg13_lv_pmos#gp)	voltage
+	1261	v(n.xdiff_amp1.xopamp1.xsf1.xm5.nsg13_lv_pmos#gp)	voltage
+	1262	v(n.xdiff_amp1.xopamp1.xsf1.xm6.nsg13_lv_pmos#gp)	voltage
+	1263	v(n.xdiff_amp1.xopamp1.xsf1.xm7.nsg13_lv_nmos#gp)	voltage
+	1264	v(n.xdiff_amp1.xopamp1.xsf1.xm8.nsg13_lv_nmos#gp)	voltage
+	1265	v(n.xdiff_amp1.xopamp1.xsf1.xm9.nsg13_lv_nmos#gp)	voltage
+	1266	v(n.xdiff_amp1.xopamp1.xsf1.xm10.nsg13_lv_pmos#gp)	voltage
+	1267	v(n.xdiff_amp1.xopamp1.xsf1.xm12.nsg13_lv_nmos#gp)	voltage
+	1268	v(n.xdiff_amp1.xopamp1.xsf1.xm13.nsg13_lv_pmos#gp)	voltage
+	1269	v(n.xdiff_amp1.xopamp1.xsf1.xm14.nsg13_lv_pmos#gp)	voltage
+	1270	v(n.xdiff_amp1.xopamp1.xsf1.xma.nsg13_lv_pmos#gp)	voltage
+	1271	v(n.xdiff_amp1.xopamp1.xsf1.xmb.nsg13_lv_pmos#gp)	voltage
+	1272	v(n.xdiff_amp1.xopamp1.xsf1.xmc.nsg13_lv_pmos#gp)	voltage
+	1273	v(n.xdiff_amp1.xopamp1.xsf1.xmd.nsg13_lv_pmos#gp)	voltage
+	1274	v(n.xdiff_amp1.xopamp1.xsf1.xme.nsg13_lv_pmos#gp)	voltage
+	1275	v(n.xdiff_amp1.xopamp1.xsf1.xmfg.nsg13_lv_nmos#gp)	voltage
+	1276	v(n.xdiff_amp1.xopamp1.xsf1.xmh.nsg13_lv_pmos#gp)	voltage
+	1277	v(n.xdiff_amp1.xopamp1.xsf1.xmi.nsg13_lv_pmos#gp)	voltage
+	1278	v(n.xdiff_amp1.xopamp1.xsf1.xmj.nsg13_lv_pmos#gp)	voltage
+	1279	v(n.xdiff_amp1.xopamp1.xsf1.xmk.nsg13_lv_nmos#gp)	voltage
+	1280	v(n.xdiff_amp1.xopamp1.xsf1.xml.nsg13_lv_nmos#gp)	voltage
+	1281	v(n.xdiff_amp1.xopamp1.xsf1.xmm.nsg13_lv_nmos#gp)	voltage
+	1282	v(n.xdiff_amp1.xopamp1.xsf1.xmn.nsg13_lv_nmos#gp)	voltage
+	1283	v(n.xdiff_amp1.xopamp1.xsf1.xmn0.nsg13_lv_nmos#gp)	voltage
+	1284	v(n.xdiff_amp1.xopamp1.xsf1.xmn1.nsg13_lv_nmos#gp)	voltage
+	1285	v(n.xdiff_amp1.xopamp1.xsf1.xmo.nsg13_lv_nmos#gp)	voltage
+	1286	v(n.xdiff_amp1.xopamp1.xsf1.xmp.nsg13_lv_nmos#gp)	voltage
+	1287	v(n.xdiff_amp1.xopamp1.xsf1.xmp0.nsg13_lv_pmos#gp)	voltage
+	1288	v(n.xdiff_amp1.xopamp1.xsf1.xmq.nsg13_lv_nmos#gp)	voltage
+	1289	v(n.xdiff_amp1.xopamp1.xsf1.xmx.nsg13_lv_nmos#gp)	voltage
+	1290	v(n.xdiff_amp1.xopamp1.xsf1.xr1.nr1#flow(b_re1))	voltage
+	1291	v(n.xdiff_amp1.xopamp1.xsf1.xr1.nr1#flow(b_re2))	voltage
+	1292	v(n.xdiff_amp1.xopamp1.xsf1.xr1.nr1#i1)	voltage
+	1293	v(n.xdiff_amp1.xopamp1.xsf1.xr1.nr1#i2)	voltage
+	1294	v(n.xdiff_amp1.xopamp1.xsf2.xc1.nsg13_moscap_p#gp)	voltage
+	1295	v(n.xdiff_amp1.xopamp1.xsf2.xm1.nsg13_lv_nmos#gp)	voltage
+	1296	v(n.xdiff_amp1.xopamp1.xsf2.xm2.nsg13_lv_pmos#gp)	voltage
+	1297	v(n.xdiff_amp1.xopamp1.xsf2.xm3.nsg13_lv_pmos#gp)	voltage
+	1298	v(n.xdiff_amp1.xopamp1.xsf2.xm4.nsg13_lv_pmos#gp)	voltage
+	1299	v(n.xdiff_amp1.xopamp1.xsf2.xm5.nsg13_lv_pmos#gp)	voltage
+	1300	v(n.xdiff_amp1.xopamp1.xsf2.xm6.nsg13_lv_pmos#gp)	voltage
+	1301	v(n.xdiff_amp1.xopamp1.xsf2.xm7.nsg13_lv_nmos#gp)	voltage
+	1302	v(n.xdiff_amp1.xopamp1.xsf2.xm8.nsg13_lv_nmos#gp)	voltage
+	1303	v(n.xdiff_amp1.xopamp1.xsf2.xm9.nsg13_lv_nmos#gp)	voltage
+	1304	v(n.xdiff_amp1.xopamp1.xsf2.xm10.nsg13_lv_pmos#gp)	voltage
+	1305	v(n.xdiff_amp1.xopamp1.xsf2.xm12.nsg13_lv_nmos#gp)	voltage
+	1306	v(n.xdiff_amp1.xopamp1.xsf2.xm13.nsg13_lv_pmos#gp)	voltage
+	1307	v(n.xdiff_amp1.xopamp1.xsf2.xm14.nsg13_lv_pmos#gp)	voltage
+	1308	v(n.xdiff_amp1.xopamp1.xsf2.xma.nsg13_lv_pmos#gp)	voltage
+	1309	v(n.xdiff_amp1.xopamp1.xsf2.xmb.nsg13_lv_pmos#gp)	voltage
+	1310	v(n.xdiff_amp1.xopamp1.xsf2.xmc.nsg13_lv_pmos#gp)	voltage
+	1311	v(n.xdiff_amp1.xopamp1.xsf2.xmd.nsg13_lv_pmos#gp)	voltage
+	1312	v(n.xdiff_amp1.xopamp1.xsf2.xme.nsg13_lv_pmos#gp)	voltage
+	1313	v(n.xdiff_amp1.xopamp1.xsf2.xmfg.nsg13_lv_nmos#gp)	voltage
+	1314	v(n.xdiff_amp1.xopamp1.xsf2.xmh.nsg13_lv_pmos#gp)	voltage
+	1315	v(n.xdiff_amp1.xopamp1.xsf2.xmi.nsg13_lv_pmos#gp)	voltage
+	1316	v(n.xdiff_amp1.xopamp1.xsf2.xmj.nsg13_lv_pmos#gp)	voltage
+	1317	v(n.xdiff_amp1.xopamp1.xsf2.xmk.nsg13_lv_nmos#gp)	voltage
+	1318	v(n.xdiff_amp1.xopamp1.xsf2.xml.nsg13_lv_nmos#gp)	voltage
+	1319	v(n.xdiff_amp1.xopamp1.xsf2.xmm.nsg13_lv_nmos#gp)	voltage
+	1320	v(n.xdiff_amp1.xopamp1.xsf2.xmn.nsg13_lv_nmos#gp)	voltage
+	1321	v(n.xdiff_amp1.xopamp1.xsf2.xmn0.nsg13_lv_nmos#gp)	voltage
+	1322	v(n.xdiff_amp1.xopamp1.xsf2.xmn1.nsg13_lv_nmos#gp)	voltage
+	1323	v(n.xdiff_amp1.xopamp1.xsf2.xmo.nsg13_lv_nmos#gp)	voltage
+	1324	v(n.xdiff_amp1.xopamp1.xsf2.xmp.nsg13_lv_nmos#gp)	voltage
+	1325	v(n.xdiff_amp1.xopamp1.xsf2.xmp0.nsg13_lv_pmos#gp)	voltage
+	1326	v(n.xdiff_amp1.xopamp1.xsf2.xmq.nsg13_lv_nmos#gp)	voltage
+	1327	v(n.xdiff_amp1.xopamp1.xsf2.xmx.nsg13_lv_nmos#gp)	voltage
+	1328	v(n.xdiff_amp1.xopamp1.xsf2.xr1.nr1#flow(b_re1))	voltage
+	1329	v(n.xdiff_amp1.xopamp1.xsf2.xr1.nr1#flow(b_re2))	voltage
+	1330	v(n.xdiff_amp1.xopamp1.xsf2.xr1.nr1#i1)	voltage
+	1331	v(n.xdiff_amp1.xopamp1.xsf2.xr1.nr1#i2)	voltage
+	1332	v(n.xdiff_amp1.xota1.xm2.nsg13_lv_nmos#gp)	voltage
+	1333	v(n.xdiff_amp1.xota1.xmh.nsg13_lv_nmos#gp)	voltage
+	1334	v(n.xdiff_amp1.xota1.xmi.nsg13_lv_nmos#gp)	voltage
+	1335	v(n.xdiff_amp1.xota1.xmj.nsg13_lv_nmos#gp)	voltage
+	1336	v(n.xdiff_amp1.xota1.xmk.nsg13_lv_pmos#gp)	voltage
+	1337	v(n.xdiff_amp1.xota1.xmk1.nsg13_lv_pmos#gp)	voltage
+	1338	v(n.xdiff_amp1.xota1.xmk2.nsg13_lv_pmos#gp)	voltage
+	1339	v(n.xdiff_amp1.xota1.xmk3.nsg13_lv_pmos#gp)	voltage
+	1340	v(n.xdiff_amp1.xota1.xmk4.nsg13_lv_pmos#gp)	voltage
+	1341	v(n.xdiff_amp1.xota1.xml.nsg13_lv_pmos#gp)	voltage
+	1342	v(n.xdiff_amp1.xota1.xmn.nsg13_lv_pmos#gp)	voltage
+	1343	v(n.xdiff_amp1.xota1.xmn0.nsg13_lv_nmos#gp)	voltage
+	1344	v(n.xdiff_amp1.xota1.xmn1.nsg13_lv_nmos#gp)	voltage
+	1345	v(n.xdiff_amp1.xota1.xmo.nsg13_lv_pmos#gp)	voltage
+	1346	v(n.xdiff_amp1.xota1.xmp0.nsg13_lv_pmos#gp)	voltage
+	1347	v(n.xdiff_amp1.xota1.xmp1.nsg13_lv_pmos#gp)	voltage
+	1348	v(n.xdiff_amp1.xr1.nr1#flow(b_re1))	voltage
+	1349	v(n.xdiff_amp1.xr1.nr1#flow(b_re2))	voltage
+	1350	v(n.xdiff_amp1.xr1.nr1#i1)	voltage
+	1351	v(n.xdiff_amp1.xr1.nr1#i2)	voltage
+	1352	v(n.xdiff_amp1.xr2.nr1#flow(b_re1))	voltage
+	1353	v(n.xdiff_amp1.xr2.nr1#flow(b_re2))	voltage
+	1354	v(n.xdiff_amp1.xr2.nr1#i1)	voltage
+	1355	v(n.xdiff_amp1.xr2.nr1#i2)	voltage
+	1356	v(net2)	voltage
+	1357	v(net3)	voltage
+	1358	v(net4)	voltage
+	1359	v(net5)	voltage
+	1360	v(net6)	voltage
+	1361	ro_n	impedance
+	1362	ro_p	impedance
+	1363	v(vcm)	voltage
+	1364	i(vcm)	current
+	1365	v(vdd)	voltage
+	1366	i(vdd)	current
+	1367	i(ven)	current
+	1368	v(vinn)	voltage
+	1369	i(vinn)	current
+	1370	v(vinp)	voltage
+	1371	i(vinp)	current
+	1372	i(vmeas2)	current
+	1373	i(vmeas3)	current
+	1374	i(vmeas4)	current
+	1375	i(vmeas5)	current
+	1376	v(voutn)	voltage
+	1377	v(voutp)	voltage
+	1378	v(vss)	voltage
+	1379	i(vss)	current
+	1380	v(vt_n)	voltage
+	1381	v(vt_p)	voltage
+	1382	v(xdiff_amp1.vbias)	voltage
+	1383	v(xdiff_amp1.vcm_calc)	voltage
+	1384	v(xdiff_amp1.vcm_reg)	voltage
+	1385	v(xdiff_amp1.xopamp1.en_n)	voltage
+	1386	v(xdiff_amp1.xopamp1.src_ab)	voltage
+	1387	v(xdiff_amp1.xopamp1.voutn_st1)	voltage
+	1388	v(xdiff_amp1.xopamp1.voutp_st1)	voltage
+	1389	v(xdiff_amp1.xopamp1.xsf1.cd_drn)	voltage
+	1390	v(xdiff_amp1.xopamp1.xsf1.en_n)	voltage
+	1391	v(xdiff_amp1.xopamp1.xsf1.net1)	voltage
+	1392	v(xdiff_amp1.xopamp1.xsf1.net2)	voltage
+	1393	v(xdiff_amp1.xopamp1.xsf1.src_ml)	voltage
+	1394	v(xdiff_amp1.xopamp1.xsf1.vbiasn)	voltage
+	1395	v(xdiff_amp1.xopamp1.xsf1.vbiasp)	voltage
+	1396	v(xdiff_amp1.xopamp1.xsf1.vcasn)	voltage
+	1397	v(xdiff_amp1.xopamp1.xsf1.vcasn2)	voltage
+	1398	v(xdiff_amp1.xopamp1.xsf1.vcasp)	voltage
+	1399	v(xdiff_amp1.xopamp1.xsf1.vcasp2)	voltage
+	1400	v(xdiff_amp1.xopamp1.xsf1.vin_shifted)	voltage
+	1401	v(xdiff_amp1.xopamp1.xsf1.xr1.dt)	voltage
+	1402	v(xdiff_amp1.xopamp1.xsf2.cd_drn)	voltage
+	1403	v(xdiff_amp1.xopamp1.xsf2.en_n)	voltage
+	1404	v(xdiff_amp1.xopamp1.xsf2.net1)	voltage
+	1405	v(xdiff_amp1.xopamp1.xsf2.net2)	voltage
+	1406	v(xdiff_amp1.xopamp1.xsf2.src_ml)	voltage
+	1407	v(xdiff_amp1.xopamp1.xsf2.vbiasn)	voltage
+	1408	v(xdiff_amp1.xopamp1.xsf2.vbiasp)	voltage
+	1409	v(xdiff_amp1.xopamp1.xsf2.vcasn)	voltage
+	1410	v(xdiff_amp1.xopamp1.xsf2.vcasn2)	voltage
+	1411	v(xdiff_amp1.xopamp1.xsf2.vcasp)	voltage
+	1412	v(xdiff_amp1.xopamp1.xsf2.vcasp2)	voltage
+	1413	v(xdiff_amp1.xopamp1.xsf2.vin_shifted)	voltage
+	1414	v(xdiff_amp1.xopamp1.xsf2.xr1.dt)	voltage
+	1415	v(xdiff_amp1.xota1.en_n)	voltage
+	1416	v(xdiff_amp1.xota1.mirror)	voltage
+	1417	v(xdiff_amp1.xota1.src_kl)	voltage
+	1418	v(xdiff_amp1.xota1.tail_bias)	voltage
+	1419	v(xdiff_amp1.xr1.dt)	voltage
+	1420	v(xdiff_amp1.xr2.dt)	voltage
 Binary:
-3ËDléú(?›»™—ºy<ñ´)ôŒ=Xu…Àƒ= úø›ºy<ñ´)ôŒ=xÚce  É>ñ&úxﬂQΩ                ãpÎ¯æ5º?        fÙ]aÌ—?ÿ/æêπó<a‡>˝:=	Ë£bL= †íπó<a‡>˝:=shL#D\>∂©˝∞À ”Ω               Ä3¸GÑÂ∫?    ‡&¨=Ç≈kát◊?  ¿∞ûnªzæ|]ß¨<–¨Cc∫<'v¥˜Y¶ <Eld∫≥∂<õ ¥pïπ∑>⁄h·Ä¸≥æÓU⁄‹ÁTÎ=\úΩù”Æ@CÖ¸Ãáª?    Â#>ødÅ√Ôb—?jz/èÍûO=J&«©ÿÇ=~râô:`=ÖJ…»ıûO=—Ù{ﬁÿÇ=5v
-t÷2:?x∑Ó∂ô>eﬂ›V>  –k6’ƒ>¬eıÇi’?ÑDA
-€˛Á?jÖ±AA÷??1èÍûO=J&«©ÿÇ=]âô:`=†+«»ıûO=è‚{ﬁÿÇ=)v
-t÷2:?Öœ©ô>0‚4ıP>  04/’ƒ>zåÚÇi’?úv?
-€˛Á?0±AA÷? @9DS<::hÜ(∆ı<é¥î‘Û=Î¢–Ó?S<ÅQƒ©H∆ı<¿Âl£˛>^˜˝›‹åÄ=›∑‹∆¨I= ÄF”∞¢"?‹1ò˚›∫?    pvÒ==Qd"◊?±“ö`Ó≥Ô;.¿)Öpz“<'∑báT0"= äΩ√&º<xÍ~Ω≥÷<√ó#yï–=$Í7(ÓC>WrbèÚÚ=F3 Ömˇ˜?á?≥5#›∫?ÌiU‚[w>†±ÿÒŒ∆?"Òõ`Ó≥Ô; ›)Öpz“<*∑báT0"= äΩ√&º<xÍ~Ω≥÷<W«î#yï–=ÜÕ7(ÓC>RbèÚÚ=RLÖmˇ˜?á?≥5#›∫?‚iU‚[w>†±ÿÒŒ∆?]ﬂÉK°0õ<ﬂ≤N∫≥∂<Ècí¥]=ÄtTß0õ<·~Ω≥∂<ÌAp¢< >ñâü|RÔ2Ω,‚!ˇ¥ß<T≠±sù[w>@∆G)#›∫?5R¨rù[w>ﬂe°wœ∆?  W©∫∂<Ëàêg}ı=ã„Ç+ø^=#øn◊ı‹∂<ezm+úı=P∫πˆ>¿ë„ÎÈDçΩº˝±ÕD= ÄF”∞¢"?–˝Õ|"Îπ?@ª~Äç¨?G^ÿÑ9¥’?$Ù<Ûâz/º^/MH±"€<¬Õ˘@H“≥< Ë‰„d‡<pm #‡<kK\GH‹=7dÂx->aßßÏM·=Q∞ ¿˛ˇ˜? ÿ˝…úÊø?8*${BGÛ=çä∫ C‹?Û√µg≥<ﬁ‡A3+S¡<˘`?.:Ñ√<U‚Œg≥<tBì3+S¡<"†§ÜEV?r¬z¥„ΩõåªA‡=T≠±sù[w>?∏Vˇ∑ø‰? (Ü˛ˇ˜?Ú÷aa]›?\»4<ãºpäD_¸4µ<íö˝BmKï< ≈_töºÏé≠‘F1¿<.ıBnù±¿>(ÓÖÅq_ºæaÎﬂ∑˜+Œ=ˇ¥Êó”Æ@8MZnÅø?Ù¶}uæá§%h Ä‹?IÀÑv÷<3:túƒîÂ<{∆*6z)Á<€õ»Êáv÷<Ë8‰¢ƒîÂ<°ú“-∆f? E∞óﬂ>YYÊ`©w,>  ˙Ùˇ≥>DÒÒ]—EÍ?3FÛˇˇˇ˜?Ìö\òÂ€?†ah\qáÑ<í_‰u≥ï<LôØèŸiñ<_\Heè$á<m˜ã8∏ï<N®QÆT%?ëÚä0Ÿ?Ÿ>úúÇ:„>Ä oÄç¨?Mà·‡πË?(z˚ˇˇˇ˜?;ÿ¿3çb›?LÑ3 ±q=ÃØÃ‹ë"=∆:Ï)/x∑<'‰Çj32=‘Ê`ñ"=†∏Wœ2x∑<z˜\+ˇıÙ>ˆä¡·»ÄRæ81CΩ0>yGléú(?/E»⁄tÔ?êÁ7ı˛˜?™qû"øØ»? ∏+d|Qº¬÷çäò‡<ÖÛˆü˜<ÒX(ÉT<IZz•E–Â<&VÊı∞AÌ=∆á%T$ˆ=2dP˝áÿ≤=»ùå;ˇ˜?e ıItœ∫? ‡®\`O"?√eßT§◊?˚%:f®C<ü{aŒ&∆Â<_˛ê‘Ûˆ< àx/LAC<&»©H∆Â<—ÎA÷p>`J˙S”#s=(-W;= `q\÷°#?e3ò˚›∫?    qv>·ØtQd"◊?¢Oª~2<+f˜∆’<<‡^‘ÛÊ< 8q‡$T3<púœ©H∆’<R(ÿõ?˜ı=¯a˝›í`{=5ã˜ƒR6=  è Ø0?’Cò˚›∫?   ¿pv>∑_ƒJd"◊?¬»‚A÷3<+Ö>∆’<“Ç√‘ÛÊ< ∏„Fr.3<púœ©H∆’<
-oÜ"ˆ=@€^3∆û`Ω0+j~E=  ù¸
-î?"%ò˚›∫?   ¿pv>˝cXd"◊?∞G±ª 3<hI+)∆’<9Tƒï‘ÛÊ< x•∫{?3<púœ©H∆’<B√VπÄˆ=ÃAIòh_=Ù§÷‰B:)= @ó˘[O"?“2ò˚›∫?   ¿pv>zRd"◊?  ¿ "âôª*≥_®∫…<∑e«.ç“<	_àµ˚05<‘åt§Œ<Ä}0mk„=gÙÑ[y⁄G>C¯d=ì¯=˜ı˛˜?'$ÖVº?    x‘=Œê˘®Gv“? p∑7Øâ<<=¢ﬁ<Ÿ¶{ÖG‚<*’Åé=ç?<Í#”åt§ﬁ<2!˚QROA>rCÖé≥>˛zù/≥À∑=3ZπΩie?≈°ÑVº?     Ã√<˚‘=Zv“? 0‚wUt0<§u)ıïﬁ<hPâ"Å‚<ö®Ö≥ÒA<Ó#”åt§ﬁ<QKﬂﬁπ 2>«Gø72õ0>Çãïg·=÷˚Ès{î?∫Å8ÑVº?     ı<xm◊âWv“?î”uIQº“¿1
-··<jı~Ä}Òˆ< t+x∂7Y<\»©H∆Â<€DŸâc|¢=¬Çç.ˇn>M˚Z`¡≥=Gx∑∂?¿ˇ.˚›∫?    5Ä>7)˝p∫◊?                                                                                                   &CáI;‹Ãdz≤<ÀßŸ…µ∫<
-àãf!<ºnO∫≥∂<Ä5 ¬§ó≈=íÖî5&0>UÃôà*E‡=∆Í◊–ˇ˜?Üà˚Ãáª?    lÅ’=.pQË¸b—?Q™æß Ö<"RëM∏ï<ß˙ÒV0^ñ<{{EZ+ÀÖ<‡ıã8∏ï<ˇ»ØüÇ&?Â<wm®4>'k¡ ∂ï@>  ù¸
-î?¥Wò»ƒ∑Ë?Ñ*˚ˇˇˇ˜?..àπ„i›?êV$ Ö<Ù‡ñ^∏ï<db÷6^ñ<K≈¢ΩÀÖ<·ıã8∏ï<)éπ¶Å&?ÙÄˆ/P>∑ÎÇW‹¡Y> @ó˘[O"?®aBãƒ∑Ë?™*˚ˇˇˇ˜?\z:±„i›? ®í‡_î<01‘⁄7=8Pb~aG=Î1\‘≠î<hÚàÁ7=∞§ç)ÌX	>nÜ¡c¿°Ω AÏ≤˛p"=  ù¸
-î?Ã©,¸π? Äßî?r\Ùc·’?  á}4ºV~ÄÂ˛ñ<DFˇ”0¥2=ø¨˙ÔÇyå<êı”R∆ı<Eáç¨£è˚=µò≤d≠‚Ω°;†‰¨£†=w{àn≤„˜?êõh©,¸π?  ˆ™î?”∑vŸB·’? êª
-ï<-	Ÿ¯0∆ı<c≤˙ûd¥2=3ŒÔ®ºÄ<?éı”R∆ı<-ÿ0Ä¡2Ù=.„≥c ÑΩM9:’Ñ(= `q\÷°#?^ﬁ©,¸π? Ä…¶î?{ßÌc·’?°±£HhÖH=}ΩrØÕ˜<ë]é%Y=∏5ú„{ÖH=Êæ∏ÛØÕ˜<¡?jò@,?ôUn]±∞ËΩÊ†{e≠">  ¢-¶'Â>‚Å
-Êq·?¥∂ñ<Çµ?©—£#◊9÷?Xv á|Ñ8=∞¸ƒ#ÍÁ<Ô5&w†I=’-®\-Ö8=≈π+(ÍÁ<õq$¸|Ñ ?ñßÖıÄDD>_Gy}O>  NIJ?ıvôd[_Â?z¶$ÏdÛ?+∑õ-I÷?k_ñ2s≥œ;≤dÚdz≤<’‚¸ÖT0= aÆÒ¬&ú<xÍ~Ω≥∂<õÅﬂ#qñ∞=üÍvv˙#>ê¡»CùÚ“=∆Í◊–ˇ˜?n@≥5#›∫?‘ÕY‚[w>Á§ÿÒŒ∆?  hù'º¨^É©µ¥<◊ Ô0¥2=üêzå<Ïèı”R∆ı<Xøﬁ0&GÛ=÷É‰∫Ωf∆ƒ@F£†=öc;æ*˜?¬g©,¸π?  ¨™î?E8òC·’?ﬂ(Ä–s_º‚/–∞¿=Ù<ØÊ‘|¿+= ¿’@í^<”≈¿©H∆ı<Ñ&-éí=∂c~¢¡îçΩÌõÁOY∆=Oë'¶“Ÿ?™@Öp(¸π?    :∞=◊‹OÉ…ﬂ?  ù.º±¿©H∆ı<@2ñ“Ï*=e7'∫∆Cg<ªVYPˆ<†T}ÍóÔë=ƒﬂ¿AÈ=	^ò=ñº(<O{≈?≠Í9],¸π?í’-<O{≈?ÇSmBﬂ?,Ö´”¸Yˆ;»˝€À)∂›<m†˙U= Ó^ÁDµé<Ëißèt§ﬁ<ñ∑-øµÚ=TùÒçΩH>˝Û.9˘=ö§	Ñj“?8P¥‘◊Kª?Í1uêë\n>‚Ó6Ã?•[+rL{<™∑¯ïﬁ<ƒu¿àQ= _¡„Ïﬁå<∂ißèt§ﬁ<ñ#ÓÃÇ7>Ç§¶Y∏5>v$—ÊâÊ=÷˚Ès{î?∑gï“◊Kª?µÑè\n>‰ﬂd6Ã?_]óv2∫;ÈÄ˙ rºŸ<|ÆËMÓ= ¿≤Jª(Ç<≤ëêÉóﬁ<ïåòÏ›=vÑ˙D>À”Œmı=f'÷≠˜?'Ÿn•~Kª?c<·⁄ëøMs¸%ÆÜÃ?a™¥ÏU»<œ?í=hø…<>‡êa‡”˝< ÄÔÊ<¡ƒ5”|ø…<qq”Ü≥=0Õ≤Hu≥Ω(∂Ωﬁ≈v8  NIJ?2ø˘¥Kª?]V~ß‚˜ø}&∑?◊?$Ù<Ûâz/º`/MH±"€<¬Õ˘@H“≥< Ë‰„d‡<pm #‡<NK\GH‹=
-7dÂx->^ßßÏM·=F∞ ¿˛ˇ˜? ÿ˝…úÊø?*${BGÛ=çä∫ C‹?›È{∫g≥<A^^3+S¡<âEí.:Ñ√<`(œ g≥<tBì3+S¡<?5-ÜEV?ˆôV]E≈ÊΩlàáLô!’=ÒLyè\n>≈@eˇ∑ø‰?Ò'Ü˛ˇ˜?«0ba]›?Œêf ®ä<» ”åt§ﬁ<ÇT√|Ãˇ= y[X[è<Ù∂Åƒßﬁ<«™◊{„kG>◊öQt—>ƒ*	
-=Ã=‹ßò‹Ãq?≠@àKª?¸\Îó‹Ãq?‰5ky@Ã?BÃµRã<‡”åt§ﬁ<éeèp= .∞_•é<<À¶,i¶ﬁ<|ÒÅÒG>áóí5	9>9˛Tb y¿=Ê‡)aKe?ø≠DåÁKª?˚ù`Ke?i<Ll6Ã?*ÀÑv÷<3:túƒîÂ<}∆*6z)Á<ú»Êáv÷<Ë8‰¢ƒîÂ<èú“-∆f?‡õƒòﬂ>˛mÿa©w,>  †˚Ùˇ≥>DÒÒ]—EÍ?3FÛˇˇˇ˜?Ìö\òÂ€?L!eœã<Í#”åt§ﬁ<».ÉÑ= -öÁœã<¥ißèt§ﬁ<(2`wNAH>fôv"'0ΩÇ}
-©]«<ÒLyè\n>r¢<—◊Kª?{ªÇxè\n>F?N6Ã?  †B™™ƒ;˛o≤_®∫Ÿ<0ûl“=ƒÉ))ãré<öL”åt§ﬁ<Ä¢◊6Ë=πŸ:T>«´)U>˜ı˛˜?è¯◊‘◊Kª?    @K´={ÕÂ6Ã??3 ±q=®Ã‹ë"=@6Ï)/x∑<¥‹Çj32=bﬂ`ñ"=¥Wœ2x∑<4Ü\+ˇıÙ>YƒΩ·»ÄRæÀçAΩ0>3ËDléú(?…‚∆⁄tÔ?dÛ6ı˛˜?™qû"øØ»? 4+d|Qºb˚çäò‡<õ\ˆü˜<ì≥)ÉT<8åz•E–Â<xö‹ı∞AÌ=-ÃgT$ˆ=é§Ü˝áÿ≤=Ÿùå;ˇ˜?Ü ıItœ∫? `áy`O"?vhßT§◊?Eîf®C<€IaŒ&∆Â<ß^˛ê‘Ûˆ< (†/LAC<&»©H∆Â<0Ì÷p>§Ôü”#s=˘$AQW;= `Ly÷°#?z3ò˚›∫?    qv>’ØtQd"◊?ç»ª~2<á1˜∆’<Õﬂ^‘ÛÊ< 0õ‡$T3<púœ©H∆’<∂©õ?˜ı=∂Ö{ì`{=tˇ
-‡R6= ‡aû Ø0?¿Cò˚›∫?   ¿pv>©_ƒJd"◊?‹êÛA÷3<'Ö>∆’<”Ç√‘ÛÊ< p’Fr.3<púœ©H∆’<Ú)Ü"ˆ=§˜N∆û`Ω9œF~E= Ä”
-î?¯$ò˚›∫?   ¿pv>dXd"◊?áÆÇª 3<û+)∆’<ŒSƒï‘ÛÊ< Õ∫{?3<púœ©H∆’<ê◊)πÄˆ=ú€s‡òh_=ıﬁ˚C:)= ¿u\O"?Û2ò˚›∫?   ¿pv>jRd"◊?  † "âôª¢S≥_®∫…<∏e«.ç“<˜aàµ˚05<‘åt§Œ<@Á/mk„=ÈxÑ[y⁄G>≠wd=ì¯=‚ˆı˛˜?5'$ÖVº?    x‘=œê˘®Gv“? x∑7Øâ<<"=¢ﬁ<Ÿ¶{ÖG‚<ÃÅé=ç?<Í#”åt§ﬁ<S2˚QROA>Ò0Ñé≥>¯zù/≥À∑=i«∏Ωie?≈°ÑVº?     Ã√<˚‘=Zv“? x‚wUt0<¸u)ıïﬁ<kPâ"Å‚<&®Ö≥ÒA<Ó#”åt§ﬁ<÷éﬂﬁπ 2>@ø72õ0>–ãïg·=*ÖÈs{î?∫Å8ÑVº?     ı<xm◊âWv“?´«é”uIQºÉv)2
-··<‚>Ä}Òˆ< Hay∂7Y<\»©H∆Â<‘ªQÇc|¢=»∞ñ.ˇn>l[
-Z`¡≥=úrµ∂?Úøˇ.˚›∫?    5Ä>∞¥˛p∫◊?                                                                                                  Ä%CáI;{¬dz≤<…ßŸ…µ∫<<àãf!<ºnO∫≥∂< É ¬§ó≈=œõî5&0>d„ôà*E‡=ÈYÍ◊–ˇ˜?Üà˚Ãáª?    lÅ’=.pQË¸b—?dÄæß Ö<¡SëM∏ï<3ıÒV0^ñ<´EZ+ÀÖ<‡ıã8∏ï<ä'∞üÇ&?ÀI®4>£UÑ∂ï@> Ä”
-î?‡Wò»ƒ∑Ë?Ñ*˚ˇˇˇ˜?3.àπ„i›?<$$ Ö<v‹ñ^∏ï<,sb÷6^ñ<§ΩÀÖ<·ıã8∏ï<ƒÈçπ¶Å&?ÜYœ0P>#√Ä‹¡Y> ¿u\O"?$aBãƒ∑Ë?™*˚ˇˇˇ˜?Fz:±„i›? †õ‡_î<21‘⁄7=0Üb~aG=∆S‘≠î<ùQÚàÁ7=QÍê)ÌX	>≈c¿°ΩÙüOí˛p"= Ä”
-î?Ã©,¸π? ÄÑ}î?Å[Ùc·’?  á}4ºAqÄÂ˛ñ<iqˇ”0¥2=xz˘ÔÇyå< ~ı”R∆ı<ÿ∂í¨£è˚=˜£–d≠‚ΩDì‰¨£†=∆zàn≤„˜?îõh©,¸π?  eÅî?›∂vŸB·’? ä
-ï<}≈ÿ¯0∆ı<ı‹˙ûd¥2=œJˇ®ºÄ<S|ı”R∆ı<oŸ¯¡2Ù=d®6¢c ÑΩüs\a’Ñ(= `Ly÷°#?0ﬁ©,¸π? Ä8}î?wßÌc·’?≤ñHhÖH=äU§rØÕ˜<2Ré%Y=:è„{ÖH=†ÛØÕ˜</PMfò@,?~‹]∂∞∞ËΩá$ye≠">  j-¶'Â>˛Êq·?`è:Çµ?s‘ò#◊9÷?Æ'á|Ñ8=ÓÒƒ#ÍÁ<
-¯,w†I=ÓØ\-Ö8=	π (ÍÁ<7g)˚|Ñ ??ÁÎ˙ÄDD>*l
-O>  úLJ?’b[_Â?yVÊ"ÏdÛ?/∆∞õ-I÷?V¯ï2s≥œ;RZÚdz≤<‘‚¸ÖT0=Ä`ÆÒ¬&ú<xÍ~Ω≥∂<VQ‡#qñ∞=ÔÙvv˙#>1Õ»CùÚ“=ÈYÍ◊–ˇ˜?n@≥5#›∫?ÿÕY‚[w>Á§ÿÒŒ∆?  pù'ºWñÉ©µ¥<CÀÔ0¥2=ôÔêzå< ~ı”R∆ı<äÊ—0&GÛ=◊¢g‰∫Ωvñ∑@F£†=/∫ ;æ*˜?âg©,¸π?  Åî?S8òC·’?Åk*—s_º⁄O∞¿=Ù<î˘ê’|¿+= ‡üEí^<”≈¿©H∆ı<!4Véí=ƒL®©¡îçΩë4KPY∆=I™:¶“Ÿ?√@Öp(¸π?    :∞=
-œWÇ…ﬂ?  $ù.º±¿©H∆ı<Yøãñ“Ï*=Û’ø–∆Cg<BP:VYPˆ<`jÏóÔë=Öz¡AÈ=∂zD:^ò=ÑÒ»BO{≈?ÊÛ9],¸π?~
-ŒBO{≈?	zlBﬂ?M€É ¸Yˆ;V/öÀ)∂›<Ωô˙U= ¸YÁDµé<Ëißèt§ﬁ<˙øâæµÚ=úÔ˜ÚçΩH>ﬁ„Ü9˘=ÕH”àj“?MP¥‘◊Kª?rÉêë\n>íÓ6Ã?~ä[+rL{<∏¯ïﬁ<u¿àQ= Z¡„Ïﬁå<∂ißèt§ﬁ<ÑÓÃÇ7>≤K¶Y∏5>éX–ÊâÊ=*ÖÈs{î?∑gï“◊Kª?˝¸#Ñè\n>‰ﬂd6Ã?îJôv2∫;Ñ™˙ rºŸ<ÎÆËMÓ= Û≤Jª(Ç<¸ëêÉóﬁ<M‹íåòÏ›=›˝É˙D>tNœmı=Õs&÷≠˜?@Ÿn•~Kª?∏<·⁄ëøq¸%ÆÜÃ?’¥ÏU»<dgí=hø…<óﬂêa‡”˝< @!ÔÊ<òÓ5”|ø…<!2”Ü≥=◊¨Hu≥Ω‡˜m·≈v8  úLJ?&ø˘¥Kª?Åa~~ß‚˜øQ1&∑?◊?$Ù<Ûâz/º`/MH±"€<¬Õ˘@H“≥< Ë‰„d‡<pm #‡<NK\GH‹=
-7dÂx->^ßßÏM·=F∞ ¿˛ˇ˜? ÿ˝…úÊø?*${BGÛ=çä∫ C‹?˙È{∫g≥<A^^3+S¡<âEí.:Ñ√<R(œ g≥<tBì3+S¡<>5-ÜEV?ıôV]E≈ÊΩkàáLô!’=gŸZyè\n>≈@eˇ∑ø‰?Ò'Ü˛ˇ˜?«0ba]›?àf ®ä<» ”åt§ﬁ<T√|Ãˇ= ∏[X[è<"∑Åƒßﬁ<ˇ•◊{„kG>ﬁ-St—>ÂU
-=Ã= ÷®ò‹Ãq?«@àKª?ÊVÏó‹Ãq?º„5ky@Ã?•œµRã<‡”åt§ﬁ<≈eèp= ∞_•é<.À¶,i¶ﬁ<ÕÛÅÒG>â/í5	9>π)Xb y¿=N)aKe?í≠DåÁKª?.hù`Ke?i<Ll6Ã?*ÀÑv÷<3:túƒîÂ<}∆*6z)Á<ú»Êáv÷<Ë8‰¢ƒîÂ<èú“-∆f?‡õƒòﬂ>˛mÿa©w,>  †˚Ùˇ≥>DÒÒ]—EÍ?3FÛˇˇˇ˜?Ìö\òÂ€?H!eœã<Í#”åt§ﬁ<».ÉÑ= -öÁœã<¥ißèt§ﬁ<'2`wNAH>eôv"'0ΩÇ}
-©]«<gŸZyè\n>r¢<—◊Kª?¬£êxè\n>F?N6Ã?  †B™™ƒ;öô≤_®∫Ÿ<2ûl“=÷Ü))ãré<öL”åt§ﬁ<ÄQ◊6Ë=7sŸ:T>≠ƒ™)U>‚ˆı˛˜?è¯◊‘◊Kª?    @K´={ÕÂ6Ã?   cûÜI;ñvbŒaz≤<kÖ´…µ∫<$u¬öäf!<ønO∫≥∂<Äóô“∂ó≈=íÅÓ'+0>1µÖ©/E‡=£›T„ˇ˜?ƒà˚Ãáª?    ¥Å’=6MË¸b—?]ÕBE\≥œ;
-L—az≤<H∫ÖT0= rºÀ¬&ú<xÍ~Ω≥∂<J¶ãSüñ∞=ç"À¿¸#> h@ŸüÚ“=£›T„ˇ˜?É@≥5#›∫?ß;¯Y‚[w>‚rÿÒŒ∆?π∆í∆3™<∫ùN∫≥∆<‹‡s+Y= áú†€∞<:P»y∆<ä(JÅnh/>RSùe	>h2p‡.„æ=0CñA˜∞{?p∂3˚∫›∫?«S˚@˜∞{?Ùø‘  œ∆?€mº\‰;<ˇ¬'5ö¬<€◊:\-=¿—õ}6O±<
-X»y∆<˝jÒ¢À¯¿=rı2`®7>¬Wk±mÁ=¸á¸ìª˜?c´dª›∫?êŸ4A˜∞{?.—É⁄ÒŒ∆?Òìí€`<…/WU≥Ï‚<rÆç¡†«6=p`zqä4=°w^`Á<¿ÂÅ–˜åÅ>¶Ó?ÒO?ŸL§xH7„>©9€_ÆRˆ?TG|ì%è–?/CÆæ‹‰?Q§°7;◊?È˚/0TAº]*9êﬁñ–<Ê·∞xÊ< T[9≥‰D<ﬂ•œ©H∆’<≈EJ[¨€=X§m›È=R^…0.§=ΩiæO‰˜?cKΩ8˚›∫?   ¿bÅ>—∏“:>◊?UÖ÷˜U=)ºZ¸#∆˛î’<ˆM<¢ÛÊ< <7∏Û»G<óúœ©H∆’<¢RŸ)"«=Q"NO;QÔ=~∆Rw$£†=Ä oÄç¨?|ÕÚ˚›∫?    üv>ﬁ„iF2"◊?O*¥Fº«KOé∆lÂ<6∫\èÛˆ< å9wûY\<l»©H∆Â<Âß¢ı}≤=ÙÛ”»¢p>lq/Õ}≤=@3é
-π?ñ1Ç˚›∫?    w>…t ⁄ﬂ!◊?.‘h23<◊≠T‰á≤’<ÒWMìCØÊ< H¥fÕ3<Ùô–é≤’<˘B1“~F¯=rtX≤deΩ}œõ‡≤=  ]¯"´¸>'ßz˚∫?   ¿pv>˚»f◊◊?ãíY‡£/=∏Ã≥Ë<4vˇ[©t@=änø[	Z0=Á®SzË<”M+ßÅ8+?/·&Ti˚’>X ∂Aq8„> ˜õá+¶?oÈ¿œ√±Í?—wi_ﬁ˜?Â2‚◊? –¸Û4Æj<f^√é≤’<ŸKd«ë⁄=è»ˇmá∂j<ã7-î≤’<ë£t˜0À=@í,*Á,nΩô39˜„◊<  ]¯"´¸>@IÇÑæÚπ?  Ç+´¸>xLWA≠’?'=Ûâz/ºÕFH±"€<R∂˘@H“≥< úÜ„d‡<pm #‡<•‹GH‹=Ö•ÑÂx->ñK∏ÏM·=ÍÉ$¿˛ˇ˜?!ÿ˝…úÊø?–¥†{BGÛ=ø∫ C‹?ÔÑ;?V≥<]^z? R¡<ƒáœéÉ√<ûuû∫u≥<BÓì3+S¡<ÜSu≤G#V?æÖ‹kìŸ>ˆ&çJ7„>0CñA˜∞{?Ï¿âø‰?“wEÜ˛ˇ˜?â≠Ò]›?Ç©3ÎN<xª§»úYı<˙ô9⁄>= Ãmt•·ñ<¬—5-î≤ı<UôÈ—3òù= ÉiëJ‚‰=|C†≈®ï=@3é
-π?\ÇöÑæÚπ?  K˛$´¸>„ÔP≠’?u∏ˇÑv÷<µÚtúƒîÂ<àÇ(6z)Á<3"èÊáv÷<Ë8‰¢ƒîÂ<◊∆˜-∆f?N=g? >CåŒuyt,>  `¡∑˝≥>ˇ˙Ò]—EÍ?3FÛˇˇˇ˜?Ôö\òÂ€?ˇ¬=¿ Ö<≈‰±©∏ï<4e7!/^ñ<t=a?ÀÖ<‡ıã8∏ï<”/¶,Ç&?‰`óY)>Â¿ﬂU*4>  ]¯"´¸>œC"‘ƒ∑Ë?~*˚ˇˇˇ˜?Í|æ∫„i›?        \úΩù”Æ@        …ˇˇˇˇ˜?¸v¨Â#>"ˇˇˇˇÁ?"ˇˇˇˇÁ?êâÓˇˇˇ˜?ÌiU‚[w>‚iU‚[w>5R¨rù[w>&
-¸ìª˜?8*${BGÛ= (Ü˛ˇ˜?1 ïl˛0B>¶>ÿösÈ=º gÆa“=˙—Ömˇ˜?êÁ7ı˛˜?π˝Ñmˇ˜?›ˇˇˇ˜?=&∫ˇˇˇ˜?=&∫ˇˇˇ˜?=&∫ˇˇˇ˜?‘@ˇíx‘=VëªºoÀ√<0:r«„Óı<ñˇ‹ˇˇˇ˜?î„v9lÅ’=Ñ5L@ÓU”=µ¶IYU”=’±Ë◊–ˇ˜?™Ê◊–ˇ˜?m≤Ê◊–ˇ˜?HÚ%"≠'›?23Ñj“?‘ÕY‚[w>®™Ê◊–ˇ˜?aÙ"≠'›?Ñj“?Í1uêë\n>µÑè\n>ò˚ﬁæie?—∞∑wëM|?*${BGÛ=Ò'Ü˛ˇ˜?
-»vëM|?Rt-Ωie?ê>ÿösÈ={ªÇxè\n>‹QxDK´=  ∫AŸΩ≥=  L„T≥Ωü◊X@¿™(?ôcNï¶ú(?ÎÖmˇ˜?dÛ6ı˛˜?≈3¸Ñmˇ˜?›ˇˇˇ˜?=&∫ˇˇˇ˜?=&∫ˇˇˇ˜?=&∫ˇˇˇ˜?`ª˚íx‘=)ªºoÀ√<6•q«„Óı<ñˇ‹ˇˇˇ˜?8&x9lÅ’=≤L@ÓU”=⁄LHYU”=˜È◊–ˇ˜?6˝Ê◊–ˇ˜?èÁ◊–ˇ˜?Ò∞?*≠'›?e◊„àj“?ÿÕY‚[w> ˝Ê◊–ˇ˜?≥3*≠'›?Pº–àj“?rÉêë\n>˝¸#Ñè\n>Œhﬁæie?Va∏wëM|?*${BGÛ=Ò'Ü˛ˇ˜?õ∫»vëM|?â·,Ωie?ê>ÿösÈ=¬£êxè\n>,†sDK´=  ∏AŸΩ≥=  I„T≥ΩK∂V@¿™(?NDLï¶ú(?ƒÑ…Î≥Å’=ß;¯Y‚[w>«S˚@˜∞{?êŸ4A˜∞{?©ãˆˇˇˇÁ?u˙πˇˇˇ˜?Ñ%∫ˇˇˇ˜?⁄›ˇˇˇ˜?=&∫ˇˇˇ˜?2`bí¶+?~‘T„ˇ˜?–¥†{BGÛ=“wEÜ˛ˇ˜?µ€T„ˇ˜?~3ösÈ=ätÒ	V”=Ä=â—¶
-æ ÿÎR™
->§UÔ|∏†(?çÿ9f¢+? †v—¶
-æH7ÎR™
->rÒ|∏†(?x€9f¢+?yGléú(?3ËDléú(?yGléú(?í_ˆÌ¸Á?í_ˆÌ¸Á?+wa¿h¯@≤va¿h¯@      Ë?    Dæ      ¯?†Ÿaq≤ËæãwΩ£‘
->      Ë?    Äó%æ      Ë?    Äó%æ˚Èù[ı! >gNü[ı! > @PΩ+mJ=  :Ω+mJ=3ËDléú(?yGléú(?        gÃvzzæí_ˆÌ¸Á?í_ˆÌ¸Á?T≠±sù[w>˜ì.ë¶+?¸á¸ìª˜?Q∞ ¿˛ˇ˜?ÃeyÍjˇ˜?F3 Ömˇ˜?RLÖmˇ˜?uMÒbˇ˜?F∞ ¿˛ˇ˜?∞å≥ü8®™?»i®Ìÿ™(?÷˚Ès{î?ÒLyè\n>∆Í◊–ˇ˜?3ZπΩie?0âÑwëM|?Â"≠'›?ö§	Ñj“?˜ı˛˜?        ù5LÒbˇ˜?F∞ ¿˛ˇ˜?-∫Ëü8®™?qH¶Ìÿ™(?*ÖÈs{î?gŸZyè\n>ÈYÍ◊–ˇ˜?i«∏Ωie?¥9ÖwëM|?è¡7*≠'›?ÕH”àj“?‚ˆı˛˜?        ÍÉ$¿˛ˇ˜?0CñA˜∞{?ÏœW_nˆ?£›T„ˇ˜?                
+Q˘ı9Ë?›»™—ºy<ñ´)ôŒ=Xu…Àƒ= úø›ºy<ñ´)ôŒ=xÚce  É>ñ&úxﬂQΩ                ãpÎ¯æ5º?        fÙ]aÌ—?ÿ/æêπó<a‡>˝:=Ë£bL= Äíπó<a‡>˝:=ZhL#D\>π©˝∞À ”Ω               Äˇ2¸GÑÂ∫?    ¿&¨=Ç≈kát◊?  ÊüÑÄ;◊≤A°:¥<ùXI›∫<Ÿ¯ÀE¡!<ÑæN∫≥∂<¿ÊR¿Œ…=§⁄L1u-(>ô™ƒiôÿ=„€8∫¶Á?aT˚Ãáª?    ¿Tï=AÏêˇb—?¿Aæ»≈<Hù^Vz=sπ#§Û∑T=»?¸P"(R=ØÃt—Í+= ¯ëGú≥>CﬁäQ…·?T£hÀÏ1Â>lï⁄QFd”?0RÊˇÊ≈?$sº`,Â‡?ÕìàJhÿ?¿¶ôé≈<Çû^Vz=Qò˚£Û∑T=Â"ÎP"(R=ØÃt—Í+=ÄnZ|Gú≥>ªWR…·?√»‰ÀÏ1Â>l‰É^Fd”?\_ÊˇÊ≈?$sº`,Â‡?ÓìàJhÿ? x=áQ_ºú√bk…ÙÙ<„OSÛ=c¿ãÃâÖo<¸Qƒ©H∆ı< 9Ç3ˇhô=ÿ∞µ >ùq √=(e}NkÃ?eHµ˚›∫?    ≠xÒ=.≠{'õ ◊?H≈>
+ø≈<∂˚v∫NÜ’<Ê'{I=bPˇß∏G=F-∫ÅR8◊<|%±£Ï ú>¸6±Rø?øØ»Ù&Â> ‹Ã7	3Ô?9v˚i‹?QË≤7∫¶Á?˘”˚ÒŒ∆?2azC
+ø≈<ôKÙ∫NÜ’<‡’{I=¶lˇß∏G=F-∫ÅR8◊<7˝Y©Ï ú>AñêRø?‰õÙ&Â>Ä4x1	3Ô?—v˚i‹?QË≤7∫¶Á?‘˚ÒŒ∆?¨+ê)#Æ<ÿ⁄9∫≥∂<ná®˙¸&)=r˛√'=Z¥ÅR8∑<?†≥CàÙÇ>∆aµˇkê‚>Ù5{ÈËƒ>„€8∫¶Á?æjài‹? pÏ6∫¶Á?‰⁄ÚŒ∆?ÁOˇN=†o=ñ!¯Ó2{=UV®ÚiÑ=ÌkïIx=◊Âÿ\jπ=Ω±áª÷A?'ë1WY!?/ µª2ı>(e}NkÃ?Ls
+öﬁ?6à¸[Ó?
+¡´π| ÷?~689”<D )JB·<h˝t¡T„<ÍŒO9”<h*rJB·<|%Æ‡Ax?‘òÏΩW\	æjóI >êü]Ï,u>/çh4A3Â?v‹KÓˇˇ˜?_‹õroä‹?_ùgèèÇº‡TÊÊ<∏Ω<JÜŒUxï< æN¥Ù4<Më÷ÿF1¿<¿YnÁ´™=¥4xëÕvˆ=Gá˛Pº™=„€8∫¶Á?c„ÂÅø?Ö7ò8$.u>Ã}„˜ZB›?ïû€æN›Æ<BÅµ~˙¡</§~Åõ.¿<fm:ŸË_∞<∫!J¡<ˇé‹›‡*?SJÒYì>˜ q˜ƒ>@^äÀ&Æà?tÍ⁄®D9Õ?/±∆ZEYË?SPwŸ·?èI€ç¿euºHÌ¸…ª›<=¨F6¨Ÿ¬< ≈„ÀÌS<O¡˙^ä„<µ^h¿Q˚=◊ÜmÂ|7>^˝0"ìÌ=¢”Íˇˇ˜?lÇ<y}{ø?   @}≥>û[1°6-ÿ?Î‡´5á3#º⁄QØ:¢ê<ÄûØ'¬r< ØÈt⁄µ<™>åñæì<ë¬÷ìËT}=lå„Ãë¥…=‘CÿùG~=¿Sä¸[Ó?®◊ÍRÑ£Ω?   úÇ´j>È˘ÛL8E€?aﬁSÅ˙J=aO{ø<∂¨”∂R∂<”0è∑~)=·≤V'(=v=ré«7∑<<ªàÒkÀî>∑;Ü„sjË>AøãÑà”>°Zu·9Ë?˛–ïê¿‚?’∫À≥›iÓ?<ØØ»? –+≈uÆd<9d“ÀÌ¸‰<SfËò˙=ﬂ‹¥á⁄}=O:	ßy5Á<Ä1Ø+r≥>ıË:÷ï} ?ö_ä‘åÈ>_•ä∆Á?Ï3|6ﬂH«?ßY`»ˆÃ‡??H˜yoM◊?ÀÅh#;Pº’)
+æ Ω‰<”"ä˛4Ûˆ< ‡¯2òë_<ª»©H∆Â<Yf_ÏUƒá=yıøw>~¯ˇ¶ˆ)≥=î¡ÆS…—?·îœ˚›∫?   Ä w>øÆ(á¯◊?’˘≤∫§Aºx‡eÎ©”<Ó‡§õÚÊ< Ï°◊WÃM<øùœ©H∆’<>DÙŒÑ=œ˛’ºGÚ=c1OØ±j£=ˇ¸ÉJ"ñ·?„|n$˚›∫?   Äıw>⁄ÃÕdæ◊?¶ﬁèÕ@ºz-Øú
+@‘<ªkP8ÚÊ< §lA.˜N<Kùœ©H∆’<Ê∑W[/∆y=∫<∆,C0Ú=Ó¢´)ÕJ£=∏˜®»≠Ÿ?qXT!˚›∫?   @ow>eTøÖ◊?q("2	Aº∫◊[gî¬”<"ˇê∏©ÚÊ< |ÕÌ¢N<©ùœ©H∆’<ŸÛª˘∏g~=%÷*KFDÚ=]€#æe£= $3»ˆÃ‡??*Í#˚›∫?   @‹w>O&´)
+◊?  Ä5ëíª&Ú¡xeÀ<0ú•î“< ®°;xQ5<LI”åt§Œ<¿J¸lr0Â=ŸNùû‘B>˛3Á^ÊoÛ=|µ›iÓ?õÎÑVº?    †©=XüÜ—Kv“?   v®±|ªæ¿Î‹øû‹<™Gö‚<	ºi°mE<î+”åt§ﬁ<Äfv3“°¯=E!Ú¨—M>ñ‚¸„À‚˛=ä˚tÏï„?Ã=∆ÑVº?    ÄîÑ=…´¡åNv“?  gè‚¿;,•4òµ›<Ã$¨f°‚<÷ÔèÄ≈ÜE<%”åt§ﬁ<`·àI∑˚=ƒ∑^>‹E>MÓ~¢ƒˆ=b—b†t“?Û.¢ÑVº?     ‡X=ó≥°!Qv“?@á”"a2QºØ√ÙW˚‚<†˝)˜4Úˆ< TÀ,4\<9»©H∆Â<!M¬ËHúî=zj.Å8]>NO/å≥=M®∏SJÁ?∏5(˚›∫?    A{>R±|œï◊?                                                                                                   r˛lj;faôÜX≥<ù5Ï«∫<˚[V°hê!<•ÂN∫≥∂< ˙jLæ≠≈=4H˛∆?,>€pˆÀ©Ø‹=¸’çîÒ?)Vm˚Ãáª?    ¿?∑=™o´I˛b—?<ÔV?#ºÖXú(bkí<b-é˘-
+s<ÄÎÂ>¨ı<Sz>åñæì<¢ÌáîOq=Ó#'˛¶ø=kø∏∫ƒ≥r=∏˜®»≠Ÿ?-⁄0ΩÉ£Ω?   òI´j>+7êØ4d‹?Ó3Ï:-/#º«MÖT˛ë<Åx™Â¡˘r<@º›„≠<{>åñæì<ﬁÁ;LQxs=ÓÑ⁄Å·ß¡=u˜∏~%Ÿt= $3»ˆÃ‡?ºΩÆÿÉ£Ω?   ®Q´j>õÛ{vˇ#‹?                                                                                                 \¯Æœfû<Û0‘⁄7=ÎÚ†J©+`=¨8PF/ Z=ôŸ∏[•=Ä–Õ⁄çÇ>ri¡amã?>?	h™M≈>∏˜®»≠Ÿ?îÀü5q¿?t«®»≠Ÿ?˚≥Ì~6ˇ’? 8”wã≥Ä<¥£c:ı<õ‚ä¡‹I=sé%B D=ÛîLØÍˆ< ‚Ø{ﬂe>¸;·ì˙Ú>jnlòı(±>-™8_4´·?Ã zó7q¿?<£®»≠Ÿ?™_^Î3ˇ’? Jâµ∑ñ<#‘-5‘-ˆ<W‰‘~„I=¨≤sù[–D=ﬁîLØÍˆ< ÓÿBÆv>g≤F:Í®Ú>ì˛ÙéÁ∞>î¡ÆS…—?‡›jÛ3q¿?‹†®»≠Ÿ?¿Æ8ˇ’? ¡ùè¢°<SØ_]jˆ<ëÜ`*Ã˛I=.Œ≥u\E=4®L^9˜< ~\:ao{>
+⁄§öÇÚ> q„b€·∞>ÿoyæ°œ?úµ˜¢¿?l®ôÀ‹?à≥;¡ˇƒÿ?€£≤Üf6=G-ãﬁQpÁ<\˘WÛG=›M•6+8=¢‚›xÁ<z‰˝z•≤?d‚ÂN^Cœ>∫5°o-±>‡Jp%ô?ﬂölÚù˝–?#bÆÁ?‰ËfUì€?å¬sà5*£<L c6µ<ykŒ'\)=U∏ﬂ≥'=&Z¥ÅR8∑<«ÄLªßy>¸ø›R=“‚>ƒ£ŸŸA≈>¸’çîÒ?µÒƒúi‹?‡qÏ6∫¶Á?•k¬ÔÒŒ∆? @a/‡ìñ<øK†J-ˆ<ï]◊Ñu„I=ûTIU–D=ﬁîLØÍˆ< ﬁW&¨úv>Åù∏;©Ú>ˇ2[SÁ∞> m> &‘—?6S◊ı3q¿?‹†®»≠Ÿ?íÌ™8ˇ’? \j (Ü<æÍ¿©H∆ı<QÖÇ6Ú„I=øÙìvõ@E=\÷4ﬁ˜< ˙∞÷≠j>1Ïé"®†Ú>zX‚∞>z±qÅ¿‹?—⁄Gvÿò¿?mqÅ¿‹?Îs8Úä∆ÿ? lÄgc˜É<ë™¿©H∆ı<˝9dMÇJ=ÿë=◊E=^We¢¡&˜< B€•Ëëg>∑¿õû~jÚ>ΩR8ÿ∞>†qQã‡?,b©äQ“¿?l°qQã‡?∫2:¬«¿‹?≤SËò}ä<,XÂ·∏ﬁ<¬´„ÍÙí)=n[®–£q%=2å ’·cﬂ<ù‰}v
+D°>uò-B©Ú>πzŸÌÜ’∞>C≈o´µT–?1§Ûπ
+ﬁ¿?Vû}Ül˝—?F%˜	6Ã?Sñ°ﬂÅà<ƒ®)„ûﬁ<V#{∂÷è)=ÍˇÕôn%=4å ’·cﬂ<ƒ#ß
+À†>)Q4‰Ú>òï‘ı„±>b—b†t“?Uƒ
+ﬁ¿?lû}Ül˝—?§URÌ6Ã?ÄL˝8»(z<B‚p?|›<íö0ß°/(=0»	6‚U$=O©m tﬂ<{ã0ëuò>•ÚT˝|Û>/g/Ûã ±>PöyÑç/Â?BvA
+˜y¿?éùÂuãƒ”?%.áxM=–?i€e⁄Ó<Ä£açèŒ<∏€…Ê®ı< ∞ß∞UÏ1<ö’ƒu}¢Œ<@Zeé∆=%Ò2suRÕ=øı+t†O|=‡Jp%ô?˛â≥)!Kª? l¨HeøL7	ΩûZ‘?FN789”<"%)JB·<Vu¡T„<iO9”<h*rJB·<ù≠&Æ‡Ax?x1D•˚\	æEÏ_7 >R?¬?É+u>Ïèh4A3Â?v‹KÓˇˇ˜?l‹õroä‹?ô^,0
+º|ù`˝lø<U¡_R∞|ï< ~"7I+<@Q÷ÿF1¿<VcìOBê™=¡ Fa1ØË=1ù(πù=‚@ˆÜl˝—?ŸπÅø?ÖKÉãô+u>°D˛}ﬁT›?                                                                                                e2}÷˜Ö<Ó>¿åt§ﬁ<‡g∂4ƒ
+)=Ë≤è•†%=ΩÎ‰õãﬂ<ÙKúx¢>@<.AÛ>éÂÏı∏±>í¥§hkp÷?8ﬁVD’¿?,gkp÷?Jï1ÿsD“?cÄáMNá< :«åt§ﬁ<ƒ‡JA∫I)=*	≤úç%=T¥⁄ΩLxﬂ<‡&ê~¯{°>T8ÙÚ>œƒã±>2∂ÛQø;‘?®ìmWÕ⁄¿?TÙPø;‘?Ái?UX0–?ºA€ç¿euº¥ØÏ¸…ª›<N§F6¨Ÿ¬< ç
+„ÀÌS<O¡˙^ä„<ãÇr¿Q˚=öñámÂ|7>u:"ìÌ=¿|‘Íˇˇ˜?àÇ<y}{ø?   @}≥>¿'1°6-ÿ?Q≠ò?‡à<ÖÕåt§ﬁ<∂“¿T~ê)=j&ª5@o%=4å ’·cﬂ<ËÃNKÇÂ†>˝öK(}◊Ú>\±4±>‚@ˆÜl˝—?·®E¬
+ﬁ¿?hû}Ül˝—?USüı6Ã?  òOòf—;Z˜Ò¡xe€<fàÊ,=Ï/ÔÙÎâé<&*”åt§ﬁ<Äè˚h5”Ë=⁄Wä@ﬁMQ>ëâîh>|µ›iÓ?´Èœ‘◊Kª?    ¿πÄ=Å6Ã?ÃíYr˙J=r J{ø<$ä#“∂R∂<alå∑~)=K&(=Jé«7∑<∑KEßkÀî>çüñ‡sjË>ö5˘yà”>Q˘ı9Ë?æ®;
+ê¿‚?÷@X¨›iÓ?<ØØ»? ¨CvÆd<…˘ŒÌ¸‰<¶K}Ïò˙=1CÖå⁄}=ﬂ8fßy5Á<Äï»Q+r≥>ˆt˝Ëï} ?≥Ï>åÈ>Ø„
+∆Á?§£àDﬂH«?'µŒˆÃ‡?˘ŒzoM◊?ﬁfó";Pºdvæ Ω‰<ª]ä˛4Ûˆ< 0,3òë_<ª»©H∆Â<>aÏÏUƒá=`Kıæw>ò˝Ï¶ˆ)≥=4] L…—?≤îœ˚›∫?   Ä w>©Ï)á¯◊?Iı∫§Aº˜,˜dÎ©”<Yóﬂ§õÚÊ< ‘£’WÃM<øùœ©H∆’<^“Ë˛ŒÑ=îù÷ºGÚ=<ñàØ±j£= w˜Q"ñ·?}n$˚›∫?   Äıw>‹˝ dæ◊?µ›èÕ@º0ä∞ú
+@‘<zlP8ÚÊ< ¯nA.˜N<Kùœ©H∆’<AèM[/∆y=É#∆,C0Ú=øy´)ÕJ£=˙ß»≠Ÿ?[XT!˚›∫?   @ow>*iTøÖ◊?º8h"2	Aº+øîfî¬”<œçê∏©ÚÊ< l$Ï¢N<©ùœ©H∆’<Yxπg~=ıeGKFDÚ=Èúˇ#æe£=ÄÀáŒˆÃ‡?=*Í#˚›∫?   @‹w>cƒ®)
+◊?  @5ëíª$¶∏¬xeÀ<üü•î“<∑œ±;xQ5<LI”åt§Œ<¿∂Œnr0Â=
+I;û‘B>˙–y\ÊoÛ= âÆ›iÓ?õÎÑVº?    †©=°Ü—Kv“?  Ät®±|ª‡ıÌ‹øû‹<∑Gö‚< Òi°mE<î+”åt§ﬁ< Q}3“°¯=…+„¨—M>¨§Ì„À‚˛=AaÏï„?∂=∆ÑVº?    ÄîÑ=Œ´¡åNv“?  ÿgè‚¿;+9òµ›<ı$¨f°‚<¢)êÄ≈ÜE<%”åt§ﬁ<†#íI∑˚=#ﬂ]>‹E>Qî]¢ƒˆ=Ùó∞a†t“?Û.¢ÑVº?     ‡X=¢≥°!Qv“?pî√"a2Qº©ë>ıW˚‚<*H*˜4Úˆ< Ã˚-4\<9»©H∆Â<J¿‰Húî=∏2!Å8]>WôÌN/å≥=.2á¥SJÁ?Ö∏5(˚›∫?    A{>{B~œï◊?                                                                                                   r˛lj;ï~ôÜX≥<ã5Ï«∫<Ë1V°hê!<•ÂN∫≥∂< ≤hLæ≠≈=ï÷˛∆?,>˙À©Ø‹=>~÷çîÒ?)Vm˚Ãáª?    ¿?∑=•o´I˛b—?‰pÓV?#ºüáù(bkí<ÃZé˘-
+s<ÄõÎ>¨ı<Sz>åñæì<ÔSËáîOq=8ö'˛¶ø=	¡∏∫ƒ≥r=˙ß»≠Ÿ?⁄0ΩÉ£Ω?   òI´j>∏ÁêØ4d‹?5£;-/#ºb∏†ÑT˛ë<:êÂ¡˘r< üÙﬂ≠<{>åñæì<oÚOQxs=¯SÚÑ·ß¡=|πJÇ%Ÿt=ÄÀáŒˆÃ‡?›ΩÆÿÉ£Ω?   ®Q´j>”≈vˇ#‹?                                                                                                 ÄÆœfû<Û0‘⁄7=7±åJ©+`=∏E F/ Z=ØÁ∑[•=¿dÕ⁄çÇ>»`_amã?í¥ág™M≈>˙ß»≠Ÿ?å¸û5q¿?¿÷˝ß»≠Ÿ?˘ïÌ~6ˇ’? p`wã≥Ä<†ûc:ı<Äü¡ä¡‹I=óh%B D=lSìLØÍˆ< º˚zﬂe>Õs¿‡ì˙Ú>Ú˝òı(±>ÊÀX_4´·?‹Mió7q¿?å≤®»≠Ÿ?éA^Î3ˇ’? † À∑ñ<œ8Ç5‘-ˆ<.P…‘~„I=tRQù[–D=WSìLØÍˆ< Ó/BÆv>Õ«9Í®Ú>¡êgéÁ∞>4] L…—?a)ZÛ3q¿?(∞®»≠Ÿ?Ï£Æ8ˇ’? /zKè¢°<ÇÍ¿^]jˆ<@Ωﬂ)Ã˛I=qƒu\E=∞rA^9˜< ◊?ao{>
+Ã§öÇÚ>)éUb€·∞>òsä†æ°œ?	#¬¥˜¢¿?ä¿JôÀ‹?ÜM6¿ˇƒÿ?ßsñ¨Üf6=≠·ﬁQpÁ<≤”
+WÛG=+V5+8=~´n›xÁ<ö]™Y•≤?ÓSf}^Cœ>æ¨À†o-±> pımp%ô?^˛û‚ù˝–?ºM2WÆÁ?ÄÊ˙Vì€?({mà5*£<zÈc6µ<WZŒ'\)=àH∏ﬂ≥'=&Z¥ÅR8∑<ÃÃDªßy>†›R=“‚>\
+§ŸŸA≈>>~÷çîÒ?µÒƒúi‹?‡qÏ6∫¶Á?•k¬ÔÒŒ∆? Ó‘D‡ìñ<˛¡††J-ˆ<≥ºÑu„I=˙˛&U–D=WSìLØÍˆ< ëƒ0¨úv>≥q8;©Ú>+•ZSÁ∞>∏@˘%‘—?’û∆ı3q¿?(∞®»≠Ÿ?vÌ™8ˇ’? hï (Ü<ΩÍ¿©H∆ı<ÚèM6Ú„I=èç2võ@E=!˘À4ﬁ˜< ƒ÷≠j>oÎ."®†Ú>$ƒ…‚∞>§RŒoÅ¿‹?Zvÿò¿?0’oÅ¿‹?´~/Òä∆ÿ? ¥ic˜É<ë™¿©H∆ı<ÙÃMÇJ=ö.p=◊E=jÛ^¢¡&˜< Rg®Ëëg>÷9¨ü~jÚ>.Ö¥8ÿ∞>gΩ1qQã‡?’ŸäQ“¿?¡«2qQã‡?ëu'¡«¿‹?€‡üç}ä<>æy·∏ﬁ<@¥ÍÙí)=MÓt–£q%=‚‡…’·cﬂ<a"4t
+D°>ô-X.B©Ú>E2æÓÜ’∞>÷ é¥µT–?˚˝Âπ
+ﬁ¿?\&kÜl˝—?{$˜	6Ã?À˙o°ﬂÅà<Rÿ´)„ûﬁ<IUZ∂÷è)=,ñŸÕôn%=‰‡…’·cﬂ<Æ{
+À†>	!›P4‰Ú>kOrı„±>Ùó∞a†t“?órGƒ
+ﬁ¿?s&kÜl˝—?ßURÌ6Ã?äÖî@»(z<^Ô>@|›<[æ©ß°/(=cè6‚U$=Lﬂ™m tﬂ<ihÿ	ëuò>@˝|Û>≥ÕÚã ±>=0}ç/Â?∑g
+˜y¿?fvãƒ”?π	~xM=–?{—Y⁄Ó<åﬂ9bçèŒ<»<Â…Ê®ı< ¿ÅˆUÏ1<Êsv}¢Œ<û#]é∆=⁄OÛÉvRÕ=êé|{°O|= pımp%ô?ß≥)!Kª? $TıeøL∫ªûZ‘?FN789”<"%)JB·<Vu¡T„<iO9”<h*rJB·<ù≠&Æ‡Ax?x1D•˚\	æEÏ_7 >∏?¬?É+u>Ïèh4A3Â?v‹KÓˇˇ˜?l‹õroä‹?b2)0
+ºû`˝lø<˜√_R∞|ï< j$7I+<@Q÷ÿF1¿<HÌ#OBê™=~>a1ØË=-~'πù=Ë»„Ül˝—?ŸπÅø?∂KÉãô+u>›O˛}ﬁT›?                                                                                                ∆˛"÷˜Ö<>¿åt§ﬁ<ú(è4ƒ
+)=ù$Üè•†%=ÆÍÍ‰õãﬂ<õ‰›õx¢>;ÖÔ-AÛ>Õàı∏±>≤1åhkp÷?ôÀŒVD’¿?*©ˆfkp÷?ü∑-ÿsD“?ê'áMNá< :«åt§ﬁ<∆C'A∫I)=¿âúç%=ZˆŸΩLxﬂ<P∑R~¯{°>q|≈7ÙÚ>“r•ä±>ömﬁQø;‘?B>_WÕ⁄¿?∫ªﬁPø;‘?1g=UX0–?ºA€ç¿euº¥ØÏ¸…ª›<N§F6¨Ÿ¬< ç
+„ÀÌS<O¡˙^ä„<ãÇr¿Q˚=öñámÂ|7>u:"ìÌ=¿|‘Íˇˇ˜?àÇ<y}{ø?   @}≥>¿'1°6-ÿ?ÑSò?‡à<ÖÕåt§ﬁ<®üT~ê)=òMï5@o%=‰‡…’·cﬂ<DñKÇÂ†>{¬(}◊Ú>f®W4±>Ë»„Ül˝—?f8¬
+ﬁ¿?n&kÜl˝—?TSüı6Ã?  ∞Tòf—;XÉ∏¬xe€<∏íÊ,=j˚ÙÎâé<&*”åt§ﬁ< ¶[k5”Ë=∑à?ﬁMQ>_3üáîh> âÆ›iÓ?ãÈœ‘◊Kª?    ¿πÄ=ù6Ã?  ∞Ôaoz;¡5¯J¥<^|ƒâ◊∫<üyNÛ3¥!<¸√N∫≥∂<@nDÆ»=®SkûÀ9)>„b
+0b¶Ÿ=∫ÇÛ¶)lÍ?+ãZ˚Ãáª?    ‡Vü=vÃ{@ˇb—?ƒ#ñ“™<4cò··µ<ƒX·M#)=[|ÈSø'= Z¥ÅR8∑<£ñ¶ÀÔÄ>/ÆÀã‡£‚>~qä∂≈>∫ÇÛ¶)lÍ?©5êi‹?qÏ6∫¶Á?™’ÚŒ∆?…¥˚|	º<!D∫≥∆<˚µÈ8=G]%3—7=ˆjdá-«<ã≥Y∫;në>ÈRÄNK8Ò>Mπ√>ø—>Rπ>cBÊ?»…‘Jt⁄?ä>cBÊ?˚#ÚŒ∆?5Å”∞¨6 <Œú§ç`∆<[FÀ	9=¸Ï˚4‘ä7=»jdá-«<\((Mó>4YßŒ	Ò>üjisBë—>@¨uÎ§·?B√$«Kt⁄?‡>cBÊ?od§GÚŒ∆?BÅï´nâ<T&Ï{RïÂ<h7\≠5=–áBì}G3=bç4û>Á<äº—√I„á>*≤è‡]?ÿJxî¡—>&<ˆ„?j«N∑Án…?ó± zr8‚?√sßåÿ?Ñ3úÎâ:AºäÍÜt≥“<M'ÆÚÊ< åN6˛}K<Ìûœ©H∆’<ä] ∂2á=uçÉ?»dÚ=˙‹úô£=ÆÛF¡úΩÈ?¬ÿ)˚›∫?   @Ty>≥¿~ß◊?ÚRß+ﬂDAº2'ò=2“<ãúµÒÊ< ¨6„\!J<·üœ©H∆’<ãå†µ7ç=d>≤2yoÚ=à
+ú÷ﬁ±£=¿Sä¸[Ó?E-,˚›∫?   ¿oz>gÂ◊?Ãfßè˙€MºùÔååÂ<12oèhÛˆ< 8°G«,_<ê»©H∆Â<Ö·ã œé=¡b≥G`Ò>dK∞±û≥= ≤˚6«?!†Î˚›∫?   Äfw>Ún¸j!◊?ÈÙ‰‚·@ºm\Sî”<ñj°U√≠Ê< ¯≤Z„[L<ºõ–é≤’<Ä´ﬂC\˛Ç=~·^√ÏÙ=›6_„s•=F}Y÷ìÂ?N/á˚∫?   ÄÖx>k´Áç∏◊?Íø°VÛÇ<≤@ ú 
+Â<⁄èJ¢5=UKy≈;3=N8p”=Á<j=‰ûlÇ>¥GE?2v€>é—>8gKènîË?†[Ã>K…?CO÷Hñ)‚?€óF™Uÿ? 4SGƒFè<Kä¬é≤’<„+5Y≤H==v„äµÿÖ:=O≤›s}R◊< r¡Üõrh>`≥™ÄîJÓ>¢àÍ
+ö≈>F}Y÷ìÂ?ñ’4ÔX“?ùÔY÷ìÂ? ÑnÜ≥‚’?ß689”<:!)JB·<! u¡T„<C´O9”<h*rJB·<[g%Æ‡Ax? √˙w\	æµæTG >(⁄˚W•,u>∞çh4A3Â?v‹KÓˇˇ˜?a‹õroä‹?¨‘÷Zxzº“‡4¨Ö·Ω<Óõ+^¿xï< Í%0¿˙<¥Ñ÷ÿF1¿<I@9⁄—)™=}·kﬂÖäı=¬Uâﬂ≤¶©=Rπ>cBÊ?î2Åø?î?§-u>æeQl#D›?§ˆ#o¥E=˘®¬‡≤˜<VÚ†@ab==åIX=ëd›s}R˜<\∫ÊÅ7¬¯>Öj¿9≤¡?ÉÒ>Ñ¨®·> ≤˚6«?“√ØÃÌX“?µ!Y÷ìÂ?T8∂‚’?H€ç¿euºÌ¸…ª›<Æ™F6¨Ÿ¬<ÄÒ„ÀÌS<O¡˙^ä„<Öjj¿Q˚=FçÜmÂ|7>È˛0"ìÌ=®Z”Íˇˇ˜?áÇ<y}{ø?   @}≥>iQ1°6-ÿ?∏zI =#ºÀYÆ∂·}ë<Ω,Êr<Ä)ü6óõ<N|>åñæì<òÕ ®À{v=“%$:4&ƒ=c$°⁄U≈w=F}Y÷ìÂ?Ñ”o˛É£Ω?   ∂^´j>ú•%’’€?      ¯?\L”r	Ë?         ˇˇˇˇ˜?<— iŒTï=í≥˝ˇˇˇÁ?í≥˝ˇˇˇÁ?SáÓˇˇˇ˜?QË≤7∫¶Á?QË≤7∫¶Á? pÏ6∫¶Á? ËwÎ§·?v‹KÓˇˇ˜?Ö7ò8$.u>âFr…ˇˇ˜?2çˇˇˇ˜?≤>™Úˇˇ˜?ÔÀ7	3Ô?’∫À≥›iÓ?Y¶ü7	3Ô?k›ˇˇˇ˜?* ∫ˇˇˇ˜?C"∫ˇˇˇ˜?è ∫ˇˇˇ˜?¸≥^U•©=¥OêîÑ=jïU‡X=~	›ˇˇˇ˜?®r∫I≈?∑=4[™Úˇˇ˜?,W™Úˇˇ˜?#˚’çîÒ?1ó˘’çîÒ?…ó˘’çîÒ? îTG¨µË?Ùqm´µT–?‡qÏ6∫¶Á?…ó˘’çîÒ?ÏíTG¨µË?è∞m´µT–?Vû}Ül˝—?lû}Ül˝—?x7ıÎï„?ïV3üÀTÓ?v‹KÓˇˇ˜?ÖKÉãô+u>éë¸üÀTÓ?õ"ıÎï„?2çˇˇˇ˜?hû}Ül˝—?ñ>€æ≈πÄ=   "p–	æ  †3Ω^#>ê∑ËêÓË?ùˆ¡9Ë?nnv1	3Ô?÷@X¨›iÓ?Ÿ˛J1	3Ô?k›ˇˇˇ˜?* ∫ˇˇˇ˜?C"∫ˇˇˇ˜?è ∫ˇˇˇ˜?¯Q˙=•©=º†sOêîÑ=PããU‡X=~	›ˇˇˇ˜?@´◊I≈?∑=4[™Úˇˇ˜?,W™Úˇˇ˜?Pä ÷çîÒ?]ˇ’çîÒ?ˆˇ’çîÒ?!quK¨µË?áÕã¥µT–?‡qÏ6∫¶Á?ˆˇ’çîÒ?puK¨µË?"å¥µT–?\&kÜl˝—?s&kÜl˝—?-W·Îï„?‹4üÀTÓ?v‹KÓˇˇ˜?∂KÉãô+u>÷o‹üÀTÓ?QB·Îï„?2çˇˇˇ˜?n&kÜl˝—?\˝BØ≈πÄ=   7p–	æ  †CΩ^#>vê§ÓË?≠îi39Ë?‰ˇvœÍVü=qÏ6∫¶Á?ä>cBÊ?‡>cBÊ?·aˆˇˇˇÁ?Ø∫ˇˇˇ˜?A∫ˇˇˇ˜?3›ˇˇˇ˜?Í∫ˇˇˇ˜?5ƒÍ1‹Ë?cÎ¶)lÍ?v‹KÓˇˇ˜?î?§-u>KﬁÒ¶)lÍ?2çˇˇˇ˜?•P™Úˇˇ˜? Äi˛)O#>   ¨6í	æ`U49Ë?¨Ú·q‹Ë?  @ZxL#> Ä‹0pá	æßx 9Ë?u«q‹Ë?°Zu·9Ë?Q˘ı9Ë?°Zu·9Ë?í_ˆÌ¸Á?í_ˆÌ¸Á?Wxa¿h¯@…va¿h¯@      Ë?    –zæ      ¯?ëçzN#ø  pıâW`æ      Ë?    LW)æ      Ë?    LW)æ`®Ü≈¢äﬂ>@M¬´¢äﬂ> Äë-k’	> ‡kBk’	>Q˘ı9Ë?°Zu·9Ë?        †‚ôBÕÔæí_ˆÌ¸Á?í_ˆÌ¸Á?„€8∫¶Á?˝iÙ1‹Ë?@¨uÎ§·?êü]Ï,u>[]0ñrÙ? ‹Ã7	3Ô?Ä4x1	3Ô?õOkºçÛ?R?¬?É+u>∏dˆäÛ?;ü_PÓË?b—b†t“?‚@ˆÜl˝—?¸’çîÒ?ä˚tÏï„?”U«†ÀTÓ?≥WG¨µË?C≈o´µT–?|µ›iÓ?        ≥hÕlºçÛ?∏?¬?É+u>í˚ØÅˆäÛ?ÏˇdÓË?Ùó∞a†t“?Ë»„Ül˝—?>~÷çîÒ?AaÏï„?4ß†ÀTÓ?“ÕxK¨µË?÷ é¥µT–? âÆ›iÓ?        (⁄˚W•,u>Rπ>cBÊ?ºâ`=9ı?∫ÇÛ¶)lÍ?                
