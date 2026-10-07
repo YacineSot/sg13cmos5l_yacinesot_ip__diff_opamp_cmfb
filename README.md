@@ -20,11 +20,11 @@ Key Specifications
 
 -   **Supply Voltage:** 1.5V
 
--   **Input Common-Mode:** 0.75V
+-   **Input Common-Mode:** 0.3-->VDD-0.3
 
--   **Output Common-Mode Target:** 0.75V (Regulated via continuous-time CMFB)
+-   **Output Common-Mode Target:** 0.3 --> VDD-0.3 (Regulated via continuous-time CMFB)
 
--   **Open-Loop Gain:** ~50 dB
+-   **Open-Loop Gain:** ~40 dB
 
 -   **Output Voltage Swing:** 0.1V to 1.3V (per single-ended output)
 
