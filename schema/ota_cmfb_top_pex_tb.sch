@@ -45,8 +45,8 @@ C {lab_pin.sym} 660 -370 0 0 {name=p2 lab=Vcm}
 C {lab_pin.sym} 660 -470 0 0 {name=p3 lab=Vinn}
 C {lab_pin.sym} 660 -450 0 0 {name=p4 lab=Vinp}
 C {lab_pin.sym} 660 -430 0 0 {name=p5 lab=Ibias}
-C {lab_pin.sym} 660 -490 0 0 {name=p6 lab=Voutn}
-C {lab_pin.sym} 660 -390 0 0 {name=p7 lab=Voutp}
+C {lab_pin.sym} 660 -390 0 0 {name=p6 lab=Voutn}
+C {lab_pin.sym} 660 -490 0 0 {name=p7 lab=Voutp}
 C {lab_pin.sym} 660 -330 0 0 {name=p8 lab=VSS}
 C {lab_pin.sym} 660 -410 0 0 {name=p9 lab=EN}
 C {code_shown.sym} -780 -340 0 0 {name=NETLIST only_toplevel=false value="

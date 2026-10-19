@@ -13,7 +13,7 @@ R1 net14 Vinn 500k
 R2 Vinn Vt_n 500k
 R3 net15 Vinp 500k
 R4 Vinp Vt_p 500k
-X2 Voutn Vinn Vinp Ibias EN Voutp Vcm VDD VSS sg13cmos5l_yacinesot_ip__diff_opamp_cmfb
+X2 Voutp Vinn Vinp Ibias EN Voutn Vcm VDD VSS sg13cmos5l_yacinesot_ip__diff_opamp_cmfb
 **** begin user architecture code
 
 
