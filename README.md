@@ -62,8 +62,8 @@ The amplifier addresses the classic dual Right-Half-Plane (RHP) zero instability
    * Pushes the NMOS feedforward zero ($z_n$) out to ultra-high frequencies well beyond GBW, eliminating dual-zero phase degradation and allowing a single $RC$ Miller network ($C_C = \text{MOSCap}, R_C = 23.97\text{ k}\Omega$) across the PMOS driver to achieve $60^\circ\text{--}65^\circ$ phase margin.
 
 3. **Continuous-Time Common-Mode Feedback (CT-CMFB):**
-   * High-precision continuous-time resistive sampling network ($R_1 = R_2 = 29.89\text{ k}\Omega$) senses output common-mode voltage ($V_{\text{cm\_calc}}$).
-   * Dedicated auxiliary CMFB error OTA (`xota1`) compares $V_{\text{cm\_calc}}$ with reference $V_{\text{cm}}$ and dynamically regulates the core bias node ($V_{\text{cm\_reg}}$).
+   * High-precision continuous-time resistive sampling network ($R_1 = R_2 = 29.89\text{ k}\Omega$) senses output common-mode voltage ($V_{\text{cm}\_\text{calc}}$).
+   * Dedicated auxiliary CMFB error OTA (`xota1`) compares $V_{\text{cm}\_\text{calc}}$ with reference $V_{\text{cm}}$ and dynamically regulates the core bias node ($V_{\text{cm}\_\text{reg}}$).
 
 4. **Integrated Biasing & Power-Down:**
    * Requires a single external 2.5 µA current reference (`Ibias`).
