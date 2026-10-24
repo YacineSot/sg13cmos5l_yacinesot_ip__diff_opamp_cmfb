@@ -33,7 +33,7 @@ The amplifier addresses the classic dual Right-Half-Plane (RHP) zero instability
 | **Supply Voltage ($V_{DD}$)** | 1.5 | V | Single supply |
 | **Quiescent Reference Current ($I_{\text{bias}}$)** | 2.5 | µA | Single external reference pin |
 | **Input Common-Mode Range** | 0.3 to 1.2 | V | $0.3\text{ V} \to V_{DD}-0.3\text{ V}$ |
-| **Output Common-Mode Target** | 0.75 | V | Regulated via Continuous-Time CMFB |
+| **Output Common-Mode Target** | 0.3 to 1.2 | V | Regulated via Continuous-Time CMFB |
 | **Open-Loop DC Gain ($A_v$)** | ~40 | dB | Differential |
 | **Gain-Bandwidth Product (GBW)** | 40 – 50 | MHz | $C_L = 0.1\text{ pF}, R_L = 100\text{ k}\Omega$ |
 | **Phase Margin (PM)** | 60 – 65 | deg | Miller compensated ($C_C = 3.5\times 21.5\,\mu\text{m}$ MOSCap, $R_C = 23.97\text{ k}\Omega$) |
