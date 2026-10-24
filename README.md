@@ -1,7 +1,7 @@
 # Fully Differential Class-AB Operational Amplifier in IHP 130nm CMOS
 
 ## Description
-A high-performance, fully differential operational transconductance amplifier (OTA) integrated with a Monticelli Class-AB push-pull output stage, designed and simulated using the open-source **IHP SG13CMOS5L / SG13G2** 130 nm CMOS process design kit (PDK).
+A high-performance, fully differential operational transconductance amplifier (OTA) integrated with a Monticelli Class-AB push-pull output stage, designed and simulated using the open-source **IHP SG13CMOS5L** 130 nm CMOS process design kit (PDK).
 
 The amplifier addresses the classic dual Right-Half-Plane (RHP) zero instability in Class-AB drivers through intentional transconductance asymmetry ($g_{mp} \gg g_{mn}$), enabling simple single-point $RC$ Miller compensation. The design features a continuous-time common-mode feedback (CT-CMFB) loop, integrated local biasing from a single 2.5 µA external current source, and an automated pattern-driven common-centroid layout with STI stress mitigation.
 
@@ -29,7 +29,7 @@ The amplifier addresses the classic dual Right-Half-Plane (RHP) zero instability
 
 | Parameter | Value | Units | Condition / Notes |
 | :--- | :--- | :--- | :--- |
-| **Technology** | IHP SG13CMOS5L / SG13G2 | — | 130 nm CMOS Open-Source PDK |
+| **Technology** | IHP SG13CMOS5L | — | 130 nm CMOS Open-Source PDK |
 | **Supply Voltage ($V_{DD}$)** | 1.5 | V | Single supply |
 | **Quiescent Reference Current ($I_{\text{bias}}$)** | 2.5 | µA | Single external reference pin |
 | **Input Common-Mode Range** | 0.3 to 1.2 | V | $0.3\text{ V} \to V_{DD}-0.3\text{ V}$ |
