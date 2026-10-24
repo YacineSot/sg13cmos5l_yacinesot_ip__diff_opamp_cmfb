@@ -17,7 +17,8 @@ XDIFF_AMP1 Vcm VDD EN Vinp net1 net2 Vinn VSS Ibias ota_cmfb_top
 
 
 VSS VSS 0 0
-VDD VDD VSS 1.5
+VDD VDD VDD_AC 1.5
+VDD_AC VDD_AC VSS 0 AC 0
 VEN EN VSS 1.5
 Vcm Vcm VSS {vcm}
 Ibias VDD Ibias 2.5u
@@ -47,7 +48,7 @@ write ota_cmfb_top_tb.raw
 
 .option rshunt=1e9
 .options method=gear
-.param vcm=0.75 vcm_in=0.75 cl=0.1p
+.param vcm=0.75 vcm_in=0.75 cl=0.1p vac=1
 .save all
 
 
@@ -64,17 +65,6 @@ RL2 Voutn 0 100k
 
 
 
-Vinp Vinp 0 sin({vcm_in} 100u 10k)
-Vinn Vinn 0 sin({vcm_in} -100u 10k)
-.control
-tran 100n 1m
-plot Vinp Vinn Voutp Voutn
-plot Vinp-Vinn Voutp-Voutn
-.endc
-
-
-
-
 **nr_workers=1
 **nr_mc_sims=100
 
@@ -86,6 +76,26 @@ plot Vinp-Vinn Voutp-Voutn
 **Gain_BW
 **vcm_err
 **results_plot_end
+
+
+
+
+VICM  vicm  0  DC 0.75
+VDIFF vdiff 0  DC 0 AC 1
+EIP Vinp vicm vdiff 0  0.5
+EIN Vinn vicm vdiff 0 -0.5
+EOD vod 0 Voutp Voutn 1
+
+.control
+save all
+noise v(vod) VDIFF dec 10 1 10k
+run
+noise v(vod) VDIFF dec 10 1 10Meg
+setplot noise3
+plot loglog inoise_spectrum onoise_spectrum
+setplot noise2
+print inoise_total onoise_total
+.endc
 
 
 **** end user architecture code

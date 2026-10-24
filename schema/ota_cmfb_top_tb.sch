@@ -51,7 +51,8 @@ C {lab_pin.sym} 220 -330 0 0 {name=p8 lab=VSS}
 C {lab_pin.sym} 240 -500 0 1 {name=p9 lab=EN}
 C {code_shown.sym} -790 -340 0 0 {name=NETLIST only_toplevel=false value="
 VSS VSS 0 0
-VDD VDD VSS 1.5
+VDD VDD VDD_AC 1.5
+VDD_AC VDD_AC VSS 0 AC 0
 VEN EN VSS 1.5
 Vcm Vcm VSS \{vcm\}
 Ibias VDD Ibias 2.5u
@@ -109,7 +110,7 @@ spice_ignore=true}
 C {code_shown.sym} -420 -620 0 0 {name=PARAMS only_toplevel=false value="
 .option rshunt=1e9
 .options method=gear
-.param vcm=0.75 vcm_in=0.75 cl=0.1p
+.param vcm=0.75 vcm_in=0.75 cl=0.1p vac=1
 .save all
 "}
 C {lab_pin.sym} 420 -100 2 0 {name=p21 lab=Voutn}
@@ -123,7 +124,7 @@ RL1 Voutp 0 100k
 RL2 Voutn 0 100k
 "
 }
-C {ac_diff_probe/ac_diff_probe.sym} 180 -90 0 0 {name=xprobe1 vcm=\{vcm_in\} vac=1
+C {ac_diff_probe/ac_diff_probe.sym} 180 -90 0 0 {name=xprobe1 vcm=\{vcm_in\} vac=\{vac\}
 spice_ignore=true}
 C {devices/code_shown.sym} -770 -610 0 0 {name=SAVE only_toplevel=true
 format="tcleval( @value )"
@@ -143,7 +144,7 @@ plot Vinp Vinn Voutp Voutn
 plot Vinp-Vinn Voutp-Voutn
 .endc
 "
-}
+spice_ignore=true}
 C {launcher.sym} -1150 290 0 0 {name=h4
 descr=SimulateNGSPICE
 tclcommand="
@@ -344,3 +345,79 @@ m=1}
 C {lab_pin.sym} 100 100 1 1 {name=p33 lab=Vt_n}
 C {lab_pin.sym} 100 150 3 0 {name=p34 lab=Vt_p}
 C {schema/ota_cmfb_top.sym} 220 -420 0 0 {name=XDIFF_AMP1}
+C {code_shown.sym} -1830 -690 0 0 {name=NOISE_SIM only_toplevel=false value="
+Vinp Vinp 0 sin(\{vcm_in\} 100u 10k)
+Vinn Vinn 0 sin(\{vcm_in\} -100u 10k)
+.control
+tran 100n 1m
+plot Vinp Vinn Voutp Voutn
+plot Vinp-Vinn Voutp-Voutn
+.endc
+"
+spice_ignore=true}
+C {code_shown.sym} -1830 -430 0 0 {name=PSRR_SIM only_toplevel=false value="
+.control
+save all
+
+* 1. Measure Differential Gain (Adiff)
+* Apply 1V AC across the differential inputs, 0V AC on VDD
+alterparam vac=1
+reset
+alter VDD_AC acmag=0
+ac dec 10 100 100G
+* Store the result in a custom vector
+let Adiff_db = db(voutp - voutn)
+alterparam vac=0
+reset
+* 2. Measure Power Supply Gain (Add)
+* Turn off input AC, apply 1V AC on VDD
+alter VDD_AC acmag=1
+ac dec 10 100 100G
+* Store the supply gain result
+let Add_db = db(voutp - voutn)
+
+* 3. Calculate and Plot True PSRR
+* PSRR(dB) = Adiff(dB) - Add(dB)
+let diff_gain = ac1.Adiff_db
+let supply_gain = Add_db
+let psrr_db = ac1.Adiff_db - Add_db
+plot psrr_db ylabel 'PSRR (dB) = A_diff - A_dd'
+plot supply_gain ylabel 'A_dd (dB)'
+plot diff_gain ylabel 'A_diff (dB)'
+.endc
+"
+spice_ignore=true}
+C {code_shown.sym} -1820 320 0 0 {name=CMRR_SIM only_toplevel=false value="
+.control
+save all
+
+ac dec 10 100 100G
+let acm_db = db((voutp + voutn)/2)
+let adiff_db = db(voutp - voutn)
+let cmrr_db = adiff_db - acm_db
+
+plot acm_db ylabel 'A_CM (dB)'
+plot adiff_db ylabel 'A_diff (dB)'
+plot cmrr_db ylabel 'CMRR (dB) = A_diff - A_CM'
+.endc
+"
+spice_ignore=true}
+C {code_shown.sym} -2310 -700 0 0 {name=NOISE_SIM1 only_toplevel=false value="
+VICM  vicm  0  DC 0.75
+VDIFF vdiff 0  DC 0 AC 1
+EIP Vinp vicm vdiff 0  0.5
+EIN Vinn vicm vdiff 0 -0.5
+EOD vod 0 Voutp Voutn 1
+
+.control
+save all
+noise v(vod) VDIFF dec 10 1 10k
+run
+noise v(vod) VDIFF dec 10 1 10Meg
+setplot noise3
+plot loglog inoise_spectrum onoise_spectrum
+setplot noise2
+print inoise_total onoise_total
+.endc
+"
+}

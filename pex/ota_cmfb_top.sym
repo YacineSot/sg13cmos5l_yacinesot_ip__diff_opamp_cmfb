@@ -1,0 +1,37 @@
+v {xschem version=3.4.BRC file_version=1.4}
+S {}
+E {}
+K{type=primitive
+format="@name @pinlist @symname"
+template="name=X1"
+}
+L 4 -20 10 0 10 {}
+T {VDD} 5 5 0 0 0.2 0.2 {}
+L 4 -20 30 0 30 {}
+T {VSS} 5 25 0 0 0.2 0.2 {}
+L 4 -20 50 0 50 {}
+T {Ibias} 5 45 0 0 0.2 0.2 {}
+L 4 -20 70 0 70 {}
+T {EN} 5 65 0 0 0.2 0.2 {}
+L 4 -20 90 0 90 {}
+T {Vinp} 5 85 0 0 0.2 0.2 {}
+L 4 -20 110 0 110 {}
+T {Vinn} 5 105 0 0 0.2 0.2 {}
+L 4 -20 130 0 130 {}
+T {VCM} 5 125 0 0 0.2 0.2 {}
+L 4 -20 150 0 150 {}
+T {Voutp} 5 145 0 0 0.2 0.2 {}
+L 4 -20 170 0 170 {}
+T {Voutn} 5 165 0 0 0.2 0.2 {}
+B 5 -22.5 8 -17.5 12 {name=VDD dir=inout}
+B 5 -22.5 28 -17.5 32 {name=VSS dir=inout}
+B 5 -22.5 48 -17.5 52 {name=Ibias dir=inout}
+B 5 -22.5 68 -17.5 72 {name=EN dir=inout}
+B 5 -22.5 88 -17.5 92 {name=Vinp dir=inout}
+B 5 -22.5 108 -17.5 112 {name=Vinn dir=inout}
+B 5 -22.5 128 -17.5 132 {name=VCM dir=inout}
+B 5 -22.5 148 -17.5 152 {name=Voutp dir=inout}
+B 5 -22.5 168 -17.5 172 {name=Voutn dir=inout}
+P 4 5 150 0 0 0 0 180 150 180 150 0 {}
+T {@symname} 40 80 0 0 0.3 0.3 {}
+T {@name} 0 -15 0 0 0.2 0.2 {} 

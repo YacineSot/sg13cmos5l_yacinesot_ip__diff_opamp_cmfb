@@ -1,0 +1,195 @@
+
+Magic 8.3 revision 683 - Compiled on 06 سبتمبر, 2026 CET 03:51:26 م.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Switching to WIRING tool.
+Switching to NETLIST tool.
+Switching to PICK tool.
+Switching to BOX tool.
+Sourcing design .magicrc for technology ihp-sg13g2 ...
+2 Magic internal units = 1 Lambda
+Input style sg13g2(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    fillfet sealcont difffill nemitter hvnemitter hvisodiffres sealvia1 sealvia2 sealvia3 sealvia4 sealvia5 sealvia6 pad seal thruvia 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Error parsing "/run/media/yacinesot/My_Files/XschemDesigns/designs/ignore/PDK/ihp-sg13g2/libs.tech/magic/ihp-sg13g2.magicrc": couldn't read file "/foss/tools/osic-multitool/iic-magic-bindkeys": no such file or directory
+Bad local startup file "/run/media/yacinesot/My_Files/XschemDesigns/designs/ignore/PDK/ihp-sg13g2/libs.tech/magic/ihp-sg13g2.magicrc", continuing without.
+Loading "output/slot_5__ota_cmfb_top/magic_RC/ota_cmfb_top_MAGIC_RC_Script.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 6.0
+Library name: LIB
+Reading "$$$CONTEXT_INFO$$$".
+Reading "via_stack$29".
+Reading "moscap_p".
+Reading "via_stack$7".
+Reading "sg13cmos5l_inv_4".
+Reading "nmos$1".
+Reading "via_stack$10".
+Reading "miller_cap".
+Reading "rhigh".
+Reading "pmos$3".
+Reading "EN_INV".
+CIF file read warning: CIF style sg13g2(): units rescaled by factor of 5 / 1
+CIF file read warning: Input off lambda grid by 2/5; snapped to grid.
+Reading "dynamic_pcell$4".
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell$4.
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell$4.
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell$4.
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell$4.
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell$4.
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell$4.
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell$4.
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell$4.
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell$4.
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell$4.
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell$4.
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell$4.
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell$4.
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell$4.
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell$4.
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell$4.
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell$4.
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell$4.
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell$4.
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell$4.
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell$4.
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell$4.
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell$4.
+Moving label "DRN_NET_CD" from metal3 to via2 in cell dynamic_pcell$4.
+Moving label "SRC_NET_IJ_GATE_DI" from metal3 to via2 in cell dynamic_pcell$4.
+Moving label "DRN_NET_J_GATE_EJ" from metal3 to via2 in cell dynamic_pcell$4.
+Moving label "SRC_NET_NDE" from metal3 to via2 in cell dynamic_pcell$4.
+Moving label "DRN_NET_J_GATE_EJ" from metal3 to via2 in cell dynamic_pcell$4.
+Moving label "SRC_NET_ABCH" from metal3 to via2 in cell dynamic_pcell$4.
+Moving label "SRC_NET_ABCH" from metal3 to via2 in cell dynamic_pcell$4.
+Moving label "SRC_NET_NDE" from metal3 to via2 in cell dynamic_pcell$4.
+Moving label "DRN_NET_MENX" from metal3 to via2 in cell dynamic_pcell$4.
+Moving label "DRN_NET_J_GATE_EJ" from metal3 to via2 in cell dynamic_pcell$4.
+Moving label "SRC_NET_IJ_GATE_DI" from metal3 to via2 in cell dynamic_pcell$4.
+Moving label "DRN_NET_J_GATE_EJ" from metal3 to via2 in cell dynamic_pcell$4.
+Moving label "DRN_NET_CD" from metal3 to via2 in cell dynamic_pcell$4.
+Moving label "B_DRN" from metal3 to via2 in cell dynamic_pcell$4.
+Moving label "SRC_NET_O_GATE_NO" from metal3 to via2 in cell dynamic_pcell$4.
+Moving label "SRC_NET_O_GATE_NO" from metal3 to via2 in cell dynamic_pcell$4.
+Moving label "DRN_NET_MENX" from metal3 to via2 in cell dynamic_pcell$4.
+Reading "pmos".
+Moving label "Drain" from metal1 to via1 in cell pmos.
+Reading "via_stack$3".
+Reading "via_stack$11".
+Reading "via_stack".
+Reading "via_stack$2".
+Reading "nmos".
+Reading "via_stack$6".
+Reading "miller_comp".
+Reading "via_stack$8".
+Reading "via_stack$46".
+Reading "via_stack$31".
+Reading "via_stack$32".
+Reading "nmos$3".
+Reading "pmos$2".
+Reading "guard_ring".
+Reading "sg13cmos5l_antennanp".
+Reading "dynamic_pcell".
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell.
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell.
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell.
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell.
+Moving label "M_GATE" from metal3 to via2 in cell dynamic_pcell.
+Moving label "M_GATE" from metal3 to via2 in cell dynamic_pcell.
+Moving label "M_GATE" from metal3 to via2 in cell dynamic_pcell.
+Moving label "M_GATE" from metal3 to via2 in cell dynamic_pcell.
+Reading "via_stack$1".
+Reading "dynamic_pcell$5".
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell$5.
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell$5.
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell$5.
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell$5.
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell$5.
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell$5.
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell$5.
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell$5.
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell$5.
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell$5.
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell$5.
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell$5.
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell$5.
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell$5.
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell$5.
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell$5.
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell$5.
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell$5.
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell$5.
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell$5.
+Moving label "L_GATE" from metal3 to via2 in cell dynamic_pcell$5.
+Moving label "SRC_NET_KL" from metal3 to via2 in cell dynamic_pcell$5.
+Moving label "K_GATE" from metal3 to via2 in cell dynamic_pcell$5.
+Moving label "SRC_NET_AB" from metal3 to via2 in cell dynamic_pcell$5.
+Moving label "K_GATE" from metal3 to via2 in cell dynamic_pcell$5.
+Moving label "SRC_NET_AB" from metal3 to via2 in cell dynamic_pcell$5.
+Moving label "L_GATE" from metal3 to via2 in cell dynamic_pcell$5.
+Moving label "DRN_NET_JL" from metal3 to via2 in cell dynamic_pcell$5.
+Moving label "SRC_NET_CDEFGHIJ" from metal3 to via2 in cell dynamic_pcell$5.
+Moving label "DRN_NET_BD" from metal3 to via2 in cell dynamic_pcell$5.
+Moving label "G_DRN" from metal3 to via2 in cell dynamic_pcell$5.
+Moving label "DRN_NET_CA" from metal3 to via2 in cell dynamic_pcell$5.
+Moving label "F_DRN" from metal3 to via2 in cell dynamic_pcell$5.
+Moving label "DRN_NET_BD" from metal3 to via2 in cell dynamic_pcell$5.
+Moving label "H_DRN" from metal3 to via2 in cell dynamic_pcell$5.
+Moving label "H_DRN" from metal3 to via2 in cell dynamic_pcell$5.
+Moving label "DRN_NET_BD" from metal3 to via2 in cell dynamic_pcell$5.
+Moving label "F_DRN" from metal3 to via2 in cell dynamic_pcell$5.
+Moving label "DRN_NET_CA" from metal3 to via2 in cell dynamic_pcell$5.
+Moving label "G_DRN" from metal3 to via2 in cell dynamic_pcell$5.
+Moving label "DRN_NET_CA" from metal3 to via2 in cell dynamic_pcell$5.
+Moving label "SRC_NET_CDEFGHIJ" from metal3 to via2 in cell dynamic_pcell$5.
+Moving label "DRN_NET_E_GATE_CDEFGH" from metal3 to via2 in cell dynamic_pcell$5.
+Reading "ota_cmfb_core_push_pull_output_stage".
+Reading "dynamic_pcell$6".
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell$6.
+Moving label "Gate" from hvpvaractor to poly in cell dynamic_pcell$6.
+Moving label "SRC_NET_ON" from metal3 to via2 in cell dynamic_pcell$6.
+Moving label "SRC_NET_ON" from metal3 to via2 in cell dynamic_pcell$6.
+Moving label "DRN_NET_N_GATE_NO" from metal3 to via2 in cell dynamic_pcell$6.
+Reading "via_stack$4".
+Reading "rhigh$1".
+Reading "via_stack$13".
+Reading "via_stack$40".
+Reading "via_stack$41".
+Reading "via_stack$42".
+Reading "via_stack$44".
+Reading "via_stack$45".
+Reading "ota_cmfb_top".
+Extracting ota_cmfb_top into /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/scripts/output/slot_5__ota_cmfb_top/magic_RC/ota_cmfb_top.ext:
+Processing ota_cmfb_top
+freeMagic called with NULL argument.
+Device has multiple lengths:  scaling all widths to length 210
+ota_cmfb_top: 190 warnings
+Processing cell ota_cmfb_top for resistance extraction.
+Extracting dynamic_pcell$6_0.Gate
+Extracting dynamic_pcell$6_0.DRN_NET_O
+Extracting dynamic_pcell_0.Gate
+Extracting dynamic_pcell$5_0.DRN_NET_CA
+Extracting dynamic_pcell$5_0.DRN_NET_BD
+Extracting dynamic_pcell_0.M_DRN
+Extracting dynamic_pcell$5_0.Gate
+Extracting dynamic_pcell$5_0.G_DRN
+Extracting dynamic_pcell$5_0.F_DRN
+Extracting ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI
+Extracting ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_MENX
+Extracting dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH
+Extracting ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI
+Extracting ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_MENX
+Extracting ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate
+Extracting ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate
+Extracting VSS
+Warning:  Orphaned node "VSS" arbitrarily attached to "VSS.n0"
+Extracting VDD
+Extracting EN
+Extracting Vinp
+Total Nets: 112
+Nets extracted: 20 (0.178571)
+Nets output: 7 (0.062500)
+Total of 190 warnings.
+exttospice finished.

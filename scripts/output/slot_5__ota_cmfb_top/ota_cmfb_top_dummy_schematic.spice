@@ -1,0 +1,3 @@
+.subckt ota_cmfb_top VDD VSS
+.ends
+.end

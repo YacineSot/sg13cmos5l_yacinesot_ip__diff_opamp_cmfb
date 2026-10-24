@@ -1,6 +1,5 @@
 ** sch_path: /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/schema/ota_cmfb_top_pex_tb.sch
 **.subckt ota_cmfb_top_pex_tb
-xprobe1 Vinp net10 Vinn net11 ac_diff_probe vcm={vcm_in} vac=1
 Vmeas2 net5 net12 0
 .save i(vmeas2)
 Vmeas3 net6 net13 0
@@ -13,23 +12,11 @@ R1 net14 Vinn 500k
 R2 Vinn Vt_n 500k
 R3 net15 Vinp 500k
 R4 Vinp Vt_p 500k
-X2 Voutp Vinn Vinp Ibias EN Voutn Vcm VDD VSS sg13cmos5l_yacinesot_ip__diff_opamp_cmfb
+X1 VDD VSS Ibias EN Vinp Vinn Vcm Voutn Voutp ota_cmfb_top
 **** begin user architecture code
-
-
-VSS VSS 0 0
-VDD VDD VSS 1.5
-VEN EN VSS 1.2
-Vcm Vcm VSS {vcm}
-Ibias VDD Ibias 2.5u
-
-
 
 .control
 op
-let ro_n = voutn/i(vmeas2)
-let ro_p = voutp/i(vmeas3)
-print ro_n ro_p
 write ota_cmfb_top_pex_tb.raw
 .endc
 
@@ -46,32 +33,9 @@ write ota_cmfb_top_pex_tb.raw
 
 
 
-.control
-ac dec 50 100 100G
-let vout_diff = voutp-voutn
-let vin_diff = vinp-vinn
-let diff_gain=vout_diff/vin_diff
-let op_mag=db(diff_gain)
-let op_ph = 180*cph(diff_gain)/pi + 180
-let vcm_1 = (voutp+voutn)/2
-let vcm_err = mag((vcm_1 - {vcm}))[0]
-echo results_save_begin
-meas ac dc_gain find op_mag when frequency=1000
-meas ac gain_margin find op_mag when op_ph=0
-meas ac phase_margin find op_ph when op_mag=0
-meas ac bw_3db find frequency when op_mag=dc_gain-3
-meas ac Gain_BW find frequency when op_mag=0
-print vcm_err
-echo results_save_end
-plot op_mag op_ph
-.endc
-
-
-
-
 .option rshunt=1e9
 .options method=gear
-.param vcm=0.75 vcm_in=0.75 cl=0.1p
+.param vcm=0.75 vcm_in=0.75 cl=0.1p vac=1
 .save all
 
 
@@ -85,19 +49,66 @@ RL2 Voutn 0 100k
 
 
 .include ota_cmfb_top_pex_tb.save
-.include /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/pex/slot_5.gds.spice
+
+
+
+VSS VSS 0 0
+VDD VDD VDD_AC 1.5
+VDD_AC VDD_AC VSS 0 AC 0
+VEN EN VSS 1.5
+Vcm Vcm VSS {vcm}
+Ibias VDD Ibias 2.5u
+
+
+
+.include /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/pex/ota_cmfb_top.gds.spice
+
+
+
+
+VICM  vicm  0  DC 0.75
+VDIFF vdiff 0  DC 0 AC 1
+EIP Vinp vicm vdiff 0  0.5
+EIN Vinn vicm vdiff 0 -0.5
+EOD vod 0 Voutp Voutn 1
+
+.control
+save all
+noise v(vod) VDIFF dec 10 1 50Meg
+run
+noise v(vod) VDIFF dec 10 1 1000Meg
+setplot noise3
+plot loglog inoise_spectrum onoise_spectrum
+echo results_save_begin
+foreach freq 1 10 100 1k 10k 100k 1Meg
+	let index = 0
+  	while frequency[index] < $freq
+    		let index = index + 1
+  	end
+	let noise_$freq = inoise_spectrum[$&index]
+	let index = $&index + 1
+	print noise_$freq
+end
+setplot noise2
+print inoise_total
+echo results_save_end
+.endc
+
+
 
 
 **nr_workers=1
 **nr_mc_sims=100
 
 **results_plot_begin
-**dc_gain
-**gain_margin
-**phase_margin
-**bw_3db
-**Gain_BW
-**vcm_err
+**noise_1
+**noise_10
+**noise_100
+**noise_1k
+**noise_10k
+**noise_100k
+**noise_1meg
+**inoise_total
 **results_plot_end
 
 

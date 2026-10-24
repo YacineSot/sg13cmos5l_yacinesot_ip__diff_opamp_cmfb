@@ -13,7 +13,7 @@ B 4 20 40 540 190 {fill=0}
 T {SPICE SIMULATION} -770 -680 0 0 0.4 0.4 {}
 T {AC ANALYSIS PROBE} 30 -230 0 0 0.4 0.4 {}
 T {CORE OPAMP} 310 -540 0 0 0.4 0.4 {}
-T {MONTE CARLO PYTHON} 30 240 0 0 0.4 0.4 {}
+T {MONTE CARLO PYTHON} 30 220 0 0 0.4 0.4 {}
 T {DC ANALYSIS SINGLE TO DIFF} 20 40 0 0 0.4 0.4 {}
 N 220 -520 220 -480 {lab=#net1}
 N 240 -500 240 -470 {lab=#net2}
@@ -24,10 +24,14 @@ N 320 -410 380 -410 {lab=#net6}
 N 110 -420 150 -420 {lab=#net7}
 N 100 -390 140 -390 {lab=#net8}
 N 100 -450 140 -450 {lab=#net9}
-N 240 -100 290 -100 {lab=#net10}
-N 240 -80 290 -80 {lab=#net11}
-N 100 -100 120 -100 {lab=Vinp}
-N 100 -80 120 -80 {lab=Vinn}
+N 240 -100 290 -100 {lab=#net10
+}
+N 240 -80 290 -80 {lab=#net11
+}
+N 100 -100 120 -100 {lab=Vinp
+}
+N 100 -80 120 -80 {lab=Vinn
+}
 N 350 -100 420 -100 {lab=Voutn}
 N 350 -80 420 -80 {lab=Voutp}
 N 440 -430 480 -430 {lab=#net12}
@@ -49,20 +53,10 @@ C {lab_pin.sym} 660 -390 0 0 {name=p6 lab=Voutn}
 C {lab_pin.sym} 660 -490 0 0 {name=p7 lab=Voutp}
 C {lab_pin.sym} 660 -330 0 0 {name=p8 lab=VSS}
 C {lab_pin.sym} 660 -410 0 0 {name=p9 lab=EN}
-C {code_shown.sym} -780 -340 0 0 {name=NETLIST only_toplevel=false value="
-VSS VSS 0 0
-VDD VDD VSS 1.5
-VEN EN VSS 1.2
-Vcm Vcm VSS \{vcm\}
-Ibias VDD Ibias 2.5u
-"}
 C {code_shown.sym} -340 380 0 0 {name=OP_SIM only_toplevel=false
 format="tcleval( @value )" value="
 .control
 op
-let ro_n = voutn/i(vmeas2)
-let ro_p = voutp/i(vmeas3)
-print ro_n ro_p
 write @schname\\\\.raw
 .endc
 "
@@ -84,32 +78,10 @@ C {devices/launcher.sym} -1150 370 0 0 {name=h2
 descr="OP annotate" 
 tclcommand="xschem annotate_op"
 }
-C {code_shown.sym} -520 -360 0 0 {name=AC_SIM only_toplevel=false value="
-.control
-ac dec 50 100 100G
-let vout_diff = voutp-voutn
-let vin_diff = vinp-vinn
-let diff_gain=vout_diff/vin_diff
-let op_mag=db(diff_gain)
-let op_ph = 180*cph(diff_gain)/pi + 180
-let vcm_1 = (voutp+voutn)/2
-let vcm_err = mag((vcm_1 - \{vcm\}))[0]
-echo results_save_begin
-meas ac dc_gain find op_mag when frequency=1000
-meas ac gain_margin find op_mag when op_ph=0
-meas ac phase_margin find op_ph when op_mag=0
-meas ac bw_3db find frequency when op_mag=dc_gain-3
-meas ac Gain_BW find frequency when op_mag=0
-print vcm_err
-echo results_save_end
-plot op_mag op_ph
-.endc
-"
-}
 C {code_shown.sym} -470 -560 0 0 {name=PARAMS only_toplevel=false value="
 .option rshunt=1e9
 .options method=gear
-.param vcm=0.75 vcm_in=0.75 cl=0.1p
+.param vcm=0.75 vcm_in=0.75 cl=0.1p vac=1
 .save all
 "}
 C {lab_pin.sym} 420 -100 2 0 {name=p21 lab=Voutn}
@@ -123,13 +95,13 @@ RL1 Voutp 0 100k
 RL2 Voutn 0 100k
 "
 }
-C {ac_diff_probe/ac_diff_probe.sym} 180 -90 0 0 {name=xprobe1 vcm=\{vcm_in\} vac=1
-}
+C {ac_diff_probe/ac_diff_probe.sym} 180 -90 0 0 {name=xprobe1 vcm=\{vcm_in\} vac=\{vac\}
+spice_ignore=true}
 C {devices/code_shown.sym} -990 -670 0 0 {name=SAVE only_toplevel=true
 format="tcleval( @value )"
 value="
 .include @schname\\\\.save
-.include /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/pex/slot_5.gds.spice"}
+"}
 C {ammeter.sym} 410 -430 3 0 {name=Vmeas2 savecurrent=true spice_ignore=0}
 C {ammeter.sym} 410 -410 3 1 {name=Vmeas3 savecurrent=true spice_ignore=0}
 C {ammeter.sym} 320 -80 1 0 {name=Vmeas4 savecurrent=true spice_ignore=0}
@@ -202,7 +174,7 @@ print $ph_mrg
 .endc
 "
 spice_ignore=true}
-C {code_shown.sym} 30 310 0 0 {name=MC_SETTINGS
+C {code_shown.sym} 30 290 0 0 {name=MC_SETTINGS
 only_toplevel=false
 value="
 **nr_workers=1
@@ -217,7 +189,7 @@ value="
 **vcm_err
 **results_plot_end
 "
-}
+spice_ignore=true}
 C {launcher.sym} 100 585 0 0 {name=h1
 descr=SimulatePARALLEL
 tclcommand="
@@ -243,7 +215,7 @@ xschem netlist
 exec python3 $\{PDK_ROOT\}/$\{PDK\}/libs.tech/xschem/sg13g2_tests/ngspice_parallel_mc.py [file tail [xschem get current_name]]
 "
 spice_ignore=true}
-C {simulator_commands_shown.sym} 305 265 0 0 {name=MC_SIM
+C {simulator_commands_shown.sym} 285 265 0 0 {name=MC_SIM
 simulator=ngspice
 only_toplevel=false 
 value="
@@ -262,7 +234,7 @@ echo results_save_end
 .endc
 "
 spice_ignore=true}
-C {simulator_commands_shown.sym} 640 290 0 0 {
+C {simulator_commands_shown.sym} 640 270 0 0 {
 name=Libs_MISMATCH
 simulator=ngspice
 only_toplevel=false
@@ -343,4 +315,192 @@ device=resistor
 m=1}
 C {lab_pin.sym} 100 100 1 1 {name=p33 lab=Vt_n}
 C {lab_pin.sym} 100 150 3 0 {name=p34 lab=Vt_p}
-C {pex/sg13cmos5l_yacinesot_ip__diff_opamp_cmfb.sym} 680 -500 0 0 {name=X2}
+C {pex/sg13cmos5l_yacinesot_ip__diff_opamp_cmfb.sym} 680 -500 0 0 {name=X2
+spice_ignore=true}
+C {code_shown.sym} -1830 -700 0 0 {name=PSRR_SIM only_toplevel=false value="
+.control
+save all
+
+* 1. Measure Differential Gain (Adiff)
+* Apply 1V AC across the differential inputs, 0V AC on VDD
+alterparam vac=1
+reset
+alter VDD_AC acmag=0
+ac dec 10 1 100G
+* Store the result in a custom vector
+let Adiff_db = db(voutp - voutn)
+alterparam vac=0
+reset
+* 2. Measure Power Supply Gain (Add)
+* Turn off input AC, apply 1V AC on VDD
+alter VDD_AC acmag=1
+ac dec 10 1 100G
+* Store the supply gain result
+let Add_db = db(voutp - voutn)
+
+* 3. Calculate and Plot True PSRR
+* PSRR(dB) = Adiff(dB) - Add(dB)
+let diff_gain = ac1.Adiff_db
+let supply_gain = Add_db
+let psrr_db = ac1.Adiff_db - Add_db
+plot psrr_db ylabel 'PSRR (dB) = A_diff - A_dd'
+plot supply_gain ylabel 'A_dd (dB)'
+plot diff_gain ylabel 'A_diff (dB)'
+
+
+meas ac ugf find frequency when diff_gain=0
+echo results_save_begin
+meas ac psrr_100 find psrr_db when frequency=100
+meas ac psrr_ugf find psrr_db when frequency=ugf
+echo results_save_end
+.endc
+"
+spice_ignore=true}
+C {code_shown.sym} -1800 160 0 0 {name=CMRR_SIM only_toplevel=false value="
+.control
+save all
+
+ac dec 10 1 100G
+let acm_db = db((voutp + voutn)/2)
+let adiff_db = db(voutp - voutn)
+let cmrr_db = adiff_db - acm_db
+
+plot acm_db ylabel 'A_CM (dB)'
+plot adiff_db ylabel 'A_diff (dB)'
+plot cmrr_db ylabel 'CMRR (dB) = A_diff - A_CM'
+
+
+meas ac ugf find frequency when adiff_db=0
+echo results_save_begin
+meas ac cmrr_100 find cmrr_db when frequency=100
+meas ac cmrr_ugf find cmrr_db when frequency=ugf
+echo results_save_end
+.endc
+"
+spice_ignore=true}
+C {code_shown.sym} -830 -340 0 0 {name=NETLIST only_toplevel=false value="
+VSS VSS 0 0
+VDD VDD VDD_AC 1.5
+VDD_AC VDD_AC VSS 0 AC 0
+VEN EN VSS 1.5
+Vcm Vcm VSS \{vcm\}
+Ibias VDD Ibias 2.5u
+"}
+C {devices/code_shown.sym} -580 -660 0 0 {name=Wrapper only_toplevel=true
+format="tcleval( @value )"
+value="
+.include $::SG13CMOS5L_YACINESOT_IP_ROOT/pex/slot_5.gds.spice
+
+"
+spice_ignore=true}
+C {devices/code_shown.sym} -580 -770 0 0 {name=top only_toplevel=true
+format="tcleval( @value )"
+value="
+.include $::SG13CMOS5L_YACINESOT_IP_ROOT/pex/ota_cmfb_top.gds.spice
+
+"
+}
+C {pex/ota_cmfb_top.sym} 790 -260 0 0 {name=X1}
+C {lab_pin.sym} 770 -250 0 0 {name=p10 lab=VDD}
+C {lab_pin.sym} 770 -230 0 0 {name=p11 lab=VSS}
+C {lab_pin.sym} 770 -210 0 0 {name=p12 lab=Ibias}
+C {lab_pin.sym} 770 -190 0 0 {name=p13 lab=EN}
+C {lab_pin.sym} 770 -170 0 0 {name=p14 lab=Vinp}
+C {lab_pin.sym} 770 -150 0 0 {name=p15 lab=Vinn}
+C {lab_pin.sym} 770 -130 0 0 {name=p16 lab=Vcm}
+C {lab_pin.sym} 770 -90 0 0 {name=p17 lab=Voutp}
+C {lab_pin.sym} 770 -110 0 0 {name=p20 lab=Voutn}
+C {code_shown.sym} -550 -310 0 0 {name=AC_SIM only_toplevel=false value="
+.control
+ac dec 50 100 100G
+let vout_diff = voutp-voutn
+let vin_diff = vinp-vinn
+let diff_gain=vout_diff/vin_diff
+let op_mag=db(diff_gain)
+let op_ph = 180*cph(diff_gain)/pi + 180
+let vcm_1 = (voutp+voutn)/2
+let vcm_err = mag((vcm_1 - \{vcm\}))[0]
+echo results_save_begin
+meas ac dc_gain find op_mag when frequency=1000
+meas ac gain_margin find op_mag when op_ph=0
+meas ac phase_margin find op_ph when op_mag=0
+meas ac bw_3db find frequency when op_mag=dc_gain-3
+meas ac Gain_BW find frequency when op_mag=0
+print vcm_err
+echo results_save_end
+plot op_mag op_ph
+.endc
+"
+spice_ignore=true}
+C {code_shown.sym} 640 440 0 0 {name=MC_SETTINGS_PSRR
+only_toplevel=false
+value="
+**nr_workers=1
+**nr_mc_sims=100
+
+**results_plot_begin
+**psrr_100
+**psrr_ugf
+**results_plot_end
+"
+spice_ignore=true}
+C {code_shown.sym} 870 440 0 0 {name=MC_SETTINGS_CMRR
+only_toplevel=false
+value="
+**nr_workers=1
+**nr_mc_sims=100
+
+**results_plot_begin
+**cmrr_100
+**cmrr_ugf
+**results_plot_end
+"
+spice_ignore=true}
+C {code_shown.sym} -2350 -700 0 0 {name=NOISE_SIM only_toplevel=false value="
+VICM  vicm  0  DC 0.75
+VDIFF vdiff 0  DC 0 AC 1
+EIP Vinp vicm vdiff 0  0.5
+EIN Vinn vicm vdiff 0 -0.5
+EOD vod 0 Voutp Voutn 1
+
+.control
+save all
+noise v(vod) VDIFF dec 10 1 50Meg
+run
+noise v(vod) VDIFF dec 10 1 1000Meg
+setplot noise3
+plot loglog inoise_spectrum onoise_spectrum
+echo results_save_begin
+foreach freq 1 10 100 1k 10k 100k 1Meg
+	let index = 0
+  	while frequency[index] < $freq
+    		let index = index + 1
+  	end
+	let noise_$freq = inoise_spectrum[$&index]
+	let index = $&index + 1
+	print noise_$freq
+end
+setplot noise2
+print inoise_total
+echo results_save_end
+.endc
+"
+}
+C {code_shown.sym} 1080 310 0 0 {name=MC_SETTINGS_NOISE
+only_toplevel=false
+value="
+**nr_workers=1
+**nr_mc_sims=100
+
+**results_plot_begin
+**noise_1
+**noise_10
+**noise_100
+**noise_1k
+**noise_10k
+**noise_100k
+**noise_1meg
+**inoise_total
+**results_plot_end
+"
+}

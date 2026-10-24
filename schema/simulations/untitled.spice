@@ -1,0 +1,25 @@
+** sch_path: /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/untitled.sch
+**.subckt untitled
+XM1 D G 0 0 sg13_lv_nmos w=0.15u l=0.13u ng=1 m=1 mm_ok=1
+**** begin user architecture code
+
+
+
+   .lib cornerMOSlv.lib mos_tt
+   Vdd vdd 0 1.5
+   Vg  g 0 DC 0.6 AC 1
+   RD  vdd d 10k
+   .noise v(d) Vg dec 20 1 1G
+   .control
+osdi  '$PDK_ROOT/$PDK/libs.tech/ngspice/osdi/psp103_nqs.osdi'
+run
+   setplot noise1
+   plot loglog onoise_spectrum
+   .endc
+   .end
+
+
+
+**** end user architecture code
+**.ends
+.end

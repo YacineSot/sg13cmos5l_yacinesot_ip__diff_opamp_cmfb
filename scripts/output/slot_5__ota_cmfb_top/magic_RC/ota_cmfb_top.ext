@@ -1,0 +1,1690 @@
+timestamp 0
+version 8.3
+tech ihp-sg13g2
+style ngspice()
+scale 1000 1 0.5
+resistclasses 3000000 67000 110 88 88 88 88 18 11
+parameters sg13_lv_nmos l=l w=w a1=as p1=ps a2=ad p2=pd
+parameters sg13_lv_pmos l=l w=w a1=as p1=ps a2=ad p2=pd
+parameters rhigh w=w l=l
+parameters dpantenna w=w l=l
+parameters dantenna w=w l=l
+port "Ibias" 3 -9230 -9310 -9230 -9310 m3
+port "VCM" 7 -8995 2043 -8995 2043 m3
+port "Vinp" 5 -8995 3303 -8995 3303 m3
+port "Vinn" 6 -8995 3119 -8995 3119 m3
+port "Voutp" 8 9191 -4826 9191 -4826 m2
+port "Voutn" 9 2458 -4811 2458 -4811 m2
+port "EN" 4 -8995 -2518 -8995 -2518 m3
+port "VDD" 1 941 5187 941 5187 m1
+port "VSS" 2 2013 -9908 2013 -9908 m1
+node "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_ML" 42 3129.26 9509 -8850 ndif 0 0 0 0 28056 2040 216960 11408 450880 22704 0 0 0 0 0 0 0 0
+node "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 67 14769.2 9509 -8038 ndif 0 0 0 0 176568 9784 1630080 26560 780560 39348 0 0 0 0 0 0 0 0
+equiv "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate_uq0"
+node "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_ML" 42 3098.9 2776 -8850 ndif 0 0 0 0 28056 2040 216960 11408 450880 22704 0 0 0 0 0 0 0 0
+node "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 67 14762.3 2776 -8038 ndif 0 0 0 0 176568 9784 1630080 26560 780560 39348 0 0 0 0 0 0 0 0
+equiv "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate_uq0"
+node "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate" 72 24343.1 9585 -5638 p 0 0 0 0 249432 13388 2360596 33156 766320 38716 0 0 0 0 0 0 0 0
+equiv "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_QP_GATE_KLQ"
+node "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate" 72 24312.3 2852 -5638 p 0 0 0 0 249432 13388 2360596 33156 766320 38716 0 0 0 0 0 0 0 0
+equiv "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_QP_GATE_KLQ"
+node "Ibias" 1 238.019 -9230 -9310 m3 0 0 0 0 7960 412 8468 408 37942 866 0 0 0 0 0 0 0 0
+node "ota_cmfb_core_push_pull_output_stage_0/EN_INV_0/sg13cmos5l_inv_4_0.Y" 6 673.74 14368 -5120 ndif 0 0 0 0 64926 3102 14999 746 20098 1084 0 0 0 0 0 0 0 0
+node "ota_cmfb_core_push_pull_output_stage_1/EN_INV_0/sg13cmos5l_inv_4_0.Y" 6 594.495 7635 -5120 ndif 0 0 0 0 64926 3102 14999 746 20098 1084 0 0 0 0 0 0 0 0
+node "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_MENX" 105 9042.03 9397 -590 pdif 0 0 0 0 153892 7912 683808 34472 995120 50236 0 0 0 0 0 0 0 0
+node "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_HI" 37 276.47 10073 582 pdif 0 0 0 0 85520 3664 298016 14264 329600 16640 0 0 0 0 0 0 0 0
+node "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 89 3837.53 9473 -2970 p 0 0 0 0 163496 8320 1848448 45696 945360 47748 0 0 0 0 0 0 0 0
+equiv "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate_uq1"
+equiv "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.K_SRC"
+node "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_CD" 50 327.851 9397 -4106 pdif 0 0 0 0 128280 5496 474464 22728 364480 18384 0 0 0 0 0 0 0 0
+node "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.B_DRN" 76 10645.1 9585 -8074 p 0 0 0 0 163496 8320 1555168 39128 761880 38494 0 0 0 0 0 0 0 0
+equiv "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.B_DRN" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate_uq2"
+equiv "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.B_DRN" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_O_GATE_NO"
+node "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 68 736.87 9397 -2934 pdif 0 0 0 0 276792 13240 2104704 36592 661760 33408 0 0 0 0 0 0 0 0
+equiv "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate_uq3"
+node "a_1613_n2390#" 0 107.909 1613 -2390 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_1349_n2476#" 1 235.15 1349 -2476 p 0 0 0 0 18512 816 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_1349_n2390#" 0 98.3786 1349 -2390 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_1085_n2390#" 0 98.503 1085 -2390 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_1085_n2190#" 1 181.411 1085 -2190 p 0 0 0 0 18512 816 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_821_n2476#" 1 224.345 821 -2476 p 0 0 0 0 18512 816 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_821_n2390#" 0 98.3786 821 -2390 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_557_n2390#" 0 98.3963 557 -2390 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_557_n2190#" 1 181.23 557 -2190 p 0 0 0 0 18512 816 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_293_n2476#" 1 224.277 293 -2476 p 0 0 0 0 18512 816 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_293_n2390#" 0 98.4296 293 -2390 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_29_n2390#" 0 98.4712 29 -2390 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_29_n2190#" 1 181.303 29 -2190 p 0 0 0 0 18512 816 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n235_n2476#" 1 224.277 -235 -2476 p 0 0 0 0 18512 816 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n235_n2390#" 0 98.5367 -235 -2390 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n499_n2390#" 0 98.8365 -499 -2390 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n499_n2190#" 1 181.5 -499 -2190 p 0 0 0 0 18512 816 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n763_n2476#" 1 237.759 -763 -2476 p 0 0 0 0 18512 816 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n763_n2390#" 0 118.564 -763 -2390 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_1613_n1829#" 0 105.78 1613 -1829 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_1349_n1829#" 0 98.256 1349 -1829 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_1349_n1629#" 1 183.999 1349 -1629 p 0 0 0 0 18512 816 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_1085_n1915#" 1 176.147 1085 -1915 p 0 0 0 0 18512 816 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_1085_n1829#" 0 98.256 1085 -1829 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_821_n1829#" 0 98.256 821 -1829 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_821_n1629#" 1 177.546 821 -1629 p 0 0 0 0 18512 816 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_557_n1915#" 1 176.089 557 -1915 p 0 0 0 0 18512 816 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_557_n1829#" 0 98.3093 557 -1829 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_293_n1829#" 0 98.4099 293 -1829 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_293_n1629#" 1 176.655 293 -1629 p 0 0 0 0 18512 816 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_29_n1915#" 1 176.162 29 -1915 p 0 0 0 0 18512 816 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_29_n1829#" 0 98.4939 29 -1829 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n235_n1829#" 0 98.6706 -235 -1829 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n235_n1629#" 1 176.655 -235 -1629 p 0 0 0 0 18512 816 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n499_n1915#" 1 176.359 -499 -1915 p 0 0 0 0 18512 816 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n499_n1829#" 0 99.1463 -499 -1829 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n763_n1829#" 0 115.735 -763 -1829 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" 246 73073.9 -8889 -9372 ndif 0 0 0 0 1244952 61600 7828266 87840 2534920 127306 0 0 0 0 0 0 0 0
+equiv "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" "dynamic_pcell$5_0.Gate_uq0"
+node "EN_INV_1/sg13cmos5l_inv_4_0.Y" 6 593.55 -1974 -2088 ndif 0 0 0 0 64926 3102 14999 746 20098 1084 0 0 0 0 0 0 0 0
+node "EN_INV_0/sg13cmos5l_inv_4_0.Y" 6 578.238 -3431 -2088 ndif 0 0 0 0 64926 3102 14999 746 20098 1084 0 0 0 0 0 0 0 0
+node "a_n763_n1629#" 1 186.567 -763 -1629 p 0 0 0 0 18512 816 0 0 0 0 0 0 0 0 0 0 0 0
+node "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_MENX" 105 8320.72 2664 -590 pdif 0 0 0 0 153892 7912 683808 34472 995120 50236 0 0 0 0 0 0 0 0
+node "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_HI" 37 12.5715 3340 582 pdif 0 0 0 0 85520 3664 298016 14264 329600 16640 0 0 0 0 0 0 0 0
+node "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 89 1284.14 2740 -2970 p 0 0 0 0 163496 8320 1848448 45696 945360 47748 0 0 0 0 0 0 0 0
+equiv "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate_uq1"
+equiv "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.K_SRC"
+node "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_CD" 50 26.3666 2664 -4106 pdif 0 0 0 0 128280 5496 474464 22728 364480 18384 0 0 0 0 0 0 0 0
+node "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.B_DRN" 76 10063 2852 -8074 p 0 0 0 0 163496 8320 1555168 39128 761880 38494 0 0 0 0 0 0 0 0
+equiv "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.B_DRN" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate_uq2"
+equiv "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.B_DRN" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_O_GATE_NO"
+node "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 68 92.5384 2664 -2934 pdif 0 0 0 0 276792 13240 2104704 36592 661760 33408 0 0 0 0 0 0 0 0
+equiv "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate_uq3"
+node "dynamic_pcell$5_0.F_DRN" 180 4723.36 -7163 -7696 ndif 0 0 0 0 551778 27834 4582402 72682 2095720 105426 0 0 0 0 0 0 0 0
+equiv "dynamic_pcell$5_0.F_DRN" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate_uq4"
+equiv "dynamic_pcell$5_0.F_DRN" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_A_GATE_ABCH"
+node "dynamic_pcell$5_0.G_DRN" 184 3340.79 -7163 -4990 ndif 0 0 0 0 551778 27834 4593442 73234 2153120 108296 0 0 0 0 0 0 0 0
+equiv "dynamic_pcell$5_0.G_DRN" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate_uq4"
+equiv "dynamic_pcell$5_0.G_DRN" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_A_GATE_ABCH"
+node "dynamic_pcell$5_0.Gate" 117 28325.6 -7075 -9536 p 0 0 0 0 466632 22956 2962686 53728 1166000 58700 0 0 0 0 0 0 0 0
+equiv "dynamic_pcell$5_0.Gate" "dynamic_pcell$5_0.DRN_NET_IK_GATE_IJ"
+node "VCM" 18 277.509 -8995 2043 m3 0 0 0 0 18648 1056 295680 6344 241720 12246 0 0 0 0 0 0 0 0
+equiv "VCM" "dynamic_pcell$5_0.K_GATE"
+node "dynamic_pcell_0.M_DRN" 84 816.938 -7181 915 pdif 0 0 0 0 342080 14656 873744 40180 471800 23830 0 0 0 0 0 0 0 0
+equiv "dynamic_pcell_0.M_DRN" "dynamic_pcell$5_0.SRC_NET_AB"
+node "dynamic_pcell$5_0.L_GATE" 38 1066.93 -7105 -1825 p 0 0 0 0 46340 1842 484358 14856 465400 23510 0 0 0 0 0 0 0 0
+node "Vinp" 40 384.61 -8995 3303 m3 0 0 0 0 74592 4224 1124640 20392 450600 22850 0 0 0 0 0 0 0 0
+equiv "Vinp" "dynamic_pcell$5_0.Gate_uq1"
+equiv "Vinp" "dynamic_pcell$5_0.A_GATE"
+node "Vinn" 40 409.656 -8995 3119 m3 0 0 0 0 74592 4224 1109920 19656 472680 23954 0 0 0 0 0 0 0 0
+equiv "Vinn" "dynamic_pcell$5_0.Gate_uq2"
+equiv "Vinn" "dynamic_pcell$5_0.B_GATE"
+node "dynamic_pcell$5_0.DRN_NET_BD" 197 6941.04 -6705 2267 pdif 0 0 0 0 1936344 24954 1442634 71238 4229548 146398 0 0 0 0 0 0 0 0
+equiv "dynamic_pcell$5_0.DRN_NET_BD" "ota_cmfb_core_push_pull_output_stage_0/pmos_0.Gate"
+equiv "dynamic_pcell$5_0.DRN_NET_BD" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_NDE"
+node "a_9619_4109#" 0 103.834 9619 4109 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "Voutp" 49 3498.92 9191 -4826 m2 0 0 0 0 164036 8954 1267692 32580 426226 18598 0 0 0 0 0 0 0 0
+equiv "Voutp" "ota_cmfb_core_push_pull_output_stage_0/pmos_0.Drain"
+node "a_9355_4023#" 1 206.656 9355 4023 p 0 0 0 0 18512 816 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_9355_4109#" 0 98.256 9355 4109 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_9091_4109#" 0 98.256 9091 4109 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_9091_4309#" 1 171.892 9091 4309 p 0 0 0 0 18512 816 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_8827_4023#" 1 217.653 8827 4023 p 0 0 0 0 18512 816 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_8827_4109#" 0 113.802 8827 4109 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_9619_4632#" 0 101.996 9619 4632 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_9355_4632#" 0 98.2702 9355 4632 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_9355_4832#" 1 233.042 9355 4832 p 0 0 0 0 18512 816 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_9091_4546#" 1 177.277 9091 4546 p 0 0 0 0 18512 816 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_9091_4632#" 0 98.2702 9091 4632 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_8827_4309#" 0 209.693 8827 4309 p 0 0 0 0 24738 718 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_8827_4632#" 0 111.96 8827 4632 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_8827_4832#" 1 241.683 8827 4832 p 0 0 0 0 18512 816 0 0 0 0 0 0 0 0 0 0 0 0
+node "dynamic_pcell$5_0.DRN_NET_CA" 192 6919.42 -6705 915 pdif 0 0 0 0 1936344 24954 1441874 71280 3492606 129616 0 0 0 0 0 0 0 0
+equiv "dynamic_pcell$5_0.DRN_NET_CA" "ota_cmfb_core_push_pull_output_stage_1/pmos_0.Gate"
+equiv "dynamic_pcell$5_0.DRN_NET_CA" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_NDE"
+node "a_2886_4109#" 0 103.834 2886 4109 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "Voutn" 35 3792.23 2458 -4811 m2 0 0 0 0 164036 8954 1267692 32580 152962 4996 0 0 0 0 0 0 0 0
+equiv "Voutn" "ota_cmfb_core_push_pull_output_stage_1/pmos_0.Drain"
+node "a_2622_4023#" 1 206.656 2622 4023 p 0 0 0 0 18512 816 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_2622_4109#" 0 98.256 2622 4109 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_2358_4109#" 0 98.256 2358 4109 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_2358_4309#" 1 171.892 2358 4309 p 0 0 0 0 18512 816 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_2094_4023#" 1 211.941 2094 4023 p 0 0 0 0 18512 816 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_2094_4109#" 0 108.895 2094 4109 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "dynamic_pcell_0.Gate" 149 5345.79 -6705 -1789 pdif 0 0 0 0 462904 22836 2741488 64444 1527760 77028 0 0 0 0 0 0 0 0
+equiv "dynamic_pcell_0.Gate" "dynamic_pcell$5_0.DRN_NET_JL"
+equiv "dynamic_pcell_0.Gate" "dynamic_pcell_0.M_GATE"
+node "a_2886_4632#" 0 101.996 2886 4632 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_2622_4632#" 0 98.2702 2622 4632 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_2622_4832#" 1 233.042 2622 4832 p 0 0 0 0 18512 816 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_2358_4546#" 1 177.277 2358 4546 p 0 0 0 0 18512 816 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_2358_4632#" 0 98.2702 2358 4632 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_2094_4309#" 0 195.072 2094 4309 p 0 0 0 0 24738 718 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_2094_4632#" 0 107.164 2094 4632 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_2094_4832#" 1 237.398 2094 4832 p 0 0 0 0 18512 816 0 0 0 0 0 0 0 0 0 0 0 0
+node "dynamic_pcell$6_0.DRN_NET_O" 72 929.272 -7181 -1789 pdif 0 0 0 0 124016 5728 535840 26100 674960 34068 0 0 0 0 0 0 0 0
+equiv "dynamic_pcell$6_0.DRN_NET_O" "dynamic_pcell$5_0.SRC_NET_KL"
+node "EN" 125 7535.37 -8995 -2518 m3 0 0 0 0 196270 7426 905310 42896 1311862 65952 0 0 0 0 0 0 0 0
+equiv "EN" "ota_cmfb_core_push_pull_output_stage_0/EN_INV_0/sg13cmos5l_inv_4_0.A"
+equiv "EN" "ota_cmfb_core_push_pull_output_stage_1/EN_INV_0/sg13cmos5l_inv_4_0.A"
+equiv "EN" "EN_INV_1/sg13cmos5l_inv_4_0.A"
+equiv "EN" "EN_INV_0/sg13cmos5l_inv_4_0.A"
+equiv "EN" "sg13cmos5l_antennanp_0.A"
+node "dynamic_pcell$6_0.Gate" 112 7994.96 -7163 -6794 ndif 0 0 0 0 264552 13964 2361002 49150 1247888 62794 0 0 0 0 0 0 0 0
+equiv "dynamic_pcell$6_0.Gate" "dynamic_pcell$5_0.H_DRN"
+equiv "dynamic_pcell$6_0.Gate" "dynamic_pcell$6_0.DRN_NET_N_GATE_NO"
+node "w_9940_4004#" 6 902.183 9940 4004 nw 0 0 0 0 2001668 21826 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_3207_4004#" 6 882.967 3207 4004 nw 0 0 0 0 2001668 21826 0 0 0 0 0 0 0 0 0 0 0 0
+node "VDD" 555 0 941 5187 m1 0 0 0 0 40591769 680220 2672314 120394 2345520 114316 0 0 0 0 0 0 0 0
+equiv "VDD" "ota_cmfb_core_push_pull_output_stage_0/pmos_0.Source"
+equiv "VDD" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_ABCH"
+equiv "VDD" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.VDD"
+equiv "VDD" "ota_cmfb_core_push_pull_output_stage_0/EN_INV_0/sg13cmos5l_inv_4_0.VDD"
+equiv "VDD" "ota_cmfb_core_push_pull_output_stage_1/pmos_0.Source"
+equiv "VDD" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_ABCH"
+equiv "VDD" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.VDD"
+equiv "VDD" "ota_cmfb_core_push_pull_output_stage_1/EN_INV_0/sg13cmos5l_inv_4_0.VDD"
+equiv "VDD" "dynamic_pcell$5_0.VDD"
+equiv "VDD" "dynamic_pcell_0.M_SRC"
+equiv "VDD" "dynamic_pcell_0.VDD"
+equiv "VDD" "dynamic_pcell$6_0.SRC_NET_ON"
+equiv "VDD" "dynamic_pcell$6_0.VDD"
+equiv "VDD" "EN_INV_1/sg13cmos5l_inv_4_0.VDD"
+equiv "VDD" "EN_INV_0/sg13cmos5l_inv_4_0.VDD"
+equiv "VDD" "sg13cmos5l_antennanp_0.VDD"
+substrate "VSS" 91080 0 2013 -9908 m1 245141305 177772 0 0 49490330 687098 1505400 74880 2711700 134950 0 0 0 0 0 0 0 0
+equiv "VSS" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_QLK"
+equiv "VSS" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.X_SRC"
+equiv "VSS" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_QLK"
+equiv "VSS" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.X_SRC"
+equiv "VSS" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_QLK"
+equiv "VSS" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.X_SRC"
+equiv "VSS" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.VSS"
+equiv "VSS" "ota_cmfb_core_push_pull_output_stage_0/EN_INV_0/sg13cmos5l_inv_4_0.VSS"
+equiv "VSS" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_QLK"
+equiv "VSS" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.X_SRC"
+equiv "VSS" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_QLK"
+equiv "VSS" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.X_SRC"
+equiv "VSS" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_QLK"
+equiv "VSS" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.X_SRC"
+equiv "VSS" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.VSS"
+equiv "VSS" "ota_cmfb_core_push_pull_output_stage_1/EN_INV_0/sg13cmos5l_inv_4_0.VSS"
+equiv "VSS" "dynamic_pcell$5_0.SRC_NET_CDEFGHIJ"
+equiv "VSS" "dynamic_pcell$5_0.VSS"
+equiv "VSS" "EN_INV_1/sg13cmos5l_inv_4_0.VSS"
+equiv "VSS" "EN_INV_0/sg13cmos5l_inv_4_0.VSS"
+equiv "VSS" "sg13cmos5l_antennanp_0.VSS"
+cap "VDD" "a_9355_4023#" 19.9254
+cap "dynamic_pcell$5_0.G_DRN" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_MENX" 125.432
+cap "dynamic_pcell$5_0.Gate" "a_n763_n1629#" 0.0356117
+cap "a_2094_4023#" "a_2622_4023#" 7.94655
+cap "dynamic_pcell$5_0.DRN_NET_BD" "dynamic_pcell$6_0.DRN_NET_O" 40.0596
+cap "dynamic_pcell$5_0.DRN_NET_BD" "a_n235_n2476#" 2.22091
+cap "dynamic_pcell$5_0.L_GATE" "a_n499_n2190#" 8.10781
+cap "EN" "a_29_n2190#" 4.37642
+cap "VDD" "a_1613_n1829#" 9.37565
+cap "a_2358_4546#" "a_2622_4832#" 6.89204
+cap "a_n763_n1629#" "a_n499_n2190#" 0.02184
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_CD" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_CD" 0.524412
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_HI" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 0.0445216
+cap "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" "a_29_n2190#" 0.430039
+cap "VDD" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.B_DRN" 4467.97
+cap "a_821_n1629#" "a_1085_n1829#" 12.5851
+cap "EN" "a_n235_n1829#" 1.35143
+cap "a_8827_4832#" "a_8827_4109#" 0.0276851
+cap "a_2094_4309#" "a_2094_4109#" 12.4387
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_ML" "dynamic_pcell$5_0.G_DRN" 1.40817
+cap "dynamic_pcell$5_0.Gate" "a_293_n1829#" 0.395117
+cap "a_557_n1915#" "a_821_n2476#" 0.02184
+cap "a_821_n1629#" "a_821_n2390#" 0.0330231
+cap "a_8827_4023#" "dynamic_pcell$5_0.DRN_NET_BD" 1.54727
+cap "a_2094_4309#" "EN" 21.5863
+cap "a_821_n2476#" "a_1085_n2390#" 12.5851
+cap "a_557_n2190#" "a_821_n2390#" 12.5851
+cap "VDD" "a_8827_4632#" 0.011704
+cap "dynamic_pcell$5_0.F_DRN" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 43.9105
+cap "a_2094_4309#" "a_2094_4632#" 12.1918
+cap "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_ML" 2580.56
+cap "VDD" "dynamic_pcell$5_0.F_DRN" 48749.3
+cap "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_CD" "ota_cmfb_core_push_pull_output_stage_0/EN_INV_0/sg13cmos5l_inv_4_0.Y" 0.106814
+cap "Voutp" "a_1085_n1829#" 1.28407
+cap "VCM" "dynamic_pcell$6_0.DRN_NET_O" 488.67
+cap "EN" "a_821_n1829#" 1.76869
+cap "dynamic_pcell$5_0.L_GATE" "dynamic_pcell$6_0.Gate" 95.657
+cap "dynamic_pcell$5_0.DRN_NET_BD" "dynamic_pcell_0.Gate" 193.804
+cap "dynamic_pcell$5_0.Gate" "a_n235_n2390#" 0.924781
+cap "dynamic_pcell$5_0.DRN_NET_BD" "a_557_n2190#" 0.488491
+cap "EN" "a_1349_n2476#" 12.1345
+cap "Voutp" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_MENX" 160.597
+cap "a_n235_n2476#" "a_29_n1829#" 0.0330231
+cap "w_9940_4004#" "a_9619_4632#" 23.4551
+cap "a_n763_n1829#" "dynamic_pcell_0.Gate" 1.06516
+cap "dynamic_pcell$5_0.F_DRN" "Ibias" 1.46538
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.B_DRN" "ota_cmfb_core_push_pull_output_stage_1/EN_INV_0/sg13cmos5l_inv_4_0.Y" 38.0599
+cap "a_2094_4309#" "a_2358_4309#" 8.2371
+cap "a_9091_4546#" "a_9355_4832#" 6.89204
+cap "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_ML" 1744.03
+cap "a_n499_n2190#" "a_n235_n2390#" 12.5851
+cap "a_1085_n1915#" "a_1085_n2190#" 34.2547
+cap "a_n235_n1629#" "a_29_n1829#" 12.5851
+cap "Voutp" "dynamic_pcell$5_0.DRN_NET_BD" 684.517
+cap "a_1349_n2390#" "a_1349_n2476#" 12.5851
+cap "VDD" "a_8827_4109#" 0.0380508
+cap "Vinn" "EN_INV_0/sg13cmos5l_inv_4_0.Y" 0.0381712
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_HI" 2614.2
+cap "dynamic_pcell$5_0.DRN_NET_BD" "EN_INV_1/sg13cmos5l_inv_4_0.Y" 0.380366
+cap "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_CD" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_MENX" 40.1093
+cap "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_HI" 2621.25
+cap "a_557_n1829#" "a_293_n1629#" 12.5851
+cap "VDD" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_HI" 2014.38
+cap "EN_INV_1/sg13cmos5l_inv_4_0.Y" "a_n763_n1829#" 1.51048
+cap "a_293_n2390#" "a_293_n1629#" 0.0330231
+cap "EN" "a_n763_n2476#" 8.26713
+cap "dynamic_pcell$5_0.Gate" "a_557_n1915#" 0.294419
+cap "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" "ota_cmfb_core_push_pull_output_stage_0/EN_INV_0/sg13cmos5l_inv_4_0.Y" 0.433551
+cap "VCM" "dynamic_pcell_0.Gate" 45.7493
+cap "dynamic_pcell$5_0.DRN_NET_BD" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_CD" 4171.22
+cap "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" "a_n763_n2476#" 4.15157
+cap "a_2094_4023#" "dynamic_pcell$5_0.DRN_NET_CA" 0.0314683
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" "Voutn" 26.0615
+cap "EN" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 0.209456
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_MENX" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 0.0301436
+cap "VDD" "a_293_n2476#" 0.0311169
+cap "a_29_n1829#" "dynamic_pcell_0.Gate" 1.06516
+cap "VDD" "Voutn" 5160.21
+cap "w_9940_4004#" "a_9355_4109#" 1.12991
+cap "a_293_n2476#" "a_29_n1915#" 0.02184
+cap "EN" "a_2622_4832#" 1.37052
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate" 6055.35
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.B_DRN" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 2930.52
+cap "VDD" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate" 53.9698
+cap "a_1349_n1629#" "a_1613_n1829#" 12.5851
+cap "a_1085_n1915#" "a_1349_n1829#" 12.5851
+cap "dynamic_pcell$5_0.DRN_NET_CA" "a_9355_4023#" 0.117779
+cap "EN" "a_2358_4546#" 3.19103
+cap "a_9091_4546#" "a_9091_4309#" 43.0539
+cap "a_8827_4309#" "dynamic_pcell$5_0.DRN_NET_BD" 1.05149
+cap "a_n235_n2476#" "a_29_n2190#" 6.89204
+cap "a_n235_n2390#" "a_29_n2390#" 7.32625
+cap "a_2622_4023#" "Voutn" 60.5472
+cap "VDD" "a_2886_4632#" 0.232963
+cap "a_2094_4309#" "w_3207_4004#" 2.55485
+cap "Vinn" "Vinp" 724.796
+cap "dynamic_pcell$5_0.DRN_NET_BD" "dynamic_pcell$5_0.L_GATE" 60.0943
+cap "EN" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.B_DRN" 439.532
+cap "Voutp" "a_29_n1829#" 0.217885
+cap "dynamic_pcell$5_0.L_GATE" "a_n763_n1829#" 16.9199
+cap "a_2622_4632#" "a_2886_4632#" 7.32625
+cap "w_9940_4004#" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 7.35545
+cap "VDD" "EN_INV_0/sg13cmos5l_inv_4_0.Y" 404.338
+cap "ota_cmfb_core_push_pull_output_stage_1/EN_INV_0/sg13cmos5l_inv_4_0.Y" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 0.0670227
+cap "ota_cmfb_core_push_pull_output_stage_0/EN_INV_0/sg13cmos5l_inv_4_0.Y" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate" 12.861
+cap "a_n763_n1829#" "a_n763_n1629#" 12.5851
+cap "EN_INV_1/sg13cmos5l_inv_4_0.Y" "a_29_n1829#" 0.232514
+cap "a_n235_n1829#" "a_n235_n2476#" 0.0330231
+cap "a_n235_n1629#" "a_29_n2190#" 0.02184
+cap "a_2358_4309#" "a_2622_4832#" 0.0250366
+cap "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_MENX" 4719.17
+cap "w_9940_4004#" "a_8827_4832#" 0.147363
+cap "a_2358_4546#" "a_2358_4309#" 43.0539
+cap "a_n235_n1629#" "a_n235_n1829#" 12.5851
+cap "a_2094_4109#" "a_2358_4109#" 7.32625
+cap "EN" "ota_cmfb_core_push_pull_output_stage_1/EN_INV_0/sg13cmos5l_inv_4_0.Y" 329.88
+cap "VDD" "a_1085_n2190#" 0.217202
+cap "dynamic_pcell$5_0.DRN_NET_CA" "a_8827_4632#" 1.68196
+cap "EN" "a_2358_4109#" 4.1985
+cap "a_n763_n2390#" "a_n763_n2476#" 12.5851
+cap "w_3207_4004#" "a_2886_4109#" 17.1895
+cap "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.B_DRN" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_ML" 298.382
+cap "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" "dynamic_pcell$5_0.DRN_NET_BD" 39.4498
+cap "dynamic_pcell$5_0.DRN_NET_CA" "dynamic_pcell$5_0.F_DRN" 2264.85
+cap "a_8827_4109#" "a_9091_4109#" 7.32625
+cap "a_9355_4832#" "Voutp" 1.69585
+cap "a_8827_4023#" "a_9091_4309#" 6.89204
+cap "a_9355_4632#" "a_9355_4023#" 0.0369135
+cap "a_29_n2190#" "dynamic_pcell_0.Gate" 0.059916
+cap "a_293_n2476#" "a_821_n2476#" 7.94655
+cap "a_29_n2190#" "a_557_n2190#" 7.94655
+cap "dynamic_pcell$5_0.Gate" "dynamic_pcell$5_0.F_DRN" 37.7176
+cap "dynamic_pcell$5_0.L_GATE" "VCM" 100.227
+cap "VDD" "Vinp" 8877.11
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_MENX" 6451.05
+cap "VDD" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_MENX" 1866.26
+cap "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_MENX" 438.735
+cap "VDD" "a_n499_n1915#" 5.59175
+cap "a_n235_n1829#" "dynamic_pcell_0.Gate" 1.06516
+cap "dynamic_pcell$5_0.F_DRN" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_ML" 355.016
+cap "a_n499_n1915#" "a_29_n1915#" 7.94655
+cap "EN" "a_557_n2390#" 3.09052
+cap "a_2358_4309#" "a_2358_4109#" 12.5851
+cap "VDD" "a_1349_n1829#" 0.930147
+cap "dynamic_pcell$5_0.DRN_NET_BD" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate" 46.592
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 0.055778
+cap "w_3207_4004#" "a_2622_4832#" 14.3749
+cap "EN_INV_1/sg13cmos5l_inv_4_0.Y" "a_29_n2190#" 0.0138857
+cap "EN" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 1.03937
+cap "a_821_n1629#" "a_821_n1829#" 12.5851
+cap "a_2094_4109#" "EN" 7.49669
+cap "dynamic_pcell$5_0.DRN_NET_CA" "a_8827_4109#" 1.0091
+cap "VDD" "w_9940_4004#" 215.451
+cap "a_9091_4632#" "a_9091_4546#" 12.5851
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_ML" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 55.9293
+cap "a_2358_4546#" "w_3207_4004#" 8.23156
+cap "a_1349_n1629#" "Voutn" 0.0371858
+cap "a_n763_n2476#" "a_n235_n2476#" 7.94655
+cap "a_9091_4309#" "Voutp" 14.0628
+cap "VDD" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_ML" 4.53055
+cap "EN_INV_1/sg13cmos5l_inv_4_0.Y" "a_n235_n1829#" 0.354345
+cap "dynamic_pcell$5_0.DRN_NET_CA" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_HI" 155.236
+cap "VDD" "a_293_n1629#" 43.2596
+cap "w_3207_4004#" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.B_DRN" 1.9063
+cap "a_29_n1829#" "a_293_n1829#" 7.32625
+cap "a_29_n1915#" "a_293_n1629#" 6.89204
+cap "a_821_n2476#" "a_1085_n2190#" 6.89204
+cap "a_821_n2390#" "a_1085_n2390#" 7.32625
+cap "EN" "a_2094_4632#" 7.21324
+cap "a_1613_n2390#" "Voutn" 20.5016
+cap "dynamic_pcell$5_0.F_DRN" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_CD" 0.230276
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.B_DRN" 1479.84
+cap "dynamic_pcell$5_0.G_DRN" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 1008.6
+cap "EN" "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" 3689.62
+cap "a_2358_4632#" "a_2094_4023#" 0.0369135
+cap "VDD" "dynamic_pcell$5_0.G_DRN" 49240.1
+cap "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.B_DRN" "ota_cmfb_core_push_pull_output_stage_0/EN_INV_0/sg13cmos5l_inv_4_0.Y" 38.5524
+cap "Voutp" "a_821_n1829#" 0.747281
+cap "dynamic_pcell$5_0.DRN_NET_CA" "a_293_n2476#" 0.501525
+cap "dynamic_pcell$5_0.DRN_NET_CA" "Voutn" 638.964
+cap "dynamic_pcell$5_0.F_DRN" "dynamic_pcell$6_0.Gate" 800.313
+cap "Voutp" "a_1349_n2476#" 0.02184
+cap "dynamic_pcell$5_0.Gate" "a_293_n2476#" 3.18905
+cap "dynamic_pcell$5_0.DRN_NET_CA" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate" 46.592
+cap "dynamic_pcell$5_0.L_GATE" "a_29_n2190#" 0.0217478
+cap "dynamic_pcell$5_0.Gate" "Voutn" 0.294921
+cap "dynamic_pcell$5_0.G_DRN" "a_2622_4023#" 0.039716
+cap "EN" "a_1349_n2390#" 3.9969
+cap "dynamic_pcell$5_0.G_DRN" "Ibias" 1.99238
+cap "dynamic_pcell$5_0.F_DRN" "ota_cmfb_core_push_pull_output_stage_0/EN_INV_0/sg13cmos5l_inv_4_0.Y" 35.5883
+cap "EN" "a_2358_4309#" 3.54422
+cap "a_2886_4632#" "dynamic_pcell$5_0.DRN_NET_CA" 2.68238
+cap "w_3207_4004#" "a_2358_4109#" 0.546613
+cap "a_8827_4309#" "a_9091_4309#" 8.2371
+cap "a_9091_4632#" "a_8827_4023#" 0.0369135
+cap "a_n763_n2476#" "dynamic_pcell_0.Gate" 0.0372364
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_ML" 0.100849
+cap "a_1349_n1629#" "a_1085_n2190#" 0.02184
+cap "a_9355_4023#" "dynamic_pcell$5_0.DRN_NET_BD" 0.950364
+cap "Voutp" "a_9619_4109#" 26.5309
+cap "dynamic_pcell$5_0.DRN_NET_CA" "EN_INV_0/sg13cmos5l_inv_4_0.Y" 0.280722
+cap "EN" "dynamic_pcell_0.M_DRN" 2.79743
+cap "dynamic_pcell_0.M_DRN" "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" 0.251338
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_CD" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_HI" 41.2843
+cap "dynamic_pcell$5_0.Gate" "EN_INV_0/sg13cmos5l_inv_4_0.Y" 17.1507
+cap "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.B_DRN" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_MENX" 708.28
+cap "a_n499_n1829#" "a_n499_n1915#" 12.5851
+cap "EN" "a_n763_n2390#" 2.81134
+cap "VDD" "a_557_n1829#" 0.276283
+cap "Voutp" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 24.149
+cap "dynamic_pcell$5_0.DRN_NET_BD" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.B_DRN" 2237.17
+cap "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" "a_n763_n2390#" 3.38883
+cap "dynamic_pcell$5_0.Gate" "a_1085_n2190#" 0.00206113
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_CD" "Voutn" 101.439
+cap "dynamic_pcell$5_0.F_DRN" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_MENX" 134.487
+cap "w_9940_4004#" "a_9091_4109#" 0.546613
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_CD" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate" 1.58742
+cap "a_2094_4109#" "w_3207_4004#" 0.320229
+cap "a_1349_n1629#" "a_1349_n1829#" 12.5851
+cap "a_8827_4632#" "dynamic_pcell$5_0.DRN_NET_BD" 0.510858
+cap "dynamic_pcell$5_0.DRN_NET_CA" "Vinp" 7784.06
+cap "Voutn" "dynamic_pcell$6_0.Gate" 7.85029
+cap "a_29_n2390#" "Voutn" 0.140998
+cap "EN" "w_3207_4004#" 101.168
+cap "dynamic_pcell$5_0.DRN_NET_CA" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_MENX" 4063.61
+cap "Voutp" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.B_DRN" 188.143
+cap "Vinp" "dynamic_pcell$5_0.Gate" 48.3466
+cap "dynamic_pcell$5_0.DRN_NET_BD" "dynamic_pcell$5_0.F_DRN" 9037.79
+cap "a_2094_4632#" "w_3207_4004#" 0.320229
+cap "EN" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 103.559
+cap "VDD" "a_9355_4109#" 0.0380508
+cap "VDD" "a_2094_4832#" 4.61493
+cap "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_CD" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 116.449
+cap "dynamic_pcell$5_0.Gate" "a_n499_n1915#" 0.339904
+cap "EN" "dynamic_pcell$6_0.DRN_NET_O" 0.0628222
+cap "a_2622_4109#" "Voutn" 5.18424
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" "a_1085_n1915#" 0.00672064
+cap "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" "dynamic_pcell$6_0.DRN_NET_O" 0.0799585
+cap "dynamic_pcell$5_0.L_GATE" "a_n763_n2476#" 8.7103
+cap "EN" "a_n235_n2476#" 8.12436
+cap "VDD" "a_1085_n1915#" 5.80895
+cap "a_n763_n1629#" "a_n763_n2476#" 3.06153
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 0.0854715
+cap "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" "a_n235_n2476#" 0.919253
+cap "a_n499_n1915#" "a_n499_n2190#" 34.2547
+cap "Voutp" "ota_cmfb_core_push_pull_output_stage_1/EN_INV_0/sg13cmos5l_inv_4_0.Y" 0.312737
+cap "w_3207_4004#" "a_2358_4309#" 0.285008
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_ML" "dynamic_pcell$5_0.DRN_NET_CA" 21.3229
+cap "VDD" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 15552.6
+cap "EN" "a_n235_n1629#" 1.3105
+cap "dynamic_pcell$5_0.Gate" "a_293_n1629#" 0.058446
+cap "a_8827_4109#" "dynamic_pcell$5_0.DRN_NET_BD" 0.997985
+cap "dynamic_pcell$5_0.DRN_NET_CA" "dynamic_pcell$5_0.G_DRN" 11037.6
+cap "a_9355_4832#" "a_9355_4023#" 2.77733
+cap "a_557_n2190#" "a_557_n2390#" 12.5851
+cap "VDD" "a_8827_4832#" 0.00397846
+cap "a_821_n2390#" "Voutn" 0.522911
+cap "dynamic_pcell$5_0.Gate" "dynamic_pcell$5_0.G_DRN" 49.2695
+cap "dynamic_pcell$5_0.DRN_NET_BD" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_HI" 198.085
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_ML" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_ML" 1.38399
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_CD" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_MENX" 39.9954
+cap "VDD" "Vinn" 8850.4
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_MENX" 0.0663909
+cap "dynamic_pcell_0.M_DRN" "dynamic_pcell$6_0.DRN_NET_O" 1130.91
+cap "EN" "a_821_n1629#" 2.11953
+cap "Vinp" "dynamic_pcell$6_0.Gate" 54.5307
+cap "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 228.395
+cap "dynamic_pcell$5_0.Gate" "a_n499_n2390#" 0.171562
+cap "dynamic_pcell$5_0.DRN_NET_BD" "a_293_n2476#" 2.22091
+cap "dynamic_pcell$5_0.DRN_NET_BD" "Voutn" 81.0533
+cap "EN" "a_557_n2190#" 4.44186
+cap "EN" "dynamic_pcell_0.Gate" 175.821
+cap "Voutp" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_HI" 0.306278
+cap "w_9940_4004#" "a_9355_4632#" 1.12991
+cap "Voutp" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 6.95536
+cap "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" "dynamic_pcell_0.Gate" 247.014
+cap "a_2094_4309#" "a_2094_4023#" 6.89992
+cap "a_557_n1915#" "a_821_n1829#" 12.5851
+cap "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.B_DRN" 0.704176
+cap "a_1085_n1915#" "a_821_n2476#" 0.02184
+cap "a_n499_n2190#" "a_n499_n2390#" 12.5851
+cap "a_9091_4109#" "a_9355_4109#" 7.32625
+cap "EN" "Voutp" 109.842
+cap "a_9091_4309#" "a_9355_4023#" 6.89204
+cap "w_3207_4004#" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 6.48886
+cap "dynamic_pcell$5_0.DRN_NET_BD" "EN_INV_0/sg13cmos5l_inv_4_0.Y" 0.380366
+cap "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_CD" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_HI" 42.3221
+cap "dynamic_pcell$5_0.G_DRN" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_CD" 3018.81
+cap "EN" "EN_INV_1/sg13cmos5l_inv_4_0.Y" 339.59
+cap "VDD" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 12661
+cap "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate" 6055.35
+cap "EN_INV_1/sg13cmos5l_inv_4_0.Y" "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" 15.7708
+cap "VDD" "a_29_n1915#" 5.59175
+cap "dynamic_pcell$5_0.Gate" "a_557_n1829#" 0.395117
+cap "dynamic_pcell$5_0.G_DRN" "dynamic_pcell$6_0.Gate" 88.6536
+cap "VDD" "a_2622_4632#" 0.366814
+cap "dynamic_pcell_0.M_DRN" "dynamic_pcell_0.Gate" 2808.79
+cap "dynamic_pcell$5_0.Gate" "a_293_n2390#" 0.924781
+cap "dynamic_pcell$5_0.DRN_NET_BD" "a_1085_n2190#" 0.488491
+cap "EN" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_CD" 19.814
+cap "VDD" "a_2622_4023#" 20.03
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.B_DRN" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate" 0.105709
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_MENX" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_MENX" 1.34303
+cap "a_1085_n1829#" "a_1349_n1829#" 7.32625
+cap "a_1085_n1915#" "a_1349_n1629#" 6.89204
+cap "a_2622_4632#" "a_2622_4023#" 0.0369135
+cap "a_9355_4632#" "a_9619_4632#" 7.32625
+cap "a_8827_4832#" "a_9091_4109#" 0.0369135
+cap "dynamic_pcell$5_0.DRN_NET_CA" "a_9355_4109#" 0.380536
+cap "a_9091_4546#" "a_8827_4023#" 0.0250366
+cap "a_1613_n1829#" "a_1349_n2476#" 0.0330231
+cap "w_3207_4004#" "a_8827_4023#" 1.84388
+cap "dynamic_pcell$5_0.DRN_NET_BD" "Vinp" 3704.93
+cap "a_9355_4023#" "a_9619_4109#" 12.5851
+cap "EN" "dynamic_pcell$5_0.L_GATE" 137.587
+cap "dynamic_pcell$5_0.DRN_NET_BD" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_MENX" 50.2273
+cap "EN" "a_n763_n1629#" 1.13741
+cap "dynamic_pcell$5_0.L_GATE" "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" 115.423
+cap "dynamic_pcell_0.M_DRN" "EN_INV_1/sg13cmos5l_inv_4_0.Y" 2.2312
+cap "a_n235_n1629#" "a_n235_n2476#" 3.06153
+cap "dynamic_pcell$5_0.DRN_NET_CA" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 0.145947
+cap "dynamic_pcell$5_0.Gate" "a_1085_n1915#" 0.00131077
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_ML" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_MENX" 0.0291002
+cap "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 2.20532
+cap "a_2358_4546#" "a_2094_4023#" 0.0250366
+cap "VDD" "a_821_n2476#" 0.198468
+cap "w_9940_4004#" "dynamic_pcell$5_0.DRN_NET_BD" 9233.64
+cap "dynamic_pcell$5_0.DRN_NET_CA" "a_8827_4832#" 1.43503
+cap "dynamic_pcell$6_0.DRN_NET_O" "dynamic_pcell_0.Gate" 1410.81
+cap "EN" "a_293_n1829#" 1.42063
+cap "EN" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 1.03565
+cap "a_9091_4546#" "Voutp" 0.0177531
+cap "dynamic_pcell$5_0.DRN_NET_CA" "Vinn" 1829.12
+cap "a_n235_n2476#" "dynamic_pcell_0.Gate" 0.0372364
+cap "a_29_n2190#" "Voutn" 0.650838
+cap "a_29_n2190#" "a_293_n2476#" 6.89204
+cap "a_29_n2390#" "a_293_n2390#" 7.32625
+cap "Vinn" "dynamic_pcell$5_0.Gate" 1468.42
+cap "Vinp" "VCM" 188.649
+cap "dynamic_pcell$5_0.L_GATE" "dynamic_pcell_0.M_DRN" 175.55
+cap "dynamic_pcell$5_0.DRN_NET_BD" "dynamic_pcell$5_0.G_DRN" 610.091
+cap "Voutp" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 107.379
+cap "VDD" "a_9091_4109#" 0.0380508
+cap "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.B_DRN" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 1309.56
+cap "VDD" "a_n499_n1829#" 0.183686
+cap "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 0.239383
+cap "a_n235_n1629#" "dynamic_pcell_0.Gate" 3.76473
+cap "a_2094_4832#" "dynamic_pcell$6_0.Gate" 0.0569041
+cap "dynamic_pcell$5_0.L_GATE" "a_n763_n2390#" 16.8279
+cap "EN" "a_n235_n2390#" 2.81134
+cap "a_2094_4023#" "a_2358_4109#" 12.5851
+cap "VDD" "a_1349_n1629#" 54.674
+cap "a_2094_4309#" "Voutn" 0.457421
+cap "a_n763_n1629#" "a_n763_n2390#" 0.0330231
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.B_DRN" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.B_DRN" 1.03866
+cap "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" "a_n235_n2390#" 0.922722
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" "a_1613_n2390#" 0.661077
+cap "dynamic_pcell$5_0.F_DRN" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 1262.6
+cap "EN" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate" 2.07692
+cap "VDD" "a_1613_n2390#" 11.8322
+cap "a_8827_4632#" "a_9091_4632#" 7.32625
+cap "a_8827_4309#" "a_9091_4546#" 8.11538
+cap "w_3207_4004#" "a_8827_4309#" 0.664908
+cap "a_821_n1629#" "a_557_n2190#" 0.02184
+cap "a_9619_4632#" "dynamic_pcell$5_0.DRN_NET_BD" 3.19324
+cap "a_8827_4023#" "Voutp" 2.3363
+cap "dynamic_pcell$5_0.DRN_NET_CA" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 652.133
+cap "VDD" "dynamic_pcell$5_0.DRN_NET_CA" 6791.08
+cap "a_557_n2190#" "dynamic_pcell_0.Gate" 0.0533399
+cap "a_1349_n2476#" "Voutn" 11.638
+cap "dynamic_pcell$5_0.F_DRN" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.B_DRN" 28.2163
+cap "VDD" "dynamic_pcell$5_0.Gate" 901.716
+cap "dynamic_pcell$5_0.Gate" "a_29_n1915#" 0.461023
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_ML" 0.125867
+cap "dynamic_pcell$5_0.L_GATE" "dynamic_pcell$6_0.DRN_NET_O" 528.22
+cap "EN" "a_557_n1915#" 2.32601
+cap "a_2886_4109#" "Voutn" 26.5309
+cap "VDD" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_ML" 5.49413
+cap "Vinn" "dynamic_pcell$6_0.Gate" 4.83631
+cap "a_2358_4632#" "a_2094_4832#" 12.5851
+cap "a_2094_4109#" "a_2094_4023#" 12.5851
+cap "EN" "a_1085_n2390#" 3.47624
+cap "w_9940_4004#" "a_9355_4832#" 14.3749
+cap "dynamic_pcell$5_0.Gate" "Ibias" 0.520733
+cap "EN_INV_1/sg13cmos5l_inv_4_0.Y" "dynamic_pcell_0.Gate" 22.7557
+cap "dynamic_pcell$5_0.F_DRN" "ota_cmfb_core_push_pull_output_stage_1/EN_INV_0/sg13cmos5l_inv_4_0.Y" 22.8714
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_HI" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 0.0886722
+cap "EN" "a_2094_4023#" 10.6949
+cap "a_2094_4632#" "a_2094_4023#" 0.0276851
+cap "a_1085_n1829#" "a_1085_n1915#" 12.5851
+cap "a_8827_4309#" "a_8827_4023#" 6.89992
+cap "a_n763_n1629#" "a_n235_n1629#" 7.94655
+cap "a_9355_4109#" "dynamic_pcell$5_0.DRN_NET_BD" 0.997985
+cap "a_n499_n1915#" "a_n235_n1829#" 12.5851
+cap "a_1085_n2190#" "a_1349_n2476#" 6.89204
+cap "a_1085_n2390#" "a_1349_n2390#" 7.32625
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.B_DRN" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_HI" 32.844
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_CD" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 72.8156
+cap "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.B_DRN" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_HI" 32.844
+cap "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_MENX" 112.684
+cap "VDD" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_CD" 4165.99
+cap "a_2622_4832#" "Voutn" 1.69585
+cap "a_2094_4023#" "a_2358_4309#" 6.89204
+cap "a_29_n2190#" "a_293_n1629#" 0.02184
+cap "a_2358_4546#" "Voutn" 0.0177531
+cap "dynamic_pcell$5_0.DRN_NET_CA" "a_821_n2476#" 0.501525
+cap "EN" "a_1613_n1829#" 3.4365
+cap "dynamic_pcell$5_0.L_GATE" "dynamic_pcell_0.Gate" 4993.78
+cap "Voutp" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_CD" 101.439
+cap "VDD" "dynamic_pcell$6_0.Gate" 25847.6
+cap "dynamic_pcell$5_0.DRN_NET_BD" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 3464.77
+cap "dynamic_pcell$5_0.Gate" "a_821_n2476#" 2.07151
+cap "a_2886_4632#" "a_2622_4832#" 12.5851
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.B_DRN" "Voutn" 98.8781
+cap "dynamic_pcell$5_0.L_GATE" "a_557_n2190#" 0.00824311
+cap "EN" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.B_DRN" 324.492
+cap "a_n763_n1629#" "dynamic_pcell_0.Gate" 3.76473
+cap "dynamic_pcell$5_0.F_DRN" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_HI" 4045.51
+cap "w_9940_4004#" "a_9091_4309#" 0.285008
+cap "dynamic_pcell$5_0.F_DRN" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 98.4387
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.B_DRN" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate" 594.736
+cap "VDD" "ota_cmfb_core_push_pull_output_stage_0/EN_INV_0/sg13cmos5l_inv_4_0.Y" 364.595
+cap "a_9355_4832#" "a_9619_4632#" 12.5851
+cap "a_8827_4309#" "Voutp" 0.457421
+cap "dynamic_pcell$5_0.DRN_NET_CA" "a_9091_4109#" 0.539391
+cap "a_1349_n1829#" "a_1349_n2476#" 0.0330231
+cap "a_n235_n2390#" "a_n235_n2476#" 12.5851
+cap "a_1349_n1629#" "a_1613_n2390#" 0.0330231
+cap "VDD" "a_2622_4109#" 0.41427
+cap "dynamic_pcell$5_0.DRN_NET_BD" "Vinn" 7869.42
+cap "EN" "dynamic_pcell$5_0.F_DRN" 349.064
+cap "dynamic_pcell$5_0.Gate" "a_n499_n1829#" 0.0701426
+cap "dynamic_pcell$5_0.L_GATE" "EN_INV_1/sg13cmos5l_inv_4_0.Y" 108.428
+cap "dynamic_pcell$5_0.F_DRN" "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" 2016.61
+cap "ota_cmfb_core_push_pull_output_stage_1/EN_INV_0/sg13cmos5l_inv_4_0.Y" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate" 12.861
+cap "a_n235_n1629#" "a_n235_n2390#" 0.0330231
+cap "a_293_n1829#" "dynamic_pcell_0.Gate" 1.06516
+cap "a_2358_4109#" "Voutn" 3.00968
+cap "a_2622_4109#" "a_2622_4023#" 12.5851
+cap "VDD" "a_1085_n1829#" 0.533997
+cap "a_n499_n1915#" "a_n763_n2476#" 0.02184
+cap "VDD" "a_2358_4632#" 0.663738
+cap "w_3207_4004#" "a_2094_4023#" 0.130026
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_MENX" 0.166464
+cap "VDD" "a_821_n2390#" 0.489691
+cap "w_9940_4004#" "a_9619_4109#" 17.1895
+cap "VDD" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_MENX" 1080.77
+cap "a_2622_4632#" "a_2358_4632#" 7.32625
+cap "Voutp" "a_293_n1829#" 0.32149
+cap "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" "Voutp" 376.095
+cap "dynamic_pcell$5_0.DRN_NET_CA" "dynamic_pcell$5_0.Gate" 900.541
+cap "a_9355_4832#" "a_9355_4109#" 0.0369135
+cap "a_9091_4546#" "a_9355_4023#" 0.0250366
+cap "EN_INV_1/sg13cmos5l_inv_4_0.Y" "a_293_n1829#" 0.163987
+cap "a_293_n2476#" "a_557_n2390#" 12.5851
+cap "w_3207_4004#" "a_9355_4023#" 0.0110191
+cap "a_557_n2390#" "Voutn" 0.31825
+cap "a_29_n2190#" "a_293_n2390#" 12.5851
+cap "dynamic_pcell$5_0.DRN_NET_BD" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 327.187
+cap "EN" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_HI" 0.0197943
+cap "Vinn" "VCM" 137.297
+cap "VDD" "dynamic_pcell$5_0.DRN_NET_BD" 7094.09
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.B_DRN" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_MENX" 708.28
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" "Voutn" 376.095
+cap "dynamic_pcell$5_0.L_GATE" "a_n763_n1629#" 8.7654
+cap "VDD" "a_n763_n1829#" 1.04955
+cap "a_2094_4109#" "Voutn" 1.39059
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 5251
+cap "EN" "a_293_n2476#" 8.39892
+cap "dynamic_pcell$5_0.Gate" "a_n499_n2190#" 0.523147
+cap "EN" "Voutn" 646.383
+cap "w_9940_4004#" "a_9091_4632#" 0.546613
+cap "Voutp" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate" 22.7242
+cap "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" "a_293_n2476#" 0.254012
+cap "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" "Voutn" 9.03632
+cap "EN" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate" 9.69024
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_MENX" "ota_cmfb_core_push_pull_output_stage_1/EN_INV_0/sg13cmos5l_inv_4_0.Y" 83.798
+cap "a_557_n1829#" "a_821_n1829#" 7.32625
+cap "a_557_n1915#" "a_821_n1629#" 6.89204
+cap "a_8827_4832#" "a_9355_4832#" 7.94655
+cap "dynamic_pcell$5_0.DRN_NET_CA" "a_9355_4632#" 0.194876
+cap "EN" "a_2886_4632#" 1.60525
+cap "w_3207_4004#" "a_8827_4632#" 0.18598
+cap "a_557_n1915#" "dynamic_pcell_0.Gate" 0.0862663
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_ML" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.B_DRN" 298.382
+cap "a_1085_n1829#" "a_821_n2476#" 0.0330231
+cap "a_n763_n2476#" "a_n499_n2390#" 12.5851
+cap "a_557_n1915#" "a_557_n2190#" 34.2547
+cap "a_821_n1629#" "a_1085_n2390#" 0.0330231
+cap "a_8827_4023#" "a_9355_4023#" 7.94655
+cap "dynamic_pcell$5_0.DRN_NET_CA" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_CD" 4300.88
+cap "a_9091_4309#" "a_9355_4109#" 12.5851
+cap "a_2094_4309#" "a_2094_4832#" 6.88783
+cap "a_821_n2390#" "a_821_n2476#" 12.5851
+cap "a_1349_n2390#" "Voutn" 1.83963
+cap "dynamic_pcell$5_0.G_DRN" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.B_DRN" 5411.3
+cap "dynamic_pcell$5_0.F_DRN" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 6.38588
+cap "EN" "EN_INV_0/sg13cmos5l_inv_4_0.Y" 351.533
+cap "a_2094_4023#" "dynamic_pcell_0.Gate" 0.106678
+cap "VDD" "VCM" 2294.96
+cap "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_CD" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate" 1.58742
+cap "a_2358_4309#" "Voutn" 14.0628
+cap "EN_INV_0/sg13cmos5l_inv_4_0.Y" "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" 0.313833
+cap "dynamic_pcell$5_0.DRN_NET_CA" "dynamic_pcell$6_0.Gate" 45.2263
+cap "VDD" "a_29_n1829#" 0.0932418
+cap "Voutp" "a_557_n1915#" 2.00895
+cap "a_29_n1829#" "a_29_n1915#" 12.5851
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_ML" "ota_cmfb_core_push_pull_output_stage_1/EN_INV_0/sg13cmos5l_inv_4_0.Y" 1.63809
+cap "dynamic_pcell$5_0.Gate" "dynamic_pcell$6_0.Gate" 140.707
+cap "dynamic_pcell$5_0.Gate" "a_29_n2390#" 0.924781
+cap "dynamic_pcell$5_0.DRN_NET_BD" "a_821_n2476#" 2.22091
+cap "EN" "a_1085_n2190#" 4.58068
+cap "dynamic_pcell$5_0.G_DRN" "ota_cmfb_core_push_pull_output_stage_1/EN_INV_0/sg13cmos5l_inv_4_0.Y" 37.1815
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_MENX" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 4719.17
+cap "a_8827_4832#" "a_9091_4309#" 0.0250366
+cap "a_8827_4632#" "a_8827_4023#" 0.0276851
+cap "a_1085_n1915#" "a_1349_n2476#" 0.02184
+cap "w_3207_4004#" "a_8827_4109#" 2.09368
+cap "ota_cmfb_core_push_pull_output_stage_0/EN_INV_0/sg13cmos5l_inv_4_0.Y" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_ML" 14.4716
+cap "a_9091_4109#" "dynamic_pcell$5_0.DRN_NET_BD" 0.997985
+cap "a_9355_4109#" "a_9619_4109#" 7.32625
+cap "a_9355_4023#" "Voutp" 60.5472
+cap "EN" "Vinp" 0.748649
+cap "a_1085_n2190#" "a_1349_n2390#" 12.5851
+cap "EN" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_MENX" 33.9175
+cap "dynamic_pcell_0.M_DRN" "EN_INV_0/sg13cmos5l_inv_4_0.Y" 0.481876
+cap "Vinp" "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" 0.878055
+cap "EN" "a_n499_n1915#" 2.2614
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_HI" 3278.16
+cap "a_n763_n1829#" "a_n499_n1829#" 7.32625
+cap "a_557_n2390#" "a_293_n1629#" 0.0330231
+cap "Voutp" "a_1613_n1829#" 20.4062
+cap "dynamic_pcell$5_0.L_GATE" "a_557_n1915#" 0.00824311
+cap "EN" "a_1349_n1829#" 2.54703
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_ML" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 2580.56
+cap "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate" 5252.86
+cap "dynamic_pcell$5_0.DRN_NET_CA" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_MENX" 0.0151684
+cap "w_3207_4004#" "Voutn" 61.5752
+cap "dynamic_pcell$5_0.F_DRN" "dynamic_pcell_0.Gate" 50.8587
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" "Voutn" 147.206
+cap "Voutp" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.B_DRN" 98.8781
+cap "a_2094_4832#" "a_2622_4832#" 7.94655
+cap "a_29_n2190#" "a_29_n1915#" 34.2547
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate" 6.73591
+cap "dynamic_pcell$5_0.G_DRN" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 10.0918
+cap "EN" "a_293_n1629#" 1.58506
+cap "EN" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_ML" 0.301937
+cap "a_2886_4632#" "w_3207_4004#" 23.4551
+cap "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_MENX" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_ML" 2599.36
+cap "a_2358_4546#" "a_2094_4832#" 6.89204
+cap "a_8827_4109#" "a_8827_4023#" 12.5851
+cap "dynamic_pcell$5_0.DRN_NET_CA" "dynamic_pcell$5_0.DRN_NET_BD" 4421.77
+cap "VDD" "a_n235_n1829#" 0.15337
+cap "a_n235_n2476#" "a_293_n2476#" 7.94655
+cap "Vinp" "dynamic_pcell_0.M_DRN" 2200.6
+cap "dynamic_pcell$5_0.DRN_NET_BD" "dynamic_pcell$5_0.Gate" 841.925
+cap "Voutp" "dynamic_pcell$5_0.F_DRN" 271.139
+cap "EN" "dynamic_pcell$5_0.G_DRN" 566.552
+cap "VDD" "a_9091_4309#" 3.771
+cap "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.B_DRN" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_CD" 36.086
+cap "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 5117.82
+cap "a_2094_4309#" "VDD" 23.1356
+cap "dynamic_pcell$5_0.G_DRN" "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" 7948.48
+cap "dynamic_pcell$5_0.DRN_NET_BD" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_ML" 23.6753
+cap "dynamic_pcell$5_0.DRN_NET_BD" "a_n499_n2190#" 0.488491
+cap "EN" "a_n499_n2390#" 2.81134
+cap "VDD" "a_821_n1829#" 1.05253
+cap "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" "a_n499_n2390#" 1.57531
+cap "dynamic_pcell$5_0.F_DRN" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_CD" 3018.78
+cap "VDD" "a_1349_n2476#" 6.23902
+cap "a_8827_4832#" "a_9091_4632#" 12.5851
+cap "a_8827_4632#" "a_8827_4309#" 12.1918
+cap "a_2094_4832#" "a_2358_4109#" 0.0369135
+cap "a_9355_4632#" "dynamic_pcell$5_0.DRN_NET_BD" 0.510858
+cap "a_8827_4109#" "Voutp" 1.39059
+cap "dynamic_pcell$5_0.DRN_NET_CA" "VCM" 34.3281
+cap "Voutn" "dynamic_pcell_0.Gate" 0.0572479
+cap "a_293_n2476#" "a_557_n2190#" 6.89204
+cap "a_293_n2476#" "dynamic_pcell_0.Gate" 0.0372364
+cap "a_293_n2390#" "a_557_n2390#" 7.32625
+cap "VDD" "a_2886_4109#" 0.276987
+cap "a_557_n2190#" "Voutn" 1.56092
+cap "dynamic_pcell$5_0.DRN_NET_BD" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_CD" 28.854
+cap "Voutp" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_HI" 19.1081
+cap "VCM" "dynamic_pcell$5_0.Gate" 3673.01
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_MENX" 112.57
+cap "VDD" "a_9619_4109#" 0.0380508
+cap "dynamic_pcell$5_0.Gate" "a_29_n1829#" 0.395117
+cap "ota_cmfb_core_push_pull_output_stage_0/EN_INV_0/sg13cmos5l_inv_4_0.Y" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_MENX" 85.7477
+cap "Vinp" "dynamic_pcell$6_0.DRN_NET_O" 1448.74
+cap "EN" "a_557_n1829#" 1.63297
+cap "a_2886_4109#" "a_2622_4023#" 12.5851
+cap "dynamic_pcell$5_0.DRN_NET_BD" "dynamic_pcell$6_0.Gate" 2351.74
+cap "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.B_DRN" 2930.52
+cap "Voutp" "Voutn" 125.304
+cap "EN" "a_293_n2390#" 2.87996
+cap "VDD" "a_n763_n2476#" 0.00552475
+cap "w_9940_4004#" "a_9091_4546#" 8.23156
+cap "EN_INV_0/sg13cmos5l_inv_4_0.Y" "dynamic_pcell_0.Gate" 24.4687
+cap "Voutp" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate" 1.60602
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 1.7081
+cap "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" "a_293_n2390#" 0.41185
+cap "dynamic_pcell$5_0.DRN_NET_BD" "ota_cmfb_core_push_pull_output_stage_0/EN_INV_0/sg13cmos5l_inv_4_0.Y" 96.6393
+cap "a_n499_n1915#" "a_n235_n2476#" 0.02184
+cap "VDD" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 10723.9
+cap "a_8827_4309#" "a_8827_4109#" 12.4387
+cap "VDD" "a_2622_4832#" 0.104576
+cap "a_2094_4109#" "a_2094_4832#" 0.0276851
+cap "dynamic_pcell$5_0.DRN_NET_CA" "a_9355_4832#" 0.0287054
+cap "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" "dynamic_pcell$5_0.F_DRN" 102.126
+cap "a_821_n1829#" "a_821_n2476#" 0.0330231
+cap "a_n763_n2390#" "a_n499_n2390#" 7.32625
+cap "a_821_n1629#" "a_1085_n2190#" 0.02184
+cap "a_n499_n1829#" "a_n235_n1829#" 7.32625
+cap "a_n499_n1915#" "a_n235_n1629#" 6.89204
+cap "a_9091_4309#" "a_9091_4109#" 12.5851
+cap "EN" "a_2094_4832#" 3.82127
+cap "a_2622_4632#" "a_2622_4832#" 12.5851
+cap "w_3207_4004#" "dynamic_pcell$5_0.G_DRN" 6.08063
+cap "VDD" "a_2358_4546#" 0.0726495
+cap "a_557_n2190#" "a_1085_n2190#" 7.94655
+cap "a_821_n2476#" "a_1349_n2476#" 7.94655
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.B_DRN" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 1302.64
+cap "a_2094_4632#" "a_2094_4832#" 12.5851
+cap "dynamic_pcell$5_0.G_DRN" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 1915.68
+cap "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_HI" 3295.16
+cap "VDD" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.B_DRN" 4842.65
+cap "a_2622_4832#" "a_2622_4023#" 2.77733
+cap "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.B_DRN" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate" 594.736
+cap "a_2622_4632#" "a_2358_4546#" 12.5851
+cap "EN_INV_0/sg13cmos5l_inv_4_0.Y" "EN_INV_1/sg13cmos5l_inv_4_0.Y" 2.99771
+cap "a_2358_4546#" "a_2622_4023#" 0.0250366
+cap "EN" "a_1085_n1915#" 2.45238
+cap "VCM" "dynamic_pcell$6_0.Gate" 7.63559
+cap "Vinp" "dynamic_pcell_0.Gate" 93.1739
+cap "dynamic_pcell$5_0.Gate" "a_29_n2190#" 0.711391
+cap "EN" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 80.3558
+cap "dynamic_pcell$5_0.DRN_NET_BD" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_MENX" 4063.61
+cap "a_n235_n1629#" "a_293_n1629#" 7.94655
+cap "a_n499_n1915#" "dynamic_pcell_0.Gate" 0.959178
+cap "w_9940_4004#" "a_8827_4023#" 0.130026
+cap "dynamic_pcell$5_0.F_DRN" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate" 194.186
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" "ota_cmfb_core_push_pull_output_stage_1/EN_INV_0/sg13cmos5l_inv_4_0.Y" 8.43063
+cap "a_2358_4309#" "a_2094_4832#" 0.0250366
+cap "VDD" "ota_cmfb_core_push_pull_output_stage_1/EN_INV_0/sg13cmos5l_inv_4_0.Y" 387.263
+cap "dynamic_pcell$5_0.Gate" "a_n235_n1829#" 0.395117
+cap "a_9355_4832#" "a_9355_4632#" 12.5851
+cap "dynamic_pcell$5_0.DRN_NET_CA" "a_9091_4309#" 0.481425
+cap "a_2094_4309#" "dynamic_pcell$5_0.DRN_NET_CA" 0.0827429
+cap "a_1349_n1629#" "a_1349_n2476#" 3.06153
+cap "a_n499_n2190#" "a_29_n2190#" 7.94655
+cap "VDD" "a_2358_4109#" 0.713878
+cap "EN" "Vinn" 0.748649
+cap "a_1349_n2476#" "a_1613_n2390#" 12.5851
+cap "Voutp" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_MENX" 63.3153
+cap "Vinn" "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" 0.861543
+cap "dynamic_pcell$5_0.L_GATE" "EN_INV_0/sg13cmos5l_inv_4_0.Y" 106.016
+cap "a_821_n1629#" "a_293_n1629#" 7.94655
+cap "EN_INV_1/sg13cmos5l_inv_4_0.Y" "a_n499_n1915#" 1.03252
+cap "a_293_n1629#" "dynamic_pcell_0.Gate" 2.89101
+cap "a_293_n2476#" "a_293_n1829#" 0.0330231
+cap "a_557_n2190#" "a_293_n1629#" 0.02184
+cap "Voutp" "a_1349_n1829#" 2.28512
+cap "dynamic_pcell$5_0.DRN_NET_CA" "a_1349_n2476#" 0.501525
+cap "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate" 0.478289
+cap "dynamic_pcell$5_0.G_DRN" "dynamic_pcell_0.Gate" 54.8108
+cap "a_n499_n1829#" "a_n763_n2476#" 0.0330231
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_MENX" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_CD" 0.0301436
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_HI" 0.0212092
+cap "VDD" "a_557_n2390#" 0.183041
+cap "w_9940_4004#" "Voutp" 61.5752
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 228.395
+cap "VDD" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_HI" 1724.13
+cap "a_2886_4109#" "dynamic_pcell$5_0.DRN_NET_CA" 0.228002
+cap "VDD" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 19.5176
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_ML" "Voutp" 0.263687
+cap "VDD" "a_2094_4109#" 8.66892
+cap "w_3207_4004#" "a_9355_4109#" 0.00110191
+cap "a_29_n2190#" "a_29_n2390#" 12.5851
+cap "w_3207_4004#" "a_2094_4832#" 0.147363
+cap "a_9355_4023#" "dynamic_pcell$5_0.F_DRN" 0.039716
+cap "Vinn" "dynamic_pcell_0.M_DRN" 2472.79
+cap "Vinp" "dynamic_pcell$5_0.L_GATE" 146.426
+cap "dynamic_pcell$5_0.DRN_NET_BD" "VCM" 38.4769
+cap "EN" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 37.5716
+cap "Voutp" "dynamic_pcell$5_0.G_DRN" 347.332
+cap "VDD" "EN" 8014.35
+cap "EN" "a_29_n1915#" 2.2661
+cap "dynamic_pcell$5_0.L_GATE" "a_n499_n1915#" 8.10781
+cap "VDD" "a_2094_4632#" 8.88997
+cap "w_9940_4004#" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_CD" 0.72949
+cap "VDD" "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" 21.8106
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate" 1.33844
+cap "a_n499_n1915#" "a_n763_n1629#" 6.89204
+cap "dynamic_pcell$5_0.DRN_NET_CA" "a_n763_n2476#" 0.501525
+cap "a_2622_4632#" "EN" 2.27797
+cap "dynamic_pcell$5_0.Gate" "a_n763_n2476#" 2.14923
+cap "EN" "a_2622_4023#" 2.16449
+cap "w_9940_4004#" "a_8827_4309#" 2.55485
+cap "dynamic_pcell$5_0.DRN_NET_CA" "a_2622_4832#" 1.15342
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 0.560283
+cap "dynamic_pcell$5_0.F_DRN" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.B_DRN" 5535.47
+cap "EN" "Ibias" 31.7082
+cap "VDD" "a_1349_n2390#" 0.836905
+cap "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" "Ibias" 134.797
+cap "a_2358_4546#" "dynamic_pcell$5_0.DRN_NET_CA" 0.0086684
+cap "a_8827_4832#" "a_9091_4546#" 6.89204
+cap "dynamic_pcell$5_0.DRN_NET_CA" "a_9091_4632#" 0.28259
+cap "w_3207_4004#" "a_8827_4832#" 0.178686
+cap "VDD" "a_2358_4309#" 3.91303
+cap "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_ML" 55.9293
+cap "a_557_n1915#" "a_293_n2476#" 0.02184
+cap "a_n763_n2476#" "a_n499_n2190#" 6.89204
+cap "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_MENX" 0.12521
+cap "a_9355_4832#" "dynamic_pcell$5_0.DRN_NET_BD" 1.15342
+cap "dynamic_pcell$5_0.DRN_NET_CA" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.B_DRN" 2259.56
+cap "a_9619_4632#" "Voutp" 3.60853
+cap "a_1085_n2390#" "Voutn" 0.956102
+cap "VDD" "dynamic_pcell_0.M_DRN" 4610.94
+cap "a_2094_4023#" "Voutn" 2.3363
+cap "a_2358_4309#" "a_2622_4023#" 6.89204
+cap "Voutp" "a_557_n1829#" 0.472956
+cap "Vinn" "dynamic_pcell$6_0.DRN_NET_O" 1422.74
+cap "dynamic_pcell$5_0.DRN_NET_CA" "ota_cmfb_core_push_pull_output_stage_1/EN_INV_0/sg13cmos5l_inv_4_0.Y" 96.4563
+cap "dynamic_pcell$5_0.DRN_NET_BD" "a_29_n2190#" 0.488491
+cap "EN" "a_821_n2476#" 8.93339
+cap "VDD" "a_n763_n2390#" 0.0170147
+cap "a_n763_n1629#" "a_n499_n2390#" 0.0330231
+cap "a_293_n1629#" "a_293_n1829#" 12.5851
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_MENX" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate" 0.12521
+cap "a_2886_4109#" "a_2622_4109#" 7.32625
+cap "a_821_n1829#" "a_1085_n1829#" 7.32625
+cap "a_821_n1629#" "a_1085_n1915#" 6.89204
+cap "a_9091_4632#" "a_9355_4632#" 7.32625
+cap "a_8827_4832#" "a_8827_4023#" 3.19218
+cap "a_1613_n1829#" "Voutn" 0.0301563
+cap "a_9091_4309#" "dynamic_pcell$5_0.DRN_NET_BD" 0.940684
+cap "a_9355_4109#" "Voutp" 5.18424
+cap "VDD" "a_9091_4546#" 0.0438097
+cap "a_1085_n2190#" "a_1085_n2390#" 12.5851
+cap "a_2622_4832#" "dynamic_pcell$6_0.Gate" 0.017258
+cap "EN" "a_n499_n1829#" 1.35143
+cap "dynamic_pcell$5_0.F_DRN" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_HI" 0.110933
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.B_DRN" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_CD" 36.086
+cap "VDD" "w_3207_4004#" 231.604
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 5110.78
+cap "VDD" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 16136.2
+cap "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.B_DRN" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate" 0.342983
+cap "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" "ota_cmfb_core_push_pull_output_stage_0/EN_INV_0/sg13cmos5l_inv_4_0.Y" 8.43063
+cap "a_2622_4632#" "w_3207_4004#" 1.12991
+cap "Voutp" "a_1085_n1915#" 15.1953
+cap "EN" "a_1349_n1629#" 4.97189
+cap "VDD" "dynamic_pcell$6_0.DRN_NET_O" 4871.6
+cap "w_3207_4004#" "a_2622_4023#" 11.2795
+cap "Vinn" "dynamic_pcell_0.Gate" 77.9228
+cap "dynamic_pcell$5_0.F_DRN" "Voutn" 59.0073
+cap "dynamic_pcell$5_0.Gate" "a_557_n2390#" 0.924781
+cap "dynamic_pcell$5_0.DRN_NET_BD" "a_1349_n2476#" 2.22091
+cap "Voutp" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 146.715
+cap "dynamic_pcell$5_0.DRN_NET_CA" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 39.4498
+cap "a_2622_4832#" "a_2622_4109#" 0.0369135
+cap "EN" "a_1613_n2390#" 5.29989
+cap "a_n235_n2476#" "a_29_n1915#" 0.02184
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_CD" "ota_cmfb_core_push_pull_output_stage_1/EN_INV_0/sg13cmos5l_inv_4_0.Y" 0.0207667
+cap "dynamic_pcell$5_0.F_DRN" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate" 231.624
+cap "EN" "dynamic_pcell$5_0.DRN_NET_CA" 1272.75
+cap "VDD" "a_n235_n1629#" 43.262
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_ML" 0.0344011
+cap "a_n499_n2390#" "a_n235_n2390#" 7.32625
+cap "a_1349_n1629#" "a_1349_n2390#" 0.0330231
+cap "a_n235_n1829#" "a_29_n1829#" 7.32625
+cap "a_n235_n1629#" "a_29_n1915#" 6.89204
+cap "a_9619_4109#" "dynamic_pcell$5_0.DRN_NET_BD" 0.228002
+cap "dynamic_pcell$5_0.DRN_NET_CA" "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" 9942.57
+cap "EN" "dynamic_pcell$5_0.Gate" 1693.04
+cap "VDD" "a_8827_4023#" 21.3301
+cap "a_1349_n2390#" "a_1613_n2390#" 7.32625
+cap "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_CD" 5521.98
+cap "dynamic_pcell$5_0.Gate" "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" 3856.88
+cap "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_MENX" 6490.09
+cap "a_557_n1829#" "a_293_n1829#" 7.32625
+cap "a_557_n1915#" "a_293_n1629#" 6.89204
+cap "EN" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_ML" 1.67437
+cap "a_2358_4632#" "a_2358_4546#" 12.5851
+cap "dynamic_pcell$5_0.DRN_NET_BD" "a_n763_n2476#" 2.22091
+cap "EN" "a_n499_n2190#" 4.37137
+cap "VDD" "a_821_n1629#" 47.1118
+cap "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" "a_n499_n2190#" 1.14235
+cap "a_n763_n1829#" "a_n763_n2476#" 0.0330231
+cap "dynamic_pcell$5_0.DRN_NET_BD" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 838.397
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_HI" "Voutn" 0.306278
+cap "VDD" "dynamic_pcell_0.Gate" 47167.2
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.B_DRN" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_MENX" 0.0806518
+cap "VDD" "a_557_n2190#" 0.165983
+cap "a_2358_4109#" "a_2622_4109#" 7.32625
+cap "w_9940_4004#" "a_9355_4023#" 11.2795
+cap "a_29_n1915#" "dynamic_pcell_0.Gate" 0.959178
+cap "a_8827_4832#" "a_8827_4309#" 6.88783
+cap "a_1349_n1829#" "a_1613_n1829#" 7.32625
+cap "a_9091_4632#" "dynamic_pcell$5_0.DRN_NET_BD" 0.510858
+cap "a_9355_4832#" "a_9091_4309#" 0.0250366
+cap "dynamic_pcell$5_0.DRN_NET_CA" "dynamic_pcell_0.M_DRN" 559.149
+cap "w_3207_4004#" "a_9091_4109#" 0.162825
+cap "dynamic_pcell$5_0.DRN_NET_BD" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.B_DRN" 25.9837
+cap "Voutp" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 3793.93
+cap "dynamic_pcell_0.M_DRN" "dynamic_pcell$5_0.Gate" 516.518
+cap "Vinn" "dynamic_pcell$5_0.L_GATE" 114.465
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" "dynamic_pcell$6_0.Gate" 0.00610932
+cap "EN" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_CD" 21.4423
+cap "Ibias" "dynamic_pcell_0.Gate" 0.0947788
+cap "dynamic_pcell$5_0.F_DRN" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_MENX" 38.5478
+cap "VDD" "Voutp" 5822.65
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate" "Voutn" 22.7242
+cap "Voutp" "a_29_n1915#" 0.866004
+cap "w_9940_4004#" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.B_DRN" 19.7862
+cap "VDD" "EN_INV_1/sg13cmos5l_inv_4_0.Y" 397.346
+cap "EN_INV_1/sg13cmos5l_inv_4_0.Y" "a_29_n1915#" 0.341423
+cap "a_2886_4632#" "Voutn" 3.60853
+cap "EN" "dynamic_pcell$6_0.Gate" 61.0605
+cap "EN" "a_29_n2390#" 2.81134
+cap "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" "dynamic_pcell$6_0.Gate" 2173.28
+cap "w_9940_4004#" "a_8827_4632#" 0.320229
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_CD" 0.0854715
+cap "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" "a_29_n2390#" 0.594692
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" "a_1613_n2390#" 0.0952152
+cap "EN" "ota_cmfb_core_push_pull_output_stage_0/EN_INV_0/sg13cmos5l_inv_4_0.Y" 304.057
+cap "VDD" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_CD" 3790.07
+cap "w_9940_4004#" "dynamic_pcell$5_0.F_DRN" 6.20852
+cap "a_557_n1829#" "a_557_n1915#" 12.5851
+cap "dynamic_pcell$5_0.DRN_NET_CA" "a_9091_4546#" 0.466091
+cap "EN" "a_2622_4109#" 2.81251
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_ML" "dynamic_pcell$5_0.F_DRN" 396.717
+cap "w_3207_4004#" "dynamic_pcell$5_0.DRN_NET_CA" 9185.36
+cap "a_821_n1629#" "a_821_n2476#" 3.06153
+cap "dynamic_pcell$5_0.DRN_NET_CA" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 4240.87
+cap "a_8827_4023#" "a_9091_4109#" 12.5851
+cap "a_557_n2190#" "a_821_n2476#" 6.89204
+cap "a_557_n2390#" "a_821_n2390#" 7.32625
+cap "VDD" "a_8827_4309#" 0.0173532
+cap "a_1085_n2190#" "Voutn" 14.14
+cap "dynamic_pcell$5_0.G_DRN" "dynamic_pcell$5_0.F_DRN" 1863.16
+cap "VDD" "dynamic_pcell$5_0.L_GATE" 3268.97
+cap "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate" 6.73591
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_HI" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_MENX" 80.3556
+cap "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_HI" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_MENX" 80.4695
+cap "dynamic_pcell$5_0.DRN_NET_CA" "dynamic_pcell$6_0.DRN_NET_O" 49.9643
+cap "dynamic_pcell$5_0.L_GATE" "a_29_n1915#" 0.0217478
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_MENX" 0.0344011
+cap "VDD" "a_n763_n1629#" 44.9747
+cap "dynamic_pcell$5_0.DRN_NET_CA" "a_n235_n2476#" 0.501525
+cap "dynamic_pcell$5_0.Gate" "dynamic_pcell$6_0.DRN_NET_O" 1487.16
+cap "EN" "a_1085_n1829#" 2.02196
+cap "dynamic_pcell_0.M_DRN" "dynamic_pcell$6_0.Gate" 129.572
+cap "EN" "a_2358_4632#" 3.70891
+cap "dynamic_pcell$5_0.Gate" "a_n235_n2476#" 3.18905
+cap "EN" "a_821_n2390#" 3.22509
+cap "a_2358_4632#" "a_2094_4632#" 7.32625
+cap "a_2358_4309#" "a_2622_4109#" 12.5851
+cap "dynamic_pcell$5_0.DRN_NET_BD" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_HI" 241.629
+cap "a_n499_n1829#" "dynamic_pcell_0.Gate" 1.06516
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_MENX" "Voutn" 160.597
+cap "EN" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_MENX" 2.29248
+cap "w_9940_4004#" "a_8827_4109#" 0.320229
+cap "a_2094_4023#" "a_2094_4832#" 3.19218
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_MENX" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate" 438.735
+cap "a_821_n1629#" "a_1349_n1629#" 7.94655
+cap "a_557_n1915#" "a_1085_n1915#" 7.94655
+cap "dynamic_pcell$5_0.Gate" "a_n235_n1629#" 0.058446
+cap "a_9091_4546#" "a_9355_4632#" 12.5851
+cap "dynamic_pcell$5_0.DRN_NET_CA" "a_8827_4023#" 0.64014
+cap "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 0.854395
+cap "a_n499_n2190#" "a_n235_n2476#" 6.89204
+cap "a_9091_4109#" "Voutp" 3.00968
+cap "a_9355_4109#" "a_9355_4023#" 12.5851
+cap "EN" "dynamic_pcell$5_0.DRN_NET_BD" 4296.52
+cap "VDD" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 19.4227
+cap "VDD" "a_293_n1829#" 0.0932418
+cap "w_3207_4004#" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_CD" 0.643771
+cap "a_29_n1915#" "a_293_n1829#" 12.5851
+cap "dynamic_pcell$5_0.DRN_NET_BD" "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" 10550.7
+cap "dynamic_pcell$5_0.G_DRN" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_HI" 4045.51
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_CD" 5500.67
+cap "EN" "a_n763_n1829#" 0.453434
+cap "a_n235_n1629#" "a_n499_n2190#" 0.02184
+cap "EN_INV_1/sg13cmos5l_inv_4_0.Y" "a_n499_n1829#" 0.582319
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_ML" "Voutn" 54.0002
+cap "a_293_n2476#" "a_293_n1629#" 3.06153
+cap "dynamic_pcell$5_0.DRN_NET_CA" "dynamic_pcell_0.Gate" 1251.29
+cap "dynamic_pcell$5_0.Gate" "a_821_n1629#" 0.0341542
+cap "Voutp" "a_1349_n1629#" 11.519
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_ML" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate" 1744.03
+cap "dynamic_pcell$5_0.Gate" "dynamic_pcell_0.Gate" 4996.95
+cap "dynamic_pcell$5_0.Gate" "a_557_n2190#" 0.453525
+cap "dynamic_pcell$5_0.G_DRN" "Voutn" 270.681
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate" 0.08676
+cap "dynamic_pcell$5_0.G_DRN" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate" 11.772
+cap "dynamic_pcell$6_0.DRN_NET_O" "dynamic_pcell$6_0.Gate" 7280.95
+cap "VDD" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate" 40.1639
+cap "w_3207_4004#" "a_2622_4109#" 1.12991
+cap "dynamic_pcell$5_0.DRN_NET_CA" "Voutp" 55.4565
+cap "a_2094_4309#" "a_2358_4546#" 8.11538
+cap "a_n499_n2190#" "dynamic_pcell_0.Gate" 0.059916
+cap "a_n235_n2476#" "a_29_n2390#" 12.5851
+cap "dynamic_pcell$5_0.DRN_NET_CA" "EN_INV_1/sg13cmos5l_inv_4_0.Y" 0.280722
+cap "dynamic_pcell$5_0.DRN_NET_BD" "dynamic_pcell_0.M_DRN" 2107.47
+cap "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.B_DRN" 1484.05
+cap "EN" "a_29_n1829#" 1.35143
+cap "dynamic_pcell$5_0.Gate" "EN_INV_1/sg13cmos5l_inv_4_0.Y" 2.97
+cap "a_n499_n1829#" "a_n763_n1629#" 12.5851
+cap "Voutp" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_ML" 54.0002
+cap "a_n235_n1629#" "a_29_n2390#" 0.0330231
+cap "dynamic_pcell$5_0.DRN_NET_CA" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_CD" 0.0151684
+cap "a_2358_4632#" "w_3207_4004#" 0.546613
+cap "VDD" "a_557_n1915#" 5.81117
+cap "a_557_n1915#" "a_29_n1915#" 7.94655
+cap "EN_INV_1/sg13cmos5l_inv_4_0.Y" "a_n499_n2190#" 0.0364073
+cap "dynamic_pcell$5_0.F_DRN" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 1988.68
+cap "VDD" "a_1085_n2390#" 0.440755
+cap "dynamic_pcell$5_0.DRN_NET_CA" "a_8827_4309#" 6.24134
+cap "a_8827_4832#" "a_8827_4632#" 12.5851
+cap "VDD" "a_2094_4023#" 25.9111
+cap "a_557_n1829#" "a_293_n2476#" 0.0330231
+cap "a_9091_4546#" "dynamic_pcell$5_0.DRN_NET_BD" 0.695279
+cap "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_ML" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_MENX" 2597.51
+cap "dynamic_pcell$6_0.Gate" "dynamic_pcell_0.Gate" 367.805
+cap "dynamic_pcell$5_0.DRN_NET_CA" "dynamic_pcell$5_0.L_GATE" 2943.71
+cap "a_293_n2390#" "a_293_n2476#" 12.5851
+cap "a_293_n2390#" "Voutn" 0.211198
+cap "Voutp" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_CD" 16.4421
+cap "dynamic_pcell$5_0.L_GATE" "dynamic_pcell$5_0.Gate" 415.766
+cap "dynamic_pcell_0.M_DRN" "VCM" 1732.73
+cap "dynamic_pcell$5_0.DRN_NET_BD" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 489.098
+device msubckt sg13_lv_nmos 13645 -9646 13646 -9645 l=100 w=100 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 200 3800,176
+device msubckt sg13_lv_nmos 13469 -9646 13470 -9645 l=100 w=100 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 200 3800,176
+device msubckt sg13_lv_nmos 13293 -9646 13294 -9645 l=100 w=100 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 200 3800,176
+device msubckt sg13_lv_nmos 13117 -9646 13118 -9645 l=100 w=100 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 200 3800,176
+device msubckt sg13_lv_nmos 12941 -9646 12942 -9645 l=100 w=100 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 200 3800,176
+device msubckt sg13_lv_nmos 12765 -9646 12766 -9645 l=100 w=100 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 200 6800,336
+device msubckt sg13_lv_nmos 10569 -9646 10570 -9645 l=2000 w=100 "VSS" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_MENX" 4000 0 "Voutp" 100 6800,336 "VSS" 100 6800,336
+device msubckt sg13_lv_nmos 10273 -9646 10274 -9645 l=100 w=100 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 200 3800,176
+device msubckt sg13_lv_nmos 10097 -9646 10098 -9645 l=100 w=100 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 200 3800,176
+device msubckt sg13_lv_nmos 9921 -9646 9922 -9645 l=100 w=100 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 200 3800,176
+device msubckt sg13_lv_nmos 9745 -9646 9746 -9645 l=100 w=100 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 200 3800,176
+device msubckt sg13_lv_nmos 9569 -9646 9570 -9645 l=100 w=100 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 200 3800,176
+device msubckt sg13_lv_nmos 9393 -9646 9394 -9645 l=100 w=100 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 200 6800,336
+device msubckt sg13_lv_nmos 6912 -9646 6913 -9645 l=100 w=100 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 200 3800,176
+device msubckt sg13_lv_nmos 6736 -9646 6737 -9645 l=100 w=100 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 200 3800,176
+device msubckt sg13_lv_nmos 6560 -9646 6561 -9645 l=100 w=100 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 200 3800,176
+device msubckt sg13_lv_nmos 6384 -9646 6385 -9645 l=100 w=100 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 200 3800,176
+device msubckt sg13_lv_nmos 6208 -9646 6209 -9645 l=100 w=100 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 200 3800,176
+device msubckt sg13_lv_nmos 6032 -9646 6033 -9645 l=100 w=100 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 200 6800,336
+device msubckt sg13_lv_nmos 3836 -9646 3837 -9645 l=2000 w=100 "VSS" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_MENX" 4000 0 "Voutn" 100 6800,336 "VSS" 100 6800,336
+device msubckt sg13_lv_nmos 3540 -9646 3541 -9645 l=100 w=100 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 200 3800,176
+device msubckt sg13_lv_nmos 3364 -9646 3365 -9645 l=100 w=100 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 200 3800,176
+device msubckt sg13_lv_nmos 3188 -9646 3189 -9645 l=100 w=100 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 200 3800,176
+device msubckt sg13_lv_nmos 3012 -9646 3013 -9645 l=100 w=100 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 200 3800,176
+device msubckt sg13_lv_nmos 2836 -9646 2837 -9645 l=100 w=100 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 200 3800,176
+device msubckt sg13_lv_nmos 2660 -9646 2661 -9645 l=100 w=100 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 200 6800,336
+device msubckt sg13_lv_nmos 13817 -8850 13818 -8849 l=100 w=140 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 280 5320,216
+device msubckt sg13_lv_nmos 13641 -8850 13642 -8849 l=100 w=140 "VSS" "VSS" 200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_ML" 140 5320,216 "VSS" 140 5320,216
+device msubckt sg13_lv_nmos 12965 -8850 12966 -8849 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate" 1200 0 "VSS" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_ML" 140 5320,216
+device msubckt sg13_lv_nmos 12289 -8850 12290 -8849 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate" 1200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 140 5320,216 "VSS" 140 5320,216
+device msubckt sg13_lv_nmos 11613 -8850 11614 -8849 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate" 1200 0 "VSS" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 140 5320,216
+device msubckt sg13_lv_nmos 10937 -8850 10938 -8849 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate" 1200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_ML" 140 5320,216 "VSS" 140 5320,216
+device msubckt sg13_lv_nmos 10261 -8850 10262 -8849 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 1200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_MENX" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_ML" 140 5320,216
+device msubckt sg13_lv_nmos 9585 -8850 9586 -8849 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 1200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_ML" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_MENX" 140 5320,216
+device msubckt sg13_lv_nmos 9409 -8850 9410 -8849 l=100 w=140 "VSS" "VSS" 200 0 "VSS" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_ML" 140 5320,216
+device msubckt sg13_lv_nmos 9233 -8850 9234 -8849 l=100 w=140 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 280 9520,416
+device msubckt sg13_lv_nmos 13817 -8038 13818 -8037 l=100 w=140 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 280 5320,216
+device msubckt sg13_lv_nmos 13641 -8038 13642 -8037 l=100 w=140 "VSS" "VSS" 200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 140 5320,216 "VSS" 140 5320,216
+device msubckt sg13_lv_nmos 12965 -8038 12966 -8037 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 1200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 140 5320,216
+device msubckt sg13_lv_nmos 12289 -8038 12290 -8037 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate" 1200 0 "VSS" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate" 140 5320,216
+device msubckt sg13_lv_nmos 11613 -8038 11614 -8037 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate" 1200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate" 140 5320,216 "VSS" 140 5320,216
+device msubckt sg13_lv_nmos 10937 -8038 10938 -8037 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 1200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate" 140 5320,216
+device msubckt sg13_lv_nmos 10261 -8038 10262 -8037 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.B_DRN" 1200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.B_DRN" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 140 5320,216
+device msubckt sg13_lv_nmos 9585 -8038 9586 -8037 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.B_DRN" 1200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.B_DRN" 140 5320,216
+device msubckt sg13_lv_nmos 9409 -8038 9410 -8037 l=100 w=140 "VSS" "VSS" 200 0 "VSS" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 140 5320,216
+device msubckt sg13_lv_nmos 9233 -8038 9234 -8037 l=100 w=140 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 280 9520,416
+device msubckt sg13_lv_nmos 13817 -7226 13818 -7225 l=100 w=140 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 280 5320,216
+device msubckt sg13_lv_nmos 13641 -7226 13642 -7225 l=100 w=140 "VSS" "VSS" 200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_MENX" 140 5320,216 "VSS" 140 5320,216
+device msubckt sg13_lv_nmos 12965 -7226 12966 -7225 l=600 w=140 "VSS" "VSS" 1200 0 "VSS" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_MENX" 140 5320,216
+device msubckt sg13_lv_nmos 12289 -7226 12290 -7225 l=600 w=140 "VSS" "VSS" 1200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_MENX" 140 5320,216 "VSS" 140 5320,216
+device msubckt sg13_lv_nmos 11613 -7226 11614 -7225 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.B_DRN" 1200 0 "dynamic_pcell$5_0.DRN_NET_BD" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_MENX" 140 5320,216
+device msubckt sg13_lv_nmos 10937 -7226 10938 -7225 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.B_DRN" 1200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_MENX" 140 5320,216 "dynamic_pcell$5_0.DRN_NET_BD" 140 5320,216
+device msubckt sg13_lv_nmos 10261 -7226 10262 -7225 l=600 w=140 "VSS" "VSS" 1200 0 "VSS" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_MENX" 140 5320,216
+device msubckt sg13_lv_nmos 9585 -7226 9586 -7225 l=600 w=140 "VSS" "VSS" 1200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_MENX" 140 5320,216 "VSS" 140 5320,216
+device msubckt sg13_lv_nmos 9409 -7226 9410 -7225 l=100 w=140 "VSS" "VSS" 200 0 "VSS" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_MENX" 140 5320,216
+device msubckt sg13_lv_nmos 9233 -7226 9234 -7225 l=100 w=140 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 280 9520,416
+device msubckt sg13_lv_nmos 13817 -6414 13818 -6413 l=100 w=140 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 280 5320,216
+device msubckt sg13_lv_nmos 13641 -6414 13642 -6413 l=100 w=140 "VSS" "VSS" 200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 140 5320,216 "VSS" 140 5320,216
+device msubckt sg13_lv_nmos 12965 -6414 12966 -6413 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.B_DRN" 1200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.B_DRN" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 140 5320,216
+device msubckt sg13_lv_nmos 12289 -6414 12290 -6413 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.B_DRN" 1200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.B_DRN" 140 5320,216
+device msubckt sg13_lv_nmos 11613 -6414 11614 -6413 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 1200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 140 5320,216
+device msubckt sg13_lv_nmos 10937 -6414 10938 -6413 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate" 1200 0 "VSS" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate" 140 5320,216
+device msubckt sg13_lv_nmos 10261 -6414 10262 -6413 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate" 1200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate" 140 5320,216 "VSS" 140 5320,216
+device msubckt sg13_lv_nmos 9585 -6414 9586 -6413 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 1200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate" 140 5320,216
+device msubckt sg13_lv_nmos 9409 -6414 9410 -6413 l=100 w=140 "VSS" "VSS" 200 0 "VSS" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 140 5320,216
+device msubckt sg13_lv_nmos 9233 -6414 9234 -6413 l=100 w=140 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 280 9520,416
+device msubckt sg13_lv_nmos 13817 -5602 13818 -5601 l=100 w=140 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 280 5320,216
+device msubckt sg13_lv_nmos 13641 -5602 13642 -5601 l=100 w=140 "VSS" "VSS" 200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_ML" 140 5320,216 "VSS" 140 5320,216
+device msubckt sg13_lv_nmos 12965 -5602 12966 -5601 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 1200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_MENX" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_ML" 140 5320,216
+device msubckt sg13_lv_nmos 12289 -5602 12290 -5601 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 1200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_ML" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_MENX" 140 5320,216
+device msubckt sg13_lv_nmos 11613 -5602 11614 -5601 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate" 1200 0 "VSS" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_ML" 140 5320,216
+device msubckt sg13_lv_nmos 10937 -5602 10938 -5601 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate" 1200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 140 5320,216 "VSS" 140 5320,216
+device msubckt sg13_lv_nmos 10261 -5602 10262 -5601 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate" 1200 0 "VSS" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 140 5320,216
+device msubckt sg13_lv_nmos 9585 -5602 9586 -5601 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate" 1200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_ML" 140 5320,216 "VSS" 140 5320,216
+device msubckt sg13_lv_nmos 9409 -5602 9410 -5601 l=100 w=140 "VSS" "VSS" 200 0 "VSS" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_ML" 140 5320,216
+device msubckt sg13_lv_nmos 9233 -5602 9234 -5601 l=100 w=140 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 280 9520,416
+device msubckt sg13_lv_nmos 7084 -8850 7085 -8849 l=100 w=140 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 280 5320,216
+device msubckt sg13_lv_nmos 6908 -8850 6909 -8849 l=100 w=140 "VSS" "VSS" 200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_ML" 140 5320,216 "VSS" 140 5320,216
+device msubckt sg13_lv_nmos 6232 -8850 6233 -8849 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate" 1200 0 "VSS" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_ML" 140 5320,216
+device msubckt sg13_lv_nmos 5556 -8850 5557 -8849 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate" 1200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 140 5320,216 "VSS" 140 5320,216
+device msubckt sg13_lv_nmos 4880 -8850 4881 -8849 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate" 1200 0 "VSS" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 140 5320,216
+device msubckt sg13_lv_nmos 4204 -8850 4205 -8849 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate" 1200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_ML" 140 5320,216 "VSS" 140 5320,216
+device msubckt sg13_lv_nmos 3528 -8850 3529 -8849 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 1200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_MENX" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_ML" 140 5320,216
+device msubckt sg13_lv_nmos 2852 -8850 2853 -8849 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 1200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_ML" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_MENX" 140 5320,216
+device msubckt sg13_lv_nmos 2676 -8850 2677 -8849 l=100 w=140 "VSS" "VSS" 200 0 "VSS" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_ML" 140 5320,216
+device msubckt sg13_lv_nmos 2500 -8850 2501 -8849 l=100 w=140 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 280 9520,416
+device msubckt sg13_lv_nmos 7084 -8038 7085 -8037 l=100 w=140 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 280 5320,216
+device msubckt sg13_lv_nmos 6908 -8038 6909 -8037 l=100 w=140 "VSS" "VSS" 200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 140 5320,216 "VSS" 140 5320,216
+device msubckt sg13_lv_nmos 6232 -8038 6233 -8037 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 1200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 140 5320,216
+device msubckt sg13_lv_nmos 5556 -8038 5557 -8037 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate" 1200 0 "VSS" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate" 140 5320,216
+device msubckt sg13_lv_nmos 4880 -8038 4881 -8037 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate" 1200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate" 140 5320,216 "VSS" 140 5320,216
+device msubckt sg13_lv_nmos 4204 -8038 4205 -8037 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 1200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate" 140 5320,216
+device msubckt sg13_lv_nmos 3528 -8038 3529 -8037 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.B_DRN" 1200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.B_DRN" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 140 5320,216
+device msubckt sg13_lv_nmos 2852 -8038 2853 -8037 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.B_DRN" 1200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.B_DRN" 140 5320,216
+device msubckt sg13_lv_nmos 2676 -8038 2677 -8037 l=100 w=140 "VSS" "VSS" 200 0 "VSS" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 140 5320,216
+device msubckt sg13_lv_nmos 2500 -8038 2501 -8037 l=100 w=140 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 280 9520,416
+device msubckt sg13_lv_nmos 7084 -7226 7085 -7225 l=100 w=140 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 280 5320,216
+device msubckt sg13_lv_nmos 6908 -7226 6909 -7225 l=100 w=140 "VSS" "VSS" 200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_MENX" 140 5320,216 "VSS" 140 5320,216
+device msubckt sg13_lv_nmos 6232 -7226 6233 -7225 l=600 w=140 "VSS" "VSS" 1200 0 "VSS" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_MENX" 140 5320,216
+device msubckt sg13_lv_nmos 5556 -7226 5557 -7225 l=600 w=140 "VSS" "VSS" 1200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_MENX" 140 5320,216 "VSS" 140 5320,216
+device msubckt sg13_lv_nmos 4880 -7226 4881 -7225 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.B_DRN" 1200 0 "dynamic_pcell$5_0.DRN_NET_CA" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_MENX" 140 5320,216
+device msubckt sg13_lv_nmos 4204 -7226 4205 -7225 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.B_DRN" 1200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_MENX" 140 5320,216 "dynamic_pcell$5_0.DRN_NET_CA" 140 5320,216
+device msubckt sg13_lv_nmos 3528 -7226 3529 -7225 l=600 w=140 "VSS" "VSS" 1200 0 "VSS" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_MENX" 140 5320,216
+device msubckt sg13_lv_nmos 2852 -7226 2853 -7225 l=600 w=140 "VSS" "VSS" 1200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_MENX" 140 5320,216 "VSS" 140 5320,216
+device msubckt sg13_lv_nmos 2676 -7226 2677 -7225 l=100 w=140 "VSS" "VSS" 200 0 "VSS" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_MENX" 140 5320,216
+device msubckt sg13_lv_nmos 2500 -7226 2501 -7225 l=100 w=140 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 280 9520,416
+device msubckt sg13_lv_nmos 7084 -6414 7085 -6413 l=100 w=140 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 280 5320,216
+device msubckt sg13_lv_nmos 6908 -6414 6909 -6413 l=100 w=140 "VSS" "VSS" 200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 140 5320,216 "VSS" 140 5320,216
+device msubckt sg13_lv_nmos 6232 -6414 6233 -6413 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.B_DRN" 1200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.B_DRN" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 140 5320,216
+device msubckt sg13_lv_nmos 5556 -6414 5557 -6413 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.B_DRN" 1200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.B_DRN" 140 5320,216
+device msubckt sg13_lv_nmos 4880 -6414 4881 -6413 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 1200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 140 5320,216
+device msubckt sg13_lv_nmos 4204 -6414 4205 -6413 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate" 1200 0 "VSS" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate" 140 5320,216
+device msubckt sg13_lv_nmos 3528 -6414 3529 -6413 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate" 1200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate" 140 5320,216 "VSS" 140 5320,216
+device msubckt sg13_lv_nmos 2852 -6414 2853 -6413 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 1200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate" 140 5320,216
+device msubckt sg13_lv_nmos 2676 -6414 2677 -6413 l=100 w=140 "VSS" "VSS" 200 0 "VSS" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 140 5320,216
+device msubckt sg13_lv_nmos 2500 -6414 2501 -6413 l=100 w=140 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 280 9520,416
+device msubckt sg13_lv_nmos 7084 -5602 7085 -5601 l=100 w=140 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 280 5320,216
+device msubckt sg13_lv_nmos 6908 -5602 6909 -5601 l=100 w=140 "VSS" "VSS" 200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_ML" 140 5320,216 "VSS" 140 5320,216
+device msubckt sg13_lv_nmos 6232 -5602 6233 -5601 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 1200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_MENX" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_ML" 140 5320,216
+device msubckt sg13_lv_nmos 5556 -5602 5557 -5601 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_OP_GATE_MP" 1200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_ML" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_MENX" 140 5320,216
+device msubckt sg13_lv_nmos 4880 -5602 4881 -5601 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate" 1200 0 "VSS" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_ML" 140 5320,216
+device msubckt sg13_lv_nmos 4204 -5602 4205 -5601 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate" 1200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 140 5320,216 "VSS" 140 5320,216
+device msubckt sg13_lv_nmos 3528 -5602 3529 -5601 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate" 1200 0 "VSS" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 140 5320,216
+device msubckt sg13_lv_nmos 2852 -5602 2853 -5601 l=600 w=140 "VSS" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate" 1200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_ML" 140 5320,216 "VSS" 140 5320,216
+device msubckt sg13_lv_nmos 2676 -5602 2677 -5601 l=100 w=140 "VSS" "VSS" 200 0 "VSS" 140 5320,216 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_ML" 140 5320,216
+device msubckt sg13_lv_nmos 2500 -5602 2501 -5601 l=100 w=140 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 280 9520,416
+device msubckt sg13_lv_nmos 15133 -5099 15134 -5098 l=26 w=148 "VSS" "ota_cmfb_core_push_pull_output_stage_0/EN_INV_0/sg13cmos5l_inv_4_0.Y" 52 0 "VSS" 148 10064,432 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.Gate" 148 10064,432
+device msubckt sg13_lv_nmos 14648 -5120 14649 -5119 l=26 w=148 "VSS" "EN" 52 0 "ota_cmfb_core_push_pull_output_stage_0/EN_INV_0/sg13cmos5l_inv_4_0.Y" 148 5624,224 "VSS" 148 10064,432
+device msubckt sg13_lv_nmos 14546 -5120 14547 -5119 l=26 w=148 "VSS" "EN" 52 0 "VSS" 148 5624,224 "ota_cmfb_core_push_pull_output_stage_0/EN_INV_0/sg13cmos5l_inv_4_0.Y" 148 5624,224
+device msubckt sg13_lv_nmos 14444 -5120 14445 -5119 l=26 w=148 "VSS" "EN" 52 0 "ota_cmfb_core_push_pull_output_stage_0/EN_INV_0/sg13cmos5l_inv_4_0.Y" 148 5624,224 "VSS" 148 5624,224
+device msubckt sg13_lv_nmos 14342 -5120 14343 -5119 l=26 w=148 "VSS" "EN" 52 0 "VSS" 148 10064,432 "ota_cmfb_core_push_pull_output_stage_0/EN_INV_0/sg13cmos5l_inv_4_0.Y" 148 5624,224
+device msubckt sg13_lv_nmos 8400 -5099 8401 -5098 l=26 w=148 "VSS" "ota_cmfb_core_push_pull_output_stage_1/EN_INV_0/sg13cmos5l_inv_4_0.Y" 52 0 "VSS" 148 10064,432 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.Gate" 148 10064,432
+device msubckt sg13_lv_nmos 7915 -5120 7916 -5119 l=26 w=148 "VSS" "EN" 52 0 "ota_cmfb_core_push_pull_output_stage_1/EN_INV_0/sg13cmos5l_inv_4_0.Y" 148 5624,224 "VSS" 148 10064,432
+device msubckt sg13_lv_nmos 7813 -5120 7814 -5119 l=26 w=148 "VSS" "EN" 52 0 "VSS" 148 5624,224 "ota_cmfb_core_push_pull_output_stage_1/EN_INV_0/sg13cmos5l_inv_4_0.Y" 148 5624,224
+device msubckt sg13_lv_nmos 7711 -5120 7712 -5119 l=26 w=148 "VSS" "EN" 52 0 "ota_cmfb_core_push_pull_output_stage_1/EN_INV_0/sg13cmos5l_inv_4_0.Y" 148 5624,224 "VSS" 148 5624,224
+device msubckt sg13_lv_nmos 7609 -5120 7610 -5119 l=26 w=148 "VSS" "EN" 52 0 "VSS" 148 10064,432 "ota_cmfb_core_push_pull_output_stage_1/EN_INV_0/sg13cmos5l_inv_4_0.Y" 148 5624,224
+device msubckt sg13_lv_nmos 1465 -9500 1466 -9499 l=100 w=50 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 100 2500,148
+device msubckt sg13_lv_nmos 1277 -9500 1278 -9499 l=100 w=50 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 100 2500,148
+device msubckt sg13_lv_nmos -811 -9500 -810 -9499 l=2000 w=50 "VSS" "dynamic_pcell$5_0.Gate" 4000 0 "dynamic_pcell$5_0.Gate" 50 2500,148 "VSS" 50 2500,148
+device msubckt sg13_lv_nmos -2899 -9500 -2898 -9499 l=2000 w=50 "VSS" "dynamic_pcell$5_0.Gate" 4000 0 "VSS" 50 2500,148 "dynamic_pcell$5_0.Gate" 50 2500,148
+device msubckt sg13_lv_nmos -4987 -9500 -4986 -9499 l=2000 w=50 "VSS" "dynamic_pcell$5_0.Gate" 4000 0 "dynamic_pcell_0.Gate" 50 2500,148 "VSS" 50 2500,148
+device msubckt sg13_lv_nmos -7075 -9500 -7074 -9499 l=2000 w=50 "VSS" "dynamic_pcell$5_0.Gate" 4000 0 "VSS" 50 2500,148 "dynamic_pcell_0.Gate" 50 2500,148
+device msubckt sg13_lv_nmos -7263 -9500 -7262 -9499 l=100 w=50 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 100 2500,148
+device msubckt sg13_lv_nmos -7451 -9500 -7450 -9499 l=100 w=50 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 100 4300,268
+device msubckt sg13_lv_nmos -8915 -9372 -8914 -9371 l=26 w=148 "VSS" "EN" 52 0 "Ibias" 148 10064,432 "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" 148 10064,432
+device msubckt sg13_lv_nmos 1465 -8598 1466 -8597 l=100 w=50 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 100 2500,148
+device msubckt sg13_lv_nmos 1277 -8598 1278 -8597 l=100 w=50 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 100 2500,148
+device msubckt sg13_lv_nmos -811 -8598 -810 -8597 l=2000 w=50 "VSS" "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" 4000 0 "dynamic_pcell$5_0.DRN_NET_CA" 50 2500,148 "VSS" 50 2500,148
+device msubckt sg13_lv_nmos -2899 -8598 -2898 -8597 l=2000 w=50 "VSS" "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" 4000 0 "VSS" 50 2500,148 "dynamic_pcell$5_0.DRN_NET_CA" 50 2500,148
+device msubckt sg13_lv_nmos -4987 -8598 -4986 -8597 l=2000 w=50 "VSS" "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" 4000 0 "dynamic_pcell$5_0.DRN_NET_BD" 50 2500,148 "VSS" 50 2500,148
+device msubckt sg13_lv_nmos -7075 -8598 -7074 -8597 l=2000 w=50 "VSS" "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" 4000 0 "VSS" 50 2500,148 "dynamic_pcell$5_0.DRN_NET_BD" 50 2500,148
+device msubckt sg13_lv_nmos -7263 -8598 -7262 -8597 l=100 w=50 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 100 2500,148
+device msubckt sg13_lv_nmos -7451 -8598 -7450 -8597 l=100 w=50 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 100 4300,268
+device msubckt sg13_lv_nmos 1465 -7696 1466 -7695 l=100 w=50 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 100 2500,148
+device msubckt sg13_lv_nmos 1277 -7696 1278 -7695 l=100 w=50 "VSS" "VSS" 200 0 "dynamic_pcell$5_0.G_DRN" 50 2500,148 "VSS" 50 2500,148
+device msubckt sg13_lv_nmos -811 -7696 -810 -7695 l=2000 w=50 "VSS" "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" 4000 0 "VSS" 50 2500,148 "dynamic_pcell$5_0.G_DRN" 50 2500,148
+device msubckt sg13_lv_nmos -2899 -7696 -2898 -7695 l=2000 w=50 "VSS" "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" 4000 0 "dynamic_pcell$5_0.DRN_NET_CA" 50 2500,148 "VSS" 50 2500,148
+device msubckt sg13_lv_nmos -4987 -7696 -4986 -7695 l=2000 w=50 "VSS" "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" 4000 0 "VSS" 50 2500,148 "dynamic_pcell$5_0.DRN_NET_CA" 50 2500,148
+device msubckt sg13_lv_nmos -7075 -7696 -7074 -7695 l=2000 w=50 "VSS" "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" 4000 0 "dynamic_pcell$5_0.F_DRN" 50 2500,148 "VSS" 50 2500,148
+device msubckt sg13_lv_nmos -7263 -7696 -7262 -7695 l=100 w=50 "VSS" "VSS" 200 0 "VSS" 50 2500,148 "dynamic_pcell$5_0.F_DRN" 50 2500,148
+device msubckt sg13_lv_nmos -7451 -7696 -7450 -7695 l=100 w=50 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 100 4300,268
+device msubckt sg13_lv_nmos 1465 -6794 1466 -6793 l=100 w=50 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 100 2500,148
+device msubckt sg13_lv_nmos 1277 -6794 1278 -6793 l=100 w=50 "VSS" "VSS" 200 0 "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" 50 2500,148 "VSS" 50 2500,148
+device msubckt sg13_lv_nmos -811 -6794 -810 -6793 l=2000 w=50 "VSS" "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" 4000 0 "VSS" 50 2500,148 "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" 50 2500,148
+device msubckt sg13_lv_nmos -2899 -6794 -2898 -6793 l=2000 w=50 "VSS" "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" 4000 0 "dynamic_pcell$5_0.DRN_NET_BD" 50 2500,148 "VSS" 50 2500,148
+device msubckt sg13_lv_nmos -4987 -6794 -4986 -6793 l=2000 w=50 "VSS" "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" 4000 0 "VSS" 50 2500,148 "dynamic_pcell$5_0.DRN_NET_BD" 50 2500,148
+device msubckt sg13_lv_nmos -7075 -6794 -7074 -6793 l=2000 w=50 "VSS" "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" 4000 0 "dynamic_pcell$6_0.Gate" 50 2500,148 "VSS" 50 2500,148
+device msubckt sg13_lv_nmos -7263 -6794 -7262 -6793 l=100 w=50 "VSS" "VSS" 200 0 "VSS" 50 2500,148 "dynamic_pcell$6_0.Gate" 50 2500,148
+device msubckt sg13_lv_nmos -7451 -6794 -7450 -6793 l=100 w=50 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 100 4300,268
+device msubckt sg13_lv_nmos 1465 -5892 1466 -5891 l=100 w=50 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 100 2500,148
+device msubckt sg13_lv_nmos 1277 -5892 1278 -5891 l=100 w=50 "VSS" "VSS" 200 0 "dynamic_pcell$6_0.Gate" 50 2500,148 "VSS" 50 2500,148
+device msubckt sg13_lv_nmos -811 -5892 -810 -5891 l=2000 w=50 "VSS" "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" 4000 0 "VSS" 50 2500,148 "dynamic_pcell$6_0.Gate" 50 2500,148
+device msubckt sg13_lv_nmos -2899 -5892 -2898 -5891 l=2000 w=50 "VSS" "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" 4000 0 "dynamic_pcell$5_0.DRN_NET_BD" 50 2500,148 "VSS" 50 2500,148
+device msubckt sg13_lv_nmos -4987 -5892 -4986 -5891 l=2000 w=50 "VSS" "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" 4000 0 "VSS" 50 2500,148 "dynamic_pcell$5_0.DRN_NET_BD" 50 2500,148
+device msubckt sg13_lv_nmos -7075 -5892 -7074 -5891 l=2000 w=50 "VSS" "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" 4000 0 "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" 50 2500,148 "VSS" 50 2500,148
+device msubckt sg13_lv_nmos -7263 -5892 -7262 -5891 l=100 w=50 "VSS" "VSS" 200 0 "VSS" 50 2500,148 "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" 50 2500,148
+device msubckt sg13_lv_nmos -7451 -5892 -7450 -5891 l=100 w=50 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 100 4300,268
+device msubckt sg13_lv_pmos 14648 -4826 14649 -4825 l=26 w=224 "VDD" "EN" 52 0 "ota_cmfb_core_push_pull_output_stage_0/EN_INV_0/sg13cmos5l_inv_4_0.Y" 224 8512,300 "VDD" 224 15232,584
+device msubckt sg13_lv_pmos 14546 -4826 14547 -4825 l=26 w=224 "VDD" "EN" 52 0 "VDD" 224 8512,300 "ota_cmfb_core_push_pull_output_stage_0/EN_INV_0/sg13cmos5l_inv_4_0.Y" 224 8512,300
+device msubckt sg13_lv_pmos 14444 -4826 14445 -4825 l=26 w=224 "VDD" "EN" 52 0 "ota_cmfb_core_push_pull_output_stage_0/EN_INV_0/sg13cmos5l_inv_4_0.Y" 224 8512,300 "VDD" 224 8512,300
+device msubckt sg13_lv_pmos 14342 -4826 14343 -4825 l=26 w=224 "VDD" "EN" 52 0 "VDD" 224 15232,584 "ota_cmfb_core_push_pull_output_stage_0/EN_INV_0/sg13cmos5l_inv_4_0.Y" 224 8512,300
+device msubckt sg13_lv_nmos 1465 -4990 1466 -4989 l=100 w=50 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 100 2500,148
+device msubckt sg13_lv_nmos 1277 -4990 1278 -4989 l=100 w=50 "VSS" "VSS" 200 0 "dynamic_pcell$5_0.F_DRN" 50 2500,148 "VSS" 50 2500,148
+device msubckt sg13_lv_nmos -811 -4990 -810 -4989 l=2000 w=50 "VSS" "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" 4000 0 "VSS" 50 2500,148 "dynamic_pcell$5_0.F_DRN" 50 2500,148
+device msubckt sg13_lv_nmos -2899 -4990 -2898 -4989 l=2000 w=50 "VSS" "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" 4000 0 "dynamic_pcell$5_0.DRN_NET_CA" 50 2500,148 "VSS" 50 2500,148
+device msubckt sg13_lv_nmos -4987 -4990 -4986 -4989 l=2000 w=50 "VSS" "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" 4000 0 "VSS" 50 2500,148 "dynamic_pcell$5_0.DRN_NET_CA" 50 2500,148
+device msubckt sg13_lv_nmos -7075 -4990 -7074 -4989 l=2000 w=50 "VSS" "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" 4000 0 "dynamic_pcell$5_0.G_DRN" 50 2500,148 "VSS" 50 2500,148
+device msubckt sg13_lv_nmos -7263 -4990 -7262 -4989 l=100 w=50 "VSS" "VSS" 200 0 "VSS" 50 2500,148 "dynamic_pcell$5_0.G_DRN" 50 2500,148
+device msubckt sg13_lv_nmos -7451 -4990 -7450 -4989 l=100 w=50 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 100 4300,268
+device msubckt sg13_lv_pmos 7915 -4826 7916 -4825 l=26 w=224 "VDD" "EN" 52 0 "ota_cmfb_core_push_pull_output_stage_1/EN_INV_0/sg13cmos5l_inv_4_0.Y" 224 8512,300 "VDD" 224 15232,584
+device msubckt sg13_lv_pmos 7813 -4826 7814 -4825 l=26 w=224 "VDD" "EN" 52 0 "VDD" 224 8512,300 "ota_cmfb_core_push_pull_output_stage_1/EN_INV_0/sg13cmos5l_inv_4_0.Y" 224 8512,300
+device msubckt sg13_lv_pmos 7711 -4826 7712 -4825 l=26 w=224 "VDD" "EN" 52 0 "ota_cmfb_core_push_pull_output_stage_1/EN_INV_0/sg13cmos5l_inv_4_0.Y" 224 8512,300 "VDD" 224 8512,300
+device msubckt sg13_lv_pmos 7609 -4826 7610 -4825 l=26 w=224 "VDD" "EN" 52 0 "VDD" 224 15232,584 "ota_cmfb_core_push_pull_output_stage_1/EN_INV_0/sg13cmos5l_inv_4_0.Y" 224 8512,300
+device msubckt sg13_lv_pmos 13817 -4106 13818 -4105 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 19000,576
+device msubckt sg13_lv_pmos 13641 -4106 13642 -4105 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 19000,576
+device msubckt sg13_lv_pmos 12965 -4106 12966 -4105 l=600 w=500 "VDD" "dynamic_pcell$5_0.F_DRN" 1200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.B_DRN" 500 19000,576 "VDD" 500 19000,576
+device msubckt sg13_lv_pmos 12289 -4106 12290 -4105 l=600 w=500 "VDD" "dynamic_pcell$5_0.F_DRN" 1200 0 "VDD" 500 34000,1136 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.B_DRN" 500 19000,576
+device msubckt sg13_lv_pmos 11501 -4106 11502 -4105 l=600 w=500 "VDD" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 1200 0 "dynamic_pcell$5_0.DRN_NET_BD" 500 19000,576 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_CD" 500 34000,1136
+device msubckt sg13_lv_pmos 10825 -4106 10826 -4105 l=600 w=500 "VDD" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 1200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_CD" 500 19000,576 "dynamic_pcell$5_0.DRN_NET_BD" 500 19000,576
+device msubckt sg13_lv_pmos 10149 -4106 10150 -4105 l=600 w=500 "VDD" "dynamic_pcell$5_0.F_DRN" 1200 0 "VDD" 500 19000,576 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_CD" 500 19000,576
+device msubckt sg13_lv_pmos 9473 -4106 9474 -4105 l=600 w=500 "VDD" "dynamic_pcell$5_0.F_DRN" 1200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_CD" 500 19000,576 "VDD" 500 19000,576
+device msubckt sg13_lv_pmos 9297 -4106 9298 -4105 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 500 19000,576 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_CD" 500 19000,576
+device msubckt sg13_lv_pmos 9121 -4106 9122 -4105 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 34000,1136
+device msubckt sg13_lv_pmos 13817 -2934 13818 -2933 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 19000,576
+device msubckt sg13_lv_pmos 13641 -2934 13642 -2933 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 19000,576
+device msubckt sg13_lv_pmos 12965 -2934 12966 -2933 l=600 w=500 "VDD" "dynamic_pcell$5_0.F_DRN" 1200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_HI" 500 19000,576 "VDD" 500 19000,576
+device msubckt sg13_lv_pmos 12289 -2934 12290 -2933 l=600 w=500 "VDD" "dynamic_pcell$5_0.F_DRN" 1200 0 "VDD" 500 34000,1136 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_HI" 500 19000,576
+device msubckt sg13_lv_pmos 11501 -2934 11502 -2933 l=600 w=500 "VDD" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 1200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_HI" 500 19000,576 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 500 34000,1136
+device msubckt sg13_lv_pmos 10825 -2934 10826 -2933 l=600 w=500 "VDD" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 1200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 500 19000,576 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_HI" 500 19000,576
+device msubckt sg13_lv_pmos 10149 -2934 10150 -2933 l=600 w=500 "VDD" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 1200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 500 19000,576 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 500 19000,576
+device msubckt sg13_lv_pmos 9473 -2934 9474 -2933 l=600 w=500 "VDD" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 1200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 500 19000,576 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 500 19000,576
+device msubckt sg13_lv_pmos 9297 -2934 9298 -2933 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 500 19000,576 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 500 19000,576
+device msubckt sg13_lv_pmos 9121 -2934 9122 -2933 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 34000,1136
+device msubckt sg13_lv_pmos 13817 -1762 13818 -1761 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 19000,576
+device msubckt sg13_lv_pmos 13641 -1762 13642 -1761 l=100 w=500 "VDD" "VDD" 200 0 "dynamic_pcell$5_0.DRN_NET_BD" 500 19000,576 "VDD" 500 19000,576
+device msubckt sg13_lv_pmos 12965 -1762 12966 -1761 l=600 w=500 "VDD" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 1200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_MENX" 500 34000,1136 "dynamic_pcell$5_0.DRN_NET_BD" 500 19000,576
+device msubckt sg13_lv_pmos 12177 -1762 12178 -1761 l=600 w=500 "VDD" "dynamic_pcell$5_0.F_DRN" 1200 0 "dynamic_pcell$5_0.F_DRN" 500 19000,576 "VDD" 500 34000,1136
+device msubckt sg13_lv_pmos 11501 -1762 11502 -1761 l=600 w=500 "VDD" "dynamic_pcell$5_0.F_DRN" 1200 0 "VDD" 500 19000,576 "dynamic_pcell$5_0.F_DRN" 500 19000,576
+device msubckt sg13_lv_pmos 10825 -1762 10826 -1761 l=600 w=500 "VDD" "dynamic_pcell$5_0.F_DRN" 1200 0 "dynamic_pcell$5_0.F_DRN" 500 19000,576 "VDD" 500 19000,576
+device msubckt sg13_lv_pmos 10149 -1762 10150 -1761 l=600 w=500 "VDD" "dynamic_pcell$5_0.F_DRN" 1200 0 "VDD" 500 19000,576 "dynamic_pcell$5_0.F_DRN" 500 19000,576
+device msubckt sg13_lv_pmos 9473 -1762 9474 -1761 l=600 w=500 "VDD" "dynamic_pcell$5_0.F_DRN" 1200 0 "dynamic_pcell$5_0.F_DRN" 500 19000,576 "VDD" 500 19000,576
+device msubckt sg13_lv_pmos 9297 -1762 9298 -1761 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 500 19000,576 "dynamic_pcell$5_0.F_DRN" 500 19000,576
+device msubckt sg13_lv_pmos 9121 -1762 9122 -1761 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 34000,1136
+device msubckt sg13_lv_pmos 13817 -590 13818 -589 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 19000,576
+device msubckt sg13_lv_pmos 13641 -590 13642 -589 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 19000,576
+device msubckt sg13_lv_pmos 12965 -590 12966 -589 l=600 w=500 "VDD" "dynamic_pcell$5_0.F_DRN" 1200 0 "dynamic_pcell$5_0.F_DRN" 500 19000,576 "VDD" 500 19000,576
+device msubckt sg13_lv_pmos 12289 -590 12290 -589 l=600 w=500 "VDD" "dynamic_pcell$5_0.F_DRN" 1200 0 "VDD" 500 19000,576 "dynamic_pcell$5_0.F_DRN" 500 19000,576
+device msubckt sg13_lv_pmos 11613 -590 11614 -589 l=600 w=500 "VDD" "dynamic_pcell$5_0.F_DRN" 1200 0 "dynamic_pcell$5_0.F_DRN" 500 19000,576 "VDD" 500 19000,576
+device msubckt sg13_lv_pmos 10937 -590 10938 -589 l=600 w=500 "VDD" "dynamic_pcell$5_0.F_DRN" 1200 0 "VDD" 500 19000,576 "dynamic_pcell$5_0.F_DRN" 500 19000,576
+device msubckt sg13_lv_pmos 10261 -590 10262 -589 l=600 w=500 "VDD" "dynamic_pcell$5_0.F_DRN" 1200 0 "dynamic_pcell$5_0.F_DRN" 500 34000,1136 "VDD" 500 19000,576
+device msubckt sg13_lv_pmos 9473 -590 9474 -589 l=600 w=500 "VDD" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 1200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_MENX" 500 19000,576 "dynamic_pcell$5_0.DRN_NET_BD" 500 34000,1136
+device msubckt sg13_lv_pmos 9297 -590 9298 -589 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 500 19000,576 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_MENX" 500 19000,576
+device msubckt sg13_lv_pmos 9121 -590 9122 -589 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 34000,1136
+device msubckt sg13_lv_pmos 13817 582 13818 583 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 19000,576
+device msubckt sg13_lv_pmos 13641 582 13642 583 l=100 w=500 "VDD" "VDD" 200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 500 19000,576 "VDD" 500 19000,576
+device msubckt sg13_lv_pmos 12965 582 12966 583 l=600 w=500 "VDD" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 1200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 500 19000,576 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 500 19000,576
+device msubckt sg13_lv_pmos 12289 582 12290 583 l=600 w=500 "VDD" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 1200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 500 19000,576 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 500 19000,576
+device msubckt sg13_lv_pmos 11613 582 11614 583 l=600 w=500 "VDD" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 1200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_HI" 500 19000,576 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 500 19000,576
+device msubckt sg13_lv_pmos 10937 582 10938 583 l=600 w=500 "VDD" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 1200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 500 34000,1136 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_HI" 500 19000,576
+device msubckt sg13_lv_pmos 10149 582 10150 583 l=600 w=500 "VDD" "dynamic_pcell$5_0.F_DRN" 1200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_HI" 500 19000,576 "VDD" 500 34000,1136
+device msubckt sg13_lv_pmos 9473 582 9474 583 l=600 w=500 "VDD" "dynamic_pcell$5_0.F_DRN" 1200 0 "VDD" 500 19000,576 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_HI" 500 19000,576
+device msubckt sg13_lv_pmos 9297 582 9298 583 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 19000,576
+device msubckt sg13_lv_pmos 9121 582 9122 583 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 34000,1136
+device msubckt sg13_lv_pmos 13817 1754 13818 1755 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 19000,576
+device msubckt sg13_lv_pmos 13641 1754 13642 1755 l=100 w=500 "VDD" "VDD" 200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_CD" 500 19000,576 "VDD" 500 19000,576
+device msubckt sg13_lv_pmos 12965 1754 12966 1755 l=600 w=500 "VDD" "dynamic_pcell$5_0.F_DRN" 1200 0 "VDD" 500 19000,576 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_CD" 500 19000,576
+device msubckt sg13_lv_pmos 12289 1754 12290 1755 l=600 w=500 "VDD" "dynamic_pcell$5_0.F_DRN" 1200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_CD" 500 19000,576 "VDD" 500 19000,576
+device msubckt sg13_lv_pmos 11613 1754 11614 1755 l=600 w=500 "VDD" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 1200 0 "dynamic_pcell$5_0.DRN_NET_BD" 500 19000,576 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_CD" 500 19000,576
+device msubckt sg13_lv_pmos 10937 1754 10938 1755 l=600 w=500 "VDD" "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 1200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.DRN_NET_CD" 500 34000,1136 "dynamic_pcell$5_0.DRN_NET_BD" 500 19000,576
+device msubckt sg13_lv_pmos 10149 1754 10150 1755 l=600 w=500 "VDD" "dynamic_pcell$5_0.F_DRN" 1200 0 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.B_DRN" 500 19000,576 "VDD" 500 34000,1136
+device msubckt sg13_lv_pmos 9473 1754 9474 1755 l=600 w=500 "VDD" "dynamic_pcell$5_0.F_DRN" 1200 0 "VDD" 500 19000,576 "ota_cmfb_core_push_pull_output_stage_0/dynamic_pcell$4_0.B_DRN" 500 19000,576
+device msubckt sg13_lv_pmos 9297 1754 9298 1755 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 19000,576
+device msubckt sg13_lv_pmos 9121 1754 9122 1755 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 34000,1136
+device msubckt sg13_lv_pmos 7084 -4106 7085 -4105 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 19000,576
+device msubckt sg13_lv_pmos 6908 -4106 6909 -4105 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 19000,576
+device msubckt sg13_lv_pmos 6232 -4106 6233 -4105 l=600 w=500 "VDD" "dynamic_pcell$5_0.G_DRN" 1200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.B_DRN" 500 19000,576 "VDD" 500 19000,576
+device msubckt sg13_lv_pmos 5556 -4106 5557 -4105 l=600 w=500 "VDD" "dynamic_pcell$5_0.G_DRN" 1200 0 "VDD" 500 34000,1136 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.B_DRN" 500 19000,576
+device msubckt sg13_lv_pmos 4768 -4106 4769 -4105 l=600 w=500 "VDD" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 1200 0 "dynamic_pcell$5_0.DRN_NET_CA" 500 19000,576 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_CD" 500 34000,1136
+device msubckt sg13_lv_pmos 4092 -4106 4093 -4105 l=600 w=500 "VDD" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 1200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_CD" 500 19000,576 "dynamic_pcell$5_0.DRN_NET_CA" 500 19000,576
+device msubckt sg13_lv_pmos 3416 -4106 3417 -4105 l=600 w=500 "VDD" "dynamic_pcell$5_0.G_DRN" 1200 0 "VDD" 500 19000,576 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_CD" 500 19000,576
+device msubckt sg13_lv_pmos 2740 -4106 2741 -4105 l=600 w=500 "VDD" "dynamic_pcell$5_0.G_DRN" 1200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_CD" 500 19000,576 "VDD" 500 19000,576
+device msubckt sg13_lv_pmos 2564 -4106 2565 -4105 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 500 19000,576 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_CD" 500 19000,576
+device msubckt sg13_lv_pmos 2388 -4106 2389 -4105 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 34000,1136
+device msubckt sg13_lv_pmos 7084 -2934 7085 -2933 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 19000,576
+device msubckt sg13_lv_pmos 6908 -2934 6909 -2933 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 19000,576
+device msubckt sg13_lv_pmos 6232 -2934 6233 -2933 l=600 w=500 "VDD" "dynamic_pcell$5_0.G_DRN" 1200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_HI" 500 19000,576 "VDD" 500 19000,576
+device msubckt sg13_lv_pmos 5556 -2934 5557 -2933 l=600 w=500 "VDD" "dynamic_pcell$5_0.G_DRN" 1200 0 "VDD" 500 34000,1136 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_HI" 500 19000,576
+device msubckt sg13_lv_pmos 4768 -2934 4769 -2933 l=600 w=500 "VDD" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 1200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_HI" 500 19000,576 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 500 34000,1136
+device msubckt sg13_lv_pmos 4092 -2934 4093 -2933 l=600 w=500 "VDD" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 1200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 500 19000,576 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_HI" 500 19000,576
+device msubckt sg13_lv_pmos 3416 -2934 3417 -2933 l=600 w=500 "VDD" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 1200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 500 19000,576 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 500 19000,576
+device msubckt sg13_lv_pmos 2740 -2934 2741 -2933 l=600 w=500 "VDD" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 1200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 500 19000,576 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 500 19000,576
+device msubckt sg13_lv_pmos 2564 -2934 2565 -2933 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 500 19000,576 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 500 19000,576
+device msubckt sg13_lv_pmos 2388 -2934 2389 -2933 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 34000,1136
+device msubckt sg13_lv_nmos 1465 -4088 1466 -4087 l=100 w=50 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 100 2500,148
+device msubckt sg13_lv_nmos 1277 -4088 1278 -4087 l=100 w=50 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 100 2500,148
+device msubckt sg13_lv_nmos -811 -4088 -810 -4087 l=2000 w=50 "VSS" "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" 4000 0 "dynamic_pcell$5_0.DRN_NET_BD" 50 2500,148 "VSS" 50 2500,148
+device msubckt sg13_lv_nmos -2899 -4088 -2898 -4087 l=2000 w=50 "VSS" "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" 4000 0 "VSS" 50 2500,148 "dynamic_pcell$5_0.DRN_NET_BD" 50 2500,148
+device msubckt sg13_lv_nmos -4987 -4088 -4986 -4087 l=2000 w=50 "VSS" "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" 4000 0 "dynamic_pcell$5_0.DRN_NET_CA" 50 2500,148 "VSS" 50 2500,148
+device msubckt sg13_lv_nmos -7075 -4088 -7074 -4087 l=2000 w=50 "VSS" "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" 4000 0 "VSS" 50 2500,148 "dynamic_pcell$5_0.DRN_NET_CA" 50 2500,148
+device msubckt sg13_lv_nmos -7263 -4088 -7262 -4087 l=100 w=50 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 100 2500,148
+device msubckt sg13_lv_nmos -7451 -4088 -7450 -4087 l=100 w=50 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 100 4300,268
+device msubckt sg13_lv_nmos 1465 -3186 1466 -3185 l=100 w=50 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 100 2500,148
+device msubckt sg13_lv_nmos 1277 -3186 1278 -3185 l=100 w=50 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 100 2500,148
+device msubckt sg13_lv_nmos -811 -3186 -810 -3185 l=2000 w=50 "VSS" "dynamic_pcell$5_0.Gate" 4000 0 "dynamic_pcell_0.Gate" 50 2500,148 "VSS" 50 2500,148
+device msubckt sg13_lv_nmos -2899 -3186 -2898 -3185 l=2000 w=50 "VSS" "dynamic_pcell$5_0.Gate" 4000 0 "VSS" 50 2500,148 "dynamic_pcell_0.Gate" 50 2500,148
+device msubckt sg13_lv_nmos -4987 -3186 -4986 -3185 l=2000 w=50 "VSS" "dynamic_pcell$5_0.Gate" 4000 0 "dynamic_pcell$5_0.Gate" 50 2500,148 "VSS" 50 2500,148
+device msubckt sg13_lv_nmos -7075 -3186 -7074 -3185 l=2000 w=50 "VSS" "dynamic_pcell$5_0.Gate" 4000 0 "VSS" 50 2500,148 "dynamic_pcell$5_0.Gate" 50 2500,148
+device msubckt sg13_lv_nmos -7263 -3186 -7262 -3185 l=100 w=50 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 100 2500,148
+device msubckt sg13_lv_nmos -7451 -3186 -7450 -3185 l=100 w=50 "VSS" "VSS" 200 0 "VSS" 0 0 "VSS" 100 4300,268
+device rsubckt rhigh 1613 -2390 1614 -2389 w=100 l=200 "VSS" "a_1613_n2390#" 0 0 "Voutn" 100 8600,372 "a_1349_n2476#" 100 8600,372
+device rsubckt rhigh 1349 -2390 1350 -2389 w=100 l=200 "VSS" "a_1349_n2390#" 0 0 "a_1085_n2190#" 100 8600,372 "a_1349_n2476#" 100 8600,372
+device rsubckt rhigh 1085 -2390 1086 -2389 w=100 l=200 "VSS" "a_1085_n2390#" 0 0 "a_1085_n2190#" 100 8600,372 "a_821_n2476#" 100 8600,372
+device rsubckt rhigh 821 -2390 822 -2389 w=100 l=200 "VSS" "a_821_n2390#" 0 0 "a_557_n2190#" 100 8600,372 "a_821_n2476#" 100 8600,372
+device rsubckt rhigh 557 -2390 558 -2389 w=100 l=200 "VSS" "a_557_n2390#" 0 0 "a_557_n2190#" 100 8600,372 "a_293_n2476#" 100 8600,372
+device rsubckt rhigh 293 -2390 294 -2389 w=100 l=200 "VSS" "a_293_n2390#" 0 0 "a_29_n2190#" 100 8600,372 "a_293_n2476#" 100 8600,372
+device rsubckt rhigh 29 -2390 30 -2389 w=100 l=200 "VSS" "a_29_n2390#" 0 0 "a_29_n2190#" 100 8600,372 "a_n235_n2476#" 100 8600,372
+device rsubckt rhigh -235 -2390 -234 -2389 w=100 l=200 "VSS" "a_n235_n2390#" 0 0 "a_n499_n2190#" 100 8600,372 "a_n235_n2476#" 100 8600,372
+device rsubckt rhigh -499 -2390 -498 -2389 w=100 l=200 "VSS" "a_n499_n2390#" 0 0 "a_n499_n2190#" 100 8600,372 "a_n763_n2476#" 100 8600,372
+device rsubckt rhigh -763 -2390 -762 -2389 w=100 l=200 "VSS" "a_n763_n2390#" 0 0 "dynamic_pcell$5_0.L_GATE" 100 8600,372 "a_n763_n2476#" 100 8600,372
+device msubckt sg13_lv_pmos 7084 -1762 7085 -1761 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 19000,576
+device msubckt sg13_lv_pmos 6908 -1762 6909 -1761 l=100 w=500 "VDD" "VDD" 200 0 "dynamic_pcell$5_0.DRN_NET_CA" 500 19000,576 "VDD" 500 19000,576
+device msubckt sg13_lv_pmos 6232 -1762 6233 -1761 l=600 w=500 "VDD" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 1200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_MENX" 500 34000,1136 "dynamic_pcell$5_0.DRN_NET_CA" 500 19000,576
+device msubckt sg13_lv_pmos 5444 -1762 5445 -1761 l=600 w=500 "VDD" "dynamic_pcell$5_0.G_DRN" 1200 0 "dynamic_pcell$5_0.G_DRN" 500 19000,576 "VDD" 500 34000,1136
+device msubckt sg13_lv_pmos 4768 -1762 4769 -1761 l=600 w=500 "VDD" "dynamic_pcell$5_0.G_DRN" 1200 0 "VDD" 500 19000,576 "dynamic_pcell$5_0.G_DRN" 500 19000,576
+device msubckt sg13_lv_pmos 4092 -1762 4093 -1761 l=600 w=500 "VDD" "dynamic_pcell$5_0.G_DRN" 1200 0 "dynamic_pcell$5_0.G_DRN" 500 19000,576 "VDD" 500 19000,576
+device msubckt sg13_lv_pmos 3416 -1762 3417 -1761 l=600 w=500 "VDD" "dynamic_pcell$5_0.G_DRN" 1200 0 "VDD" 500 19000,576 "dynamic_pcell$5_0.G_DRN" 500 19000,576
+device msubckt sg13_lv_pmos 2740 -1762 2741 -1761 l=600 w=500 "VDD" "dynamic_pcell$5_0.G_DRN" 1200 0 "dynamic_pcell$5_0.G_DRN" 500 19000,576 "VDD" 500 19000,576
+device msubckt sg13_lv_pmos 2564 -1762 2565 -1761 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 500 19000,576 "dynamic_pcell$5_0.G_DRN" 500 19000,576
+device msubckt sg13_lv_pmos 2388 -1762 2389 -1761 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 34000,1136
+device rsubckt rhigh 1613 -1829 1614 -1828 w=100 l=200 "VSS" "a_1613_n1829#" 0 0 "a_1349_n1629#" 100 8600,372 "Voutp" 100 8600,372
+device rsubckt rhigh 1349 -1829 1350 -1828 w=100 l=200 "VSS" "a_1349_n1829#" 0 0 "a_1349_n1629#" 100 8600,372 "a_1085_n1915#" 100 8600,372
+device rsubckt rhigh 1085 -1829 1086 -1828 w=100 l=200 "VSS" "a_1085_n1829#" 0 0 "a_821_n1629#" 100 8600,372 "a_1085_n1915#" 100 8600,372
+device rsubckt rhigh 821 -1829 822 -1828 w=100 l=200 "VSS" "a_821_n1829#" 0 0 "a_821_n1629#" 100 8600,372 "a_557_n1915#" 100 8600,372
+device rsubckt rhigh 557 -1829 558 -1828 w=100 l=200 "VSS" "a_557_n1829#" 0 0 "a_293_n1629#" 100 8600,372 "a_557_n1915#" 100 8600,372
+device rsubckt rhigh 293 -1829 294 -1828 w=100 l=200 "VSS" "a_293_n1829#" 0 0 "a_293_n1629#" 100 8600,372 "a_29_n1915#" 100 8600,372
+device rsubckt rhigh 29 -1829 30 -1828 w=100 l=200 "VSS" "a_29_n1829#" 0 0 "a_n235_n1629#" 100 8600,372 "a_29_n1915#" 100 8600,372
+device rsubckt rhigh -235 -1829 -234 -1828 w=100 l=200 "VSS" "a_n235_n1829#" 0 0 "a_n235_n1629#" 100 8600,372 "a_n499_n1915#" 100 8600,372
+device rsubckt rhigh -499 -1829 -498 -1828 w=100 l=200 "VSS" "a_n499_n1829#" 0 0 "a_n763_n1629#" 100 8600,372 "a_n499_n1915#" 100 8600,372
+device rsubckt rhigh -763 -1829 -762 -1828 w=100 l=200 "VSS" "a_n763_n1829#" 0 0 "a_n763_n1629#" 100 8600,372 "dynamic_pcell$5_0.L_GATE" 100 8600,372
+device msubckt sg13_lv_nmos -1209 -2067 -1208 -2066 l=26 w=148 "VSS" "EN_INV_1/sg13cmos5l_inv_4_0.Y" 52 0 "VSS" 148 10064,432 "dynamic_pcell$5_0.DRN_NET_E_GATE_CDEFGH" 148 10064,432
+device msubckt sg13_lv_nmos -1694 -2088 -1693 -2087 l=26 w=148 "VSS" "EN" 52 0 "EN_INV_1/sg13cmos5l_inv_4_0.Y" 148 5624,224 "VSS" 148 10064,432
+device msubckt sg13_lv_nmos -1796 -2088 -1795 -2087 l=26 w=148 "VSS" "EN" 52 0 "VSS" 148 5624,224 "EN_INV_1/sg13cmos5l_inv_4_0.Y" 148 5624,224
+device msubckt sg13_lv_nmos -1898 -2088 -1897 -2087 l=26 w=148 "VSS" "EN" 52 0 "EN_INV_1/sg13cmos5l_inv_4_0.Y" 148 5624,224 "VSS" 148 5624,224
+device msubckt sg13_lv_nmos -2000 -2088 -1999 -2087 l=26 w=148 "VSS" "EN" 52 0 "VSS" 148 10064,432 "EN_INV_1/sg13cmos5l_inv_4_0.Y" 148 5624,224
+device msubckt sg13_lv_nmos -2666 -2067 -2665 -2066 l=26 w=148 "VSS" "EN_INV_0/sg13cmos5l_inv_4_0.Y" 52 0 "VSS" 148 10064,432 "dynamic_pcell$5_0.Gate" 148 10064,432
+device msubckt sg13_lv_nmos -3151 -2088 -3150 -2087 l=26 w=148 "VSS" "EN" 52 0 "EN_INV_0/sg13cmos5l_inv_4_0.Y" 148 5624,224 "VSS" 148 10064,432
+device msubckt sg13_lv_nmos -3253 -2088 -3252 -2087 l=26 w=148 "VSS" "EN" 52 0 "VSS" 148 5624,224 "EN_INV_0/sg13cmos5l_inv_4_0.Y" 148 5624,224
+device msubckt sg13_lv_nmos -3355 -2088 -3354 -2087 l=26 w=148 "VSS" "EN" 52 0 "EN_INV_0/sg13cmos5l_inv_4_0.Y" 148 5624,224 "VSS" 148 5624,224
+device msubckt sg13_lv_nmos -3457 -2088 -3456 -2087 l=26 w=148 "VSS" "EN" 52 0 "VSS" 148 10064,432 "EN_INV_0/sg13cmos5l_inv_4_0.Y" 148 5624,224
+device msubckt dantenna -3792 -2108 -3791 -2107 w=312 l=156 "None" "EN" 0 0 "VSS" 0 245141305,93164
+device msubckt sg13_lv_pmos -1694 -1794 -1693 -1793 l=26 w=224 "VDD" "EN" 52 0 "EN_INV_1/sg13cmos5l_inv_4_0.Y" 224 8512,300 "VDD" 224 15232,584
+device msubckt sg13_lv_pmos -1796 -1794 -1795 -1793 l=26 w=224 "VDD" "EN" 52 0 "VDD" 224 8512,300 "EN_INV_1/sg13cmos5l_inv_4_0.Y" 224 8512,300
+device msubckt sg13_lv_pmos -1898 -1794 -1897 -1793 l=26 w=224 "VDD" "EN" 52 0 "EN_INV_1/sg13cmos5l_inv_4_0.Y" 224 8512,300 "VDD" 224 8512,300
+device msubckt sg13_lv_pmos -2000 -1794 -1999 -1793 l=26 w=224 "VDD" "EN" 52 0 "VDD" 224 15232,584 "EN_INV_1/sg13cmos5l_inv_4_0.Y" 224 8512,300
+device msubckt sg13_lv_pmos -3151 -1794 -3150 -1793 l=26 w=224 "VDD" "EN" 52 0 "EN_INV_0/sg13cmos5l_inv_4_0.Y" 224 8512,300 "VDD" 224 15232,584
+device msubckt sg13_lv_pmos -3253 -1794 -3252 -1793 l=26 w=224 "VDD" "EN" 52 0 "VDD" 224 8512,300 "EN_INV_0/sg13cmos5l_inv_4_0.Y" 224 8512,300
+device msubckt sg13_lv_pmos -3355 -1794 -3354 -1793 l=26 w=224 "VDD" "EN" 52 0 "EN_INV_0/sg13cmos5l_inv_4_0.Y" 224 8512,300 "VDD" 224 8512,300
+device msubckt sg13_lv_pmos -3457 -1794 -3456 -1793 l=26 w=224 "VDD" "EN" 52 0 "VDD" 224 15232,584 "EN_INV_0/sg13cmos5l_inv_4_0.Y" 224 8512,300
+device subckt dpantenna -3819 -1794 -3818 -1793 w=432 l=210 "None" "EN" 0 0 "VDD" 0 169975463,69188
+device msubckt sg13_lv_pmos 7084 -590 7085 -589 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 19000,576
+device msubckt sg13_lv_pmos 6908 -590 6909 -589 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 19000,576
+device msubckt sg13_lv_pmos 6232 -590 6233 -589 l=600 w=500 "VDD" "dynamic_pcell$5_0.G_DRN" 1200 0 "dynamic_pcell$5_0.G_DRN" 500 19000,576 "VDD" 500 19000,576
+device msubckt sg13_lv_pmos 5556 -590 5557 -589 l=600 w=500 "VDD" "dynamic_pcell$5_0.G_DRN" 1200 0 "VDD" 500 19000,576 "dynamic_pcell$5_0.G_DRN" 500 19000,576
+device msubckt sg13_lv_pmos 4880 -590 4881 -589 l=600 w=500 "VDD" "dynamic_pcell$5_0.G_DRN" 1200 0 "dynamic_pcell$5_0.G_DRN" 500 19000,576 "VDD" 500 19000,576
+device msubckt sg13_lv_pmos 4204 -590 4205 -589 l=600 w=500 "VDD" "dynamic_pcell$5_0.G_DRN" 1200 0 "VDD" 500 19000,576 "dynamic_pcell$5_0.G_DRN" 500 19000,576
+device msubckt sg13_lv_pmos 3528 -590 3529 -589 l=600 w=500 "VDD" "dynamic_pcell$5_0.G_DRN" 1200 0 "dynamic_pcell$5_0.G_DRN" 500 34000,1136 "VDD" 500 19000,576
+device msubckt sg13_lv_pmos 2740 -590 2741 -589 l=600 w=500 "VDD" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 1200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_MENX" 500 19000,576 "dynamic_pcell$5_0.DRN_NET_CA" 500 34000,1136
+device msubckt sg13_lv_pmos 2564 -590 2565 -589 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 500 19000,576 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_MENX" 500 19000,576
+device msubckt sg13_lv_pmos 2388 -590 2389 -589 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 34000,1136
+device msubckt sg13_lv_pmos 7084 582 7085 583 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 19000,576
+device msubckt sg13_lv_pmos 6908 582 6909 583 l=100 w=500 "VDD" "VDD" 200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 500 19000,576 "VDD" 500 19000,576
+device msubckt sg13_lv_pmos 6232 582 6233 583 l=600 w=500 "VDD" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 1200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 500 19000,576 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 500 19000,576
+device msubckt sg13_lv_pmos 5556 582 5557 583 l=600 w=500 "VDD" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 1200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 500 19000,576 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_J_GATE_EJ" 500 19000,576
+device msubckt sg13_lv_pmos 4880 582 4881 583 l=600 w=500 "VDD" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 1200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_HI" 500 19000,576 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 500 19000,576
+device msubckt sg13_lv_pmos 4204 582 4205 583 l=600 w=500 "VDD" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 1200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 500 34000,1136 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_HI" 500 19000,576
+device msubckt sg13_lv_pmos 3416 582 3417 583 l=600 w=500 "VDD" "dynamic_pcell$5_0.G_DRN" 1200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_HI" 500 19000,576 "VDD" 500 34000,1136
+device msubckt sg13_lv_pmos 2740 582 2741 583 l=600 w=500 "VDD" "dynamic_pcell$5_0.G_DRN" 1200 0 "VDD" 500 19000,576 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_HI" 500 19000,576
+device msubckt sg13_lv_pmos 2564 582 2565 583 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 19000,576
+device msubckt sg13_lv_pmos 2388 582 2389 583 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 34000,1136
+device msubckt sg13_lv_pmos 7084 1754 7085 1755 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 19000,576
+device msubckt sg13_lv_pmos 6908 1754 6909 1755 l=100 w=500 "VDD" "VDD" 200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_CD" 500 19000,576 "VDD" 500 19000,576
+device msubckt sg13_lv_pmos 6232 1754 6233 1755 l=600 w=500 "VDD" "dynamic_pcell$5_0.G_DRN" 1200 0 "VDD" 500 19000,576 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_CD" 500 19000,576
+device msubckt sg13_lv_pmos 5556 1754 5557 1755 l=600 w=500 "VDD" "dynamic_pcell$5_0.G_DRN" 1200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_CD" 500 19000,576 "VDD" 500 19000,576
+device msubckt sg13_lv_pmos 4880 1754 4881 1755 l=600 w=500 "VDD" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 1200 0 "dynamic_pcell$5_0.DRN_NET_CA" 500 19000,576 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_CD" 500 19000,576
+device msubckt sg13_lv_pmos 4204 1754 4205 1755 l=600 w=500 "VDD" "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.SRC_NET_IJ_GATE_DI" 1200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.DRN_NET_CD" 500 34000,1136 "dynamic_pcell$5_0.DRN_NET_CA" 500 19000,576
+device msubckt sg13_lv_pmos 3416 1754 3417 1755 l=600 w=500 "VDD" "dynamic_pcell$5_0.G_DRN" 1200 0 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.B_DRN" 500 19000,576 "VDD" 500 34000,1136
+device msubckt sg13_lv_pmos 2740 1754 2741 1755 l=600 w=500 "VDD" "dynamic_pcell$5_0.G_DRN" 1200 0 "VDD" 500 19000,576 "ota_cmfb_core_push_pull_output_stage_1/dynamic_pcell$4_0.B_DRN" 500 19000,576
+device msubckt sg13_lv_pmos 2564 1754 2565 1755 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 19000,576
+device msubckt sg13_lv_pmos 2388 1754 2389 1755 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 34000,1136
+device msubckt sg13_lv_pmos 8497 2592 8498 2593 l=26 w=30 "VDD" "EN" 52 0 "VDD" 30 4020,268 "dynamic_pcell$5_0.F_DRN" 30 4020,268
+device msubckt sg13_lv_pmos 8497 2976 8498 2977 l=26 w=30 "VDD" "EN" 52 0 "VDD" 30 4020,268 "dynamic_pcell$5_0.DRN_NET_BD" 30 4020,268
+device msubckt sg13_lv_pmos 13789 3033 13790 3034 l=100 w=100 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 200 3800,176
+device msubckt sg13_lv_pmos 13613 3033 13614 3034 l=100 w=100 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 200 3800,176
+device msubckt sg13_lv_pmos 13437 3033 13438 3034 l=100 w=100 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 200 3800,176
+device msubckt sg13_lv_pmos 13261 3033 13262 3034 l=100 w=100 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 200 3800,176
+device msubckt sg13_lv_pmos 13085 3033 13086 3034 l=100 w=100 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 200 3800,176
+device msubckt sg13_lv_pmos 12909 3033 12910 3034 l=100 w=100 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 200 3800,176
+device msubckt sg13_lv_pmos 12733 3033 12734 3034 l=100 w=100 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 200 3800,176
+device msubckt sg13_lv_pmos 12557 3033 12558 3034 l=100 w=100 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 200 6800,336
+device msubckt sg13_lv_pmos 12261 3033 12262 3034 l=100 w=100 "VDD" "dynamic_pcell$5_0.DRN_NET_BD" 200 0 "Voutp" 100 3800,176 "VDD" 100 6800,336
+device msubckt sg13_lv_pmos 12085 3033 12086 3034 l=100 w=100 "VDD" "dynamic_pcell$5_0.DRN_NET_BD" 200 0 "VDD" 100 3800,176 "Voutp" 100 3800,176
+device msubckt sg13_lv_pmos 11909 3033 11910 3034 l=100 w=100 "VDD" "dynamic_pcell$5_0.DRN_NET_BD" 200 0 "Voutp" 100 3800,176 "VDD" 100 3800,176
+device msubckt sg13_lv_pmos 11733 3033 11734 3034 l=100 w=100 "VDD" "dynamic_pcell$5_0.DRN_NET_BD" 200 0 "VDD" 100 3800,176 "Voutp" 100 3800,176
+device msubckt sg13_lv_pmos 11557 3033 11558 3034 l=100 w=100 "VDD" "dynamic_pcell$5_0.DRN_NET_BD" 200 0 "Voutp" 100 3800,176 "VDD" 100 3800,176
+device msubckt sg13_lv_pmos 11381 3033 11382 3034 l=100 w=100 "VDD" "dynamic_pcell$5_0.DRN_NET_BD" 200 0 "VDD" 100 3800,176 "Voutp" 100 3800,176
+device msubckt sg13_lv_pmos 11205 3033 11206 3034 l=100 w=100 "VDD" "dynamic_pcell$5_0.DRN_NET_BD" 200 0 "Voutp" 100 3800,176 "VDD" 100 3800,176
+device msubckt sg13_lv_pmos 11029 3033 11030 3034 l=100 w=100 "VDD" "dynamic_pcell$5_0.DRN_NET_BD" 200 0 "VDD" 100 3800,176 "Voutp" 100 3800,176
+device msubckt sg13_lv_pmos 10853 3033 10854 3034 l=100 w=100 "VDD" "dynamic_pcell$5_0.DRN_NET_BD" 200 0 "Voutp" 100 3800,176 "VDD" 100 3800,176
+device msubckt sg13_lv_pmos 10677 3033 10678 3034 l=100 w=100 "VDD" "dynamic_pcell$5_0.DRN_NET_BD" 200 0 "VDD" 100 6800,336 "Voutp" 100 3800,176
+device msubckt sg13_lv_pmos 10381 3033 10382 3034 l=100 w=100 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 200 3800,176
+device msubckt sg13_lv_pmos 10205 3033 10206 3034 l=100 w=100 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 200 3800,176
+device msubckt sg13_lv_pmos 10029 3033 10030 3034 l=100 w=100 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 200 3800,176
+device msubckt sg13_lv_pmos 9853 3033 9854 3034 l=100 w=100 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 200 3800,176
+device msubckt sg13_lv_pmos 9677 3033 9678 3034 l=100 w=100 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 200 3800,176
+device msubckt sg13_lv_pmos 9501 3033 9502 3034 l=100 w=100 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 200 3800,176
+device msubckt sg13_lv_pmos 9325 3033 9326 3034 l=100 w=100 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 200 3800,176
+device msubckt sg13_lv_pmos 9149 3033 9150 3034 l=100 w=100 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 200 6800,336
+device msubckt sg13_lv_pmos 1055 -948 1056 -947 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 19000,576
+device msubckt sg13_lv_pmos 879 -948 880 -947 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 19000,576
+device msubckt sg13_lv_pmos -1197 -948 -1196 -947 l=2000 w=500 "VDD" "dynamic_pcell_0.Gate" 4000 0 "dynamic_pcell_0.M_DRN" 500 19000,576 "VDD" 500 19000,576
+device msubckt sg13_lv_pmos -3273 -948 -3272 -947 l=2000 w=500 "VDD" "dynamic_pcell_0.Gate" 4000 0 "VDD" 500 19000,576 "dynamic_pcell_0.M_DRN" 500 19000,576
+device msubckt sg13_lv_pmos -3449 -948 -3448 -947 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 19000,576
+device msubckt sg13_lv_pmos -3625 -948 -3624 -947 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 34000,1136
+device msubckt sg13_lv_pmos 1055 164 1056 165 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 19000,576
+device msubckt sg13_lv_pmos 879 164 880 165 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 19000,576
+device msubckt sg13_lv_pmos -1197 164 -1196 165 l=2000 w=500 "VDD" "dynamic_pcell_0.Gate" 4000 0 "dynamic_pcell_0.M_DRN" 500 19000,576 "VDD" 500 19000,576
+device msubckt sg13_lv_pmos -3273 164 -3272 165 l=2000 w=500 "VDD" "dynamic_pcell_0.Gate" 4000 0 "VDD" 500 19000,576 "dynamic_pcell_0.M_DRN" 500 19000,576
+device msubckt sg13_lv_pmos -3449 164 -3448 165 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 19000,576
+device msubckt sg13_lv_pmos -3625 164 -3624 165 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 34000,1136
+device msubckt sg13_lv_pmos 1055 1276 1056 1277 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 19000,576
+device msubckt sg13_lv_pmos 879 1276 880 1277 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 19000,576
+device msubckt sg13_lv_pmos -1197 1276 -1196 1277 l=2000 w=500 "VDD" "dynamic_pcell_0.Gate" 4000 0 "dynamic_pcell_0.M_DRN" 500 19000,576 "VDD" 500 19000,576
+device msubckt sg13_lv_pmos -3273 1276 -3272 1277 l=2000 w=500 "VDD" "dynamic_pcell_0.Gate" 4000 0 "VDD" 500 19000,576 "dynamic_pcell_0.M_DRN" 500 19000,576
+device msubckt sg13_lv_pmos -3449 1276 -3448 1277 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 19000,576
+device msubckt sg13_lv_pmos -3625 1276 -3624 1277 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 34000,1136
+device msubckt sg13_lv_pmos 1764 2592 1765 2593 l=26 w=30 "VDD" "EN" 52 0 "VDD" 30 4020,268 "dynamic_pcell$5_0.G_DRN" 30 4020,268
+device msubckt sg13_lv_pmos 1055 2388 1056 2389 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 19000,576
+device msubckt sg13_lv_pmos 879 2388 880 2389 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 19000,576
+device msubckt sg13_lv_pmos -1197 2388 -1196 2389 l=2000 w=500 "VDD" "dynamic_pcell_0.Gate" 4000 0 "dynamic_pcell_0.M_DRN" 500 19000,576 "VDD" 500 19000,576
+device msubckt sg13_lv_pmos -3273 2388 -3272 2389 l=2000 w=500 "VDD" "dynamic_pcell_0.Gate" 4000 0 "VDD" 500 19000,576 "dynamic_pcell_0.M_DRN" 500 19000,576
+device msubckt sg13_lv_pmos -3449 2388 -3448 2389 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 19000,576
+device msubckt sg13_lv_pmos -3625 2388 -3624 2389 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 34000,1136
+device msubckt sg13_lv_pmos 1764 2976 1765 2977 l=26 w=30 "VDD" "EN" 52 0 "VDD" 30 4020,268 "dynamic_pcell$5_0.DRN_NET_CA" 30 4020,268
+device msubckt sg13_lv_pmos 7056 3033 7057 3034 l=100 w=100 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 200 3800,176
+device msubckt sg13_lv_pmos 6880 3033 6881 3034 l=100 w=100 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 200 3800,176
+device msubckt sg13_lv_pmos 6704 3033 6705 3034 l=100 w=100 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 200 3800,176
+device msubckt sg13_lv_pmos 6528 3033 6529 3034 l=100 w=100 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 200 3800,176
+device msubckt sg13_lv_pmos 6352 3033 6353 3034 l=100 w=100 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 200 3800,176
+device msubckt sg13_lv_pmos 6176 3033 6177 3034 l=100 w=100 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 200 3800,176
+device msubckt sg13_lv_pmos 6000 3033 6001 3034 l=100 w=100 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 200 3800,176
+device msubckt sg13_lv_pmos 5824 3033 5825 3034 l=100 w=100 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 200 6800,336
+device msubckt sg13_lv_pmos 5528 3033 5529 3034 l=100 w=100 "VDD" "dynamic_pcell$5_0.DRN_NET_CA" 200 0 "Voutn" 100 3800,176 "VDD" 100 6800,336
+device msubckt sg13_lv_pmos 5352 3033 5353 3034 l=100 w=100 "VDD" "dynamic_pcell$5_0.DRN_NET_CA" 200 0 "VDD" 100 3800,176 "Voutn" 100 3800,176
+device msubckt sg13_lv_pmos 5176 3033 5177 3034 l=100 w=100 "VDD" "dynamic_pcell$5_0.DRN_NET_CA" 200 0 "Voutn" 100 3800,176 "VDD" 100 3800,176
+device msubckt sg13_lv_pmos 5000 3033 5001 3034 l=100 w=100 "VDD" "dynamic_pcell$5_0.DRN_NET_CA" 200 0 "VDD" 100 3800,176 "Voutn" 100 3800,176
+device msubckt sg13_lv_pmos 4824 3033 4825 3034 l=100 w=100 "VDD" "dynamic_pcell$5_0.DRN_NET_CA" 200 0 "Voutn" 100 3800,176 "VDD" 100 3800,176
+device msubckt sg13_lv_pmos 4648 3033 4649 3034 l=100 w=100 "VDD" "dynamic_pcell$5_0.DRN_NET_CA" 200 0 "VDD" 100 3800,176 "Voutn" 100 3800,176
+device msubckt sg13_lv_pmos 4472 3033 4473 3034 l=100 w=100 "VDD" "dynamic_pcell$5_0.DRN_NET_CA" 200 0 "Voutn" 100 3800,176 "VDD" 100 3800,176
+device msubckt sg13_lv_pmos 4296 3033 4297 3034 l=100 w=100 "VDD" "dynamic_pcell$5_0.DRN_NET_CA" 200 0 "VDD" 100 3800,176 "Voutn" 100 3800,176
+device msubckt sg13_lv_pmos 4120 3033 4121 3034 l=100 w=100 "VDD" "dynamic_pcell$5_0.DRN_NET_CA" 200 0 "Voutn" 100 3800,176 "VDD" 100 3800,176
+device msubckt sg13_lv_pmos 3944 3033 3945 3034 l=100 w=100 "VDD" "dynamic_pcell$5_0.DRN_NET_CA" 200 0 "VDD" 100 6800,336 "Voutn" 100 3800,176
+device msubckt sg13_lv_pmos 3648 3033 3649 3034 l=100 w=100 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 200 3800,176
+device msubckt sg13_lv_pmos 3472 3033 3473 3034 l=100 w=100 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 200 3800,176
+device msubckt sg13_lv_pmos 3296 3033 3297 3034 l=100 w=100 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 200 3800,176
+device msubckt sg13_lv_pmos 3120 3033 3121 3034 l=100 w=100 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 200 3800,176
+device msubckt sg13_lv_pmos 2944 3033 2945 3034 l=100 w=100 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 200 3800,176
+device msubckt sg13_lv_pmos 2768 3033 2769 3034 l=100 w=100 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 200 3800,176
+device msubckt sg13_lv_pmos 2592 3033 2593 3034 l=100 w=100 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 200 3800,176
+device msubckt sg13_lv_pmos 2416 3033 2417 3034 l=100 w=100 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 200 6800,336
+device msubckt sg13_lv_pmos -4437 -1789 -4436 -1788 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 19000,576
+device msubckt sg13_lv_pmos -4613 -1789 -4612 -1788 l=100 w=500 "VDD" "VDD" 200 0 "dynamic_pcell_0.M_DRN" 500 19000,576 "VDD" 500 19000,576
+device msubckt sg13_lv_pmos -5089 -1789 -5088 -1788 l=400 w=500 "VDD" "Vinn" 800 0 "dynamic_pcell$5_0.DRN_NET_BD" 500 19000,576 "dynamic_pcell_0.M_DRN" 500 19000,576
+device msubckt sg13_lv_pmos -5565 -1789 -5564 -1788 l=400 w=500 "VDD" "Vinn" 800 0 "dynamic_pcell_0.M_DRN" 500 19000,576 "dynamic_pcell$5_0.DRN_NET_BD" 500 19000,576
+device msubckt sg13_lv_pmos -6041 -1789 -6040 -1788 l=400 w=500 "VDD" "Vinp" 800 0 "dynamic_pcell$5_0.DRN_NET_CA" 500 19000,576 "dynamic_pcell_0.M_DRN" 500 19000,576
+device msubckt sg13_lv_pmos -6517 -1789 -6516 -1788 l=400 w=500 "VDD" "Vinp" 800 0 "dynamic_pcell_0.M_DRN" 500 34000,1136 "dynamic_pcell$5_0.DRN_NET_CA" 500 19000,576
+device msubckt sg13_lv_pmos -7105 -1789 -7104 -1788 l=400 w=500 "VDD" "dynamic_pcell$5_0.L_GATE" 800 0 "dynamic_pcell$6_0.DRN_NET_O" 500 19000,576 "dynamic_pcell_0.Gate" 500 34000,1136
+device msubckt sg13_lv_pmos -7281 -1789 -7280 -1788 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 500 19000,576 "dynamic_pcell$6_0.DRN_NET_O" 500 19000,576
+device msubckt sg13_lv_pmos -7457 -1789 -7456 -1788 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 34000,1136
+device msubckt sg13_lv_pmos -4437 -437 -4436 -436 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 19000,576
+device msubckt sg13_lv_pmos -4613 -437 -4612 -436 l=100 w=500 "VDD" "VDD" 200 0 "dynamic_pcell_0.M_DRN" 500 19000,576 "VDD" 500 19000,576
+device msubckt sg13_lv_pmos -5089 -437 -5088 -436 l=400 w=500 "VDD" "Vinp" 800 0 "dynamic_pcell$5_0.DRN_NET_CA" 500 19000,576 "dynamic_pcell_0.M_DRN" 500 19000,576
+device msubckt sg13_lv_pmos -5565 -437 -5564 -436 l=400 w=500 "VDD" "Vinp" 800 0 "dynamic_pcell_0.M_DRN" 500 19000,576 "dynamic_pcell$5_0.DRN_NET_CA" 500 19000,576
+device msubckt sg13_lv_pmos -6041 -437 -6040 -436 l=400 w=500 "VDD" "Vinn" 800 0 "dynamic_pcell$5_0.DRN_NET_BD" 500 19000,576 "dynamic_pcell_0.M_DRN" 500 19000,576
+device msubckt sg13_lv_pmos -6517 -437 -6516 -436 l=400 w=500 "VDD" "Vinn" 800 0 "dynamic_pcell_0.M_DRN" 500 34000,1136 "dynamic_pcell$5_0.DRN_NET_BD" 500 19000,576
+device msubckt sg13_lv_pmos -7105 -437 -7104 -436 l=400 w=500 "VDD" "VCM" 800 0 "dynamic_pcell$6_0.DRN_NET_O" 500 19000,576 "dynamic_pcell$5_0.Gate" 500 34000,1136
+device msubckt sg13_lv_pmos -7281 -437 -7280 -436 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 500 19000,576 "dynamic_pcell$6_0.DRN_NET_O" 500 19000,576
+device msubckt sg13_lv_pmos -7457 -437 -7456 -436 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 34000,1136
+device msubckt sg13_lv_pmos -4437 915 -4436 916 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 19000,576
+device msubckt sg13_lv_pmos -4613 915 -4612 916 l=100 w=500 "VDD" "VDD" 200 0 "dynamic_pcell$5_0.Gate" 500 19000,576 "VDD" 500 19000,576
+device msubckt sg13_lv_pmos -5089 915 -5088 916 l=400 w=500 "VDD" "VCM" 800 0 "dynamic_pcell$6_0.DRN_NET_O" 500 34000,1136 "dynamic_pcell$5_0.Gate" 500 19000,576
+device msubckt sg13_lv_pmos -5677 915 -5676 916 l=400 w=500 "VDD" "Vinn" 800 0 "dynamic_pcell$5_0.DRN_NET_BD" 500 19000,576 "dynamic_pcell_0.M_DRN" 500 34000,1136
+device msubckt sg13_lv_pmos -6153 915 -6152 916 l=400 w=500 "VDD" "Vinn" 800 0 "dynamic_pcell_0.M_DRN" 500 19000,576 "dynamic_pcell$5_0.DRN_NET_BD" 500 19000,576
+device msubckt sg13_lv_pmos -6629 915 -6628 916 l=400 w=500 "VDD" "Vinp" 800 0 "dynamic_pcell$5_0.DRN_NET_CA" 500 19000,576 "dynamic_pcell_0.M_DRN" 500 19000,576
+device msubckt sg13_lv_pmos -7105 915 -7104 916 l=400 w=500 "VDD" "Vinp" 800 0 "dynamic_pcell_0.M_DRN" 500 19000,576 "dynamic_pcell$5_0.DRN_NET_CA" 500 19000,576
+device msubckt sg13_lv_pmos -7281 915 -7280 916 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 500 19000,576 "dynamic_pcell_0.M_DRN" 500 19000,576
+device msubckt sg13_lv_pmos -7457 915 -7456 916 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 34000,1136
+device msubckt sg13_lv_pmos -4437 2267 -4436 2268 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 19000,576
+device msubckt sg13_lv_pmos -4613 2267 -4612 2268 l=100 w=500 "VDD" "VDD" 200 0 "dynamic_pcell_0.Gate" 500 19000,576 "VDD" 500 19000,576
+device msubckt sg13_lv_pmos -5089 2267 -5088 2268 l=400 w=500 "VDD" "dynamic_pcell$5_0.L_GATE" 800 0 "dynamic_pcell$6_0.DRN_NET_O" 500 34000,1136 "dynamic_pcell_0.Gate" 500 19000,576
+device msubckt sg13_lv_pmos -5677 2267 -5676 2268 l=400 w=500 "VDD" "Vinp" 800 0 "dynamic_pcell$5_0.DRN_NET_CA" 500 19000,576 "dynamic_pcell_0.M_DRN" 500 34000,1136
+device msubckt sg13_lv_pmos -6153 2267 -6152 2268 l=400 w=500 "VDD" "Vinp" 800 0 "dynamic_pcell_0.M_DRN" 500 19000,576 "dynamic_pcell$5_0.DRN_NET_CA" 500 19000,576
+device msubckt sg13_lv_pmos -6629 2267 -6628 2268 l=400 w=500 "VDD" "Vinn" 800 0 "dynamic_pcell$5_0.DRN_NET_BD" 500 19000,576 "dynamic_pcell_0.M_DRN" 500 19000,576
+device msubckt sg13_lv_pmos -7105 2267 -7104 2268 l=400 w=500 "VDD" "Vinn" 800 0 "dynamic_pcell_0.M_DRN" 500 19000,576 "dynamic_pcell$5_0.DRN_NET_BD" 500 19000,576
+device msubckt sg13_lv_pmos -7281 2267 -7280 2268 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 500 19000,576 "dynamic_pcell_0.M_DRN" 500 19000,576
+device msubckt sg13_lv_pmos -7457 2267 -7456 2268 l=100 w=500 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 1000 34000,1136
+device msubckt sg13_lv_pmos 10234 4292 10235 4293 l=700 w=4300 "w_9940_4004#" "dynamic_pcell$5_0.DRN_NET_BD" 1400 0 "w_9940_4004#" 0 0 "w_9940_4004#" 8600 292400,8736
+device rsubckt rhigh 9619 4109 9620 4110 w=100 l=200 "VSS" "a_9619_4109#" 0 0 "Voutp" 100 8600,372 "a_9355_4023#" 100 8600,372
+device rsubckt rhigh 9355 4109 9356 4110 w=100 l=200 "VSS" "a_9355_4109#" 0 0 "a_9091_4309#" 100 8600,372 "a_9355_4023#" 100 8600,372
+device rsubckt rhigh 9091 4109 9092 4110 w=100 l=200 "VSS" "a_9091_4109#" 0 0 "a_9091_4309#" 100 8600,372 "a_8827_4023#" 100 8600,372
+device rsubckt rhigh 8827 4109 8828 4110 w=100 l=200 "VSS" "a_8827_4109#" 0 0 "a_8827_4309#" 100 8600,372 "a_8827_4023#" 100 8600,372
+device rsubckt rhigh 9619 4632 9620 4633 w=100 l=200 "VSS" "a_9619_4632#" 0 0 "a_9355_4832#" 100 8600,372 "w_9940_4004#" 100 8600,372
+device rsubckt rhigh 9355 4632 9356 4633 w=100 l=200 "VSS" "a_9355_4632#" 0 0 "a_9355_4832#" 100 8600,372 "a_9091_4546#" 100 8600,372
+device rsubckt rhigh 9091 4632 9092 4633 w=100 l=200 "VSS" "a_9091_4632#" 0 0 "a_8827_4832#" 100 8600,372 "a_9091_4546#" 100 8600,372
+device rsubckt rhigh 8827 4632 8828 4633 w=100 l=200 "VSS" "a_8827_4632#" 0 0 "a_8827_4832#" 100 8600,372 "a_8827_4309#" 100 8600,372
+device msubckt sg13_lv_pmos 3501 4292 3502 4293 l=700 w=4300 "w_3207_4004#" "dynamic_pcell$5_0.DRN_NET_CA" 1400 0 "w_3207_4004#" 0 0 "w_3207_4004#" 8600 292400,8736
+device rsubckt rhigh 2886 4109 2887 4110 w=100 l=200 "VSS" "a_2886_4109#" 0 0 "Voutn" 100 8600,372 "a_2622_4023#" 100 8600,372
+device rsubckt rhigh 2622 4109 2623 4110 w=100 l=200 "VSS" "a_2622_4109#" 0 0 "a_2358_4309#" 100 8600,372 "a_2622_4023#" 100 8600,372
+device rsubckt rhigh 2358 4109 2359 4110 w=100 l=200 "VSS" "a_2358_4109#" 0 0 "a_2358_4309#" 100 8600,372 "a_2094_4023#" 100 8600,372
+device rsubckt rhigh 2094 4109 2095 4110 w=100 l=200 "VSS" "a_2094_4109#" 0 0 "a_2094_4309#" 100 8600,372 "a_2094_4023#" 100 8600,372
+device msubckt sg13_lv_pmos 563 3735 564 3736 l=100 w=250 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 500 9500,326
+device msubckt sg13_lv_pmos 387 3735 388 3736 l=100 w=250 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 500 9500,326
+device msubckt sg13_lv_pmos 211 3735 212 3736 l=100 w=250 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 500 9500,326
+device msubckt sg13_lv_pmos 35 3735 36 3736 l=100 w=250 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 500 9500,326
+device msubckt sg13_lv_pmos -141 3735 -140 3736 l=100 w=250 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 500 9500,326
+device msubckt sg13_lv_pmos -317 3735 -316 3736 l=100 w=250 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 500 9500,326
+device msubckt sg13_lv_pmos -493 3735 -492 3736 l=100 w=250 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 500 9500,326
+device msubckt sg13_lv_pmos -669 3735 -668 3736 l=100 w=250 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 500 9500,326
+device msubckt sg13_lv_pmos -1745 3735 -1744 3736 l=1000 w=250 "VDD" "dynamic_pcell$6_0.Gate" 2000 0 "dynamic_pcell$6_0.DRN_NET_O" 250 9500,326 "VDD" 250 9500,326
+device msubckt sg13_lv_pmos -2821 3735 -2820 3736 l=1000 w=250 "VDD" "dynamic_pcell$6_0.Gate" 2000 0 "VDD" 250 9500,326 "dynamic_pcell$6_0.DRN_NET_O" 250 9500,326
+device msubckt sg13_lv_pmos -3897 3735 -3896 3736 l=1000 w=250 "VDD" "dynamic_pcell$6_0.Gate" 2000 0 "dynamic_pcell$6_0.DRN_NET_O" 250 9500,326 "VDD" 250 9500,326
+device msubckt sg13_lv_pmos -4973 3735 -4972 3736 l=1000 w=250 "VDD" "dynamic_pcell$6_0.Gate" 2000 0 "VDD" 250 9500,326 "dynamic_pcell$6_0.DRN_NET_O" 250 9500,326
+device msubckt sg13_lv_pmos -6049 3735 -6048 3736 l=1000 w=250 "VDD" "dynamic_pcell$6_0.Gate" 2000 0 "dynamic_pcell$6_0.Gate" 250 9500,326 "VDD" 250 9500,326
+device msubckt sg13_lv_pmos -6225 3735 -6224 3736 l=100 w=250 "VDD" "VDD" 200 0 "VDD" 250 9500,326 "dynamic_pcell$6_0.Gate" 250 9500,326
+device msubckt sg13_lv_pmos -6401 3735 -6400 3736 l=100 w=250 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 500 9500,326
+device msubckt sg13_lv_pmos -6577 3735 -6576 3736 l=100 w=250 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 500 9500,326
+device msubckt sg13_lv_pmos -6753 3735 -6752 3736 l=100 w=250 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 500 9500,326
+device msubckt sg13_lv_pmos -6929 3735 -6928 3736 l=100 w=250 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 500 9500,326
+device msubckt sg13_lv_pmos -7105 3735 -7104 3736 l=100 w=250 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 500 9500,326
+device msubckt sg13_lv_pmos -7281 3735 -7280 3736 l=100 w=250 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 500 9500,326
+device msubckt sg13_lv_pmos -7457 3735 -7456 3736 l=100 w=250 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 500 17000,636
+device msubckt sg13_lv_pmos 1312 4058 1313 4059 l=26 w=30 "VDD" "EN" 52 0 "VDD" 30 4020,268 "dynamic_pcell_0.Gate" 30 4020,268
+device rsubckt rhigh 2886 4632 2887 4633 w=100 l=200 "VSS" "a_2886_4632#" 0 0 "a_2622_4832#" 100 8600,372 "w_3207_4004#" 100 8600,372
+device rsubckt rhigh 2622 4632 2623 4633 w=100 l=200 "VSS" "a_2622_4632#" 0 0 "a_2622_4832#" 100 8600,372 "a_2358_4546#" 100 8600,372
+device rsubckt rhigh 2358 4632 2359 4633 w=100 l=200 "VSS" "a_2358_4632#" 0 0 "a_2094_4832#" 100 8600,372 "a_2358_4546#" 100 8600,372
+device rsubckt rhigh 2094 4632 2095 4633 w=100 l=200 "VSS" "a_2094_4632#" 0 0 "a_2094_4832#" 100 8600,372 "a_2094_4309#" 100 8600,372
+device msubckt sg13_lv_pmos 563 4597 564 4598 l=100 w=250 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 500 9500,326
+device msubckt sg13_lv_pmos 387 4597 388 4598 l=100 w=250 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 500 9500,326
+device msubckt sg13_lv_pmos 211 4597 212 4598 l=100 w=250 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 500 9500,326
+device msubckt sg13_lv_pmos 35 4597 36 4598 l=100 w=250 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 500 9500,326
+device msubckt sg13_lv_pmos -141 4597 -140 4598 l=100 w=250 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 500 9500,326
+device msubckt sg13_lv_pmos -317 4597 -316 4598 l=100 w=250 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 500 9500,326
+device msubckt sg13_lv_pmos -493 4597 -492 4598 l=100 w=250 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 500 9500,326
+device msubckt sg13_lv_pmos -669 4597 -668 4598 l=100 w=250 "VDD" "VDD" 200 0 "dynamic_pcell$6_0.Gate" 250 9500,326 "VDD" 250 9500,326
+device msubckt sg13_lv_pmos -1745 4597 -1744 4598 l=1000 w=250 "VDD" "dynamic_pcell$6_0.Gate" 2000 0 "VDD" 250 9500,326 "dynamic_pcell$6_0.Gate" 250 9500,326
+device msubckt sg13_lv_pmos -2821 4597 -2820 4598 l=1000 w=250 "VDD" "dynamic_pcell$6_0.Gate" 2000 0 "dynamic_pcell$6_0.DRN_NET_O" 250 9500,326 "VDD" 250 9500,326
+device msubckt sg13_lv_pmos -3897 4597 -3896 4598 l=1000 w=250 "VDD" "dynamic_pcell$6_0.Gate" 2000 0 "VDD" 250 9500,326 "dynamic_pcell$6_0.DRN_NET_O" 250 9500,326
+device msubckt sg13_lv_pmos -4973 4597 -4972 4598 l=1000 w=250 "VDD" "dynamic_pcell$6_0.Gate" 2000 0 "dynamic_pcell$6_0.DRN_NET_O" 250 9500,326 "VDD" 250 9500,326
+device msubckt sg13_lv_pmos -6049 4597 -6048 4598 l=1000 w=250 "VDD" "dynamic_pcell$6_0.Gate" 2000 0 "VDD" 250 9500,326 "dynamic_pcell$6_0.DRN_NET_O" 250 9500,326
+device msubckt sg13_lv_pmos -6225 4597 -6224 4598 l=100 w=250 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 500 9500,326
+device msubckt sg13_lv_pmos -6401 4597 -6400 4598 l=100 w=250 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 500 9500,326
+device msubckt sg13_lv_pmos -6577 4597 -6576 4598 l=100 w=250 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 500 9500,326
+device msubckt sg13_lv_pmos -6753 4597 -6752 4598 l=100 w=250 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 500 9500,326
+device msubckt sg13_lv_pmos -6929 4597 -6928 4598 l=100 w=250 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 500 9500,326
+device msubckt sg13_lv_pmos -7105 4597 -7104 4598 l=100 w=250 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 500 9500,326
+device msubckt sg13_lv_pmos -7281 4597 -7280 4598 l=100 w=250 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 500 9500,326
+device msubckt sg13_lv_pmos -7457 4597 -7456 4598 l=100 w=250 "VDD" "VDD" 200 0 "VDD" 0 0 "VDD" 500 17000,636
+device msubckt sg13_lv_pmos 1312 4920 1313 4921 l=26 w=30 "VDD" "EN" 52 0 "dynamic_pcell$6_0.Gate" 30 4020,268 "VDD" 30 4020,268

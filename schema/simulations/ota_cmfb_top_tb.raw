@@ -1,9 +1,9 @@
 Title: ** sch_path: /run/media/yacinesot/my_files/xschemdesigns/designs/chipalooza2/schema/ota_cmfb_top_tb.sch
-Date: Sat Oct  3 16:56:33  2026
+Date: Sat Oct 24 15:31:09  2026
 Command: ngspice-47, Build Tue Aug 11 00:00:00 UTC 2026
 Plotname: Operating Point
 Flags: real
-No. Variables: 1421
+No. Variables: 1627
 No. Points: 1
 Variables:
 	0	v(net1)	voltage
@@ -1245,227 +1245,440 @@ Variables:
 	1236	v(@n.xdiff_amp1.xota1.xmp1.nsg13_lv_pmos[vdss])	voltage
 	1237	v(@n.xdiff_amp1.xota1.xmp1.nsg13_lv_pmos[vgs])	voltage
 	1238	v(@n.xdiff_amp1.xota1.xmp1.nsg13_lv_pmos[vth])	voltage
-	1239	v(en)	voltage
-	1240	v(ibias)	voltage
-	1241	v(n.xdiff_amp1.xm1.nsg13_lv_nmos#gp)	voltage
-	1242	v(n.xdiff_amp1.xm2.nsg13_lv_pmos#gp)	voltage
-	1243	v(n.xdiff_amp1.xm7.nsg13_lv_nmos#gp)	voltage
-	1244	v(n.xdiff_amp1.xopamp1.xma.nsg13_lv_pmos#gp)	voltage
-	1245	v(n.xdiff_amp1.xopamp1.xmb.nsg13_lv_pmos#gp)	voltage
-	1246	v(n.xdiff_amp1.xopamp1.xmb1.nsg13_lv_pmos#gp)	voltage
-	1247	v(n.xdiff_amp1.xopamp1.xmc.nsg13_lv_nmos#gp)	voltage
-	1248	v(n.xdiff_amp1.xopamp1.xmd.nsg13_lv_nmos#gp)	voltage
-	1249	v(n.xdiff_amp1.xopamp1.xme.nsg13_lv_nmos#gp)	voltage
-	1250	v(n.xdiff_amp1.xopamp1.xmm.nsg13_lv_pmos#gp)	voltage
-	1251	v(n.xdiff_amp1.xopamp1.xmn0.nsg13_lv_nmos#gp)	voltage
-	1252	v(n.xdiff_amp1.xopamp1.xmn1.nsg13_lv_nmos#gp)	voltage
-	1253	v(n.xdiff_amp1.xopamp1.xmn2.nsg13_lv_nmos#gp)	voltage
-	1254	v(n.xdiff_amp1.xopamp1.xmp0.nsg13_lv_pmos#gp)	voltage
-	1255	v(n.xdiff_amp1.xopamp1.xmp1.nsg13_lv_pmos#gp)	voltage
-	1256	v(n.xdiff_amp1.xopamp1.xsf1.xc1.nsg13_moscap_p#gp)	voltage
-	1257	v(n.xdiff_amp1.xopamp1.xsf1.xm1.nsg13_lv_nmos#gp)	voltage
-	1258	v(n.xdiff_amp1.xopamp1.xsf1.xm2.nsg13_lv_pmos#gp)	voltage
-	1259	v(n.xdiff_amp1.xopamp1.xsf1.xm3.nsg13_lv_pmos#gp)	voltage
-	1260	v(n.xdiff_amp1.xopamp1.xsf1.xm4.nsg13_lv_pmos#gp)	voltage
-	1261	v(n.xdiff_amp1.xopamp1.xsf1.xm5.nsg13_lv_pmos#gp)	voltage
-	1262	v(n.xdiff_amp1.xopamp1.xsf1.xm6.nsg13_lv_pmos#gp)	voltage
-	1263	v(n.xdiff_amp1.xopamp1.xsf1.xm7.nsg13_lv_nmos#gp)	voltage
-	1264	v(n.xdiff_amp1.xopamp1.xsf1.xm8.nsg13_lv_nmos#gp)	voltage
-	1265	v(n.xdiff_amp1.xopamp1.xsf1.xm9.nsg13_lv_nmos#gp)	voltage
-	1266	v(n.xdiff_amp1.xopamp1.xsf1.xm10.nsg13_lv_pmos#gp)	voltage
-	1267	v(n.xdiff_amp1.xopamp1.xsf1.xm12.nsg13_lv_nmos#gp)	voltage
-	1268	v(n.xdiff_amp1.xopamp1.xsf1.xm13.nsg13_lv_pmos#gp)	voltage
-	1269	v(n.xdiff_amp1.xopamp1.xsf1.xm14.nsg13_lv_pmos#gp)	voltage
-	1270	v(n.xdiff_amp1.xopamp1.xsf1.xma.nsg13_lv_pmos#gp)	voltage
-	1271	v(n.xdiff_amp1.xopamp1.xsf1.xmb.nsg13_lv_pmos#gp)	voltage
-	1272	v(n.xdiff_amp1.xopamp1.xsf1.xmc.nsg13_lv_pmos#gp)	voltage
-	1273	v(n.xdiff_amp1.xopamp1.xsf1.xmd.nsg13_lv_pmos#gp)	voltage
-	1274	v(n.xdiff_amp1.xopamp1.xsf1.xme.nsg13_lv_pmos#gp)	voltage
-	1275	v(n.xdiff_amp1.xopamp1.xsf1.xmfg.nsg13_lv_nmos#gp)	voltage
-	1276	v(n.xdiff_amp1.xopamp1.xsf1.xmh.nsg13_lv_pmos#gp)	voltage
-	1277	v(n.xdiff_amp1.xopamp1.xsf1.xmi.nsg13_lv_pmos#gp)	voltage
-	1278	v(n.xdiff_amp1.xopamp1.xsf1.xmj.nsg13_lv_pmos#gp)	voltage
-	1279	v(n.xdiff_amp1.xopamp1.xsf1.xmk.nsg13_lv_nmos#gp)	voltage
-	1280	v(n.xdiff_amp1.xopamp1.xsf1.xml.nsg13_lv_nmos#gp)	voltage
-	1281	v(n.xdiff_amp1.xopamp1.xsf1.xmm.nsg13_lv_nmos#gp)	voltage
-	1282	v(n.xdiff_amp1.xopamp1.xsf1.xmn.nsg13_lv_nmos#gp)	voltage
-	1283	v(n.xdiff_amp1.xopamp1.xsf1.xmn0.nsg13_lv_nmos#gp)	voltage
-	1284	v(n.xdiff_amp1.xopamp1.xsf1.xmn1.nsg13_lv_nmos#gp)	voltage
-	1285	v(n.xdiff_amp1.xopamp1.xsf1.xmo.nsg13_lv_nmos#gp)	voltage
-	1286	v(n.xdiff_amp1.xopamp1.xsf1.xmp.nsg13_lv_nmos#gp)	voltage
-	1287	v(n.xdiff_amp1.xopamp1.xsf1.xmp0.nsg13_lv_pmos#gp)	voltage
-	1288	v(n.xdiff_amp1.xopamp1.xsf1.xmq.nsg13_lv_nmos#gp)	voltage
-	1289	v(n.xdiff_amp1.xopamp1.xsf1.xmx.nsg13_lv_nmos#gp)	voltage
-	1290	v(n.xdiff_amp1.xopamp1.xsf1.xr1.nr1#flow(b_re1))	voltage
-	1291	v(n.xdiff_amp1.xopamp1.xsf1.xr1.nr1#flow(b_re2))	voltage
-	1292	v(n.xdiff_amp1.xopamp1.xsf1.xr1.nr1#i1)	voltage
-	1293	v(n.xdiff_amp1.xopamp1.xsf1.xr1.nr1#i2)	voltage
-	1294	v(n.xdiff_amp1.xopamp1.xsf2.xc1.nsg13_moscap_p#gp)	voltage
-	1295	v(n.xdiff_amp1.xopamp1.xsf2.xm1.nsg13_lv_nmos#gp)	voltage
-	1296	v(n.xdiff_amp1.xopamp1.xsf2.xm2.nsg13_lv_pmos#gp)	voltage
-	1297	v(n.xdiff_amp1.xopamp1.xsf2.xm3.nsg13_lv_pmos#gp)	voltage
-	1298	v(n.xdiff_amp1.xopamp1.xsf2.xm4.nsg13_lv_pmos#gp)	voltage
-	1299	v(n.xdiff_amp1.xopamp1.xsf2.xm5.nsg13_lv_pmos#gp)	voltage
-	1300	v(n.xdiff_amp1.xopamp1.xsf2.xm6.nsg13_lv_pmos#gp)	voltage
-	1301	v(n.xdiff_amp1.xopamp1.xsf2.xm7.nsg13_lv_nmos#gp)	voltage
-	1302	v(n.xdiff_amp1.xopamp1.xsf2.xm8.nsg13_lv_nmos#gp)	voltage
-	1303	v(n.xdiff_amp1.xopamp1.xsf2.xm9.nsg13_lv_nmos#gp)	voltage
-	1304	v(n.xdiff_amp1.xopamp1.xsf2.xm10.nsg13_lv_pmos#gp)	voltage
-	1305	v(n.xdiff_amp1.xopamp1.xsf2.xm12.nsg13_lv_nmos#gp)	voltage
-	1306	v(n.xdiff_amp1.xopamp1.xsf2.xm13.nsg13_lv_pmos#gp)	voltage
-	1307	v(n.xdiff_amp1.xopamp1.xsf2.xm14.nsg13_lv_pmos#gp)	voltage
-	1308	v(n.xdiff_amp1.xopamp1.xsf2.xma.nsg13_lv_pmos#gp)	voltage
-	1309	v(n.xdiff_amp1.xopamp1.xsf2.xmb.nsg13_lv_pmos#gp)	voltage
-	1310	v(n.xdiff_amp1.xopamp1.xsf2.xmc.nsg13_lv_pmos#gp)	voltage
-	1311	v(n.xdiff_amp1.xopamp1.xsf2.xmd.nsg13_lv_pmos#gp)	voltage
-	1312	v(n.xdiff_amp1.xopamp1.xsf2.xme.nsg13_lv_pmos#gp)	voltage
-	1313	v(n.xdiff_amp1.xopamp1.xsf2.xmfg.nsg13_lv_nmos#gp)	voltage
-	1314	v(n.xdiff_amp1.xopamp1.xsf2.xmh.nsg13_lv_pmos#gp)	voltage
-	1315	v(n.xdiff_amp1.xopamp1.xsf2.xmi.nsg13_lv_pmos#gp)	voltage
-	1316	v(n.xdiff_amp1.xopamp1.xsf2.xmj.nsg13_lv_pmos#gp)	voltage
-	1317	v(n.xdiff_amp1.xopamp1.xsf2.xmk.nsg13_lv_nmos#gp)	voltage
-	1318	v(n.xdiff_amp1.xopamp1.xsf2.xml.nsg13_lv_nmos#gp)	voltage
-	1319	v(n.xdiff_amp1.xopamp1.xsf2.xmm.nsg13_lv_nmos#gp)	voltage
-	1320	v(n.xdiff_amp1.xopamp1.xsf2.xmn.nsg13_lv_nmos#gp)	voltage
-	1321	v(n.xdiff_amp1.xopamp1.xsf2.xmn0.nsg13_lv_nmos#gp)	voltage
-	1322	v(n.xdiff_amp1.xopamp1.xsf2.xmn1.nsg13_lv_nmos#gp)	voltage
-	1323	v(n.xdiff_amp1.xopamp1.xsf2.xmo.nsg13_lv_nmos#gp)	voltage
-	1324	v(n.xdiff_amp1.xopamp1.xsf2.xmp.nsg13_lv_nmos#gp)	voltage
-	1325	v(n.xdiff_amp1.xopamp1.xsf2.xmp0.nsg13_lv_pmos#gp)	voltage
-	1326	v(n.xdiff_amp1.xopamp1.xsf2.xmq.nsg13_lv_nmos#gp)	voltage
-	1327	v(n.xdiff_amp1.xopamp1.xsf2.xmx.nsg13_lv_nmos#gp)	voltage
-	1328	v(n.xdiff_amp1.xopamp1.xsf2.xr1.nr1#flow(b_re1))	voltage
-	1329	v(n.xdiff_amp1.xopamp1.xsf2.xr1.nr1#flow(b_re2))	voltage
-	1330	v(n.xdiff_amp1.xopamp1.xsf2.xr1.nr1#i1)	voltage
-	1331	v(n.xdiff_amp1.xopamp1.xsf2.xr1.nr1#i2)	voltage
-	1332	v(n.xdiff_amp1.xota1.xm2.nsg13_lv_nmos#gp)	voltage
-	1333	v(n.xdiff_amp1.xota1.xmh.nsg13_lv_nmos#gp)	voltage
-	1334	v(n.xdiff_amp1.xota1.xmi.nsg13_lv_nmos#gp)	voltage
-	1335	v(n.xdiff_amp1.xota1.xmj.nsg13_lv_nmos#gp)	voltage
-	1336	v(n.xdiff_amp1.xota1.xmk.nsg13_lv_pmos#gp)	voltage
-	1337	v(n.xdiff_amp1.xota1.xmk1.nsg13_lv_pmos#gp)	voltage
-	1338	v(n.xdiff_amp1.xota1.xmk2.nsg13_lv_pmos#gp)	voltage
-	1339	v(n.xdiff_amp1.xota1.xmk3.nsg13_lv_pmos#gp)	voltage
-	1340	v(n.xdiff_amp1.xota1.xmk4.nsg13_lv_pmos#gp)	voltage
-	1341	v(n.xdiff_amp1.xota1.xml.nsg13_lv_pmos#gp)	voltage
-	1342	v(n.xdiff_amp1.xota1.xmn.nsg13_lv_pmos#gp)	voltage
-	1343	v(n.xdiff_amp1.xota1.xmn0.nsg13_lv_nmos#gp)	voltage
-	1344	v(n.xdiff_amp1.xota1.xmn1.nsg13_lv_nmos#gp)	voltage
-	1345	v(n.xdiff_amp1.xota1.xmo.nsg13_lv_pmos#gp)	voltage
-	1346	v(n.xdiff_amp1.xota1.xmp0.nsg13_lv_pmos#gp)	voltage
-	1347	v(n.xdiff_amp1.xota1.xmp1.nsg13_lv_pmos#gp)	voltage
-	1348	v(n.xdiff_amp1.xr1.nr1#flow(b_re1))	voltage
-	1349	v(n.xdiff_amp1.xr1.nr1#flow(b_re2))	voltage
-	1350	v(n.xdiff_amp1.xr1.nr1#i1)	voltage
-	1351	v(n.xdiff_amp1.xr1.nr1#i2)	voltage
-	1352	v(n.xdiff_amp1.xr2.nr1#flow(b_re1))	voltage
-	1353	v(n.xdiff_amp1.xr2.nr1#flow(b_re2))	voltage
-	1354	v(n.xdiff_amp1.xr2.nr1#i1)	voltage
-	1355	v(n.xdiff_amp1.xr2.nr1#i2)	voltage
-	1356	v(net2)	voltage
-	1357	v(net3)	voltage
-	1358	v(net4)	voltage
-	1359	v(net5)	voltage
-	1360	v(net6)	voltage
-	1361	ro_n	impedance
-	1362	ro_p	impedance
-	1363	v(vcm)	voltage
-	1364	i(vcm)	current
-	1365	v(vdd)	voltage
-	1366	i(vdd)	current
-	1367	i(ven)	current
-	1368	v(vinn)	voltage
-	1369	i(vinn)	current
-	1370	v(vinp)	voltage
-	1371	i(vinp)	current
-	1372	i(vmeas2)	current
-	1373	i(vmeas3)	current
-	1374	i(vmeas4)	current
-	1375	i(vmeas5)	current
-	1376	v(voutn)	voltage
-	1377	v(voutp)	voltage
-	1378	v(vss)	voltage
-	1379	i(vss)	current
-	1380	v(vt_n)	voltage
-	1381	v(vt_p)	voltage
-	1382	v(xdiff_amp1.vbias)	voltage
-	1383	v(xdiff_amp1.vcm_calc)	voltage
-	1384	v(xdiff_amp1.vcm_reg)	voltage
-	1385	v(xdiff_amp1.xopamp1.en_n)	voltage
-	1386	v(xdiff_amp1.xopamp1.src_ab)	voltage
-	1387	v(xdiff_amp1.xopamp1.voutn_st1)	voltage
-	1388	v(xdiff_amp1.xopamp1.voutp_st1)	voltage
-	1389	v(xdiff_amp1.xopamp1.xsf1.cd_drn)	voltage
-	1390	v(xdiff_amp1.xopamp1.xsf1.en_n)	voltage
-	1391	v(xdiff_amp1.xopamp1.xsf1.net1)	voltage
-	1392	v(xdiff_amp1.xopamp1.xsf1.net2)	voltage
-	1393	v(xdiff_amp1.xopamp1.xsf1.src_ml)	voltage
-	1394	v(xdiff_amp1.xopamp1.xsf1.vbiasn)	voltage
-	1395	v(xdiff_amp1.xopamp1.xsf1.vbiasp)	voltage
-	1396	v(xdiff_amp1.xopamp1.xsf1.vcasn)	voltage
-	1397	v(xdiff_amp1.xopamp1.xsf1.vcasn2)	voltage
-	1398	v(xdiff_amp1.xopamp1.xsf1.vcasp)	voltage
-	1399	v(xdiff_amp1.xopamp1.xsf1.vcasp2)	voltage
-	1400	v(xdiff_amp1.xopamp1.xsf1.vin_shifted)	voltage
-	1401	v(xdiff_amp1.xopamp1.xsf1.xr1.dt)	voltage
-	1402	v(xdiff_amp1.xopamp1.xsf2.cd_drn)	voltage
-	1403	v(xdiff_amp1.xopamp1.xsf2.en_n)	voltage
-	1404	v(xdiff_amp1.xopamp1.xsf2.net1)	voltage
-	1405	v(xdiff_amp1.xopamp1.xsf2.net2)	voltage
-	1406	v(xdiff_amp1.xopamp1.xsf2.src_ml)	voltage
-	1407	v(xdiff_amp1.xopamp1.xsf2.vbiasn)	voltage
-	1408	v(xdiff_amp1.xopamp1.xsf2.vbiasp)	voltage
-	1409	v(xdiff_amp1.xopamp1.xsf2.vcasn)	voltage
-	1410	v(xdiff_amp1.xopamp1.xsf2.vcasn2)	voltage
-	1411	v(xdiff_amp1.xopamp1.xsf2.vcasp)	voltage
-	1412	v(xdiff_amp1.xopamp1.xsf2.vcasp2)	voltage
-	1413	v(xdiff_amp1.xopamp1.xsf2.vin_shifted)	voltage
-	1414	v(xdiff_amp1.xopamp1.xsf2.xr1.dt)	voltage
-	1415	v(xdiff_amp1.xota1.en_n)	voltage
-	1416	v(xdiff_amp1.xota1.mirror)	voltage
-	1417	v(xdiff_amp1.xota1.src_kl)	voltage
-	1418	v(xdiff_amp1.xota1.tail_bias)	voltage
-	1419	v(xdiff_amp1.xr1.dt)	voltage
-	1420	v(xdiff_amp1.xr2.dt)	voltage
+	1239	i(ein)	current
+	1240	i(eip)	current
+	1241	v(en)	voltage
+	1242	i(eod)	current
+	1243	v(ibias)	voltage
+	1244	v(n.xdiff_amp1.xm1.nsg13_lv_nmos#gp)	voltage
+	1245	v(n.xdiff_amp1.xm1.nsg13_lv_nmos#noi)	voltage
+	1246	v(n.xdiff_amp1.xm1.nsg13_lv_nmos#si)	voltage
+	1247	v(n.xdiff_amp1.xm2.nsg13_lv_pmos#gp)	voltage
+	1248	v(n.xdiff_amp1.xm2.nsg13_lv_pmos#noi)	voltage
+	1249	v(n.xdiff_amp1.xm2.nsg13_lv_pmos#si)	voltage
+	1250	v(n.xdiff_amp1.xm7.nsg13_lv_nmos#gp)	voltage
+	1251	v(n.xdiff_amp1.xm7.nsg13_lv_nmos#noi)	voltage
+	1252	v(n.xdiff_amp1.xm7.nsg13_lv_nmos#si)	voltage
+	1253	v(n.xdiff_amp1.xopamp1.xma.nsg13_lv_pmos#gp)	voltage
+	1254	v(n.xdiff_amp1.xopamp1.xma.nsg13_lv_pmos#noi)	voltage
+	1255	v(n.xdiff_amp1.xopamp1.xma.nsg13_lv_pmos#si)	voltage
+	1256	v(n.xdiff_amp1.xopamp1.xmb.nsg13_lv_pmos#gp)	voltage
+	1257	v(n.xdiff_amp1.xopamp1.xmb.nsg13_lv_pmos#noi)	voltage
+	1258	v(n.xdiff_amp1.xopamp1.xmb.nsg13_lv_pmos#si)	voltage
+	1259	v(n.xdiff_amp1.xopamp1.xmb1.nsg13_lv_pmos#gp)	voltage
+	1260	v(n.xdiff_amp1.xopamp1.xmb1.nsg13_lv_pmos#noi)	voltage
+	1261	v(n.xdiff_amp1.xopamp1.xmb1.nsg13_lv_pmos#si)	voltage
+	1262	v(n.xdiff_amp1.xopamp1.xmc.nsg13_lv_nmos#gp)	voltage
+	1263	v(n.xdiff_amp1.xopamp1.xmc.nsg13_lv_nmos#noi)	voltage
+	1264	v(n.xdiff_amp1.xopamp1.xmc.nsg13_lv_nmos#si)	voltage
+	1265	v(n.xdiff_amp1.xopamp1.xmd.nsg13_lv_nmos#gp)	voltage
+	1266	v(n.xdiff_amp1.xopamp1.xmd.nsg13_lv_nmos#noi)	voltage
+	1267	v(n.xdiff_amp1.xopamp1.xmd.nsg13_lv_nmos#si)	voltage
+	1268	v(n.xdiff_amp1.xopamp1.xme.nsg13_lv_nmos#gp)	voltage
+	1269	v(n.xdiff_amp1.xopamp1.xme.nsg13_lv_nmos#noi)	voltage
+	1270	v(n.xdiff_amp1.xopamp1.xme.nsg13_lv_nmos#si)	voltage
+	1271	v(n.xdiff_amp1.xopamp1.xmm.nsg13_lv_pmos#gp)	voltage
+	1272	v(n.xdiff_amp1.xopamp1.xmm.nsg13_lv_pmos#noi)	voltage
+	1273	v(n.xdiff_amp1.xopamp1.xmm.nsg13_lv_pmos#si)	voltage
+	1274	v(n.xdiff_amp1.xopamp1.xmn0.nsg13_lv_nmos#gp)	voltage
+	1275	v(n.xdiff_amp1.xopamp1.xmn0.nsg13_lv_nmos#noi)	voltage
+	1276	v(n.xdiff_amp1.xopamp1.xmn0.nsg13_lv_nmos#si)	voltage
+	1277	v(n.xdiff_amp1.xopamp1.xmn1.nsg13_lv_nmos#gp)	voltage
+	1278	v(n.xdiff_amp1.xopamp1.xmn1.nsg13_lv_nmos#noi)	voltage
+	1279	v(n.xdiff_amp1.xopamp1.xmn1.nsg13_lv_nmos#si)	voltage
+	1280	v(n.xdiff_amp1.xopamp1.xmn2.nsg13_lv_nmos#gp)	voltage
+	1281	v(n.xdiff_amp1.xopamp1.xmn2.nsg13_lv_nmos#noi)	voltage
+	1282	v(n.xdiff_amp1.xopamp1.xmn2.nsg13_lv_nmos#si)	voltage
+	1283	v(n.xdiff_amp1.xopamp1.xmp0.nsg13_lv_pmos#gp)	voltage
+	1284	v(n.xdiff_amp1.xopamp1.xmp0.nsg13_lv_pmos#noi)	voltage
+	1285	v(n.xdiff_amp1.xopamp1.xmp0.nsg13_lv_pmos#si)	voltage
+	1286	v(n.xdiff_amp1.xopamp1.xmp1.nsg13_lv_pmos#gp)	voltage
+	1287	v(n.xdiff_amp1.xopamp1.xmp1.nsg13_lv_pmos#noi)	voltage
+	1288	v(n.xdiff_amp1.xopamp1.xmp1.nsg13_lv_pmos#si)	voltage
+	1289	v(n.xdiff_amp1.xopamp1.xsf1.xc1.nsg13_moscap_p#gp)	voltage
+	1290	v(n.xdiff_amp1.xopamp1.xsf1.xc1.nsg13_moscap_p#noi)	voltage
+	1291	v(n.xdiff_amp1.xopamp1.xsf1.xc1.nsg13_moscap_p#si)	voltage
+	1292	v(n.xdiff_amp1.xopamp1.xsf1.xm1.nsg13_lv_nmos#gp)	voltage
+	1293	v(n.xdiff_amp1.xopamp1.xsf1.xm1.nsg13_lv_nmos#noi)	voltage
+	1294	v(n.xdiff_amp1.xopamp1.xsf1.xm1.nsg13_lv_nmos#si)	voltage
+	1295	v(n.xdiff_amp1.xopamp1.xsf1.xm2.nsg13_lv_pmos#gp)	voltage
+	1296	v(n.xdiff_amp1.xopamp1.xsf1.xm2.nsg13_lv_pmos#noi)	voltage
+	1297	v(n.xdiff_amp1.xopamp1.xsf1.xm2.nsg13_lv_pmos#si)	voltage
+	1298	v(n.xdiff_amp1.xopamp1.xsf1.xm3.nsg13_lv_pmos#gp)	voltage
+	1299	v(n.xdiff_amp1.xopamp1.xsf1.xm3.nsg13_lv_pmos#noi)	voltage
+	1300	v(n.xdiff_amp1.xopamp1.xsf1.xm3.nsg13_lv_pmos#si)	voltage
+	1301	v(n.xdiff_amp1.xopamp1.xsf1.xm4.nsg13_lv_pmos#gp)	voltage
+	1302	v(n.xdiff_amp1.xopamp1.xsf1.xm4.nsg13_lv_pmos#noi)	voltage
+	1303	v(n.xdiff_amp1.xopamp1.xsf1.xm4.nsg13_lv_pmos#si)	voltage
+	1304	v(n.xdiff_amp1.xopamp1.xsf1.xm5.nsg13_lv_pmos#gp)	voltage
+	1305	v(n.xdiff_amp1.xopamp1.xsf1.xm5.nsg13_lv_pmos#noi)	voltage
+	1306	v(n.xdiff_amp1.xopamp1.xsf1.xm5.nsg13_lv_pmos#si)	voltage
+	1307	v(n.xdiff_amp1.xopamp1.xsf1.xm6.nsg13_lv_pmos#gp)	voltage
+	1308	v(n.xdiff_amp1.xopamp1.xsf1.xm6.nsg13_lv_pmos#noi)	voltage
+	1309	v(n.xdiff_amp1.xopamp1.xsf1.xm6.nsg13_lv_pmos#si)	voltage
+	1310	v(n.xdiff_amp1.xopamp1.xsf1.xm7.nsg13_lv_nmos#gp)	voltage
+	1311	v(n.xdiff_amp1.xopamp1.xsf1.xm7.nsg13_lv_nmos#noi)	voltage
+	1312	v(n.xdiff_amp1.xopamp1.xsf1.xm7.nsg13_lv_nmos#si)	voltage
+	1313	v(n.xdiff_amp1.xopamp1.xsf1.xm8.nsg13_lv_nmos#gp)	voltage
+	1314	v(n.xdiff_amp1.xopamp1.xsf1.xm8.nsg13_lv_nmos#noi)	voltage
+	1315	v(n.xdiff_amp1.xopamp1.xsf1.xm8.nsg13_lv_nmos#si)	voltage
+	1316	v(n.xdiff_amp1.xopamp1.xsf1.xm9.nsg13_lv_nmos#gp)	voltage
+	1317	v(n.xdiff_amp1.xopamp1.xsf1.xm9.nsg13_lv_nmos#noi)	voltage
+	1318	v(n.xdiff_amp1.xopamp1.xsf1.xm9.nsg13_lv_nmos#si)	voltage
+	1319	v(n.xdiff_amp1.xopamp1.xsf1.xm10.nsg13_lv_pmos#gp)	voltage
+	1320	v(n.xdiff_amp1.xopamp1.xsf1.xm10.nsg13_lv_pmos#noi)	voltage
+	1321	v(n.xdiff_amp1.xopamp1.xsf1.xm10.nsg13_lv_pmos#si)	voltage
+	1322	v(n.xdiff_amp1.xopamp1.xsf1.xm12.nsg13_lv_nmos#gp)	voltage
+	1323	v(n.xdiff_amp1.xopamp1.xsf1.xm12.nsg13_lv_nmos#noi)	voltage
+	1324	v(n.xdiff_amp1.xopamp1.xsf1.xm12.nsg13_lv_nmos#si)	voltage
+	1325	v(n.xdiff_amp1.xopamp1.xsf1.xm13.nsg13_lv_pmos#gp)	voltage
+	1326	v(n.xdiff_amp1.xopamp1.xsf1.xm13.nsg13_lv_pmos#noi)	voltage
+	1327	v(n.xdiff_amp1.xopamp1.xsf1.xm13.nsg13_lv_pmos#si)	voltage
+	1328	v(n.xdiff_amp1.xopamp1.xsf1.xm14.nsg13_lv_pmos#gp)	voltage
+	1329	v(n.xdiff_amp1.xopamp1.xsf1.xm14.nsg13_lv_pmos#noi)	voltage
+	1330	v(n.xdiff_amp1.xopamp1.xsf1.xm14.nsg13_lv_pmos#si)	voltage
+	1331	v(n.xdiff_amp1.xopamp1.xsf1.xma.nsg13_lv_pmos#gp)	voltage
+	1332	v(n.xdiff_amp1.xopamp1.xsf1.xma.nsg13_lv_pmos#noi)	voltage
+	1333	v(n.xdiff_amp1.xopamp1.xsf1.xma.nsg13_lv_pmos#si)	voltage
+	1334	v(n.xdiff_amp1.xopamp1.xsf1.xmb.nsg13_lv_pmos#gp)	voltage
+	1335	v(n.xdiff_amp1.xopamp1.xsf1.xmb.nsg13_lv_pmos#noi)	voltage
+	1336	v(n.xdiff_amp1.xopamp1.xsf1.xmb.nsg13_lv_pmos#si)	voltage
+	1337	v(n.xdiff_amp1.xopamp1.xsf1.xmc.nsg13_lv_pmos#gp)	voltage
+	1338	v(n.xdiff_amp1.xopamp1.xsf1.xmc.nsg13_lv_pmos#noi)	voltage
+	1339	v(n.xdiff_amp1.xopamp1.xsf1.xmc.nsg13_lv_pmos#si)	voltage
+	1340	v(n.xdiff_amp1.xopamp1.xsf1.xmd.nsg13_lv_pmos#gp)	voltage
+	1341	v(n.xdiff_amp1.xopamp1.xsf1.xmd.nsg13_lv_pmos#noi)	voltage
+	1342	v(n.xdiff_amp1.xopamp1.xsf1.xmd.nsg13_lv_pmos#si)	voltage
+	1343	v(n.xdiff_amp1.xopamp1.xsf1.xme.nsg13_lv_pmos#gp)	voltage
+	1344	v(n.xdiff_amp1.xopamp1.xsf1.xme.nsg13_lv_pmos#noi)	voltage
+	1345	v(n.xdiff_amp1.xopamp1.xsf1.xme.nsg13_lv_pmos#si)	voltage
+	1346	v(n.xdiff_amp1.xopamp1.xsf1.xmfg.nsg13_lv_nmos#gp)	voltage
+	1347	v(n.xdiff_amp1.xopamp1.xsf1.xmfg.nsg13_lv_nmos#noi)	voltage
+	1348	v(n.xdiff_amp1.xopamp1.xsf1.xmfg.nsg13_lv_nmos#si)	voltage
+	1349	v(n.xdiff_amp1.xopamp1.xsf1.xmh.nsg13_lv_pmos#gp)	voltage
+	1350	v(n.xdiff_amp1.xopamp1.xsf1.xmh.nsg13_lv_pmos#noi)	voltage
+	1351	v(n.xdiff_amp1.xopamp1.xsf1.xmh.nsg13_lv_pmos#si)	voltage
+	1352	v(n.xdiff_amp1.xopamp1.xsf1.xmi.nsg13_lv_pmos#gp)	voltage
+	1353	v(n.xdiff_amp1.xopamp1.xsf1.xmi.nsg13_lv_pmos#noi)	voltage
+	1354	v(n.xdiff_amp1.xopamp1.xsf1.xmi.nsg13_lv_pmos#si)	voltage
+	1355	v(n.xdiff_amp1.xopamp1.xsf1.xmj.nsg13_lv_pmos#gp)	voltage
+	1356	v(n.xdiff_amp1.xopamp1.xsf1.xmj.nsg13_lv_pmos#noi)	voltage
+	1357	v(n.xdiff_amp1.xopamp1.xsf1.xmj.nsg13_lv_pmos#si)	voltage
+	1358	v(n.xdiff_amp1.xopamp1.xsf1.xmk.nsg13_lv_nmos#gp)	voltage
+	1359	v(n.xdiff_amp1.xopamp1.xsf1.xmk.nsg13_lv_nmos#noi)	voltage
+	1360	v(n.xdiff_amp1.xopamp1.xsf1.xmk.nsg13_lv_nmos#si)	voltage
+	1361	v(n.xdiff_amp1.xopamp1.xsf1.xml.nsg13_lv_nmos#gp)	voltage
+	1362	v(n.xdiff_amp1.xopamp1.xsf1.xml.nsg13_lv_nmos#noi)	voltage
+	1363	v(n.xdiff_amp1.xopamp1.xsf1.xml.nsg13_lv_nmos#si)	voltage
+	1364	v(n.xdiff_amp1.xopamp1.xsf1.xmm.nsg13_lv_nmos#gp)	voltage
+	1365	v(n.xdiff_amp1.xopamp1.xsf1.xmm.nsg13_lv_nmos#noi)	voltage
+	1366	v(n.xdiff_amp1.xopamp1.xsf1.xmm.nsg13_lv_nmos#si)	voltage
+	1367	v(n.xdiff_amp1.xopamp1.xsf1.xmn.nsg13_lv_nmos#gp)	voltage
+	1368	v(n.xdiff_amp1.xopamp1.xsf1.xmn.nsg13_lv_nmos#noi)	voltage
+	1369	v(n.xdiff_amp1.xopamp1.xsf1.xmn.nsg13_lv_nmos#si)	voltage
+	1370	v(n.xdiff_amp1.xopamp1.xsf1.xmn0.nsg13_lv_nmos#gp)	voltage
+	1371	v(n.xdiff_amp1.xopamp1.xsf1.xmn0.nsg13_lv_nmos#noi)	voltage
+	1372	v(n.xdiff_amp1.xopamp1.xsf1.xmn0.nsg13_lv_nmos#si)	voltage
+	1373	v(n.xdiff_amp1.xopamp1.xsf1.xmn1.nsg13_lv_nmos#gp)	voltage
+	1374	v(n.xdiff_amp1.xopamp1.xsf1.xmn1.nsg13_lv_nmos#noi)	voltage
+	1375	v(n.xdiff_amp1.xopamp1.xsf1.xmn1.nsg13_lv_nmos#si)	voltage
+	1376	v(n.xdiff_amp1.xopamp1.xsf1.xmo.nsg13_lv_nmos#gp)	voltage
+	1377	v(n.xdiff_amp1.xopamp1.xsf1.xmo.nsg13_lv_nmos#noi)	voltage
+	1378	v(n.xdiff_amp1.xopamp1.xsf1.xmo.nsg13_lv_nmos#si)	voltage
+	1379	v(n.xdiff_amp1.xopamp1.xsf1.xmp.nsg13_lv_nmos#gp)	voltage
+	1380	v(n.xdiff_amp1.xopamp1.xsf1.xmp.nsg13_lv_nmos#noi)	voltage
+	1381	v(n.xdiff_amp1.xopamp1.xsf1.xmp.nsg13_lv_nmos#si)	voltage
+	1382	v(n.xdiff_amp1.xopamp1.xsf1.xmp0.nsg13_lv_pmos#gp)	voltage
+	1383	v(n.xdiff_amp1.xopamp1.xsf1.xmp0.nsg13_lv_pmos#noi)	voltage
+	1384	v(n.xdiff_amp1.xopamp1.xsf1.xmp0.nsg13_lv_pmos#si)	voltage
+	1385	v(n.xdiff_amp1.xopamp1.xsf1.xmq.nsg13_lv_nmos#gp)	voltage
+	1386	v(n.xdiff_amp1.xopamp1.xsf1.xmq.nsg13_lv_nmos#noi)	voltage
+	1387	v(n.xdiff_amp1.xopamp1.xsf1.xmq.nsg13_lv_nmos#si)	voltage
+	1388	v(n.xdiff_amp1.xopamp1.xsf1.xmx.nsg13_lv_nmos#gp)	voltage
+	1389	v(n.xdiff_amp1.xopamp1.xsf1.xmx.nsg13_lv_nmos#noi)	voltage
+	1390	v(n.xdiff_amp1.xopamp1.xsf1.xmx.nsg13_lv_nmos#si)	voltage
+	1391	v(n.xdiff_amp1.xopamp1.xsf1.xr1.nr1#flow(b_re1))	voltage
+	1392	v(n.xdiff_amp1.xopamp1.xsf1.xr1.nr1#flow(b_re2))	voltage
+	1393	v(n.xdiff_amp1.xopamp1.xsf1.xr1.nr1#i1)	voltage
+	1394	v(n.xdiff_amp1.xopamp1.xsf1.xr1.nr1#i2)	voltage
+	1395	v(n.xdiff_amp1.xopamp1.xsf2.xc1.nsg13_moscap_p#gp)	voltage
+	1396	v(n.xdiff_amp1.xopamp1.xsf2.xc1.nsg13_moscap_p#noi)	voltage
+	1397	v(n.xdiff_amp1.xopamp1.xsf2.xc1.nsg13_moscap_p#si)	voltage
+	1398	v(n.xdiff_amp1.xopamp1.xsf2.xm1.nsg13_lv_nmos#gp)	voltage
+	1399	v(n.xdiff_amp1.xopamp1.xsf2.xm1.nsg13_lv_nmos#noi)	voltage
+	1400	v(n.xdiff_amp1.xopamp1.xsf2.xm1.nsg13_lv_nmos#si)	voltage
+	1401	v(n.xdiff_amp1.xopamp1.xsf2.xm2.nsg13_lv_pmos#gp)	voltage
+	1402	v(n.xdiff_amp1.xopamp1.xsf2.xm2.nsg13_lv_pmos#noi)	voltage
+	1403	v(n.xdiff_amp1.xopamp1.xsf2.xm2.nsg13_lv_pmos#si)	voltage
+	1404	v(n.xdiff_amp1.xopamp1.xsf2.xm3.nsg13_lv_pmos#gp)	voltage
+	1405	v(n.xdiff_amp1.xopamp1.xsf2.xm3.nsg13_lv_pmos#noi)	voltage
+	1406	v(n.xdiff_amp1.xopamp1.xsf2.xm3.nsg13_lv_pmos#si)	voltage
+	1407	v(n.xdiff_amp1.xopamp1.xsf2.xm4.nsg13_lv_pmos#gp)	voltage
+	1408	v(n.xdiff_amp1.xopamp1.xsf2.xm4.nsg13_lv_pmos#noi)	voltage
+	1409	v(n.xdiff_amp1.xopamp1.xsf2.xm4.nsg13_lv_pmos#si)	voltage
+	1410	v(n.xdiff_amp1.xopamp1.xsf2.xm5.nsg13_lv_pmos#gp)	voltage
+	1411	v(n.xdiff_amp1.xopamp1.xsf2.xm5.nsg13_lv_pmos#noi)	voltage
+	1412	v(n.xdiff_amp1.xopamp1.xsf2.xm5.nsg13_lv_pmos#si)	voltage
+	1413	v(n.xdiff_amp1.xopamp1.xsf2.xm6.nsg13_lv_pmos#gp)	voltage
+	1414	v(n.xdiff_amp1.xopamp1.xsf2.xm6.nsg13_lv_pmos#noi)	voltage
+	1415	v(n.xdiff_amp1.xopamp1.xsf2.xm6.nsg13_lv_pmos#si)	voltage
+	1416	v(n.xdiff_amp1.xopamp1.xsf2.xm7.nsg13_lv_nmos#gp)	voltage
+	1417	v(n.xdiff_amp1.xopamp1.xsf2.xm7.nsg13_lv_nmos#noi)	voltage
+	1418	v(n.xdiff_amp1.xopamp1.xsf2.xm7.nsg13_lv_nmos#si)	voltage
+	1419	v(n.xdiff_amp1.xopamp1.xsf2.xm8.nsg13_lv_nmos#gp)	voltage
+	1420	v(n.xdiff_amp1.xopamp1.xsf2.xm8.nsg13_lv_nmos#noi)	voltage
+	1421	v(n.xdiff_amp1.xopamp1.xsf2.xm8.nsg13_lv_nmos#si)	voltage
+	1422	v(n.xdiff_amp1.xopamp1.xsf2.xm9.nsg13_lv_nmos#gp)	voltage
+	1423	v(n.xdiff_amp1.xopamp1.xsf2.xm9.nsg13_lv_nmos#noi)	voltage
+	1424	v(n.xdiff_amp1.xopamp1.xsf2.xm9.nsg13_lv_nmos#si)	voltage
+	1425	v(n.xdiff_amp1.xopamp1.xsf2.xm10.nsg13_lv_pmos#gp)	voltage
+	1426	v(n.xdiff_amp1.xopamp1.xsf2.xm10.nsg13_lv_pmos#noi)	voltage
+	1427	v(n.xdiff_amp1.xopamp1.xsf2.xm10.nsg13_lv_pmos#si)	voltage
+	1428	v(n.xdiff_amp1.xopamp1.xsf2.xm12.nsg13_lv_nmos#gp)	voltage
+	1429	v(n.xdiff_amp1.xopamp1.xsf2.xm12.nsg13_lv_nmos#noi)	voltage
+	1430	v(n.xdiff_amp1.xopamp1.xsf2.xm12.nsg13_lv_nmos#si)	voltage
+	1431	v(n.xdiff_amp1.xopamp1.xsf2.xm13.nsg13_lv_pmos#gp)	voltage
+	1432	v(n.xdiff_amp1.xopamp1.xsf2.xm13.nsg13_lv_pmos#noi)	voltage
+	1433	v(n.xdiff_amp1.xopamp1.xsf2.xm13.nsg13_lv_pmos#si)	voltage
+	1434	v(n.xdiff_amp1.xopamp1.xsf2.xm14.nsg13_lv_pmos#gp)	voltage
+	1435	v(n.xdiff_amp1.xopamp1.xsf2.xm14.nsg13_lv_pmos#noi)	voltage
+	1436	v(n.xdiff_amp1.xopamp1.xsf2.xm14.nsg13_lv_pmos#si)	voltage
+	1437	v(n.xdiff_amp1.xopamp1.xsf2.xma.nsg13_lv_pmos#gp)	voltage
+	1438	v(n.xdiff_amp1.xopamp1.xsf2.xma.nsg13_lv_pmos#noi)	voltage
+	1439	v(n.xdiff_amp1.xopamp1.xsf2.xma.nsg13_lv_pmos#si)	voltage
+	1440	v(n.xdiff_amp1.xopamp1.xsf2.xmb.nsg13_lv_pmos#gp)	voltage
+	1441	v(n.xdiff_amp1.xopamp1.xsf2.xmb.nsg13_lv_pmos#noi)	voltage
+	1442	v(n.xdiff_amp1.xopamp1.xsf2.xmb.nsg13_lv_pmos#si)	voltage
+	1443	v(n.xdiff_amp1.xopamp1.xsf2.xmc.nsg13_lv_pmos#gp)	voltage
+	1444	v(n.xdiff_amp1.xopamp1.xsf2.xmc.nsg13_lv_pmos#noi)	voltage
+	1445	v(n.xdiff_amp1.xopamp1.xsf2.xmc.nsg13_lv_pmos#si)	voltage
+	1446	v(n.xdiff_amp1.xopamp1.xsf2.xmd.nsg13_lv_pmos#gp)	voltage
+	1447	v(n.xdiff_amp1.xopamp1.xsf2.xmd.nsg13_lv_pmos#noi)	voltage
+	1448	v(n.xdiff_amp1.xopamp1.xsf2.xmd.nsg13_lv_pmos#si)	voltage
+	1449	v(n.xdiff_amp1.xopamp1.xsf2.xme.nsg13_lv_pmos#gp)	voltage
+	1450	v(n.xdiff_amp1.xopamp1.xsf2.xme.nsg13_lv_pmos#noi)	voltage
+	1451	v(n.xdiff_amp1.xopamp1.xsf2.xme.nsg13_lv_pmos#si)	voltage
+	1452	v(n.xdiff_amp1.xopamp1.xsf2.xmfg.nsg13_lv_nmos#gp)	voltage
+	1453	v(n.xdiff_amp1.xopamp1.xsf2.xmfg.nsg13_lv_nmos#noi)	voltage
+	1454	v(n.xdiff_amp1.xopamp1.xsf2.xmfg.nsg13_lv_nmos#si)	voltage
+	1455	v(n.xdiff_amp1.xopamp1.xsf2.xmh.nsg13_lv_pmos#gp)	voltage
+	1456	v(n.xdiff_amp1.xopamp1.xsf2.xmh.nsg13_lv_pmos#noi)	voltage
+	1457	v(n.xdiff_amp1.xopamp1.xsf2.xmh.nsg13_lv_pmos#si)	voltage
+	1458	v(n.xdiff_amp1.xopamp1.xsf2.xmi.nsg13_lv_pmos#gp)	voltage
+	1459	v(n.xdiff_amp1.xopamp1.xsf2.xmi.nsg13_lv_pmos#noi)	voltage
+	1460	v(n.xdiff_amp1.xopamp1.xsf2.xmi.nsg13_lv_pmos#si)	voltage
+	1461	v(n.xdiff_amp1.xopamp1.xsf2.xmj.nsg13_lv_pmos#gp)	voltage
+	1462	v(n.xdiff_amp1.xopamp1.xsf2.xmj.nsg13_lv_pmos#noi)	voltage
+	1463	v(n.xdiff_amp1.xopamp1.xsf2.xmj.nsg13_lv_pmos#si)	voltage
+	1464	v(n.xdiff_amp1.xopamp1.xsf2.xmk.nsg13_lv_nmos#gp)	voltage
+	1465	v(n.xdiff_amp1.xopamp1.xsf2.xmk.nsg13_lv_nmos#noi)	voltage
+	1466	v(n.xdiff_amp1.xopamp1.xsf2.xmk.nsg13_lv_nmos#si)	voltage
+	1467	v(n.xdiff_amp1.xopamp1.xsf2.xml.nsg13_lv_nmos#gp)	voltage
+	1468	v(n.xdiff_amp1.xopamp1.xsf2.xml.nsg13_lv_nmos#noi)	voltage
+	1469	v(n.xdiff_amp1.xopamp1.xsf2.xml.nsg13_lv_nmos#si)	voltage
+	1470	v(n.xdiff_amp1.xopamp1.xsf2.xmm.nsg13_lv_nmos#gp)	voltage
+	1471	v(n.xdiff_amp1.xopamp1.xsf2.xmm.nsg13_lv_nmos#noi)	voltage
+	1472	v(n.xdiff_amp1.xopamp1.xsf2.xmm.nsg13_lv_nmos#si)	voltage
+	1473	v(n.xdiff_amp1.xopamp1.xsf2.xmn.nsg13_lv_nmos#gp)	voltage
+	1474	v(n.xdiff_amp1.xopamp1.xsf2.xmn.nsg13_lv_nmos#noi)	voltage
+	1475	v(n.xdiff_amp1.xopamp1.xsf2.xmn.nsg13_lv_nmos#si)	voltage
+	1476	v(n.xdiff_amp1.xopamp1.xsf2.xmn0.nsg13_lv_nmos#gp)	voltage
+	1477	v(n.xdiff_amp1.xopamp1.xsf2.xmn0.nsg13_lv_nmos#noi)	voltage
+	1478	v(n.xdiff_amp1.xopamp1.xsf2.xmn0.nsg13_lv_nmos#si)	voltage
+	1479	v(n.xdiff_amp1.xopamp1.xsf2.xmn1.nsg13_lv_nmos#gp)	voltage
+	1480	v(n.xdiff_amp1.xopamp1.xsf2.xmn1.nsg13_lv_nmos#noi)	voltage
+	1481	v(n.xdiff_amp1.xopamp1.xsf2.xmn1.nsg13_lv_nmos#si)	voltage
+	1482	v(n.xdiff_amp1.xopamp1.xsf2.xmo.nsg13_lv_nmos#gp)	voltage
+	1483	v(n.xdiff_amp1.xopamp1.xsf2.xmo.nsg13_lv_nmos#noi)	voltage
+	1484	v(n.xdiff_amp1.xopamp1.xsf2.xmo.nsg13_lv_nmos#si)	voltage
+	1485	v(n.xdiff_amp1.xopamp1.xsf2.xmp.nsg13_lv_nmos#gp)	voltage
+	1486	v(n.xdiff_amp1.xopamp1.xsf2.xmp.nsg13_lv_nmos#noi)	voltage
+	1487	v(n.xdiff_amp1.xopamp1.xsf2.xmp.nsg13_lv_nmos#si)	voltage
+	1488	v(n.xdiff_amp1.xopamp1.xsf2.xmp0.nsg13_lv_pmos#gp)	voltage
+	1489	v(n.xdiff_amp1.xopamp1.xsf2.xmp0.nsg13_lv_pmos#noi)	voltage
+	1490	v(n.xdiff_amp1.xopamp1.xsf2.xmp0.nsg13_lv_pmos#si)	voltage
+	1491	v(n.xdiff_amp1.xopamp1.xsf2.xmq.nsg13_lv_nmos#gp)	voltage
+	1492	v(n.xdiff_amp1.xopamp1.xsf2.xmq.nsg13_lv_nmos#noi)	voltage
+	1493	v(n.xdiff_amp1.xopamp1.xsf2.xmq.nsg13_lv_nmos#si)	voltage
+	1494	v(n.xdiff_amp1.xopamp1.xsf2.xmx.nsg13_lv_nmos#gp)	voltage
+	1495	v(n.xdiff_amp1.xopamp1.xsf2.xmx.nsg13_lv_nmos#noi)	voltage
+	1496	v(n.xdiff_amp1.xopamp1.xsf2.xmx.nsg13_lv_nmos#si)	voltage
+	1497	v(n.xdiff_amp1.xopamp1.xsf2.xr1.nr1#flow(b_re1))	voltage
+	1498	v(n.xdiff_amp1.xopamp1.xsf2.xr1.nr1#flow(b_re2))	voltage
+	1499	v(n.xdiff_amp1.xopamp1.xsf2.xr1.nr1#i1)	voltage
+	1500	v(n.xdiff_amp1.xopamp1.xsf2.xr1.nr1#i2)	voltage
+	1501	v(n.xdiff_amp1.xota1.xm2.nsg13_lv_nmos#gp)	voltage
+	1502	v(n.xdiff_amp1.xota1.xm2.nsg13_lv_nmos#noi)	voltage
+	1503	v(n.xdiff_amp1.xota1.xm2.nsg13_lv_nmos#si)	voltage
+	1504	v(n.xdiff_amp1.xota1.xmh.nsg13_lv_nmos#gp)	voltage
+	1505	v(n.xdiff_amp1.xota1.xmh.nsg13_lv_nmos#noi)	voltage
+	1506	v(n.xdiff_amp1.xota1.xmh.nsg13_lv_nmos#si)	voltage
+	1507	v(n.xdiff_amp1.xota1.xmi.nsg13_lv_nmos#gp)	voltage
+	1508	v(n.xdiff_amp1.xota1.xmi.nsg13_lv_nmos#noi)	voltage
+	1509	v(n.xdiff_amp1.xota1.xmi.nsg13_lv_nmos#si)	voltage
+	1510	v(n.xdiff_amp1.xota1.xmj.nsg13_lv_nmos#gp)	voltage
+	1511	v(n.xdiff_amp1.xota1.xmj.nsg13_lv_nmos#noi)	voltage
+	1512	v(n.xdiff_amp1.xota1.xmj.nsg13_lv_nmos#si)	voltage
+	1513	v(n.xdiff_amp1.xota1.xmk.nsg13_lv_pmos#gp)	voltage
+	1514	v(n.xdiff_amp1.xota1.xmk.nsg13_lv_pmos#noi)	voltage
+	1515	v(n.xdiff_amp1.xota1.xmk.nsg13_lv_pmos#si)	voltage
+	1516	v(n.xdiff_amp1.xota1.xmk1.nsg13_lv_pmos#gp)	voltage
+	1517	v(n.xdiff_amp1.xota1.xmk1.nsg13_lv_pmos#noi)	voltage
+	1518	v(n.xdiff_amp1.xota1.xmk1.nsg13_lv_pmos#si)	voltage
+	1519	v(n.xdiff_amp1.xota1.xmk2.nsg13_lv_pmos#gp)	voltage
+	1520	v(n.xdiff_amp1.xota1.xmk2.nsg13_lv_pmos#noi)	voltage
+	1521	v(n.xdiff_amp1.xota1.xmk2.nsg13_lv_pmos#si)	voltage
+	1522	v(n.xdiff_amp1.xota1.xmk3.nsg13_lv_pmos#gp)	voltage
+	1523	v(n.xdiff_amp1.xota1.xmk3.nsg13_lv_pmos#noi)	voltage
+	1524	v(n.xdiff_amp1.xota1.xmk3.nsg13_lv_pmos#si)	voltage
+	1525	v(n.xdiff_amp1.xota1.xmk4.nsg13_lv_pmos#gp)	voltage
+	1526	v(n.xdiff_amp1.xota1.xmk4.nsg13_lv_pmos#noi)	voltage
+	1527	v(n.xdiff_amp1.xota1.xmk4.nsg13_lv_pmos#si)	voltage
+	1528	v(n.xdiff_amp1.xota1.xml.nsg13_lv_pmos#gp)	voltage
+	1529	v(n.xdiff_amp1.xota1.xml.nsg13_lv_pmos#noi)	voltage
+	1530	v(n.xdiff_amp1.xota1.xml.nsg13_lv_pmos#si)	voltage
+	1531	v(n.xdiff_amp1.xota1.xmn.nsg13_lv_pmos#gp)	voltage
+	1532	v(n.xdiff_amp1.xota1.xmn.nsg13_lv_pmos#noi)	voltage
+	1533	v(n.xdiff_amp1.xota1.xmn.nsg13_lv_pmos#si)	voltage
+	1534	v(n.xdiff_amp1.xota1.xmn0.nsg13_lv_nmos#gp)	voltage
+	1535	v(n.xdiff_amp1.xota1.xmn0.nsg13_lv_nmos#noi)	voltage
+	1536	v(n.xdiff_amp1.xota1.xmn0.nsg13_lv_nmos#si)	voltage
+	1537	v(n.xdiff_amp1.xota1.xmn1.nsg13_lv_nmos#gp)	voltage
+	1538	v(n.xdiff_amp1.xota1.xmn1.nsg13_lv_nmos#noi)	voltage
+	1539	v(n.xdiff_amp1.xota1.xmn1.nsg13_lv_nmos#si)	voltage
+	1540	v(n.xdiff_amp1.xota1.xmo.nsg13_lv_pmos#gp)	voltage
+	1541	v(n.xdiff_amp1.xota1.xmo.nsg13_lv_pmos#noi)	voltage
+	1542	v(n.xdiff_amp1.xota1.xmo.nsg13_lv_pmos#si)	voltage
+	1543	v(n.xdiff_amp1.xota1.xmp0.nsg13_lv_pmos#gp)	voltage
+	1544	v(n.xdiff_amp1.xota1.xmp0.nsg13_lv_pmos#noi)	voltage
+	1545	v(n.xdiff_amp1.xota1.xmp0.nsg13_lv_pmos#si)	voltage
+	1546	v(n.xdiff_amp1.xota1.xmp1.nsg13_lv_pmos#gp)	voltage
+	1547	v(n.xdiff_amp1.xota1.xmp1.nsg13_lv_pmos#noi)	voltage
+	1548	v(n.xdiff_amp1.xota1.xmp1.nsg13_lv_pmos#si)	voltage
+	1549	v(n.xdiff_amp1.xr1.nr1#flow(b_re1))	voltage
+	1550	v(n.xdiff_amp1.xr1.nr1#flow(b_re2))	voltage
+	1551	v(n.xdiff_amp1.xr1.nr1#i1)	voltage
+	1552	v(n.xdiff_amp1.xr1.nr1#i2)	voltage
+	1553	v(n.xdiff_amp1.xr2.nr1#flow(b_re1))	voltage
+	1554	v(n.xdiff_amp1.xr2.nr1#flow(b_re2))	voltage
+	1555	v(n.xdiff_amp1.xr2.nr1#i1)	voltage
+	1556	v(n.xdiff_amp1.xr2.nr1#i2)	voltage
+	1557	v(net2)	voltage
+	1558	v(net3)	voltage
+	1559	v(net4)	voltage
+	1560	v(net5)	voltage
+	1561	v(net6)	voltage
+	1562	ro_n	impedance
+	1563	ro_p	impedance
+	1564	v(vcm)	voltage
+	1565	i(vcm)	current
+	1566	v(vdd)	voltage
+	1567	i(vdd)	current
+	1568	v(vdd_ac)	voltage
+	1569	i(vdd_ac)	current
+	1570	v(vdiff)	voltage
+	1571	i(vdiff)	current
+	1572	i(ven)	current
+	1573	v(vicm)	voltage
+	1574	i(vicm)	current
+	1575	v(vinn)	voltage
+	1576	v(vinp)	voltage
+	1577	i(vmeas2)	current
+	1578	i(vmeas3)	current
+	1579	i(vmeas4)	current
+	1580	i(vmeas5)	current
+	1581	v(vod)	voltage
+	1582	v(voutn)	voltage
+	1583	v(voutp)	voltage
+	1584	v(vss)	voltage
+	1585	i(vss)	current
+	1586	v(vt_n)	voltage
+	1587	v(vt_p)	voltage
+	1588	v(xdiff_amp1.vbias)	voltage
+	1589	v(xdiff_amp1.vcm_calc)	voltage
+	1590	v(xdiff_amp1.vcm_reg)	voltage
+	1591	v(xdiff_amp1.xopamp1.en_n)	voltage
+	1592	v(xdiff_amp1.xopamp1.src_ab)	voltage
+	1593	v(xdiff_amp1.xopamp1.voutn_st1)	voltage
+	1594	v(xdiff_amp1.xopamp1.voutp_st1)	voltage
+	1595	v(xdiff_amp1.xopamp1.xsf1.cd_drn)	voltage
+	1596	v(xdiff_amp1.xopamp1.xsf1.en_n)	voltage
+	1597	v(xdiff_amp1.xopamp1.xsf1.net1)	voltage
+	1598	v(xdiff_amp1.xopamp1.xsf1.net2)	voltage
+	1599	v(xdiff_amp1.xopamp1.xsf1.src_ml)	voltage
+	1600	v(xdiff_amp1.xopamp1.xsf1.vbiasn)	voltage
+	1601	v(xdiff_amp1.xopamp1.xsf1.vbiasp)	voltage
+	1602	v(xdiff_amp1.xopamp1.xsf1.vcasn)	voltage
+	1603	v(xdiff_amp1.xopamp1.xsf1.vcasn2)	voltage
+	1604	v(xdiff_amp1.xopamp1.xsf1.vcasp)	voltage
+	1605	v(xdiff_amp1.xopamp1.xsf1.vcasp2)	voltage
+	1606	v(xdiff_amp1.xopamp1.xsf1.vin_shifted)	voltage
+	1607	v(xdiff_amp1.xopamp1.xsf1.xr1.dt)	voltage
+	1608	v(xdiff_amp1.xopamp1.xsf2.cd_drn)	voltage
+	1609	v(xdiff_amp1.xopamp1.xsf2.en_n)	voltage
+	1610	v(xdiff_amp1.xopamp1.xsf2.net1)	voltage
+	1611	v(xdiff_amp1.xopamp1.xsf2.net2)	voltage
+	1612	v(xdiff_amp1.xopamp1.xsf2.src_ml)	voltage
+	1613	v(xdiff_amp1.xopamp1.xsf2.vbiasn)	voltage
+	1614	v(xdiff_amp1.xopamp1.xsf2.vbiasp)	voltage
+	1615	v(xdiff_amp1.xopamp1.xsf2.vcasn)	voltage
+	1616	v(xdiff_amp1.xopamp1.xsf2.vcasn2)	voltage
+	1617	v(xdiff_amp1.xopamp1.xsf2.vcasp)	voltage
+	1618	v(xdiff_amp1.xopamp1.xsf2.vcasp2)	voltage
+	1619	v(xdiff_amp1.xopamp1.xsf2.vin_shifted)	voltage
+	1620	v(xdiff_amp1.xopamp1.xsf2.xr1.dt)	voltage
+	1621	v(xdiff_amp1.xota1.en_n)	voltage
+	1622	v(xdiff_amp1.xota1.mirror)	voltage
+	1623	v(xdiff_amp1.xota1.src_kl)	voltage
+	1624	v(xdiff_amp1.xota1.tail_bias)	voltage
+	1625	v(xdiff_amp1.xr1.dt)	voltage
+	1626	v(xdiff_amp1.xr2.dt)	voltage
 Binary:
-Qùõ9è?İÈªÑ¼y<–«)™Î=XuÉËÄ= œ¿İ¼y<–«)™Î=xòce  ƒ>–&œxßQ½                ‹pëø¾5¼?        fô]aíÑ?Ø/¾¹—<aà>ı:=è£bL= €’¹—<aà>ı:=ZhL#D\>¹©ı°ËÊÓ½               €ÿ2üG„åº?    À&¬=‚Åk‡t×?  ğæŸ„€;×²A¡:´<XIİº<ÙøËEÁ!<„¾Nº³¶<ÀæRÀÎÉ=¤ÚL1u-(>™ªÄi™Ø=ãÛ8º¦ç?aTûÌ‡»?    ÀT•=AìÿbÑ?ÀA¾ÈÅ<ğH^Vz=s¹#¤ó·T=È?üP"(R=¯ÌtÑê+= ø‘Gœ³>CŞŠQÉá?T£hËì1å>l•ÚQFdÓ?0RæÿæÅ?$s¼`,åà?Í“ˆJhØ?À¦™Å<‚^Vz=Q˜û£ó·T=å"ëP"(R=¯ÌtÑê+=€nZ|Gœ³>»WRÉá?ÃÈäËì1å>läƒ^FdÓ?\_æÿæÅ?$s¼`,åà?î“ˆJhØ? x=‡Q_¼œÃbkÉôô<ãOSó=cÀ‹Ì‰…o<üQÄ©HÆõ< 9‚3ÿh™=Ø°µ >q Ã=(e}NkÌ?eHµûİº?    ­xñ=.­{'› ×?HÅ>
-¿Å<¶ûvºN†Õ<æ'{I=bPÿ§¸G=F-ºR8×<|%±£ìÊœ>ü6±R¿?¿¯Èô&å> ÜÌ7	3ï?9vûiÜ?Qè²7º¦ç?ùÓûñÎÆ?2azC
-¿Å<™KôºN†Õ<àÕ{I=¦lÿ§¸G=F-ºR8×<7ıY©ìÊœ>A–R¿?ä›ô&å>€4x1	3ï?ÑvûiÜ?Qè²7º¦ç?ÔûñÎÆ?¬+)#®<ØÚ9º³¶<n‡¨úü&)=rşğÃ'=Z´R8·<? ³Cˆô‚>Æaµÿkâ>ô5{éèÄ>ãÛ8º¦ç?¾jˆiÜ?Êpì6º¦ç?äÚòÎÆ?çOÿN= o=–!øî2{=UV¨òi„=ík•Ix=×åØ\j¹=½±‡»ÖA?'‘1WY!?/ µ»2õ>(e}NkÌ?Ls
-šŞ?6ˆü[î?
-Á«¹| Ö?~689Ó<D )JBá<hıtÁTã<êÎO9Ó<h*rJBá<|%®àAx?Ô˜ì½W\	¾j—I >Ÿğ]ì,u>/h4A3å?vÜKîÿÿ÷?_Ü›roŠÜ?_g‚¼àTææ<¸½<J†ÎUx•< ¾N´ô4<M‘ÖØF1À<ÀYnç«ª=´4x‘Ívö=G‡şP¼ª=ãÛ8º¦ç?cãåğ¿?…7˜8$.u>Ì}ã÷ZBİ?•Û¾Nİ®<Bµ~úÁ</¤~›.À<fm:Ùè_°<º!JÁ<ÿÜİà*?SJñY“ğ>÷ q÷Ä>@^ŠË&®ˆ?têÚ¨D9Í?/±ÆZEYè?SPwÙá?IÛÀeu¼HíüÉ»İ<=¬F6¬ÙÂ< ÅãËíS<OÁú^Šã<µ^hÀQû=×†må|7>^ı0"“í=¢Óêÿÿ÷?l‚<y}{¿?   @}³>[1¡6-Ø?ëà«5‡3#¼ÚQğ¯:¢<€¯'Âr< ¯étÚµ<ª>Œ–¾“<‘ÂÖ“èT}=lŒãÌ‘´É=ÔCØG~=ÀSŠü[î?¨×êR„£½?   œ‚«j>éùóL8EÛ?aŞSúJ=aO{¿<¶¬Ó¶R¶<Ó0·~)=á²V'(=v=rÇ7·<<»ˆñkË”>·;†ãsjè>A¿‹„ˆÓ>¡Zuá9è?şĞ•Àâ?ÕºË³İiî?<¯¯È? Ğ+Åu®d<9dÒËíüä<Sfè˜ú=ßÜ´‡Ú}=O:	§y5ç<€1¯+r³>õè:Ö•} ?š_ŠÔŒé>_¥ŠÆğç?ì3|6ßHÇ?§Y`ÈöÌà??H÷yoM×?Ëh#;P¼Õ)
-¾ ½ä<Ó"Šş4óö< àø2˜‘_<»È©HÆå<Yf_ìUÄ‡=yõ¿w>~øÿ¦ö)³=”Á®SÉÑ?á”Ïûİº?   €Êw>¿®(‡ø×?Õù²º¤A¼xàeë©Ó<îà¤›òæ< ì¡×WÌM<¿Ï©HÆÕ<>DôÎ„=ÏşÕ¼Gò=c1O¯±j£=ÿüƒJ"–á?ã|n$ûİº?   €õw>ÚÌÍd¾×?¦ŞÍ@¼z-¯œ
-@Ô<»kP8ğòæ< ¤lA.÷N<KÏ©HÆÕ<æ·W[/Æy=º<Æ,C0ò=î¢«)ÍJ£=¸÷¨È­Ù?qXT!ûİº?   @ow>eT¿…×?q("2	A¼º×[g”ÂÓ<"ÿ¸©òæ< |Íí¢N<©Ï©HÆÕ<Ùó»ù¸g~=%Ö*KFDò=]Û#¾e£= $3ÈöÌà??*ê#ûİº?   @Üw>O&«)
-×?  €5‘’»&òÁxeË<0œ¥”Ò< ¨¡;xQ5<LIÓŒt¤Î<ÀJülr0å=ÙNÔB>ş3ç^æoó=|µİiî?›ë„V¼?     ©=XŸ†ÑKvÒ?   v¨±|»¾ÀëÜ¿Ü<ªGšâ<	¼i¡mE<”+ÓŒt¤Ş<€fv3Ò¡ø=E!ò¬ÑM>–âüãËâş=Šûtì•ã?Ì=Æ„V¼?    €”„=É«ÁŒNvÒ?  gâÀ;,¥4˜µİ<Ì$¬f¡â<Öï€Å†E<%ÓŒt¤Ş<`áˆI·û=Ä·^>ÜE>Mî~¢Äö=bÑb tÒ?ó.¢„V¼?     àX=—³¡!QvÒ?@‡Ó"a2Q¼¯ÃôWûâ< ı)÷4òö< TË,4\<9È©HÆå<!MÂèHœ”=zj.8]>NO/Œ³=M¨¸SJç?¸5(ûİº?    A{>R±|Ï•×?                                                                                                   rşlj;fa™†X³<5ìÇº<û[V¡h!<¥åNº³¶< újL¾­Å=4HşÆ?,>ÛpöË©¯Ü=üÕ”ñ?)VmûÌ‡»?    À?·=ªo«IşbÑ?<ïV?#¼…Xœ(bk’<b-ù-
-s<€ëå>¬õ<Sz>Œ–¾“<¢í‡”Oq=î#'ş¦¿=k¿¸ºÄ³r=¸÷¨È­Ù?-Ú0½ƒ£½?   ˜I«j>+7¯4dÜ?î3ì:-/#¼ÇM…Tş‘<xªåÁùr<@¼İã­<{>Œ–¾“<Şç;LQxs=î„Úá§Á=u÷¸~%Ùt= $3ÈöÌà?¼½®Øƒ£½?   ¨Q«j>›ó{vÿ#Ü?                                                                                                 \ø®Ïf<ó0ÔÚ7=ëò J©+`=¬8PF/ Z=™Ù¸[¥=€ĞÍÚ‚>riÁam‹?>?	hªMÅ>¸÷¨È­Ù?”ËŸ5qÀ?tÇ¨È­Ù?û³í~6ÿÕ? 8Ów‹³€<´£c:õ<›âŠÁÜI=s%BÊD=ó”L¯êö< â¯{ße>ü;á“úò>jnl˜õ(±>-ª8_4«á?Ì z—7qÀ?<£¨È­Ù?ª_^ë3ÿÕ? J‰µ·–<#Ô-5Ô-ö<WäÔ~ãI=¬²s[ĞD=Ş”L¯êö< îØB®v>g²F:ê¨ò>“şôç°>”Á®SÉÑ?àİjó3qÀ?Ü ¨È­Ù?À®8ÿÕ? Á¢¡<S¯_]jö<‘†`*ÌşI=.Î³u\E=4¨L^9÷< ~\:ao{>
-Ú¤š‚ò>ÊqãbÛá°>Øoy¾¡Ï?œµ÷¢À?l¨™ËÜ?ˆ³;ÁÿÄØ?Û£²†f6=G-‹ŞQpç<\ùWóG=İM¥6ğ+8=¢âİxç<zäız¥²?dâåN^CÏ>º5¡o-±>àJp%™?ßšlòıĞ?#b®ç?äèfU“Û?ŒÂsˆ5*£<LÊc6µ<ykÎ'\)=U¸ß³'=&Z´R8·<Ç€L»§y>ü¿İR=Òâ>Ä£ÙÙAÅ>üÕ”ñ?µñÄœiÜ?àqì6º¦ç?¥kÂïñÎÆ? @a/à“–<¿K J-ö<•]×„uãI=TIUĞD=Ş”L¯êö< ŞW&¬œv>¸;©ò>ÿ2[Sç°> m> &ÔÑ?6S×õ3qÀ?Ü ¨È­Ù?’íª8ÿÕ? \jÊ(†<¾êÀ©HÆõ<Q…‚6òãI=¿ô“v›@E=\Ö4Ş÷< ú°Ö­j>1ì"¨ ò>zXâ°>z±qÀÜ?ÑÚGvØ˜À?mqÀÜ?ës8òŠÆØ? l€gc÷ƒ<‘ªÀ©HÆõ<ı9dM‚J=Ø‘=×E=^We¢Á&÷< BÛ¥è‘g>·À›~jò>½R8Ø°> qQ‹à?,b©ŠQÒÀ?l¡qQ‹à?º2:ÂÇÀÜ?²Sè˜}Š<,Xåá¸Ş<Â«ãêô’)=n[¨Ğ£q%=2ŒÊÕácß<ä}v
-D¡>u˜-B©ò>¹zÙí†Õ°>CÅo«µTĞ?1¤ó¹
-ŞÀ?V}†lıÑ?F%÷	6Ì?S–¡ßˆ<Ä¨)ãŞ<V#{¶Ö)=êÿÍ™n%=4ŒÊÕácß<Ä#§
-Ë >)Q4äò>˜•Ôõã±>bÑb tÒ?UÄ
-ŞÀ?l}†lıÑ?¤URí6Ì?€Lı8È(z<Bâp?|İ<’š0§¡/(=0È	6âU$=O©m tß<{‹0‘u˜>¥òTı|ó>/g/ó‹ ±>Pšy„/å?BvA
-÷yÀ?åu‹ÄÓ?%.‡xM=Ğ?iÛeÚî<€£aÎ<¸ÛÉæ¨õ< °§°Uì1<šÕÄu}¢Î<@ZeÆ=%ñ2suRÍ=¿õ+t O|=àJp%™?ş‰³)!K»? l¬He¿L7	½ZÔ?FN789Ó<"%)JBá<VuÁTã<iO9Ó<h*rJBá<­&®àAx?x1D¥û\	¾Eì_7 >R?Â?ƒ+u>ìh4A3å?vÜKîÿÿ÷?lÜ›roŠÜ?™^,0
-¼|`ıl¿<UÁ_R°|•< ~"7I+<@QÖØF1À<Vc“OBª=ÁÊFa1¯è=1(¹=â@ö†lıÑ?Ù¹ğ¿?…Kƒ‹™+u>¡Dş}ŞTİ?                                                                                                e2}Ö÷…<î>ÀŒt¤Ş<àg¶4Ä
-)=è²¥ %=½ëä›‹ß<ôKœx¢>@<.Aó>åìõ¸±>’´¤hkpÖ?8ŞVDÕÀ?,gkpÖ?J•1ØsDÒ?c€‡MN‡< :ÇŒt¤Ş<ÄàJAºI)=*	²œ%=T´Ú½Lxß<à&~ø{¡>T8ôò>ÏÄ‹±>2¶óQ¿;Ô?¨“mWÍÚÀ?TôP¿;Ô?çi?UX0Ğ?¼AÛÀeu¼´¯ìüÉ»İ<N¤F6¬ÙÂ< 
-ãËíS<OÁú^Šã<‹‚rÀQû=š–‡må|7>u:"“í=À|Ôêÿÿ÷?ˆ‚<y}{¿?   @}³>À'1¡6-Ø?Q­˜?àˆ<…ÍŒt¤Ş<¶ÒÀT~)=j&»5@o%=4ŒÊÕácß<èÌNK‚å >ıšK(}×ò>\±4±>â@ö†lıÑ?á¨EÂ
-ŞÀ?h}†lıÑ?USŸõ6Ì?  ˜O˜fÑ;Z÷ñÁxeÛ<fˆæ,=ì/ïôë‰<&*ÓŒt¤Ş<€ûh5Óè=ÚWŠ@ŞMQ>‘‰”h>|µİiî?«éÏÔ×K»?    À¹€=6Ì?Ì’YrúJ=r J{¿<$Š#Ò¶R¶<alŒ·~)=K&(=JÇ7·<·KE§kË”>Ÿ–àsjè>š5ùyˆÓ>Qùõ9è?¾¨;
-Àâ?Ö@X¬İiî?<¯¯È? ¬Cv®d<ÉùÎíüä<¦K}ì˜ú=1C…ŒÚ}=ß8f§y5ç<€•ÈQ+r³>ötıè•} ?³ì>Œé>¯ã
-Æğç?¤£ˆDßHÇ?'µÎöÌà?ùÎzoM×?Şf—";P¼dv¾ ½ä<»]Šş4óö< 0,3˜‘_<»È©HÆå<>aììUÄ‡=`Kõ¾w>˜ıì¦ö)³=4]ÊLÉÑ?²”Ïûİº?   €Êw>©ì)‡ø×?Iõº¤A¼÷,÷dë©Ó<Y—ß¤›òæ< Ô£ÕWÌM<¿Ï©HÆÕ<^ÒèşÎ„=”Ö¼Gò=<–ˆ¯±j£= w÷Q"–á?}n$ûİº?   €õw>ÜıÊd¾×?µİÍ@¼0Š°œ
-@Ô<zlP8ğòæ< ønA.÷N<KÏ©HÆÕ<AM[/Æy=ƒ#Æ,C0ò=¿y«)ÍJ£=ú§È­Ù?[XT!ûİº?   @ow>*iT¿…×?¼8h"2	A¼+¿”f”ÂÓ<Ï¸©òæ< l$ì¢N<©Ï©HÆÕ<Yx¹g~=õeGKFDò=éœÿ#¾e£=€Ë‡ÎöÌà?=*ê#ûİº?   @Üw>cÄ¨)
-×?  @5‘’»$¦¸ÂxeË<ŸŸ¥”Ò<·Ï±;xQ5<LIÓŒt¤Î<À¶Înr0å=
-I;ÔB>úĞy\æoó= ‰®İiî?›ë„V¼?     ©=¡†ÑKvÒ?  €t¨±|»àõíÜ¿Ü<·Gšâ< ñi¡mE<”+ÓŒt¤Ş< Q}3Ò¡ø=É+ã¬ÑM>¬¤íãËâş=Aaì•ã?¶=Æ„V¼?    €”„=Î«ÁŒNvÒ?  ØgâÀ;+9˜µİ<õ$¬f¡â<¢)€Å†E<%ÓŒt¤Ş< #’I·û=#ß]>ÜE>Q”]¢Äö=ô—°a tÒ?ó.¢„V¼?     àX=¢³¡!QvÒ?p”Ã"a2Q¼©‘>õWûâ<*H*÷4òö< Ìû-4\<9È©HÆå<JÀäHœ”=¸2!8]>W™íN/Œ³=.2‡´SJç?…¸5(ûİº?    A{>{B~Ï•×?                                                                                                   rşlj;•~™†X³<‹5ìÇº<è1V¡h!<¥åNº³¶< ²hL¾­Å=•ÖşÆ?,>úË©¯Ü=>~Ö”ñ?)VmûÌ‡»?    À?·=¥o«IşbÑ?äpîV?#¼Ÿ‡(bk’<ÌZù-
-s<€›ë>¬õ<Sz>Œ–¾“<ïSè‡”Oq=8š'ş¦¿=	Á¸ºÄ³r=ú§È­Ù?Ú0½ƒ£½?   ˜I«j>¸ç¯4dÜ?5£;-/#¼b¸ „Tş‘<:åÁùr< Ÿôß­<{>Œ–¾“<oòOQxs=øSò„á§Á=|¹J‚%Ùt=€Ë‡ÎöÌà?İ½®Øƒ£½?   ¨Q«j>ÓÅvÿ#Ü?                                                                                                 €®Ïf<ó0ÔÚ7=7±ŒJ©+`=¸E F/ Z=¯ç·[¥=ÀdÍÚ‚>È`_am‹?’´‡gªMÅ>ú§È­Ù?Œü5qÀ?ÀÖı§È­Ù?ù•í~6ÿÕ? p`w‹³€< c:õ<€ŸÁŠÁÜI=—h%BÊD=lS“L¯êö< ¼ûzße>ÍsÀà“úò>òı˜õ(±>æËX_4«á?ÜMi—7qÀ?Œ²¨È­Ù?A^ë3ÿÕ?   Ë·–<Ï8‚5Ô-ö<.PÉÔ~ãI=tRQ[ĞD=WS“L¯êö< î/B®v>ÍÇ9ê¨ò>Ágç°>4]ÊLÉÑ?a)Zó3qÀ?(°¨È­Ù?ì£®8ÿÕ? /zK¢¡<‚êÀ^]jö<@½ß)ÌşI=qÄu\E=°rA^9÷< ×?ao{>
-Ì¤š‚ò>)UbÛá°>˜sŠ ¾¡Ï?	#Â´÷¢À?ŠÀJ™ËÜ?†M6ÀÿÄØ?§s–¬†f6=­áŞQpç<²Ó
-WóG=+V5ğ+8=~«nİxç<š]ªY¥²?îSf}^CÏ>¾¬Ë o-±> põmp%™?^şâıĞ?¼M2W®ç?€æúV“Û?({mˆ5*£<zéc6µ<WZÎ'\)=ˆH¸ß³'=&Z´R8·<ÌÌD»§y> ğİR=Òâ>\
-¤ÙÙAÅ>>~Ö”ñ?µñÄœiÜ?àqì6º¦ç?¥kÂïñÎÆ? îÔDà“–<şÁ  J-ö<³¼„uãI=úş&UĞD=WS“L¯êö< ‘Ä0¬œv>³q8;©ò>+¥ZSç°>¸@ù%ÔÑ?ÕÆõ3qÀ?(°¨È­Ù?víª8ÿÕ? h•Ê(†<½êÀ©HÆõ<òM6òãI=2v›@E=!ùË4Ş÷< ÄÖ­j>oë."¨ ò>$ÄÉâ°>¤RÎoÀÜ?ZvØ˜À?0ÕoÀÜ?«~/ñŠÆØ? ´ic÷ƒ<‘ªÀ©HÆõ<ôÌM‚J=š.p=×E=jó^¢Á&÷< Rg¨è‘g>Ö9¬Ÿ~jò>.…´8Ø°>g½1qQ‹à?ÕÙŠQÒÀ?ÁÇ2qQ‹à?‘u'ÁÇÀÜ?ÛàŸ}Š<>¾yá¸Ş<@´êô’)=MîtĞ£q%=âàÉÕácß<a"4t
-D¡>™-X.B©ò>E2¾î†Õ°>Ö ´µTĞ?ûıå¹
-ŞÀ?\&k†lıÑ?{$÷	6Ì?Ëúo¡ßˆ<RØ«)ãŞ<IUZ¶Ö)=,–ÙÍ™n%=äàÉÕácß<®{
-Ë >	!İP4äò>kOrõã±>ô—°a tÒ?—rGÄ
-ŞÀ?s&k†lıÑ?§URí6Ì?Š…”@È(z<^ï>@|İ<[¾©§¡/(=c6âU$=Lßªm tß<ihØ	‘u˜>@ı|ó>³Íò‹ ±>=0}/å?·g
-÷yÀ?fv‹ÄÓ?¹	~xM=Ğ?{ÑYÚî<Œß9bÎ<È<åÉæ¨õ< ÀöUì1<æsv}¢Î<#]Æ=ÚOóƒvRÍ=|{¡O|= põmp%™?§³)!K»? $Tõe¿Lº»ZÔ?FN789Ó<"%)JBá<VuÁTã<iO9Ó<h*rJBá<­&®àAx?x1D¥û\	¾Eì_7 >¸?Â?ƒ+u>ìh4A3å?vÜKîÿÿ÷?lÜ›roŠÜ?b2)0
-¼`ıl¿<÷Ã_R°|•< j$7I+<@QÖØF1À<Hí#OBª=~>a1¯è=-~'¹=èÈã†lıÑ?Ù¹ğ¿?¶Kƒ‹™+u>İOş}ŞTİ?                                                                                                Æş"Ö÷…<ğ>ÀŒt¤Ş<œ(4Ä
-)=$†¥ %=®êêä›‹ß<›äİ›x¢>;…ï-Aó>Íˆõ¸±>²1ŒhkpÖ?™ËÎVDÕÀ?*©öfkpÖ?Ÿ·-ØsDÒ?'‡MN‡< :ÇŒt¤Ş<ÆC'AºI)=À‰œ%=ZöÙ½Lxß<P·R~ø{¡>q|Å7ôò>Òr¥Š±>šmŞQ¿;Ô?B>_WÍÚÀ?º»ŞP¿;Ô?1g=UX0Ğ?¼AÛÀeu¼´¯ìüÉ»İ<N¤F6¬ÙÂ< 
-ãËíS<OÁú^Šã<‹‚rÀQû=š–‡må|7>u:"“í=À|Ôêÿÿ÷?ˆ‚<y}{¿?   @}³>À'1¡6-Ø?„S˜?àˆ<…ÍŒt¤Ş<¨ŸT~)=˜M•5@o%=äàÉÕácß<D–K‚å >{Â(}×ò>f¨W4±>èÈã†lıÑ?f8Â
-ŞÀ?n&k†lıÑ?TSŸõ6Ì?  °T˜fÑ;Xƒ¸ÂxeÛ<¸’æ,=jûôë‰<&*ÓŒt¤Ş< ¦[k5Óè=·ˆ?ŞMQ>_3Ÿ‡”h> ‰®İiî?‹éÏÔ×K»?    À¹€=6Ì?  °ïaoz;Á5øJ´<^|Ä‰×º<ŸyNó3´!<üÃNº³¶<@nD®È=¨SkË9)>ãb
-0b¦Ù=º‚ó¦)lê?+‹ZûÌ‡»?    àVŸ=vÌ{@ÿbÑ?Ä#–Òª<4c˜ááµ<ÄXáM#)=[|éS¿'= Z´R8·<£–¦Ëï€>/®Ë‹à£â>~qŠ¶Å>º‚ó¦)lê?©5iÜ?qì6º¦ç?ªÕòÎÆ?É´û|	¼<!Dº³Æ<ûµé8=G]%3Ñ7=öjd‡-Ç<‹³Yº;n‘>éR€NK8ñ>M¹Ã>¿Ñ>R¹>cBæ?ÈÉÔJtÚ?Š>cBæ?û#òÎÆ?5Ó°¬6Ê<Îœ¤`Æ<[FË	9=üìû4ÔŠ7=Èjd‡-Ç<\((M—>4Y§Î	ñ>ŸjisB‘Ñ>@¬uë¤á?BÃ$ÇKtÚ?à>cBæ?od¤GòÎÆ?B•«n‰<T&ì{R•å<h7\­5=Ğ‡B“}G3=b4>ç<Š¼ÑÃIã‡>*²à]?ØJx”ÁÑ>&<öã?jÇN·çnÉ?—±Êzr8â?Ãs§ŒØ?„3œë‰:A¼Šê†t³Ò<M'®òæ< ŒN6ş}K<íÏ©HÆÕ<Š] ¶2‡=uƒ?Èdò=úÜœ™£=®óFÁœ½é?ÂØ)ûİº?   @Ty>³À~§×?òR§+ßDA¼2'˜=2Ò<‹œµñæ< ¬6ã\!J<áŸÏ©HÆÕ<‹Œ µ7=d>²2yoò=ˆ
-œÖŞ±£=ÀSŠü[î?E-ğ,ûİº?   Àoz>ğgå×?Ìf§úÛM¼ïŒŒå<12ohóö< 8¡GÇ,_<È©HÆå<…á‹ Ï=Áb³G`ñ>dK°±³= ²û6Ç?! ëûİº?   €fw>ònüj!×?éôäâá@¼m\S”Ó<–j¡UÃ­æ< ø²Zã[L<¼›Ğ²Õ<€«ßC\ş‚=~á^Ãìô=İ6_ãs¥=F}YÖ“å?N/‡ûº?   €…x>k«ç¸×?ê¿¡Vó‚<²@Êœ 
-å<ÚJ¢5=UKyÅ;3=N8pÓ=ç<j=äl‚>´ğGE?2vÛ>Ñ>8gKn”è? [Ì>KÉ?COÖH–)â?Û—FªUØ? 4SGÄF<KŠÂ²Õ<ã+5Y²H==vãŠµØ…:=O²İs}R×< rÁ†›rh>`³ª€”Jî>¢ˆê
-šÅ>F}YÖ“å?–Õ4ïXÒ?ïYÖ“å?Ê„n†³âÕ?§689Ó<:!)JBá<! uÁTã<C«O9Ó<h*rJBá<[g%®àAx?ÊÃúw\	¾µ¾TG >(ÚûW¥,u>°h4A3å?vÜKîÿÿ÷?aÜ›roŠÜ?¬ÔÖZxz¼Òà4¬…á½<î›+^Àx•< ê%0Àú<´„ÖØF1À<I@9ÚÑ)ª=}ákß…Šõ=ÂU‰ß²¦©=R¹>cBæ?”2ğ¿?”?¤-u>¾eQl#Dİ?¤ö#o´E=ù¨Âà²÷<Vò @ab==ŒIX=‘dİs}R÷<\ºæ7Âø>…jÀ9²Á?ƒñ>„¬¨á> ²û6Ç?ÒÃ¯ÌíXÒ?µ!YÖ“å?T8¶âÕ?HÛÀeu¼íüÉ»İ<®ªF6¬ÙÂ<€ñãËíS<OÁú^Šã<…jjÀQû=F†må|7>éş0"“í=¨ZÓêÿÿ÷?‡‚<y}{¿?   @}³>iQ1¡6-Ø?¸zIÊ=#¼ËY®¶á}‘<½,ær<€)Ÿ6—›<N|>Œ–¾“<˜Í ¨Ë{v=Ò%$:4&Ä=c$¡ÚUÅw=F}YÖ“å?„Óoşƒ£½?   ¶^«j>œ¥%ÕÕÛ?      ø?\LÓr	è?        Êÿÿÿÿ÷?<Ñ iÎT•=’³ıÿÿÿç?’³ıÿÿÿç?S‡îÿÿÿ÷?Qè²7º¦ç?Qè²7º¦ç?Êpì6º¦ç?Êèwë¤á?vÜKîÿÿ÷?…7˜8$.u>‰FrÉÿÿ÷?2ÿÿÿ÷?²>ªòÿÿ÷?ïË7	3ï?ÕºË³İiî?Y¦Ÿ7	3ï?kİÿÿÿ÷?* ºÿÿÿ÷?C"ºÿÿÿ÷? ºÿÿÿ÷?ü³^U¥©=´O”„=j•UàX=~	İÿÿÿ÷?¨rºIÅ?·=4[ªòÿÿ÷?,Wªòÿÿ÷?#ûÕ”ñ?1—ùÕ”ñ?É—ùÕ”ñ? ”TG¬µè?ôqm«µTĞ?àqì6º¦ç?É—ùÕ”ñ?ì’TG¬µè?°m«µTĞ?V}†lıÑ?l}†lıÑ?x7õë•ã?•V3ŸËTî?vÜKîÿÿ÷?…Kƒ‹™+u>‘üŸËTî?›"õë•ã?2ÿÿÿ÷?h}†lıÑ?–>Û¾Å¹€=   "pĞ	¾   3½^#>·èîè?öÁ9è?nnv1	3ï?Ö@X¬İiî?ÙşJ1	3ï?kİÿÿÿ÷?* ºÿÿÿ÷?C"ºÿÿÿ÷? ºÿÿÿ÷?øQú=¥©=¼ sO”„=P‹‹UàX=~	İÿÿÿ÷?@«×IÅ?·=4[ªòÿÿ÷?,Wªòÿÿ÷?PŠ Ö”ñ?]ÿÕ”ñ?öÿÕ”ñ?!quK¬µè?‡Í‹´µTĞ?àqì6º¦ç?öÿÕ”ñ?puK¬µè?"Œ´µTĞ?\&k†lıÑ?s&k†lıÑ?-Wáë•ã?Ü4ŸËTî?vÜKîÿÿ÷?¶Kƒ‹™+u>ÖoÜŸËTî?QBáë•ã?2ÿÿÿ÷?n&k†lıÑ?\ıB¯Å¹€=   7pĞ	¾   C½^#>v¤îè?­”i39è?äÿvÏêVŸ=qì6º¦ç?Š>cBæ?à>cBæ?áaöÿÿÿç?¯ºÿÿÿ÷?Aºÿÿÿ÷?3İÿÿÿ÷?êºÿÿÿ÷?5Äê1Üè?cë¦)lê?vÜKîÿÿ÷?”?¤-u>KŞñ¦)lê?2ÿÿÿ÷?¥Pªòÿÿ÷? €iş)O#>   ¬6’	¾`U49è?¬òáqÜè?  @ZxL#> €Ü0p‡	¾§x 9è?uÇqÜè?¡Zuá9è?Qùõ9è?¡Zuá9è?’_öíüç?’_öíüç?WxaÀhø@ÉvaÀhø@      è?    Ğz¾      ø?‘zN#¿  põ‰W`¾      è?    LW)¾      è?    LW)¾`¨†Å¢Šß>@MÂ«¢Šß> €‘-kÕ	> àkBkÕ	>Qùõ9è?¡Zuá9è?         â™BÍï¾’_öíüç?’_öíüç?ãÛ8º¦ç?ıiô1Üè?@¬uë¤á?Ÿğ]ì,u>[]0–rô? ÜÌ7	3ï?€4x1	3ï?›Ok¼ó?R?Â?ƒ+u>¸dğöŠó?;Ÿ_Pîè?bÑb tÒ?â@ö†lıÑ?üÕ”ñ?Šûtì•ã?ÓUÇ ËTî?³ğWG¬µè?CÅo«µTĞ?|µİiî?        ³hÍl¼ó?¸?Â?ƒ+u>’û¯öŠó?ìÿdîè?ô—°a tÒ?èÈã†lıÑ?>~Ö”ñ?Aaì•ã?4§ ËTî?ÒÍxK¬µè?Ö ´µTĞ? ‰®İiî?        (ÚûW¥,u>R¹>cBæ?¼‰`=9õ?º‚ó¦)lê?                
+fKaæ9è?î«ªÑ¼y<–«)™Î=
+uÉËÄ= p¿İ¼y<–«)™Î=xòce  ƒ>–&œxßQ½                ‹pëø¾5¼?        fô]aíÑ?&5¼¹—<aà>ı:=zB¡bL= ¸’¹—<aà>ı:=ZhL#D\>¼©ı°ËÊÓ½               €ÿ2üG„åº?    À&¬=‚Åk‡t×?  ØæŸ„€;N²A¡:´<w
+XIİº<’øËEÁ!<„¾Nº³¶< ÔVÀÎÉ=âK1u-(>Ì¯Ãi™Ø=æU8º¦ç?aTûÌ‡»?    ÀT•=BìÿbÑ?€ìáœÅ<3^Vz=Hnÿ£ó·T=ÛrèP"(R=2ptÑê+= fGœ³>ğ õQÉá?Â Ëì1å>ŠS[FdÓ?€6öåÿæÅ?ï¶`,åà?Û”ˆJhØ?À2ºÅ<Èz^Vz=(¤ó·T=¹ñP"(R=2ptÑê+= |hŒGœ³>£ÚQÉá?»¸OËì1å>qùTFdÓ?
+0öåÿæÅ?ï¶`,åà?á”ˆJhØ? @‡Q_¼#ÿakÉôô<êK
+Só=¸^‰Ì‰…o<üQÄ©HÆõ< #4ÿh™=#t¾µ >·Èq Ã=øÅ0}NkÌ?Hµûİº?    ­xñ=õª{'› ×?NÜJB
+¿Å< ÕºN†Õ<‚{I=¹ïÿ§¸G=PºR8×<Aì§ìÊœ>3Y–R¿?’€ ô&å>€	
+3	3ï?rûiÜ?Tb°7º¦ç?ÔûñÎÆ?>'î?
+¿Å<Î)–ºN†Õ<¦{I=Şÿ§¸G=PºR8×<ef¥ìÊœ>Š·¦R¿?]·ô&å> 76	3ï?É~rûiÜ?Tb°7º¦ç?ÔûñÎÆ?RkŒ)#®<ØÚ9º³¶<¨úü&)=¨ûığÃ'=(G´R8·<
+ä°Cˆô‚>³ÿkâ>$0{éèÄ>æU8º¦ç?,İ„iÜ?Íêé6º¦ç?äÚòÎÆ?Ñ}ÄN= o=™õî2{=|8 òi„=Òóv•Ix=ˆX×\j¹=>·&»ÖA?ÔbWY!?ƒQÈ´»2õ>øÅ0}NkÌ?Š¶	šŞ?õÒPü[î?”#«¹| Ö?~689Ó<D )JBá<iıtÁTã<ÑÎO9Ó<h*rJBá<%®àAx?r'ó½W\	¾j—I >@éÈ]ì,u>/h4A3å?vÜKîÿÿ÷?_Ü›roŠÜ?ı|ˆ‚¼vŸææ<¸½<ûòg
+Ux•< ù­ô4<M‘ÖØF1À<pÄ¬ª=4Ú·Îvö=2½ùşP¼ª=æU8º¦ç?cãåğ¿?Ã€p8$.u>ã÷ZBİ?‘mß¾Nİ®<âµ~úÁ<À €›.À<s;Ùè_°<ù.JÁ<–)ìİà*?ÿ[ëY“ğ>cö q÷Ä> œ|Ë&®ˆ?ş>á¨D9Í?07ÉZEYè?¬wÙá?ºÀeu¼HíüÉ»İ<7M*6¬ÙÂ<€õïâËíS<OÁú^Šã<<‡ºÀQû=ˆnå|7>-m:"“í=¢Óêÿÿ÷?l‚<y}{¿?    }³>[1¡6-Ø?$rï†3#¼'gõ¯:¢<9Ç9k'Âr<Àiø'Úµ<ª>Œ–¾“<ñFšğT}=•ù˜´É=Àh²G~=€Sü[î?£×êR„£½?   š‚«j>Š÷L8EÛ?¦íÚsúJ=%{%{¿<„Ò¶R¶<œœ0·~)=ˆ§š&(=;=VÇ7·<±W^»kË”>DQ‘ásjè>©+5}ˆÓ>>uğ9è?rùÙÀâ?æ™®İiî?-<¯¯È? °d#v®d<gŞ,Îíüä<¹kyë˜ú=è|S‹Ú}=,*O§y5ç<€>E+r³>b\Xä•} ?ôm¯úŒé>ÂŠéÆğç?ìüAßHÇ?',#ÍöÌà?ãk
+zoM×?3Uz#;P¼ø0 ¾ ½ä<xˆş4óö< üğ2˜‘_<»È©HÆå<ï‚ìUÄ‡=Ÿ4"¿w>4¸§ö)³=èSQTÉÑ?·”Ïûİº?   €Êw>q‘(‡ø×?Šßº¤A¼X¸=eë©Ó<÷¿İ¤›òæ<  ;ÖWÌM<¿Ï©HÆÕ<Ê
+¥ûÎ„=±ã"Ö¼Gò=Üo¯±j£=ï«¶O"–á?}n$ûİº?   €õw>G×Ëd¾×?é
+ØÍ@¼#•¶œ
+@Ô<QnN8ğòæ< 0vA.÷N<KÏ©HÆÕ<â'[/Æy=ÍÓ,C0ò=à+˜)ÍJ£=x²˜§È­Ù?qXT!ûİº?   €ow>A{T¿…×?,ÑV"2	A¼ˆÆf”ÂÓ<Ú©¸©òæ< ÄŠì¢N<©Ï©HÆÕ<gP ¹g~=ª]NKFDò=;ˆè#¾e£=€öõÌöÌà?0*ê#ûİº?    Üw>[©)
+×?  Ğ5‘’»~œ|ÂxeË<W|¥”Ò<<Ï¬;xQ5<LIÓŒt¤Î<€ÓDnr0å=5ôÔB>@88]æoó=TI°İiî?›ë„V¼?     ©=• †ÑKvÒ?  €l¨±|»ğ ùÜ¿Ü<´ıFšâ<½çj¡mE<”+ÓŒt¤Ş<@Ü£3Ò¡ø=Ÿî—¬ÑM>”ƒ¤ãËâş=!üë•ã?¶=Æ„V¼?    €”„=ç«ÁŒNvÒ?  ˆhâÀ;t=˜µİ<Ö¬f¡â<.;€Å†E<%ÓŒt¤Ş< œ—I·û=Ÿ×À]>ÜE>³;¢Äö=Åha tÒ?ó.¢„V¼?     àX=­³¡!QvÒ?SqÒ"a2Q¼dÀôWûâ<ôı'÷4òö< <À,4\<9È©HÆå<`<ŞèHœ”==8]>ÕO/Œ³=bÄ¸SJç?¸5(ûİº?    A{>¦|Ï•×?                                                                                                  àqşlj;Ì
+{™†X³<,ìÇº<ÀzU¡h!<¥åNº³¶< à\L¾­Å=­³şÆ?,>·ß	Ì©¯Ü=bÓÖ”ñ?4VmûÌ‡»?    À?·=¢o«IşbÑ?‡ùÊä>#¼@È¢(bk’<jy@ˆ-
+s<@­}«õ<Sz>Œ–¾“<É”¡øªOq=';¸o§¿=D‘’ºÄ³r=x²˜§È­Ù?6Ú0½ƒ£½?   ˜I«j>ğö“¯4dÜ?ÃÊÓ,/#¼ù Ë„Tş‘<k^€Áùr<ÀXç?­<{>Œ–¾“<Ïß>=`xs=·ÜPë§Á=¼{Œ%Ùt=€öõÌöÌà?é½®Øƒ£½?   ªQ«j>ùZ.vÿ#Ü?                                                                                                 Th¬Ïf<ó0ÔÚ7=¹Ô2J©+`=SKE/ Z=‡¶³[¥= Õ„ËÚ‚>C|¬_m‹?×	IeªMÅ>x²˜§È­Ù?8²5qÀ?4‚œ§È­Ù?Ïí~6ÿÕ? 4Su‹³€<B?†c:õ<H1ŠÁÜI=ÛŠ½$BÊD=æøL¯êö< àÈwße>ŞÉgß“úò>q:–õ(±>…
+÷_4«á?¶9—7qÀ?ü]¢§È­Ù?ı»]ë3ÿÕ? z\°·–<’- 5Ô-ö<5¼2Ô~ãI=Ğj¢œ[ĞD=ÑøL¯êö< —oB®v>+§8ê¨ò>I3ÌŒç°>èSQTÉÑ?Ïó3qÀ?˜[¢§È­Ù?ˆ®8ÿÕ? Ú²u¢¡<ORE_]jö<Ôr)ÌşI=H6Íu\E=BI^9÷< + ao{>å ¢š‚ò>0³º`Ûá°>025‹¾¡Ï?Áš´÷¢À?¬)>™ËÜ?>æRÁÿÄØ?%ï¯†f6=ÃePŞQpç<Ô$—WóG=' ô5ğ+8=ã®İxç<	&kk¥²?±Ëâ`^CÏ>xÉŸo-±>à­Xp%™?İÄëıĞ? *:]®ç?Ñ§¢V“Û?r°Mˆ5*£<iĞ
+c6µ<® Í'\)=—·ß³'=0G´R8·<¤»§y>rÜR=Òâ>¡RŸÙÙAÅ>bÓÖ”ñ?dÁœiÜ?áëé6º¦ç?£kÂïñÎÆ? ôi*à“–<ú= J-ö<;#&„uãI=xUĞD=ÑøL¯êö< …"¬œv>C²;©ò>Sã	YSç°>´ãÔ &ÔÑ?6Œ|õ3qÀ?˜[¢§È­Ù?£îìª8ÿÕ? D|È(†<½êÀ©HÆõ<äÒ5òãI=«AËu›@E=¤XÓ4Ş÷<  [
+Ö­j>ºğ ¨ ò>Ë/â°>|à³pÀÜ?`ŒëuØ˜À?œºpÀÜ?IôMòŠÆØ? 0Øec÷ƒ<‘ªÀ©HÆõ<<ªºL‚J=€T<×E=^>b¢Á&÷< £è‘g>gó~jò>yY@8Ø°>à”jqQ‹à?-–JŠQÒÀ?:ŸkqQ‹à?÷·@ÂÇÀÜ?,ç•}Š<‚Üİá¸Ş<”êô’)=•¿Ï£q%=øpÆÕácß<n†át
+D¡>™º,B©ò>ÉÏë†Õ°>¢«µTĞ?ÍáŸ¹
+ŞÀ?ğJ†lıÑ?<%÷	6Ì?Dª–Ÿßˆ<2Äª)ãŞ<‹á¯µÖ)=ÙÍ™n%=úpÆÕácß<–H	Ë >Ã}O4äò>Éã¨óã±>Åha tÒ?¦VÄ
+ŞÀ?K†lıÑ?©URí6Ì?¡T–;È(z<Ôşô?|İ<Fù´¦¡/(=ˆ?{5âU$=èS¦m tß<HX^‘u˜>Ó ©û|ó>§ñ‹ ±>„ñ”/å?´²
+÷yÀ? Íu‹ÄÓ?Ğ=vxM=Ğ?R@ÚCÚî<h¶bÎ<ªÛıÉæ¨õ< /ÛUì1<\H/v}¢Î<×¤ÏÆ=OîuvRÍ=¾eÀ¡O|=à­Xp%™?ò›³)!K»? Ô]Ôe¿$h¼ZÔ?FN789Ó<"%)JBá<VuÁTã<NO9Ó<h*rJBá<›­&®àAx?õk^¥û\	¾Eì_7 >’Ä?ƒ+u>ìh4A3å?vÜKîÿÿ÷?lÜ›roŠÜ?¯ÕV	0
+¼ª|£`ıl¿<ÍL°|•< (æ.I+<@QÖØF1À<«E5hCª=³WKë1¯è=î¡»'¹={í„†lıÑ?æ¹ğ¿?}…‹™+u>–‰ş}ŞTİ?                                                                                                RºÔ÷…<î>ÀŒt¤Ş<ÒZÙ3Ä
+)=P(º¥ %=pçä›‹ß</®šx¢>K²‹,Aó>Ş¸ó¸±>´ĞhkpÖ?"L‡VDÕÀ?*HƒfkpÖ?Ø(ØsDÒ?û?o…MN‡< :ÇŒt¤Ş<v@ºI)=7EÁœ%=ôAÖ½Lxß<ê }ø{¡>¡ú_6ôò>Õˆ±>Ç,tQ¿;Ô?ÂëWÍÚÀ?çztP¿;Ô?’3UX0Ğ?8–ºÀeu¼´¯ìüÉ»İ<GE*6¬ÙÂ<€»ëâËíS<OÁú^Šã<a´ÄÀQû=d'nå|7>81"“í=À|Ôêÿÿ÷?{‚<y}{¿?    }³>À'1¡6-Ø?nK†–?àˆ<…ÍŒt¤Ş< OõS~)=êÒ4@o%=úpÆÕácß<®uãI‚å >ù(¥&}×ò><QŒ4±>{í„†lıÑ?uæñÁ
+ŞÀ?K†lıÑ?\SŸõ6Ì?  @S˜fÑ;²y|ÂxeÛ<ˆæ,=—q÷ôë‰<&*ÓŒt¤Ş<€£¢j5Óè=	D?ŞMQ>çˆ”h>TI°İiî?•éÏÔ×K»?    À¹€=“6Ì?öúG{úJ=8ã-{¿<v˜GÓ¶R¶<Ú‚v·~)=9Ï'(==3gÇ7·<UBZŞkË”>$%«âsjè>„GˆÓ>fKaæ9è?·ôÀâ?a¿±İiî?e<¯¯È? ®äu®d< œÌíüä<4Alé˜ú=ZméˆÚ}=è‚ §y5ç<€|:,+r³>YíÚ•} ?„b<áŒé>š´Æğç?&ª :ßHÇ?§öÉöÌà?q¬ıyoM×?aéÎ";P¼5êX¾ ½ä<¾Jˆş4óö< ô3˜‘_<»È©HÆå<fğìUÄ‡=`²
+¿w>ñ¢ß¦ö)³=ÄæªNÉÑ?”Ïûİº?   €Êw>–)‡ø×?å¡Ãº¤A¼9M eë©Ó<jøİ¤›òæ< ˆ×WÌM<¿Ï©HÆÕ<±È÷Î„=«eÖ¼Gò=V^g¯±j£=s£L"–á?ò|n$ûİº?   €õw>Íd¾×?SfÛÍ@¼M¹±œ
+@Ô<kN8ğòæ< ÔmA.÷N<KÏ©HÆÕ<˜âN[/Æy=»ÔÓ,C0ò=øU«)ÍJ£=Ğôæ§È­Ù?[XT!ûİº?   €ow>¶lT¿…×?¦6"2	A¼iş)g”ÂÓ<´â¸©òæ< ü_í¢N<©Ï©HÆÕ<Ú.íû¸g~=ÿŞ?KFDò=÷çÌ#¾e£= êÈÉöÌà?,*ê#ûİº?    Üw>™ª)
+×?  ğ5‘’»Z¶(ÂxeË<äz¥”Ò<±ı¥;xQ5<LIÓŒt¤Î<À}mr0å=èÌõÔB>…J<^æoó=\o³İiî?%›ë„V¼?     ©=ÕŸ†ÑKvÒ?   r¨±|»
++ğÜ¿Ü<ƒıFšâ<Š	j¡mE<”+ÓŒt¤Ş<€¯€3Ò¡ø=Â¾Ô¬ÑM>ƒfŞãËâş=©:Mì•ã?Ì=Æ„V¼?    €”„=Ò«ÁŒNvÒ?  „gâÀ;t7˜µİ<¥¬f¡â<*ö€Å†E<%ÓŒt¤Ş<@şI·û=+ì]>ÜE>›g¢Äö=°­Îa tÒ?ó.¢„V¼?     àX=Ÿ³¡!QvÒ?xIÆ"a2Q¼QõWûâ<Ç6(÷4òö< L¨-4\<9È©HÆå<a¯ÑåHœ”=àØ28]>O/Œ³=«ãµSJç?f¸5(ûİº?    A{>RØ}Ï•×?                                                                                                  @rşlj;„ã}™†X³<V,ìÇº<ò
+V¡h!<¥åNº³¶<€.jL¾­Å=…ïşÆ?,>zıË©¯Ü=ÌBÖ”ñ?)VmûÌ‡»?    À?·=¤o«IşbÑ?ÎÍä>#¼(bk’<s×?ˆ-
+s<@À˜}«õ<Sz>Œ–¾“<åˆ¶øªOq=ÛéØo§¿=rÂ¸ºÄ³r=Ğôæ§È­Ù?üÙ0½ƒ£½?   ˜I«j>1‘¯4dÜ?!D¶Ó,/#¼³r"…Tş‘<ë·k€Áùr<@–İA­<{>Œ–¾“<7—c;`xs=¦ROë§Á=œÃ%Ùt= êÈÉöÌà?¤½®Øƒ£½?   ªQ«j>8bvÿ#Ü?                                                                                                 h®Ïf<ó0ÔÚ7=´{J©+`=˜öE/ Z=h·[¥= %ÍÚ‚>$*
+am‹?¬gªMÅ>Ğôæ§È­Ù?´”í5qÀ?ŒÄê§È­Ù?â{í~6ÿÕ? tùv‹³€<ËÛ™c:õ<âd¥ŠÁÜI=éF%BÊD=4«’L¯êö< f[zße>gê|à“úò>÷#«—õ(±>¨·w_4«á?òÉZ—7qÀ?T ğ§È­Ù?f'^ë3ÿÕ?  Ä·–<(j5Ô-ö<=x«Ô~ãI=‡Ğ.[ĞD=«’L¯êö< ,¨B®v>àœ‘9ê¨ò>>ç°>ÄæªNÉÑ?ì¥Kó3qÀ?ğğ§È­Ù?H‰®8ÿÕ? (èy¢¡<…şE_]jö<éô)ÌşI=B?%u\E=`úC^9÷< ¡$ao{>[›£š‚ò>N[bÛá°>xÚÍ‰¾¡Ï?†¼Æ´÷¢À?ø™™™ËÜ?@f}ÀÿÄØ?j–ı¯†f6=e‚NŞQpç<£-§WóG=Kë6ğ+8=k^­İxç<§pl¥²?š±mb^CÏ>ëùv o-±>`.÷Xp%™?ğ;fëıĞ?r ]®ç?-êÃU“Û?~dˆ5*£<Vòc6µ<ÃİÍ'\)=’Ã·ß³'=0G´R8·<d‚8»§y>ÄÛR=Òâ>®WÙÙAÅ>ÌBÖ”ñ?	dÁœiÜ?áëé6º¦ç?¥kÂïñÎÆ? J>>à“–<ÇÖ‡ J-ö<¯Ò„uãI=ĞuUĞD=«’L¯êö< º+-¬œv>éR;©ò>ÛWZSç°>(&/û%ÔÑ?T¸õ3qÀ?ğğ§È­Ù?d[íª8ÿÕ? P#Ê(†<½êÀ©HÆõ</Ô66òãI=!"v›@E=ä	Î4Ş÷< üÖ­j>5Òñ!¨ ò>[Ú{â°>.¡pÀÜ?¢¯vØ˜À?º\pÀÜ?{šxñŠÆØ? |6hc÷ƒ<‘ªÀ©HÆõ<kúM‚J=‚­ =×E={°_¢Á&÷<  ò¦è‘g>I:õ~jò>©¿8Ø°>}>qQ‹à?	Ã±ŠQÒÀ?y‡?qQ‹à?ìoÁÇÀÜ?ñÎİ}Š<¸›“á¸Ş<àŞ”êô’)=µ™PĞ£q%=º-ÉÕácß<'rt
+D¡>–ãÑ-B©ò>3î†Õ°>l>E²µTĞ?¬·×¹
+ŞÀ?%ÖW†lıÑ?ª$÷	6Ì?U\í ßˆ<$ˆ©)ãŞ<™b7¶Ö)=¥¾±Í™n%=º-ÉÕácß<Ÿ¼2
+Ë >ÿNšP4äò>ë
+õã±>°­Îa tÒ?J,9Ä
+ŞÀ?<ÖW†lıÑ?¥URí6Ì?bs3:È(z<ºĞ¥?|İ<~7§¡/(=HØá5âU$=Øj¨m tß<SÌ‘u˜>¤ôÅü|ó>‘×uò‹ ±>µˆ‚/å?¾4
+÷yÀ?|?Ìu‹ÄÓ?±MxM=Ğ?<ùvÚî<, ÃaÎ<7ÃæÉæ¨õ< °¸ÂUì1<¾ìïu}¢Î<ßx"‰Æ=Ú`l»uRÍ=×‚»¹ O|=`.÷Xp%™?"‘³)!K»? s{e¿ü­¼ZÔ?FN789Ó<"%)JBá<VuÁTã<NO9Ó<h*rJBá<›­&®àAx?õk^¥û\	¾Eì_7 >¬"Ä?ƒ+u>ìh4A3å?vÜKîÿÿ÷?lÜ›roŠÜ?ÛÔc	0
+¼ú5Ÿ`ıl¿<Ë‚ÍL°|•< 6Ş.I+<@QÖØF1À<màÈgCª=5,€ë1¯è=REo'¹=±xĞ†lıÑ?ó¹ğ¿?r.…‹™+u>œ[ş}ŞTİ?                                                                                                aÆÓÕ÷…<î>ÀŒt¤Ş<¡l4Ä
+)=ü]_¥ %=-êä›‹ß<n ¤›x¢>´â«-Aó>Ğ‘0õ¸±>^vhkpÖ?5ÁVDÕÀ?Ô’àfkpÖ?éÙ)ØsDÒ?ƒÓ†MN‡< :ÇŒt¤Ş<mAºI)=­ocœ%=æ?Ù½Lxß</?~ø{¡>ë*7ôò>H¶LŠ±>¡üÉQ¿;Ô?«QWÍÚÀ?ÁJÊP¿;Ô?îL;UX0Ğ?8–ºÀeu¼´¯ìüÉ»İ<GE*6¬ÙÂ<€»ëâËíS<OÁú^Šã<a´ÄÀQû=d'nå|7>81"“í=À|Ôêÿÿ÷?{‚<y}{¿?    }³>À'1¡6-Ø?œõ—?àˆ<…ÍŒt¤Ş<ù|T~)=“¹m5@o%=º-ÉÕácß<ZªÕJ‚å >êÃ¾'}×ò>["ú4±>±xĞ†lıÑ?¼)Â
+ŞÀ?7ÖW†lıÑ?VSŸõ6Ì?   Q˜fÑ;“(ÂxeÛ<³ƒæ,=|pòôë‰<&*ÓŒt¤Ş<€¡i5Óè=„“&@ŞMQ>~¤ˆ”h>\o³İiî?•éÏÔ×K»?    À¹€=Š6Ì?  ïaoz;ƒ’1øJ´<ÌrÄ‰×º<œƒMó3´!<üÃNº³¶< 0úC®È=/ú~Ë9)>70b¦Ù=ˆ¤(§)lê?‹ZûÌ‡»?    àVŸ=qÌ{@ÿbÑ?eà•Òª<¾_˜ááµ<)fàM#)=H°éS¿'=*G´R8·<
+&p¦Ëï€>†´Ê‹à£â>9RŠ¶Å>ˆ¤(§)lê?
+v1iÜ?ëé6º¦ç?¨ÕòÎÆ?¯l›|	¼<!Dº³Æ<õËïµé8=*Ò3Ñ7=šhd‡-Ç<¢>º;n‘>/%BNK8ñ>yf:>¿Ñ>É>z>cBæ?J	qÔJtÚ? JŞ=cBæ?ú#òÎÆ?Šï*­¬6Ê<ko`Æ<TM3Ë	9=šî4ÔŠ7=nhd‡-Ç<Q”²(M—>§"§Î	ñ>û+ærB‘Ñ>€ğ¬ë¤á?­³ÌÆKtÚ?WDŞ=cBæ?ld¤GòÎÆ?ê­ªn‰<yå{R•å<xï	\­5=ØV2“}G3=*Œ4>ç<yşòÂIã‡>˜¥Yà]?˜Iğ”ÁÑ>[ú/<öã?Ò‡·çnÉ?D×³zr8â?Qwz§ŒØ?Üc›ë‰:A¼²Ót³Ò<ÓK%®òæ< X96ş}K<íÏ©HÆÕ<.e¶2‡=?¥’?Èdò=#¾ÿÛœ™£=7Á…Áœ½é?£Ø)ûİº?   @Ty>Ô÷¿~§×?p¥+ßDA¼K =2Ò<j¥µñæ< TDã\!J<áŸÏ©HÆÕ<•Aµ7='’À2yoò=Öµ›ÖŞ±£=€Sü[î?:-ğ,ûİº?   Àoz> 3gå×?²üÄúÛM¼ZãìŒŒå<Â,mhóö< ˜§GÇ,_<È©HÆå<0A¿‹ Ï=¯ ÂG`ñ>_zÃ±³=pW6Ç?, ëûİº?   €fw>Igüj!×?j8ñäâá@¼DY”Ó<øôUÃ­æ< (¾Zã[L<¼›Ğ²Õ<áÄ²C\ş‚=ğ¢pÃìô=›5_ãs¥=x[×XÖ“å?N/‡ûº?   €…x>t¿ç¸×?`0ã¡Vó‚<ÜÕÒœ 
+å<w”ÔJ¢5=°EEyÅ;3=ğÜoÓ=ç<6pOäl‚>ÖtÊGE?Ø€>Û>Ñ>¤Hın”è?@şË>KÉ?Ç¢ÏH–)â?^MªUØ?  —FÄF<KŠÂ²Õ<=(Y²H==?›{µØ…:=BSÛs}R×< l9†›rh>£ê€”Jî>· 
+šÅ>x[×XÖ“å?Üc4ïXÒ?ÏÍßXÖ“å?!ğm†³âÕ?§689Ó<:!)JBá<" uÁTã<F«O9Ó<h*rJBá<Zg%®àAx?5úw\	¾¶¾TG >¶ÚíW¥,u>°h4A3å?vÜKîÿÿ÷?aÜ›roŠÜ?…¤æSxz¼n-<¬…á½<&ôÀXÀx•< Ú»)Àú<´„ÖØF1À<PMŒÒ)ª=&¥ V†Šõ=¬¬[ß²¦©=É>z>cBæ?í“2ğ¿?|ü…?¤-u>"¶Ql#Dİ?Là"o´E=Ã¾à²÷<tÅ @ab=Ï£-IX=„Ûs}R÷</ªÖ7Âø>&`:²Á?ßƒ¬¨á>pW6Ç?Ô‘hÌíXÒ?éÿØXÖ“å?£¶âÕ?|œºÀeu¼íüÉ»İ<§K*6¬ÙÂ<€ ïâËíS<OÁú^Šã<Ë¸¼ÀQû=îºnå|7>´n:"“í=¨ZÓêÿÿ÷? ‚<y}{¿?    }³>iQ1¡6-Ø?’®×îÉ=#¼·Ñ³¶á}‘<³Ìô¶ær<€ÇH¸–›<N|>Œ–¾“<^ÊÎÖ{v=ãYã=&Ä=* {ÚUÅw=x[×XÖ“å?QÓoşƒ£½?   ¶^«j>À)ÕÕÛ?    JW)¾    LW)¾      ø?bghÙØt¼VHIÓr	è?                        Êÿÿÿÿ÷?                #ùhÎT•=                “³ıÿÿÿç?                “³ıÿÿÿç?                S‡îÿÿÿ÷?                Tb°7º¦ç?                Tb°7º¦ç?                Íêé6º¦ç?                -¯ë¤á?                vÜKîÿÿ÷?                Ã€p8$.u>                ‹FrÉÿÿ÷?                2ÿÿÿ÷?                ³>ªòÿÿ÷?                nC3	3ï?                æ™®İiî?                ÙÓÜ2	3ï?                kİÿÿÿ÷?                * ºÿÿÿ÷?                B"ºÿÿÿ÷?                 ºÿÿÿ÷?                €E¥©=                6_-N”„=                 ©UàX=                ~	İÿÿÿ÷?                XLYJÅ?·=                4[ªòÿÿ÷?                +Wªòÿÿ÷?                sßÖ”ñ?                hÖ”ñ?                iÖ”ñ?                6A8G¬µè?                À¾Ÿ«µTĞ?                áëé6º¦ç?                iÖ”ñ?                "@8G¬µè?                \ıŸ«µTĞ?                ğJ†lıÑ?                K†lıÑ?                É|ë•ã?                =ötËTî?                vÜKîÿÿ÷?                }…‹™+u>                61>ŸËTî?                1´|ë•ã?                2ÿÿÿ÷?                K†lıÑ?                h0ú³Å¹€=                  €2pĞ	¾  €?½^#><¤‰Ÿîè?Ãc.9è?ïO56	3ï?                a¿±İiî?                Yà	6	3ï?                kİÿÿÿ÷?                * ºÿÿÿ÷?                B"ºÿÿÿ÷?                 ºÿÿÿ÷?                \šïN¥©=                ¬"3O”„=                (bêUàX=                ~	İÿÿÿ÷?                œñIÅ?·=                4[ªòÿÿ÷?                +Wªòÿÿ÷?                İNÖ”ñ?                ë×Ö”ñ?                „ØÖ”ñ?                ¢¿]J¬µè?                ëB²µTĞ?                áëé6º¦ç?                „ØÖ”ñ?                ¾]J¬µè?                ¸)C²µTĞ?                %ÖW†lıÑ?                <ÖW†lıÑ?                –vÍë•ã?                IôËTî?                vÜKîÿÿ÷?                r.…‹™+u>                „½ŸËTî?                ¹aÍë•ã?                2ÿÿÿ÷?                7ÖW†lıÑ?                ¤-‘ºÅ¹€=                   'pĞ	¾  À7½^#>Ù˜Ô•îè?8ç­$9è?@ìWĞêVŸ=                ëé6º¦ç?                 JŞ=cBæ?                WDŞ=cBæ?                àaöÿÿÿç?                ¯ºÿÿÿ÷?                Aºÿÿÿ÷?                3İÿÿÿ÷?                êºÿÿÿ÷?                ]–Ú1Üè?                12 §)lê?                vÜKîÿÿ÷?                |ü…?¤-u>                 '§)lê?                2ÿÿÿ÷?                ¥Pªòÿÿ÷?                  gB'M#>   Ì+Š	¾ÌÂ]%9è?£©½qÜè?   á{N#> €º<~	¾s/9è?¾÷ÊqÜè?>uğ9è?fKaæ9è?>uğ9è?’_öíüç?’_öíüç?İuaÀhø@¥saÀhø@      è?    Ğz¾      ø?txyN#¿        txyN#¿                  xğ‰W`¾      è?<H‡;í<¾      è?      è?à6²¢Šß> ğ¾¢Šß> ÀÈ=kÕ	> € 3kÕ	>   °SjS>fKaæ9è?>uğ9è?        ,Ş•BÍï¾’_öíüç?’_öíüç?æU8º¦ç?%<ä1Üè?€ğ¬ë¤á?@éÈ]ì,u>AçY0–rô?€	
+3	3ï? 76	3ï?«ëj¼ó?’Ä?ƒ+u>ÇÊöŠó?¾‹ _îè?Åha tÒ?{í„†lıÑ?bÓÖ”ñ?!üë•ã?{õ ËTî?è;G¬µè?¢«µTĞ?TI°İiî?        OFUl¼ó?¬"Ä?ƒ+u>v64öŠó?v€KUîè?°­Îa tÒ?±xĞ†lıÑ?ÌBÖ”ñ?©:Mì•ã?XHˆ ËTî?UaJ¬µè?l>E²µTĞ?\o³İiî?        ¶ÚíW¥,u>É>z>cBæ?’U=9õ?ˆ¤(§)lê?                
