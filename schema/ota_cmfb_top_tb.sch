@@ -106,7 +106,7 @@ echo results_save_end
 plot op_mag op_ph
 .endc
 "
-spice_ignore=true}
+}
 C {code_shown.sym} -420 -620 0 0 {name=PARAMS only_toplevel=false value="
 .option rshunt=1e9
 .options method=gear
@@ -125,7 +125,7 @@ RL2 Voutn 0 100k
 "
 }
 C {ac_diff_probe/ac_diff_probe.sym} 180 -90 0 0 {name=xprobe1 vcm=\{vcm_in\} vac=\{vac\}
-spice_ignore=true}
+}
 C {devices/code_shown.sym} -770 -610 0 0 {name=SAVE only_toplevel=true
 format="tcleval( @value )"
 value="
@@ -420,4 +420,4 @@ setplot noise2
 print inoise_total onoise_total
 .endc
 "
-}
+spice_ignore=true}

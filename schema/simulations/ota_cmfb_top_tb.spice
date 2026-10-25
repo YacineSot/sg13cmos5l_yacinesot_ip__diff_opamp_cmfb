@@ -1,5 +1,6 @@
 ** sch_path: /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/schema/ota_cmfb_top_tb.sch
 **.subckt ota_cmfb_top_tb
+xprobe1 Vinp net3 Vinn net4 ac_diff_probe vcm={vcm_in} vac={vac}
 Vmeas2 net1 Voutn 0
 .save i(vmeas2)
 Vmeas3 net2 Voutp 0
@@ -46,6 +47,29 @@ write ota_cmfb_top_tb.raw
 
 
 
+.control
+ac dec 50 100 100G
+let vout_diff = voutp-voutn
+let vin_diff = vinp-vinn
+let diff_gain=vout_diff/vin_diff
+let op_mag=db(diff_gain)
+let op_ph = 180*cph(diff_gain)/pi + 180
+let vcm_1 = (voutp+voutn)/2
+let vcm_err = mag((vcm_1 - {vcm}))[0]
+echo results_save_begin
+meas ac dc_gain find op_mag when frequency=1000
+meas ac gain_margin find op_mag when op_ph=0
+meas ac phase_margin find op_ph when op_mag=0
+meas ac bw_3db find frequency when op_mag=dc_gain-3
+meas ac Gain_BW find frequency when op_mag=0
+print vcm_err
+echo results_save_end
+plot op_mag op_ph
+.endc
+
+
+
+
 .option rshunt=1e9
 .options method=gear
 .param vcm=0.75 vcm_in=0.75 cl=0.1p vac=1
@@ -76,26 +100,6 @@ RL2 Voutn 0 100k
 **Gain_BW
 **vcm_err
 **results_plot_end
-
-
-
-
-VICM  vicm  0  DC 0.75
-VDIFF vdiff 0  DC 0 AC 1
-EIP Vinp vicm vdiff 0  0.5
-EIN Vinn vicm vdiff 0 -0.5
-EOD vod 0 Voutp Voutn 1
-
-.control
-save all
-noise v(vod) VDIFF dec 10 1 10k
-run
-noise v(vod) VDIFF dec 10 1 10Meg
-setplot noise3
-plot loglog inoise_spectrum onoise_spectrum
-setplot noise2
-print inoise_total onoise_total
-.endc
 
 
 **** end user architecture code
@@ -136,6 +140,16 @@ XM1 VSS VSS VSS VSS sg13_lv_nmos w=3.2u l=0.5u ng=1 m=10 mm_ok=1
 XM2 VDD VDD VDD VDD sg13_lv_pmos w=1.985u l=0.5u ng=1 m=100 mm_ok=1
 XD1 VSS EN dantenna l=0.78u w=0.78u
 XD2 EN VDD dpantenna l=1.34u w=1.05u
+XPCLAMP1 VDD VSS Voutp sg13cmos5l_Clamp_P20N0D
+XPCLAMP2 VDD VSS Voutn sg13cmos5l_Clamp_P20N0D
+XPCLAMP3 VDD VSS Vcm sg13cmos5l_Clamp_P20N0D
+**** begin user architecture code
+
+
+.include /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/schema/sg13cmos5l_Clamp_P20N0D/sg13cmos5l_Clamp_P20N0D.spice
+
+
+**** end user architecture code
 .ends
 
 

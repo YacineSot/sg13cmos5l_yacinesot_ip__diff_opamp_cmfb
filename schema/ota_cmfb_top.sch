@@ -49,6 +49,15 @@ N 430 80 430 90 {lab=EN}
 N 430 -10 430 20 {lab=VDD}
 N 430 160 430 190 {lab=VSS}
 N -70 150 -70 170 {lab=Vbias}
+N 630 150 650 150 {lab=VSS}
+N 630 30 650 30 {lab=VSS}
+N 800 30 820 30 {lab=VSS}
+N 590 -20 590 -0 {lab=VDD}
+N 760 -20 760 -0 {lab=VDD}
+N 590 100 590 120 {lab=VDD}
+N 590 60 590 80 {lab=Voutp}
+N 760 60 760 80 {lab=Voutn}
+N 590 180 590 200 {lab=Vcm}
 C {ota_cmfb_core/ota_cmfb_core.sym} -110 210 0 0 {name=xopamp1}
 C {iopin.sym} -110 110 0 1 {name=p1 lab=VDD}
 C {lab_pin.sym} -220 210 0 0 {name=p2 lab=Vcm_reg}
@@ -145,3 +154,21 @@ C {lab_pin.sym} 430 190 0 0 {name=p18 lab=VSS}
 C {lab_pin.sym} 450 90 0 1 {name=p19 lab=EN}
 C {lab_pin.sym} -70 150 0 1 {name=p20 lab=Vbias}
 C {lab_pin.sym} 820 -230 0 0 {name=p10 lab=Vbias}
+C {schema/sg13cmos5l_Clamp_P20N0D/sg13cmos5l_Clamp_P20N0D.sym} 590 30 0 0 {name=XPCLAMP1}
+C {schema/sg13cmos5l_Clamp_P20N0D/sg13cmos5l_Clamp_P20N0D.sym} 760 30 0 0 {name=XPCLAMP2}
+C {schema/sg13cmos5l_Clamp_P20N0D/sg13cmos5l_Clamp_P20N0D.sym} 590 150 0 0 {name=XPCLAMP3}
+C {lab_pin.sym} 650 30 0 1 {name=p21 lab=VSS}
+C {lab_pin.sym} 820 30 0 1 {name=p22 lab=VSS}
+C {lab_pin.sym} 650 150 0 1 {name=p23 lab=VSS}
+C {lab_pin.sym} 590 -20 0 1 {name=p24 lab=VDD}
+C {lab_pin.sym} 760 -20 0 1 {name=p25 lab=VDD}
+C {lab_pin.sym} 590 100 0 1 {name=p26 lab=VDD}
+C {code_shown.sym} -360 -430 0 0 {name=s1 only_toplevel=false 
+value="tcleval(
+.include $::SG13CMOS5L_YACINESOT_IP_ROOT/schema/sg13cmos5l_Clamp_P20N0D/sg13cmos5l_Clamp_P20N0D.spice
+)"}
+C {lab_pin.sym} 590 80 2 0 {name=p27 lab=Voutp
+}
+C {lab_pin.sym} 760 80 0 1 {name=p33 lab=Voutn
+}
+C {lab_pin.sym} 590 200 0 1 {name=p34 lab=Vcm}

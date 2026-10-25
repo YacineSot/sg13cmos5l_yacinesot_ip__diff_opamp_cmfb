@@ -1,0 +1,29 @@
+v {xschem version=3.4.8RC file_version=1.3}
+G {}
+K {type=primitive
+lvs_format="@name @pinlist @symname"
+format="@name @pinlist @symname"
+template="name=XPCLAMP1"
+}
+V {}
+S {type=primitive
+lvs_format="@name @pinlist @symname"
+format="@name @pinlist @symname"
+template="name=XPCLAMP1"
+}
+F {}
+E {}
+L 4 0 -30 0 -5 {}
+L 4 0 5 0 30 {}
+L 4 -10 -5 10 -5 {}
+B 4 -30 -30 30 20 {fill=0}
+B 4 -40 -40 40 40 {fill=0}
+B 5 -2.5 -32.5 2.5 -27.5 {name=VDD dir=inout}
+B 5 37.5 -2.5 42.5 2.5 {name=sub dir=inout}
+B 5 -2.5 27.5 2.5 32.5 {name=pad dir=inout}
+P 4 4 0 -5 -10 5 10 5 0 -5 {fill=true}
+T {pad} -5 31.25 2 0 0.15 0.15 {layer=7}
+T {VDD} -5 -17.5 2 0 0.15 0.15 {layer=7}
+T {SUB} 58.75 5 2 0 0.15 0.15 {layer=7}
+T {@symname} 20 -51.25 0 0 0.15 0.15 {}
+T {@name} -41.25 -51.25 0 0 0.15 0.15 {}
