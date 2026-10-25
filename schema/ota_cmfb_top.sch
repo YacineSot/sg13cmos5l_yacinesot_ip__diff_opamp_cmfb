@@ -154,9 +154,9 @@ C {lab_pin.sym} 430 190 0 0 {name=p18 lab=VSS}
 C {lab_pin.sym} 450 90 0 1 {name=p19 lab=EN}
 C {lab_pin.sym} -70 150 0 1 {name=p20 lab=Vbias}
 C {lab_pin.sym} 820 -230 0 0 {name=p10 lab=Vbias}
-C {schema/sg13cmos5l_Clamp_P20N0D/sg13cmos5l_Clamp_P20N0D.sym} 590 30 0 0 {name=XPCLAMP1}
-C {schema/sg13cmos5l_Clamp_P20N0D/sg13cmos5l_Clamp_P20N0D.sym} 760 30 0 0 {name=XPCLAMP2}
-C {schema/sg13cmos5l_Clamp_P20N0D/sg13cmos5l_Clamp_P20N0D.sym} 590 150 0 0 {name=XPCLAMP3}
+C {schema/sg13cmos5l_ESD_Protection/sg13cmos5l_ESD_Protection.sym} 590 30 0 0 {name=XPCLAMP1}
+C {schema/sg13cmos5l_ESD_Protection/sg13cmos5l_ESD_Protection.sym} 760 30 0 0 {name=XPCLAMP2}
+C {schema/sg13cmos5l_ESD_Protection/sg13cmos5l_ESD_Protection.sym} 590 150 0 0 {name=XPCLAMP3}
 C {lab_pin.sym} 650 30 0 1 {name=p21 lab=VSS}
 C {lab_pin.sym} 820 30 0 1 {name=p22 lab=VSS}
 C {lab_pin.sym} 650 150 0 1 {name=p23 lab=VSS}
@@ -165,7 +165,7 @@ C {lab_pin.sym} 760 -20 0 1 {name=p25 lab=VDD}
 C {lab_pin.sym} 590 100 0 1 {name=p26 lab=VDD}
 C {code_shown.sym} -360 -430 0 0 {name=s1 only_toplevel=false 
 value="tcleval(
-.include $::SG13CMOS5L_YACINESOT_IP_ROOT/schema/sg13cmos5l_Clamp_P20N0D/sg13cmos5l_Clamp_P20N0D.spice
+.include $::SG13CMOS5L_YACINESOT_IP_ROOT/schema/sg13cmos5l_ESD_Protection/sg13cmos5l_ESD_Protection.spice
 )"}
 C {lab_pin.sym} 590 80 2 0 {name=p27 lab=Voutp
 }
