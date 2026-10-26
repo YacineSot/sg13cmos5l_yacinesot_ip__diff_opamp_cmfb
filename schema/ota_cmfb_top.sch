@@ -52,9 +52,9 @@ N -70 150 -70 170 {lab=Vbias}
 N 630 150 650 150 {lab=VSS}
 N 630 30 650 30 {lab=VSS}
 N 800 30 820 30 {lab=VSS}
-N 590 -20 590 -0 {lab=VDD}
-N 760 -20 760 -0 {lab=VDD}
-N 590 100 590 120 {lab=VDD}
+N 590 -20 590 -0 {lab=VDD_BUS}
+N 760 -20 760 -0 {lab=VDD_BUS}
+N 590 100 590 120 {lab=VDD_BUS}
 N 590 60 590 80 {lab=Voutp}
 N 760 60 760 80 {lab=Voutn}
 N 590 180 590 200 {lab=Vcm}
@@ -160,15 +160,43 @@ C {schema/sg13cmos5l_ESD_Protection/sg13cmos5l_ESD_Protection.sym} 590 150 0 0 {
 C {lab_pin.sym} 650 30 0 1 {name=p21 lab=VSS}
 C {lab_pin.sym} 820 30 0 1 {name=p22 lab=VSS}
 C {lab_pin.sym} 650 150 0 1 {name=p23 lab=VSS}
-C {lab_pin.sym} 590 -20 0 1 {name=p24 lab=VDD}
-C {lab_pin.sym} 760 -20 0 1 {name=p25 lab=VDD}
-C {lab_pin.sym} 590 100 0 1 {name=p26 lab=VDD}
+C {lab_pin.sym} 590 -20 0 1 {name=p24 lab=VDD_BUS}
+C {lab_pin.sym} 760 -20 0 1 {name=p25 lab=VDD_BUS}
+C {lab_pin.sym} 590 100 0 1 {name=p26 lab=VDD_BUS}
 C {code_shown.sym} -360 -430 0 0 {name=s1 only_toplevel=false 
 value="tcleval(
 .include $::SG13CMOS5L_YACINESOT_IP_ROOT/schema/sg13cmos5l_ESD_Protection/sg13cmos5l_ESD_Protection.spice
-)"}
+)"
+lvs_ignore=1
+}
 C {lab_pin.sym} 590 80 2 0 {name=p27 lab=Voutp
 }
 C {lab_pin.sym} 760 80 0 1 {name=p33 lab=Voutn
 }
 C {lab_pin.sym} 590 200 0 1 {name=p34 lab=Vcm}
+C {code_shown.sym} 350 -310 0 0 {name=s2 only_toplevel=false 
+value="
+VDD_BUS VDD_BUS 0 1.5
+"
+lvs_ignore=1}
+C {code.sym} 590 -340 0 0 {name=XCLAMP_LVS_NETLIST only_toplevel=false value="
+*.PININFO iovdd:B iovss:B pad:B
+.subckt sg13cmos5l_ESD_Protection iovdd iovss pad
+XI0 iovdd iovss pad sg13cmos5l_Clamp_P20N0D
+XI2 pad iovdd iovss sg13cmos5l_DCPDiode
+.ends
+
+.subckt sg13cmos5l_Clamp_P20N0D iovdd iovss pad
+MP1 pad net2 iovdd iovdd sg13_hv_pmos w=133.2u l=600.0n ng=20 ad=2.531e-11 as=2.731e-11 pd=0.0001408 ps=0.0001547 m=1
+MP0 pad net2 iovdd iovdd sg13_hv_pmos w=133.2u l=600.0n ng=20 ad=2.531e-11 as=2.731e-11 pd=0.0001408 ps=0.0001547 m=1
+R0 net2 iovdd iovdd rppd R=6.768K l=12.9u w=500n
+.ends
+
+.subckt sg13cmos5l_DCPDiode anode cathode guard
+D1 anode cathode dpantenna l=27.78u w=1.26u m=1
+D0 anode cathode dpantenna l=27.78u w=1.26u m=1
+.ends
+
+"
+
+spice_ignore="tcleval([expr \{[info exists ::lvs_netlist] ? !$::lvs_netlist : 1\}])"}

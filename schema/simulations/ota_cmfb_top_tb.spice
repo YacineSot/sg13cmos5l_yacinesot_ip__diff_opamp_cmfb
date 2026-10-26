@@ -140,13 +140,20 @@ XM1 VSS VSS VSS VSS sg13_lv_nmos w=3.2u l=0.5u ng=1 m=10 mm_ok=1
 XM2 VDD VDD VDD VDD sg13_lv_pmos w=1.985u l=0.5u ng=1 m=100 mm_ok=1
 XD1 VSS EN dantenna l=0.78u w=0.78u
 XD2 EN VDD dpantenna l=1.34u w=1.05u
-XPCLAMP1 VDD VSS Voutp sg13cmos5l_ESD_Protection
-XPCLAMP2 VDD VSS Voutn sg13cmos5l_ESD_Protection
-XPCLAMP3 VDD VSS Vcm sg13cmos5l_ESD_Protection
+XPCLAMP1 VDD_BUS VSS Voutp sg13cmos5l_ESD_Protection
+XPCLAMP2 VDD_BUS VSS Voutn sg13cmos5l_ESD_Protection
+XPCLAMP3 VDD_BUS VSS Vcm sg13cmos5l_ESD_Protection
 **** begin user architecture code
 
 
 .include /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/schema/sg13cmos5l_ESD_Protection/sg13cmos5l_ESD_Protection.spice
+
+
+**** end user architecture code
+**** begin user architecture code
+
+
+VDD_BUS VDD_BUS 0 1.5
 
 
 **** end user architecture code

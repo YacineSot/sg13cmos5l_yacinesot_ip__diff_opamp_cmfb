@@ -5,8 +5,8 @@ XI2 pad iovdd iovss sg13cmos5l_DCPDiode
 .ends
 
 .subckt sg13cmos5l_Clamp_P20N0D iovdd iovss pad
-XP1 pad net2 iovdd iovdd sg13_hv_pmos w=133.2u l=600.0n ng=20 ad=2.531e-11 as=2.731e-11 pd=0.0001408 ps=0.0001547 m=1
-XP0 pad net2 iovdd iovdd sg13_hv_pmos w=133.2u l=600.0n ng=20 ad=2.531e-11 as=2.731e-11 pd=0.0001408 ps=0.0001547 m=1
+XMP1 pad net2 iovdd iovdd sg13_hv_pmos w=133.2u l=600.0n ng=20 ad=2.531e-11 as=2.731e-11 pd=0.0001408 ps=0.0001547 m=1
+XMP0 pad net2 iovdd iovdd sg13_hv_pmos w=133.2u l=600.0n ng=20 ad=2.531e-11 as=2.731e-11 pd=0.0001408 ps=0.0001547 m=1
 XR0 net2 iovdd iovdd rppd R=6.768K l=12.9u w=500n
 XR1 iovss sub! ptap1 R=9.826
 .ends

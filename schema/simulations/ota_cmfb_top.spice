@@ -10,13 +10,29 @@ MM1 VSS VSS VSS VSS sg13_lv_nmos w=3.2u l=0.5u ng=1 m=10
 MM2 VDD VDD VDD VDD sg13_lv_pmos w=1.985u l=0.5u ng=1 m=100
 DD1 VSS EN dantenna l=0.78u w=0.78u
 DD2 EN VDD dpantenna l=1.34u w=1.05u
-XPCLAMP1 VDD VSS Voutp sg13cmos5l_ESD_Protection
-XPCLAMP2 VDD VSS Voutn sg13cmos5l_ESD_Protection
-XPCLAMP3 VDD VSS Vcm sg13cmos5l_ESD_Protection
+XPCLAMP1 VDD_BUS VSS Voutp sg13cmos5l_ESD_Protection
+XPCLAMP2 VDD_BUS VSS Voutn sg13cmos5l_ESD_Protection
+XPCLAMP3 VDD_BUS VSS Vcm sg13cmos5l_ESD_Protection
 **** begin user architecture code
 
 
-.include /run/media/yacinesot/My_Files/XschemDesigns/designs/Chipalooza2/schema/sg13cmos5l_ESD_Protection/sg13cmos5l_ESD_Protection.spice
+*.PININFO iovdd:B iovss:B pad:B
+.subckt sg13cmos5l_ESD_Protection iovdd iovss pad
+XI0 iovdd iovss pad sg13cmos5l_Clamp_P20N0D
+XI2 pad iovdd iovss sg13cmos5l_DCPDiode
+.ends
+
+.subckt sg13cmos5l_Clamp_P20N0D iovdd iovss pad
+MP1 pad net2 iovdd iovdd sg13_hv_pmos w=133.2u l=600.0n ng=20 ad=2.531e-11 as=2.731e-11 pd=0.0001408 ps=0.0001547
+MP0 pad net2 iovdd iovdd sg13_hv_pmos w=133.2u l=600.0n ng=20 ad=2.531e-11 as=2.731e-11 pd=0.0001408 ps=0.0001547
+R0 net2 iovdd iovdd rppd R=6.768K l=12.9u w=500n
+.ends
+
+.subckt sg13cmos5l_DCPDiode anode cathode guard
+D1 anode cathode dpantenna l=27.78u w=1.26u
+D0 anode cathode dpantenna l=27.78u w=1.26u
+.ends
+
 
 
 **** end user architecture code
