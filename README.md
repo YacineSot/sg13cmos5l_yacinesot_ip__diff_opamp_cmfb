@@ -45,7 +45,7 @@ The amplifier addresses the classic dual Right-Half-Plane (RHP) zero instability
 | **Integrated Input Noise (1 Hz – 10 kHz)** | **19.60 ± 0.05** | µV_rms | Audio / Low-frequency band (PEX Monte Carlo) |
 | **Integrated Input Noise (1 Hz – 50 MHz)** | **186.89** | µV_rms | Full GBW bandwidth ($3.1\times$ lower than 12-bit LSB) |
 | **Equivalent Dynamic Range / Resolution** | 73.1 / 11.86 | dB / bits | Full-bandwidth ENOB (15.1 bits in 10 kHz band) |
-| **Layout Area / Matching** | Common-Centroid PCell | — | Pattern-driven, integrated $1\times W$ dummies & row taps |
+**Layout Dimensions & Area** | **128 µm × 83** (**0.0106**) | µm (mm²) | —Unified common-centroid PCell array with $1\\times W$ dummies &amp; row taps
 | **Verification Status** | 100% DRC / LVS Clean | — | PEX verified; submitted to Chipalooza Shuttle |
 
 ---
