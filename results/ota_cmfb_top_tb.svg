@@ -1,660 +1,685 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1854" height="939" version="1.1">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="907" version="1.1">
 <style type="text/css">
 .l0{
-  fill: #000000;
-  stroke: #000000;
+  fill: #ffffff;
+  stroke: #ffffff;
   stroke-linecap:round;
   stroke-linejoin:round;
-  stroke-width: 0.728276;
+  stroke-width: 0.618053;
 }
 .l1{
-  fill: #00ddff;
-  stroke: #00ddff;
+  fill: #0099cc;
+  stroke: #0099cc;
   stroke-linecap:round;
   stroke-linejoin:round;
-  stroke-width: 0.728276;
+  stroke-width: 0.618053;
 }
 .l2{
-  fill: #4f4f4f; fill-opacity: 0.2;
-  stroke: #4f4f4f;
+  fill: #aaaaaa; fill-opacity: 0.2;
+  stroke: #aaaaaa;
   stroke-linecap:round;
   stroke-linejoin:round;
-  stroke-width: 0.728276;
+  stroke-width: 0.618053;
 }
 .l3{
-  fill: #cccccc; fill-opacity: 0.5;
-  stroke: #cccccc;
+  fill: #222222; fill-opacity: 0.5;
+  stroke: #222222;
   stroke-linecap:round;
   stroke-linejoin:round;
-  stroke-width: 0.728276;
+  stroke-width: 0.618053;
 }
 .l4{
-  fill: #88dd00;
-  stroke: #88dd00;
+  fill: #229900;
+  stroke: #229900;
   stroke-linecap:round;
   stroke-linejoin:round;
-  stroke-width: 0.728276;
+  stroke-width: 0.618053;
 }
 .l5{
   fill: #bb2200;
   stroke: #bb2200;
   stroke-linecap:round;
   stroke-linejoin:round;
-  stroke-width: 0.728276;
+  stroke-width: 0.618053;
 }
 .l6{
-  fill: #00aaff; fill-opacity: 0.5;
-  stroke: #00aaff;
+  fill: #0066cc; fill-opacity: 0.5;
+  stroke: #0066cc;
   stroke-linecap:round;
   stroke-linejoin:round;
-  stroke-width: 0.728276;
+  stroke-width: 0.618053;
 }
 .l7{
   fill: #ff0000; fill-opacity: 0.5;
   stroke: #ff0000;
   stroke-linecap:round;
   stroke-linejoin:round;
-  stroke-width: 0.728276;
+  stroke-width: 0.618053;
 }
 .l8{
-  fill: #ffff00; fill-opacity: 0.5;
-  stroke: #ffff00;
+  fill: #888800; fill-opacity: 0.5;
+  stroke: #888800;
   stroke-linecap:round;
   stroke-linejoin:round;
-  stroke-width: 0.728276;
+  stroke-width: 0.618053;
 }
 .l9{
-  fill: #ffffff; fill-opacity: 0.5;
-  stroke: #ffffff;
+  fill: #00aaaa; fill-opacity: 0.5;
+  stroke: #00aaaa;
   stroke-linecap:round;
   stroke-linejoin:round;
-  stroke-width: 0.728276;
+  stroke-width: 0.618053;
 }
 .l10{
-  fill: #ff00ff;
-  stroke: #ff00ff;
+  fill: #880088;
+  stroke: #880088;
   stroke-linecap:round;
   stroke-linejoin:round;
-  stroke-width: 0.728276;
+  stroke-width: 0.618053;
 }
 .l11{
   fill: #00ff00; fill-opacity: 0.5;
   stroke: #00ff00;
   stroke-linecap:round;
   stroke-linejoin:round;
-  stroke-width: 0.728276;
+  stroke-width: 0.618053;
 }
 .l12{
-  fill: #0044ff; fill-opacity: 0.5;
-  stroke: #0044ff;
+  fill: #0000cc; fill-opacity: 0.5;
+  stroke: #0000cc;
   stroke-linecap:round;
   stroke-linejoin:round;
-  stroke-width: 0.728276;
+  stroke-width: 0.618053;
 }
 .l13{
-  fill: #aaaa00; fill-opacity: 0.5;
-  stroke: #aaaa00;
+  fill: #666600; fill-opacity: 0.5;
+  stroke: #666600;
   stroke-linecap:round;
   stroke-linejoin:round;
-  stroke-width: 0.728276;
+  stroke-width: 0.618053;
 }
 .l14{
-  fill: #aaccaa; fill-opacity: 0.2;
-  stroke: #aaccaa;
+  fill: #557755; fill-opacity: 0.2;
+  stroke: #557755;
   stroke-linecap:round;
   stroke-linejoin:round;
-  stroke-width: 0.728276;
+  stroke-width: 0.618053;
 }
 .l15{
-  fill: #ff7777; fill-opacity: 0.5;
-  stroke: #ff7777;
+  fill: #aa2222; fill-opacity: 0.5;
+  stroke: #aa2222;
   stroke-linecap:round;
   stroke-linejoin:round;
-  stroke-width: 0.728276;
+  stroke-width: 0.618053;
 }
 .l16{
-  fill: #bfff81; fill-opacity: 0.5;
-  stroke: #bfff81;
+  fill: #7ccc40; fill-opacity: 0.5;
+  stroke: #7ccc40;
   stroke-linecap:round;
   stroke-linejoin:round;
-  stroke-width: 0.728276;
+  stroke-width: 0.618053;
 }
 .l17{
   fill: #00ffcc; fill-opacity: 0.2;
   stroke: #00ffcc;
   stroke-linecap:round;
   stroke-linejoin:round;
-  stroke-width: 0.728276;
+  stroke-width: 0.618053;
 }
 .l18{
   fill: #ce0097; fill-opacity: 0.5;
   stroke: #ce0097;
   stroke-linecap:round;
   stroke-linejoin:round;
-  stroke-width: 0.728276;
+  stroke-width: 0.618053;
 }
 .l19{
   fill: #d2d46b; fill-opacity: 0.2;
   stroke: #d2d46b;
   stroke-linecap:round;
   stroke-linejoin:round;
-  stroke-width: 0.728276;
+  stroke-width: 0.618053;
 }
 .l20{
   fill: #ef6158; fill-opacity: 0.2;
   stroke: #ef6158;
   stroke-linecap:round;
   stroke-linejoin:round;
-  stroke-width: 0.728276;
+  stroke-width: 0.618053;
 }
 .l21{
   fill: #fdb200; fill-opacity: 0.2;
   stroke: #fdb200;
   stroke-linecap:round;
   stroke-linejoin:round;
-  stroke-width: 0.728276;
+  stroke-width: 0.618053;
 }
 text {font-family: Sans-Serif;}
 </style>
-<rect class="l0" x="0" y="0" width="1854" height="939"/>
-<path class="l4" style="fill:none;" d="M496.93 89.4882L1165.86 89.4882L1165.86 801.58L496.93 801.58L496.93 89.4882z"/>
-<path class="l4" style="fill:none;" d="M1174.89 332.247L1455.41 332.247L1455.41 477.902L1174.89 477.902L1174.89 332.247z"/>
-<path class="l4" style="fill:none;" d="M1174.89 170.408L1455.41 170.408L1455.41 316.063L1174.89 316.063L1174.89 170.408z"/>
-<path class="l4" style="fill:none;" d="M1174.89 580.4L1746.72 580.4L1746.72 801.58L1174.89 801.58L1174.89 580.4z"/>
-<path class="l4" style="fill:none;" d="M1174.89 488.691L1455.41 488.691L1455.41 569.611L1174.89 569.611L1174.89 488.691z"/>
-<path class="l4" d="M737.928 278.3L775.69 278.3"/>
-<path class="l4" d="M737.928 278.3L737.928 289.09"/>
-<path class="l4" d="M980.687 666.714L1018.45 666.714"/>
-<path class="l4" d="M980.687 666.714L980.687 677.503"/>
-<path class="l4" d="M743.323 186.592L781.085 186.592"/>
-<path class="l4" d="M743.323 186.592L743.323 197.381"/>
-<path class="l4" d="M543.721 666.714L527.537 659.971L527.537 664.017L511.353 664.017L516.748 666.714L511.353 669.411L527.537 669.411L527.537 673.457L543.721 666.714"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M888.978 267.511L926.74 267.511"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M888.978 267.511L888.978 278.3"/>
-<path class="l4" d="M937.529 127.251L975.292 127.251"/>
-<path class="l4" d="M937.529 127.251L937.529 138.04"/>
-<path class="l4" d="M953.713 202.775L991.476 202.775"/>
-<path class="l4" d="M953.713 202.775L953.713 213.565"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1250.42 391.588L1272 391.588"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1272 391.588L1282.79 407.772"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1239.63 407.772L1250.42 391.588"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1239.63 407.772L1282.79 407.772"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1261.12 402.461L1267.53 395.044"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1267.45 395.971L1267.53 395.044"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1266.6 395.296L1267.45 395.971"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1266.6 395.296L1267.53 395.044"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1272 407.772L1272 413.166"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1250.42 407.772L1250.42 413.166"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1266.6 402.377L1272 402.377"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1269.3 402.377L1269.3 405.074"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1269.3 399.68L1269.3 402.377"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1250.42 402.377L1255.81 402.377"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1250.42 445.534L1272 445.534"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1272 445.534L1282.79 429.35"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1239.63 429.35L1250.42 445.534"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1239.63 429.35L1282.79 429.35"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1261.12 434.66L1267.53 442.078"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1267.45 441.151L1267.53 442.078"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1266.6 441.825L1267.45 441.151"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1266.6 441.825L1267.53 442.078"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1272 423.955L1272 429.35"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1250.42 423.955L1250.42 429.35"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1266.6 434.745L1272 434.745"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1269.3 432.047L1269.3 434.745"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1269.3 434.745L1269.3 437.442"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1250.42 434.745L1255.81 434.745"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1234.23 386.193L1234.23 450.929"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1234.23 450.929L1288.18 450.929"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1288.18 386.193L1288.18 450.929"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1234.23 386.193L1288.18 386.193"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1228.84 413.166L1250.42 413.166"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1228.84 423.955L1250.42 423.955"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1272 423.955L1293.58 423.955"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1272 413.166L1293.58 413.166"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1226.14 407.772L1231.54 407.772"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1228.84 407.772L1228.84 410.469"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1228.84 405.074L1228.84 407.772"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1290.88 429.35L1296.27 429.35"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1293.58 429.35L1293.58 432.047"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1293.58 426.653L1293.58 429.35"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1290.88 409.12L1296.27 409.12"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1226.14 428.001L1231.54 428.001"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" style="fill:none;" d="M1272 397.994 A13.4866 13.4866 0 0 0 1250.42 397.994"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" style="fill:none;" d="M1250.42 439.128 A13.4866 13.4866 0 0 0 1272 439.128"/>
-<path class="l4" d="M748.717 132.645L786.48 132.645"/>
-<path class="l4" d="M748.717 132.645L748.717 143.435"/>
-<path class="l4" d="M1369.1 235.143L1401.47 235.143"/>
-<path class="l4" d="M1385.28 239.189L1390.68 235.143"/>
-<path class="l4" d="M1385.28 231.097L1390.68 235.143"/>
-<path class="l4" d="M1369.1 245.933L1401.47 245.933"/>
-<path class="l4" d="M1385.28 241.887L1390.68 245.933"/>
-<path class="l4" d="M1385.28 249.979L1390.68 245.933"/>
-<path class="l4" d="M1320.55 423.955L1352.92 423.955"/>
-<path class="l4" d="M1331.34 423.955L1336.73 419.909"/>
-<path class="l4" d="M1331.34 423.955L1336.73 428.001"/>
-<path class="l4" d="M1320.55 413.166L1352.92 413.166"/>
-<path class="l4" d="M1331.34 413.166L1336.73 417.212"/>
-<path class="l4" d="M1331.34 413.166L1336.73 409.12"/>
-<path class="l4" d="M969.897 526.454L1007.66 526.454"/>
-<path class="l4" d="M969.897 526.454L969.897 537.243"/>
-<path class="l4" d="M543.721 623.557L527.537 616.814L527.537 620.86L511.353 620.86L516.748 623.557L511.353 626.254L527.537 626.254L527.537 630.3L543.721 623.557"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M608.457 483.296L646.219 483.296"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M608.457 483.296L608.457 494.086"/>
-<path class="l4" d="M1180.29 628.952L1218.05 628.952"/>
-<path class="l4" d="M1180.29 628.952L1180.29 639.741"/>
-<path class="l4" d="M1218.05 782.699L1201.87 775.955L1201.87 780.001L1185.68 780.001L1191.08 782.699L1185.68 785.396L1201.87 785.396L1201.87 789.442L1218.05 782.699"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1328.64 604.676L1366.4 604.676"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1328.64 604.676L1328.64 615.465"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1503.97 607.373L1541.73 607.373"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1503.97 607.373L1503.97 618.162"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1379.89 521.059L1412.26 521.059"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1390.68 521.059L1396.07 525.105"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1390.68 521.059L1396.07 517.013"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M516.748 262.116L554.51 262.116"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M516.748 262.116L516.748 272.906"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M516.748 105.672L554.51 105.672"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M516.748 105.672L516.748 116.461"/>
-<path class="l4" d="M1315.15 521.059L1320.55 521.059"/>
-<path class="l4" d="M1320.55 521.059L1321.9 517.013"/>
-<path class="l4" d="M1321.9 517.013L1324.59 525.105"/>
-<path class="l4" d="M1324.59 525.105L1327.29 517.013"/>
-<path class="l4" d="M1327.29 517.013L1329.99 525.105"/>
-<path class="l4" d="M1329.99 525.105L1332.69 517.013"/>
-<path class="l4" d="M1332.69 517.013L1335.38 525.105"/>
-<path class="l4" d="M1335.38 525.105L1338.08 517.013"/>
-<path class="l4" d="M1338.08 517.013L1340.78 525.105"/>
-<path class="l4" d="M1340.78 525.105L1342.13 521.059"/>
-<path class="l4" d="M1342.13 521.059L1347.52 521.059"/>
-<path class="l4" d="M1343.48 517.013L1343.48 519.71"/>
-<path class="l4" d="M1342.13 518.362L1344.82 518.362"/>
-<path class="l4" d="M1245.02 521.059L1250.42 521.059"/>
-<path class="l4" d="M1250.42 521.059L1251.77 525.105"/>
-<path class="l4" d="M1251.77 525.105L1254.46 517.013"/>
-<path class="l4" d="M1254.46 517.013L1257.16 525.105"/>
-<path class="l4" d="M1257.16 525.105L1259.86 517.013"/>
-<path class="l4" d="M1259.86 517.013L1262.56 525.105"/>
-<path class="l4" d="M1262.56 525.105L1265.25 517.013"/>
-<path class="l4" d="M1265.25 517.013L1267.95 525.105"/>
-<path class="l4" d="M1267.95 525.105L1270.65 517.013"/>
-<path class="l4" d="M1270.65 517.013L1272 521.059"/>
-<path class="l4" d="M1272 521.059L1277.39 521.059"/>
-<path class="l4" d="M1273.35 522.408L1273.35 525.105"/>
-<path class="l4" d="M1272 523.756L1274.69 523.756"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1379.89 548.032L1412.26 548.032"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1390.68 548.032L1396.07 543.986"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1390.68 548.032L1396.07 552.078"/>
-<path class="l4" d="M1315.15 548.032L1320.55 548.032"/>
-<path class="l4" d="M1320.55 548.032L1321.9 552.078"/>
-<path class="l4" d="M1321.9 552.078L1324.59 543.986"/>
-<path class="l4" d="M1324.59 543.986L1327.29 552.078"/>
-<path class="l4" d="M1327.29 552.078L1329.99 543.986"/>
-<path class="l4" d="M1329.99 543.986L1332.69 552.078"/>
-<path class="l4" d="M1332.69 552.078L1335.38 543.986"/>
-<path class="l4" d="M1335.38 543.986L1338.08 552.078"/>
-<path class="l4" d="M1338.08 552.078L1340.78 543.986"/>
-<path class="l4" d="M1340.78 543.986L1342.13 548.032"/>
-<path class="l4" d="M1342.13 548.032L1347.52 548.032"/>
-<path class="l4" d="M1343.48 549.381L1343.48 552.078"/>
-<path class="l4" d="M1342.13 550.729L1344.82 550.729"/>
-<path class="l4" d="M1245.02 548.032L1250.42 548.032"/>
-<path class="l4" d="M1250.42 548.032L1251.77 552.078"/>
-<path class="l4" d="M1251.77 552.078L1254.46 543.986"/>
-<path class="l4" d="M1254.46 543.986L1257.16 552.078"/>
-<path class="l4" d="M1257.16 552.078L1259.86 543.986"/>
-<path class="l4" d="M1259.86 543.986L1262.56 552.078"/>
-<path class="l4" d="M1262.56 552.078L1265.25 543.986"/>
-<path class="l4" d="M1265.25 543.986L1267.95 552.078"/>
-<path class="l4" d="M1267.95 552.078L1270.65 543.986"/>
-<path class="l4" d="M1270.65 543.986L1272 548.032"/>
-<path class="l4" d="M1272 548.032L1277.39 548.032"/>
-<path class="l4" d="M1273.35 549.381L1273.35 552.078"/>
-<path class="l4" d="M1272 550.729L1274.69 550.729"/>
-<path class="l4" d="M1245.02 240.538L1255.81 240.538"/>
-<path class="l4" d="M1282.79 208.844L1282.79 219.634"/>
-<path class="l4" d="M1293.58 256.722L1293.58 267.511"/>
-<path class="l4" d="M1320.55 235.143L1336.73 235.143"/>
-<path class="l4" d="M1293.58 213.565L1293.58 224.354"/>
-<path class="l4" d="M1282.79 261.442L1282.79 272.231"/>
-<path class="l4" d="M1239.63 224.354L1255.81 224.354"/>
-<path class="l4" d="M1239.63 256.722L1255.81 256.722"/>
-<path class="l4" d="M1255.81 208.17L1255.81 272.906"/>
-<path class="l4" d="M1255.81 272.906L1331.34 240.538"/>
-<path class="l4" d="M1255.81 208.17L1331.34 240.538"/>
-<path class="l4" d="M1320.55 245.933L1336.73 245.933"/>
-<path class="l4" d="M1318.86 235.143L1320.55 235.143"/>
-<path class="l4" d="M1318.86 245.933L1320.55 245.933"/>
-<path class="l12" d="M1282.11 185.917L1283.46 185.917L1283.46 187.266L1282.11 187.266L1282.11 185.917z"/>
-<path class="l15" d="M1222.77 239.864L1224.12 239.864L1224.12 241.212L1222.77 241.212L1222.77 239.864z"/>
-<path class="l5" d="M1217.38 256.047L1218.72 256.047L1218.72 257.396L1217.38 257.396L1217.38 256.047z"/>
-<path class="l5" d="M1217.38 223.68L1218.72 223.68L1218.72 225.028L1217.38 225.028L1217.38 223.68z"/>
-<path class="l9" d="M1292.9 299.205L1294.25 299.205L1294.25 300.553L1292.9 300.553L1292.9 299.205z"/>
-<path class="l5" d="M1422.37 234.469L1423.72 234.469L1423.72 235.818L1422.37 235.818L1422.37 234.469z"/>
-<path class="l5" d="M1422.37 245.258L1423.72 245.258L1423.72 246.607L1422.37 246.607L1422.37 245.258z"/>
-<path class="l13" d="M1282.11 288.415L1283.46 288.415L1283.46 289.764L1282.11 289.764L1282.11 288.415z"/>
-<path class="l14" d="M1292.9 196.707L1294.25 196.707L1294.25 198.055L1292.9 198.055L1292.9 196.707z"/>
-<path class="l5" d="M1390 412.492L1391.35 412.492L1391.35 413.841L1390 413.841L1390 412.492z"/>
-<path class="l5" d="M1217.38 412.492L1218.72 412.492L1218.72 413.841L1217.38 413.841L1217.38 412.492z"/>
-<path class="l5" d="M1390 423.281L1391.35 423.281L1391.35 424.63L1390 424.63L1390 423.281z"/>
-<path class="l5" d="M1217.38 423.281L1218.72 423.281L1218.72 424.63L1217.38 424.63L1217.38 423.281z"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1227.49 411.818L1230.19 411.818L1230.19 414.515L1227.49 414.515L1227.49 411.818z"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1292.23 411.818L1294.92 411.818L1294.92 414.515L1292.23 414.515L1292.23 411.818z"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1227.49 422.607L1230.19 422.607L1230.19 425.304L1227.49 425.304L1227.49 422.607z"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1292.23 422.607L1294.92 422.607L1294.92 425.304L1292.23 425.304L1292.23 422.607z"/>
-<path class="l5" d="M1367.75 233.795L1370.45 233.795L1370.45 236.492L1367.75 236.492L1367.75 233.795z"/>
-<path class="l5" d="M1400.12 233.795L1402.82 233.795L1402.82 236.492L1400.12 236.492L1400.12 233.795z"/>
-<path class="l5" d="M1367.75 244.584L1370.45 244.584L1370.45 247.281L1367.75 247.281L1367.75 244.584z"/>
-<path class="l5" d="M1400.12 244.584L1402.82 244.584L1402.82 247.281L1400.12 247.281L1400.12 244.584z"/>
-<path class="l5" d="M1351.57 422.607L1354.26 422.607L1354.26 425.304L1351.57 425.304L1351.57 422.607z"/>
-<path class="l5" d="M1319.2 422.607L1321.9 422.607L1321.9 425.304L1319.2 425.304L1319.2 422.607z"/>
-<path class="l5" d="M1351.57 411.818L1354.26 411.818L1354.26 414.515L1351.57 414.515L1351.57 411.818z"/>
-<path class="l5" d="M1319.2 411.818L1321.9 411.818L1321.9 414.515L1319.2 414.515L1319.2 411.818z"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1410.91 519.71L1413.61 519.71L1413.61 522.408L1410.91 522.408L1410.91 519.71z"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1378.54 519.71L1381.24 519.71L1381.24 522.408L1378.54 522.408L1378.54 519.71z"/>
-<path class="l5" d="M1433.16 520.385L1434.51 520.385L1434.51 521.733L1433.16 521.733L1433.16 520.385z"/>
-<path class="l5" d="M1292.9 520.385L1294.25 520.385L1294.25 521.733L1292.9 521.733L1292.9 520.385z"/>
-<path class="l5" d="M1346.17 519.71L1348.87 519.71L1348.87 522.408L1346.17 522.408L1346.17 519.71z"/>
-<path class="l5" d="M1313.81 519.71L1316.5 519.71L1316.5 522.408L1313.81 522.408L1313.81 519.71z"/>
-<path class="l5" d="M1276.04 519.71L1278.74 519.71L1278.74 522.408L1276.04 522.408L1276.04 519.71z"/>
-<path class="l5" d="M1243.67 519.71L1246.37 519.71L1246.37 522.408L1243.67 522.408L1243.67 519.71z"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1410.91 546.683L1413.61 546.683L1413.61 549.381L1410.91 549.381L1410.91 546.683z"/>
-<path class="l2" stroke-dasharray="1.29471,1.29471" d="M1378.54 546.683L1381.24 546.683L1381.24 549.381L1378.54 549.381L1378.54 546.683z"/>
-<path class="l5" d="M1433.16 547.358L1434.51 547.358L1434.51 548.706L1433.16 548.706L1433.16 547.358z"/>
-<path class="l5" d="M1292.9 547.358L1294.25 547.358L1294.25 548.706L1292.9 548.706L1292.9 547.358z"/>
-<path class="l5" d="M1346.17 546.683L1348.87 546.683L1348.87 549.381L1346.17 549.381L1346.17 546.683z"/>
-<path class="l5" d="M1313.81 546.683L1316.5 546.683L1316.5 549.381L1313.81 549.381L1313.81 546.683z"/>
-<path class="l5" d="M1276.04 546.683L1278.74 546.683L1278.74 549.381L1276.04 549.381L1276.04 546.683z"/>
-<path class="l5" d="M1243.67 546.683L1246.37 546.683L1246.37 549.381L1243.67 549.381L1243.67 546.683z"/>
-<path class="l10" d="M1217.38 520.385L1218.72 520.385L1218.72 521.733L1217.38 521.733L1217.38 520.385z"/>
-<path class="l11" d="M1217.38 547.358L1218.72 547.358L1218.72 548.706L1217.38 548.706L1217.38 547.358z"/>
-<path class="l5" d="M1243.67 239.189L1246.37 239.189L1246.37 241.887L1243.67 241.887L1243.67 239.189z"/>
-<path class="l5" d="M1281.44 206.821L1284.13 206.821L1284.13 209.519L1281.44 209.519L1281.44 206.821z"/>
-<path class="l5" d="M1292.23 212.216L1294.92 212.216L1294.92 214.913L1292.23 214.913L1292.23 212.216z"/>
-<path class="l5" d="M1238.28 223.005L1240.98 223.005L1240.98 225.703L1238.28 225.703L1238.28 223.005z"/>
-<path class="l5" d="M1335.38 233.795L1338.08 233.795L1338.08 236.492L1335.38 236.492L1335.38 233.795z"/>
-<path class="l5" d="M1335.38 244.584L1338.08 244.584L1338.08 247.281L1335.38 247.281L1335.38 244.584z"/>
-<path class="l5" d="M1238.28 255.373L1240.98 255.373L1240.98 258.07L1238.28 258.07L1238.28 255.373z"/>
-<path class="l5" d="M1281.44 271.557L1284.13 271.557L1284.13 274.254L1281.44 274.254L1281.44 271.557z"/>
-<path class="l5" d="M1292.23 266.162L1294.92 266.162L1294.92 268.86L1292.23 268.86L1292.23 266.162z"/>
-<text fill="#0044ff"  xml:space="preserve" font-size="9.25719" transform="translate(1286.83, 190.614)" >VDD</text>
-<text fill="#0044ff"  xml:space="preserve" font-size="5.61042" transform="translate(1273.77, 193.793)" >1.5</text>
-<text fill="#ff7777"  xml:space="preserve" font-size="9.25719" transform="translate(1199.4, 244.56)" >Vcm</text>
-<text fill="#ff7777"  xml:space="preserve" font-size="5.61042" transform="translate(1224.46, 247.739)" >0.75</text>
-<text fill="#00ddff"  xml:space="preserve" font-size="9.25719" transform="translate(1193, 260.744)" >Vinn</text>
-<text fill="#ff7777"  xml:space="preserve" font-size="5.61042" transform="translate(1219.06, 263.923)" >0.75</text>
-<text fill="#00ddff"  xml:space="preserve" font-size="9.25719" transform="translate(1193, 228.376)" >Vinp</text>
-<text fill="#ff7777"  xml:space="preserve" font-size="5.61042" transform="translate(1219.06, 231.556)" >0.75</text>
-<text fill="#ffffff"  xml:space="preserve" font-size="9.25719" transform="translate(1267.53, 303.901)" >Ibias</text>
-<text fill="#ffffff"  xml:space="preserve" font-size="5.61042" transform="translate(1294.59, 307.08)" >5.838</text>
-<text fill="#00ddff"  xml:space="preserve" font-size="9.25719" transform="translate(1427.09, 239.166)" >Voutn</text>
-<text fill="#ff7777"  xml:space="preserve" font-size="5.61042" transform="translate(1404.04, 242.345)" >187.8u</text>
-<text fill="#00ddff"  xml:space="preserve" font-size="9.25719" transform="translate(1427.09, 249.955)" >Voutp</text>
-<text fill="#ff7777"  xml:space="preserve" font-size="5.61042" transform="translate(1404.04, 253.134)" >187.8u</text>
-<text fill="#aaaa00"  xml:space="preserve" font-size="9.25719" transform="translate(1262.74, 293.112)" >VSS</text>
-<text fill="#aaaa00"  xml:space="preserve" font-size="5.61042" transform="translate(1283.8, 296.291)" >0</text>
-<text fill="#aaccaa"  xml:space="preserve" font-size="9.25719" transform="translate(1297.62, 201.403)" >EN</text>
-<text fill="#aaccaa"  xml:space="preserve" font-size="5.61042" transform="translate(1289.56, 204.582)" >0</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" transform="translate(740.625, 275.152)" >NETLIST</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(746.02, 298.292)" >VSS VSS 0 0</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(746.02, 307.945)" >VDD VDD VSS 1.5</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(746.02, 317.597)" >VEN EN VSS 1.5</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(746.02, 327.25)" >Vcm Vcm VSS {vcm}</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(746.02, 336.903)" >Ibias VDD Ibias 2.5u</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" transform="translate(983.384, 663.566)" >OP_SIM</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(988.778, 686.705)" >.control</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(988.778, 696.358)" >op</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(988.778, 706.011)" >let ro_n = voutn/i(vmeas2)</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(988.778, 715.664)" >let ro_p = voutp/i(vmeas3)</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(988.778, 725.316)" >print ro_n ro_p</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(988.778, 734.969)" >write ota_cmfb_top_tb.raw</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(988.778, 744.622)" >.endc</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" transform="translate(746.02, 172.654)" >Libs_Ngspice</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(751.415, 206.583)" >.lib cornerMOSlv.lib mos_tt</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(751.415, 216.236)" >.lib cornerMOShv.lib mos_tt</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(751.415, 225.888)" >.lib cornerMOSCAP.lib moscap_tt</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(751.415, 235.541)" >.lib cornerCAP.lib cap_typ</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(751.415, 245.194)" >.lib cornerRES.lib res_typ</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(751.415, 254.847)" >.lib cornerDIO.lib dio_tt</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" transform="translate(746.02, 183.444)" >SIM=ngspice</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="11.2208" transform="translate(549.116, 669.403)" >OP annotate</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" transform="translate(891.675, 264.363)" >AC_SIM</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(897.07, 287.503)" >.control</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(897.07, 297.155)" >ac dec 50 100 100G</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(897.07, 306.808)" >let vout_diff = voutp-voutn</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(897.07, 316.461)" >let vin_diff = vinp-vinn</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(897.07, 326.113)" >let diff_gain=vout_diff/vin_diff</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(897.07, 335.766)" >let op_mag=db(diff_gain)</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(897.07, 345.419)" >let op_ph = 180*cph(diff_gain)/pi + 180</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(897.07, 355.072)" >let vcm_1 = (voutp+voutn)/2</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(897.07, 364.724)" >let vcm_err = mag((vcm_1 - {vcm}))[0]</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(897.07, 374.377)" >echo results_save_begin</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(897.07, 384.03)" >meas ac dc_gain find op_mag when frequency=1000</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(897.07, 393.683)" >meas ac gain_margin find op_mag when op_ph=0</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(897.07, 403.335)" >meas ac phase_margin find op_ph when op_mag=0</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(897.07, 412.988)" >meas ac bw_3db find frequency when op_mag=dc_gain-3</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(897.07, 422.641)" >meas ac Gain_BW find frequency when op_mag=0</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(897.07, 432.293)" >print vcm_err</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(897.07, 441.946)" >echo results_save_end</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(897.07, 451.599)" >plot op_mag op_ph</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(897.07, 461.252)" >.endc</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" transform="translate(940.227, 124.103)" >PARAMS</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(945.621, 147.242)" >.option rshunt=1e9</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(945.621, 156.895)" >.options method=gear</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(945.621, 166.547)" >.param vcm=0.75 vcm_in=0.75 cl=0.1p</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(945.621, 176.2)" >.save all</text>
-<text fill="#00ddff"  xml:space="preserve" font-size="9.25719" transform="translate(1394.72, 415.337)" >Voutn</text>
-<text fill="#ff7777"  xml:space="preserve" font-size="5.61042" transform="translate(1371.67, 409.718)" >187.8u</text>
-<text fill="#00ddff"  xml:space="preserve" font-size="9.25719" transform="translate(1193, 415.337)" >Vinp</text>
-<text fill="#ff7777"  xml:space="preserve" font-size="5.61042" transform="translate(1219.06, 409.718)" >0.75</text>
-<text fill="#00ddff"  xml:space="preserve" font-size="9.25719" transform="translate(1394.72, 427.978)" >Voutp</text>
-<text fill="#ff7777"  xml:space="preserve" font-size="5.61042" transform="translate(1371.67, 431.157)" >187.8u</text>
-<text fill="#00ddff"  xml:space="preserve" font-size="9.25719" transform="translate(1193, 427.978)" >Vinn</text>
-<text fill="#ff7777"  xml:space="preserve" font-size="5.61042" transform="translate(1219.06, 431.157)" >0.75</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" transform="translate(956.411, 199.628)" >LOAD</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(961.805, 222.767)" >CL1 Voutp 0 {cl}</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(961.805, 232.42)" >CL2 Voutn 0 {cl}</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(961.805, 242.072)" >RL1 Voutp 0 100k</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(961.805, 251.725)" >RL2 Voutn 0 100k</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="5.61042" transform="translate(1231.54, 379.419)" >xprobe1</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="5.61042" transform="translate(1290.88, 390.208)" >vcm={vcm_in}</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="5.61042" transform="translate(1290.88, 395.603)" >vac=1</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="5.61042" transform="translate(1235.58, 419.879)" >IN</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="5.61042" transform="translate(1274.69, 419.879)" >OUT</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" transform="translate(751.415, 129.497)" >SAVE</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(756.809, 152.637)" >.include ota_cmfb_top_tb.save</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="5.61042" transform="translate(1380.26, 227.051) rotate(270)" >Vmeas2</text>
-<text fill="#00ffcc"  xml:space="preserve" font-size="5.61042" transform="translate(1394.42, 233.795) rotate(270)" >1.878n</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="5.61042" transform="translate(1380.26, 274.025) rotate(270)" >Vmeas3</text>
-<text fill="#00ffcc"  xml:space="preserve" font-size="5.61042" transform="translate(1394.42, 265.281) rotate(270)" >1.878n</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="5.61042" transform="translate(1345.51, 453.047) rotate(270)" >Vmeas4</text>
-<text fill="#00ffcc"  xml:space="preserve" font-size="5.61042" transform="translate(1331.35, 442.304) rotate(270)" >187.8f</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="5.61042" transform="translate(1345.51, 405.074) rotate(270)" >Vmeas5</text>
-<text fill="#00ffcc"  xml:space="preserve" font-size="5.61042" transform="translate(1331.35, 411.818) rotate(270)" >187.8f</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" transform="translate(972.595, 523.306)" >TRAN_SIM</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(977.989, 546.445)" >Vinp Vinp 0 sin({vcm_in} 100u 10k)</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(977.989, 556.098)" >Vinn Vinn 0 sin({vcm_in} -100u 10k)</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(977.989, 565.75)" >.control</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(977.989, 575.403)" >tran 100n 1m</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(977.989, 585.056)" >plot Vinp Vinn Voutp Voutn</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(977.989, 594.709)" >plot Vinp-Vinn Voutp-Voutn</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(977.989, 604.361)" >.endc</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="11.2208" transform="translate(549.116, 626.245)" >SimulateNGSPICE</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" transform="translate(611.154, 480.149)" >AC_LOOP_SIM</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(616.549, 503.288)" >.control</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(616.549, 512.941)" >set gain_pcmd = ""</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(616.549, 522.593)" >set ph_pcmd = ""</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(616.549, 532.246)" >set ph_mrg = ""</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(616.549, 541.899)" >set vcm_param = vcm_in</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(616.549, 551.552)" >set curplot = new</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(616.549, 561.204)" >compose vcm_vec start=0 stop=1.5 step=0.1</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(616.549, 570.857)" >foreach vcm_val $&amp;vcm_vec</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(616.549, 580.51)" >        reset</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(616.549, 590.162)" >        alterparam $vcm_param =$vcm_val</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(616.549, 599.815)" >        ac dec 50 100 100G</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(616.549, 609.468)" >        let cur_vcm=$vcm_val</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(616.549, 619.121)" >        let vout_diff = voutp-voutn</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(616.549, 628.773)" >        let vin_diff = vinp-vinn</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(616.549, 638.426)" >        let diff_gain=vout_diff/vin_diff</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(616.549, 648.079)" >        let op_mag=db(diff_gain)</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(616.549, 657.732)" >        let op_ph = 180*cph(-diff_gain)/pi</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(616.549, 667.384)" >        set gain_pcmd = " $gain_pcmd {$curplot}.op_mag "</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(616.549, 677.037)" >        set ph_pcmd = " $ph_pcmd {$curplot}.op_ph "</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(616.549, 686.69)" >        meas ac phase_margin find op_ph when op_mag=0</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(616.549, 696.342)" >        if $&amp;phase_margin</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(616.549, 705.995)" >                set ph_mrg = " $ph_mrg {$curplot}.phase_margin "</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(616.549, 715.648)" >        end</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(616.549, 725.301)" >        set ph_mrg = " $ph_mrg  {$curplot}.cur_vcm "</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(616.549, 734.953)" >end</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(616.549, 744.606)" >//set nolegend</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(616.549, 754.259)" >plot $gain_pcmd</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(616.549, 763.911)" >plot $ph_pcmd</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(616.549, 773.564)" >print $ph_mrg</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(616.549, 783.217)" >.endc</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" transform="translate(1182.99, 625.804)" >MC_SETTINGS</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(1188.38, 648.943)" >**nr_workers=1</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(1188.38, 658.596)" >**nr_mc_sims=100</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(1188.38, 677.901)" >**results_plot_begin</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(1188.38, 687.554)" >**dc_gain</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(1188.38, 697.207)" >**gain_margin</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(1188.38, 706.859)" >**phase_margin</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(1188.38, 716.512)" >**bw_3db</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(1188.38, 726.165)" >**Gain_BW</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(1188.38, 735.818)" >**vcm_err</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(1188.38, 745.47)" >**results_plot_end</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="11.2208" transform="translate(1223.45, 785.387)" >SimulatePARALLEL</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" transform="translate(1331.34, 590.739)" >MC_SIM</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(1336.73, 624.667)" >Vinp Vinp 0 {vcm_in + 100u}</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(1336.73, 634.32)" >Vinn Vinn 0 {vcm_in - 100u} </text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(1336.73, 643.973)" >.control</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(1336.73, 653.625)" >set num_threads 8</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(1336.73, 663.278)" >op</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(1336.73, 672.931)" >run</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(1336.73, 682.584)" >let vcm_err = vcm-vcm_calc</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(1336.73, 692.236)" >let gain = (voutp-voutn)/(vinp-vinn)</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(1336.73, 701.889)" >echo results_save_begin</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(1336.73, 711.542)" >print vcm_calc vcm_err gain</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(1336.73, 721.194)" >echo results_save_end</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(1336.73, 740.5)" >.endc</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" transform="translate(1331.34, 601.528)" >SIM=ngspice</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" transform="translate(1506.66, 593.436)" >Libs_MISMATCH</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(1512.06, 627.364)" >.lib cornerMOSlv.lib mos_tt_mismatch</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(1512.06, 637.017)" >.lib cornerMOShv.lib mos_tt_mismatch</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(1512.06, 646.67)" >.lib cornerMOSCAP.lib moscap_tt</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(1512.06, 656.323)" >.lib cornerCAP.lib cap_typ</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(1512.06, 665.975)" >.lib cornerRES.lib res_typ</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(1512.06, 675.628)" >.lib cornerDIO.lib dio_tt</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" transform="translate(1506.66, 604.225)" >SIM=ngspice</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="5.61042" transform="translate(1404.85, 512.967) rotate(270)" >Vmeas6</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="5.61042" transform="translate(1390.69, 519.71) rotate(270)" >-</text>
-<text fill="#00ddff"  xml:space="preserve" font-size="9.25719" transform="translate(1437.88, 525.081)" >Voutp</text>
-<text fill="#ff7777"  xml:space="preserve" font-size="5.61042" transform="translate(1414.82, 528.26)" >187.8u</text>
-<text fill="#00ddff"  xml:space="preserve" font-size="9.25719" transform="translate(1295.75, 517.013) rotate(270)" >Vinn</text>
-<text fill="#ff7777"  xml:space="preserve" font-size="5.61042" transform="translate(1290.13, 533.07) rotate(270)" >0.75</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" transform="translate(519.445, 258.969)" >DC_LOOP_SIM</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(524.84, 282.108)" >Vt_p Vt_p 0 0</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(524.84, 291.761)" >Vt_n Vt_n 0 0</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(524.84, 301.413)" >.control</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(524.84, 311.066)" >set curplot = new</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(524.84, 320.719)" >set plt_voutp = ""</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(524.84, 330.372)" >set plt_voutn = ""</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(524.84, 340.024)" >set plt_vt_p = ""</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(524.84, 349.677)" >set plt_vdiff = ""</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(524.84, 359.33)" >set plt_voutpn = ""</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(524.84, 368.982)" >compose vcm_vec start=0 stop=1.5 step=0.1</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(524.84, 378.635)" >foreach vcm_val $&amp;vcm_vec</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(524.84, 388.288)" >        alterparam vcm = $vcm_val</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(524.84, 397.941)" >        reset</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(524.84, 407.593)" >        dc Vt_p 0 1.5 0.01</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(524.84, 417.246)" >        let Vout = v(Voutp) - v(Voutn)</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(524.84, 426.899)" >        set plt_voutp = " {$plt_voutp} {$curplot}.voutp "</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(524.84, 436.552)" >        set plt_voutn = " {$plt_voutn} {$curplot}.voutn "</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(524.84, 446.204)" >        set plt_vdiff = " {$plt_vdiff} {$curplot}.vout "</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(524.84, 455.857)" >        set plt_voutpn = " {$plt_voutpn} {$curplot}.voutp {$curplot}.voutn "</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(524.84, 465.51)" >end</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(524.84, 475.162)" >plot $plt_voutpn</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(524.84, 484.815)" >plot $plt_vdiff</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(524.84, 494.468)" >.endc</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" transform="translate(519.445, 102.524)" >DC_SIM</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(524.84, 125.664)" >Vt_p Vt_p 0 0</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(524.84, 135.316)" >Vt_n Vt_n 0 0</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(524.84, 154.622)" >.control</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(524.84, 164.274)" >dc Vt_p 0 1.5 0.01</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(524.84, 183.58)" >let Vout = Voutp - Voutn</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(524.84, 193.233)" >plot Vt_p Voutp Voutn</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(524.84, 202.885)" >plot Vt_p Vout</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="8.41563" style="font-family:Monospace;" transform="translate(524.84, 222.191)" >.endc</text>
-<text fill="#aaaa00"  xml:space="preserve" font-size="5.61042" transform="translate(1344.16, 529.454) rotate(270)" >1</text>
-<text fill="#aaaa00"  xml:space="preserve" font-size="5.61042" transform="translate(1321.23, 529.454) rotate(270)" >2</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="5.61042" transform="translate(1340.11, 512.967) rotate(270)" >R1</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="5.61042" transform="translate(1333.37, 512.967) rotate(270)" >500k</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="5.61042" transform="translate(1326.63, 512.967) rotate(270)" >m=1</text>
-<text fill="#00ffcc"  xml:space="preserve" font-size="5.61042" transform="translate(1327.3, 528.454) rotate(270)" >-</text>
-<text fill="#aaaa00"  xml:space="preserve" font-size="5.61042" transform="translate(1274.03, 515.664) rotate(270)" >1</text>
-<text fill="#aaaa00"  xml:space="preserve" font-size="5.61042" transform="translate(1251.1, 515.664) rotate(270)" >2</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="5.61042" transform="translate(1269.98, 536.151) rotate(270)" >R2</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="5.61042" transform="translate(1263.24, 542.151) rotate(270)" >500k</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="5.61042" transform="translate(1256.49, 540.151) rotate(270)" >m=1</text>
-<text fill="#00ffcc"  xml:space="preserve" font-size="5.61042" transform="translate(1257.17, 515.664) rotate(270)" >-</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="5.61042" transform="translate(1404.85, 576.124) rotate(270)" >Vmeas7</text>
-<text fill="#4f4f4f"  xml:space="preserve" font-size="5.61042" transform="translate(1390.69, 551.381) rotate(270)" >-</text>
-<text fill="#00ddff"  xml:space="preserve" font-size="9.25719" transform="translate(1437.88, 550.203)" >Voutn</text>
-<text fill="#ff7777"  xml:space="preserve" font-size="5.61042" transform="translate(1414.82, 544.584)" >187.8u</text>
-<text fill="#00ddff"  xml:space="preserve" font-size="9.25719" transform="translate(1295.75, 573.078) rotate(270)" >Vinp</text>
-<text fill="#ff7777"  xml:space="preserve" font-size="5.61042" transform="translate(1290.13, 547.021) rotate(270)" >0.75</text>
-<text fill="#aaaa00"  xml:space="preserve" font-size="5.61042" transform="translate(1344.16, 542.637) rotate(270)" >1</text>
-<text fill="#aaaa00"  xml:space="preserve" font-size="5.61042" transform="translate(1321.23, 542.637) rotate(270)" >2</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="5.61042" transform="translate(1340.11, 563.124) rotate(270)" >R3</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="5.61042" transform="translate(1333.37, 569.124) rotate(270)" >500k</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="5.61042" transform="translate(1326.63, 567.124) rotate(270)" >m=1</text>
-<text fill="#00ffcc"  xml:space="preserve" font-size="5.61042" transform="translate(1327.3, 542.637) rotate(270)" >-</text>
-<text fill="#aaaa00"  xml:space="preserve" font-size="5.61042" transform="translate(1274.03, 542.637) rotate(270)" >1</text>
-<text fill="#aaaa00"  xml:space="preserve" font-size="5.61042" transform="translate(1251.1, 542.637) rotate(270)" >2</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="5.61042" transform="translate(1269.98, 564.124) rotate(270)" >R4</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="5.61042" transform="translate(1263.24, 569.124) rotate(270)" >500k</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="5.61042" transform="translate(1256.49, 567.124) rotate(270)" >m=1</text>
-<text fill="#00ffcc"  xml:space="preserve" font-size="5.61042" transform="translate(1257.17, 542.637) rotate(270)" >-</text>
-<text fill="#ff00ff"  xml:space="preserve" font-size="9.25719" transform="translate(1220.22, 545.105) rotate(270)" >Vt_n</text>
-<text fill="#ff00ff"  xml:space="preserve" font-size="5.61042" transform="translate(1214.6, 520.047) rotate(270)" >0.7496</text>
-<text fill="#00ff00"  xml:space="preserve" font-size="9.25719" transform="translate(1222.07, 572.078) rotate(270)" >Vt_p</text>
-<text fill="#00ff00"  xml:space="preserve" font-size="5.61042" transform="translate(1225.25, 547.021) rotate(270)" >0.7496</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="5.61042" transform="translate(1258.51, 243.474)" >Vcm</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="5.61042" transform="translate(1305.82, 247.857)" >Vo+</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="5.61042" transform="translate(1304.12, 237.743)" >Vo-</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="5.61042" transform="translate(1253.12, 201.396)" >XDIFF_AMP1</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="5.61042" transform="translate(1274.69, 227.29)" >VDD</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="5.61042" transform="translate(1258.51, 227.29)" >V+</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="5.61042" transform="translate(1258.51, 259.658)" >V-</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="5.61042" transform="translate(1288.18, 252.915)" >Ib</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="5.61042" transform="translate(1290.88, 232.685)" >EN</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="5.61042" transform="translate(1276.48, 259.658)" >VSS</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="5.61042" transform="translate(1301.67, 220.817)" >ota_cmfb_top</text>
-<path class="l12" d="M1282.79 186.592L1282.79 208.17"/>
-<path class="l14" d="M1293.58 197.381L1293.58 213.565"/>
-<path class="l9" d="M1293.58 267.511L1293.58 299.879"/>
-<path class="l13" d="M1282.79 272.906L1282.79 289.09"/>
-<path class="l1" d="M1336.73 235.143L1369.1 235.143"/>
-<path class="l1" d="M1336.73 245.933L1369.1 245.933"/>
-<path class="l15" d="M1223.45 240.538L1245.02 240.538"/>
-<path class="l1" d="M1218.05 256.722L1239.63 256.722"/>
-<path class="l1" d="M1218.05 224.354L1239.63 224.354"/>
-<path class="l16" d="M1293.58 413.166L1320.55 413.166"/>
-<path class="l17" d="M1293.58 423.955L1320.55 423.955"/>
-<path class="l1" d="M1218.05 413.166L1228.84 413.166"/>
-<path class="l1" d="M1218.05 423.955L1228.84 423.955"/>
-<path class="l1" d="M1352.92 413.166L1390.68 413.166"/>
-<path class="l1" d="M1352.92 423.955L1390.68 423.955"/>
-<path class="l1" d="M1401.47 235.143L1423.05 235.143"/>
-<path class="l1" d="M1401.47 245.933L1423.05 245.933"/>
-<path class="l1" d="M1412.26 521.059L1433.84 521.059"/>
-<path class="l18" d="M1347.52 521.059L1379.89 521.059"/>
-<path class="l1" d="M1277.39 521.059L1315.15 521.059"/>
-<path class="l10" d="M1218.05 521.059L1245.02 521.059"/>
-<path class="l1" d="M1412.26 548.032L1433.84 548.032"/>
-<path class="l19" d="M1347.52 548.032L1379.89 548.032"/>
-<path class="l1" d="M1277.39 548.032L1315.15 548.032"/>
-<path class="l11" d="M1218.05 548.032L1245.02 548.032"/>
-<text fill="#cccccc"  xml:space="preserve" font-size="11.2208" transform="translate(748.717, 110.466)" >SPICE SIMULATION</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="11.2208" transform="translate(1180.29, 353.224)" >AC ANALYSIS PROBE</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="11.2208" transform="translate(1331.34, 185.991)" >CORE OPAMP</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="11.2208" transform="translate(1180.29, 606.772)" >MONTE CARLO PYTHON</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="11.2208" transform="translate(1174.89, 498.88)" >DC ANALYSIS SINGLE TO DIFF</text>
+<rect class="l0" x="0" y="0" width="1920" height="907"/>
+<path class="l4" style="fill:none;" d="M282.456 162.322L850.149 162.322L850.149 766.64L282.456 766.64L282.456 162.322z"/>
+<path class="l4" style="fill:none;" d="M857.812 368.339L1095.88 368.339L1095.88 491.95L857.812 491.95L857.812 368.339z"/>
+<path class="l4" style="fill:none;" d="M857.812 230.994L1095.88 230.994L1095.88 354.605L857.812 354.605L857.812 230.994z"/>
+<path class="l4" style="fill:none;" d="M857.812 578.935L1343.1 578.935L1343.1 766.64L857.812 766.64L857.812 578.935z"/>
+<path class="l4" style="fill:none;" d="M857.812 501.106L1095.88 501.106L1095.88 569.779L857.812 569.779L857.812 501.106z"/>
+<path class="l4" d="M486.98 322.558L519.027 322.558"/>
+<path class="l4" d="M486.98 322.558L486.98 331.714"/>
+<path class="l4" d="M692.998 652.186L725.045 652.186"/>
+<path class="l4" d="M692.998 652.186L692.998 661.342"/>
+<path class="l4" d="M491.558 244.729L523.605 244.729"/>
+<path class="l4" d="M491.558 244.729L491.558 253.885"/>
+<path class="l4" d="M322.166 652.186L308.431 646.463L308.431 649.897L294.697 649.897L299.275 652.186L294.697 654.475L308.431 654.475L308.431 657.909L322.166 652.186"/>
+<path class="l4" d="M615.169 313.401L647.216 313.401"/>
+<path class="l4" d="M615.169 313.401L615.169 322.558"/>
+<path class="l4" d="M656.372 194.369L688.419 194.369"/>
+<path class="l4" d="M656.372 194.369L656.372 203.525"/>
+<path class="l4" d="M670.107 258.463L702.154 258.463"/>
+<path class="l4" d="M670.107 258.463L670.107 267.619"/>
+<path class="l4" d="M921.906 418.699L940.219 418.699"/>
+<path class="l4" d="M940.219 418.699L949.375 432.434"/>
+<path class="l4" d="M912.75 432.434L921.906 418.699"/>
+<path class="l4" d="M912.75 432.434L949.375 432.434"/>
+<path class="l4" d="M930.991 427.927L936.427 421.632"/>
+<path class="l4" d="M936.356 422.419L936.427 421.632"/>
+<path class="l4" d="M935.641 421.847L936.356 422.419"/>
+<path class="l4" d="M935.641 421.847L936.427 421.632"/>
+<path class="l4" d="M940.219 432.434L940.219 437.012"/>
+<path class="l4" d="M921.906 432.434L921.906 437.012"/>
+<path class="l4" d="M935.641 427.855L940.219 427.855"/>
+<path class="l4" d="M937.93 427.855L937.93 430.145"/>
+<path class="l4" d="M937.93 425.566L937.93 427.855"/>
+<path class="l4" d="M921.906 427.855L926.484 427.855"/>
+<path class="l4" d="M921.906 464.481L940.219 464.481"/>
+<path class="l4" d="M940.219 464.481L949.375 450.746"/>
+<path class="l4" d="M912.75 450.746L921.906 464.481"/>
+<path class="l4" d="M912.75 450.746L949.375 450.746"/>
+<path class="l4" d="M930.991 455.253L936.427 461.548"/>
+<path class="l4" d="M936.356 460.761L936.427 461.548"/>
+<path class="l4" d="M935.641 461.333L936.356 460.761"/>
+<path class="l4" d="M935.641 461.333L936.427 461.548"/>
+<path class="l4" d="M940.219 446.168L940.219 450.746"/>
+<path class="l4" d="M921.906 446.168L921.906 450.746"/>
+<path class="l4" d="M935.641 455.324L940.219 455.324"/>
+<path class="l4" d="M937.93 453.035L937.93 455.324"/>
+<path class="l4" d="M937.93 455.324L937.93 457.614"/>
+<path class="l4" d="M921.906 455.324L926.484 455.324"/>
+<path class="l4" d="M908.172 414.121L908.172 469.059"/>
+<path class="l4" d="M908.172 469.059L953.953 469.059"/>
+<path class="l4" d="M953.953 414.121L953.953 469.059"/>
+<path class="l4" d="M908.172 414.121L953.953 414.121"/>
+<path class="l4" d="M903.593 437.012L921.906 437.012"/>
+<path class="l4" d="M903.593 446.168L921.906 446.168"/>
+<path class="l4" d="M940.219 446.168L958.531 446.168"/>
+<path class="l4" d="M940.219 437.012L958.531 437.012"/>
+<path class="l4" d="M901.304 432.434L905.882 432.434"/>
+<path class="l4" d="M903.593 432.434L903.593 434.723"/>
+<path class="l4" d="M903.593 430.145L903.593 432.434"/>
+<path class="l4" d="M956.242 450.746L960.821 450.746"/>
+<path class="l4" d="M958.531 450.746L958.531 453.035"/>
+<path class="l4" d="M958.531 448.457L958.531 450.746"/>
+<path class="l4" d="M956.242 433.578L960.821 433.578"/>
+<path class="l4" d="M901.304 449.602L905.882 449.602"/>
+<path class="l4" style="fill:none;" d="M940.219 424.136 A11.4454 11.4454 0 0 0 921.906 424.136"/>
+<path class="l4" style="fill:none;" d="M921.906 459.044 A11.4454 11.4454 0 0 0 940.219 459.044"/>
+<path class="l4" d="M496.136 198.947L528.183 198.947"/>
+<path class="l4" d="M496.136 198.947L496.136 208.103"/>
+<path class="l4" d="M1022.63 285.932L1050.09 285.932"/>
+<path class="l4" d="M1036.36 289.366L1040.94 285.932"/>
+<path class="l4" d="M1036.36 282.499L1040.94 285.932"/>
+<path class="l4" d="M1022.63 295.088L1050.09 295.088"/>
+<path class="l4" d="M1036.36 291.655L1040.94 295.088"/>
+<path class="l4" d="M1036.36 298.522L1040.94 295.088"/>
+<path class="l4" d="M981.422 446.168L1008.89 446.168"/>
+<path class="l4" d="M990.579 446.168L995.157 442.735"/>
+<path class="l4" d="M990.579 446.168L995.157 449.602"/>
+<path class="l4" d="M981.422 437.012L1008.89 437.012"/>
+<path class="l4" d="M990.579 437.012L995.157 440.445"/>
+<path class="l4" d="M990.579 437.012L995.157 433.578"/>
+<path class="l2" stroke-dasharray="1.09876,1.09876" d="M683.841 533.153L715.888 533.153"/>
+<path class="l2" stroke-dasharray="1.09876,1.09876" d="M683.841 533.153L683.841 542.31"/>
+<path class="l4" d="M322.166 615.56L308.431 609.838L308.431 613.271L294.697 613.271L299.275 615.56L294.697 617.85L308.431 617.85L308.431 621.283L322.166 615.56"/>
+<path class="l2" stroke-dasharray="1.09876,1.09876" d="M377.104 496.528L409.151 496.528"/>
+<path class="l2" stroke-dasharray="1.09876,1.09876" d="M377.104 496.528L377.104 505.684"/>
+<path class="l4" d="M862.39 620.139L894.437 620.139"/>
+<path class="l4" d="M862.39 620.139L862.39 629.295"/>
+<path class="l4" d="M894.437 750.617L880.703 744.894L880.703 748.327L866.968 748.327L871.546 750.617L866.968 752.906L880.703 752.906L880.703 756.339L894.437 750.617"/>
+<path class="l2" stroke-dasharray="1.09876,1.09876" d="M988.29 599.537L1020.34 599.537"/>
+<path class="l2" stroke-dasharray="1.09876,1.09876" d="M988.29 599.537L988.29 608.693"/>
+<path class="l2" stroke-dasharray="1.09876,1.09876" d="M1137.08 601.826L1169.13 601.826"/>
+<path class="l2" stroke-dasharray="1.09876,1.09876" d="M1137.08 601.826L1137.08 610.982"/>
+<path class="l2" stroke-dasharray="1.09876,1.09876" d="M1031.78 528.575L1059.25 528.575"/>
+<path class="l2" stroke-dasharray="1.09876,1.09876" d="M1040.94 528.575L1045.52 532.009"/>
+<path class="l2" stroke-dasharray="1.09876,1.09876" d="M1040.94 528.575L1045.52 525.142"/>
+<path class="l2" stroke-dasharray="1.09876,1.09876" d="M299.275 308.823L331.322 308.823"/>
+<path class="l2" stroke-dasharray="1.09876,1.09876" d="M299.275 308.823L299.275 317.979"/>
+<path class="l2" stroke-dasharray="1.09876,1.09876" d="M299.275 176.056L331.322 176.056"/>
+<path class="l2" stroke-dasharray="1.09876,1.09876" d="M299.275 176.056L299.275 185.212"/>
+<path class="l4" d="M976.844 528.575L981.422 528.575"/>
+<path class="l4" d="M981.422 528.575L982.567 525.142"/>
+<path class="l4" d="M982.567 525.142L984.856 532.009"/>
+<path class="l4" d="M984.856 532.009L987.145 525.142"/>
+<path class="l4" d="M987.145 525.142L989.434 532.009"/>
+<path class="l4" d="M989.434 532.009L991.723 525.142"/>
+<path class="l4" d="M991.723 525.142L994.012 532.009"/>
+<path class="l4" d="M994.012 532.009L996.301 525.142"/>
+<path class="l4" d="M996.301 525.142L998.59 532.009"/>
+<path class="l4" d="M998.59 532.009L999.735 528.575"/>
+<path class="l4" d="M999.735 528.575L1004.31 528.575"/>
+<path class="l4" d="M1000.88 525.142L1000.88 527.431"/>
+<path class="l4" d="M999.735 526.286L1002.02 526.286"/>
+<path class="l4" d="M917.328 528.575L921.906 528.575"/>
+<path class="l4" d="M921.906 528.575L923.051 532.009"/>
+<path class="l4" d="M923.051 532.009L925.34 525.142"/>
+<path class="l4" d="M925.34 525.142L927.629 532.009"/>
+<path class="l4" d="M927.629 532.009L929.918 525.142"/>
+<path class="l4" d="M929.918 525.142L932.207 532.009"/>
+<path class="l4" d="M932.207 532.009L934.496 525.142"/>
+<path class="l4" d="M934.496 525.142L936.785 532.009"/>
+<path class="l4" d="M936.785 532.009L939.074 525.142"/>
+<path class="l4" d="M939.074 525.142L940.219 528.575"/>
+<path class="l4" d="M940.219 528.575L944.797 528.575"/>
+<path class="l4" d="M941.363 529.72L941.363 532.009"/>
+<path class="l4" d="M940.219 530.864L942.508 530.864"/>
+<path class="l2" stroke-dasharray="1.09876,1.09876" d="M1031.78 551.466L1059.25 551.466"/>
+<path class="l2" stroke-dasharray="1.09876,1.09876" d="M1040.94 551.466L1045.52 548.032"/>
+<path class="l2" stroke-dasharray="1.09876,1.09876" d="M1040.94 551.466L1045.52 554.9"/>
+<path class="l4" d="M976.844 551.466L981.422 551.466"/>
+<path class="l4" d="M981.422 551.466L982.567 554.9"/>
+<path class="l4" d="M982.567 554.9L984.856 548.032"/>
+<path class="l4" d="M984.856 548.032L987.145 554.9"/>
+<path class="l4" d="M987.145 554.9L989.434 548.032"/>
+<path class="l4" d="M989.434 548.032L991.723 554.9"/>
+<path class="l4" d="M991.723 554.9L994.012 548.032"/>
+<path class="l4" d="M994.012 548.032L996.301 554.9"/>
+<path class="l4" d="M996.301 554.9L998.59 548.032"/>
+<path class="l4" d="M998.59 548.032L999.735 551.466"/>
+<path class="l4" d="M999.735 551.466L1004.31 551.466"/>
+<path class="l4" d="M1000.88 552.611L1000.88 554.9"/>
+<path class="l4" d="M999.735 553.755L1002.02 553.755"/>
+<path class="l4" d="M917.328 551.466L921.906 551.466"/>
+<path class="l4" d="M921.906 551.466L923.051 554.9"/>
+<path class="l4" d="M923.051 554.9L925.34 548.032"/>
+<path class="l4" d="M925.34 548.032L927.629 554.9"/>
+<path class="l4" d="M927.629 554.9L929.918 548.032"/>
+<path class="l4" d="M929.918 548.032L932.207 554.9"/>
+<path class="l4" d="M932.207 554.9L934.496 548.032"/>
+<path class="l4" d="M934.496 548.032L936.785 554.9"/>
+<path class="l4" d="M936.785 554.9L939.074 548.032"/>
+<path class="l4" d="M939.074 548.032L940.219 551.466"/>
+<path class="l4" d="M940.219 551.466L944.797 551.466"/>
+<path class="l4" d="M941.363 552.611L941.363 554.9"/>
+<path class="l4" d="M940.219 553.755L942.508 553.755"/>
+<path class="l4" d="M917.328 290.51L926.484 290.51"/>
+<path class="l4" d="M949.375 263.614L949.375 272.77"/>
+<path class="l4" d="M958.531 304.245L958.531 313.401"/>
+<path class="l4" d="M981.422 285.932L995.157 285.932"/>
+<path class="l4" d="M958.531 267.619L958.531 276.776"/>
+<path class="l4" d="M949.375 308.251L949.375 317.407"/>
+<path class="l4" d="M912.75 276.776L926.484 276.776"/>
+<path class="l4" d="M912.75 304.245L926.484 304.245"/>
+<path class="l4" d="M926.484 263.041L926.484 317.979"/>
+<path class="l4" d="M926.484 317.979L990.579 290.51"/>
+<path class="l4" d="M926.484 263.041L990.579 290.51"/>
+<path class="l4" d="M981.422 295.088L995.157 295.088"/>
+<path class="l4" d="M979.992 285.932L981.422 285.932"/>
+<path class="l4" d="M979.992 295.088L981.422 295.088"/>
+<path class="l2" stroke-dasharray="1.09876,1.09876" d="M10.85 162.322L42.8972 162.322"/>
+<path class="l2" stroke-dasharray="1.09876,1.09876" d="M10.85 162.322L10.85 171.478"/>
+<path class="l2" stroke-dasharray="1.09876,1.09876" d="M10.85 281.354L42.8972 281.354"/>
+<path class="l2" stroke-dasharray="1.09876,1.09876" d="M10.85 281.354L10.85 290.51"/>
+<path class="l2" stroke-dasharray="1.09876,1.09876" d="M15.4282 624.717L47.4754 624.717"/>
+<path class="l2" stroke-dasharray="1.09876,1.09876" d="M15.4282 624.717L15.4282 633.873"/>
+<path class="l5" d="M948.803 244.156L949.947 244.156L949.947 245.301L948.803 245.301L948.803 244.156z"/>
+<path class="l5" d="M898.443 289.938L899.588 289.938L899.588 291.083L898.443 291.083L898.443 289.938z"/>
+<path class="l5" d="M893.865 303.673L895.009 303.673L895.009 304.817L893.865 304.817L893.865 303.673z"/>
+<path class="l5" d="M893.865 276.204L895.009 276.204L895.009 277.348L893.865 277.348L893.865 276.204z"/>
+<path class="l5" d="M957.959 340.298L959.104 340.298L959.104 341.442L957.959 341.442L957.959 340.298z"/>
+<path class="l5" d="M1067.84 285.36L1068.98 285.36L1068.98 286.504L1067.84 286.504L1067.84 285.36z"/>
+<path class="l5" d="M1067.84 294.516L1068.98 294.516L1068.98 295.661L1067.84 295.661L1067.84 294.516z"/>
+<path class="l5" d="M948.803 331.142L949.947 331.142L949.947 332.286L948.803 332.286L948.803 331.142z"/>
+<path class="l5" d="M957.959 253.313L959.104 253.313L959.104 254.457L957.959 254.457L957.959 253.313z"/>
+<path class="l5" d="M1040.37 436.44L1041.51 436.44L1041.51 437.584L1040.37 437.584L1040.37 436.44z"/>
+<path class="l5" d="M893.865 436.44L895.009 436.44L895.009 437.584L893.865 437.584L893.865 436.44z"/>
+<path class="l5" d="M1040.37 445.596L1041.51 445.596L1041.51 446.74L1040.37 446.74L1040.37 445.596z"/>
+<path class="l5" d="M893.865 445.596L895.009 445.596L895.009 446.74L893.865 446.74L893.865 445.596z"/>
+<path class="l5" d="M902.449 435.867L904.738 435.867L904.738 438.156L902.449 438.156L902.449 435.867z"/>
+<path class="l5" d="M957.387 435.867L959.676 435.867L959.676 438.156L957.387 438.156L957.387 435.867z"/>
+<path class="l5" d="M902.449 445.024L904.738 445.024L904.738 447.313L902.449 447.313L902.449 445.024z"/>
+<path class="l5" d="M957.387 445.024L959.676 445.024L959.676 447.313L957.387 447.313L957.387 445.024z"/>
+<path class="l5" d="M1021.48 284.788L1023.77 284.788L1023.77 287.077L1021.48 287.077L1021.48 284.788z"/>
+<path class="l5" d="M1048.95 284.788L1051.24 284.788L1051.24 287.077L1048.95 287.077L1048.95 284.788z"/>
+<path class="l5" d="M1021.48 293.944L1023.77 293.944L1023.77 296.233L1021.48 296.233L1021.48 293.944z"/>
+<path class="l5" d="M1048.95 293.944L1051.24 293.944L1051.24 296.233L1048.95 296.233L1048.95 293.944z"/>
+<path class="l5" d="M1007.75 445.024L1010.04 445.024L1010.04 447.313L1007.75 447.313L1007.75 445.024z"/>
+<path class="l5" d="M980.278 445.024L982.567 445.024L982.567 447.313L980.278 447.313L980.278 445.024z"/>
+<path class="l5" d="M1007.75 435.867L1010.04 435.867L1010.04 438.156L1007.75 438.156L1007.75 435.867z"/>
+<path class="l5" d="M980.278 435.867L982.567 435.867L982.567 438.156L980.278 438.156L980.278 435.867z"/>
+<path class="l2" stroke-dasharray="1.09876,1.09876" d="M1058.11 527.431L1060.4 527.431L1060.4 529.72L1058.11 529.72L1058.11 527.431z"/>
+<path class="l2" stroke-dasharray="1.09876,1.09876" d="M1030.64 527.431L1032.93 527.431L1032.93 529.72L1030.64 529.72L1030.64 527.431z"/>
+<path class="l5" d="M1076.99 528.003L1078.14 528.003L1078.14 529.147L1076.99 529.147L1076.99 528.003z"/>
+<path class="l5" d="M957.959 528.003L959.104 528.003L959.104 529.147L957.959 529.147L957.959 528.003z"/>
+<path class="l5" d="M1003.17 527.431L1005.46 527.431L1005.46 529.72L1003.17 529.72L1003.17 527.431z"/>
+<path class="l5" d="M975.7 527.431L977.989 527.431L977.989 529.72L975.7 529.72L975.7 527.431z"/>
+<path class="l5" d="M943.652 527.431L945.941 527.431L945.941 529.72L943.652 529.72L943.652 527.431z"/>
+<path class="l5" d="M916.183 527.431L918.472 527.431L918.472 529.72L916.183 529.72L916.183 527.431z"/>
+<path class="l2" stroke-dasharray="1.09876,1.09876" d="M1058.11 550.322L1060.4 550.322L1060.4 552.611L1058.11 552.611L1058.11 550.322z"/>
+<path class="l2" stroke-dasharray="1.09876,1.09876" d="M1030.64 550.322L1032.93 550.322L1032.93 552.611L1030.64 552.611L1030.64 550.322z"/>
+<path class="l5" d="M1076.99 550.894L1078.14 550.894L1078.14 552.038L1076.99 552.038L1076.99 550.894z"/>
+<path class="l5" d="M957.959 550.894L959.104 550.894L959.104 552.038L957.959 552.038L957.959 550.894z"/>
+<path class="l5" d="M1003.17 550.322L1005.46 550.322L1005.46 552.611L1003.17 552.611L1003.17 550.322z"/>
+<path class="l5" d="M975.7 550.322L977.989 550.322L977.989 552.611L975.7 552.611L975.7 550.322z"/>
+<path class="l5" d="M943.652 550.322L945.941 550.322L945.941 552.611L943.652 552.611L943.652 550.322z"/>
+<path class="l5" d="M916.183 550.322L918.472 550.322L918.472 552.611L916.183 552.611L916.183 550.322z"/>
+<path class="l5" d="M893.865 528.003L895.009 528.003L895.009 529.147L893.865 529.147L893.865 528.003z"/>
+<path class="l5" d="M893.865 550.894L895.009 550.894L895.009 552.038L893.865 552.038L893.865 550.894z"/>
+<path class="l5" d="M916.183 289.366L918.472 289.366L918.472 291.655L916.183 291.655L916.183 289.366z"/>
+<path class="l5" d="M948.231 261.897L950.52 261.897L950.52 264.186L948.231 264.186L948.231 261.897z"/>
+<path class="l5" d="M957.387 266.475L959.676 266.475L959.676 268.764L957.387 268.764L957.387 266.475z"/>
+<path class="l5" d="M911.605 275.631L913.894 275.631L913.894 277.92L911.605 277.92L911.605 275.631z"/>
+<path class="l5" d="M994.012 284.788L996.301 284.788L996.301 287.077L994.012 287.077L994.012 284.788z"/>
+<path class="l5" d="M994.012 293.944L996.301 293.944L996.301 296.233L994.012 296.233L994.012 293.944z"/>
+<path class="l5" d="M911.605 303.1L913.894 303.1L913.894 305.389L911.605 305.389L911.605 303.1z"/>
+<path class="l5" d="M948.231 316.835L950.52 316.835L950.52 319.124L948.231 319.124L948.231 316.835z"/>
+<path class="l5" d="M957.387 312.257L959.676 312.257L959.676 314.546L957.387 314.546L957.387 312.257z"/>
+<text fill="#0099cc"  xml:space="preserve" font-size="7.85614" transform="translate(952.809, 248.142)" >VDD</text>
+<text fill="#0099cc"  xml:space="preserve" font-size="7.85614" transform="translate(879.582, 293.924)" >Vcm</text>
+<text fill="#0099cc"  xml:space="preserve" font-size="7.85614" transform="translate(874.003, 307.658)" >Vinn</text>
+<text fill="#0099cc"  xml:space="preserve" font-size="7.85614" transform="translate(874.003, 280.189)" >Vinp</text>
+<text fill="#0099cc"  xml:space="preserve" font-size="7.85614" transform="translate(936.098, 344.284)" >Ibias</text>
+<text fill="#0099cc"  xml:space="preserve" font-size="7.85614" transform="translate(1071.84, 289.346)" >Voutn</text>
+<text fill="#0099cc"  xml:space="preserve" font-size="7.85614" transform="translate(1071.84, 298.502)" >Voutp</text>
+<text fill="#0099cc"  xml:space="preserve" font-size="7.85614" transform="translate(932.941, 335.127)" >VSS</text>
+<text fill="#0099cc"  xml:space="preserve" font-size="7.85614" transform="translate(961.965, 257.299)" >EN</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" transform="translate(489.269, 319.886)" >NETLIST</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(493.847, 339.523)" >VSS VSS 0 0</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(493.847, 347.715)" >VDD VDD VDD_AC 1.5</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(493.847, 355.907)" >VDD_AC VDD_AC VSS 0 AC 0</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(493.847, 364.099)" >VEN EN VSS 1.5</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(493.847, 372.291)" >Vcm Vcm VSS {vcm}</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(493.847, 380.482)" >Ibias VDD Ibias 2.5u</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" transform="translate(695.287, 649.514)" >OP_SIM</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(699.865, 669.152)" >.control</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(699.865, 677.343)" >op</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(699.865, 685.535)" >let ro_n = voutn/i(vmeas2)</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(699.865, 693.727)" >let ro_p = voutp/i(vmeas3)</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(699.865, 701.919)" >print ro_n ro_p</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(699.865, 710.111)" >write ota_cmfb_top_tb.raw</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(699.865, 718.303)" >.endc</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" transform="translate(493.847, 232.901)" >Libs_Ngspice</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(498.425, 261.694)" >.lib cornerMOSlv.lib mos_tt</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(498.425, 269.886)" >.lib cornerMOShv.lib mos_tt</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(498.425, 278.078)" >.lib cornerMOSCAP.lib moscap_tt</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(498.425, 286.27)" >.lib cornerCAP.lib cap_typ</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(498.425, 294.462)" >.lib cornerRES.lib res_typ</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(498.425, 302.653)" >.lib cornerDIO.lib dio_tt</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" transform="translate(493.847, 242.057)" >SIM=ngspice</text>
+<text fill="#222222"  xml:space="preserve" font-size="9.5226" transform="translate(326.744, 654.332)" >OP annotate</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" transform="translate(617.458, 310.73)" >AC_SIM</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(622.036, 330.367)" >.control</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(622.036, 338.559)" >ac dec 50 100 100G</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(622.036, 346.751)" >let vout_diff = voutp-voutn</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(622.036, 354.942)" >let vin_diff = vinp-vinn</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(622.036, 363.134)" >let diff_gain=vout_diff/vin_diff</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(622.036, 371.326)" >let op_mag=db(diff_gain)</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(622.036, 379.518)" >let op_ph = 180*cph(diff_gain)/pi + 180</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(622.036, 387.71)" >let vcm_1 = (voutp+voutn)/2</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(622.036, 395.901)" >let vcm_err = mag((vcm_1 - {vcm}))[0]</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(622.036, 404.093)" >echo results_save_begin</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(622.036, 412.285)" >meas ac dc_gain find op_mag when frequency=1000</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(622.036, 420.477)" >meas ac gain_margin find op_mag when op_ph=0</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(622.036, 428.669)" >meas ac phase_margin find op_ph when op_mag=0</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(622.036, 436.861)" >meas ac bw_3db find frequency when op_mag=dc_gain-3</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(622.036, 445.052)" >meas ac Gain_BW find frequency when op_mag=0</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(622.036, 453.244)" >print vcm_err</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(622.036, 461.436)" >echo results_save_end</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(622.036, 469.628)" >plot op_mag op_ph</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(622.036, 477.82)" >.endc</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" transform="translate(658.661, 191.697)" >PARAMS</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(663.239, 211.335)" >.option rshunt=1e9</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(663.239, 219.526)" >.options method=gear</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(663.239, 227.718)" >.param vcm=0.75 vcm_in=0.75 cl=0.1p vac=1</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(663.239, 235.91)" >.save all</text>
+<text fill="#0099cc"  xml:space="preserve" font-size="7.85614" transform="translate(1044.37, 438.854)" >Voutn</text>
+<text fill="#0099cc"  xml:space="preserve" font-size="7.85614" transform="translate(874.003, 438.854)" >Vinp</text>
+<text fill="#0099cc"  xml:space="preserve" font-size="7.85614" transform="translate(1044.37, 449.582)" >Voutp</text>
+<text fill="#0099cc"  xml:space="preserve" font-size="7.85614" transform="translate(874.003, 449.582)" >Vinn</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" transform="translate(672.396, 255.792)" >LOAD</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(676.974, 275.429)" >CL1 Voutp 0 {cl}</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(676.974, 283.621)" >CL2 Voutn 0 {cl}</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(676.974, 291.813)" >RL1 Voutp 0 100k</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(676.974, 300.004)" >RL2 Voutn 0 100k</text>
+<text fill="#222222"  xml:space="preserve" font-size="4.7613" transform="translate(905.882, 408.372)" >xprobe1</text>
+<text fill="#666600"  xml:space="preserve" font-size="4.7613" transform="translate(956.242, 417.529)" >vcm={vcm_in}</text>
+<text fill="#666600"  xml:space="preserve" font-size="4.7613" transform="translate(956.242, 422.107)" >vac={vac}</text>
+<text fill="#222222"  xml:space="preserve" font-size="4.7613" transform="translate(909.316, 442.709)" >IN</text>
+<text fill="#222222"  xml:space="preserve" font-size="4.7613" transform="translate(942.508, 442.709)" >OUT</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" transform="translate(498.425, 196.275)" >SAVE</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(503.003, 215.913)" >.include ota_cmfb_top_tb.save</text>
+<text fill="#222222"  xml:space="preserve" font-size="4.7613" transform="translate(1032.1, 279.065) rotate(270)" >Vmeas2</text>
+<text fill="#222222"  xml:space="preserve" font-size="4.7613" transform="translate(1032.1, 320.956) rotate(270)" >Vmeas3</text>
+<text fill="#222222"  xml:space="preserve" font-size="4.7613" transform="translate(1002.6, 472.035) rotate(270)" >Vmeas4</text>
+<text fill="#222222"  xml:space="preserve" font-size="4.7613" transform="translate(1002.6, 430.145) rotate(270)" >Vmeas5</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" transform="translate(686.13, 530.482)" >TRAN_SIM</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(690.708, 550.119)" >Vinp Vinp 0 sin({vcm_in} 100u 10k)</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(690.708, 558.311)" >Vinn Vinn 0 sin({vcm_in} -100u 10k)</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(690.708, 566.503)" >.control</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(690.708, 574.695)" >tran 100n 1m</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(690.708, 582.886)" >plot Vinp Vinn Voutp Voutn</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(690.708, 591.078)" >plot Vinp-Vinn Voutp-Voutn</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(690.708, 599.27)" >.endc</text>
+<text fill="#222222"  xml:space="preserve" font-size="9.5226" transform="translate(326.744, 617.707)" >SimulateNGSPICE</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" transform="translate(379.393, 493.857)" >AC_LOOP_SIM</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(383.971, 513.494)" >.control</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(383.971, 521.686)" >set gain_pcmd = ""</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(383.971, 529.877)" >set ph_pcmd = ""</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(383.971, 538.069)" >set ph_mrg = ""</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(383.971, 546.261)" >set vcm_param = vcm_in</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(383.971, 554.453)" >set curplot = new</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(383.971, 562.645)" >compose vcm_vec start=0 stop=1.5 step=0.1</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(383.971, 570.837)" >foreach vcm_val $&amp;vcm_vec</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(383.971, 579.028)" >        reset</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(383.971, 587.22)" >        alterparam $vcm_param =$vcm_val</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(383.971, 595.412)" >        ac dec 50 100 100G</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(383.971, 603.604)" >        let cur_vcm=$vcm_val</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(383.971, 611.796)" >        let vout_diff = voutp-voutn</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(383.971, 619.987)" >        let vin_diff = vinp-vinn</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(383.971, 628.179)" >        let diff_gain=vout_diff/vin_diff</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(383.971, 636.371)" >        let op_mag=db(diff_gain)</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(383.971, 644.563)" >        let op_ph = 180*cph(-diff_gain)/pi</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(383.971, 652.755)" >        set gain_pcmd = " $gain_pcmd {$curplot}.op_mag "</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(383.971, 660.946)" >        set ph_pcmd = " $ph_pcmd {$curplot}.op_ph "</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(383.971, 669.138)" >        meas ac phase_margin find op_ph when op_mag=0</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(383.971, 677.33)" >        if $&amp;phase_margin</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(383.971, 685.522)" >                set ph_mrg = " $ph_mrg {$curplot}.phase_margin "</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(383.971, 693.714)" >        end</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(383.971, 701.906)" >        set ph_mrg = " $ph_mrg  {$curplot}.cur_vcm "</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(383.971, 710.097)" >end</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(383.971, 718.289)" >//set nolegend</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(383.971, 726.481)" >plot $gain_pcmd</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(383.971, 734.673)" >plot $ph_pcmd</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(383.971, 742.865)" >print $ph_mrg</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(383.971, 751.056)" >.endc</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" transform="translate(864.679, 617.467)" >MC_SETTINGS</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(869.257, 637.104)" >**nr_workers=1</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(869.257, 645.296)" >**nr_mc_sims=100</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(869.257, 661.68)" >**results_plot_begin</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(869.257, 669.872)" >**dc_gain</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(869.257, 678.063)" >**gain_margin</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(869.257, 686.255)" >**phase_margin</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(869.257, 694.447)" >**bw_3db</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(869.257, 702.639)" >**Gain_BW</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(869.257, 710.831)" >**vcm_err</text>
+<text fill="#222222"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(869.257, 719.023)" >**results_plot_end</text>
+<text fill="#222222"  xml:space="preserve" font-size="9.5226" transform="translate(899.015, 752.763)" >SimulatePARALLEL</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" transform="translate(990.579, 587.709)" >MC_SIM</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(995.157, 616.503)" >Vinp Vinp 0 {vcm_in + 100u}</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(995.157, 624.694)" >Vinn Vinn 0 {vcm_in - 100u} </text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(995.157, 632.886)" >.control</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(995.157, 641.078)" >set num_threads 8</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(995.157, 649.27)" >op</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(995.157, 657.462)" >run</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(995.157, 665.654)" >let vcm_err = vcm-vcm_calc</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(995.157, 673.845)" >let gain = (voutp-voutn)/(vinp-vinn)</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(995.157, 682.037)" >echo results_save_begin</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(995.157, 690.229)" >print vcm_calc vcm_err gain</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(995.157, 698.421)" >echo results_save_end</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(995.157, 714.804)" >.endc</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" transform="translate(990.579, 596.865)" >SIM=ngspice</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" transform="translate(1139.37, 589.998)" >Libs_MISMATCH</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(1143.95, 618.792)" >.lib cornerMOSlv.lib mos_tt_mismatch</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(1143.95, 626.984)" >.lib cornerMOShv.lib mos_tt_mismatch</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(1143.95, 635.175)" >.lib cornerMOSCAP.lib moscap_tt</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(1143.95, 643.367)" >.lib cornerCAP.lib cap_typ</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(1143.95, 651.559)" >.lib cornerRES.lib res_typ</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(1143.95, 659.751)" >.lib cornerDIO.lib dio_tt</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" transform="translate(1139.37, 599.155)" >SIM=ngspice</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="4.7613" transform="translate(1052.96, 521.708) rotate(270)" >Vmeas6</text>
+<text fill="#0099cc"  xml:space="preserve" font-size="7.85614" transform="translate(1081, 531.989)" >Voutp</text>
+<text fill="#0099cc"  xml:space="preserve" font-size="7.85614" transform="translate(960.374, 525.142) rotate(270)" >Vinn</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" transform="translate(301.564, 306.152)" >DC_LOOP_SIM</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(306.142, 325.789)" >Vt_p Vt_p 0 0</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(306.142, 333.981)" >Vt_n Vt_n 0 0</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(306.142, 342.172)" >.control</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(306.142, 350.364)" >set curplot = new</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(306.142, 358.556)" >set plt_voutp = ""</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(306.142, 366.748)" >set plt_voutn = ""</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(306.142, 374.94)" >set plt_vt_p = ""</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(306.142, 383.131)" >set plt_vdiff = ""</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(306.142, 391.323)" >set plt_voutpn = ""</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(306.142, 399.515)" >compose vcm_vec start=0 stop=1.5 step=0.1</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(306.142, 407.707)" >foreach vcm_val $&amp;vcm_vec</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(306.142, 415.899)" >        alterparam vcm = $vcm_val</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(306.142, 424.091)" >        reset</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(306.142, 432.282)" >        dc Vt_p 0 1.5 0.01</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(306.142, 440.474)" >        let Vout = v(Voutp) - v(Voutn)</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(306.142, 448.666)" >        set plt_voutp = " {$plt_voutp} {$curplot}.voutp "</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(306.142, 456.858)" >        set plt_voutn = " {$plt_voutn} {$curplot}.voutn "</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(306.142, 465.05)" >        set plt_vdiff = " {$plt_vdiff} {$curplot}.vout "</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(306.142, 473.241)" >        set plt_voutpn = " {$plt_voutpn} {$curplot}.voutp {$curplot}.voutn "</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(306.142, 481.433)" >end</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(306.142, 489.625)" >plot $plt_voutpn</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(306.142, 497.817)" >plot $plt_vdiff</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(306.142, 506.009)" >.endc</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" transform="translate(301.564, 173.385)" >DC_SIM</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(306.142, 193.022)" >Vt_p Vt_p 0 0</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(306.142, 201.214)" >Vt_n Vt_n 0 0</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(306.142, 217.597)" >.control</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(306.142, 225.789)" >dc Vt_p 0 1.5 0.01</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(306.142, 242.173)" >let Vout = Voutp - Voutn</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(306.142, 250.365)" >plot Vt_p Voutp Voutn</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(306.142, 258.556)" >plot Vt_p Vout</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(306.142, 274.94)" >.endc</text>
+<text fill="#666600"  xml:space="preserve" font-size="4.7613" transform="translate(1001.46, 536.153) rotate(270)" >1</text>
+<text fill="#666600"  xml:space="preserve" font-size="4.7613" transform="translate(982.001, 536.153) rotate(270)" >2</text>
+<text fill="#222222"  xml:space="preserve" font-size="4.7613" transform="translate(998.025, 521.708) rotate(270)" >R1</text>
+<text fill="#222222"  xml:space="preserve" font-size="4.7613" transform="translate(992.302, 521.708) rotate(270)" >500k</text>
+<text fill="#222222"  xml:space="preserve" font-size="4.7613" transform="translate(986.579, 521.708) rotate(270)" >m=1</text>
+<text fill="#666600"  xml:space="preserve" font-size="4.7613" transform="translate(941.942, 523.997) rotate(270)" >1</text>
+<text fill="#666600"  xml:space="preserve" font-size="4.7613" transform="translate(922.485, 523.997) rotate(270)" >2</text>
+<text fill="#222222"  xml:space="preserve" font-size="4.7613" transform="translate(938.509, 541.442) rotate(270)" >R2</text>
+<text fill="#222222"  xml:space="preserve" font-size="4.7613" transform="translate(932.786, 547.442) rotate(270)" >500k</text>
+<text fill="#222222"  xml:space="preserve" font-size="4.7613" transform="translate(927.063, 546.442) rotate(270)" >m=1</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="4.7613" transform="translate(1052.96, 577.333) rotate(270)" >Vmeas7</text>
+<text fill="#0099cc"  xml:space="preserve" font-size="7.85614" transform="translate(1081, 553.308)" >Voutn</text>
+<text fill="#0099cc"  xml:space="preserve" font-size="7.85614" transform="translate(960.374, 571.9) rotate(270)" >Vinp</text>
+<text fill="#666600"  xml:space="preserve" font-size="4.7613" transform="translate(1001.46, 546.888) rotate(270)" >1</text>
+<text fill="#666600"  xml:space="preserve" font-size="4.7613" transform="translate(982.001, 546.888) rotate(270)" >2</text>
+<text fill="#222222"  xml:space="preserve" font-size="4.7613" transform="translate(998.025, 564.333) rotate(270)" >R3</text>
+<text fill="#222222"  xml:space="preserve" font-size="4.7613" transform="translate(992.302, 570.333) rotate(270)" >500k</text>
+<text fill="#222222"  xml:space="preserve" font-size="4.7613" transform="translate(986.579, 569.333) rotate(270)" >m=1</text>
+<text fill="#666600"  xml:space="preserve" font-size="4.7613" transform="translate(941.942, 546.888) rotate(270)" >1</text>
+<text fill="#666600"  xml:space="preserve" font-size="4.7613" transform="translate(922.485, 546.888) rotate(270)" >2</text>
+<text fill="#222222"  xml:space="preserve" font-size="4.7613" transform="translate(938.509, 564.333) rotate(270)" >R4</text>
+<text fill="#222222"  xml:space="preserve" font-size="4.7613" transform="translate(932.786, 570.333) rotate(270)" >500k</text>
+<text fill="#222222"  xml:space="preserve" font-size="4.7613" transform="translate(927.063, 569.333) rotate(270)" >m=1</text>
+<text fill="#0099cc"  xml:space="preserve" font-size="7.85614" transform="translate(896.279, 548.009) rotate(270)" >Vt_n</text>
+<text fill="#0099cc"  xml:space="preserve" font-size="7.85614" transform="translate(897.851, 570.9) rotate(270)" >Vt_p</text>
+<text fill="#222222"  xml:space="preserve" font-size="4.7613" transform="translate(928.773, 293.002)" >Vcm</text>
+<text fill="#222222"  xml:space="preserve" font-size="4.7613" transform="translate(967.558, 296.722)" >Vo+</text>
+<text fill="#222222"  xml:space="preserve" font-size="4.7613" transform="translate(966.269, 288.138)" >Vo-</text>
+<text fill="#222222"  xml:space="preserve" font-size="4.7613" transform="translate(924.195, 257.293)" >XDIFF_AMP1</text>
+<text fill="#222222"  xml:space="preserve" font-size="4.7613" transform="translate(942.508, 279.268)" >VDD</text>
+<text fill="#222222"  xml:space="preserve" font-size="4.7613" transform="translate(928.773, 279.268)" >V+</text>
+<text fill="#222222"  xml:space="preserve" font-size="4.7613" transform="translate(928.773, 306.737)" >V-</text>
+<text fill="#222222"  xml:space="preserve" font-size="4.7613" transform="translate(953.953, 301.014)" >Ib</text>
+<text fill="#222222"  xml:space="preserve" font-size="4.7613" transform="translate(956.242, 283.846)" >EN</text>
+<text fill="#222222"  xml:space="preserve" font-size="4.7613" transform="translate(942.664, 306.737)" >VSS</text>
+<text fill="#222222"  xml:space="preserve" font-size="4.7613" transform="translate(965.399, 273.774)" >ota_cmfb_top</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" transform="translate(13.1391, 159.65)" >NOISE_SIM</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(17.7173, 179.287)" >Vinp Vinp 0 sin({vcm_in} 100u 10k)</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(17.7173, 187.479)" >Vinn Vinn 0 sin({vcm_in} -100u 10k)</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(17.7173, 195.671)" >.control</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(17.7173, 203.863)" >tran 100n 1m</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(17.7173, 212.055)" >plot Vinp Vinn Voutp Voutn</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(17.7173, 220.246)" >plot Vinp-Vinn Voutp-Voutn</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(17.7173, 228.438)" >.endc</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" transform="translate(13.1391, 278.683)" >PSRR_SIM</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(17.7173, 298.32)" >.control</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(17.7173, 306.512)" >save all</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(17.7173, 322.895)" >* 1. Measure Differential Gain (Adiff)</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(17.7173, 331.087)" >* Apply 1V AC across the differential inputs, 0V AC on VDD</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(17.7173, 339.279)" >alterparam vac=1</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(17.7173, 347.471)" >reset</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(17.7173, 355.662)" >alter VDD_AC acmag=0</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(17.7173, 363.854)" >ac dec 10 100 100G</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(17.7173, 372.046)" >* Store the result in a custom vector</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(17.7173, 380.238)" >let Adiff_db = db(voutp - voutn)</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(17.7173, 388.43)" >alterparam vac=0</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(17.7173, 396.622)" >reset</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(17.7173, 404.813)" >* 2. Measure Power Supply Gain (Add)</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(17.7173, 413.005)" >* Turn off input AC, apply 1V AC on VDD</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(17.7173, 421.197)" >alter VDD_AC acmag=1</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(17.7173, 429.389)" >ac dec 10 100 100G</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(17.7173, 437.581)" >* Store the supply gain result</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(17.7173, 445.772)" >let Add_db = db(voutp - voutn)</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(17.7173, 462.156)" >* 3. Calculate and Plot True PSRR</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(17.7173, 470.348)" >* PSRR(dB) = Adiff(dB) - Add(dB)</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(17.7173, 478.54)" >let diff_gain = ac1.Adiff_db</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(17.7173, 486.731)" >let supply_gain = Add_db</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(17.7173, 494.923)" >let psrr_db = ac1.Adiff_db - Add_db</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(17.7173, 503.115)" >plot psrr_db ylabel 'PSRR (dB) = A_diff - A_dd'</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(17.7173, 511.307)" >plot supply_gain ylabel 'A_dd (dB)'</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(17.7173, 519.499)" >plot diff_gain ylabel 'A_diff (dB)'</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(17.7173, 527.691)" >.endc</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" transform="translate(17.7173, 622.045)" >CMRR_SIM</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(22.2955, 641.683)" >.control</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(22.2955, 649.874)" >save all</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(22.2955, 666.258)" >ac dec 10 100 100G</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(22.2955, 674.45)" >let acm_db = db((voutp + voutn)/2)</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(22.2955, 682.642)" >let adiff_db = db(voutp - voutn)</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(22.2955, 690.833)" >let cmrr_db = adiff_db - acm_db</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(22.2955, 707.217)" >plot acm_db ylabel 'A_CM (dB)'</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(22.2955, 715.409)" >plot adiff_db ylabel 'A_diff (dB)'</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(22.2955, 723.601)" >plot cmrr_db ylabel 'CMRR (dB) = A_diff - A_CM'</text>
+<text fill="#aaaaaa"  xml:space="preserve" font-size="7.14195" style="font-family:Monospace;" transform="translate(22.2955, 731.793)" >.endc</text>
+<path class="l1" d="M949.375 244.729L949.375 263.041"/>
+<path class="l1" d="M958.531 253.885L958.531 267.619"/>
+<path class="l1" d="M958.531 313.401L958.531 340.87"/>
+<path class="l1" d="M949.375 317.979L949.375 331.714"/>
+<path class="l1" d="M995.157 285.932L1022.63 285.932"/>
+<path class="l1" d="M995.157 295.088L1022.63 295.088"/>
+<path class="l1" d="M899.015 290.51L917.328 290.51"/>
+<path class="l1" d="M894.437 304.245L912.75 304.245"/>
+<path class="l1" d="M894.437 276.776L912.75 276.776"/>
+<path class="l1" d="M958.531 437.012L981.422 437.012"/>
+<path class="l1" d="M958.531 446.168L981.422 446.168"/>
+<path class="l1" d="M894.437 437.012L903.593 437.012"/>
+<path class="l1" d="M894.437 446.168L903.593 446.168"/>
+<path class="l1" d="M1008.89 437.012L1040.94 437.012"/>
+<path class="l1" d="M1008.89 446.168L1040.94 446.168"/>
+<path class="l1" d="M1050.09 285.932L1068.41 285.932"/>
+<path class="l1" d="M1050.09 295.088L1068.41 295.088"/>
+<path class="l1" d="M1059.25 528.575L1077.56 528.575"/>
+<path class="l1" d="M1004.31 528.575L1031.78 528.575"/>
+<path class="l1" d="M944.797 528.575L976.844 528.575"/>
+<path class="l1" d="M894.437 528.575L917.328 528.575"/>
+<path class="l1" d="M1059.25 551.466L1077.56 551.466"/>
+<path class="l1" d="M1004.31 551.466L1031.78 551.466"/>
+<path class="l1" d="M944.797 551.466L976.844 551.466"/>
+<path class="l1" d="M894.437 551.466L917.328 551.466"/>
+<text fill="#222222"  xml:space="preserve" font-size="9.5226" transform="translate(496.136, 180.124)" >SPICE SIMULATION</text>
+<text fill="#222222"  xml:space="preserve" font-size="9.5226" transform="translate(862.39, 386.142)" >AC ANALYSIS PROBE</text>
+<text fill="#222222"  xml:space="preserve" font-size="9.5226" transform="translate(990.579, 244.219)" >CORE OPAMP</text>
+<text fill="#222222"  xml:space="preserve" font-size="9.5226" transform="translate(862.39, 601.316)" >MONTE CARLO PYTHON</text>
+<text fill="#222222"  xml:space="preserve" font-size="9.5226" transform="translate(857.812, 509.753)" >DC ANALYSIS SINGLE TO DIFF</text>
 </svg>
